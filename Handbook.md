@@ -10,7 +10,7 @@ Story Shaper: Character sheet
 ________________
 
 
-Chapter 0: Introduction
+# Chapter 0: Introduction
 <Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>
 Core Tenants
 These ideas are central to the design of Story Shaper. When I had a problem designing some aspect of the game, these are the guiding concepts that I came back to. Any time one designs a complex system of any sort, one will inevitably come to points where one must compromise something or cut some idea that had appeal at one point. These are the things I refused to negotiate or cut.
