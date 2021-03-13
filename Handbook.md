@@ -38,7 +38,7 @@ Totally optional, but maybe fun:
 ________________
 
 
-Chapter 1: How to Play
+# Chapter 1: How to Play
 <Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>
 Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
@@ -79,7 +79,7 @@ The most extreme and rarest effects will have you rolling one or three d10s. If 
 
 ________________
 
-Chapter 2: Character Creation
+# Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
 Step 1: Determine your Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later). 
@@ -150,7 +150,7 @@ ________________
 
 
 
-Chapter 3: Improving your character
+# Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Shapers. <COME BACK TO THIS LATER>
@@ -208,7 +208,7 @@ Utilities represent non-combat abilities that aid an adventurer. These may influ
 
 Utilities are described in more detail in Chapter 8.
 ________________
-Chapter 4: Abilities
+# Chapter 4: Abilities
 Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
 Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary): //Image would be fantastic here.
@@ -976,8 +976,7 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 
 ________________
 
-
-Chapter 6: Powers
+# Chapter 6: Powers
 Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.
 
 
@@ -1346,9 +1345,7 @@ Special: This Power costs 3 XP.
 
 
 ________________
-
-
-Chapter 7: Capstone Powers
+# Chapter 7: Capstone Powers
 Similarly to standard Powers, Capstone Powers are divided into group based on Attributes, as well as an extra category for those not strongly tied to one Attribute
 Strength Capstones
 Heavy Hitter
@@ -1450,9 +1447,7 @@ This Capstone makes the Hover and Slow Fall Utilities redundant. If you previous
 Shrug it Off
 You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
 ________________
-
-
-Chapter 8: Utilities
+# Chapter 8: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. 
 //I’ll figure out how I want to organize these better when I’ve written more of them I think
 Skill-based Utilities
@@ -1656,9 +1651,7 @@ You are able to reduce the injuries you take when falling by half. This might re
 
 
 ________________
-
-
-Chapter 9: Combat
+# Chapter 9: Combat
 <Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.>
 Time in Combat
 The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game.
@@ -1744,13 +1737,13 @@ If you have allies that are still being chased, or for other reasons want to con
 ________________
 
 
-Chapter 10: Exploration
+# Chapter 10: Exploration
 <Figure out what goes here, I’m not sure>
 ________________
 
 
 //Working on issues that will come up in playtesting. This won’t necessarily be the final order.
-Chapter X: Health, Injury, Death, and Recovery
+# Chapter X: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 What are HP?
 HP (hit points or health points, both work) are an extremely abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could (and I think SHOULD) take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
@@ -1874,9 +1867,7 @@ Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unl
 
 
 ________________
-
-
-Chapter Y: Adversaries and Monsters
+# Chapter Y: Adversaries and Monsters
 /* For now this is going to be where I list and describe monsters written. Eventually I need to write a more concrete introduction about how to use monsters, notes about how the entries are kept generic with a few details left unwritten so one entry can potentially represent many different types of monsters, how to read these entries, and the like. For now I want to skip to actually sharing monster entries to give an idea of how I would want these entries to be read by Shapers and used in games.
 
 
