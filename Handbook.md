@@ -19,6 +19,13 @@
   - [Gaining XP](#gaining-xp)
   - [Spending XP](#spending-xp)
 - [Chapter 4: Abilities](#chapter-4-abilities)  
+  - [Reading Abilities](#reading-abilities)
+  - [Prerequisites](#prerequisites)
+  - [Ability Types](#ability-types)
+  - [Ability Series](#ability-series)
+  - [Ability Keywords](#ability-keywords)
+  - [Buff/Debuff Tracks](#buffdebuff-tracks)
+  - [List of Abilities](#list-of-abilities)
 - [Chapter 5: Skills](#chapter-5-Skills)  
 - [Chapter 6: Powers](#chapter-6-powers)  
 - [Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
@@ -201,102 +208,96 @@ Utilities represent non-combat abilities that aid an adventurer. These may influ
 
 
 Utilities are described in more detail in Chapter 8.
-________________
+***
 # Chapter 4: Abilities
 Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
-Reading Abilities
+## Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary): //Image would be fantastic here.
 
-
-The Name of the Ability
-Ability Type (Attack/Spell/Auxiliary)
-Action (Major/Minor): whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 6.) 
-Prerequisites: What other things are required before one can learn this Ability.
-Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:
+**The Name of the Ability**
+Ability Type (Attack/Spell/Auxiliary)  
+*Action (Major/Minor):* whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 6.)  
+*Prerequisites:* What other things are required before one can learn this Ability.  
+*Range:* How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
 * Melee - this skill can only be used on targets in the same zone as you.
 * Short - this skill can be used on targets up to one zone away.
 * Medium - this skill targets enemies up to two zones away.
-* Long - this skill targets enemies up to three zones away.
-Targets: Who or what this Ability targets.
-Cost: The HP or MP cost of this Ability.
-Damage: When using this Ability to do damage, multiply your Impact by this number to determine the amount.
+* Long - this skill targets enemies up to three zones away.  
 
-
-Special: Things particular to a given Ability.
-Prerequisites
+*Targets:* Who or what this Ability targets.  
+*Cost:* The HP or MP cost of this Ability.  
+*Damage:* When using this Ability to do damage, multiply your Impact by this number to determine the amount.  
+*Special:* Things particular to a given Ability.
+## Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Attributes, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
-Ability Types
+## Ability Types
 There are four types of Abilities.
-* Attack means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
-* Spell means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
+* **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
+* **Spell** means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
    * Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizzare anatomy, or some other thing.
-* Auxiliary Abilities do not use attack rolls. They generally target yourself or your allies.
-* Blessing Abilities are toggled on or off (taking the listed action to switch between them), and reserve some amount of HP or MP. In exchange for reducing your maximum HP or MP in this way, you gain a benefit that is available at the start of every battle.
+* **Auxiliary** Abilities do not use attack rolls. They generally target yourself or your allies.
+* **Blessing** Abilities are toggled on or off (taking the listed action to switch between them), and reserve some amount of HP or MP. In exchange for reducing your maximum HP or MP in this way, you gain a benefit that is available at the start of every battle.
    * Reserved HP and MP is not available to the character; it acts as though the character’s maximum HP or MP has been reduced by that much. Unless otherwise stated, reserved HP or MP is not restored when the reserving effect is removed, but if you have missing HP or MP you reserve that before available HP and MP. 
-
-
-Ability Series
+## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
-* Augment - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
-* Aura - <NEEDS REWORKING I WILL COME BACK TO THIS> //I have something in mind for this that works with Serene hero, but it requires a lot more work than I can do before the first session.
-* Counter - Auxiliary abilities that set up a chance for you to deal damage to foes that strike at you.
-* Curse - Auxiliary abilities that weaken foes.
-* Elemental - Abilities which deal damage through one of the elements:
-   * Fire - heat and flames
-   * Ice - sharp icicles and freezing cold
-   * Earth - shards of rock, acid, and plant vines
-   * Sky - electricity, wind blades, and the like
-   * Light - radiance, blinding light, and holy power
-   * Dark - Destroying life essence, sharpened shadows, or unholy power
-* Healing - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
-* Kinetic - Abilities which deal damage through force applied at a distance. This can be telekinetically hurling objects, firing bolts of concentrated force, or the like.
-* Powerful - Abilities which focus on doing heavy physical damage in melee to one or multiple opponents. This is generally accomplished through muscle, but they can be the result of powered armor or great skill.
-* Ranged - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
-* Scan - Abilities that focus on finding information about enemies, often in covert ways, and gaining advantages from that knowledge.
-* Terrain - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
-* Ward - Abilities that shield allies from specific elements. Wards will be explained in greater detail below.
-* Skilled - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
-* Stance - A special class of Blessing. You may only have one Stance active at a time.
-Ability Keywords
+* **Augment** - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
+* **Aura** - <NEEDS REWORKING I WILL COME BACK TO THIS> //I have something in mind for this that works with Serene hero, but it requires a lot more work than I can do before the first session.
+* **Counter** - Auxiliary abilities that set up a chance for you to deal damage to foes that strike at you.
+* **Curse** - Auxiliary abilities that weaken foes.
+* **Elemental** - Abilities which deal damage through one of the elements:
+   * *Fire* - heat and flames
+   * *Ice* - sharp icicles and freezing cold
+   * *Earth* - shards of rock, acid, and plant vines
+   * *Sky* - electricity, wind blades, and the like
+   * *Light* - radiance, blinding light, and holy power
+   * *Dark* - Destroying life essence, sharpened shadows, or unholy power
+* **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
+* **Kinetic** - Abilities which deal damage through force applied at a distance. This can be telekinetically hurling objects, firing bolts of concentrated force, or the like.
+* **Powerful** - Abilities which focus on doing heavy physical damage in melee to one or multiple opponents. This is generally accomplished through muscle, but they can be the result of powered armor or great skill.
+* **Ranged** - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
+* **Scan** - Abilities that focus on finding information about enemies, often in covert ways, and gaining advantages from that knowledge.
+* **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
+* **Ward** - Abilities that shield allies from specific elements. Wards will be explained in greater detail below.
+* **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
+* **Stance** - A special class of Blessing. You may only have one Stance active at a time.
+## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
-* Careful - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
-* Cover - If you have Cover and you are in a space with any other ally, enemies cannot target you. Any Abilities that pick a target can only pick your other allies. Abilities that affect squares instead of targets can still affect you as normal.
-* Overload - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
-* Taunt - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
-* Ward - These are defensive abilities. You may only place Wards on allies, and a given character may only have one Ward active at a time. If a character is targeted by a Ward spell while already affected by a Ward, the new Ward replaces the old one. After reducing the damage on one Attack or Spell, the Ward fades. The Ward otherwise lasts until it is used or until the end of combat.
-Buff/Debuff Tracks
+* **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
+* **Cover** - If you have Cover and you are in a space with any other ally, enemies cannot target you. Any Abilities that pick a target can only pick your other allies. Abilities that affect squares instead of targets can still affect you as normal.
+* **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
+* **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
+* **Ward** - These are defensive abilities. You may only place Wards on allies, and a given character may only have one Ward active at a time. If a character is targeted by a Ward spell while already affected by a Ward, the new Ward replaces the old one. After reducing the damage on one Attack or Spell, the Ward fades. The Ward otherwise lasts until it is used or until the end of combat.
+## Buff/Debuff Tracks
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage in three broad spectrums: Offense, Defense, or Mobility. Unless you are in conditions that specify otherwise, you start every combat at level 0 in all three tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
-The Mobility Track
-* Level 3 - When you move as a Minor action, you can move one more square.
-* Level 2 - Your mobility improves your ability to dodge. If an opponent tries to strike you, they have Double Bane 9. If your foe already has a equal or stronger source of Double Bane, you may instead increase its magnitude by one level (so from Double Bane 8 to Double Bane 7).
-* Level 1 - When you move as a Major action, you can move one more square. This stacks with any other effect that increases your movement, such as the Swift Hero’s Dash Maneuver.
-* Level 0 - Normal, no changes.
-* Level -1 - You can no longer move as a minor action.
-* Level -2 - Your lack of mobility gives enemies an easier target. Abilities that requires attack rolls used against you are made with Double Boon 2. If your foe already has an equal or stronger source of Double Boon, they may instead increase its magnitude by one (so from Double Boon 2 to Double Boon 3).
-* Level -3 - You must spend both your Minor and Major action to move one square.
-The Offensive Track
-* Level 3 - You make attack rolls at Double Boon 4.
-* Level 2 - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
-* Level 1 - You make attack rolls at Boon 2.
-* Level 0 - Normal, no changes.
-* Level -1 - You make attack rolls at Bane 9.
-* Level -2 - You make attack rolls at Bane 8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* Level -3 - You make attack rolls at Double Bane 7.
-The Defensive Track
-* Level 3 - Attack rolls made against you have Double Bane 7.
-* Level 2 - Attack rolls made against you have Bane 8, and your Mental and Physical Defense increases by your Hero Tier.
-* Level 1 - Attack rolls made against you have Bane 9.
-* Level 0 - Normal, no changes.
-* Level -1 - Attack rolls against you have Boon 2.
-* Level -2 - Attack rolls against you have Boon 3, and your Mental and Physical Defense decreases by your Hero Tier.
-* Level -3 - Attack rolls against you have Double Boon 4.
-The Regen/Degen Track
-Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.
-
-
+### The Mobility Track
+* **Level 3** - When you move as a Minor action, you can move one more square.
+* **Level 2** - Your mobility improves your ability to dodge. If an opponent tries to strike you, they have Double Bane 9. If your foe already has a equal or stronger source of Double Bane, you may instead increase its magnitude by one level (so from Double Bane 8 to Double Bane 7).
+* **Level 1** - When you move as a Major action, you can move one more square. This stacks with any other effect that increases your movement, such as the Swift Hero’s Dash Maneuver.
+* **Level 0** - Normal, no changes.
+* **Level -1** - You can no longer move as a minor action.
+* **Level -2** - Your lack of mobility gives enemies an easier target. Abilities that requires attack rolls used against you are made with Double Boon 2. If your foe already has an equal or stronger source of Double Boon, they may instead increase its magnitude by one (so from Double Boon 2 to Double Boon 3).
+* **Level -3** - You must spend both your Minor and Major action to move one square.
+### The Offensive Track
+* **Level 3** - You make attack rolls at Double Boon 4.
+* **Level 2** - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
+* **Level 1** - You make attack rolls at Boon 2.
+* **Level 0** - Normal, no changes.
+* **Level -1** - You make attack rolls at Bane 9.
+* **Level -2** - You make attack rolls at Bane 8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
+* **Level -3** - You make attack rolls at Double Bane 7.
+### The Defensive Track
+* **Level 3** - Attack rolls made against you have Double Bane 7.
+* **Level 2** - Attack rolls made against you have Bane 8, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 1** - Attack rolls made against you have Bane 9.
+* **Level 0** - Normal, no changes.
+* **Level -1** - Attack rolls against you have Boon 2.
+* **Level -2** - Attack rolls against you have Boon 3, and your Mental and Physical Defense decreases by your Hero Tier.
+* **Level -3** - Attack rolls against you have Double Boon 4.
+### The Regen/Degen Track
+Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
-List of Abilities
+## List of Abilities
 Tier 0
 Note: You automatically know all Tier 0 abilities. 
 
