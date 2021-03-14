@@ -1,54 +1,49 @@
 ﻿As I work on this, it’ll eventually become the unified handbook for the system that I really need to name at some point. For now, here’s a unified list of links. NOTE: I’ve set things up so that you can comment on these pages, please feel free to do so.  
 [This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
 [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-
+***
 # Table of Contents
-[Chapter 0: Introduction](#chapter-0-introduction)  
-[Chapter 1: How to Play](#chapter-1-how-to-play)  
-[Chapter 2: Character Creation](#chapter-2-character-creation)  
-[Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
-[Chapter 4: Abilities](#chapter-4-abilities)  
-[Chapter 5: Skills](#chapter-5-Skills)  
-[Chapter 6: Powers](#chapter-6-powers)  
-[Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
-[Chapter 8: Utilities](#chapter-8-utilities)  
-[Chapter 9: Combat](#chapter-9-combat)  
-[Chapter 10: Exploration](#chapter-10-exploration)
-[Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
-[Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
-
-
-
+- [Chapter 0: Introduction](#chapter-0-introduction)  
+  - [Core Tenants](#core-tenants)
+  - [What you Need to Play](#what-you-need-to-play)
+- [Chapter 1: How to Play](#chapter-1-how-to-play)  
+- [Chapter 2: Character Creation](#chapter-2-character-creation)  
+- [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
+- [Chapter 4: Abilities](#chapter-4-abilities)  
+- [Chapter 5: Skills](#chapter-5-Skills)  
+- [Chapter 6: Powers](#chapter-6-powers)  
+- [Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
+- [Chapter 8: Utilities](#chapter-8-utilities)  
+- [Chapter 9: Combat](#chapter-9-combat)  
+- [Chapter 10: Exploration](#chapter-10-exploration)
+- [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
+- [Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
+***
 ## Chapter 0: Introduction
 <Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.
 
 ## Core Tenants
-These ideas are central to the design of Story Shaper. When I had a problem designing some aspect of the game, these are the guiding concepts that I came back to. Any time one designs a complex system of any sort, one will inevitably come to points where one must compromise something or cut some idea that had appeal at one point. These are the things I refused to negotiate or cut.
-* Speed. In several game types I’ve played, either I or other players have gotten bogged down by minutiae that caused turns to drag out. “Is that guy in line of sight?” “How close do I need to get to use this spell?” “Where do I throw this grenade such that it hits enemies without hitting allies?” “Okay, I’ve rolled my 10 damage dice, give me a minute to add this all up.” These questions might be interesting and worthwhile in certain settings, but I have never enjoyed working these things out playing on a tabletop. These measurements are not FUN--with the possible exception of adding up a big fist full of damage. Making sure this is done fairly requires a lot of time, bogging the game down and making a fight that takes less than a minute in game time take two hours in real life. Therefore, if a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, then an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her turn. (Of course, one may take considerably longer describing these actions.)
-* Versatility. One question that IS always fun in a storytelling game is “How do you want to do this?” Describing your hero or heroine’s over the top, badass maneuvers can be the purest joy of a tabletop game. However, game systems often try to do too much of that work for you. This attack only works with maces. Your fire bombs cost exactly this much to create, and do exactly this much damage within exactly this area. Casting a lightning bolt spell requires these motions and these words. If you want to make a character who imitates Indiana Jones, you want to use this class combination and make these choices. These kinds of things are restrictions do not serve the core enjoyment of a roleplaying game. A good group with an open minded referee can get past this limitation of course, but one should not need to fight the gaming system to get the kind of combat maneuvers one wants. Attacks, spells, and other maneuvers common to a heroic tale are thus kept purposefully generic to leave room for a player to describe their character’s actions as they desire. There is no reason to make casting a fireball spell any different from utilizing dragon breath or throwing a fire bomb. That should be a question of the setting and the character, not the rules.
+These ideas are central to the design of Story Shaper. When I had a problem designing some aspect of the game, these are the guiding concepts that I came back to. Any time one designs a complex system of any sort, one will inevitably come to points where one must compromise something or cut some idea that had appeal at one point. These are the things I refused to negotiate or cut.  
+* **Speed.** In several game types I’ve played, either I or other players have gotten bogged down by minutiae that caused turns to drag out. “Is that guy in line of sight?” “How close do I need to get to use this spell?” “Where do I throw this grenade such that it hits enemies without hitting allies?” “Okay, I’ve rolled my 10 damage dice, give me a minute to add this all up.” These questions might be interesting and worthwhile in certain settings, but I have never enjoyed working these things out playing on a tabletop. These measurements are not FUN--with the possible exception of adding up a big fist full of damage. Making sure this is done fairly requires a lot of time, bogging the game down and making a fight that takes less than a minute in game time take two hours in real life. Therefore, if a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, then an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her turn. (Of course, one may take considerably longer describing these actions.)  
+* **Versatility.** One question that IS always fun in a storytelling game is “How do you want to do this?” Describing your hero or heroine’s over the top, badass maneuvers can be the purest joy of a tabletop game. However, game systems often try to do too much of that work for you. This attack only works with maces. Your fire bombs cost exactly this much to create, and do exactly this much damage within exactly this area. Casting a lightning bolt spell requires these motions and these words. If you want to make a character who imitates Indiana Jones, you want to use this class combination and make these choices. These kinds of things are restrictions do not serve the core enjoyment of a roleplaying game. A good group with an open minded referee can get past this limitation of course, but one should not need to fight the gaming system to get the kind of combat maneuvers one wants. Attacks, spells, and other maneuvers common to a heroic tale are thus kept purposefully generic to leave room for a player to describe their character’s actions as they desire. There is no reason to make casting a fireball spell any different from utilizing dragon breath or throwing a fire bomb. That should be a question of the setting and the character, not the rules.  
+* **Depth**. Not all gaming systems suffer from the problems I listed above. However, many negate these problems by simplifying, going too far and leaving the system just an uninteresting way to resolve conflict. The term “RPG” stands for “role-playing game.” It’s fine to be primarily interested in role-playing, but one should also be eager to engage with the GAME part of that acronym. And the thing that makes any game engaging is making interesting decisions. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
-
-* Depth. Not all gaming systems suffer from the problems I listed above. However, many negate these problems by simplifying, going too far and leaving the system just an uninteresting way to resolve conflict. The term “RPG” stands for “role-playing game.” It’s fine to be primarily interested in role-playing, but one should also be eager to engage with the GAME part of that acronym. And the thing that makes any game engaging is making interesting decisions. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
-What you Need to Play
-Required:
+## What you Need to Play
+### Required:
 * A pair of 10 sided dice for each player (also called d10s).
 * A single 6 sided die for the entire group
 * Pencil and paper. (Do NOT use pen or something you can’t easily erase for anything. Trust me.)
-Recommended but not vital:
+### Recommended but not vital:
 * Standardized character sheets that help determine character attributes (provided in this book, have a copy for each player)
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
-Totally optional, but maybe fun:
+### Totally optional, but maybe fun:
 * Miniatures to represent characters in combat
 * Props to illustrate circumstances on the battlefield
    * Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
 * A deck of playing cards or tarot cards (just in case a card game breaks out)
 * A notebook for each player to write personal notes in
-
-
-________________
-
-
+***
 # Chapter 1: How to Play
 <Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>  
 Rolling Dice
