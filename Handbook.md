@@ -3,8 +3,20 @@
 [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
 
 # Table of Contents
-1. [Chapter 0](#Chapter-0-Introduction)
-2. [Chapter 1](#Chapter-1-how-to-play)
+[Chapter 0: Introduction](#chapter-0-introduction)  
+[Chapter 1: How to Play](#chapter-1-how-to-play)  
+[Chapter 2: Character Creation](#chapter-2-character-creation)  
+[Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
+[Chapter 4: Abilities](#chapter-4-abilities)  
+[Chapter 5: Skills](#chapter-5-Skills)  
+[Chapter 6: Powers](#chapter-6-powers)  
+[Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
+[Chapter 8: Utilities](#chapter-8-utilities)  
+[Chapter 9: Combat](#chapter-9-combat)  
+[Chapter 10: Exploration](#chapter-10-exploration)
+[Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
+[Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
+
 
 
 ## Chapter 0: Introduction
@@ -880,7 +892,7 @@ Tier 2
 Coming soon! Eventually. Maybe?
 <Cheap shot, Bull rush>
 ________________
-Chapter 5: Skills
+# Chapter 5: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.
 
 
