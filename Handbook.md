@@ -16,6 +16,8 @@
   - [Step 3: Abilities](#step-3-abilities)
   - [Step 4: Skills](#step-4-skills) 
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
+  - [Gaining XP](#gaining-xp)
+  - [Spending XP](#spending-xp)
 - [Chapter 4: Abilities](#chapter-4-abilities)  
 - [Chapter 5: Skills](#chapter-5-Skills)  
 - [Chapter 6: Powers](#chapter-6-powers)  
@@ -150,16 +152,15 @@ Here are some things to consider when distributing skill points:
 
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
-Gaining XP
+## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Shapers. <COME BACK TO THIS LATER>
-Spending XP
+## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
-Level
+### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
 * Every level increases the number of times Vitality and Capacity can be purchased
 * The hero’s base Physical Attack, Physical Defense, Mental Attack, and Mental Defense can be increased a number of times up to the character’s level
-* Every five levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.
-
+* Every five levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
 
 In addition, purchasing a level gives its own benefit that goes in a five level loop. These benefits do not cost additional XP.
 * At levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
@@ -168,39 +169,34 @@ In addition, purchasing a level gives its own benefit that goes in a five level 
 * At level 4, 9, 14, … the character increases their Physical or Mental Attack.
 * At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Capstone Power (more on Capstone Powers in Chapter 7).
 
-
 When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
 
 
 Characters start at level 1 (and therefore gain one free ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
 
-Sidenote <Milestone Levels>:[a][b][c] Instead of allowing players to purchase levels, the Shaper may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
-Vitality/Capacity
+Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Shaper may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
+### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
-Physical/Mental Attack/Defense
+### Physical/Mental Attack/Defense
 Every character has a base bonus to their physical and mental attacks and defences. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Attack costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
-Skill Points
+### Skill Points
 You may spend 2 XP to gain 5 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
-Abilities
+### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
-
 
 Abilities come in four tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2, 7 for tier 3, and 9 for tier 4.
 
-
 Abilities are described in more detail in Chapter 4.
-Powers[d][e][f]
+### Powers
 Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
 
-
 Powers are described in more detail in Chapter 6.
-Capstone Powers
+### Capstone Powers
 Capstone Powers represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than standard Powers, and as such they are only available when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
-
 Capstone Powers are described in more detail in Chapter 7.
-Utilities[g][h]
+### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
 
