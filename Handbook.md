@@ -1,17 +1,9 @@
 ﻿As I work on this, it’ll eventually become the unified handbook for the system that I really need to name at some point. For now, here’s a unified list of links. NOTE: I’ve set things up so that you can comment on these pages, please feel free to do so.
-This page:
-Story Shaper System: Handbook
-Character sheet:
-Story Shaper: Character sheet
-
-
-
-
-________________
-
+[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)
+[Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
 
 # Chapter 0: Introduction
-<Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>
+<Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.
 
 ## Core Tenants
@@ -41,7 +33,7 @@ ________________
 
 
 # Chapter 1: How to Play
-<Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>
+<Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>  
 Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
 
