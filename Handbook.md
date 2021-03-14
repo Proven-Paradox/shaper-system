@@ -7,6 +7,8 @@
   - [Core Tenants](#core-tenants)
   - [What you Need to Play](#what-you-need-to-play)
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
+  - [Rolling Dice](#rolling-dice)
+  - [Rerolls](#rerolls)
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
 - [Chapter 4: Abilities](#chapter-4-abilities)  
@@ -46,45 +48,39 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 ***
 # Chapter 1: How to Play
 <Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>  
-Rolling Dice
+## Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
 
 
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
-Rerolls
+## Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
-Boon
+### Boon
 Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon X. When a roll is made with Boon X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
 * Varna makes a Stealth roll with Boon 3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
 * Jonny aims a gun and takes a shot that has Boon 2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 * Marona is trying to haggle at a shop with Boon 4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
-Bane
+### Bane
 The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane X, the player must reroll their highest die if it is equal to or greater than X. Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane 8. He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane 7 on an attempt to repair a damaged mechanism. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
-
-
-Double Boon/Bane
+### Double Boon/Bane
 The more extreme versions of Boon and Bane, Double Boon and Double Bane simply extend the effect to both dice. A character with Double Boon X may reroll one or both dice if either of them land on a number equal to or less than X. A character with Double Bane Y must reroll any dice that exceed Y. Examples:
 * Hannah wants to deliver a swift kick to a foe with Double Boon 2. She rolls a 1 and a 4, and takes the available reroll. The result is another 1, for a final of 4 + 1 = 5.
 * Kisuke is examining a crime scene looking for clues, but with Double Bane 9. He rolls a 9 and a 10, and is forced to reroll both, getting a 4 and a 5, 4 + 5 = 9 plus his modifier.
-Order of Operations
+### Order of Operations
 In complex situations, a roll may be made with a combination of Boon, Bane, Double Boon, or Double Bane. Having more than two types of modifiers should be relatively rare. In this case, the order of operations is:
 * Double Bane
 * Bane
 * Double Boon
 * Boon
+
 Here are a couple of examples:
 * Agni is attacking with a spell. He has Bane 8 and Double Boon 1. He rolls his dice, getting a 9 and a 10. Bane 8 forces him to reroll the 10, which becomes a 1. Because rerolled dice cannot be rerolled, this die remains a 1 even though it would otherwise be rerolled by the Double Boon 1. His final result is 9 + 1 = 10 plus his modifier.
 * A final, rare nightmare case. Arthur is trying to make a cup of tea. This endeavor has Double Boon 1, Boon 4, Bane 7, and Double Bane 10. (This should be EXTREMELY rare.) He rolls his dice, and gets a 9 and a 1. Double Bane 10 does not affect any dice. Bane 7 causes the 9 to be rerolled, and it ends at a 4. Double Boon 1 allows him to reroll the other die, when lands on an 8. The 4 would ordinarily be rerollable with Boon 4, but that die has already been rerolled. The final result is 4 + 8 = 12 plus his modifier.
-Changing the number of dice
+### Changing the number of dice
 The most extreme and rarest effects will have you rolling one or three d10s. If you are at an EXTREME disadvantage in a task, you will only be able to roll a single die and must succeed or fail with half the usual power. If you are at a similarly significant advantage in a task, you may roll three dice, taking the results of the best two. (Just borrow one from the player next to you.) On top of all that, Bane and Boon applies normally in these circumstances.
-
-
-
-
-________________
-
+***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
 Step 1: Determine your Attributes
