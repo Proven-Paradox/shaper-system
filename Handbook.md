@@ -9,7 +9,12 @@
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
   - [Rolling Dice](#rolling-dice)
   - [Rerolls](#rerolls)
-- [Chapter 2: Character Creation](#chapter-2-character-creation)  
+- [Chapter 2: Character Creation](#chapter-2-character-creation) 
+  - [Step 1: Attributes](#step-1-attributes)
+  - [Step 2-a: Capacity Stats](#step-2-a-capacity-stats)
+  - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)
+  - [Step 3: Abilities](#step-3-abilities)
+  - [Step 4: Skills](#step-4-skills) 
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
 - [Chapter 4: Abilities](#chapter-4-abilities)  
 - [Chapter 5: Skills](#chapter-5-Skills)  
@@ -83,54 +88,47 @@ The most extreme and rarest effects will have you rolling one or three d10s. If 
 ***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
-Step 1: Determine your Attributes
-Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later). 
-
-
-A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.
-
-
+## Step 1: Attributes
+Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
+A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
 Your Shaper will tell you the rules on how you determine your Attributes. My recommendation is to give between five and seven points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation, but I can’t stop a Shaper who disagrees.
 
-
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
-* Strength represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
+* **Strength** represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
    * Strength is also added to your Hit Points and Physical Attack stats.
-* Finesse represents how agile or dextrous your character is. High finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low finesse might instead confer general clumsiness.
+* **Finesse** represents how agile or dextrous your character is. High finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low finesse might instead confer general clumsiness.
    * Finesse is also added to your Initiative, Physical Attack, and Physical Defense stats.
-* Toughness represents health and hardiness. A character with high toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low toughness might mean the character is sickly or bruises easily.
+* **Toughness** represents health and hardiness. A character with high toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low toughness might mean the character is sickly or bruises easily.
    * Toughness is also added to your Hit Points and Physical Defense stats.
-* Mind represents intelligence and cleverness. A character with high mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low mind often means difficulty learning new technical concepts and a hard time remembering some details.
+* **Mind** represents intelligence and cleverness. A character with high mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low mind often means difficulty learning new technical concepts and a hard time remembering some details.
    * Mind is also added to your Mental Points and Mental Attack stats.
-* Heart represents charisma and presence. Someone with high heart is able to naturally be the center of attention or get people to do what they want, while someone with low heart might naturally go unnoticed in social situations or just generally lack presence.
+* **Heart** represents charisma and presence. Someone with high heart is able to naturally be the center of attention or get people to do what they want, while someone with low heart might naturally go unnoticed in social situations or just generally lack presence.
    * Heart is also added to your Mental Points and Mental Defense stats.
-* Soul represents centeredness and perception. Someone with high soul might not be religious but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.
+* **Soul** represents centeredness and perception. Someone with high soul might not be religious but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.
    * Soul is also added to your Mental Attack and Mental Defense stats.
-
-
+   
 If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.
-
 
 * Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental Attack may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses (more on that later).
 * If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always a benefit.
-Step 2-a: Determine your Capacity Stats
+
+## Step 2-a: Capacity Stats
 After choosing your class and your Attributes, you can determine your capacity stats. One could also call these points.
-* Max HP: HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR*3) + (TGH*3)] (See Chapter X for a more thorough description of what HP represent.)
-* Max MP: MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND*3) + (HRT*3)]
-* SP: SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 15 skill points.
+* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR*3) + (TGH*3)] (See Chapter X for a more thorough description of what HP represent.)
+* **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND*3) + (HRT*3)]
+* **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 15 skill points.
 
-
-Step 2-b: Determine your Attack/Defense Stats
+## Step 2-b: Attack/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from class bonuses. The secondary stats are as follows.
-* Physical Attack: This broadly represents your ability to effectively attack foes by mundane means. The better your physical attack, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical attack could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical attack.
-* Mental Attack: This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental attack could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental attack.
-* Physical Defense: This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
-* Mental Defense: Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
-* Initiative: A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse to initiative rolls.
-
+* **Physical Attack:** This broadly represents your ability to effectively attack foes by mundane means. The better your physical attack, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical attack could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical attack.
+* **Mental Attack:** This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental attack could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental attack.
+* **Physical Defense:** This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
+* **Mental Defense:** Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
+* **Initiative:** A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse to initiative rolls.
 
 How one uses these attributes will be described in Chapter 6.
-Step 3: Choose Abilities
+
+## Step 3: Abilities
 The next step is to choose Abilities. Chapter 4 goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know three Abilities (two + one gained from being level 1) for free as well as all Tier 0 Abilities.
 
 
@@ -139,7 +137,8 @@ Some advice if you want to make a powerful character and are having trouble choo
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
 * At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use once, maybe it’s not a good choice.
 * After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 6)
-Step 4: Choose Skills
+
+## Step 4: Skills
 Finally, you will distribute skill points. There’s more information on skills in Chapter 5, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
 
 
@@ -147,10 +146,7 @@ Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
 * If you’re satisfied with your character’s representation but still have skill points remaining, consider coordinating with the other players. A given party would typically benefit from having all of their bases covered.
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
-________________
-
-
-
+***
 
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
