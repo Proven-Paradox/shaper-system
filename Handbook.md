@@ -214,21 +214,21 @@ Abilities represent powers or moves your character is able to do, usually in com
 ## Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary): //Image would be fantastic here.
 
-**The Name of the Ability**
+**The Name of the Ability**  
 Ability Type (Attack/Spell/Auxiliary)  
-*Action (Major/Minor):* whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 6.)  
-*Prerequisites:* What other things are required before one can learn this Ability.  
-*Range:* How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
+Action (Major/Minor): whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 6.)  
+Prerequisites: What other things are required before one can learn this Ability.  
+Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
 * Melee - this skill can only be used on targets in the same zone as you.
 * Short - this skill can be used on targets up to one zone away.
 * Medium - this skill targets enemies up to two zones away.
 * Long - this skill targets enemies up to three zones away.  
 
-*Targets:* Who or what this Ability targets.  
-*Cost:* The HP or MP cost of this Ability.  
-*Damage:* When using this Ability to do damage, multiply your Impact by this number to determine the amount.  
-*Special:* Things particular to a given Ability.
+Targets: Who or what this Ability targets.  
+Cost: The HP or MP cost of this Ability.  
+Damage: When using this Ability to do damage, multiply your Impact by this number to determine the amount.  
+Special: Things particular to a given Ability.
 ## Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Attributes, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
 ## Ability Types
@@ -298,79 +298,63 @@ The Buff/Debuff tracks are a way of measuring advantage or disadvantage in three
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
 ## List of Abilities
-Tier 0
-Note: You automatically know all Tier 0 abilities. 
-
-
+### Tier 0
+Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
 
-
-Default Strike
-Attack 
-Action: Major
-Prerequisites: None
-Range: Melee
-Targets: 1 enemy
-Cost: None
-Damage: x1 (Physical)
-
-
-Special: None
+**Default Strike**  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x1 (Physical)  
+Special: None  
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
-
-Grab
-Attack
-Action: Major
-Prerequisites: None
-Range: Melee
-Targets: 1 enemy
-Cost: None
-Damage: x0 (Physical)
-
-
-Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled).
+**Grab**  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x0 (Physical)  
+Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled).  
 Description: An untrained attempt to grab your target.
 
-
-Prepare
-Auxiliary
-Action: Minor
-Prerequisites: None
-Range: None
-Targets: Self
-Cost: 1 MP
-
-
+**Prepare**  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 1 MP  
 Special: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
 
-
-Recover
-Auxiliary
-Action: Major
-Prerequisites: None
-Range: None
-Targets: Self
-Cost: 1 MP or 2 HP (your choice)
-
-
-Special: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.
+**Recover**  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 1 MP or 2 HP (your choice)  
+Special: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
-
-Shove
-Attack 
-Action: Major
-Prerequisites: None
-Range: Melee
-Targets: 1 enemy or ally
-Cost: None
-Damage: x0 (Physical)
-
-
-Effect: If this attack succeeds, move your target one square.
+**Shove**  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy or ally  
+Cost: None  
+Damage: x0 (Physical)  
+Effect: If this attack succeeds, move your target one square.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
-Tier 1
+
+### Tier 1
 Shoot
 Attack [Ranged] [Careful]
 Action: Major (and Minor)
