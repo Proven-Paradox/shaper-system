@@ -26,7 +26,9 @@
   - [Ability Keywords](#ability-keywords)
   - [Buff/Debuff Tracks](#buffdebuff-tracks)
   - [List of Abilities](#list-of-abilities)
-- [Chapter 5: Skills](#chapter-5-Skills)  
+- [Chapter 5: Skills](#chapter-5-Skills) 
+  - [Helping Others](#helping-others)
+  - [Skill List](#skill-list)
 - [Chapter 6: Powers](#chapter-6-powers)  
 - [Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
 - [Chapter 8: Utilities](#chapter-8-utilities)  
@@ -750,99 +752,108 @@ Coming soon! Eventually. Maybe?
 <Cheap shot, Bull rush>
 ________________
 # Chapter 5: Skills
-Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.
+Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
 
+Your maximum number of Skill Points that can be invested into any one Skill is equal to your Character Level + 3.  
+Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
+Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocketwatch or a cut jewel you’ve found, make a Craft check.  
+Each skill has two associated Attributes. All skills of that type add those two Attributes in addition to any skill points that have been spent in those skills.  
 
-Your maximum number of Skill Points that can be invested into any one Skill is equal to your Character Level + 3.
-
-
-Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.
-
-
-Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocketwatch or a cut jewel you’ve found, make a Craft check.
-
-
-Each skill has two associated Attributes. All skills of that type add those two Attributes in addition to any skill points that have been spent in those skills.
-Helping Others
+## Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
-Skill List
-Acrobatics
-Attributes: Strength, Finesse
-Balancing, tumbling, contorting. Tasks that require precise movements as well as power. 
-Athletics
-Attributes: Strength, Toughness
+
+## Skill List
+**Acrobatics**  
+Attributes: Strength, Finesse  
+Balancing, tumbling, contorting. Tasks that require precise movements as well as power.
+
+**Athletics**  
+Attributes: Strength, Toughness  
 Jumping, climbing, swimming, lifting, pushing, and pulling. Tasks that require muscle and endurance.
-Animal Handling
-Attributes: Heart, Soul
+
+**Animal Handling**  
+Attributes: Heart, Soul  
 Training and taming animals, sensing animal feelings, nonverbal communication with animals, and all other things related to interacting with animals.
-Awareness
-Attributes: Mind, Soul
+
+**Awareness**  
+Attributes: Mind, Soul  
 Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such hidden perils.
-Composure
-Attributes: Toughness, Soul
+
+**Composure**  
+Attributes: Toughness, Soul  
 Keeping your cool under duress. This is a reactive skill, used when the character sees something disturbing or frightening, is dealing with stress, or similar chances for one to snap under pressure.
-Construct
-Attributes: Toughness, Mind
+
+**Construct**  
+Attributes: Toughness, Mind  
 Metal working, carpentry, masonry, and other heavy work. This skill is for building and repairing large objects with heavy materials.
-Craft
-Attributes: Finesse, Mind
+
+**Craft**  
+Attributes: Finesse, Mind  
 Jewel cutting, wood carving, tinkering, and other precise work. This skill is for building and repairing objects where fine detail work is vital.
-Deception
-Attributes: Mind, Heart
-Lying, disguise, conning. This skill is called for any time you wish to mask the truth.
 
-
+**Deception**  
+Attributes: Mind, Heart  
+Lying, disguise, conning. This skill is called for any time you wish to mask the truth.  
 Alternatively, this skill can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing would be, the Arbiter may allow the player to roll a deception check to get a suggestion for what to say in a given situation.
-Diplomacy
-Attributes: Heart, Soul
-Negotiation, decorum, sociability. This skill is used when a player wants to make a good impression in a social situation.
 
-
+**Diplomacy**  
+Attributes: Heart, Soul  
+Negotiation, decorum, sociability. This skill is used when a player wants to make a good impression in a social situation.  
 Alternatively, this skill can be used as a player aid. If a player happens to be less silver tongued than the character they are playing would be, the Arbiter may allow the player to roll a diplomacy check to get a suggestion for what to say in a given situation.
-Drive
-Attributes: Finesse, Mind
-Handling vehicles of all types. This can be a mount, a car, a ship, a plane, or anything similar. 
-Empathy
-Attributes: Heart, Soul
+
+**Drive (TYPE)**  
+Attributes: Finesse, Mind  
+Handling vehicles or mounts. Options include a mount, a car, a ship, a plane, or anything similar. 
+
+**Empathy**  
+Attributes: Heart, Soul  
 Gauging reactions, spotting bluffs, reading moods. If the player wants to learn what someone else is thinking or suspects they’re being lied to, they should utilize this skill.
-Endure
-Attributes: Toughness, Heart
-Pain tolerance, doing without, pressing on. This is a reactive skill: if a player is subject to forces that would impair their functioning, they can shrug it off with a successful endure check.
-Intimidation
-Attributes: Strength, Heart
+
+**Endure**  
+Attributes: Toughness, Heart  
+Pain tolerance, doing without, pressing on. This is a reactive skill: if a player is subject to forces that would impair their functioning, they can shrug it off with a successful Endure check.
+
+**Intimidation**  
+Attributes: Strength, Heart  
 Browbeating and bullying. When the player wants something and is willing to threaten others to get it, this is the skill to use.
-Investigation
-Attributes: Mind, Soul
+
+**Investigation**  
+Attributes: Mind, Soul  
 Searching, researching, learning. With this skill, one can uncover knowledge otherwise obscure. Sample usages include examining a crime scene to find clues, asking around a settlement for information, or seeking an obscure reference in a library.
-Lore
-Attributes: Mind, Soul
+
+**Lore**  
+Attributes: Mind, Soul  
 Forbidden secrets, occult rituals, and mysticism. This skill represents one’s exposure to obscure, often taboo knowledge.
-Medicine
-Attributes: Mind, Finesse
+
+**Medicine**  
+Attributes: Mind, Finesse  
 Anatomical knowledge, herbalism, and performing medical procedures. If you need to suture a wound, identify a poison, diagnose a disease, and other such actions, you should make a Medicine check.
-Performance
-Attributes: Finesse, Heart
+
+**Performance**  
+Attributes: Finesse, Heart  
 Singing, dancing, storytelling. This skill is used to gauge how entertained a crowd is with a show.
-Sabotage
-Attributes: Finesse, Mind
+
+**Sabotage**  
+Attributes: Finesse, Mind  
 Lock picking, trap laying, trap disabling. If you need to make some construction stop working or set up a nasty surprise for pursuers, this is the skill to use.
-Stealth
-Attributes: Finesse, Mind
+
+**Stealth**  
+Attributes: Finesse, Mind  
 Sneaking, hiding, stealing. The preferred skill of thieves and spies. This includes pick pocketing.
-Streetwise
-Attributes: Mind, Heart
+
+**Streetwise**  
+Attributes: Mind, Heart  
 Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
-Survival
-Attributes: Mind, Soul
+
+**Survival**  
+Attributes: Mind, Soul  
 Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow prey tracks, and provide food for themselves and others in the wilderness.
-Tech
-Attributes: Finesse, Mind
+
+**Tech**  
+Attributes: Finesse, Mind  
 Operating all sorts of computers, general technical savviness, hacking, and the like.
 
-
-
-
-________________
+***
 
 # Chapter 6: Powers
 Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.
