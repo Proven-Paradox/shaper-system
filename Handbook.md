@@ -30,6 +30,10 @@
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
 - [Chapter 6: Powers](#chapter-6-powers)  
+  - [Feats of Strength](#feats-of-strength)
+  - [Displays of Finesse](#displays-of-finesse)
+  - [Tough Lessons](#tough-lessons)
+  - [Mindful Approaches](#mindful-approaches)  
 - [Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
 - [Chapter 8: Utilities](#chapter-8-utilities)  
 - [Chapter 9: Combat](#chapter-9-combat)  
@@ -856,188 +860,154 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 ***
 
 # Chapter 6: Powers
-Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.
-
-
+Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.  
 Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
-Feats of Strength
+
+## Feats of Strength
 These are techniques and traits that allow heroes focused on Strength to punch through their foes. These come in five types. 
-* Brute - Unsubtle but effective, these Feats allow for heros to act as brawlers and bullies, forcing foes to move as they want and beat them into the ground.
-* Devourer - These Feats are for heroes who revel in blood and death. Slaying enemies with the Devourer line allows the hero to restore their own vitality and empower them when they spill their own blood to damage foes.
-* Discipline - These Feats augment a hero’s stances, increasing their defense and offence while in a stance as well as allowing them strike while fluidly switching stances.
-* Berzerker - These Feats focus on momentum and power, pressing the advantage, and throwing oneself fully into battle without regard for one’s own safety. Berzerker Feats require one to continuously receive damage to utilize.
+* **Brute** - Unsubtle but effective, these Feats allow for heros to act as brawlers and bullies, forcing foes to move as they want and beat them into the ground.
+* **Devourer** - These Feats are for heroes who revel in blood and death. Slaying enemies with the Devourer line allows the hero to restore their own vitality and empower them when they spill their own blood to damage foes.
+* **Discipline** - These Feats augment a hero’s stances, increasing their defense and offence while in a stance as well as allowing them strike while fluidly switching stances.
+* **Berzerker** - These Feats focus on momentum and power, pressing the advantage, and throwing oneself fully into battle without regard for one’s own safety. Berzerker Feats require one to continuously receive damage to utilize.
 
-
-Anger [Berzerker]
+**Anger** [Berzerker]  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Attack increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Attack bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
 
-
-Bloodlust [Devourer]
-When you successfully kill or knock out a foe, your next attack is made at Boon 6.
+**Bloodlust** [Devourer]  
+When you successfully kill or knock out a foe, your next attack is made at Boon 6.  
 //Implement some form of scaling? Kind of dangerous for passives
 
-
-Controlled Adjustment [Discipline]
+**Controlled Adjustment** [Discipline]  
 When you change your Stance, you may choose one of the following benefits:
 * You move one square.
 * You regain HP or MP equal to the removed Stance’s cost.
-* You use an ability whose Tier level is at most one below your Hero Tier. (Note: at Hero Tier 1, this means you may use a Tier 0 ability.) Using this option changes the action required to change your stance to match the ability used. For the purposes of the ability used, act as though both the new and old Stances are simultaneously active[i].
+* You use an ability whose Tier level is at most one below your Hero Tier. (Note: at Hero Tier 1, this means you may use a Tier 0 ability.) Using this option changes the action required to change your stance to match the ability used. For the purposes of the ability used, act as though both the new and old Stances are simultaneously active.
 
+**Defensive Footwork** [Discipline]  
+While in a stance, harmful Abilities targeting you have Bane 10. On a round where you switch stances, this becomes Double Bane 10.  
+// TODO: This needs to be reworked
 
-Defensive Footwork [Discipline]
-While in a stance, harmful Abilities targeting you have Bane 10. On a round where you switch stances, this becomes Double Bane 10.
-
-
-Masochism [Devourer]
+**Masochism** [Devourer]  
 Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
-
-Merciless [Brute]
+**Merciless** [Brute]  
 When you strike a foe that is Prone, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
 
 
-Precision Strikes [Discipline]
+**Precision Strikes** [Discipline]  
 If you start a battle in a Stance, increase your Offensive Track by 1.
 
-
-Rage Mage[j][k] [Berzerker]
-Prerequisite: Anger
+**Rage Mage** [Berzerker]  
+Prerequisite: Anger  
 Though rare, some berzerkers focus on utilizing Spells over Attacks. The normal bonuses to Physical Attack while Enraged vanish, but in exchange the Multiplier on your Spells increases by 1 when you are Enraged.
 
-
-Relentless [Brute]
-When you successfully strike with an ability that forces a target to move, you gain the following benefits.
+**Relentless** [Brute]  
+When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target cannot move until your next turn.
 
-
-Spite [Berzerker]
+**Spite** [Berzerker]  
 When you strike a foe that did damage to you between the end of your previous turn and the beginning of the current turn with an Attack, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
 
-
-Sadism [Devourer]
+**Sadism** [Devourer]  
 When you kill or knock out a foe, increase your Offensive Track by 1.
 
-
-Wrestler [Brute]
+**Wrestler** [Brute]  
 While you are Grappling, you gain the following benefits:
 * Any damage you deal on your turn to the target you are Grappling is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
 * You can choose to immediately end the Grappling condition on yourself and the Grappled condition on your victim when you are targeted by any other creature. This uses no action and negates any benefits the other creature would have gained from the Grappling condition.
-Displays of Finesse
+
+## Displays of Finesse
 These are passive talents that enable heroes to act as quick, mobile, skilled adventurers. These come in five types.
-* Ambusher - These Powers are for heroes who want to ensure they get the first strike in--and that those first strikes are more likely to be the last.
-* Dervish - These Powers focus on making consecutive attacks and dealing death with a thousand cuts.
-* Harrier - Some may call it cowardly. Others call it smart. These talents allow a hero to strike best from cover or from a distance, where they can attack safely.
-* Wanderer - Heroes who move quickly across the battlefield and resist ever being pinned down.
+* **Ambusher** - These Powers are for heroes who want to ensure they get the first strike in--and that those first strikes are more likely to be the last.
+* **Dervish** - These Powers focus on making consecutive attacks and dealing death with a thousand cuts.
+* **Harrier** - Some may call it cowardly. Others call it smart. These talents allow a hero to strike best from cover or from a distance, where they can attack safely.
+* **Wanderer** - Heroes who move quickly across the battlefield and resist ever being pinned down.
 
-
-Dash [Wanderer]
+**Dash** [Wanderer]  
 When you move as a Major action, you can choose to move two squares instead of one.
 
-
-Elusive Target [Wanderer]
+**Elusive Target** [Wanderer]  
 On a turn where you’ve moved, the first attack or spell against you has Double Bane with an intensity equal to 11 - your Hero Tier[l]. (Double Bane 10 at Hero Tier 1, Double Bane 9 at Hero Tier 2, and so on.) This caps at Double Bane 7 when you reach Hero Tier 4.
 
-
-First to Act [Ambusher]
+**First to Act** [Ambusher]  
 Increase your Initiative modifier by your Hero Tier. Also, you gain Double Boon 2 on Initiative rolls.
 
-
-Follow Up [Dervish]
+**Follow Up** [Dervish]  
 If you strike a foe with an Attack or Spell, mark that foe for a Follow Up. If you strike a marked foe again in the same round, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
-
-Freedom of Movement [Wanderer]
+**Freedom of Movement** [Wanderer]   
 Any attacks or checks made against you that would limit your movement (such as Grappling attacks, Abilities that apply the Staggered or Prone conditions, and the like) are made at Double Bane 8.
 //Need to develop this one more as I lay out more conditions. This works for now.
 
-
-Hit and Run [Harrier]
+**Hit and Run** [Harrier]  
 When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
 
-
-Long Shot [Harrier]
+**Long Shot** [Harrier]  
 If you target a foe with an Attack or Spell from at least Medium distance, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
-
-Momentum [Dervish]
+**Momentum** [Dervish]  
 Every time you successfully hit a target with an attack, you gain a point of Momentum. Your attacks do additional damage equal to your Momentum (after Multipliers are applied). Your Momentum resets at the start of your turn. If you utilize an attack that hits multiple targets, you choose what order the targets are struck (meaning you can hit the target you want to do the most damage to last in order to hit with maximum Momentum).
 
-
-One Against Many [Dervish]
+**One Against Many** [Dervish]  
 When you strike a foe for the first time in a round with a single target Attack or Spell, you gain a point of One Against Many. If you attack a different target in the same round, you increase your Physical or Mental Attack by your One Against Many stacks.
 
-
-Prepared Strike [Ambusher]
+**Prepared Strike** [Ambusher]  
 Attacks you make against targets who have not yet acted in combat have Double Boon 2. The Double Boon amount increases every Hero Tier (to Double Boon 3 at Tier 2, Double Boon 4 at Tier 3, and so on).
 
-
-Safe Strike [Harrier]
+**Safe Strike** [Harrier]  
 If you have Cover or are in the same space as an ally who has Taunt, any damage you deal on your turn is increased by your Finesse (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
-
-Waylay [Ambusher]
+**Waylay** [Ambusher]  
 If you strike a target who has not yet acted in combat, your damage multiplier on the target increases by your Hero Tier.
 
-
-Tough Lessons[m]
+## Tough Lessons
 These are techniques and traits that help a hero take hits for the team or punish foes for attacking them. 
-* Avenger - These techniques help heroes turn the tide by countering their foes’ attacks.
-* Defender - These Lessons reward taking damage in place of more fragile allies.
-* Hulk - Everyone takes hits in life. Heroes who emphasize Hulk Lessons take them better than anyone else.
-* Resolute - Even the sturdiest fighter takes a beating sometimes. Resolute Lessons allow a hero to recover from those beatings faster and keep on fighting. //Better name?[n][o]
+* **Avenger** - These techniques help heroes turn the tide by countering their foes’ attacks.
+* **Defender** - These Lessons reward taking damage in place of more fragile allies.
+* **Hulk** - Everyone takes hits in life. Heroes who emphasize Hulk Lessons take them better than anyone else.
+* **Resolute** - Even the sturdiest fighter takes a beating sometimes. Resolute Lessons allow a hero to recover from those beatings faster and keep on fighting. //Better name?
 
-
-Aggressive Retort [Avenger]
+**Aggressive Retort** [Avenger]  
 After you use a Counter ability, keep track of enemies said Counter damages. On your next turn, you have Boon 3 on any Attacks or Spells you attempt to use on those enemies.
 
+//TODO <<Rewrite Clotter [Resolute]>>
 
-//<<Rewrite Clotter [Resolute]>>
-
-
-Curse Resistant [Resolute]
+**Curse Resistant** [Resolute]  
 The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect.
 
-
-Deadened Nerves [Hulk]
-Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).
-//Need to monitor this. Don’t want it to be strictly stronger than Enduring Protector.
+**Deadened Nerves** [Hulk]  
+Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
+//Need to monitor this. Don’t want it to be strictly stronger than Enduring Protector.  
 //If this isn’t doing enough, maybe I need to increase both this and Enduring Protector benefits?
 
-
-Enduring Protector [Defender]
-After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.
+**Enduring Protector** [Defender]  
+After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
 //See comments on Deadened Nerves
 
+**Furious Protector** [Defender]  
+Every time you take a blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, gain a stack of Fury. During your turn, any damage you deal is increased by your Fury (after applying Multipliers). This benefit increases as you raise your Hero Tier: the damage doubles every Hero Tier (so Fury x2 at tier 2, Fury x3 tier 3, and so on). This only works during your turn, meaning it does not affect Counter-type abilities, damage dealt by your Terrain effects, and similar sources of indirect damage. You lose all of your Fury stacks at the end of your turn.
 
-Furious Protector [Defender]
-Every time you take a blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, gain a stack[p] of Fury. During your turn, any damage you deal is increased by your Fury (after applying Multipliers). This benefit increases as you raise your Hero Tier: the damage doubles every Hero Tier (so Fury x2 at tier 2, Fury x3 tier 3, and so on). This only works during your turn, meaning it does not affect Counter-type abilities, damage dealt by your Terrain effects, and similar sources of indirect damage. You lose all of your Fury stacks at the end of your turn.
-
-
-Long Arm of Justice [Avenger]
+**Long Arm of Justice** [Avenger]  
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
-
-Quick Healer [Resolute]
+**Quick Healer** [Resolute]  
 Increase any HP restoration you receive by half.
 
-
-Resilient Protector [Defender]
+**Resilient Protector** [Defender]  
 When you take a would blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
 
-
-Strikeback [Avenger]
+**Strikeback** [Avenger]  
 When you deal damage with a Counter Ability, double that damage. //Maybe too strong?
 
+**Thick Skin** [Hulk]  
+You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
 
-Thick Skin [Hulk][q][r][s]
-You gain an additional 2 HP per Vitality[t]. This Lesson applies retroactively.
+**Walk it Off** [Hulk]  
+Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+//TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
 
-
-Walk it Off [Hulk]
-Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
-//Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine[u]. 
-Mindful Approaches
+## Mindful Approaches
 These are techniques and traits that enable heroes use their spells to their greatest potential. These come in five types.
 * Elementalist - These Powers make it easier and more effective to strike with elemental spells, especially when targeting a foe’s weakness.
 * Kineticist - Powers for those heroes who want to cast spells faster or further reaching instead of better.
