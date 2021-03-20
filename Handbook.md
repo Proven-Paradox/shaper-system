@@ -37,7 +37,14 @@
   - [Matters of Heart](#matters-of-heart)
   - [Soulful Techniques](#soulful-techniques)
   - [General Powers](#general-powers)
-- [Chapter 7: Capstone Powers](#chapter-7-capstone-powers)  
+- [Chapter 7: Capstone Powers](#chapter-7-capstone-powers) 
+  - [Strength Capstones](#strength-capstones)
+  - [Finesse Capstones](#finesse-capstones)
+  - [Toughness Capstones](#toughness-capstones)
+  - [Mind Capstones](#mind-capstones)
+  - [Heart Capstones](#heart-capstones)
+  - [Soul Capstones](#soul-capstones)
+  - [General Capstones](#general-capstones)
 - [Chapter 8: Utilities](#chapter-8-utilities)  
 - [Chapter 9: Combat](#chapter-9-combat)  
 - [Chapter 10: Exploration](#chapter-10-exploration)
@@ -1247,9 +1254,10 @@ This Capstone makes the Hover and Slow Fall Utilities redundant. If you previous
 You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
 ***
 # Chapter 8: Utilities
-Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. 
+Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
 //I’ll figure out how I want to organize these better when I’ve written more of them I think
-Skill-based Utilities
+
+## Skill-based Utilities
 Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
 
