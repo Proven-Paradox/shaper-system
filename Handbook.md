@@ -48,7 +48,9 @@
 - [Chapter 8: Utilities](#chapter-8-utilities)  
   - [Skill-based Utilities](#skill-based-utilities)
   - [Other Utilities](#other-utilities)
-- [Chapter 9: Combat](#chapter-9-combat)  
+- [Chapter 9: Combat](#chapter-9-combat) 
+  - [Time in Combat](#time-in-combat)
+  - [Moving and Positioning](#moving-and-positioning)
 - [Chapter 10: Exploration](#chapter-10-exploration)
 - [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
 - [Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
@@ -1383,28 +1385,26 @@ XP Cost: 4
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 ***
 # Chapter 9: Combat
-<Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.>
-Time in Combat
+<Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.>//
+
+## Time in Combat
 The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game.
-Surprise/Ambush
-<Flavor>
 
-
+### Surprise/Ambush
 The Shaper determines who might be surprised in a given scenario. It often involves awareness checks against stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
-Initiative
-Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn. 
 
-
-If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.
-
-
+### Initiative
+Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
+If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
 You may choose to delay your turn if you like. When your turn comes, you simply declare who you want your turn to come after instead. On the next round, your initiative order returns to where it originally was.
-Taking a Turn
+
+### Taking a Turn
 When your turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your turn; you’re not required to use them.
 
 
-Aside: When it’s not your turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your turn during your friends’ actions means the game will be faster and more fun for everyone.
-Moving and Positioning
+> When it’s not your turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your turn during your friends’ actions means the game will be faster and more fun for everyone.
+
+## Moving and Positioning
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.
 
 
