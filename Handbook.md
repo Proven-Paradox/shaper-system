@@ -51,6 +51,7 @@
 - [Chapter 9: Combat](#chapter-9-combat) 
   - [Time in Combat](#time-in-combat)
   - [Moving and Positioning](#moving-and-positioning)
+  - [Chasing rules](#chasing-rules)
 - [Chapter 10: Exploration](#chapter-10-exploration)
 - [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
 - [Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
@@ -1405,76 +1406,68 @@ When your turn comes, you get two Actions to work with: one Major and one Minor.
 > When it’s not your turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your turn during your friends’ actions means the game will be faster and more fun for everyone.
 
 ## Moving and Positioning
-Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.
-
-
-Combat is broken up into zones. A combat zone should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several zones. An open field would just be an effectively infinite number of zones that characters can move through freely. Multiple creatures can occupy a single zone, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same zone.[aa]
-
-
+Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
+Combat is broken up into zones. A combat zone should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several zones. An open field would just be an effectively infinite number of zones that characters can move through freely. Multiple creatures can occupy a single zone, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same zone.  
 Characters can (usually) move to any adjacent zones by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
-Terrain
-Terrain can influence how one moves significantly. Some zone borders may require skill checks to cross, cause damage, require a major action to move through, restrict how many characters can move through each turn, or something similar. //Fill this out
-Attacking
-Blows will be exchanged often in combat. //Fill in more fluff, IDK
 
+### Terrain
+Terrain can influence how one moves significantly. Some zone borders may require skill checks to cross, cause damage, require a major action to move through, restrict how many characters can move through each turn, or something similar.  
+//TODO Fill this out
 
-To make an attack, first you roll your 2d10 as normal, and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Attack. Abilities labeled as Spells instead add your Mental Attack. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those exceptional abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your attack has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
-Chasing rules
+### Attacking
+Blows will be exchanged often in combat.  
+//TODO Fill in more fluff, IDK  
+To make an attack, first you roll your 2d10 as normal, and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Attack. Abilities labeled as Spells instead add your Mental Attack. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your attack has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+
+## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. In future the individual or group being chased will be called the Quarry, while the one(s) doing the chasing will be the Hunter.
-Position During Chases
+
+### Position During Chases
 During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would cause you to move allows you to instead increase (or decrease) your Position by 1.
-Endurance
-A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your Hero Tier + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.
 
-
-At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.
-
-
+### Endurance
+A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your Hero Tier + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
+At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
 If your Endurance score goes negative, you lose that much HP every time you move a square of your own volition.
-Momentum and Concealment
-The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.
 
-
+### Momentum and Concealment
+//TODO Remove and rework  
+The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.  
 These scores track how difficult it is for the Quarry to lose their pursuers. This will be discussed in more detail in the Lose Them action in the next section.
-Actions During Chases
+
+### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
-Use Abilities
+
+#### Use Abilities
 All Abilities available to you outside of a chase scene are available during chases as well. In order to use a Melee range Ability, your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 2; for Long, 3. Abilities that did only damage previously still do so, but any Ability that affects movement can be used to get an upper hand during the chase.
-Sprint
+
+#### Sprint
 Sprinting is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
-Recover
+
+#### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
-Evade
+
+#### Evade
 Evading is a Minor Action. When you use the Evade action, you must make a Stealth check whose difficulty is equal to 10 + your Concealment score. On success, your Concealment score increases by 1.
-Zero In
+
+#### Zero In
 Zeroing In is a Minor Action. When you use the Zero In, you must make an Awareness check whose difficulty is equal to 10 + your Momentum score. On success, your Momentum score increases by 1.
-Lose Them
-Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum. 
 
+#### Lose Them
+Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
+For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon 2.  
+If you succeed in this Stealth check, the Hunters completely lose track of you. If you choose to continue moving away you will exit the scene altogether.  
+If you fail in this Stealth check, you lose one point of Concealment.  
 
-For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon 2.
-
-
-If you succeed in this Stealth check, the Hunters completely lose track of you. If you choose to continue moving away you will exit the scene altogether. 
-
-
-If you fail in this Stealth check, you lose one point of Concealment.
-
-
-Chase Participation after Losing Them
+#### Chase Participation after Losing Them
 If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
-
-
-________________
-
-
+***
 # Chapter 10: Exploration
-<Figure out what goes here, I’m not sure>
-________________
+// TODO Figure out what goes here, I’m not sure
 
-
-//Working on issues that will come up in playtesting. This won’t necessarily be the final order.
+***
 # Chapter X: Health, Injury, Death, and Recovery
+//Working on issues that will come up in playtesting. This won’t necessarily be the final order.
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 What are HP?
 HP (hit points or health points, both work) are an extremely abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could (and I think SHOULD) take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
