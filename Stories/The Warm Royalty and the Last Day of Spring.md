@@ -11,7 +11,7 @@ Next, the Empathetic Prince. His old name is Mudita. He always knew what you wan
 
 Finally--though not least by any means--was the Benevolent Princess. Once she was called Metta, or Maitri, depending on who you ask. She wanted to spread joy to everyone she could. She served as advisor to her father, coming up with new ways to improve life in our world.
 
-They ran the realm justly and wisely, together, and for a very long time things were happy. Then a stranger entered their court. I first heard this one called The Eldest Evil. An older telling calls him Mara.
+They ran the realm justly and wisely, together, and for a very long time things were happy. Then a stranger entered their court. I first heard this one called The Eldest Evil.
 
 The most well-behaved of you have never heard this before. But some of you are confused now. You might be thinking, 'Old Masac, the first time you told me this story he was called Vicious Victor.' Another might be thinking, 'You told me it was a woman, The First Thief!' All of you who heard it before heard a version where they looked and behaved a bit like you did at the time, didn't you? I think you're old enough to know that those were convenient fabrications. Little fables, meant to make you see some facet of your misbehavior from the most terrible creature our stories give to us. Forgive me for making up a parable, and if you ever believed it forgive yourself for being an impressionable child once upon a time. While I'm at it, Moon Moth Candy isn't actually based on what your spirit is like; we just gave sweet candies to the good kids and bitters to the naughty ones. You're old enough to know these things now.
 
@@ -35,7 +35,7 @@ We do not know what happened next in that room. We only know what happened after
 
 The 998 mortals still within the palace all perished, their death masks showing primal terror. The Eldest Evil burst from the palace's highest spire, riding away on a Ship on Fire that sailed through the skies, leaving the palace in ruins and leaving in its wake a trail of fire and ash. In his clutches was the Benevolent Princess, imprisoned in a frozen cage.
 
-The Equanimous Queen rushed behind them, paying no heed to the fire as she rushed to her daughter's aid. She was too late, as the ship passed through the deepest point of the earth, through the portal to dreams, and sailed onward out into Nowhere.
+The Equanimous Queen rushed behind them, paying no heed to the fire as she rushed to her daughter's aid. She was too late, as the ship passed through the deepest point of the earth, through the portal to dreams, and sailed onward out into Nowhere, a place we also call Atata.
 
 The Prince was found later, wailing and mad, lashing out at all who came close to him, The First Dagger in his hand. Some say it was a jagged piece of rock, some a shard of wrapped glass, still others a finely crafted thing of beauty. No one could reason with him afterward; touching the Eldest Evil's mind left him paranoid and unable to tell friend from foe, lashing out at all who approached him.
 
