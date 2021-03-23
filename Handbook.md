@@ -53,8 +53,19 @@
   - [Moving and Positioning](#moving-and-positioning)
   - [Chasing rules](#chasing-rules)
 - [Chapter 10: Exploration](#chapter-10-exploration)
-- [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery)  
+- [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery) 
+  - [What are HP?](#what-are-hp)
+  - [What Types of Damage are There?](#what-types-of-damage-are-there)
+  - [What are Injuries?](#what-are-injuries)
+  - [How can I Recover?](#how-can-i-recover)
+  - [How does Death Work?](#how-does-death-work) 
 - [Chapter Y: Adversaries and Monsters](#chapter-y-adversaries-and-monsters)
+  - [Creeps](#creeps)
+  - [Nuisances](#nuisances)
+  - [Warrior](#warrior)
+- [Some general rules](#some-general-rules)
+- [Appendix A: Optional Rules](#appendix-a-optional-rules)
+
 ***
 ## Chapter 0: Introduction
 <Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
@@ -1467,52 +1478,47 @@ If you have allies that are still being chased, or for other reasons want to con
 
 ***
 # Chapter X: Health, Injury, Death, and Recovery
-//Working on issues that will come up in playtesting. This won’t necessarily be the final order.
+//Working on issues that will come up in playtesting. This won’t necessarily be the final order.  
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
-What are HP?
+
+## What are HP?
 HP (hit points or health points, both work) are an extremely abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could (and I think SHOULD) take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
-What does it mean to lose HP?
+
+### What does it mean to lose HP?
 Losing HP does not necessarily mean being struck by a weapon or spell. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.
-What types of damage are there?
+
+## What types of damage are there?
 Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties, or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
-
 The damage types are as follows:
-* Physical - Slashing, piercing, bashing. Being damaged by physical damage means. This is by far the most common type of damage.
+* *Physical* - Slashing, piercing, bashing. Being damaged by physical damage means. This is by far the most common type of damage.
    * //If you see damage listed without a clear damage type, PLEASE CONTACT ME so I can label it, but you may also assume it is Physical.
-* Fire - Burning, scorching, heat. Fire damage is broadly the way to describe damage that comes from using high temperatures.
-* Ice - Piercing with icicles, chilling winds, sucking the heat out of the air. If the damage source is primarily low temperatures, it is ice damage.
-* Sky - Zapping with lightning, being struck by slashing winds, and similar things. If it’s about electricity or wind, the damage type is Sky.
-* Earth - Earth damage can be from launched rocks, being struck by plant vines, or a dip in acid. This is one of the more eclectic damage types, but it encompasses everything themed around the earth, from stones to the plants that grow from it.
-* Light - Blinding radiance, searing lasers, holy light. Any time light itself is weaponized, it is light damage.
-* Dark - Consuming blackness, draining life, unholy blight. If the damage comes from utilizing darkness or draining away the health of others, it is dark damage.
-* Almighty - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
-
+* *Fire* - Burning, scorching, heat. Fire damage is broadly the way to describe damage that comes from using high temperatures.
+* *Ice* - Piercing with icicles, chilling winds, sucking the heat out of the air. If the damage source is primarily low temperatures, it is ice damage.
+* *Sky* - Zapping with lightning, being struck by slashing winds, and similar things. If it’s about electricity or wind, the damage type is Sky.
+* *Earth* - Earth damage can be from launched rocks, being struck by plant vines, or a dip in acid. This is one of the more eclectic damage types, but it encompasses everything themed around the earth, from stones to the plants that grow from it.
+* *Light* - Blinding radiance, searing lasers, holy light. Any time light itself is weaponized, it is light damage.
+* *Dark* - Consuming blackness, draining life, unholy blight. If the damage comes from utilizing darkness or draining away the health of others, it is dark damage.
+* *Almighty* - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
 
 With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be dramatically different from their expectations and make it very clear what is happening.
 
+> TODO Finish this: There should be a sidebar here cautioning Shapers to not go overboard on Physical resistance since that is the only damage type all characters can guaranteed do. I also want to talk about how to gauge when it’s right to try to specifically hand players something they can deal with and when it needs to be a challenge. 
 
-/* There should be a sidebar here cautioning Shapers to not go overboard on Physical resistance since that is the only damage type all characters can guaranteed do. I also want to talk about how to gauge when it’s right to try to specifically hand players something they can deal with and when it needs to be a challenge. */
-Okay, but what about losing ALL of my HP?
-Oh, well. At that point you’re in trouble.
-
-
-When you lose all HP, you take an injury (see below) and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury. 
-What is an Injury?
-Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your Attributes by one until it is tended to.
-
-
+## What are Injuries?
+When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
+Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your Attributes by one until it is tended to.  
 When you sustain an injury, you take that single six sided die that is listed in Story Shaper’s required components and roll. The type of injury inflicted is decided by the die result.
-1. Strength. You’ve torn a muscle, broken a bone, lost so much blood that you can’t pack the same kind of punch as you used to, or something similar.
-2. Finesse. You’ve torn a ligament, broken your fingers, sustained nerve damage that makes movement difficult or painful, or otherwise lost mobility. 
-3. Toughness. You’ve broken a rib and/or punctured a lung, lost a lot of blood, or otherwise picked up some affliction that makes you less vigorous than your best.
-4. Mind. You’ve suffered a concussion, have sight damage, are dealing with temporary memory loss, or some other problem that makes you duller than usual.
-5. Soul. You’ve suffered pain that breaks through your resolve, have a ringing in your ears, are generally questioning yourself, or something that interrupts your inner tranquility. 
-6. Heart. You’ve suffered a concussion, severe pain, perhaps perceive a betrayal (real or imagined) that makes you less sociable for the time being.
-
+1. *Strength*. You’ve torn a muscle, broken a bone, lost so much blood that you can’t pack the same kind of punch as you used to, or something similar.
+2. *Finesse*. You’ve torn a ligament, broken your fingers, sustained nerve damage that makes movement difficult or painful, or otherwise lost mobility. 
+3. *Toughness*. You’ve broken a rib and/or punctured a lung, lost a lot of blood, or otherwise picked up some affliction that makes you less vigorous than your best.
+4. *Mind*. You’ve suffered a concussion, have sight damage, are dealing with temporary memory loss, or some other problem that makes you duller than usual.
+5. *Soul*. You’ve suffered pain that breaks through your resolve, have a ringing in your ears, are generally questioning yourself, or something that interrupts your inner tranquility. 
+6. *Heart*. You’ve suffered a concussion, severe pain, perhaps perceive a betrayal (real or imagined) that makes you less sociable for the time being.
 
 As always, these methods of describing an injury are just suggestions. Players and Shapers are free to come up with their own.
-How can I get Injured?
+
+### How can I get Injured?
 There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Shaper makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Shaper may choose to reroll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with Flight generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
@@ -1525,146 +1531,130 @@ There are many dangers in an adventure that can result in an injury. The most ob
 
 
 These are just a few examples, and the Shaper can likely come up with more in their games.
-How can I Recover?
+
+## How can I Recover?
 An interesting question, and there are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options (beyond healing Abilities, of course).
 
-
-* Rapid, heroic pulp.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
+* *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
    * This recovery method emphasizes action, enables risk taking, and encourages blowing everything quickly. This will result in faster battles since everyone is going full tilt at all times. Whatever happens will happen fast. 
-* Middle ground. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals two additional injuries during their rest. 
+* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals two additional injuries during their rest. 
    * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.
-* Survival. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
+* *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
-* Action Movie - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Shaper’s choice.
+* *Action Movie* - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Shaper’s choice.
    * This mode has a specific purpose: to capture the action movie brawl. Two opponents square off, striking at each other for a period until eventually one gets an advantage and lands a powerful series of blows on the other. There’s a painful sound as the scene slows down, showing the loser of the exchange reeling in pain while the victor gets a moment to gloat. The loser then refocuses and continues the fight, but a bit shakier, until one or the other cannot stand any longer.
 
-
 These are recommendations that should provide a good variety, suitable to most types of games.
-How does Death Work?
-There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.
-//THIS NEED PLAYTESTING, not going to write more until I have more data here.
-Is Resurrection a Thing?
+
+## How does Death Work?
+There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
+//TODO THIS NEED PLAYTESTING, not going to write more until I have more data here.
+
+### Is Resurrection a Thing?
 That is up to the Shaper and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being raised after the heroes are done with them? I am not going to set down hard rules for resurrecting dead player character, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Shaper.
-Conditions and Properties
 
+## Conditions and Properties
 
-Blind
+**Blind**  
 You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon 6.
 
+**Flight**  
+You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
 
-Flight
-You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is identical to standard movement.
-
-
-Grappled
+**Grappled**  
 Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane 9. Attacks against you have Boon 2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
 
-
-Grappling
-Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple. 
-
-
+**Grappling**  
+Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple.  
 Attacks against you from targets other than the one you are grappling have Boon 2. Attacks you make against the one you are grappling have Boon 3. You may end this condition at any time without an action, which also frees your victim from the Grappled condition.
 
-
-Obscured
+**Obscured**  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon 6 on Stealth checks.
 
-
-
-
-Prone
-Lying on the ground. Melee range attacks against Prone targets have Boon 5, while any attacks coming from beyond Short range are made at Bane 8. Moving a square while Prone costs a major action.
-
-
+**Prone**  
+Lying on the ground. Melee range attacks against Prone targets have Boon 5, while any attacks coming from beyond Short range are made at Bane 8. Moving a square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
-
-Stagger
+**Stagger**  
 Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
-
-
-
-
-
-
-
-
-________________
+***
 # Chapter Y: Adversaries and Monsters
-/* For now this is going to be where I list and describe monsters written. Eventually I need to write a more concrete introduction about how to use monsters, notes about how the entries are kept generic with a few details left unwritten so one entry can potentially represent many different types of monsters, how to read these entries, and the like. For now I want to skip to actually sharing monster entries to give an idea of how I would want these entries to be read by Shapers and used in games.
-
-
+/* TODO For now this is going to be where I list and describe monsters written. Eventually I need to write a more concrete introduction about how to use monsters, notes about how the entries are kept generic with a few details left unwritten so one entry can potentially represent many different types of monsters, how to read these entries, and the like. For now I want to skip to actually sharing monster entries to give an idea of how I would want these entries to be read by Shapers and used in games.  
 Figure out how to explain adversary archetypes at some point. Add notes about figuring out skill mods when they’re not listed.
 */
 
-
-Creeps
-Creeps represent enemies who rely on cheap tricks and numbers. Individually they usually aren’t that dangerous, but adventurers will never actually encounter creatures like these alone. They fight by trying to pile onto individual targets and overwhelm them with sheer numbers. In generally they should be small or scrawny creatures. These can be creatures like goblins, kobolds, imps, small and disposable aliens in part of a hive mind, and the like. 
-
-
+## Creeps
+Creeps represent enemies who rely on cheap tricks and numbers. Individually they usually aren’t that dangerous, but adventurers will never actually encounter creatures like these alone. They fight by trying to pile onto individual targets and overwhelm them with sheer numbers. In generally they should be small or scrawny creatures. These can be creatures like goblins, kobolds, imps, small and disposable aliens in part of a hive mind, and the like.  
 Their elemental properties should generally be unimpressive: at best they resist as many elements as they are weak to. Perhaps they even have more weaknesses than resistances. For example, the modern image of a kobold is a creature that spends its life in caves. This could mean they resist earth but are weak to sky and fire. Goblins are sometimes depicted having an affinity for gunpowder, so perhaps they resist fire and are weak to ice and earth.
-Lesser Creep
-Strength 1  Finesse 1   Toughness 0     Mind -1     Soul -1     Heart -1
-HP Max: 8
-MP Max: 0
-Physical Attack: 2
-Mental Attack: -2
-Physical Defense: 11
-Mental Defense: 8
 
+**Lesser Creep**  
+Strength 1  
+Finesse 1  
+Toughness 0  
+Mind -1  
+Soul -1  
+Heart -1  
+HP Max: 8  
+MP Max: 0  
+Physical Attack: 2  
+Mental Attack: -2  
+Physical Defense: 11  
+Mental Defense: 8  
 
-Melee strike (Major action attack), x1 multiplier, physical, melee.
-Hoard Tactics (Passive): If in a square with two other allied Creeps, Melee Strike has +1 attack. 
----
+*Melee strike* (Major action attack), x1 multiplier, physical, melee.  
+*Hoard Tactics* (Passive): If in a square with two other allied Creeps, Melee Strike has +1 attack. 
+
 Lesser Creeps are the lowest of the low. They are dull witted and easily coerced. They likely have little regard for their own well being, flinging themselves into combat not expecting to survive.
 
+## Nuisances
+The Nuisance archetype represents small, elusive adversaries that utilize mental attacks against the heroes. These may appear in groups with other nuisances, or assist a more impressive threat as minor support. They generally shouldn’t appear alone, as their low hit points means individuals will typically be dealt with quickly. Example nuisances include pixies, will o’ wisps, imps, elemental motes, and the like.  
+Elementally, Nuisances should have one resistance (which also determines the damage type of their attacks) and one weakness. A pixie might utilize Sky attacks while being weak to Fire. Imps that serve greater demonic masters may use bolts of Dark while being expelled by Light. These combinations should typically be straightforward.
+   
+**Lesser Nuisance**  
+Strength -1  
+Finesse 2  
+Toughness -1  
+Mind 2  
+Soul 0  
+Heart 1  
+HP Max: 5  
+MP Max: 8  
+Physical Attack: 1  
+Mental Attack: 3  
+Physical Defense: 12  
+Mental Defense: 13  
 
-Nuisances
-The Nuisance archetype represents small, elusive adversaries that utilize mental attacks against the heroes. These may appear in groups with other nuisances, or assist a more impressive threat as minor support. They generally shouldn’t appear alone, as their low hit points means individuals will typically be dealt with quickly. Example nuisances include pixies, will o’ wisps, imps, elemental motes, and the like.
+*Elusive* (Passive): Physical damage against this target is halved.  
+*Zap* (Major action spell): x1 multiplier, medium range. Damage type is the same as this creature’s elemental resistance. 1 MP  
+*Fuddle* (Major action auxiliary): Curse, medium range, duration 2 rounds, must succeed on mental attack or it fails. Imposes Bane 2. 1 MP  
+Crack (Major action attack): x2 multiplier, melee range. Damage type is the same as this creature’s elemental resistance. 4 MP  
+Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP  
 
-
-Elementally, Nuisances should have one resistance (which also determines the damage type of their attacks) and one weakness. A pixie might utilize Sky attacks while being weak to Fire. Imps that serve greater demonic masters may use bolts of Dark while being expelled by Light. These combinations should typically be straightforward.   
-Lesser Nuisance
-Strength -1  Finesse 2   Toughness -1   Mind 2  Soul 0    Heart 1
-HP Max: 5
-MP Max: 8
-Physical Attack: 1
-Mental Attack: 3
-Physical Defense: 12
-Mental Defense: 13
-
-
-Elusive (Passive): Physical damage against this target is halved.
-Zap (Major action attack): x1 multiplier, medium range. Damage type is the same as this creature’s elemental resistance. 1 MP
-Fuddle (Major action auxiliary): Curse, medium range, duration 2 rounds, must succeed on mental attack or it fails. Imposes Bane 2. 1 MP
-Crack (Major action attack): x2 multiplier, melee range. Damage type is the same as this creature’s elemental resistance. 4 MP
-Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP
----
 Lesser Nuisances are just what the name implies: annoying, hard to pin down, but not particularly dangerous on their own.
 
-
-Warrior
+## Warrior
 The Warrior archetype represents creatures trained in combat that utilize physical attacks against the players. They generally will prefer to get into melee range to deal high damage. They may appear in groups with Archers or other similar types who can benefit from their strengths and/or cover their weaknesses. They fight intelligently and will prioritize casters and archers where possible.
-Lesser Warrior
-Strength 2  Finesse 1   Toughness 2   Mind 0  Soul -1    Heart -1
-HP Max: 24
-MP Max: 8
-Physical Attack: 5
-Mental Attack: -1
-Physical Defense: 14
-Mental Defense: 9
 
+**Lesser Warrior**  
+Strength 2  
+Finesse 1  
+Toughness 2  
+Mind 0  
+Soul -1  
+Heart -1  
+HP Max: 24  
+MP Max: 8  
+Physical Attack: 5  
+Mental Attack: -1  
+Physical Defense: 14  
+Mental Defense: 9  
 
-Jab: (Major action attack) x1 melee range, physical damage. No cost.
-Bash: (Major action attack) x2 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square. 3 HP cost.
-
+*Jab* (Major action attack): x1 melee range, physical damage. No cost.  
+*Bash* (Major action attack): x2 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square. 3 HP cost.
 
 Lesser Warriors are basic, every day fighters. These might be town guards or freshly trained soldiers in an army. Alternatively, they could be roughly human sized monstrous warriors of any type.
-________________
 
-
-Some general rules
+# Some general rules
 //These go at the end but they may come up in playtesting, so writing them now.
 Specific rules supercede general rules. The rules for movement are very general, but there are some effects in the game which allow a player to break those rules. In this case, the more specific effects trump the general movement rules. The same trend applies elsewhere.
 
@@ -1680,7 +1670,7 @@ Defenders win ties. For example, if using an attack Ability results in the accur
 ________________
 
 
-Appendix A: Optional Rules
+# Appendix A: Optional Rules
 Flavor Skills
 The Core Skills may determine whether or not a character survives a given situation. They can reflect some things about a characters’ personality, but are also important to consider from a mechanical standpoint. Not all skills have to be this way however. If allowed by the Arbiter, all characters start with 8 flavor skill points and gain an addition 3 every time they buy skill points with XP. These can only be put into Skills that flesh out the character’s personality, reflecting hobbies or a trade that they have outside of their adventuring. Checks involving these skills may only come up rarely, and are not meant to solve real problems the character will face. The following list contains some examples, but by no means all of them. Players should talk with their Arbiter if something they think their character would want to be good at isn’t on this list.
 Academics (Type)
