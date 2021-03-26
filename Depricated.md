@@ -147,5 +147,29 @@ Special: You may only have one Stance active at a time. Changing or deactivating
 Beginning at Hero Tier 2, you may choose to reserve more mana to gain additional uses of the Effect per round. Every Hero Tier, you may increase the reservation cost by 3 to gain one additional attack absorbed through this stance. One can only move a total of one square per turn with this ability, regardless of the number of attack redirected to you.  
 Description: A very direct approach to protecting others. Typically this would mean preparing to physically run and dive in front of the defended ally.
 
+## Auras
+* Beacon - Heroes who want to be an asset just by being there may find use for Beacon Matters, which improve their Aura.
 
+**Eased Aura** [Beacon]  
+Reduce the cost of activating your Aura(s) on your turn by your Hero Tier to a minimum of 0. (This does not reduce the reservation cost, only the active effect cost.)
 
+**Expanded Aura** [Beacon]  
+The range on your Auras improves to Medium.  
+//Maybe too strong? Doesn’t feel strong enough to be a Capstone though.
+
+**Lingering Aura** [Beacon]  
+On a turn when you leave an Aura in reserve, you may choose to have it still affect one ally within its normal range.
+
+**Auramancer**  
+Your practice with auras enables you to maintain more. You may utilize an additional aura. You can take this capstone multiple times. Its effects stack.
+
+**Soothing Aura**  
+Blessing [Aura] [Serene Hero]  
+Prerequisites: None  
+Reserved: 3, 6, 9... MP (See Special)  
+Activation: None or 2, 4, 6… MP (See Special)  
+Effect: When you activate this Aura, affected allies heal HP equal to your Heart.  
+Special: As you gain Hero Tiers, you can increase the cost of this Ability. Every tier above 1, you can can begin increasing reservation by 3 MP. So 6 MP at Tier 2, 9 MP at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
+If you use a higher cost reservation, you can choose to increase the activation cost of this Ability to make it more effective. If you’ve used a Tier 2 reservation, you can activate for 6 MP to heal HP equal to your Heart x 2. If you’ve used a Tier 3 reservation, you can activate for 9 MP to heal Heart x 3, and so on. You can still choose to use lower tier activations to heal less HP.  
+Alternatively, you may choose to spend a minor action to activate this aura’s effect without paying the activation cost.  
+Description: You radiate an aura that heals and invigorates allies. This could be an aura of healing light, playing music that soothes your allies, dispersing nano-machines that repair wounds and fix damaged systems, and other means of encouraging regeneration passively.
