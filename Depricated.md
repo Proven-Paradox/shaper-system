@@ -92,3 +92,60 @@ All of these options are for if the Quarry has knocked these over. Otherwise, th
 
 
 Sharp Incline - Just a twist in the path that makes it harder to run through. When this complication comes up, the next position the Quarry enters is marked as uphill. Running uphill requires the Endure check made to keep from losing a point of Endurance at Double Bane 8.
+
+## Stances
+* **Stance** - A special class of Blessing. You may only have one Stance active at a time.
+
+**Protector’s Stance**  
+Blessing [Stance]  
+Prerequisites: None  
+Reserved: 2 MP  
+Effect: You have Taunt.  
+Special: You may only have one Stance active at a time. Changing or deactivating a stance is a minor action.  
+Description: The simplest way to protect one’s allies. This can be bodily blocking blows, utilizing your shield to redirect foes away from allies, shouting to keep the attention on yourself, and other similar actions in combat.  
+
+**Aggressor's Stance**  
+Blessing [Stance]  
+Prerequisites: None  
+Reserved: 3 MP  
+Effect: Your Physical and Mental Attack increases by 1.  
+Special: None  
+Description: A simple but reliable boost to attack power. This can represent taking an aggressive posture in combat, reserving some energy to cast spells more efficiently, murmuring an empowering chant as one battles, mentally psyching oneself up, and similar actions.  
+
+* **Discipline** - These Feats augment a hero’s stances, increasing their defense and offence while in a stance as well as allowing them strike while fluidly switching stances.
+
+**Controlled Adjustment** [Discipline]  
+When you change your Stance, you may choose one of the following benefits:
+* You move one square.
+* You regain HP or MP equal to the removed Stance’s cost.
+* You use an ability whose Tier level is at most one below your Hero Tier. (Note: at Hero Tier 1, this means you may use a Tier 0 ability.) Using this option changes the action required to change your stance to match the ability used. For the purposes of the ability used, act as though both the new and old Stances are simultaneously active.
+
+**Defensive Footwork** [Discipline]  
+While in a stance, harmful Abilities targeting you have Bane 10. On a round where you switch stances, this becomes Double Bane 10.  
+// TODO: This needs to be reworked
+
+**Precision Strikes** [Discipline]  
+If you start a battle in a Stance, increase your Offensive Track by 1.
+
+**Counterbane Stance**  
+Blessing [Stance] [Strong Signature]  
+Prerequisites: None  
+Reserved: 5 MP  
+//TODO Cost needs to scale somehow? Would need to add another effect that scales to prevent a   
+//bitter taste  
+Effect: You completely ignore Bane and Double Bane 10 when attacking. Otherwise, if an effect would cause you to gain Bane or Double Bane when attacking, increase the number by half your Strength, maximum 10. (Example: If you have 4 Strength, Bane 8 becomes Bane 10 for attacks while in this stance.)  
+Description: A fighting stance that focuses on accuracy, allowing one to overcome distractions and hindrances.
+
+**Defender’s Intervention**  
+Blessing [Stance] [Toughness Signature]  
+Prerequisites: None  
+Reserved: 3, 6, 9, ... MP  
+//Cost needs to scale somehow? Would need to add another effect that scales to prevent a   
+//bitter taste  
+Effect: When an ally is targeted with a hostile Attack or Spell within a Short range, you may immediately move to that ally’s square and take the attack instead. Once you have done this, you cannot do it again until after your next turn (unless augmented as described below).  
+Special: You may only have one Stance active at a time. Changing or deactivating a stance is a minor action.  
+Beginning at Hero Tier 2, you may choose to reserve more mana to gain additional uses of the Effect per round. Every Hero Tier, you may increase the reservation cost by 3 to gain one additional attack absorbed through this stance. One can only move a total of one square per turn with this ability, regardless of the number of attack redirected to you.  
+Description: A very direct approach to protecting others. Typically this would mean preparing to physically run and dive in front of the defended ally.
+
+
+
