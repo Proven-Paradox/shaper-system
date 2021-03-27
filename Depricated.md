@@ -173,3 +173,22 @@ Special: As you gain Hero Tiers, you can increase the cost of this Ability. Ever
 If you use a higher cost reservation, you can choose to increase the activation cost of this Ability to make it more effective. If you’ve used a Tier 2 reservation, you can activate for 6 MP to heal HP equal to your Heart x 2. If you’ve used a Tier 3 reservation, you can activate for 9 MP to heal Heart x 3, and so on. You can still choose to use lower tier activations to heal less HP.  
 Alternatively, you may choose to spend a minor action to activate this aura’s effect without paying the activation cost.  
 Description: You radiate an aura that heals and invigorates allies. This could be an aura of healing light, playing music that soothes your allies, dispersing nano-machines that repair wounds and fix damaged systems, and other means of encouraging regeneration passively.
+
+## Double Boon/Bane
+The more extreme versions of Boon and Bane, Double Boon and Double Bane simply extend the effect to both dice. A character with Double Boon X may reroll one or both dice if either of them land on a number equal to or less than X. A character with Double Bane Y must reroll any dice that exceed Y. Examples:
+* Hannah wants to deliver a swift kick to a foe with Double Boon 2. She rolls a 1 and a 4, and takes the available reroll. The result is another 1, for a final of 4 + 1 = 5.
+* Kisuke is examining a crime scene looking for clues, but with Double Bane 9. He rolls a 9 and a 10, and is forced to reroll both, getting a 4 and a 5, 4 + 5 = 9 plus his modifier.
+### Order of Operations
+In complex situations, a roll may be made with a combination of Boon, Bane, Double Boon, or Double Bane. Having more than two types of modifiers should be relatively rare. In this case, the order of operations is:
+* Double Bane
+* Bane
+* Double Boon
+* Boon
+
+Here are a couple of examples:
+* Agni is attacking with a spell. He has Bane 8 and Double Boon 1. He rolls his dice, getting a 9 and a 10. Bane 8 forces him to reroll the 10, which becomes a 1. Because rerolled dice cannot be rerolled, this die remains a 1 even though it would otherwise be rerolled by the Double Boon 1. His final result is 9 + 1 = 10 plus his modifier.
+* A final, rare nightmare case. Arthur is trying to make a cup of tea. This endeavor has Double Boon 1, Boon 4, Bane 7, and Double Bane 10. (This should be EXTREMELY rare.) He rolls his dice, and gets a 9 and a 1. Double Bane 10 does not affect any dice. Bane 7 causes the 9 to be rerolled, and it ends at a 4. Double Boon 1 allows him to reroll the other die, when lands on an 8. The 4 would ordinarily be rerollable with Boon 4, but that die has already been rerolled. The final result is 4 + 8 = 12 plus his modifier.
+
+**Boon Caster** [Augmentor]  
+When you cast an Augment which provides Boon, it instead provides Double Boon. 
+// This one is likely going to get cut soon.
