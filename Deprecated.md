@@ -1,8 +1,6 @@
 # DEPRICATED 
 I have a policy of not deleting stuff I remove from the system. That said, old rules that aren't going to be used much don't belong in the handbook. This file is the repo for old rules that are no longer in the game. 
 
-
-
 ## Complicating Factors During a Chase
 Different settings for a chase can influence how it goes significantly. A savvy theif might be well at home being chased through the streets of a busy city, but be terribly out of their depth when running through a forest. A seasoned ranger would find the situations reversed.
 Lighting
@@ -92,3 +90,47 @@ All of these options are for if the Quarry has knocked these over. Otherwise, th
 
 
 Sharp Incline - Just a twist in the path that makes it harder to run through. When this complication comes up, the next position the Quarry enters is marked as uphill. Running uphill requires the Endure check made to keep from losing a point of Endurance at Double Bane 8.
+
+## Mobility Track
+
+* **Level 3** - When you move as a Minor action, you can move one more square.
+* **Level 2** - Your mobility improves your ability to dodge. If an opponent tries to strike you, they have Double Bane 9. If your foe already has a equal or stronger source of Double Bane, you may instead increase its magnitude by one level (so from Double Bane 8 to Double Bane 7).
+* **Level 1** - When you move as a Major action, you can move one more square. This stacks with any other effect that increases your movement, such as the Swift Hero’s Dash Maneuver.
+* **Level 0** - Normal, no changes.
+* **Level -1** - You can no longer move as a minor action.
+* **Level -2** - Your lack of mobility gives enemies an easier target. Abilities that requires attack rolls used against you are made with Double Boon 2. If your foe already has an equal or stronger source of Double Boon, they may instead increase its magnitude by one (so from Double Boon 2 to Double Boon 3).
+* **Level -3** - You must spend both your Minor and Major action to move one square.
+
+**Haste**  
+Auxiliary [Augment] [Overload]  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One ally  
+Cost: 2 MP (Overload 6 MP)  
+Duration: None  
+Effect: The target gains one point on the Mobility Track.  
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
+Description: A basic aid to an ally’s mobility. This can be shouting orders or encouragement, magically augmenting the target’s physique, providing minor divine aid through prayer, and other related effects.  
+
+**Slow**  
+Attack/Spell [Curse] [Overload] (See Special)  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One enemy  
+Cost: 1 MP (Overload 4 MP)  
+Duration: None  
+Effect: The target loses one point on the Mobility Track.  
+Special: If you pay the Overload cost, you may use this ability as a minor action.  
+You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
+Description: A simple but effective way to slow a foe. This could be a crippling curse, deploying a repulsion field, manipulating gravity so that they feel heavier, and other similar effects.  
+
+**Limber Up**  
+Auxiliary [Finesse Signature]  
+Action: Minor  
+Prerequisites: None  
+Targets: Self  
+Cost: 2 HP  
+Effect: Increase your Mobility Track by 1.  
+Description: Taking a moment of preparation or focusing to increase your mobility. This could be doing stretches to ready your limbs, drinking a potion that improves your ability to run, activating servos in a mechanical limb, or similar methods of enhancing mobility.

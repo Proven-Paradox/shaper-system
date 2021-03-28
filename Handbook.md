@@ -304,15 +304,7 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 * **Ward** - These are defensive abilities. You may only place Wards on allies, and a given character may only have one Ward active at a time. If a character is targeted by a Ward spell while already affected by a Ward, the new Ward replaces the old one. After reducing the damage on one Attack or Spell, the Ward fades. The Ward otherwise lasts until it is used or until the end of combat.
 ## Buff/Debuff Tracks
-The Buff/Debuff tracks are a way of measuring advantage or disadvantage in three broad spectrums: Offense, Defense, or Mobility. Unless you are in conditions that specify otherwise, you start every combat at level 0 in all three tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
-### The Mobility Track
-* **Level 3** - When you move as a Minor action, you can move one more square.
-* **Level 2** - Your mobility improves your ability to dodge. If an opponent tries to strike you, they have Double Bane 9. If your foe already has a equal or stronger source of Double Bane, you may instead increase its magnitude by one level (so from Double Bane 8 to Double Bane 7).
-* **Level 1** - When you move as a Major action, you can move one more square. This stacks with any other effect that increases your movement, such as the Swift Hero’s Dash Maneuver.
-* **Level 0** - Normal, no changes.
-* **Level -1** - You can no longer move as a minor action.
-* **Level -2** - Your lack of mobility gives enemies an easier target. Abilities that requires attack rolls used against you are made with Double Boon 2. If your foe already has an equal or stronger source of Double Boon, they may instead increase its magnitude by one (so from Double Boon 2 to Double Boon 3).
-* **Level -3** - You must spend both your Minor and Major action to move one square.
+The Buff/Debuff tracks are a way of measuring advantage or disadvantage in two field: Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
 * **Level 3** - You make attack rolls at Double Boon 4.
 * **Level 2** - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
@@ -583,18 +575,6 @@ Special:If you spend your major action while using this ability, you remove the 
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Double Boon 3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.  
 
-**Haste**  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
-Duration: None  
-Effect: The target gains one point on the Mobility Track.  
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
-Description: A basic aid to an ally’s mobility. This can be shouting orders or encouragement, magically augmenting the target’s physique, providing minor divine aid through prayer, and other related effects.  
-
 **Fortify**  
 Auxiliary [Augment] [Overload]  
 Action: Major (Overload Minor)  
@@ -618,19 +598,6 @@ Duration: None
 Effect: The target gains one point on the Offensive Track.
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.  
-
-**Slow**  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
-Duration: None  
-Effect: The target loses one point on the Mobility Track.  
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
-Description: A simple but effective way to slow a foe. This could be a crippling curse, deploying a repulsion field, manipulating gravity so that they feel heavier, and other similar effects.  
 
 **Expose**  
 Attack/Spell [Curse] [Overload] (See Special)  
@@ -1854,15 +1821,6 @@ Duration: 1 round
 Effect: You gain Cover.  
 Special: You can only use this Ability when standing in a square that contains another ally.  
 Description: Somewhat undignified, but an otherwise excellent way to survive combat. This could be literally using someone else as a shield, quietly allowing an ally to take all the attention, employing a stealth field, and other means of losing enemy attention in a crowded fight.
-
-**Limber Up**  
-Auxiliary [Finesse Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 2 HP  
-Effect: Increase your Mobility Track by 1.  
-Description: Taking a moment of preparation or focusing to increase your mobility. This could be doing stretches to ready your limbs, drinking a potion that improves your ability to run, activating servos in a mechanical limb, or similar methods of enhancing mobility.
 
 **Lunging Strike**  
 Attack [Finesse Signature]  
