@@ -282,7 +282,7 @@ Some Abilities are part of a series, building off each other and using each othe
 * **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
 * **Ward** - Abilities that shield allies from specific elements. Wards will be explained in greater detail below.
 * **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
-* **Stance** - A special class of Blessing. You may only have one Stance active at a time.
+
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
 * **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
@@ -719,22 +719,6 @@ Duration: 1 round
 Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal one damage to them.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
-**Protector’s Stance**  
-Blessing [Stance]  
-Prerequisites: None  
-Reserved: 2 MP  
-Effect: You have Taunt.  
-Special: You may only have one Stance active at a time. Changing or deactivating a stance is a minor action.  
-Description: The simplest way to protect one’s allies. This can be bodily blocking blows, utilizing your shield to redirect foes away from allies, shouting to keep the attention on yourself, and other similar actions in combat.  
-
-**Aggressor's Stance**  
-Blessing [Stance]  
-Prerequisites: None  
-Reserved: 3 MP  
-Effect: Your Physical and Mental Attack increases by 1.  
-Special: None  
-Description: A simple but reliable boost to attack power. This can represent taking an aggressive posture in combat, reserving some energy to cast spells more efficiently, murmuring an empowering chant as one battles, mentally psyching oneself up, and similar actions.  
-
 ## Tier 2
 Coming soon! Eventually. Maybe?
 <Cheap shot, Bull rush>
@@ -851,7 +835,6 @@ Powers represent passive abilities. These generally modify rolls, giving benefit
 These are techniques and traits that allow heroes focused on Strength to punch through their foes. These come in five types. 
 * **Brute** - Unsubtle but effective, these Feats allow for heros to act as brawlers and bullies, forcing foes to move as they want and beat them into the ground.
 * **Devourer** - These Feats are for heroes who revel in blood and death. Slaying enemies with the Devourer line allows the hero to restore their own vitality and empower them when they spill their own blood to damage foes.
-* **Discipline** - These Feats augment a hero’s stances, increasing their defense and offence while in a stance as well as allowing them strike while fluidly switching stances.
 * **Berzerker** - These Feats focus on momentum and power, pressing the advantage, and throwing oneself fully into battle without regard for one’s own safety. Berzerker Feats require one to continuously receive damage to utilize.
 
 **Anger** [Berzerker]  
@@ -861,25 +844,11 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 When you successfully kill or knock out a foe, your next attack is made at Boon 6.  
 //Implement some form of scaling? Kind of dangerous for passives
 
-**Controlled Adjustment** [Discipline]  
-When you change your Stance, you may choose one of the following benefits:
-* You move one square.
-* You regain HP or MP equal to the removed Stance’s cost.
-* You use an ability whose Tier level is at most one below your Hero Tier. (Note: at Hero Tier 1, this means you may use a Tier 0 ability.) Using this option changes the action required to change your stance to match the ability used. For the purposes of the ability used, act as though both the new and old Stances are simultaneously active.
-
-**Defensive Footwork** [Discipline]  
-While in a stance, harmful Abilities targeting you have Bane 10. On a round where you switch stances, this becomes Double Bane 10.  
-// TODO: This needs to be reworked
-
 **Masochism** [Devourer]  
 Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
 **Merciless** [Brute]  
 When you strike a foe that is Prone, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
-
-
-**Precision Strikes** [Discipline]  
-If you start a battle in a Stance, increase your Offensive Track by 1.
 
 **Rage Mage** [Berzerker]  
 Prerequisite: Anger  
@@ -1737,15 +1706,6 @@ Special: If this attack succeeds, you begin Grappling your target (who also beco
 As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 2 MP to increase the multiplier by 1 and the continuous damage by your Strength. So 4 MP for a multiplier of 2 and 2x your Strength continuous damage at Tier 2, 6 MP for a multiplier of 3 and 3x Strength continuous damage at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
 Description: This represents overwhelming and pinning down your foe with your power. This could be a choke-hold, wrapping a target in a powerful tail, biting down and latching on, and other types of holds and grabs.
 
-**Counterbane Stance**  
-Blessing [Stance] [Strong Signature]  
-Prerequisites: None  
-Reserved: 5 MP  
-//TODO Cost needs to scale somehow? Would need to add another effect that scales to prevent a   
-//bitter taste  
-Effect: You completely ignore Bane and Double Bane 10 when attacking. Otherwise, if an effect would cause you to gain Bane or Double Bane when attacking, increase the number by half your Strength, maximum 10. (Example: If you have 4 Strength, Bane 8 becomes Bane 10 for attacks while in this stance.)  
-Description: A fighting stance that focuses on accuracy, allowing one to overcome distractions and hindrances.
-
 **Feral Strike**  
 Attack [Strong Signature] [Overload]  
 Action: Major  
@@ -1845,17 +1805,6 @@ Special: This attack uses either (PDef - 10) or (MDef - 10) in place of your PAt
 As you gain Hero Tiers, you may increase this Ability’s cost to make it more effective.  
 At Hero Tier 2, you can give this Ability a cost of 1 and increase the damage multiplier by 1. Every Hero Tier beyond that, you may increase the cost by 1 to increase the multiplier by 1. You may still use less powerful versions for a lower cost if you desire.  
 Description: Using your defenses offensively. This could be a shield slam, utilizing armor spikes, rolling into a ball like an armadillo and overwhelming your target, overheating your energy shield, or some similar armored attack.  
-
-**Defender’s Intervention**  
-Blessing [Stance] [Toughness Signature]  
-Prerequisites: None  
-Reserved: 3, 6, 9, ... MP  
-//Cost needs to scale somehow? Would need to add another effect that scales to prevent a   
-//bitter taste  
-Effect: When an ally is targeted with a hostile Attack or Spell within a Short range, you may immediately move to that ally’s square and take the attack instead. Once you have done this, you cannot do it again until after your next turn (unless augmented as described below).  
-Special: You may only have one Stance active at a time. Changing or deactivating a stance is a minor action.  
-Beginning at Hero Tier 2, you may choose to reserve more mana to gain additional uses of the Effect per round. Every Hero Tier, you may increase the reservation cost by 3 to gain one additional attack absorbed through this stance. One can only move a total of one square per turn with this ability, regardless of the number of attack redirected to you.  
-Description: A very direct approach to protecting others. Typically this would mean preparing to physically run and dive in front of the defended ally.
 
 **Hold Fast**  
 Auxiliary [Toughness Signature]  
