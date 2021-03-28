@@ -264,7 +264,6 @@ There are four types of Abilities.
 ## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
-* **Aura** - <NEEDS REWORKING I WILL COME BACK TO THIS> //I have something in mind for this that works with Serene hero, but it requires a lot more work than I can do before the first session.
 * **Counter** - Auxiliary abilities that set up a chance for you to deal damage to foes that strike at you.
 * **Curse** - Auxiliary abilities that weaken foes.
 * **Elemental** - Abilities which deal damage through one of the elements:
@@ -1004,20 +1003,12 @@ Example: Merlin has Hero Tier 1, this Power, and has built up 3 Target Lock stac
 
 ## Matters of Heart
 These are talents and options that enable heroes to protect, heal, and empower their friends. These come in the following types.
-* Beacon - Heroes who want to be an asset just by being there may find use for Beacon Matters, which improve their Aura.
 * Charmer - Charmer skills are for those heart-focused characters interested in limiting and damaging their foes instead.
 * Enabler - Enablers may not hit hard themselves, but their skills make it so that they impart greater power to their allies.
 * Healer - Often the lynchpin of a team, Healers mend wounds better than any other.
 
-**Eased Aura** [Beacon]  
-Reduce the cost of activating your Aura(s) on your turn by your Hero Tier to a minimum of 0. (This does not reduce the reservation cost, only the active effect cost.)
-
 **Elemental Infusion** [Enabler]  
 When you use an Ability that deals elemental damage to an enemy, you may also choose an ally. That ally’s next damaging Ability can either do its usual damage type, or the same type of damage you just did. This lasts until the end of your next turn.
-
-**Expanded Aura** [Beacon]  
-The range on your Auras improves to Medium.  
-//Maybe too strong? Doesn’t feel strong enough to be a Capstone though.
 
 **Healing Rush** [Enabler]  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
@@ -1033,9 +1024,6 @@ After you successfully damage an opponent, choose one of the following effects. 
 * Reduce the target’s Physical or Mental Attack by your Hero Tier.
 * Reduce the target’s Physical or Mental Defense by your Hero Tier.
 * The target is Staggered[v].
-
-**Lingering Aura** [Beacon]  
-On a turn when you leave an Aura in reserve, you may choose to have it still affect one ally within its normal range.
 
 **Overcharge** [Healer]  
 If your healing would bring your target above maximum HP, the target gains Shield to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
@@ -1152,8 +1140,6 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Attack.
 
 ## Heart Capstones
-**Auramancer**  
-Your practice with auras enables you to maintain more. You may utilize an additional aura. You can take this capstone multiple times. Its effects stack.
 
 **Healing Hands**  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
@@ -1914,17 +1900,6 @@ Cost: 2 MP
 Effect: You move to the target’s square.  
 Special: You must be able to move normally to use this ability.  
 Description: Quickly rushing to an ally’s side. This is often followed up with a healing ability, but not always.
-
-**Soothing Aura**  
-Blessing [Aura] [Serene Hero]  
-Prerequisites: None  
-Reserved: 3, 6, 9... MP (See Special)  
-Activation: None or 2, 4, 6… MP (See Special)  
-Effect: When you activate this Aura, affected allies heal HP equal to your Heart.  
-Special: As you gain Hero Tiers, you can increase the cost of this Ability. Every tier above 1, you can can begin increasing reservation by 3 MP. So 6 MP at Tier 2, 9 MP at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-If you use a higher cost reservation, you can choose to increase the activation cost of this Ability to make it more effective. If you’ve used a Tier 2 reservation, you can activate for 6 MP to heal HP equal to your Heart x 2. If you’ve used a Tier 3 reservation, you can activate for 9 MP to heal Heart x 3, and so on. You can still choose to use lower tier activations to heal less HP.  
-Alternatively, you may choose to spend a minor action to activate this aura’s effect without paying the activation cost.  
-Description: You radiate an aura that heals and invigorates allies. This could be an aura of healing light, playing music that soothes your allies, dispersing nano-machines that repair wounds and fix damaged systems, and other means of encouraging regeneration passively.
 
 ### Soul Signature Abilities
 **Doom**  
