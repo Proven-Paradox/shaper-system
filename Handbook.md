@@ -81,6 +81,7 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 * **Depth**. Not all gaming systems suffer from the problems I listed above. However, many negate these problems by simplifying, going too far and leaving the system just an uninteresting way to resolve conflict. The term “RPG” stands for “role-playing game.” It’s fine to be primarily interested in role-playing, but one should also be eager to engage with the GAME part of that acronym. And the thing that makes any game engaging is making interesting decisions. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
 ## What you Need to Play
+
 ### Required:
 * A pair of 10 sided dice for each player (also called d10s).
 * A single 6 sided die for the entire group
@@ -113,22 +114,8 @@ Circumstances or character traits sometimes grant a character an advantage that 
 The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane X, the player must reroll their highest die if it is equal to or greater than X. Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane 8. He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane 7 on an attempt to repair a damaged mechanism. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
-### Double Boon/Bane
-The more extreme versions of Boon and Bane, Double Boon and Double Bane simply extend the effect to both dice. A character with Double Boon X may reroll one or both dice if either of them land on a number equal to or less than X. A character with Double Bane Y must reroll any dice that exceed Y. Examples:
-* Hannah wants to deliver a swift kick to a foe with Double Boon 2. She rolls a 1 and a 4, and takes the available reroll. The result is another 1, for a final of 4 + 1 = 5.
-* Kisuke is examining a crime scene looking for clues, but with Double Bane 9. He rolls a 9 and a 10, and is forced to reroll both, getting a 4 and a 5, 4 + 5 = 9 plus his modifier.
-### Order of Operations
-In complex situations, a roll may be made with a combination of Boon, Bane, Double Boon, or Double Bane. Having more than two types of modifiers should be relatively rare. In this case, the order of operations is:
-* Double Bane
-* Bane
-* Double Boon
-* Boon
+//TODO: Rewrite boon/bane
 
-Here are a couple of examples:
-* Agni is attacking with a spell. He has Bane 8 and Double Boon 1. He rolls his dice, getting a 9 and a 10. Bane 8 forces him to reroll the 10, which becomes a 1. Because rerolled dice cannot be rerolled, this die remains a 1 even though it would otherwise be rerolled by the Double Boon 1. His final result is 9 + 1 = 10 plus his modifier.
-* A final, rare nightmare case. Arthur is trying to make a cup of tea. This endeavor has Double Boon 1, Boon 4, Bane 7, and Double Bane 10. (This should be EXTREMELY rare.) He rolls his dice, and gets a 9 and a 1. Double Bane 10 does not affect any dice. Bane 7 causes the 9 to be rerolled, and it ends at a 4. Double Boon 1 allows him to reroll the other die, when lands on an 8. The 4 would ordinarily be rerollable with Boon 4, but that die has already been rerolled. The final result is 4 + 8 = 12 plus his modifier.
-### Changing the number of dice
-The most extreme and rarest effects will have you rolling one or three d10s. If you are at an EXTREME disadvantage in a task, you will only be able to roll a single die and must succeed or fail with half the usual power. If you are at a similarly significant advantage in a task, you may roll three dice, taking the results of the best two. (Just borrow one from the player next to you.) On top of all that, Bane and Boon applies normally in these circumstances.
 ***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
@@ -306,21 +293,21 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 ## Buff/Debuff Tracks
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage in two field: Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
-* **Level 3** - You make attack rolls at Double Boon 4.
+* **Level 3** - You make attack rolls at Boon 4.
 * **Level 2** - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
 * **Level 1** - You make attack rolls at Boon 2.
 * **Level 0** - Normal, no changes.
 * **Level -1** - You make attack rolls at Bane 9.
 * **Level -2** - You make attack rolls at Bane 8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make attack rolls at Double Bane 7.
+* **Level -3** - You make attack rolls at Bane 7.
 ### The Defensive Track
-* **Level 3** - Attack rolls made against you have Double Bane 7.
+* **Level 3** - Attack rolls made against you have Bane 7.
 * **Level 2** - Attack rolls made against you have Bane 8, and your Mental and Physical Defense increases by your Hero Tier.
 * **Level 1** - Attack rolls made against you have Bane 9.
 * **Level 0** - Normal, no changes.
 * **Level -1** - Attack rolls against you have Boon 2.
 * **Level -2** - Attack rolls against you have Boon 3, and your Mental and Physical Defense decreases by your Hero Tier.
-* **Level -3** - Attack rolls against you have Double Boon 4.
+* **Level -3** - Attack rolls against you have Boon 4.
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
@@ -390,8 +377,9 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Special: If you also use your minor action this attack is made with Double Boon 1.  
+Special: If you also use your minor action this attack is made with Boon 1.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
+//TODO Reconsider if Boon is needed
 
 **Snipe**  
 Attack [Ranged]  
@@ -491,7 +479,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x1 (Physical)  
-Special: This attack is made with Double Boon 1. If it succeeds, you begin Grappling with the target.  
+Special: This attack succeeds, you begin Grappling with the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 **Suplex**  
@@ -502,7 +490,7 @@ Range: Melee
 Targets: 1 grappled enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This attack may only be used on a target you are currently Grappling. This attack is made with Double Boon 2.  
+Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon 2.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.  
 
 **Throw**  
@@ -572,7 +560,7 @@ Cost: 1 MP (Careful 0 MP)
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Special:If you spend your major action while using this ability, you remove the MP cost entirely.  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Double Boon 3.  
+You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon 3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.  
 
 **Fortify**  
@@ -924,16 +912,16 @@ These are passive talents that enable heroes to act as quick, mobile, skilled ad
 When you move as a Major action, you can choose to move two squares instead of one.
 
 **Elusive Target** [Wanderer]  
-On a turn where you’ve moved, the first attack or spell against you has Double Bane with an intensity equal to 11 - your Hero Tier[l]. (Double Bane 10 at Hero Tier 1, Double Bane 9 at Hero Tier 2, and so on.) This caps at Double Bane 7 when you reach Hero Tier 4.
+On a turn where you’ve moved, the first attack or spell against you has Bane with an intensity equal to 11 - your Hero Tier[l]. (Bane 10 at Hero Tier 1, Bane 9 at Hero Tier 2, and so on.) This caps at Bane 7 when you reach Hero Tier 4.
 
 **First to Act** [Ambusher]  
-Increase your Initiative modifier by your Hero Tier. Also, you gain Double Boon 2 on Initiative rolls.
+Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
 
 **Follow Up** [Dervish]  
 If you strike a foe with an Attack or Spell, mark that foe for a Follow Up. If you strike a marked foe again in the same round, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
 **Freedom of Movement** [Wanderer]   
-Any attacks or checks made against you that would limit your movement (such as Grappling attacks, Abilities that apply the Staggered or Prone conditions, and the like) are made at Double Bane 8.
+Any attacks or checks made against you that would limit your movement (such as Grappling attacks, Abilities that apply the Staggered or Prone conditions, and the like) are made at Bane 8.
 //Need to develop this one more as I lay out more conditions. This works for now.
 
 **Hit and Run** [Harrier]  
@@ -949,7 +937,7 @@ Every time you successfully hit a target with an attack, you gain a point of Mom
 When you strike a foe for the first time in a round with a single target Attack or Spell, you gain a point of One Against Many. If you attack a different target in the same round, you increase your Physical or Mental Attack by your One Against Many stacks.
 
 **Prepared Strike** [Ambusher]  
-Attacks you make against targets who have not yet acted in combat have Double Boon 2. The Double Boon amount increases every Hero Tier (to Double Boon 3 at Tier 2, Double Boon 4 at Tier 3, and so on).
+Attacks you make against targets who have not yet acted in combat have Boon 2. The Boon amount increases every Hero Tier (to Boon 3 at Tier 2, Boon 4 at Tier 3, and so on).
 
 **Safe Strike** [Harrier]  
 If you have Cover or are in the same space as an ally who has Taunt, any damage you deal on your turn is increased by your Finesse (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
@@ -1101,7 +1089,7 @@ These are techniques and traits that enable heroes to protect allies and crush f
 
 **A Curse Most Foul** [Warlock]  
 When using a Curse ability, you may choose one of the following benefits.
-* Decrease the Bane or Double Bane applied by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
+* Decrease the Bane or by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
@@ -1111,9 +1099,6 @@ If you have not moved between the beginning of your previous turn and your curre
 **Barrier Ward** [Warden]  
 Any target affected by a Ward you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
 
-**Boon Caster** [Augmentor]  
-When you cast an Augment which provides Boon, it instead provides Double Boon. 
-// This one is likely going to get cut soon.
 
 **Double Ward** [Warden]  
 When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.

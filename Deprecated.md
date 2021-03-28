@@ -134,3 +134,25 @@ Targets: Self
 Cost: 2 HP  
 Effect: Increase your Mobility Track by 1.  
 Description: Taking a moment of preparation or focusing to increase your mobility. This could be doing stretches to ready your limbs, drinking a potion that improves your ability to run, activating servos in a mechanical limb, or similar methods of enhancing mobility.
+
+## Double Boon/Bane
+
+The more extreme versions of Boon and Bane, Double Boon and Double Bane simply extend the effect to both dice. A character with Double Boon X may reroll one or both dice if either of them land on a number equal to or less than X. A character with Double Bane Y must reroll any dice that exceed Y. Examples:
+* Hannah wants to deliver a swift kick to a foe with Double Boon 2. She rolls a 1 and a 4, and takes the available reroll. The result is another 1, for a final of 4 + 1 = 5.
+* Kisuke is examining a crime scene looking for clues, but with Double Bane 9. He rolls a 9 and a 10, and is forced to reroll both, getting a 4 and a 5, 4 + 5 = 9 plus his modifier.
+### Order of Operations
+In complex situations, a roll may be made with a combination of Boon, Bane, Double Boon, or Double Bane. Having more than two types of modifiers should be relatively rare. In this case, the order of operations is:
+* Double Bane
+* Bane
+* Double Boon
+* Boon
+
+Here are a couple of examples:
+* Agni is attacking with a spell. He has Bane 8 and Double Boon 1. He rolls his dice, getting a 9 and a 10. Bane 8 forces him to reroll the 10, which becomes a 1. Because rerolled dice cannot be rerolled, this die remains a 1 even though it would otherwise be rerolled by the Double Boon 1. His final result is 9 + 1 = 10 plus his modifier.
+* A final, rare nightmare case. Arthur is trying to make a cup of tea. This endeavor has Double Boon 1, Boon 4, Bane 7, and Double Bane 10. (This should be EXTREMELY rare.) He rolls his dice, and gets a 9 and a 1. Double Bane 10 does not affect any dice. Bane 7 causes the 9 to be rerolled, and it ends at a 4. Double Boon 1 allows him to reroll the other die, when lands on an 8. The 4 would ordinarily be rerollable with Boon 4, but that die has already been rerolled. The final result is 4 + 8 = 12 plus his modifier.
+### Changing the number of dice
+The most extreme and rarest effects will have you rolling one or three d10s. If you are at an EXTREME disadvantage in a task, you will only be able to roll a single die and must succeed or fail with half the usual power. If you are at a similarly significant advantage in a task, you may roll three dice, taking the results of the best two. (Just borrow one from the player next to you.) On top of all that, Bane and Boon applies normally in these circumstances.
+
+**Boon Caster** [Augmentor]  
+When you cast an Augment which provides Boon, it instead provides Double Boon. 
+// This one is likely going to get cut soon.
