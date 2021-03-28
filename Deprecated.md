@@ -211,3 +211,14 @@ While in a stance, harmful Abilities targeting you have Bane 10. On a round wher
 
 **Precision Strikes** [Discipline]  
 If you start a battle in a Stance, increase your Offensive Track by 1.
+
+
+## Momentum and Concealment (Chase scenes)
+The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.  
+These scores track how difficult it is for the Quarry to lose their pursuers. This will be discussed in more detail in the Lose Them action in the next section.
+
+#### Evade
+Evading is a Minor Action. When you use the Evade action, you must make a Stealth check whose difficulty is equal to 10 + your Concealment score. On success, your Concealment score increases by 1.
+
+#### Zero In
+Zeroing In is a Minor Action. When you use the Zero In, you must make an Awareness check whose difficulty is equal to 10 + your Momentum score. On success, your Momentum score increases by 1.

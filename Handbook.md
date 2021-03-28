@@ -1365,11 +1365,6 @@ A chase is as much about endurance as it is about speed. You start every chase w
 At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
 If your Endurance score goes negative, you lose that much HP every time you move a square of your own volition.
 
-### Momentum and Concealment
-//TODO Remove and rework  
-The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.  
-These scores track how difficult it is for the Quarry to lose their pursuers. This will be discussed in more detail in the Lose Them action in the next section.
-
 ### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
 
@@ -1381,12 +1376,6 @@ Sprinting is a Major Action, and allows you to move three Positions at once. Doi
 
 #### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
-
-#### Evade
-Evading is a Minor Action. When you use the Evade action, you must make a Stealth check whose difficulty is equal to 10 + your Concealment score. On success, your Concealment score increases by 1.
-
-#### Zero In
-Zeroing In is a Minor Action. When you use the Zero In, you must make an Awareness check whose difficulty is equal to 10 + your Momentum score. On success, your Momentum score increases by 1.
 
 #### Lose Them
 Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
