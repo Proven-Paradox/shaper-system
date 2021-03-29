@@ -81,6 +81,7 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 * **Depth**. Not all gaming systems suffer from the problems I listed above. However, many negate these problems by simplifying, going too far and leaving the system just an uninteresting way to resolve conflict. The term “RPG” stands for “role-playing game.” It’s fine to be primarily interested in role-playing, but one should also be eager to engage with the GAME part of that acronym. And the thing that makes any game engaging is making interesting decisions. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
 ## What you Need to Play
+
 ### Required:
 * A pair of 10 sided dice for each player (also called d10s).
 * A single 6 sided die for the entire group
@@ -113,10 +114,15 @@ Circumstances or character traits sometimes grant a character an advantage that 
 The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane X, the player must reroll their highest die if it is equal to or greater than X. Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane 8. He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane 7 on an attempt to repair a damaged mechanism. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+<<<<<<< HEAD
 // TODO: Rewrite Boon/Bane
 
 ### Changing the number of dice
 The most extreme and rarest effects will have you rolling one or three d10s. If you are at an EXTREME disadvantage in a task, you will only be able to roll a single die and must succeed or fail with half the usual power. If you are at a similarly significant advantage in a task, you may roll three dice, taking the results of the best two. (Just borrow one from the player next to you.) On top of all that, Bane and Boon applies normally in these circumstances.
+=======
+//TODO: Rewrite boon/bane
+
+>>>>>>> 58372657075f7c58e7031220f0c90c654d90ded0
 ***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
@@ -265,7 +271,6 @@ There are four types of Abilities.
 ## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
-* **Aura** - <NEEDS REWORKING I WILL COME BACK TO THIS> //I have something in mind for this that works with Serene hero, but it requires a lot more work than I can do before the first session.
 * **Counter** - Auxiliary abilities that set up a chance for you to deal damage to foes that strike at you.
 * **Curse** - Auxiliary abilities that weaken foes.
 * **Elemental** - Abilities which deal damage through one of the elements:
@@ -292,6 +297,7 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 * **Ward** - These are defensive abilities. You may only place Wards on allies, and a given character may only have one Ward active at a time. If a character is targeted by a Ward spell while already affected by a Ward, the new Ward replaces the old one. After reducing the damage on one Attack or Spell, the Ward fades. The Ward otherwise lasts until it is used or until the end of combat.
 ## Buff/Debuff Tracks
+<<<<<<< HEAD
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage in three broad spectrums: Offense, Defense, or Mobility. Unless you are in conditions that specify otherwise, you start every combat at level 0 in all three tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Mobility Track
 * **Level 3** - When you move as a Minor action, you can move one more square.
@@ -301,6 +307,9 @@ The Buff/Debuff tracks are a way of measuring advantage or disadvantage in three
 * **Level -1** - You can no longer move as a minor action.
 * **Level -2** - Your lack of mobility gives enemies an easier target. Abilities that requires attack rolls used against you are made with Boon 2. If your foe already has an equal or stronger source of Boon, they may instead increase its magnitude by one (so from Boon 2 to Boon 3).
 * **Level -3** - You must spend both your Minor and Major action to move one square.
+=======
+The Buff/Debuff tracks are a way of measuring advantage or disadvantage in two field: Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
+>>>>>>> 58372657075f7c58e7031220f0c90c654d90ded0
 ### The Offensive Track
 * **Level 3** - You make attack rolls at Boon 4.
 * **Level 2** - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
@@ -388,7 +397,7 @@ Cost: 1 MP
 Damage: x1 (Physical)  
 Special: If you also use your minor action this attack is made with Boon 1.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-// TODO rebalance without Double Boon
+//TODO Reconsider if Boon is needed
 
 **Snipe**  
 Attack [Ranged]  
@@ -488,7 +497,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x1 (Physical)  
-Special: If it succeeds, you begin Grappling with the target.  
+
+Special: This attack succeeds, you begin Grappling with the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 // TODO Reconsider balance without boon
 
@@ -573,18 +583,6 @@ Special:If you spend your major action while using this ability, you remove the 
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon 3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.  
 
-**Haste**  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
-Duration: None  
-Effect: The target gains one point on the Mobility Track.  
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
-Description: A basic aid to an ally’s mobility. This can be shouting orders or encouragement, magically augmenting the target’s physique, providing minor divine aid through prayer, and other related effects.  
-
 **Fortify**  
 Auxiliary [Augment] [Overload]  
 Action: Major (Overload Minor)  
@@ -608,19 +606,6 @@ Duration: None
 Effect: The target gains one point on the Offensive Track.
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.  
-
-**Slow**  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
-Duration: None  
-Effect: The target loses one point on the Mobility Track.  
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
-Description: A simple but effective way to slow a foe. This could be a crippling curse, deploying a repulsion field, manipulating gravity so that they feel heavier, and other similar effects.  
 
 **Expose**  
 Attack/Spell [Curse] [Overload] (See Special)  
@@ -1082,7 +1067,11 @@ These are techniques and traits that enable heroes to protect allies and crush f
 
 **A Curse Most Foul** [Warlock]  
 When using a Curse ability, you may choose one of the following benefits.
+<<<<<<< HEAD
 * Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
+=======
+* Decrease the Bane or by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
+>>>>>>> 58372657075f7c58e7031220f0c90c654d90ded0
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
@@ -1092,6 +1081,10 @@ If you have not moved between the beginning of your previous turn and your curre
 **Barrier Ward** [Warden]  
 Any target affected by a Ward you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58372657075f7c58e7031220f0c90c654d90ded0
 **Double Ward** [Warden]  
 When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
 
@@ -1386,11 +1379,6 @@ A chase is as much about endurance as it is about speed. You start every chase w
 At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
 If your Endurance score goes negative, you lose that much HP every time you move a square of your own volition.
 
-### Momentum and Concealment
-//TODO Remove and rework  
-The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.  
-These scores track how difficult it is for the Quarry to lose their pursuers. This will be discussed in more detail in the Lose Them action in the next section.
-
 ### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
 
@@ -1402,12 +1390,6 @@ Sprinting is a Major Action, and allows you to move three Positions at once. Doi
 
 #### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
-
-#### Evade
-Evading is a Minor Action. When you use the Evade action, you must make a Stealth check whose difficulty is equal to 10 + your Concealment score. On success, your Concealment score increases by 1.
-
-#### Zero In
-Zeroing In is a Minor Action. When you use the Zero In, you must make an Awareness check whose difficulty is equal to 10 + your Momentum score. On success, your Momentum score increases by 1.
 
 #### Lose Them
 Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
@@ -1787,15 +1769,6 @@ Duration: 1 round
 Effect: You gain Cover.  
 Special: You can only use this Ability when standing in a square that contains another ally.  
 Description: Somewhat undignified, but an otherwise excellent way to survive combat. This could be literally using someone else as a shield, quietly allowing an ally to take all the attention, employing a stealth field, and other means of losing enemy attention in a crowded fight.
-
-**Limber Up**  
-Auxiliary [Finesse Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 2 HP  
-Effect: Increase your Mobility Track by 1.  
-Description: Taking a moment of preparation or focusing to increase your mobility. This could be doing stretches to ready your limbs, drinking a potion that improves your ability to run, activating servos in a mechanical limb, or similar methods of enhancing mobility.
 
 **Lunging Strike**  
 Attack [Finesse Signature]  
