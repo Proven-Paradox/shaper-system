@@ -106,15 +106,19 @@ In general when you are asked to roll dice in Story Shaper, you will roll a pair
 ## Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
 ### Boon
-Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon X. When a roll is made with Boon X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
-* Varna makes a Stealth roll with Boon 3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
-* Jonny aims a gun and takes a shot that has Boon 2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
-* Marona is trying to haggle at a shop with Boon 4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
+Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
+* Varna makes a Stealth roll with Boon +3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
+* Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
+* Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
 ### Bane
-The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane X, the player must reroll their highest die if it is equal to or greater than X. Some examples of Bane in play:
-* Adam is trying to follow tracks that have had some time to fade, imposing Bane 8. He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane 7 on an attempt to repair a damaged mechanism. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
-// TODO: Rewrite Boon/Bane
+The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Some examples of Bane in play:
+* Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
+* XU-808 has Bane -4 on an attempt to repair a damaged mechanism. He must reroll any result above a 7. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+### Combining Boon and Bane
+If in a situation where boon Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
+* Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
+* Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
+* Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
 ***
 # Chapter 2: Character Creation
