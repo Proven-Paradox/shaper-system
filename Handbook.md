@@ -101,7 +101,6 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 ## Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
 
-
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
 ## Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
@@ -111,7 +110,17 @@ Circumstances or character traits sometimes grant a character an advantage that 
 * Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 * Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
 ### Bane
-The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Some examples of Bane in play:
+The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). 
+
+| Bane -X | Reroll a die above... |
+|---------|-----------------------|
+| -1      | 10                    |
+| -2      | 9                     |
+| -3      | 8                     |
+| -4      | 7                     |
+| -5      | 6                     |
+
+Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane -4 on an attempt to repair a damaged mechanism. He must reroll any result above a 7. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
 ### Combining Boon and Bane
