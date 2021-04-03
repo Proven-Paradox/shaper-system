@@ -864,14 +864,11 @@ Any time you spend HP to use an Attack or Spell, you gain Shield equal to the sp
 **Merciless** [Brute]  
 When you strike a foe that is Prone, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
 
-**Rage Mage** [Berzerker]  
-Prerequisite: Anger  
-Though rare, some berzerkers focus on utilizing Spells over Attacks. The normal bonuses to Physical Attack while Enraged vanish, but in exchange the Multiplier on your Spells increases by 1 when you are Enraged.
-
 **Relentless** [Brute]  
 When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target cannot move until your next turn.
+//TODO: Look at the cannot move condition
 
 **Spite** [Berzerker]  
 When you strike a foe that did damage to you between the end of your previous turn and the beginning of the current turn with an Attack, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
@@ -894,39 +891,20 @@ These are passive talents that enable heroes to act as quick, mobile, skilled ad
 **Dash** [Wanderer]  
 When you move as a Major action, you can choose to move two squares instead of one.
 
-**Elusive Target** [Wanderer]  
-On a turn where you’ve moved, the first attack or spell against you has Bane with an intensity equal to 11 - your Hero Tier[l]. (Bane 10 at Hero Tier 1, Bane 9 at Hero Tier 2, and so on.) This caps at Bane 7 when you reach Hero Tier 4.
-
 **First to Act** [Ambusher]  
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
 
 **Follow Up** [Dervish]  
 If you strike a foe with an Attack or Spell, mark that foe for a Follow Up. If you strike a marked foe again in the same round, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
-**Freedom of Movement** [Wanderer]   
-Any attacks or checks made against you that would limit your movement (such as Grappling attacks, Abilities that apply the Staggered or Prone conditions, and the like) are made at Bane 8.
-//Need to develop this one more as I lay out more conditions. This works for now.
-
 **Hit and Run** [Harrier]  
 When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
-
-**Long Shot** [Harrier]  
-If you target a foe with an Attack or Spell from at least Medium distance, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
-
-**Momentum** [Dervish]  
-Every time you successfully hit a target with an attack, you gain a point of Momentum. Your attacks do additional damage equal to your Momentum (after Multipliers are applied). Your Momentum resets at the start of your turn. If you utilize an attack that hits multiple targets, you choose what order the targets are struck (meaning you can hit the target you want to do the most damage to last in order to hit with maximum Momentum).
 
 **One Against Many** [Dervish]  
 When you strike a foe for the first time in a round with a single target Attack or Spell, you gain a point of One Against Many. If you attack a different target in the same round, you increase your Physical or Mental Attack by your One Against Many stacks.
 
-**Prepared Strike** [Ambusher]  
-Attacks you make against targets who have not yet acted in combat have Boon 2. The Boon amount increases every Hero Tier (to Boon 3 at Tier 2, Boon 4 at Tier 3, and so on).
-
 **Safe Strike** [Harrier]  
 If you have Cover or are in the same space as an ally who has Taunt, any damage you deal on your turn is increased by your Finesse (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
-
-**Waylay** [Ambusher]  
-If you strike a target who has not yet acted in combat, your damage multiplier on the target increases by your Hero Tier.
 
 ## Tough Lessons
 These are techniques and traits that help a hero take hits for the team or punish foes for attacking them. 
@@ -934,11 +912,6 @@ These are techniques and traits that help a hero take hits for the team or punis
 * **Defender** - These Lessons reward taking damage in place of more fragile allies.
 * **Hulk** - Everyone takes hits in life. Heroes who emphasize Hulk Lessons take them better than anyone else.
 * **Resolute** - Even the sturdiest fighter takes a beating sometimes. Resolute Lessons allow a hero to recover from those beatings faster and keep on fighting. //Better name?
-
-**Aggressive Retort** [Avenger]  
-After you use a Counter ability, keep track of enemies said Counter damages. On your next turn, you have Boon 3 on any Attacks or Spells you attempt to use on those enemies.
-
-//TODO <<Rewrite Clotter [Resolute]>>
 
 **Curse Resistant** [Resolute]  
 The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect.
@@ -954,6 +927,7 @@ After taking damage in place of an ally--for example, when using an ability such
 
 **Furious Protector** [Defender]  
 Every time you take a blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, gain a stack of Fury. During your turn, any damage you deal is increased by your Fury (after applying Multipliers). This benefit increases as you raise your Hero Tier: the damage doubles every Hero Tier (so Fury x2 at tier 2, Fury x3 tier 3, and so on). This only works during your turn, meaning it does not affect Counter-type abilities, damage dealt by your Terrain effects, and similar sources of indirect damage. You lose all of your Fury stacks at the end of your turn.
+//TODO Consider making more uses for Fury.
 
 **Long Arm of Justice** [Avenger]  
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
@@ -985,9 +959,6 @@ These are techniques and traits that enable heroes use their spells to their gre
 **Advantageous Recovery** [Elementalist]  
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
 
-**Big Time Blaster** [Kineticist]  
-You may increase the area and range of your spells by doubling the spell’s cost. For single target spells, the area increases to one square. For area of effect spells, the spell affects twice as many squares. Applying this Approach counts as paying an Overload cost, even on skills that normally do not have the [Overload] tag.
-
 **Exploit Weakness** [Elementalist]  
 When you strike a foe’s elemental weakness, any damage you deal on your turn is increased by your Mind (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Mind each Hero Tier (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
 
@@ -1000,6 +971,7 @@ Whenever an opponent enters a square or moves through an edge affected by your T
 
 **Mana from Momentum** [Kineticist]  
 After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
+//TODO Consider if this is powerful enough
 
 **Superior Scanner** [Tactician]  
 When you use a Scan Ability, choose one of the following benefits.
@@ -1007,23 +979,10 @@ When you use a Scan Ability, choose one of the following benefits.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon 4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
 
-**Target Lock** [Kineticist]  
-/* Damage on this might be too low. Need to see how long fights last to evaluate. May experiment with it just being Mental Attack bonus? Would remove Tier scaling, but it might work if current damage is too low.  
-Also, this is a lot of text for one ability. Consider if it's worth the extra complexity.*/  
-Every time you successfully strike an opponent with an Ability, gain one stack of Target Lock. Your damaging Abilities do additional damage equal to your Target Lock stacks (after multipliers are applied). Stacks are recalculated AFTER damage is dealt. You lose all stacks of Target Lock if you use an Ability that hits anyone other than your current target. Area of Effect Abilities cannot build Target Lock stacks and remove any existing stacks.
-
-This benefit increases as you raise your Hero Tier: the extra damage doubles every Hero Tier (so Target Lock stacks x 2 at Hero Tier 2, Target Lock stacks x 3 at Hero Tier 3, and so on).
-
-Example: Merlin has Hero Tier 1, this Power, and has built up 3 Target Lock stacks on his current target. He uses an offense spell on the target again. The spell deals 3 additional damage, and then his Target Lock stacks increase to 4. Next turn, he uses an area of effect spell that includes the target with the Target Lock stacks as well as other opponents. This spell deals 4 additional damage to all targets it affects, but then his Target Lock stacks are removed.
-
 ## Matters of Heart
 These are talents and options that enable heroes to protect, heal, and empower their friends. These come in the following types.
-* Charmer - Charmer skills are for those heart-focused characters interested in limiting and damaging their foes instead.
 * Enabler - Enablers may not hit hard themselves, but their skills make it so that they impart greater power to their allies.
 * Healer - Often the lynchpin of a team, Healers mend wounds better than any other.
-
-**Elemental Infusion** [Enabler]  
-When you use an Ability that deals elemental damage to an enemy, you may also choose an ally. That ally’s next damaging Ability can either do its usual damage type, or the same type of damage you just did. This lasts until the end of your next turn.
 
 **Healing Rush** [Enabler]  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
@@ -1034,20 +993,11 @@ After you successfully heal an ally, choose one of the following effects. These 
 **Improved Healing** [Healer]  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
 
-**Hindering Strikes** [Charmer]  
-After you successfully damage an opponent, choose one of the following effects. These effects are put in place after the end of your turn and last until the beginning of your next turn (meaning you cannot utilize these benefits yourself under normal conditions).
-* Reduce the target’s Physical or Mental Attack by your Hero Tier.
-* Reduce the target’s Physical or Mental Defense by your Hero Tier.
-* The target is Staggered[v].
-
 **Overcharge** [Healer]  
 If your healing would bring your target above maximum HP, the target gains Shield to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
 
 **Pickup** [Healer]  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
-
-**Shared Pain** [Charmer]  
-If you deal damage on your turn to an enemy who damaged an ally since your last turn, that damage is increased by your Heart (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Heart each Hero Tier (so Heart x 2 at Hero Tier 2, Heart x 3 at Hero Tier 3, and so on).
 
 **Shared Power** [Enabler]  
 When you use an ability on an ally (such as a Healing spell or an Augment) that ally regains MP equal to your Heart or half the spell’s MP cost, whichever is lower (minimum 1). This benefit increases as you raise your Hero Tier: the MP restored increases by an amount equal to your Heart each Hero Tier (so Heart x 2 at Hero Tier 2, Heart x 3 at Hero Tier 3, and so on). It is still limited by half the spell’s MP cost at all levels.
@@ -1074,9 +1024,6 @@ Any target affected by a Ward you cast also gains Shield equal to your Soul. Thi
 **Double Ward** [Warden]  
 When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
 
-**Flash Curse** [Warlock]  
-When casting a Curse that requires a Major action, you may decrease it to a Minor action by increasing the cost. If the curse costs MP, you must pay the same amount in HP. If the curse costs HP, you must pay the same amount in MP. Applying this Technique counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
-
 **Fortifying Voice** [Augmentor]  
 When you target creatures with an Augment, all affected gain Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn.
 
@@ -1084,13 +1031,10 @@ When you target creatures with an Augment, all affected gain Shield equal to you
 Increase your Physical or Mental Attack by your Hero Tier when you cast a Curse. 
 
 **Siege Caster** [Geomancer]  
-If you have not moved between the beginning of your previous turn and your current turn, your Mental Attack increases by an amount equal to your Hero Tier.
+If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Attack increases by an amount equal to your Hero Tier.
 
 **Spell Sniper** [Geomancer]  
 If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
-
-**Striking Power** [Augmentor]  
-If an ally you have used an Augment spell on strikes with a single target Attack, that attack deals additional damage equal to your Soul (after multipliers are applied). This effect lasts until the beginning of your next turn. This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
 **Wide Ward** [Warden]  
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
