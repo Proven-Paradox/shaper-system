@@ -251,3 +251,65 @@ Special: As you gain Hero Tiers, you can increase the cost of this Ability. Ever
 If you use a higher cost reservation, you can choose to increase the activation cost of this Ability to make it more effective. If you’ve used a Tier 2 reservation, you can activate for 6 MP to heal HP equal to your Heart x 2. If you’ve used a Tier 3 reservation, you can activate for 9 MP to heal Heart x 3, and so on. You can still choose to use lower tier activations to heal less HP.  
 Alternatively, you may choose to spend a minor action to activate this aura’s effect without paying the activation cost.  
 Description: You radiate an aura that heals and invigorates allies. This could be an aura of healing light, playing music that soothes your allies, dispersing nano-machines that repair wounds and fix damaged systems, and other means of encouraging regeneration passively.
+
+## Old Powers
+
+**Rage Mage** [Berzerker]  
+Prerequisite: Anger  
+Though rare, some berzerkers focus on utilizing Spells over Attacks. The normal bonuses to Physical Attack while Enraged vanish, but in exchange the Multiplier on your Spells increases by 1 when you are Enraged.
+
+**Elusive Target** [Wanderer]  
+On a turn where you’ve moved, the first attack or spell against you has Bane with an intensity equal to 11 - your Hero Tier[l]. (Bane 10 at Hero Tier 1, Bane 9 at Hero Tier 2, and so on.) This caps at Bane 7 when you reach Hero Tier 4.
+
+**Freedom of Movement** [Wanderer]   
+Any attacks or checks made against you that would limit your movement (such as Grappling attacks, Abilities that apply the Staggered or Prone conditions, and the like) are made at Bane 8.
+//Need to develop this one more as I lay out more conditions. This works for now.
+
+**Long Shot** [Harrier]  
+If you target a foe with an Attack or Spell from at least Medium distance, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
+
+**Momentum** [Dervish]  
+Every time you successfully hit a target with an attack, you gain a point of Momentum. Your attacks do additional damage equal to your Momentum (after Multipliers are applied). Your Momentum resets at the start of your turn. If you utilize an attack that hits multiple targets, you choose what order the targets are struck (meaning you can hit the target you want to do the most damage to last in order to hit with maximum Momentum).
+
+**Prepared Strike** [Ambusher]  
+Attacks you make against targets who have not yet acted in combat have Boon 2. The Boon amount increases every Hero Tier (to Boon 3 at Tier 2, Boon 4 at Tier 3, and so on).
+
+**Waylay** [Ambusher]  
+If you strike a target who has not yet acted in combat, your damage multiplier on the target increases by your Hero Tier.
+
+**Aggressive Retort** [Avenger]  
+After you use a Counter ability, keep track of enemies said Counter damages. On your next turn, you have Boon 3 on any Attacks or Spells you attempt to use on those enemies.
+
+//TODO <<Rewrite Clotter [Resolute]>>
+
+**Big Time Blaster** [Kineticist]  
+You may increase the area and range of your spells by doubling the spell’s cost. For single target spells, the area increases to one square. For area of effect spells, the spell affects twice as many squares. Applying this Approach counts as paying an Overload cost, even on skills that normally do not have the [Overload] tag.
+
+**Target Lock** [Kineticist]  
+/* Damage on this might be too low. Need to see how long fights last to evaluate. May experiment with it just being Mental Attack bonus? Would remove Tier scaling, but it might work if current damage is too low.  
+Also, this is a lot of text for one ability. Consider if it's worth the extra complexity.*/  
+Every time you successfully strike an opponent with an Ability, gain one stack of Target Lock. Your damaging Abilities do additional damage equal to your Target Lock stacks (after multipliers are applied). Stacks are recalculated AFTER damage is dealt. You lose all stacks of Target Lock if you use an Ability that hits anyone other than your current target. Area of Effect Abilities cannot build Target Lock stacks and remove any existing stacks.
+
+This benefit increases as you raise your Hero Tier: the extra damage doubles every Hero Tier (so Target Lock stacks x 2 at Hero Tier 2, Target Lock stacks x 3 at Hero Tier 3, and so on).
+
+Example: Merlin has Hero Tier 1, this Power, and has built up 3 Target Lock stacks on his current target. He uses an offense spell on the target again. The spell deals 3 additional damage, and then his Target Lock stacks increase to 4. Next turn, he uses an area of effect spell that includes the target with the Target Lock stacks as well as other opponents. This spell deals 4 additional damage to all targets it affects, but then his Target Lock stacks are removed.
+
+**Elemental Infusion** [Enabler]  
+When you use an Ability that deals elemental damage to an enemy, you may also choose an ally. That ally’s next damaging Ability can either do its usual damage type, or the same type of damage you just did. This lasts until the end of your next turn.
+
+* Charmer - Charmer skills are for those heart-focused characters interested in limiting and damaging their foes instead.
+
+**Hindering Strikes** [Charmer]  
+After you successfully damage an opponent, choose one of the following effects. These effects are put in place after the end of your turn and last until the beginning of your next turn (meaning you cannot utilize these benefits yourself under normal conditions).
+* Reduce the target’s Physical or Mental Attack by your Hero Tier.
+* Reduce the target’s Physical or Mental Defense by your Hero Tier.
+* The target is Staggered[v].
+
+**Shared Pain** [Charmer]  
+If you deal damage on your turn to an enemy who damaged an ally since your last turn, that damage is increased by your Heart (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Heart each Hero Tier (so Heart x 2 at Hero Tier 2, Heart x 3 at Hero Tier 3, and so on).
+
+**Flash Curse** [Warlock]  
+When casting a Curse that requires a Major action, you may decrease it to a Minor action by increasing the cost. If the curse costs MP, you must pay the same amount in HP. If the curse costs HP, you must pay the same amount in MP. Applying this Technique counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
+
+**Striking Power** [Augmentor]  
+If an ally you have used an Augment spell on strikes with a single target Attack, that attack deals additional damage equal to your Soul (after multipliers are applied). This effect lasts until the beginning of your next turn. This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
