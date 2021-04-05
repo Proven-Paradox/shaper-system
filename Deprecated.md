@@ -212,6 +212,17 @@ While in a stance, harmful Abilities targeting you have Bane 10. On a round wher
 **Precision Strikes** [Discipline]  
 If you start a battle in a Stance, increase your Offensive Track by 1.
 
+**Thornwall**  
+Auxiliary [Terrain]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 of your current square’s edges  
+Cost: 2 MP  
+Duration: 3 rounds  
+Effect: Creatures who move through the affected edge gain Bleed 1.   They can avoid this condition by taking both a Minor and Major action to move through the affected edge.  
+Description: A basic obstruction to prevent or punish foes from moving through the area (though allies are affected just the same). This could be conjuring thorned vines, shaping the ground or walls into jagged spines, deploying a mechanical blade trap, and similar traps.  
+
 
 ## Momentum and Concealment (Chase scenes)
 The Quarry starts with a Concealment score equal to their Hero Tier + Finesse + Mind, and the Hunter starts with a Momentum score of Hero Tier + Strength + Soul. Different starting circumstances might modify these scores--a thief caught red handed might start with a much lower Concealment score for example.  

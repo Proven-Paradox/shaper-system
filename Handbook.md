@@ -711,17 +711,6 @@ Effect: The targeted square becomes impossible to see through for the duration. 
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.  
 
-**Thornwall**  
-Auxiliary [Terrain]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 of your current square’s edges  
-Cost: 2 MP  
-Duration: 3 rounds  
-Effect: Creatures who move through the affected edge gain Bleed 1.   They can avoid this condition by taking both a Minor and Major action to move through the affected edge.  
-Description: A basic obstruction to prevent or punish foes from moving through the area (though allies are affected just the same). This could be conjuring thorned vines, shaping the ground or walls into jagged spines, deploying a mechanical blade trap, and similar traps.  
-
 **Riposte**  
 Auxiliary [Counter]  
 Action: Minor  
