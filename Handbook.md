@@ -25,11 +25,11 @@
   - [Ability Series](#ability-series)
   - [Ability Keywords](#ability-keywords)
   - [Buff/Debuff Tracks](#buffdebuff-tracks)
-  - [List of Abilities](#list-of-abilities)
-- [Chapter 5: Skills](#chapter-5-Skills) 
+- [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
+- [Chapter 6: Skills](#chapter-6-Skills) 
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
-- [Chapter 6: Powers](#chapter-6-powers)  
+- [Chapter 7: Powers](#chapter-7-powers)  
   - [Feats of Strength](#feats-of-strength)
   - [Displays of Finesse](#displays-of-finesse)
   - [Tough Lessons](#tough-lessons)
@@ -37,7 +37,7 @@
   - [Matters of Heart](#matters-of-heart)
   - [Soulful Techniques](#soulful-techniques)
   - [General Powers](#general-powers)
-- [Chapter 7: Capstone Powers](#chapter-7-capstone-powers) 
+- [Chapter 8: Capstone Powers](#chapter-8-capstone-powers) 
   - [Strength Capstones](#strength-capstones)
   - [Finesse Capstones](#finesse-capstones)
   - [Toughness Capstones](#toughness-capstones)
@@ -45,14 +45,14 @@
   - [Heart Capstones](#heart-capstones)
   - [Soul Capstones](#soul-capstones)
   - [General Capstones](#general-capstones)
-- [Chapter 8: Utilities](#chapter-8-utilities)  
+- [Chapter 9: Utilities](#chapter-9-utilities)  
   - [Skill-based Utilities](#skill-based-utilities)
   - [Other Utilities](#other-utilities)
-- [Chapter 9: Combat](#chapter-9-combat) 
+- [Chapter 10: Combat](#chapter-10-combat) 
   - [Time in Combat](#time-in-combat)
   - [Moving and Positioning](#moving-and-positioning)
   - [Chasing rules](#chasing-rules)
-- [Chapter 10: Exploration](#chapter-10-exploration)
+- [Chapter 11: Exploration](#chapter-11-exploration)
 - [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery) 
   - [What are HP?](#what-are-hp)
   - [What Types of Damage are There?](#what-types-of-damage-are-there)
@@ -323,7 +323,7 @@ The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense 
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
-## List of Abilities
+# Chapter 5: List of Abilities
 ### Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
@@ -737,7 +737,7 @@ Description: Preparing a basic counterattack. This could consist of quickly stri
 Coming soon! Eventually. Maybe?
 <Cheap shot, Bull rush>
 ________________
-# Chapter 5: Skills
+# Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
 
 Your maximum number of Skill Points that can be invested into any one Skill is equal to your Character Level + 3.  
@@ -841,7 +841,7 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 
 ***
 
-# Chapter 6: Powers
+# Chapter 7: Powers
 Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.  
 Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
 
@@ -1050,7 +1050,7 @@ You are able to sense and identify wards placed by enemies accurately.
 Special: This Power costs 3 XP.
 
 *** 
-# Chapter 7: Capstone Powers
+# Chapter 8: Capstone Powers
 Similarly to standard Powers, Capstone Powers are divided into group based on Attributes, as well as an extra category for those not strongly tied to one Attribute.
 
 ## Strength Capstones
@@ -1137,7 +1137,7 @@ This Capstone makes the Hover and Slow Fall Utilities redundant. If you previous
 **Shrug it Off**  
 You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
 ***
-# Chapter 8: Utilities
+# Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
 //I’ll figure out how I want to organize these better when I’ve written more of them I think
 
@@ -1264,7 +1264,7 @@ You have a innate ability to sense supernatural influences. This can be angelic,
 XP Cost: 4  
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 ***
-# Chapter 9: Combat
+# Chapter 10: Combat
 <Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.>//
 
 ## Time in Combat
@@ -1330,7 +1330,7 @@ If you fail in this Stealth check, you lose one point of Concealment.
 #### Chase Participation after Losing Them
 If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
 ***
-# Chapter 10: Exploration
+# Chapter 11: Exploration
 // TODO Figure out what goes here, I’m not sure
 
 ***
