@@ -382,84 +382,19 @@ Effect: If this attack succeeds, move your target one square.
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 ## Tier 1
-**Shoot**  
-Attack [Ranged] [Careful]  
-Action: Major (and Minor)  
-Prerequisites: None  
-Range: Long  
-Targets: 1 enemy  
-Cost: 1 MP  
-Damage: x1 (Physical)  
-Special: If you also use your minor action this attack is made with Boon 1.  
-Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-//TODO Reconsider if Boon is needed
-
-**Snipe**  
-Attack [Ranged]  
-Action: Major  
-Prerequisites: Shoot  
-Range: Long  
-Targets: 1 enemy  
-Cost: 3 MP  
-Damage: x2 (Physical)  
-Special: This attack has Boon 3. You cannot use this attack on a turn where you have moved.  
-Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
-
-**Volley**  
-Attack [Ranged]  
-Action: (Major)  
-Prerequisites: Shoot  
-Range: Medium  
-Targets: 1 square  
-Cost: 4 MP  
-Damage: x1 (Physical)  
-Special: None  
-Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
-
-**Heavy Strike**  
-Attack [Powerful] [Overload]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 3 HP (2 HP Overload)  
-Damage: x2 (Physical)  
-Special: If you pay the Overload cost and your attack result is at least 5, you knock your target Prone.  
-Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
-
-**Sweeping Strike**  
-Attack [Powerful]  
-Action: Major  
-Prerequisites: Heavy Strike  
-Range: Melee  
-Targets: Up to 3 enemies  
-Cost: 3 HP  
-Damage: x1 (Physical)  
-Special: None  
-Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
-
-**Reckless Strike**  
-Attack [Powerful]  
-Action: Major  
-Prerequisites: Heavy Strike  
-Range: Melee  
-Targets: 1 enemy  
-Cost: None  
-Damage: x2 (Physical)  
-Special: Until your next turn, enemy attacks and spells targeting you have Boon 4.  
-Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
-
-**Quick Strike**  
-Attack [Skilled]  
+**Cleanse**  
+Auxiliary  
 Action: Minor  
 Prerequisites: None  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 4 MP  
-Damage: 1x (Physical)  
-Special: None  
-Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.  
-
+Range: Short  
+Targets: One ally  
+Cost: 2 MP  
+Duration: None  
+Effect: Choose one of the following:  
+* Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.
+* Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.
+* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
+Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 **Double Strike**  
 Attack [Skilled]  
@@ -471,53 +406,6 @@ Cost: 2 MP
 Damage: x1 (Physical)  
 Special: When you use this ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
-
-**Mobile Strike**  
-Attack [Skilled] [Overload]  
-Action: Major  
-Prerequisites: Quick Strike  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 1 MP (Overload 2 HP)  
-Damage: x1 (Physical)  
-Special: You may move one square before or after you make your attack roll.  
-If you pay the Overload cost, you may move a square both before AND after.  
-Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.  
-
-**Grapple**  
-Attack [Grappler]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 4 MP  
-Damage: x1 (Physical)  
-
-Special: This attack succeeds, you begin Grappling with the target.  
-Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
-// TODO Reconsider balance without boon
-
-**Suplex**  
-Attack [Grappler]  
-Action: Major  
-Prerequisites: Grapple  
-Range: Melee  
-Targets: 1 grappled enemy  
-Cost: 2 HP  
-Damage: x2 (Physical)  
-Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon 2.  
-Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.  
-
-**Throw**  
-Attack [Grappler]  
-Action: Major  
-Prerequisites: Grapple  
-Range: Melee  
-Targets: 1 grappled enemy, 1 non-grappled enemy  
-Cost: 2 MP  
-Damage: x1 (Physical)  
-Special: Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grappling your original target.
-Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.  
 
 **Elemental Dart**
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
@@ -531,6 +419,112 @@ Special:  The first time you gain an Ability with the [Elemental] tag, you also 
 If you pay the Overload cost, your damage multiplier becomes 2.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
+**Empower**  
+Auxiliary [Augment] [Overload]  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One ally  
+Cost: 2 MP (Overload 6 MP)  
+Duration: None  
+Effect: The target gains one point on the Offensive Track.
+Special: If you pay the Overload cost, you may use this ability as a minor action.  
+Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
+
+**Enfeeble**  
+Attack/Spell [Curse] [Overload] (See Special)  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One enemy  
+Cost: 1 MP (Overload 4 MP)  
+Duration: None  
+Effect: The target loses one point on the Offensive Track.
+Special: If you pay the Overload cost, you may use this ability as a minor action.  
+You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
+Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
+
+**Entangle**  
+Auxiliary [Terrain] [Careful]  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 Square  
+Cost: 1 MP  
+Duration: 1 round (Careful 3 rounds)  
+Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action. 
+Special: If you also use your minor action, the duration increases to 3 rounds.  
+Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
+
+**Expose**  
+Attack/Spell [Curse] [Overload] (See Special)  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One enemy  
+Cost: 1 MP (Overload 4 MP)  
+Duration: None  
+Effect: The target loses one point on the Defensive Track.
+Special: If you pay the Overload cost, you may use this ability as a minor action.  
+You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
+Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
+
+**Fortify**  
+Auxiliary [Augment] [Overload]  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Medium  
+Targets: One ally  
+Cost: 2 MP (Overload 6 MP)  
+Duration: None  
+Effect: The target gains one point on the Defensive Track.
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
+Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
+
+**Grapple**  
+Attack [Grappler]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 4 MP  
+Damage: x1 (Physical)  
+
+Special: This attack succeeds, you begin Grappling with the target.  
+Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
+
+**Healing Touch**  
+Auxiliary [Healing] [Overload]  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 Ally  
+Cost: 2 MP (Overload 4 MP)  
+Effect: The target regains HP equal to a ten-sided die roll.  
+Special: If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
+Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
+
+**Healing Word**  
+Auxiliary [Healing] [Careful]  
+Action: Major  
+Prerequisites: None  
+Range: Medium (Careful: Long, see special)  
+Targets: 1 Ally  
+Cost: 2 MP  
+Effect: The target regains HP equal to a ten-sided die roll.
+Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this ability from a Long range if done with Careful.  
+Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
+
+**Heavy Strike**  
+Attack [Powerful] [Overload]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 3 HP (2 HP Overload)  
+Damage: x2 (Physical)  
+Special: If you pay the Overload cost and your attack result is at least 5, you knock your target Prone.  
+Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 **Kinetic Dart**  
 Spell [Kinetic]  
@@ -563,7 +557,52 @@ Targets: 2 adjacent squares
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
 Special: If you spend your minor action while using this ability, the MP cost is reduced to 4.  
-Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.  
+Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
+
+**Mobile Strike**  
+Attack [Skilled] [Overload]  
+Action: Major  
+Prerequisites: Quick Strike  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 1 MP (Overload 2 HP)  
+Damage: x1 (Physical)  
+Special: You may move one square before or after you make your attack roll.  
+If you pay the Overload cost, you may move a square both before AND after.  
+Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
+
+**Quick Strike**  
+Attack [Skilled]  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 4 MP  
+Damage: 1x (Physical)  
+Special: None  
+Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
+
+**Reckless Strike**  
+Attack [Powerful]  
+Action: Major  
+Prerequisites: Heavy Strike  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x2 (Physical)  
+Special: Until your next turn, enemy attacks and spells targeting you have Boon 4.  
+Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
+
+**Riposte**  
+Auxiliary [Counter]  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: Self  
+Cost: 1 MP  
+Duration: 1 round  
+Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal one damage to them.  
+Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 **Scan**
 Auxiliary [Scan] [Careful]  
@@ -576,57 +615,97 @@ Duration: None
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Special:If you spend your major action while using this ability, you remove the MP cost entirely.  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon 3.  
-Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.  
+Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
-**Fortify**  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
+**Shoot**  
+Attack [Ranged] [Careful]  
+Action: Major (and Minor)  
 Prerequisites: None  
-Range: Medium  
-Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
-Duration: None  
-Effect: The target gains one point on the Defensive Track.
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
-Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
-  
-**Empower**  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
-Duration: None  
-Effect: The target gains one point on the Offensive Track.
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
-Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.  
+Range: Long  
+Targets: 1 enemy  
+Cost: 1 MP  
+Damage: x1 (Physical)  
+Special: If you also use your minor action this attack is made with Boon 1.  
+Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
+//TODO Reconsider if Boon is needed
 
-**Expose**  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Medium  
-Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
-Duration: None  
-Effect: The target loses one point on the Defensive Track.
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
-Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.  
+**Snipe**  
+Attack [Ranged]  
+Action: Major  
+Prerequisites: Shoot  
+Range: Long  
+Targets: 1 enemy  
+Cost: 3 MP  
+Damage: x2 (Physical)  
+Special: This attack has Boon 3. You cannot use this attack on a turn where you have moved.  
+Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
-**Enfeeble**  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
+**Suplex**  
+Attack [Grappler]  
+Action: Major  
+Prerequisites: Grapple  
+Range: Melee  
+Targets: 1 grappled enemy  
+Cost: 2 HP  
+Damage: x2 (Physical)  
+Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon 2.  
+Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
+
+**Sustain**  
+Auxiliary [Augment]  
+Action: Minor  
 Prerequisites: None  
 Range: Medium  
-Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
-Duration: None  
-Effect: The target loses one point on the Offensive Track.
+Targets: 1 ally  
+Cost: 2 MP  
+Effect: The target advances 2 spaces on the regen/degen track.  
+Special: You may only use this Ability once per turn.  
+Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
+
+**Sweeping Strike**  
+Attack [Powerful]  
+Action: Major  
+Prerequisites: Heavy Strike  
+Range: Melee  
+Targets: Up to 3 enemies  
+Cost: 3 HP  
+Damage: x1 (Physical)  
+Special: None  
+Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
+
+**Throw**  
+Attack [Grappler]  
+Action: Major  
+Prerequisites: Grapple  
+Range: Melee  
+Targets: 1 grappled enemy, 1 non-grappled enemy  
+Cost: 2 MP  
+Damage: x1 (Physical)  
+Special: Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grappling your original target.
+Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
+
+**Veil**  
+Auxiliary [Terrain] [Overload]  
+Action: Major (Overload Minor)  
+Prerequisites: None  
+Range: Short  
+Targets: 1 Square  
+Cost: 2 MP (Overload 5 MP)  
+Duration: 3 rounds  
+Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are Blinded and Obscured.  
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
-Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
+Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
+
+**Volley**  
+Attack [Ranged]  
+Action: (Major)  
+Prerequisites: Shoot  
+Range: Medium  
+Targets: 1 square  
+Cost: 4 MP  
+Damage: x1 (Physical)  
+Special: None  
+Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 **Ward**  
 Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
@@ -640,92 +719,8 @@ Effect: Any hostile Abilities of the ward’s type attacks against an affected a
 Special: You can select this ability multiple times. Each time you do, choose one of the following: Ice and Fire, Earth and Sky, Light and Dark. You may make this Ward protect against the chosen type of damage. You cannot use a given element that you haven’t yet chosen.  
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
-**Cleanse**  
-Auxiliary  
-Action: Minor  
-Prerequisites: None  
-Range: Short  
-Targets: One ally  
-Cost: 2 MP  
-Duration: None  
-Effect: Choose one of the following:  
-* Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.
-* Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.
-* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
-
-Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.  
-
-**Healing Word**  
-Auxiliary [Healing] [Careful]  
-Action: Major  
-Prerequisites: None  
-Range: Medium (Careful: Long, see special)  
-Targets: 1 Ally  
-Cost: 2 MP  
-Effect: The target regains HP equal to a ten-sided die roll.
-Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this ability from a Long range if done with Careful.  
-Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
-
-**Healing Touch**  
-Auxiliary [Healing] [Overload]  
-Action: Minor  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 Ally  
-Cost: 2 MP (Overload 4 MP)  
-Effect: The target regains HP equal to a ten-sided die roll.  
-Special: If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
-Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions.  
-
-**Sustain**  
-Auxiliary [Augment]  
-Action: Minor  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 2 MP  
-Effect: The target advances 2 spaces on the regen/degen track.  
-Special: You may only use this Ability once per turn.  
-Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.  
-
-**Entangle**  
-Auxiliary [Terrain] [Careful]  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: 1 Square  
-Cost: 1 MP  
-Duration: 1 round (Careful 3 rounds)  
-Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action. 
-Special: If you also use your minor action, the duration increases to 3 rounds.  
-Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
-
-**Veil**  
-Auxiliary [Terrain] [Overload]  
-Action: Major (Overload Minor)  
-Prerequisites: None  
-Range: Short  
-Targets: 1 Square  
-Cost: 2 MP (Overload 5 MP)  
-Duration: 3 rounds  
-Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are Blinded and Obscured.  
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
-Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.  
-
-**Riposte**  
-Auxiliary [Counter]  
-Action: Minor  
-Prerequisites: None  
-Range: Melee  
-Targets: Self  
-Cost: 1 MP  
-Duration: 1 round  
-Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal one damage to them.  
-Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
-
 ## Tier 2
 Coming soon! Eventually. Maybe?
-<Cheap shot, Bull rush>
 ________________
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
