@@ -18,7 +18,27 @@ Special: None
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
 #### Default Strike
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x1 (Physical)  
+Special: None  
+Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
+
 ##### Default Strike
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x1 (Physical)  
+Special: None  
+Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
+
 ###### Default Strike  
 Attack  
 Action: Major  
