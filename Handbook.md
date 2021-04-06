@@ -323,8 +323,9 @@ The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense 
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
+
 # Chapter 5: List of Abilities
-### Tier 0
+## Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
 
@@ -380,7 +381,7 @@ Damage: x0 (Physical)
 Effect: If this attack succeeds, move your target one square.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
-### Tier 1
+## Tier 1
 **Shoot**  
 Attack [Ranged] [Careful]  
 Action: Major (and Minor)  
@@ -564,7 +565,7 @@ Damage: x1 (Physical)
 Special: If you spend your minor action while using this ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.  
 
-**Basic Scan**
+**Scan**
 Auxiliary [Scan] [Careful]  
 Action: Minor  
 Prerequisites: None  
@@ -627,7 +628,7 @@ Special: If you pay the Overload cost, you may use this ability as a minor actio
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
-**Basic Ward**  
+**Ward**  
 Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
 Action: Minor  
 Prerequisites: None  
