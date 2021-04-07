@@ -560,6 +560,16 @@ Damage: x1 (Physical)
 Special: If you spend your minor action while using this ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
+**Lock**  
+Auxiliary  
+Action: Minor  
+Range: Long  
+Targets: 1 enemy  
+Cost: 1 MP (Upkeep: 0 MP)  
+Special: You Lock On to the target. By default, this does nothing, but some Powers influence Lock On.  
+When you first learn the Lock Ability, you also gain one of the following Powers: Defensive Lock, Offensive Lock, Pursuit Lock
+Description: Focusing on one target. This may be a matter of meditative discipline, deploying a targetting AI, or some other way of singling out a foe for particular focus.
+
 **Mobile Strike**  
 Attack [Skilled] [Overload]  
 Action: Major  
@@ -931,6 +941,7 @@ When you use a Scan Ability, choose one of the following benefits.
 * You scan all targets in one square
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon 4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
+* You Lock On to the target. Lock On applied in this way has Upkeep 0.
 
 ## Matters of Heart
 These are talents and options that enable heroes to protect, heal, and empower their friends. These come in the following types.
@@ -987,10 +998,19 @@ If you have not moved between the beginning of your previous turn and your curre
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 ## General Powers
+**Defensive Lock**  
+When being attacked by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
+
 **Elemental Attunement**  
 When you gain this power, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
 Special: You may take this Power more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
 Every additional instance of this Power costs 3 XP.
+
+**Offensive Lock**  
+When attacking a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
+
+**Pursuit Lock**
+Once per round, when an opponent you have Locked On to moves, you may choose to follow them. This is only possible if the Locked On foe is within Short distance.
 
 **Wardsense**  
 You are able to sense and identify wards placed by enemies accurately.  
