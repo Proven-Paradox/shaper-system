@@ -846,25 +846,14 @@ When you successfully kill or knock out a foe, your next attack is made at Boon 
 **Masochism** [Devourer]  
 Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
-**Merciless** [Brute]  
-When you strike a foe that is Prone, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
-
 **Relentless** [Brute]  
 When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target cannot move until your next turn.
 //TODO: Look at the cannot move condition
 
-**Spite** [Berzerker]  
-When you strike a foe that did damage to you between the end of your previous turn and the beginning of the current turn with an Attack, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
-
 **Sadism** [Devourer]  
 When you kill or knock out a foe, increase your Offensive Track by 1.
-
-**Wrestler** [Brute]  
-While you are Grappling, you gain the following benefits:
-* Any damage you deal on your turn to the target you are Grappling is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
-* You can choose to immediately end the Grappling condition on yourself and the Grappled condition on your victim when you are targeted by any other creature. This uses no action and negates any benefits the other creature would have gained from the Grappling condition.
 
 ## Displays of Finesse
 These are passive talents that enable heroes to act as quick, mobile, skilled adventurers. These come in five types.
@@ -879,17 +868,8 @@ When you move as a Major action, you can choose to move two squares instead of o
 **First to Act** [Ambusher]  
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
 
-**Follow Up** [Dervish]  
-If you strike a foe with an Attack or Spell, mark that foe for a Follow Up. If you strike a marked foe again in the same round, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
-
 **Hit and Run** [Harrier]  
 When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
-
-**One Against Many** [Dervish]  
-When you strike a foe for the first time in a round with a single target Attack or Spell, you gain a point of One Against Many. If you attack a different target in the same round, you increase your Physical or Mental Attack by your One Against Many stacks.
-
-**Safe Strike** [Harrier]  
-If you have Cover or are in the same space as an ally who has Taunt, any damage you deal on your turn is increased by your Finesse (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
 
 ## Tough Lessons
 These are techniques and traits that help a hero take hits for the team or punish foes for attacking them. 
@@ -899,7 +879,7 @@ These are techniques and traits that help a hero take hits for the team or punis
 * **Resolute** - Even the sturdiest fighter takes a beating sometimes. Resolute Lessons allow a hero to recover from those beatings faster and keep on fighting. //Better name?
 
 **Curse Resistant** [Resolute]  
-The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect.
+The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 
 **Deadened Nerves** [Hulk]  
 Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
@@ -910,10 +890,6 @@ Reduce all damage you take (after multipliers are applied) by your half your Tou
 After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
 //See comments on Deadened Nerves
 
-**Furious Protector** [Defender]  
-Every time you take a blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, gain a stack of Fury. During your turn, any damage you deal is increased by your Fury (after applying Multipliers). This benefit increases as you raise your Hero Tier: the damage doubles every Hero Tier (so Fury x2 at tier 2, Fury x3 tier 3, and so on). This only works during your turn, meaning it does not affect Counter-type abilities, damage dealt by your Terrain effects, and similar sources of indirect damage. You lose all of your Fury stacks at the end of your turn.
-//TODO Consider making more uses for Fury.
-
 **Long Arm of Justice** [Avenger]  
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
@@ -922,9 +898,6 @@ Increase any HP restoration you receive by half.
 
 **Resilient Protector** [Defender]  
 When you take a would blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
-
-**Strikeback** [Avenger]  
-When you deal damage with a Counter Ability, double that damage. //Maybe too strong?
 
 **Thick Skin** [Hulk]  
 You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
@@ -944,15 +917,9 @@ These are techniques and traits that enable heroes use their spells to their gre
 **Advantageous Recovery** [Elementalist]  
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
 
-**Exploit Weakness** [Elementalist]  
-When you strike a foe’s elemental weakness, any damage you deal on your turn is increased by your Mind (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Mind each Hero Tier (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
-
 **Extended Duration Obstacles** [Tactician]  
 Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
 // Need to keep an eye on scaling here
-
-**Hazardous Terrain** [Tactician]  
-Whenever an opponent enters a square or moves through an edge affected by your Terrain effects, they take damage equal to your Mind. (Allies are not affected by this, but are still affected by the Terrain effect as normal.)
 
 **Mana from Momentum** [Kineticist]  
 After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
@@ -984,9 +951,6 @@ If your healing would bring your target above maximum HP, the target gains Shiel
 **Pickup** [Healer]  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
 
-**Shared Power** [Enabler]  
-When you use an ability on an ally (such as a Healing spell or an Augment) that ally regains MP equal to your Heart or half the spell’s MP cost, whichever is lower (minimum 1). This benefit increases as you raise your Hero Tier: the MP restored increases by an amount equal to your Heart each Hero Tier (so Heart x 2 at Hero Tier 2, Heart x 3 at Hero Tier 3, and so on). It is still limited by half the spell’s MP cost at all levels.
-
 ## Soulful Techniques
 These are techniques and traits that enable heroes to protect allies and crush foes in equal measure. These come five types.
 * Augmentor - Characters who support and empower their allies will find use for these Powers.
@@ -1011,9 +975,6 @@ When you use a single target Ward that requires you to choose a single type of e
 
 **Fortifying Voice** [Augmentor]  
 When you target creatures with an Augment, all affected gain Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn.
-
-**Reliable Ruin** [Warlock]  
-Increase your Physical or Mental Attack by your Hero Tier when you cast a Curse. 
 
 **Siege Caster** [Geomancer]  
 If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Attack increases by an amount equal to your Hero Tier.

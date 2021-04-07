@@ -324,3 +324,45 @@ When casting a Curse that requires a Major action, you may decrease it to a Mino
 
 **Striking Power** [Augmentor]  
 If an ally you have used an Augment spell on strikes with a single target Attack, that attack deals additional damage equal to your Soul (after multipliers are applied). This effect lasts until the beginning of your next turn. This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
+
+
+---------------
+
+**Merciless** [Brute]  
+When you strike a foe that is Prone, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
+
+**Spite** [Berzerker]  
+When you strike a foe that did damage to you between the end of your previous turn and the beginning of the current turn with an Attack, any damage you deal on your turn is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
+
+**Wrestler** [Brute]  
+While you are Grappling, you gain the following benefits:
+* Any damage you deal on your turn to the target you are Grappling is increased by your Strength (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Strength each Hero Tier (so Strength x 2 at Hero Tier 2, Strength x 3 at Hero Tier 3, and so on).
+* You can choose to immediately end the Grappling condition on yourself and the Grappled condition on your victim when you are targeted by any other creature. This uses no action and negates any benefits the other creature would have gained from the Grappling condition.
+
+**Follow Up** [Dervish]  
+If you strike a foe with an Attack or Spell, mark that foe for a Follow Up. If you strike a marked foe again in the same round, you deal additional damage equal to your Finesse (after Multipliers are applied). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
+
+**One Against Many** [Dervish]  
+When you strike a foe for the first time in a round with a single target Attack or Spell, you gain a point of One Against Many. If you attack a different target in the same round, you increase your Physical or Mental Attack by your One Against Many stacks.
+
+**Safe Strike** [Harrier]  
+If you have Cover or are in the same space as an ally who has Taunt, any damage you deal on your turn is increased by your Finesse (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Finesse each Hero Tier (so Finesse x 2 at Hero Tier 2, Finesse x 3 at Hero Tier 3, and so on).
+
+**Furious Protector** [Defender]  
+Every time you take a blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, gain a stack of Fury. During your turn, any damage you deal is increased by your Fury (after applying Multipliers). This benefit increases as you raise your Hero Tier: the damage doubles every Hero Tier (so Fury x2 at tier 2, Fury x3 tier 3, and so on). This only works during your turn, meaning it does not affect Counter-type abilities, damage dealt by your Terrain effects, and similar sources of indirect damage. You lose all of your Fury stacks at the end of your turn.
+//TODO Consider making more uses for Fury.
+
+**Strikeback** [Avenger]  
+When you deal damage with a Counter Ability, double that damage. //Maybe too strong?
+
+**Exploit Weakness** [Elementalist]  
+When you strike a foe’s elemental weakness, any damage you deal on your turn is increased by your Mind (after applying multipliers). This benefit increases as you raise your Hero Tier: the damage increases by an amount equal to your Mind each Hero Tier (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
+
+**Hazardous Terrain** [Tactician]  
+Whenever an opponent enters a square or moves through an edge affected by your Terrain effects, they take damage equal to your Mind. (Allies are not affected by this, but are still affected by the Terrain effect as normal.)
+
+**Shared Power** [Enabler]  
+When you use an ability on an ally (such as a Healing spell or an Augment) that ally regains MP equal to your Heart or half the spell’s MP cost, whichever is lower (minimum 1). This benefit increases as you raise your Hero Tier: the MP restored increases by an amount equal to your Heart each Hero Tier (so Heart x 2 at Hero Tier 2, Heart x 3 at Hero Tier 3, and so on). It is still limited by half the spell’s MP cost at all levels.
+
+**Reliable Ruin** [Warlock]  
+Increase your Physical or Mental Attack by your Hero Tier when you cast a Curse. 
