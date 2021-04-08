@@ -979,35 +979,25 @@ When you use a single target Ward that normally has a Minor action requirement, 
 
 *** 
 # Chapter 8: Capstone Powers
-Similarly to standard Powers, Capstone Powers are divided into group based on Attributes, as well as an extra category for those not strongly tied to one Attribute.
+A character gains a Capstone Powers for free when gaining a level divisible by 5 (level 5, 10, 15, ...).
 
-## Strength Capstones
-**Heavy Hitter**  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a Result of 10 or higher, you can choose one of the following extra effects.
-* Knock your target(s) prone.
-* Stagger your target(s) for a number of rounds equal to your Strength
-* Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
-
-//Not sure about that 10 result.
-
-**Overwhelming Evoker**  
-You have perfected an unusual spellcasting style that enables you to put the power of your muscles behind every spell you cast. You may use Strength in place of Soul when determining your Mental Attack.
-
-**Power Mage**  
-You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
-
-## Finesse Capstones
 **Arcane Evasion**  
 Your agility aids you in evading magical effects. You may use your Finesse in place of Mind to determine your Mental Defense.
+
+**Body and Soul**  
+Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
 
 **But Seriously, Me First**  
 When called to make an Initiative check, you may choose to count one of your two 10 sided dice as an automatic 10. You still roll both die and presumably choose to turn the lower of the two into a 10. You can do this after seeing the result of Boon and Bane rerolls.  
 //Keeping my eye on this one. May be too much.
 
-**Spell Sniper**  
-You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Attack.
+**Curse Eater**  
+When a target suffering from a Curse you cast dies or is knocked out, you immediately heal HP and MP equal to twice your Soul. This healing increases by an amount equal to your twice your Soul each Hero Tier (so Soul x 4 at Hero Tier 2, Soul x 6 at Hero Tier 3, and so on).  
+//Maybe not enough to be a capstone? Will consider additional effects.
 
-## Toughness Capstones
+**Death Dealer**  
+Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
+
 **Endurance Mage**  
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
@@ -1015,17 +1005,12 @@ You can draw energy from your body to fuel your abilities. You may use your Toug
 At the beginning of every turn, you regain HP equal to your Toughness. If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 //Scaling?
 
-**Matter over Mind**  
-Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
+**Finesse Caster**  
+You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Attack.
 
-## Mind Capstones
-**Intelligent Avoidance**  
-You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
-
-**Measured Strikes**  
-You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Attack.
-
-## Heart Capstones
+**Flight**  
+Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
+This Capstone makes the Hover and Slow Fall Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
 
 **Healing Hands**  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
@@ -1037,33 +1022,40 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 **Heartmage**  
 You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Attack.
 
+**Heavy Hitter**  
+You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a Result of 10 or higher, you can choose one of the following extra effects.
+* Knock your target(s) prone.
+* Stagger your target(s) for a number of rounds equal to your Strength
+* Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
+//Not sure about that 10 result.
+
+**Intelligent Avoidance**  
+You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
+
+**Matter over Mind**  
+Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
+
+**Measured Strikes**  
+You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Attack.
+
+**Overwhelming Evoker**  
+You have perfected an unusual spellcasting style that enables you to put the power of your muscles behind every spell you cast. You may use Strength in place of Soul when determining your Mental Attack.
+
+**Power Mage**  
+You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
+
 **Serene Health**  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
 
-## Soul Capstones
-**Body and Soul**  
-Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
-
-**Curse Eater**  
-When a target suffering from a Curse you cast dies or is knocked out, you immediately heal HP and MP equal to twice your Soul. This healing increases by an amount equal to your twice your Soul each Hero Tier (so Soul x 4 at Hero Tier 2, Soul x 6 at Hero Tier 3, and so on).  
-//Maybe not enough to be a capstone? Will consider additional effects.
-
-**Everlasting Warden**  
-When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.
+**Shrug it Off**  
+You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
 
 **Soul Well**  
 You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Mind to determine your MP.
 
-## General Capstones
-**Death Dealer**  
-Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
+**Ward Recycling**  
+When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.
 
-**Flight**  
-Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
-This Capstone makes the Hover and Slow Fall Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
-
-**Shrug it Off**  
-You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
 ***
 # Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
