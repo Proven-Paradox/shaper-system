@@ -840,183 +840,142 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 ***
 
 # Chapter 7: Powers
-Broadly speaking, powers come in seven varieties: One category for each of the six Attributes, as well as a seventh category for miscellaneous Powers that aren’t associated with an Attribute. These categories are further subdivided into thematically linked groups. You may mix and match freely from these Powers as you see fit. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.  
-Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
+Broadly speaking, Powers represent passive combat benefits or extra options available to someone trained in specific style of combat. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.  
+Powers cost 5 XP unless an exception is listed.
 
-## Feats of Strength
-These are techniques and traits that allow heroes focused on Strength to punch through their foes. These come in five types. 
-* **Brute** - Unsubtle but effective, these Feats allow for heros to act as brawlers and bullies, forcing foes to move as they want and beat them into the ground.
-* **Devourer** - These Feats are for heroes who revel in blood and death. Slaying enemies with the Devourer line allows the hero to restore their own vitality and empower them when they spill their own blood to damage foes.
-* **Berzerker** - These Feats focus on momentum and power, pressing the advantage, and throwing oneself fully into battle without regard for one’s own safety. Berzerker Feats require one to continuously receive damage to utilize.
-
-**Anger** [Berzerker]  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Attack increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Attack bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
-
-**Bloodlust** [Devourer]  
-When you successfully kill or knock out a foe, your next attack is made at Boon 6.  
-//Implement some form of scaling? Kind of dangerous for passives
-
-**Masochism** [Devourer]  
-Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
-
-**Relentless** [Brute]  
-When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
-* You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target cannot move until your next turn.
-//TODO: Look at the cannot move condition
-
-**Sadism** [Devourer]  
-When you kill or knock out a foe, increase your Offensive Track by 1.
-
-## Displays of Finesse
-These are passive talents that enable heroes to act as quick, mobile, skilled adventurers. These come in five types.
-* **Ambusher** - These Powers are for heroes who want to ensure they get the first strike in--and that those first strikes are more likely to be the last.
-* **Dervish** - These Powers focus on making consecutive attacks and dealing death with a thousand cuts.
-* **Harrier** - Some may call it cowardly. Others call it smart. These talents allow a hero to strike best from cover or from a distance, where they can attack safely.
-* **Wanderer** - Heroes who move quickly across the battlefield and resist ever being pinned down.
-
-**Dash** [Wanderer]  
-When you move as a Major action, you can choose to move two squares instead of one.
-
-**First to Act** [Ambusher]  
-Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
-
-**Hit and Run** [Harrier]  
-When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
-
-## Tough Lessons
-These are techniques and traits that help a hero take hits for the team or punish foes for attacking them. 
-* **Avenger** - These techniques help heroes turn the tide by countering their foes’ attacks.
-* **Defender** - These Lessons reward taking damage in place of more fragile allies.
-* **Hulk** - Everyone takes hits in life. Heroes who emphasize Hulk Lessons take them better than anyone else.
-* **Resolute** - Even the sturdiest fighter takes a beating sometimes. Resolute Lessons allow a hero to recover from those beatings faster and keep on fighting. //Better name?
-
-**Curse Resistant** [Resolute]  
-The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
-
-**Deadened Nerves** [Hulk]  
-Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
-//Need to monitor this. Don’t want it to be strictly stronger than Enduring Protector.  
-//If this isn’t doing enough, maybe I need to increase both this and Enduring Protector benefits?
-
-**Enduring Protector** [Defender]  
-After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
-//See comments on Deadened Nerves
-
-**Long Arm of Justice** [Avenger]  
-Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
-
-**Quick Healer** [Resolute]  
-Increase any HP restoration you receive by half.
-
-**Resilient Protector** [Defender]  
-When you take a would blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
-
-**Thick Skin** [Hulk]  
-You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
-
-**Walk it Off** [Hulk]  
-Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
-//TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
-
-## Mindful Approaches
-These are techniques and traits that enable heroes use their spells to their greatest potential. These come in five types.
-* Elementalist - These Powers make it easier and more effective to strike with elemental spells, especially when targeting a foe’s weakness.
-* Kineticist - Powers for those heroes who want to cast spells faster or further reaching instead of better.
-* Summoner - These approach emphasize utilizing summoned allies (generated by certain Smart Hero Abilities), making them more effective and efficient. //On hold
-* Tactician - With these Powers a hero can make Scan abilities more useful and Terrain abilities that limit enemy movement more potent.  
-//Summoning will come after basic playtesting. For now I want to test base mechanics, and I think summoning gets to be its own thing.
-
-**Advantageous Recovery** [Elementalist]  
-When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
-
-**Extended Duration Obstacles** [Tactician]  
-Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
-// Need to keep an eye on scaling here
-
-**Mana from Momentum** [Kineticist]  
-After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
-//TODO Consider if this is powerful enough
-
-**Superior Scanner** [Tactician]  
-When you use a Scan Ability, choose one of the following benefits.
-* You scan all targets in one square
-* You learn the target’s Physical and Mental Attack in addition to the usual stats.
-* You gain Boon 4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
-* You Lock On to the target. Lock On applied in this way has Upkeep 0.
-
-## Matters of Heart
-These are talents and options that enable heroes to protect, heal, and empower their friends. These come in the following types.
-* Enabler - Enablers may not hit hard themselves, but their skills make it so that they impart greater power to their allies.
-* Healer - Often the lynchpin of a team, Healers mend wounds better than any other.
-
-**Healing Rush** [Enabler]  
-After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
-* Increase the target’s Physical or Mental Attack by your Hero Tier.
-* Increase the target’s Physical and Mental Defense by your Hero Tier.
-* The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
-
-**Improved Healing** [Healer]  
-When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
-
-**Overcharge** [Healer]  
-If your healing would bring your target above maximum HP, the target gains Shield to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
-
-**Pickup** [Healer]  
-When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
-
-## Soulful Techniques
-These are techniques and traits that enable heroes to protect allies and crush foes in equal measure. These come five types.
-* Augmentor - Characters who support and empower their allies will find use for these Powers.
-* Geomancer - Though they may not cast as many spells, heros who take these Powers can sacrifice movement to make the spells they do cast really count.
-* Warden - These Tecgbuqyes focus on utilizing Wards to prevent damage.
-* Warlock - These Realizations focus on using Curse Spells to render foes helpless and easy prey for allies.
-
-**A Curse Most Foul** [Warlock]  
+**A Curse Most Foul**  
 When using a Curse ability, you may choose one of the following benefits.
 * Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
-**Ataraxia** [Geomancer]  
+**Advantageous Recovery**  
+When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
+
+**Anger**  
+Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Attack increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Attack bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
+
+**Ataraxia**  
 If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your Hero Tier (to a minimum of 0).
 
-**Barrier Ward** [Warden]  
+**Barrier Ward**  
 Any target affected by a Ward you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
 
-**Double Ward** [Warden]  
-When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
+**Bloodlust**  
+When you successfully kill or knock out a foe, your next attack is made at Boon 6.
 
-**Fortifying Voice** [Augmentor]  
-When you target creatures with an Augment, all affected gain Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn.
+**Curse Resistant**  
+The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 
-**Siege Caster** [Geomancer]  
-If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Attack increases by an amount equal to your Hero Tier.
+**Dash**  
+When you move as a Major action, you can choose to move two squares instead of one.
 
-**Spell Sniper** [Geomancer]  
-If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
+**Deadened Nerves**  
+Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
+//Need to monitor this. Don’t want it to be strictly stronger than Enduring Protector.  
+//If this isn’t doing enough, maybe I need to increase both this and Enduring Protector benefits?
 
-**Wide Ward** [Warden]  
-When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
-
-## General Powers
 **Defensive Lock**  
 When being attacked by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
+
+**Double Ward**  
+When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
+
+**Enduring Protector**  
+After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
+//See comments on Deadened Nerves
 
 **Elemental Attunement**  
 When you gain this power, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
 Special: You may take this Power more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
 Every additional instance of this Power costs 3 XP.
 
+**Extended Duration Obstacles**  
+Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
+// Need to keep an eye on scaling here
+
+**First to Act**  
+Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
+
+**Fortifying Voice**  
+When you target creatures with an Augment, all affected gain Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn.
+
+**Healing Rush**  
+After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
+* Increase the target’s Physical or Mental Attack by your Hero Tier.
+* Increase the target’s Physical and Mental Defense by your Hero Tier.
+* The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
+
+**Hit and Run**  
+When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
+
+**Improved Healing**  
+When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
+
+**Long Arm of Justice**  
+Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
+
+**Mana from Momentum**  
+After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
+//TODO Consider if this is powerful enough
+
+**Masochism**  
+Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
+
 **Offensive Lock**  
 When attacking a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
-**Pursuit Lock**
+**Overcharge**  
+If your healing would bring your target above maximum HP, the target gains Shield to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
+
+**Pickup**  
+When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
+
+**Pursuit Lock**  
 Once per round, when an opponent you have Locked On to moves, you may choose to follow them. This is only possible if the Locked On foe is within Short distance.
+
+**Quick Healer**  
+Increase any HP restoration you receive by half.  
+> Remember that all fractions round down. Also to be clear; this affects the Regeneration track as well.
+
+**Relentless**  
+When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
+* You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
+* Your target cannot move until your next turn.
+//TODO: Look at the cannot move condition
+
+**Resilient Protector**  
+When you take a would blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
+
+**Sadism**  
+When you kill or knock out a foe, increase your Offensive Track by 1.
+
+**Siege Caster**  
+If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Attack increases by an amount equal to your Hero Tier.
+
+**Spell Sniper**  
+If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
+
+**Superior Scanner**  
+When you use a Scan Ability, choose one of the following benefits.
+* You scan all targets in one square
+* You learn the target’s Physical and Mental Attack in addition to the usual stats.
+* You gain Boon 4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
+* You Lock On to the target. Lock On applied in this way has Upkeep 0.
+
+**Thick Skin**  
+You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
+
+**Walk it Off**  
+Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+//TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
 
 **Wardsense**  
 You are able to sense and identify wards placed by enemies accurately.  
 Special: This Power costs 3 XP.
+
+**Wide Ward**  
+When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 *** 
 # Chapter 8: Capstone Powers
