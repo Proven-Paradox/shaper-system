@@ -26,6 +26,8 @@
   - [Ability Keywords](#ability-keywords)
   - [Buff/Debuff Tracks](#buffdebuff-tracks)
 - [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
+  - [Tier 0](#tier-0)
+  - [Tier 1](#tier-1)
 - [Chapter 6: Skills](#chapter-6-Skills) 
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
@@ -330,7 +332,7 @@ Positive values can represent gradual magical healing, an injection of tissue re
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
 
-**Default Strike**  
+#### Default Strike  
 Attack  
 Action: Major  
 Prerequisites: None  
@@ -341,7 +343,7 @@ Damage: x1 (Physical)
 Special: None  
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
-**Grab**  
+#### Grab  
 Attack  
 Action: Major  
 Prerequisites: None  
@@ -352,7 +354,7 @@ Damage: x0 (Physical)
 Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled).  
 Description: An untrained attempt to grab your target.
 
-**Prepare**  
+#### Prepare  
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
@@ -361,7 +363,7 @@ Targets: Self
 Cost: 1 MP  
 Special: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
 
-**Recover**  
+#### Recover  
 Auxiliary  
 Action: Major  
 Prerequisites: None  
@@ -371,7 +373,7 @@ Cost: 1 MP or 2 HP (your choice)
 Special: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
-**Shove**  
+#### Shove  
 Attack  
 Action: Major  
 Prerequisites: None  
@@ -383,7 +385,7 @@ Effect: If this attack succeeds, move your target one square.
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 ## Tier 1
-**Cleanse**  
+#### Cleanse  
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
@@ -397,7 +399,7 @@ Effect: Choose one of the following:
 * Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
-**Double Strike**  
+#### Double Strike  
 Attack [Skilled]  
 Action: Major  
 Prerequisites: Quick Strike  
@@ -408,7 +410,7 @@ Damage: x1 (Physical)
 Special: When you use this ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
-**Elemental Dart**
+#### Elemental Dart  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
 Action: Major  
 Prerequisites: None  
@@ -420,7 +422,7 @@ Special:  The first time you gain an Ability with the [Elemental] tag, you also 
 If you pay the Overload cost, your damage multiplier becomes 2.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
-**Empower**  
+#### Empower  
 Auxiliary [Augment] [Overload]  
 Action: Major (Overload Minor)  
 Prerequisites: None  
@@ -432,7 +434,7 @@ Effect: The target gains one point on the Offensive Track.
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
-**Enfeeble**  
+#### Enfeeble  
 Attack/Spell [Curse] [Overload] (See Special)  
 Action: Major (Overload Minor)  
 Prerequisites: None  
@@ -445,7 +447,7 @@ Special: If you pay the Overload cost, you may use this ability as a minor actio
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
-**Entangle**  
+#### Entangle  
 Auxiliary [Terrain] [Careful]  
 Action: Major  
 Prerequisites: None  
@@ -457,7 +459,7 @@ Effect: The targeted square becomes difficult terrain for the duration. Moving i
 Special: If you also use your minor action, the duration increases to 3 rounds.  
 Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
 
-**Expose**  
+#### Expose  
 Attack/Spell [Curse] [Overload] (See Special)  
 Action: Major (Overload Minor)  
 Prerequisites: None  
@@ -470,7 +472,7 @@ Special: If you pay the Overload cost, you may use this ability as a minor actio
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
-**Fortify**  
+#### Fortify  
 Auxiliary [Augment] [Overload]  
 Action: Major (Overload Minor)  
 Prerequisites: None  
@@ -482,7 +484,7 @@ Effect: The target gains one point on the Defensive Track.
 Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
-**Grapple**  
+#### Grapple  
 Attack [Grappler]  
 Action: Major  
 Prerequisites: None  
@@ -494,7 +496,7 @@ Damage: x1 (Physical)
 Special: This attack succeeds, you begin Grappling with the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
-**Healing Touch**  
+#### Healing Touch  
 Auxiliary [Healing] [Overload]  
 Action: Minor  
 Prerequisites: None  
@@ -505,7 +507,7 @@ Effect: The target regains HP equal to a ten-sided die roll.
 Special: If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
-**Healing Word**  
+#### Healing Word  
 Auxiliary [Healing] [Careful]  
 Action: Major  
 Prerequisites: None  
@@ -516,7 +518,7 @@ Effect: The target regains HP equal to a ten-sided die roll.
 Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this ability from a Long range if done with Careful.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
-**Heavy Strike**  
+#### Heavy Strike  
 Attack [Powerful] [Overload]  
 Action: Major  
 Prerequisites: None  
@@ -527,7 +529,7 @@ Damage: x2 (Physical)
 Special: If you pay the Overload cost and your attack result is at least 5, you knock your target Prone.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
-**Kinetic Dart**  
+#### Kinetic Dart  
 Spell [Kinetic]  
 Action: Minor  
 Prerequisites: None  
@@ -538,7 +540,7 @@ Damage: x1 (Physical)
 Special: None  
 Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, lashing out with one’s mind, firing a bolt of pure energy, and similar sorts of attacks.
 
-**Kinetic Force**  
+#### Kinetic Force  
 Spell [Kinetic]  
 Action: Major  
 Prerequisites: Kinetic Dart  
@@ -549,7 +551,7 @@ Damage: x1 (Physical)
 Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
-**Kinetic Pummeling**  
+#### Kinetic Pummeling  
 Spell [Kinetic] [Careful]  
 Action: Major  
 Prerequisites: Kinetic Dart  
@@ -560,7 +562,7 @@ Damage: x1 (Physical)
 Special: If you spend your minor action while using this ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
-**Lock**  
+#### Lock  
 Auxiliary  
 Action: Minor  
 Range: Long  
@@ -570,7 +572,7 @@ Special: You Lock On to the target. By default, this does nothing, but some Powe
 When you first learn the Lock Ability, you also gain one of the following Powers: Defensive Lock, Offensive Lock, Pursuit Lock
 Description: Focusing on one target. This may be a matter of meditative discipline, deploying a targetting AI, or some other way of singling out a foe for particular focus.
 
-**Mobile Strike**  
+#### Mobile Strike  
 Attack [Skilled] [Overload]  
 Action: Major  
 Prerequisites: Quick Strike  
@@ -582,7 +584,7 @@ Special: You may move one square before or after you make your attack roll.
 If you pay the Overload cost, you may move a square both before AND after.  
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
 
-**Quick Strike**  
+#### Quick Strike  
 Attack [Skilled]  
 Action: Minor  
 Prerequisites: None  
@@ -593,7 +595,7 @@ Damage: 1x (Physical)
 Special: None  
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
 
-**Reckless Strike**  
+#### Reckless Strike  
 Attack [Powerful]  
 Action: Major  
 Prerequisites: Heavy Strike  
@@ -604,7 +606,7 @@ Damage: x2 (Physical)
 Special: Until your next turn, enemy attacks and spells targeting you have Boon 4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
-**Riposte**  
+#### Riposte  
 Auxiliary [Counter]  
 Action: Minor  
 Prerequisites: None  
@@ -615,7 +617,7 @@ Duration: 1 round
 Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal one damage to them.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
-**Scan**
+#### Scan  
 Auxiliary [Scan] [Careful]  
 Action: Minor  
 Prerequisites: None  
@@ -628,7 +630,7 @@ Special:If you spend your major action while using this ability, you remove the 
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon 3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
-**Shoot**  
+#### Shoot  
 Attack [Ranged] [Careful]  
 Action: Major (and Minor)  
 Prerequisites: None  
@@ -640,7 +642,7 @@ Special: If you also use your minor action this attack is made with Boon 1.
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 //TODO Reconsider if Boon is needed
 
-**Snipe**  
+#### Snipe  
 Attack [Ranged]  
 Action: Major  
 Prerequisites: Shoot  
@@ -651,7 +653,7 @@ Damage: x2 (Physical)
 Special: This attack has Boon 3. You cannot use this attack on a turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
-**Suplex**  
+#### Suplex  
 Attack [Grappler]  
 Action: Major  
 Prerequisites: Grapple  
@@ -662,7 +664,7 @@ Damage: x2 (Physical)
 Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon 2.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
-**Sustain**  
+#### Sustain  
 Auxiliary [Augment]  
 Action: Minor  
 Prerequisites: None  
@@ -673,7 +675,7 @@ Effect: The target advances 2 spaces on the regen/degen track.
 Special: You may only use this Ability once per turn.  
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
-**Sweeping Strike**  
+#### Sweeping Strike  
 Attack [Powerful]  
 Action: Major  
 Prerequisites: Heavy Strike  
@@ -684,7 +686,7 @@ Damage: x1 (Physical)
 Special: None  
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
-**Throw**  
+#### Throw  
 Attack [Grappler]  
 Action: Major  
 Prerequisites: Grapple  
@@ -695,7 +697,7 @@ Damage: x1 (Physical)
 Special: Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grappling your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
-**Veil**  
+#### Veil  
 Auxiliary [Terrain] [Overload]  
 Action: Major (Overload Minor)  
 Prerequisites: None  
@@ -707,7 +709,7 @@ Effect: The targeted square becomes impossible to see through for the duration. 
 Special: If you pay the Overload cost, you may use this ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
-**Volley**  
+#### Volley  
 Attack [Ranged]  
 Action: (Major)  
 Prerequisites: Shoot  
@@ -718,7 +720,7 @@ Damage: x1 (Physical)
 Special: None  
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
-**Ward**  
+#### Ward  
 Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
 Action: Minor  
 Prerequisites: None  
@@ -745,93 +747,93 @@ Each skill has two associated Attributes. All skills of that type add those two 
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
 ## Skill List
-**Acrobatics**  
+#### Acrobatics  
 Attributes: Strength, Finesse  
 Balancing, tumbling, contorting. Tasks that require precise movements as well as power.
 
-**Athletics**  
+#### Athletics  
 Attributes: Strength, Toughness  
 Jumping, climbing, swimming, lifting, pushing, and pulling. Tasks that require muscle and endurance.
 
-**Animal Handling**  
+#### Animal Handling  
 Attributes: Heart, Soul  
 Training and taming animals, sensing animal feelings, nonverbal communication with animals, and all other things related to interacting with animals.
 
-**Awareness**  
+#### Awareness  
 Attributes: Mind, Soul  
 Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such hidden perils.
 
-**Composure**  
+#### Composure  
 Attributes: Toughness, Soul  
 Keeping your cool under duress. This is a reactive skill, used when the character sees something disturbing or frightening, is dealing with stress, or similar chances for one to snap under pressure.
 
-**Construct**  
+#### Construct  
 Attributes: Toughness, Mind  
 Metal working, carpentry, masonry, and other heavy work. This skill is for building and repairing large objects with heavy materials.
 
-**Craft**  
+#### Craft  
 Attributes: Finesse, Mind  
 Jewel cutting, wood carving, tinkering, and other precise work. This skill is for building and repairing objects where fine detail work is vital.
 
-**Deception**  
+#### Deception  
 Attributes: Mind, Heart  
 Lying, disguise, conning. This skill is called for any time you wish to mask the truth.  
 Alternatively, this skill can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing would be, the Arbiter may allow the player to roll a deception check to get a suggestion for what to say in a given situation.
 
-**Diplomacy**  
+#### Diplomacy  
 Attributes: Heart, Soul  
 Negotiation, decorum, sociability. This skill is used when a player wants to make a good impression in a social situation.  
 Alternatively, this skill can be used as a player aid. If a player happens to be less silver tongued than the character they are playing would be, the Arbiter may allow the player to roll a diplomacy check to get a suggestion for what to say in a given situation.
 
-**Drive (TYPE)**  
+#### Drive (TYPE)  
 Attributes: Finesse, Mind  
 Handling vehicles or mounts. Options include a mount, a car, a ship, a plane, or anything similar. 
 
-**Empathy**  
+#### Empathy  
 Attributes: Heart, Soul  
 Gauging reactions, spotting bluffs, reading moods. If the player wants to learn what someone else is thinking or suspects they’re being lied to, they should utilize this skill.
 
-**Endure**  
+#### Endure  
 Attributes: Toughness, Heart  
 Pain tolerance, doing without, pressing on. This is a reactive skill: if a player is subject to forces that would impair their functioning, they can shrug it off with a successful Endure check.
 
-**Intimidation**  
+#### Intimidation  
 Attributes: Strength, Heart  
 Browbeating and bullying. When the player wants something and is willing to threaten others to get it, this is the skill to use.
 
-**Investigation**  
+#### Investigation  
 Attributes: Mind, Soul  
 Searching, researching, learning. With this skill, one can uncover knowledge otherwise obscure. Sample usages include examining a crime scene to find clues, asking around a settlement for information, or seeking an obscure reference in a library.
 
-**Lore**  
+#### Lore  
 Attributes: Mind, Soul  
 Forbidden secrets, occult rituals, and mysticism. This skill represents one’s exposure to obscure, often taboo knowledge.
 
-**Medicine**  
+#### Medicine  
 Attributes: Mind, Finesse  
 Anatomical knowledge, herbalism, and performing medical procedures. If you need to suture a wound, identify a poison, diagnose a disease, and other such actions, you should make a Medicine check.
 
-**Performance**  
+#### Performance  
 Attributes: Finesse, Heart  
 Singing, dancing, storytelling. This skill is used to gauge how entertained a crowd is with a show.
 
-**Sabotage**  
+#### Sabotage  
 Attributes: Finesse, Mind  
 Lock picking, trap laying, trap disabling. If you need to make some construction stop working or set up a nasty surprise for pursuers, this is the skill to use.
 
-**Stealth**  
+#### Stealth  
 Attributes: Finesse, Mind  
 Sneaking, hiding, stealing. The preferred skill of thieves and spies. This includes pick pocketing.
 
-**Streetwise**  
+#### Streetwise  
 Attributes: Mind, Heart  
 Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
 
-**Survival**  
+#### Survival  
 Attributes: Mind, Soul  
 Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow prey tracks, and provide food for themselves and others in the wilderness.
 
-**Tech**  
+#### Tech  
 Attributes: Finesse, Mind  
 Operating all sorts of computers, general technical savviness, hacking, and the like.
 
