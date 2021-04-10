@@ -1064,53 +1064,58 @@ Broadly, Utilities are things your character can do that are not related to comb
 ## Skill-based Utilities
 Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
-**Acrobatic Paragon**  
+#### Acrobatic Paragon  
 Increase your Acrobatics modifier by 1.  
 Your acrobatic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Acrobatics checks that you are helping them with.
 //Scaling on Boon? 
 
-**Asceticism**  
+#### Asceticism  
 Increase your Endure modifier by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
 
-**Athletic Paragon**  
+#### Athletic Paragon  
 Increase your Athletics modifier by 1.  
 Your athletic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Athletics checks that you are helping them with.  
 //Scaling on Boon? 
 
-**Browbeat**  
+#### Browbeat  
 Increase your Intimidation modifier by 1.  
 You have an air of danger to you that can distract foes from others who would deceive them, making them easier to read. You grant allies Boon 2 on Empathy checks outside of combat.
 //TODO reconsider
 
-**Captivating Performance**  
+#### Captivating Performance  
 Increase your Performance modifier by 1.  
 In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  
 //Is this enough? Do I need to add more benefits? Increase Boon? Might be too narrow?
 
-**Endless Marcher**  
+#### Eidetic Memory
+Increase your Lore modifier by 1.
+You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
+> Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and handwaving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
+
+#### Endless Marcher  
 Increase your Endure modifier by 1.  
 In addition, you do not need to make Endure checks to make long marches, and have boon 4 on checks made for forced marches or while running during a chase.  
 //This will make more sense/be more appealing after chasing rules are written.
 
-**Extraordinary Saboteur**  
+#### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
 You can also gain one of the following benefits at a time.  
 * If you set up a trap, increase the necessary Investigation check requirement by your Hero Tier. //This will make more sense once I write trap mechanics.
 * When destroying a device, you can set up the failure to occur after a delay. Upon successfully using Sabotage to damage the device, you can set a delay of up to ten minutes. Once used, the affected device functions normally for the specified amount of time before the malfunction you caused comes into effect.
 * If dealing with a trap laid by someone else, you can temporarily bypass the thing instead of destroying it, allowing your party to pass without leaving evidence of your tampering.
 
-**Flawless Intuition**
+#### Flawless Intuition
 Increase your Investigation modifier by 1.  
 In addition, you have a sixth sense when researching a topic or examining a scene. You can roll three ten sided dice on Investigation checks when doing research, searching a crime scene for clues, or other similar information gathering task, taking the highest two die rolls.  
 //TODO reconsider
 
-**Inspiring Endurance**  
+#### Inspiring Endurance  
 Increase your Endure modifier by 1.  
 Your own tenacity inspires others to push themselves harder. Your allies have Boon 1 on Endure checks.  
 //Scaling on Boon?
 
-**Natural Intuition**  
+#### Natural Intuition  
 Increase your Empathy modifier by 1.  
 When you successfully detect that someone is lying to you with an Empathy check, you automatically gain a small insight into their motivations. This comes as a single word. Some examples:
 * The target is being blackmailed by someone who can ruin their lives, forced to work against the party. “Fear”
@@ -1118,34 +1123,34 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
-**Packmule**  
+#### Packmule  
 Increase your Endure modifier by 1.  
 In addition, you can carry heavy loads easily. You have Boon 4 when called to make an Athletics or Endure check for picking up heavy things or carrying large loads.
 
-**Rhetorical Trap**  
+#### Rhetorical Trap  
 Increase your Empathy modifier by 1.  
 In addition, when you successfully note that someone is lying but cannot think of a way to reveal said falsehood, you can make a Mind check. Roll two ten sided dice and add your Mind. If the result is 15 or higher, the Arbiter should suggest a way to reveal that lie. Examples include ways to force the liar to contradict themselves or reminding the player of damning evidence. This is not always possible, in which case the Arbiter should say as much.
 
-**Sharp Senses**  
+#### Sharp Senses  
 Increase your Awareness modifier by 1.  
 You are also able to rely on senses other than sight to locate opponents, improving your odds for striking hidden foes. When attacking an Obscured target with a single target attack, you can roll two ten sided dice and take the higher result instead of just rolling one.
 
-**Superior Stealth**  
+#### Superior Stealth  
 Increase your Stealth modifier by 1.  
 You have a natural eye for hiding spots that helps you conceal yourself and others when you stay still. When helping allies hide, you do so with Boon 2.  
 //Scaling on Boon? 
 
-**Well Connected**  
+#### Well Connected  
 Increase your Diplomacy modifier by 1.  
 In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
 
-**Whispered Wisdom**  
+#### Whispered Wisdom  
 Increase your Lore modifier by 1.  
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual seeking the answer to a single question that takes at least one minute and make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? (Powerful individuals tend be more difficult to learn about through this feature.)
 ## Other Utilities
 
-**Familiar**
+#### Familiar
 You can summon or create a small familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, a small automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a skill check, the Familiar’s core stats are as follows:  
 Strength -2, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1  
 Physical Attack -1, Mental Attack 2, Physical Defense 11, Mental Defense 12  
@@ -1153,34 +1158,34 @@ Familiars usually have Flight.
 Familiars do not gain class levels and thus only uses its base stats to modify the skill checks. (Familiars are not well suited to complex tasks or combat as a result.)  
 Summoning a familiar is a ritual that requires an hour of uninterrupted work and 7 MP. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one.  
 
-**Hover**  
+#### Hover  
 XP Cost: 2  
 You can fly up to five feet off the ground.  
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
 
-**One with Nature: Animals**  
+#### One with Nature: Animals  
 XP Cost: 3  
 You are able to commune with and in a limited way communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
 Animals have simple, instinctual desires and are usually very focused on the here and now. Most quickly dismiss past events that don’t affect their ability to survive and don’t really understand “the future” as a concept.
 
-**One with Nature: Minerals**  
+#### One with Nature: Minerals  
 XP Cost: 3  
 You are able to commune with and in a limited way communicate with minerals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you have learned to tap into a subtle consciousness that is present in stone, metal, and gems.  
 Minerals have long memories, but no ability to move and thus a very limited frame of reference. They also have a difficult time telling moving things apart; seeking information about a specific person while speaking to stone is unlikely to be fruitful unless no one else has passed by in a very long time.  
 You may only use this method of communication to speak with unworked minerals. The process of cutting gems for jewelry or forging metal for equipment “kills” the materials, rendering them silent to you.
 
-**One with Nature: Plants**  
+#### One with Nature: Plants  
 XP Cost: 3  
 You are able to commune with and in a limited way communicate with plants. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you can hear the thoughts of plants from the smallest weed to the largest tree.  
 If they are getting adequate resources to grow, plants are generally pleasant conversationalists, often talking about weather patterns or similar topics. Trees will discuss the lives of the animals living within their branches, and grasses will talk about grazers coming for them and being stepped on.
 
-**Sixth Sense**  
+#### Sixth Sense  
 XP Cost: 5  
 You have a innate ability to sense supernatural influences. This can be angelic, demonic, undead, fey, eldritch, or anything between. When you focus your senses, you can detect if a supernatural being is within thirty feet of you. You know the creature’s general location and what sort of creature it is. You can also sense when supernatural forces have tampered with otherwise natural processes in a residual way.
 
-**Slow Fall**  
+#### Slow Fall  
 XP Cost: 4  
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 ***
