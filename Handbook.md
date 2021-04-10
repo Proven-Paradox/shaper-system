@@ -1336,30 +1336,29 @@ There is a point past which a character’s body can no longer endure injury, an
 That is up to the Shaper and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being raised after the heroes are done with them? I am not going to set down hard rules for resurrecting dead player character, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Shaper.
 
 ## Conditions and Properties
-
-**Blind**  
+#### Blind  
 You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon 6.
 
-**Flight**  
+#### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
 
-**Grappled**  
+#### Grappled  
 Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane 9. Attacks against you have Boon 2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
 
-**Grappling**  
+#### Grappling  
 Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple.  
 Attacks against you from targets other than the one you are grappling have Boon 2. Attacks you make against the one you are grappling have Boon 3. You may end this condition at any time without an action, which also frees your victim from the Grappled condition.
 
-**Obscured**  
+#### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon 6 on Stealth checks.
 
-**Prone**  
+#### Prone  
 Lying on the ground. Melee range attacks against Prone targets have Boon 5, while any attacks coming from beyond Short range are made at Bane 8. Moving a square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
-**Stagger**  
+#### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
-***
+#### *
 # Chapter Y: Adversaries and Monsters
 /* TODO For now this is going to be where I list and describe monsters written. Eventually I need to write a more concrete introduction about how to use monsters, notes about how the entries are kept generic with a few details left unwritten so one entry can potentially represent many different types of monsters, how to read these entries, and the like. For now I want to skip to actually sharing monster entries to give an idea of how I would want these entries to be read by Shapers and used in games.  
 Figure out how to explain adversary archetypes at some point. Add notes about figuring out skill mods when they’re not listed.
