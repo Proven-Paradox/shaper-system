@@ -1452,41 +1452,41 @@ These are just extra rules that aren't necessary for the game to run, but if you
 ## Flavor Skills
 The Core Skills may determine whether or not a character survives a given situation. They can reflect some things about a characters’ personality, but are also important to consider from a mechanical standpoint. Not all skills have to be this way however. If allowed by the Arbiter, all characters start with 8 flavor skill points and gain an addition 3 every time they buy skill points with XP. These can only be put into Skills that flesh out the character’s personality, reflecting hobbies or a trade that they have outside of their adventuring. Checks involving these skills may only come up rarely, and are not meant to solve real problems the character will face. The following list contains some examples, but by no means all of them. Players should talk with their Arbiter if something they think their character would want to be good at isn’t on this list.
 
-**Academics (Type)**  
+#### Academics (Type)  
 Attributes: Mind, Heart  
 Advanced knowledge about a specific subject, as well as the knowledge of how to handle oneself in academic spaces for the subject. For example, in a modern/sci-fi setting this could represent a degree from a university. In medieval settings, this could represent an unusual opportunity to learn more than average peasants. Examples of types include Literature, Mathematics, Computer Science, Psychology, ect.
 
-**Art**  
+#### Art  
 Attributes: Heart, Soul  
 Painting, poetry, writing. In general this skill represents your ability to create works of art.
 
-**Cooking**  
+#### Cooking  
 Attributes: Heart, Soul  
 Making food look and taste better, faster. This could represent spending time as a cook at a restaurant, gourmet studies, or just a lot of time in a kitchen trying things and seeing what works.
 
-**Gambling**  
+#### Gambling  
 Attributes: Finesse, Mind  
 Calculating odds on the fly. Knowing how to bend the rules of a given game to improve one’s payout. If the character would go that far, cheating.
 
-**Gaming (Dexterity)**  
+#### Gaming (Dexterity)  
 Attributes: Finesse, Mind  
 Knowing how to throw the ball or hit the puck just right. This covers games like horseshoes, darts, pool, Crokinole, and similar games.
 
-**Gaming (Strategic)**  
+#### Gaming (Strategic)  
 Attributes: Toughness, Mind  
 Learning rules quickly and bending them to your purposes on the fly. Seeing opportunities. Min/maxing. This covers games like Chess, Civilization, Eurogames, and the like.
 
-**Music (Instrument)**  
+#### Music (Instrument)  
 Attributes: Finesse, Heart  
 Technical skill with a given instrument. Instruments include violin, voice, guitar, trumpet, flute, synths, ect.
 > Perform vs. Music: A performance can be made without an instrument or music at all. Perform checks represent one’s ability to captivate an audience by whatever means you can. It may be that you use a Music check as a part of a Perform check. In this case you make the Music check first, and if it goes well it may confer a benefit to the Perform check while a poor result will impose penalties.
 
-**Sport (Type)**  
+#### Sport (Type)  
 Attributes: Strength, Toughness  
 Skill and experience playing a given sport. Types include football, baseball, basketball, and so on.
 > Athletics vs. Sport: Generally speaking, an Athletics check should be made as part of all Sport checks, adding a benefit to the Sport check if it’s good and a penalty if it’s bad. People who know the fine details of the rules and who have studied the best techniques should have an advantage over opponents lacking that practice, so a character with Sport checks should have a significantly higher chance to win a given event than someone competing with raw Athletics.
 
-**Trade (Type)**  
+#### Trade (Type)  
 Attributes: Toughness, Mind  
 Knowing how to make a living in a given business. This can represent any profession that doesn’t really fit into one of the other skills. Example Types include Waiter, Handyman, Merchant, Doctor, Herbalist.
 > This Skill is focused on the business side of things. For example, a character may have very high Medicine skill that makes them able to provide a valuable service, but if they have no points in Trade (Doctor) they would struggle with paperwork and business decisions that they need to make to have a profitable business from their practice.
@@ -1494,42 +1494,42 @@ Knowing how to make a living in a given business. This can represent any profess
 ## Tricks
 Tricks represent minor things a character can do that don’t affect combat, but make life a little easier. Many Tricks will only be appropriate in fantasy or sci-fi settings, but some of these can work in more grounded settings. They can represent anything from fine control over fire magic to reliably having a lighter. Tricks can either be purchased in sets of 3 for 1 XP, or come along with some Abilities or Powers. If you spend XP to learn some Tricks and later learn an Ability or Power that grants a Trick you already know, you may learn a new Trick. Once learned, a Trick can be used at will. The Tricks available (along with any Abilities/Powers that grant them for free) are described below.  
 
-**Chill**  
+#### Chill  
 You can generate a feeling of cold. This can a small ice spell, triggering an endothermic chemical reaction, or something similar. If the cold comes from a device, it can be assumed to always have fuel. You are immune to discomfort from your own Chill, and the cold--though deeply uncomfortable--is not strong enough to cause HP damage. The chill is not enough to counteract hot weather. This can be used to chill drinks, make ice, preserve food, or similar applications.  
 Granted By: Elemental Attunement (Ice)
 
-**Clean**  
+#### Clean  
 You can quickly clean a surface. This can be magically wiping away dirt and grime, setting a robotic assistant to the task, or something similar. This cleaning does not repair any damage done to the object or assemble anything taken apart, but dirt, rust, mold, and any other sort of non-magical grime comes away quickly when this Trick is used. This can also be used to dry off wet surfaces. Clean can be used safely on living creatures without harming them.  
 Granted By: Cleanse
 
-**Lift**  
+#### Lift  
 You can manipulate objects from a distance. This can be due to magical or psychic power, having drones with manipulator arms, or something similar. For the purposes of how much can be lifted, treat Lift as having Strength -1. If the force comes from a device, it can be assumed to always have fuel. Lift cannot be used to take an item from another creature’s person or to manipulate tiny creatures.  
 Granted By: Kinetic Dart
 
-**Light**  
+#### Light  
 You can generate light. This can be a radiant spell, carrying a flashlight, or something similar. If the light comes from a device, it can be assumed to always have fuel. You can cause the light to radiate outward, in which case it illuminates squares all around you out to Close range (about 20 feet), or to shine out like a cone or flashlight, in which case it illuminates squares in a direction out to Long range (about 60 feet). This light does not penetrate magical darkness.  
 Granted By: Elemental Attunement (Light)
 
-**Mend**  
+#### Mend  
 You can fix minor damage done to items. This can be magically willing the damage to be fixed or having the tools and know-how to do the repairs manually. This only repairs small amounts of damage--a tear in cloth, a dent in armor, a crack in glass, and so on. If the object in question is actually broken, Mend is ineffective.  
 Granted By: Healing Word, Healing Touch
 
 
-**Shadow**  
+#### Shadow  
 You can create shadowy figures or manipulate your shadow unnaturally. This can be sneaky usage of darkness magic, employing holograms, or similar procedures. When producing an image, it can occupy an area up to a cube with four foot sides. It can be as detailed and colorful as you like, but it will always be slightly transparent. It cannot produce light. When manipulating your shadow, you can cause it to take a different shape, produce faces or symbols on it, increase its size up to 50%, decrease its size up to 50%, or similar effects.  
 Granted By: Elemental Attunement (Dark)
 
-**Spark**  
+#### Spark  
 You can generate a small flame. This can be a flame you light on your finger with fire magic, a simple lighter you keep in your gear, or something similar. If the flame comes from a device, it can be assumed to always have fuel. You are immune to harm from your own Spark, and the flame generated is not hot enough to cause HP damage, though it is still painful to touch for others. The warmth it provides is not enough to exist comfortably in low temperatures. This spark is enough to ignite flammable substances as normal.  
 Granted By: Elemental Attunement (Fire)
 
 
-**Sprout**  
+#### Sprout  
 You can grow and manipulate plants. This can be a gentle application of earth or sylvan magic, a chemical concoction that causes rapid plant growth, or something similar. You can assume you always have the materials you need to perform this Trick. If working from nothing, you can cause small amounts of moss, grasses, or vines to grow, along with a single flower of whatever color you desire. If working from a seed or an existing plant, you can cause the seed to sprout, blooms to grow or change color, leaves and branches to grow, fruit to ripen, or damage to heal. (This does not heal HP damage dealt to plant-like creatures.) This Trick is not enough to grow food on its own but if used on existing crop plants it can double the rate at which they grow. Sprout cannot render poisonous plants safe to eat.  
 Granted By: Elemental Attunement (Earth)
 
 
-**Static**  
+#### Static  
 You can generate small electric shocks. This can be subtle use of air magic, a glove that stores and releases electric charge, or something similar. If the electricity comes from a device, it can be assumed to always have fuel. You are immune to discomfort from your own Static, and the voltage generated is not enough to cause HP damage--though it can still be a painful surprise. This Trick can be used to power small devices or recharge batteries, but anything larger than two feet in diameter requires a dedicated power source to function continuously.  
 Granted By: Elemental Attunement (Sky)
 
