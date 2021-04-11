@@ -366,3 +366,156 @@ When you use an ability on an ally (such as a Healing spell or an Augment) that 
 
 **Reliable Ruin** [Warlock]  
 Increase your Physical or Mental Attack by your Hero Tier when you cast a Curse. 
+
+
+----
+
+**Physical Ward**  
+Auxiliary [Ward] [Soul Signature]  
+Action: Minor  
+Prerequisites: None  
+Range: Long  
+Targets: 1 Ally  
+Cost: 3 MP  
+Duration: 1 minute  
+Effect: Any Abilities that deal Physical against an affected ally has its multiplier reduced by 1.  
+Special: As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can begin adding 3 MP to the cost to increase the multiplier reduction by 1. So 6 MP to reduce multipliers by 2 at Tier 2, 9 MP to reduce 3 at Tier 3, and so on. You may still use lower cost versions for less effect if you prefer.  
+Description: A simple protection spell. This can represent a rune of protection, recalibrating energy shields, coating the target’s skin in a layer of stone or bark, and similar defensive measures.
+
+**Soul Ward**  
+Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special] [Soul Signature]  
+Action: Minor  
+Prerequisites: Basic Ward (universal Ability)  
+Range: Long  
+Targets: 1 Ally  
+Cost: 4, 8, 12, ... MP  
+Duration: 1 minute  
+Effect: Any attacks against an affected ally of the ward’s type has its multiplier reduced by your Soul (minimum 0).  
+Special: When you cast this Ward, choose an Element. You may make this Ward protect against the chosen type of damage. You may only choose elements that you have unlocked for the Basic Ward universal Ability.  
+As you gain Hero Tiers, you can increase the cost of this Ability to affect more allies. Every tier, you can can begin adding 4 MP to the cost to target an additional ally. The targets do not need to be in the same square, just within Long reach. You may still use lower cost versions for fewer targets if you prefer.  
+Description: An advanced protection spell. This can represent a rune of protection, recalibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
+
+**Stonewall**  
+Auxiliary \[Terrain\] [Mind Signature]  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: Varies, see Special  
+Cost: Varies, see Special  
+Duration: 1 minute or until destroyed  
+Effect: This creates a wall that prevents all passage. You can target up to one edge per Hero Tier. Each edge affected counts as a separate wall segment.  
+Special: Each wall segment has an amount of HP equal to your Mind x 20 and has your Physical and Mental Defense scores. If a wall reaches 0 HP it is breached, allowing passage through it normally. Note that the edge is still affected by the Stonewall (which means that enemies passing through the walls take damage if you have the Thorny Terrain Tactic, for example).  
+Each wall segment you create costs 3 MP.  
+Description: An advanced way to hinder foes’ movements and corral them into advantageous positions. This could be raising the ground to form barriers, deploying a force field, assembling a barrier made of bones, and similar walls.  
+
+**Payback**  
+Auxiliary [Counter] [Toughness Signature]  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: Self  
+Cost: 2, 4, 6... MP (See Special)  
+Duration: 1 round  
+Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal damage equal to the negative of their Result. For example, if a foe attacks and misses you with a result of -3, they take 3 damage.  
+Special: As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can increase the cost by 2 to add the negative result to the damage again. So 4 MP to prepare a version that does 2 x the negative Result at Tier 2, 6 MP to use a 3 x negative Result at Tier 3, and so on. If you prefer you may use lower cost versions for less effect as well.  
+Description: Preparing an advanced counterattack. This could be striking back with your shield as attacks deflect off it, utilizing spikes on your armor, a powerful electric shock built into your energy shields, or similar means of retaliation.
+
+**Armor Slam**  
+Attack [Toughness Signature]  
+Action: Major  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None, 2, 4, 6, ... ( See Special)  
+Damage: x1, 2, 3, ... (Physical, see Special)  
+Special: This attack uses either (PDef - 10) or (MDef - 10) in place of your PAtk. If you choose to use MDef, the opponent resists with their MDef instead of their PDef.  
+As you gain Hero Tiers, you may increase this Ability’s cost to make it more effective.  
+At Hero Tier 2, you can give this Ability a cost of 1 and increase the damage multiplier by 1. Every Hero Tier beyond that, you may increase the cost by 1 to increase the multiplier by 1. You may still use less powerful versions for a lower cost if you desire.  
+Description: Using your defenses offensively. This could be a shield slam, utilizing armor spikes, rolling into a ball like an armadillo and overwhelming your target, overheating your energy shield, or some similar armored attack.  
+
+**Take Aim**  
+Auxiliary [Finesse Signature] [Overload]  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 2 MP (Overload 6 MP)  
+Duration: 1 round (Overload 2 rounds)  
+//Possible scaling by duration?  
+Effect: Increase the range of all of your Attacks any Spells by 1 for the duration.  
+Special: If you pay the Overload cost, extend the duration by one round.  
+Description: With a bit of preparation, you can extend your reach. This can be preparing throwing knives or shuriken, taking a wide stance for striking with a spear, aiming more precisely with a firearm, or similar actions.  
+
+**Lunging Strike**  
+Attack [Finesse Signature]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 Enemy  
+Cost: 4, 8, 12... MP (See Special)  
+Damage: x2, x4, x6… (Physical, see Special)  
+Special: Before making this attack, you may move one square.  
+As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can begin increasing the cost by 4 MP to increase the multiplier by 2. So 8 MP for a multiplier of 4 at Tier 2, 12 MP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
+//Scale movement too?  
+Description: An attack which also involves movement. This can be a graceful lunge with a rapier or spear, a dashing slash attack, a rocket-boosted punch, and other ways of getting momentum before a strike.
+
+**Take Cover**  
+Auxiliary [Finesse Signature]  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 1 MP  
+Duration: 1 round  
+Effect: You gain Cover.  
+Special: You can only use this Ability when standing in a square that contains another ally.  
+Description: Somewhat undignified, but an otherwise excellent way to survive combat. This could be literally using someone else as a shield, quietly allowing an ally to take all the attention, employing a stealth field, and other means of losing enemy attention in a crowded fight.
+
+**Blade Cascade**  
+Attack [Finesse Signature]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 Enemy  
+Cost: 5, 10, 15... MP (See Special)  
+Damage: x1, x2, x3… (Physical, see Special)  
+Special: If this attack hits, you may immediately make another Blade Cascade attack against the same target with a stacking -2 penalty to your Physical Attack.  
+As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 5 MP to increase the multiplier by 1. So 10 MP for a multiplier of 2 at Tier 2, 15 MP for a multiplier of 3 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
+Description: You attack in a flurry, striking over and over with worsening accuracy penalty until you miss.  
+//This one may take too long to resolve. Consider options to make the flurry just one attack roll.
+
+**Lacerate**  
+Attack [Strong Signature]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: One enemy  
+Cost: 2, 4, 6... HP (See Special)  
+Damage: x1, x2, x3... (Physical, see Special)  
+Special: If this attack succeeds, the victim moves a negative a number of spaces on the Regen/Degen track equal to your Strength.  
+
+Description: An attack that causes a lingering wound that causes gradual damage. This can be a precise strike to an artery, a wide swing that leaves a gash that gushes blood, a hard punch that causes internal bleeding, striking with a venom coated dagger, and similar strikes.
+
+**Feral Strike**  
+Attack [Strong Signature] [Overload]  
+Action: Major  
+Prerequisites: Anger (Feat of Strength)  
+Range: Melee  
+Targets: One enemy  
+Cost: 4, 8, 12... HP (see Special) (Overload cost 2, 4, 6… MP)  
+Damage: x2, x4, x6... (Physical, see Special)  
+Special: You can only use this attack while Enraged. This attack has Boon equal to your Strength. After using it, attacks against you have Boon 3 until the beginning of your next turn.  
+As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 4 HP to increase the multiplier by 2. So 8 HP for a multiplier of 4 at Tier 2, 12 HP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
+If you pay the Overload cost in MP equal to half the cost of the skill in HP, you can remove the Boon 3 granted to your opponents. For example, if you are Hero Tier 2 and spend 8 HP to use the attack, you may pay an Overload of 4 MP to remove the Boon this ability would otherwise grant to foes.  
+Description: A savage strike made while in the grips of a battle trance. Using it makes it easier for foes to land hits, but getting hit lengthens your rage so maybe that’s what you want.
+
+**Constrict**  
+Attack [Strong Signature]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: One enemy  
+Cost: 2, 4, 6... MP (See Special)  
+Damage: x1, x2, x3... (Physical, see Special)  
+Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled). While you maintain this Grapple, you automatically deal damage to your target equal to your Strength at the beginning of your turn.  
+As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 2 MP to increase the multiplier by 1 and the continuous damage by your Strength. So 4 MP for a multiplier of 2 and 2x your Strength continuous damage at Tier 2, 6 MP for a multiplier of 3 and 3x Strength continuous damage at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
+Description: This represents overwhelming and pinning down your foe with your power. This could be a choke-hold, wrapping a target in a powerful tail, biting down and latching on, and other types of holds and grabs.

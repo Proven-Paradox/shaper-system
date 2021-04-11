@@ -28,6 +28,7 @@
 - [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
   - [Tier 0](#tier-0)
   - [Tier 1](#tier-1)
+  - [Tier 2](#tier-2)
 - [Chapter 6: Skills](#chapter-6-Skills) 
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
@@ -328,6 +329,7 @@ Unlike the previous tracks described, the regen/degen track has no limit. If you
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
 
 # Chapter 5: List of Abilities
+
 ## Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
@@ -385,6 +387,18 @@ Effect: If this attack succeeds, move your target one square.
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 ## Tier 1
+
+#### Bash  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: One enemy  
+Cost: 3 HP  
+Damage: x2 (Physical)  
+Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
+Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
+
 #### Cleanse  
 Auxiliary  
 Action: Minor  
@@ -409,6 +423,18 @@ Cost: 2 MP
 Damage: x1 (Physical)  
 Special: When you use this ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
+
+#### Elemental Blast  
+Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Action: Major  
+Prerequisites: [Elemental Dart](#elemental-dart)  
+Range: Short  
+Targets: 1 square  
+Cost: 5 MP (See Special)  
+Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
+Special: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
+Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
 #### Elemental Dart  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
@@ -495,6 +521,16 @@ Damage: x1 (Physical)
 
 Special: This attack succeeds, you begin Grappling with the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
+
+#### Healing Burst  
+Auxiliary [Healing]  
+Action: Major  
+Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
+Range: Melee  
+Targets: 1 Square  
+Cost: 5 MP  
+Effect: You and all allies in the same square regain HP equal to a ten-sided die roll.
+Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
 Auxiliary [Healing] [Overload]  
@@ -583,6 +619,16 @@ Damage: x1 (Physical)
 Special: You may move one square before or after you make your attack roll.  
 If you pay the Overload cost, you may move a square both before AND after.  
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
+
+#### Protector’s Presence  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 1 MP (Upkeep 1 MP)   
+Effect: You gain Taunt.  
+Description: You provide cover for nearby allies. This can be physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Quick Strike  
 Attack [Skilled]  
@@ -733,7 +779,95 @@ Special: You can select this ability multiple times. Each time you do, choose on
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
 ## Tier 2
-Coming soon! Eventually. Maybe?
+
+#### Doom  
+Auxiliary [Curse]  
+Action: Major  
+Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
+Range: Medium  
+Targets: One enemy  
+Cost: 5 MP (Upkeep 2 MP)  
+Effect: At the beginning of your turn, reduce one of your target’s buff/debuff tracks by 1.  
+Special: When you cast this spell, make a Magic Attack roll against the target. This spell fails if your Result is less than 1.  
+At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Attack roll against the target: on a Result of less than 1, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed.  
+If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
+You may only Doom one target at a time.  
+Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
+
+#### Evacuation  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: One other ally in your square, and an adjacent square  
+Cost: 3 MP
+Effect: You and the targeted ally move to the selected square.  
+Special: You and the targeted ally must be able to move normally to use this ability.  
+Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
+
+#### Hold Fast  
+Auxiliary  
+Action: Minor  
+Prerequisites: [Fortify](#fortify)  
+Targets: Self  
+Cost: 4 HP  
+Effect: Increase your Defense Track by 1.  
+Description: You steele yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
+
+#### Leyline  
+Auxiliary \[Terrain\]  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 Square  
+Cost: 6 MP (Upkeep 1)  
+Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Attack, Physical Attack, Mental Defense, and Physical Defense.  
+Special: You cannot cast Leyline again while a previous Leyline you cast is still active.  
+Intelligent enemies can easily recognize Leylines and understand their implications.  
+Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
+
+#### Life Tap  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Targets: Self  
+Cost: 3 HP  
+Effect: You regain MP equal to your Capacity level.  
+Special: This cannot be used outside of combat.  
+Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
+
+#### Psych Up  
+Auxiliary 
+Action: Minor  
+Prerequisites: [Empower](#empower)  
+Targets: Self  
+Cost: 4 HP  
+Effect: Increase your Offensive Track by 1.  
+Special: None  
+Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions.  
+
+#### Second Wind  
+Auxiliary [Healing]
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 4 MP  
+Effect: You regain health equal to two times your Vitality level.  
+Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
+
+
+#### To the Rescue  
+Auxiliary    
+Action: Minor  
+Prerequisites: None  
+Range: Medium  
+Targets: One ally  
+Cost: 3 MP  
+Effect: You move to the target’s square.  
+Special: You must be able to move normally to use this ability.  
+Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
+
 ________________
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
@@ -1539,312 +1673,17 @@ A character may only take one Signature Ability per Hero Tier. Because they repr
 Signature Abilities are listed below, divided up by what Attribute the Signature Ability would most benefit from.  
 
 ### Strong Signature Abilities
-**Bash**  
-Attack [Strong Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: One enemy  
-Cost: 3, 6, 9... HP (See Special)  
-Damage: x2, x4, x6... (Physical, see Special)  
-Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can begin increasing the cost by 3 HP to increase the multiplier by 2. So 6 HP for a multiplier of 4 at Tier 2, 9 HP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
-**Constrict**  
-Attack [Strong Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: One enemy  
-Cost: 2, 4, 6... MP (See Special)  
-Damage: x1, x2, x3... (Physical, see Special)  
-Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled). While you maintain this Grapple, you automatically deal damage to your target equal to your Strength at the beginning of your turn.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 2 MP to increase the multiplier by 1 and the continuous damage by your Strength. So 4 MP for a multiplier of 2 and 2x your Strength continuous damage at Tier 2, 6 MP for a multiplier of 3 and 3x Strength continuous damage at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: This represents overwhelming and pinning down your foe with your power. This could be a choke-hold, wrapping a target in a powerful tail, biting down and latching on, and other types of holds and grabs.
 
-**Feral Strike**  
-Attack [Strong Signature] [Overload]  
-Action: Major  
-Prerequisites: Anger (Feat of Strength)  
-Range: Melee  
-Targets: One enemy  
-Cost: 4, 8, 12... HP (see Special) (Overload cost 2, 4, 6… MP)  
-Damage: x2, x4, x6... (Physical, see Special)  
-Special: You can only use this attack while Enraged. This attack has Boon equal to your Strength. After using it, attacks against you have Boon 3 until the beginning of your next turn.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 4 HP to increase the multiplier by 2. So 8 HP for a multiplier of 4 at Tier 2, 12 HP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-If you pay the Overload cost in MP equal to half the cost of the skill in HP, you can remove the Boon 3 granted to your opponents. For example, if you are Hero Tier 2 and spend 8 HP to use the attack, you may pay an Overload of 4 MP to remove the Boon this ability would otherwise grant to foes.  
-Description: A savage strike made while in the grips of a battle trance. Using it makes it easier for foes to land hits, but getting hit lengthens your rage so maybe that’s what you want.
 
-**Lacerate**  
-Attack [Strong Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: One enemy  
-Cost: 2, 4, 6... HP (See Special)  
-Damage: x1, x2, x3... (Physical, see Special)  
-Special: If this attack succeeds, the victim moves a negative a number of spaces on the Regen/Degen track equal to your Strength.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 2 HP to increase the multiplier by 1 and the degen intensity by your Strength. So 4 HP for a multiplier of 2 and degen (2x Strength) at Tier 2, 6 HP for a multiplier of 3 and degen (3x Strength)  at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: An attack that causes a lingering wound that causes gradual damage. This can be a precise strike to an artery, a wide swing that leaves a gash that gushes blood, a hard punch that causes internal bleeding, striking with a venom coated dagger, and similar strikes.
 
-**Psych Up**  
-Auxiliary [Strong Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 2 HP  
-Effect: Increase your Offensive Track by 1.  
-Special: None  
-Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions.  
 
-### Finesse Signature Abilities
-**Blade Cascade**  
-Attack [Finesse Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 Enemy  
-Cost: 5, 10, 15... MP (See Special)  
-Damage: x1, x2, x3… (Physical, see Special)  
-Special: If this attack hits, you may immediately make another Blade Cascade attack against the same target with a stacking -2 penalty to your Physical Attack.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 5 MP to increase the multiplier by 1. So 10 MP for a multiplier of 2 at Tier 2, 15 MP for a multiplier of 3 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: You attack in a flurry, striking over and over with worsening accuracy penalty until you miss.  
-//This one may take too long to resolve. Consider options to make the flurry just one attack roll.
 
-**Take Cover**  
-Auxiliary [Finesse Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: None  
-Targets: Self  
-Cost: 1 MP  
-Duration: 1 round  
-Effect: You gain Cover.  
-Special: You can only use this Ability when standing in a square that contains another ally.  
-Description: Somewhat undignified, but an otherwise excellent way to survive combat. This could be literally using someone else as a shield, quietly allowing an ally to take all the attention, employing a stealth field, and other means of losing enemy attention in a crowded fight.
 
-**Lunging Strike**  
-Attack [Finesse Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 Enemy  
-Cost: 4, 8, 12... MP (See Special)  
-Damage: x2, x4, x6… (Physical, see Special)  
-Special: Before making this attack, you may move one square.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can begin increasing the cost by 4 MP to increase the multiplier by 2. So 8 MP for a multiplier of 4 at Tier 2, 12 MP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-//Scale movement too?  
-Description: An attack which also involves movement. This can be a graceful lunge with a rapier or spear, a dashing slash attack, a rocket-boosted punch, and other ways of getting momentum before a strike.
 
-**Take Aim**  
-Auxiliary [Finesse Signature] [Overload]  
-Action: Minor  
-Prerequisites: None  
-Range: None  
-Targets: Self  
-Cost: 2 MP (Overload 6 MP)  
-Duration: 1 round (Overload 2 rounds)  
-//Possible scaling by duration?  
-Effect: Increase the range of all of your Attacks any Spells by 1 for the duration.  
-Special: If you pay the Overload cost, extend the duration by one round.  
-Description: With a bit of preparation, you can extend your reach. This can be preparing throwing knives or shuriken, taking a wide stance for striking with a spear, aiming more precisely with a firearm, or similar actions.  
 
-### Toughness Signature Abilities
-**Armor Slam**  
-Attack [Toughness Signature]  
-Action: Major  
-Range: Melee  
-Targets: 1 enemy  
-Cost: None, 2, 4, 6, ... ( See Special)  
-Damage: x1, 2, 3, ... (Physical, see Special)  
-Special: This attack uses either (PDef - 10) or (MDef - 10) in place of your PAtk. If you choose to use MDef, the opponent resists with their MDef instead of their PDef.  
-As you gain Hero Tiers, you may increase this Ability’s cost to make it more effective.  
-At Hero Tier 2, you can give this Ability a cost of 1 and increase the damage multiplier by 1. Every Hero Tier beyond that, you may increase the cost by 1 to increase the multiplier by 1. You may still use less powerful versions for a lower cost if you desire.  
-Description: Using your defenses offensively. This could be a shield slam, utilizing armor spikes, rolling into a ball like an armadillo and overwhelming your target, overheating your energy shield, or some similar armored attack.  
 
-**Hold Fast**  
-Auxiliary [Toughness Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 2 HP  
-Effect: Increase your Defense Track by 1.  
-Description: You steele yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
 
-**Payback**  
-Auxiliary [Counter] [Toughness Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: Melee  
-Targets: Self  
-Cost: 2, 4, 6... MP (See Special)  
-Duration: 1 round  
-Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal damage equal to the negative of their Result. For example, if a foe attacks and misses you with a result of -3, they take 3 damage.  
-Special: As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can increase the cost by 2 to add the negative result to the damage again. So 4 MP to prepare a version that does 2 x the negative Result at Tier 2, 6 MP to use a 3 x negative Result at Tier 3, and so on. If you prefer you may use lower cost versions for less effect as well.  
-Description: Preparing an advanced counterattack. This could be striking back with your shield as attacks deflect off it, utilizing spikes on your armor, a powerful electric shock built into your energy shields, or similar means of retaliation.
 
-**Protector’s Presence**  
-Auxiliary [Toughness Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: None  
-Targets: Self  
-Cost: None, 2, 4, 6, … MP (See Special)  
-Duration: 2, 3, 4, ... rounds (See Special)  
-Effect: You gain Taunt for the duration.  
-Special: As you advance in Hero Tier, you may increase the cost of this Ability to extend its duration. Starting at Hero Tier 2 you may increase the cost to 2 MP in order to increase the duration to 3 rounds. At Hero Tier 3, you can increase the cost to 4 MP to get a duration of 4 rounds, and so on.  
-Description: You provide cover for nearby allies. This can be physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
-**Second Wind**  
-Auxiliary [Healing] [Toughness Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: None  
-Targets: Self  
-Cost: 2, 4, 6... MP (See Special)  
-Effect: You regain health equal to two times your Toughness.  
-Special: As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can increase the MP cost by 2 to increase the healing by 2x your Toughness. So 4 MP to recover Toughness x 4 at Tier 2, 6 MP to recover Toughness x 6 at Tier 3, and so on. If you prefer you may use lower cost versions for less effect as well.  
-//Need to eye this one’s recovery. Balance around Quick Healer Lesson.  
-Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
-### Mind Signature Abilities
-//There will be a [Summon] spell in here eventually. That doesn’t happen in first round of tests.
-
-**Elemental Blast**  
-Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark, see Special] [Mind Signature]  
-Action: Major  
-Prerequisites: Elemental Dart (Universal ability)  
-Range: Medium  
-Targets: 1 square  
-Cost: 6, 12, 18... MP (See Special)  
-Damage: x2, x4, x6… (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
-Special: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 6 MP to increase the multiplier by 2. So 12 MP for a multiplier of 4 at Tier 2, 18 MP for a multiplier of 6 at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
-
-**Life Tap (Mind)**  
-Auxiliary [Mind Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 3, 6, 9... HP  
-Effect: You regain MP equal to your Mind.  
-Special: This cannot be used outside of combat.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can add 3 HP to the cost to increase the MP restored by your Mind. So 6 HP to recover Mind x 2 at Tier 2, 12 HP to recover Mind x 3 at Tier 3, and so on. You may still use lower cost versions for less effect if you prefer.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
-
-**Stonewall**  
-Auxiliary \[Terrain\] [Mind Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: Varies, see Special  
-Cost: Varies, see Special  
-Duration: 1 minute or until destroyed  
-Effect: This creates a wall that prevents all passage. You can target up to one edge per Hero Tier. Each edge affected counts as a separate wall segment.  
-Special: Each wall segment has an amount of HP equal to your Mind x 20 and has your Physical and Mental Defense scores. If a wall reaches 0 HP it is breached, allowing passage through it normally. Note that the edge is still affected by the Stonewall (which means that enemies passing through the walls take damage if you have the Thorny Terrain Tactic, for example).  
-Each wall segment you create costs 3 MP.  
-Description: An advanced way to hinder foes’ movements and corral them into advantageous positions. This could be raising the ground to form barriers, deploying a force field, assembling a barrier made of bones, and similar walls.  
-
-### Heart Signature Abilities
-**Evacuation**  
-Auxiliary [Heart Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: One other ally in your square, and an adjacent square  
-Cost: 2 or 0 MP  (See Special)  
-//Some kind of scaling? Maybe more distance, square the cost? Possibly more allies targeted?
-Effect: You and the targeted ally move to the selected square.  
-Special: You and the targeted ally must be able to move normally to use this ability. If the selected ally is at 0 HP and unconscious, this Ability costs 0 MP. Otherwise, the cost is as normal.
-Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
-
-**Healing Burst**  
-Auxiliary [Healing] [Heart Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 Square  
-Cost: 3, 6, 9... MP (See Special)  
-Effect: All allies in the target square regain HP equal to your Magic Attack Bonus.  
-Special: As you gain Hero Tiers, you can increase the cost of this Ability. Every tier above 1, you can can begin increasing the cost by 3 MP to increase the healing by your Magic Attack Bonus. So 6 MP to heal 2x your Magic Attack Bonus at Tier 2, 9 MP to heal 3x your Magic Attack Bonus at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
-Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
-
-**To the Rescue**  
-Auxiliary [Heart Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: Medium  
-Targets: One ally  
-Cost: 2 MP  
-//Some kind of scaling? Maybe more distance, square the cost?  
-Effect: You move to the target’s square.  
-Special: You must be able to move normally to use this ability.  
-Description: Quickly rushing to an ally’s side. This is often followed up with a healing ability, but not always.
-
-### Soul Signature Abilities
-**Doom**  
-Auxiliary [Curse] [Soul Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: One enemy  
-Cost: 4 MP (See Special)  
-Duration: Varies (see Special)  
-Effect: Reduce one of your target’s buff/debuff tracks by 1.  
-Special: When you cast this spell, make a Magic Attack roll against the target. This spell fails if your Result is less than 1.  
-At the beginning of your turn you may choose to end Doom or attempt to maintain it. Attempting to maintain the spell takes no action, but costs 2 MP. You must repeat the Magic Attack roll against the target: on a Result of less than 1, the spell immediately ends--though the damage done to the victim’s buff tracks remains until otherwise reversed.  
-If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
-You may only Doom one target at a time.  
-Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
-
-**Life Tap (Soul)**  
-Auxiliary [Soul Signature]  
-Action: Minor  
-Prerequisites: None  
-Targets: Self  
-Cost: 3, 6, 9... HP  
-Effect: You regain MP equal to your Soul.  
-As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can add 3 HP to the cost to increase the MP restored by your Soul. So 6 HP to recover Soul x 2 at Tier 2, 12 HP to recover Soul x 3 at Tier 3, and so on. You may still use lower cost versions for less effect if you prefer.  
-Special: This cannot be used outside of combat.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
-
-**Leyline**  
-Auxiliary \[Terrain\] [Soul Signature]  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 Square  
-Cost: 3, 6, 9... MP (See Special)  
-Duration: 1 minute  
-Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Attack, Physical Attack, Mental Defense, and Physical Defense.  
-Special: You cannot cast Leyline again while a previous Leyline you cast is still active.  
-The cost of this ability increases by 5 for every Hero Tier beyond the first.  
-Intelligent enemies can easily recognize Leylines and understand their implications.  
-Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
-
-**Physical Ward**  
-Auxiliary [Ward] [Soul Signature]  
-Action: Minor  
-Prerequisites: None  
-Range: Long  
-Targets: 1 Ally  
-Cost: 3 MP  
-Duration: 1 minute  
-Effect: Any Abilities that deal Physical against an affected ally has its multiplier reduced by 1.  
-Special: As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier, you can can begin adding 3 MP to the cost to increase the multiplier reduction by 1. So 6 MP to reduce multipliers by 2 at Tier 2, 9 MP to reduce 3 at Tier 3, and so on. You may still use lower cost versions for less effect if you prefer.  
-Description: A simple protection spell. This can represent a rune of protection, recalibrating energy shields, coating the target’s skin in a layer of stone or bark, and similar defensive measures.
-
-**Soul Ward**  
-Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special] [Soul Signature]  
-Action: Minor  
-Prerequisites: Basic Ward (universal Ability)  
-Range: Long  
-Targets: 1 Ally  
-Cost: 4, 8, 12, ... MP  
-Duration: 1 minute  
-Effect: Any attacks against an affected ally of the ward’s type has its multiplier reduced by your Soul (minimum 0).  
-Special: When you cast this Ward, choose an Element. You may make this Ward protect against the chosen type of damage. You may only choose elements that you have unlocked for the Basic Ward universal Ability.  
-As you gain Hero Tiers, you can increase the cost of this Ability to affect more allies. Every tier, you can can begin adding 4 MP to the cost to target an additional ally. The targets do not need to be in the same square, just within Long reach. You may still use lower cost versions for fewer targets if you prefer.  
-Description: An advanced protection spell. This can represent a rune of protection, recalibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
