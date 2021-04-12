@@ -984,7 +984,7 @@ When using a Curse ability, you may choose one of the following benefits.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on).
+When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Attack increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Attack bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
@@ -1670,14 +1670,6 @@ Granted By: Elemental Attunement (Earth)
 #### Static  
 You can generate small electric shocks. This can be subtle use of air magic, a glove that stores and releases electric charge, or something similar. If the electricity comes from a device, it can be assumed to always have fuel. You are immune to discomfort from your own Static, and the voltage generated is not enough to cause HP damage--though it can still be a painful surprise. This Trick can be used to power small devices or recharge batteries, but anything larger than two feet in diameter requires a dedicated power source to function continuously.  
 Granted By: Elemental Attunement (Sky)
-
-## Signature Abilities
-Signature Abilities are abilities that have a higher impact than normal Abilities, sometimes defining how a character fights entirely. These abilities often scale with Hero Tier or by Attribute.  
-A character may only take one Signature Ability per Hero Tier. Because they represent specialization in a particular fighting style, they are also more expensive to purchase and become more expensive each Hero Tier. Signature Abilities cannot be purchased using the free Ability granted at levels 1, 6, 11, ect. The cost to purchase your first Signature Ability is 5 XP, and each subsequent Signature Ability costs 5 more XP per Signature Ability already known. So 10 XP for the second, 15 XP for the third, and so on.  
-Signature Abilities are listed below, divided up by what Attribute the Signature Ability would most benefit from.  
-
-### Strong Signature Abilities
-
 
 
 
