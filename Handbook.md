@@ -1222,6 +1222,10 @@ Increase your Performance modifier by 1.
 In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  
 //Is this enough? Do I need to add more benefits? Increase Boon? Might be too narrow?
 
+#### Darksight
+Increase your Awareness modifier by 1.
+In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.
+
 #### Eidetic Memory
 Increase your Lore modifier by 1.
 You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
