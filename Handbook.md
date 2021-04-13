@@ -1212,11 +1212,6 @@ Increase your Athletics modifier by 1.
 Your athletic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Athletics checks that you are helping them with.  
 //Scaling on Boon? 
 
-#### Browbeat  
-Increase your Intimidation modifier by 1.  
-You have an air of danger to you that can distract foes from others who would deceive them, making them easier to read. You grant allies Boon 2 on Empathy checks outside of combat.
-//TODO reconsider
-
 #### Captivating Performance  
 Increase your Performance modifier by 1.  
 In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  

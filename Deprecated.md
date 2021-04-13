@@ -519,3 +519,8 @@ Damage: x1, x2, x3... (Physical, see Special)
 Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled). While you maintain this Grapple, you automatically deal damage to your target equal to your Strength at the beginning of your turn.  
 As you gain Hero Tiers, you can increase the cost of this Ability to make it more effective. Every tier above 1, you can can begin increasing the cost by 2 MP to increase the multiplier by 1 and the continuous damage by your Strength. So 4 MP for a multiplier of 2 and 2x your Strength continuous damage at Tier 2, 6 MP for a multiplier of 3 and 3x Strength continuous damage at Tier 3, and so on. You can still use lower cost versions for lesser effect if you prefer.  
 Description: This represents overwhelming and pinning down your foe with your power. This could be a choke-hold, wrapping a target in a powerful tail, biting down and latching on, and other types of holds and grabs.
+
+#### Browbeat  
+Increase your Intimidation modifier by 1.  
+You have an air of danger to you that can distract foes from others who would deceive them, making them easier to read. You grant allies Boon 2 on Empathy checks outside of combat.
+//TODO reconsider
