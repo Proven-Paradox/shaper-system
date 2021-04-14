@@ -1229,7 +1229,6 @@ You are able to reliably remember information correctly. You may ask the Arbiter
 #### Endless Marcher  
 Increase your Endure modifier by 1.  
 In addition, you do not need to make Endure checks to make long marches, and have boon 4 on checks made for forced marches or while running during a chase.  
-//This will make more sense/be more appealing after chasing rules are written.
 
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
@@ -1488,6 +1487,9 @@ You are invisible or otherwise very difficult to see, which makes you extremely 
 #### Prone  
 Lying on the ground. Melee range attacks against Prone targets have Boon 5, while any attacks coming from beyond Short range are made at Bane 8. Moving a square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
+
+#### Provoked
+An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects. This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
