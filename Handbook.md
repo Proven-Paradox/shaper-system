@@ -1300,7 +1300,7 @@ You can fly up to five feet off the ground.
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
-This Power makes you immune to Terrain effects with the [Grounded] tag, unless the caster possess the [Reaching Terrain](#reaching-terrain) Power.
+This Power makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
 #### One with Nature: Animals  
 XP Cost: 3  
@@ -1478,7 +1478,7 @@ You cannot see. If you attempt to attack a target that you can hear or whose loc
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possess the [Reaching Terrain](#reaching-terrain) Power.
+This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
 #### Grappled  
 Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane 9. Attacks against you have Boon 2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
