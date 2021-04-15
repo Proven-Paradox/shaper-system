@@ -406,10 +406,10 @@ Action: Minor
 Prerequisites: None  
 Range: Long  
 Targets: One enemy  
-Cost 2 MP
-Damage: 0
+Cost 2 MP  
+Damage: 0  
 Special: If this spell hits the target, they are Provoked by you for one turn.  
-You may choose to use your Mental Defense - 10 instead of your Mental Attack for this spell.
+You may choose to use your Mental Defense - 10 instead of your Mental Attack for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Cleanse  
