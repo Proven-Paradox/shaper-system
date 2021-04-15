@@ -302,6 +302,7 @@ Some Abilities are part of a series, building off each other and using each othe
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
 * **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
 * **Cover** - If you have Cover and you are in a space with any other ally, enemies cannot target you. Any Abilities that pick a target can only pick your other allies. Abilities that affect squares instead of targets can still affect you as normal.
+* **Grounded** - An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
 * **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 * **Upkeep** - Any ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
@@ -474,7 +475,7 @@ You may use this either as an Attack (using your Physical Attack and targeting y
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
 #### Entangle  
-Auxiliary [Terrain] [Careful]  
+Auxiliary [Terrain] [Careful] [Grounded]  
 Action: Major  
 Prerequisites: None  
 Range: Short  
@@ -1072,6 +1073,9 @@ Once per round, when an opponent you have Locked On to moves, you may choose to 
 Increase any HP restoration you receive by half.  
 > Remember that all fractions round down. Also to be clear; this affects the Regeneration track as well.
 
+#### Reaching Terrain
+Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Power or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Power may cast [Grounded] Abilities in the air as well as on the ground.
+
 #### Relentless  
 When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
@@ -1144,7 +1148,7 @@ You have the skill to place a spell just right--your potency is less about the p
 
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
-This Capstone makes the Hover and Slow Fall Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
+This Capstone makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
@@ -1286,7 +1290,7 @@ To determine the difficulty of the Lore check, the Arbiter should consider sever
 You can summon or create a small familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, a small automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a skill check, the Familiar’s core stats are as follows:  
 Strength -2, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1  
 Physical Attack -1, Mental Attack 2, Physical Defense 11, Mental Defense 12  
-Familiars usually have Flight.  
+Familiars usually have [Flight](#flight).  
 Familiars do not gain class levels and thus only uses its base stats to modify the skill checks. (Familiars are not well suited to complex tasks or combat as a result.)  
 Summoning a familiar is a ritual that requires an hour of uninterrupted work and 7 MP. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one.  
 
@@ -1296,6 +1300,7 @@ You can fly up to five feet off the ground.
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
+This Power makes you immune to Terrain effects with the [Grounded] tag, unless the caster possess the [Reaching Terrain](#reaching-terrain) Power.
 
 #### One with Nature: Animals  
 XP Cost: 3  
@@ -1434,7 +1439,7 @@ As always, these methods of describing an injury are just suggestions. Players a
 
 ### How can I get Injured?
 There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Shaper makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Shaper may choose to reroll until something appropriate comes up.)
-* Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with Flight generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
+* Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
 * Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries. These are described individually. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
 * Fatigue. Circumstance forces a character to march throughout the night, forgoing food, water, and rest, through driving rain and cold and without shelter. This will wear on the character, and the compounding fatigue that builds up over time of neglect is represented with injuries.
@@ -1473,6 +1478,7 @@ You cannot see. If you attempt to attack a target that you can hear or whose loc
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
+This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possess the [Reaching Terrain](#reaching-terrain) Power.
 
 #### Grappled  
 Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane 9. Attacks against you have Boon 2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
