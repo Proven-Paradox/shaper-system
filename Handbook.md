@@ -400,6 +400,18 @@ Damage: x2 (Physical)
 Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
+#### Challenge  
+Spell  
+Action: Minor  
+Prerequisites: None  
+Range: Long  
+Targets: One enemy  
+Cost 2 MP
+Damage: 0
+Special: If this spell hits the target, they are Provoked by you for one turn.  
+You may choose to use your Mental Defense - 10 instead of your Mental Attack for this spell.
+Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
+
 #### Cleanse  
 Auxiliary  
 Action: Minor  
