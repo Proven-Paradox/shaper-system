@@ -254,7 +254,7 @@ Ability entries will follow this basic layout (and further information about eac
 
 **The Name of the Ability**  
 Ability Type (Attack/Spell/Auxiliary)  
-Action (Major/Minor): whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 10.)  
+Action (Major/Minor/Counter): whether the Ability requires a Minor, Major, or Counter Action to use. (Actions will be described in more detail in Chapter 10.)  
 Prerequisites: What other things are required before one can learn this Ability.  
 Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
@@ -666,14 +666,16 @@ Special: Until your next turn, enemy attacks and spells targeting you have Boon 
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
-Auxiliary [Counter]  
-Action: Minor  
+Attack
+Action: Counter  
 Prerequisites: None  
 Range: Melee  
-Targets: Self  
-Cost: 1 MP  
-Duration: 1 round  
-Effect: Until the beginning of your next turn, any time an opponent makes a melee attack against you and fails to hit, you deal one damage to them.  
+Targets: 1 enemy  
+Trigger: The targeted enemy fails on an attack attempt.
+Cost: 2 MP   
+Damage: x1 (Physical)
+Effect: You attempt an attack against the enemy after they miss.
+Special: You may use your Physical Defense - 10 in place of your Physical Attack when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
@@ -1353,8 +1355,8 @@ If there’s a tie, the creature with the higher Initiative modifier goes first.
 You may choose to delay your turn if you like. When your turn comes, you simply declare who you want your turn to come after instead. On the next round, your initiative order returns to where it originally was.
 
 ### Taking a Turn
-When your turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your turn; you’re not required to use them.
-
+When your turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your turn; you’re not required to use them.  
+Between your turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.
 
 > When it’s not your turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your turn during your friends’ actions means the game will be faster and more fun for everyone.
 
