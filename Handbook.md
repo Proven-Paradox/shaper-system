@@ -166,14 +166,14 @@ After choosing your class and your Attributes, you can determine your capacity s
 * **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 15 skill points.
 
 ## Step 2-b: Attack/Defense
-These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from class bonuses. The secondary stats are as follows.
+These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses. The secondary stats are as follows.
 * **Physical Attack:** This broadly represents your ability to effectively attack foes by mundane means. The better your physical attack, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical attack could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical attack.
 * **Mental Attack:** This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental attack could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental attack.
 * **Physical Defense:** This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
 * **Mental Defense:** Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
 * **Initiative:** A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse to initiative rolls.
 
-How one uses these attributes will be described in Chapter 6.
+How one uses these attributes will be described in Chapter 10.
 
 ## Step 3: Abilities
 The next step is to choose Abilities. Chapter 4 goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know three Abilities (two + one gained from being level 1) for free as well as all Tier 0 Abilities.
@@ -183,10 +183,10 @@ Some advice if you want to make a powerful character and are having trouble choo
 * If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Heart dominant hero is going to want mental attacks.
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
 * At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use once, maybe it’s not a good choice.
-* After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 6)
+* After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 10)
 
 ## Step 4: Skills
-Finally, you will distribute skill points. There’s more information on skills in Chapter 5, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
+Finally, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
 
 
 Here are some things to consider when distributing skill points:
@@ -212,7 +212,7 @@ In addition, purchasing a level gives its own benefit that goes in a five level 
 * At levels 2, 7, 12, … the character gains one level in Vitality or Capacity.
 * At levels 3, 8, 13, … the character increases their Physical or Mental Defense.
 * At level 4, 9, 14, … the character increases their Physical or Mental Attack.
-* At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Capstone Power (more on Capstone Powers in Chapter 7).
+* At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Capstone Power (more on Capstone Powers in Chapter 8).
 
 When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
 
@@ -232,11 +232,11 @@ Abilities represent things you can actively do, typically in combat. These can c
 
 Abilities come in four tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2, 7 for tier 3, and 9 for tier 4.
 
-Abilities are described in more detail in Chapter 4.
+Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
 ### Powers
 Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
 
-Powers are described in more detail in Chapter 6.
+Powers are described in more detail in Chapter 7.
 ### Capstone Powers
 Capstone Powers represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than standard Powers, and as such they are only available when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
@@ -245,7 +245,7 @@ Capstone Powers are described in more detail in Chapter 7.
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
 
-Utilities are described in more detail in Chapter 8.
+Utilities are described in more detail in Chapter 9.
 ***
 # Chapter 4: Abilities
 Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
@@ -254,7 +254,7 @@ Ability entries will follow this basic layout (and further information about eac
 
 **The Name of the Ability**  
 Ability Type (Attack/Spell/Auxiliary)  
-Action (Major/Minor): whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 6.)  
+Action (Major/Minor): whether the Ability requires a Minor or Major Action to use. (Actions will be described in more detail in Chapter 10.)  
 Prerequisites: What other things are required before one can learn this Ability.  
 Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
@@ -1511,7 +1511,8 @@ An opponent has demanded your attention. Any actions you take that affect oppone
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
-#### *
+#### 
+
 # Chapter Y: Adversaries and Monsters
 /* TODO For now this is going to be where I list and describe monsters written. Eventually I need to write a more concrete introduction about how to use monsters, notes about how the entries are kept generic with a few details left unwritten so one entry can potentially represent many different types of monsters, how to read these entries, and the like. For now I want to skip to actually sharing monster entries to give an idea of how I would want these entries to be read by Shapers and used in games.  
 Figure out how to explain adversary archetypes at some point. Add notes about figuring out skill mods when they’re not listed.
