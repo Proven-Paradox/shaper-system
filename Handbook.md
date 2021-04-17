@@ -1595,11 +1595,10 @@ Lesser Warriors are basic, every day fighters. These might be town guards or fre
 //These go at the end but they may come up in playtesting, so writing them now.
 Specific rules supercede general rules. The rules for movement are very general, but there are some effects in the game which allow a player to break those rules. In this case, the more specific effects trump the general movement rules. The same trend applies elsewhere.
 
-
 Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.
 
-
-Defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence. When this applies to skills, generally the more passive skill will count as “defender.” For example, if someone’s Deception check is matched by someone else’s Empathy check, the Empathy check should be the winner since the Deception is more active. If there are ever instances where this is not clear, the Arbiter makes this choice.
+In combat, defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence.  
+For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.
 
 ***
 # Appendix A: Optional Rules
