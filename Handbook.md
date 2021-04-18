@@ -803,7 +803,7 @@ Range: Melee
 Targets: One enemy  
 Cost: 0 MP (Overload 3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
-Effect: You may use your Phyiscal or Mental Defense - 10 in place of your Physical or Magical Attack. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
+Effect: You may use your Phyiscal or Mental Defense - 10 in place of your Physical or Mental Attack. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
 You may choose to overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
