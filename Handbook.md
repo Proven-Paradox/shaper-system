@@ -1348,6 +1348,20 @@ If they are getting adequate resources to grow, plants are generally pleasant co
 XP Cost: 5  
 You have a innate ability to sense supernatural influences. This can be angelic, demonic, undead, fey, eldritch, or anything between. When you focus your senses, you can detect if a supernatural being is within thirty feet of you. You know the creature’s general location and what sort of creature it is. You can also sense when supernatural forces have tampered with otherwise natural processes in a residual way.
 
+#### Speak with the Ancient Dead  
+XP Cost: 5  
+Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead)  
+Your ability to speak with corpses improves; now all that is required is an intact skull. The state of the rest of the body does not matter.
+
+#### Speak with the Recently Dead  
+XP Cost: 5  
+You can speak with corpses. The corpses know everything they knew in life, up until the last day of their lives, which they completely forget. Corpses in this state have no emotions, and cannot learn new information, including the fact that they are dead. They also cannot move. The corpse must still have enough lungs and vocal cords to be able speak, or this Utility fails. This could be harnessing necromancy, utilizing nanobots to reconstruct what the body's brain knew, being an effective medium, knowledge of certain rituals, or similar measures.
+
+#### Speak with the Recently Dead, Improved  
+XP Cost: 7  
+Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), Hero Tier 2  
+You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have (Speak with the Ancient Dead)[#speak-with-the-ancient-dead] this effect extends to them.
+
 #### Slow Fall  
 XP Cost: 4  
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
