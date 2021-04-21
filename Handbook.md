@@ -523,6 +523,17 @@ Effect: The target gains one point on the Defensive Track.
 Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
+#### Guard  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: One ally  
+Cost: 2 MP  
+Duration: Until the beginning of your next turn  
+Effect: Targetted ally has Cover as long as you remain in the same square.  
+Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
+
 #### Grapple  
 Attack [Grappler]  
 Action: Major  
@@ -840,6 +851,17 @@ Targets: Self
 Cost: 4 HP  
 Effect: Increase your Defense Track by 1.  
 Description: You steele yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
+
+#### Intervene  
+Auxiliary  
+Action: Counter  
+Prerequisites: [Guard](#guard)
+Range: Short  
+Targets: 1 Ally  
+Cost: None
+Trigger: Targetted ally takes any damage.
+Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn, but requires you be in the same space as the targetted ally.  
+Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Leyline  
 Auxiliary \[Terrain\]  
