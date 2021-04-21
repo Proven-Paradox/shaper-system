@@ -818,6 +818,17 @@ Effect: You may use your Phyiscal or Mental Defense - 10 in place of your Physic
 You may choose to overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
+#### Bladebreak  
+Attack  
+Action: Major  
+Prerequisites: [Enfeeble](#enfeeble)  
+Range: Melee  
+Targets: One enemy  
+Cost: 8 MP  
+Damage: x2  
+Effect: If you deal damage with this Ability, the target also decreases their Offense Track.  
+Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
+
 #### Doom  
 Auxiliary [Curse]  
 Action: Major  
@@ -905,6 +916,16 @@ Cost: 4 MP
 Effect: You regain health equal to two times your Vitality level.  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
+#### Shieldshatter  
+Attack  
+Action: Major  
+Prerequisites: [Expose](#expose)  
+Range: Melee  
+Targets: One enemy  
+Cost: 8 MP  
+Damage: x2  
+Effect: If you deal damage with this Ability, the target also decreases their Defense Track.  
+Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
 #### To the Rescue  
 Auxiliary    
