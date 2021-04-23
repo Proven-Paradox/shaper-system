@@ -1290,6 +1290,10 @@ Increase your Performance modifier by 1.
 In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  
 //Is this enough? Do I need to add more benefits? Increase Boon? Might be too narrow?
 
+#### Chump Change  
+Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
+In addition, you can generally ignore trivial-to-low cost purchases with no difficulty, and an occasional nontrivial purchase as well. On anything below an approximate equivalent to US$20, the cost can be completely ignored. In addition, you receive the approximate equivalent to $100 in extra expendable money per month of inactivity. This can represent plying a trade, working with a skill, running a con, or some similar activities during downtime.
+
 #### Darksight
 Increase your Awareness modifier by 1.
 In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.
@@ -1331,6 +1335,11 @@ When you successfully detect that someone is lying to you with an Empathy check,
 #### Packmule  
 Increase your Endure modifier by 1.  
 In addition, you can carry heavy loads easily. You have Boon 4 when called to make an Athletics or Endure check for picking up heavy things or carrying large loads.
+
+#### Pretty Penny  
+Prerequisites: [Chump Change](#chump-change), at least +10 in at least one of the listed skills.  
+Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
+In addition, you can generally ignore medium cost purchases with no difficulty, and an occasional significant purchase as well. On anything below an approximate equivalent to US$200, the cost can be completely ignored. In addition, you receive the approximate equivalent to $1000 in extra expendable money per month of inactivity. This can represent plying a trade at signficant levels of skill, working with a skill at high demand or wit extreme competence, running a particularly lucrative con, or some similar activities during downtime.
 
 #### Rhetorical Trap  
 Increase your Empathy modifier by 1.  
