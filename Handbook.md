@@ -135,8 +135,6 @@ If in a situation where boon Boon and Bane apply, they cancel each other out. Ad
 ### Let's get this over with: Some general rules  
 Here are a few of the more fiddly rules that we need to get out of the way, just so there is no confusion.  
 
-Specific rules supersede general rules.  
-
 Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.  
 
 In combat, defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence.  
