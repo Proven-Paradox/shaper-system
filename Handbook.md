@@ -1112,7 +1112,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn.
+When you target creatures with an Augment, all affected gain Shield equal to your Mental Defense - 10.
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
