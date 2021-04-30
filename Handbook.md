@@ -132,6 +132,18 @@ If in a situation where boon Boon and Bane apply, they cancel each other out. Ad
 * Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
+### Let's get this over with: Some general rules  
+Here are a few of the more fiddly rules that we need to get out of the way, just so there is no confusion.  
+
+Specific rules supersede general rules.  
+
+Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.  
+
+In combat, defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence.  
+For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
+
+If a damage type is not listed, assume the damage to be physical.
+
 ***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
@@ -1668,15 +1680,6 @@ Mental Defense: 9
 *Bash* (Major action attack): x2 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square. 3 HP cost.
 
 Lesser Warriors are basic, every day fighters. These might be town guards or freshly trained soldiers in an army. Alternatively, they could be roughly human sized monstrous warriors of any type.
-
-# Some general rules
-//These go at the end but they may come up in playtesting, so writing them now.
-Specific rules supercede general rules. The rules for movement are very general, but there are some effects in the game which allow a player to break those rules. In this case, the more specific effects trump the general movement rules. The same trend applies elsewhere.
-
-Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.
-
-In combat, defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence.  
-For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.
 
 ***
 # Appendix A: Optional Rules
