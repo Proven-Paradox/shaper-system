@@ -908,6 +908,17 @@ Effect: You regain MP equal to your Capacity level.
 Special: This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
 
+#### Mental Shield
+Auxiliary  
+Action: Counter  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 2 + Damage MP (See Special)  
+Trigger: You take any damage.  
+Special: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
+Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
+
 #### Psych Up  
 Auxiliary 
 Action: Minor  
