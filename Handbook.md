@@ -66,7 +66,6 @@
   - [Creeps](#creeps)
   - [Nuisances](#nuisances)
   - [Warrior](#warrior)
-- [Some general rules](#some-general-rules)
 - [Appendix A: Optional Rules](#appendix-a-optional-rules)
   - [Flavor Skills](#flavor-skills)
   - [Tricks](#tricks)
