@@ -527,3 +527,51 @@ You have an air of danger to you that can distract foes from others who would de
 
 #### Barrier Ward  
 Any target affected by a [Ward](#ward) you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
+
+---------
+
+#### Acrobatic Paragon  
+Increase your Acrobatics modifier by 1.  
+Your acrobatic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Acrobatics checks that you are helping them with.
+//Scaling on Boon? 
+
+#### Athletic Paragon  
+Increase your Athletics modifier by 1.  
+Your athletic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Athletics checks that you are helping them with.  
+//Scaling on Boon? 
+
+#### Captivating Performance  
+Increase your Performance modifier by 1.  
+In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  
+//Is this enough? Do I need to add more benefits? Increase Boon? Might be too narrow?
+
+#### Endless Marcher  
+Increase your Endure modifier by 1.  
+In addition, you do not need to make Endure checks to make long marches, and have boon 4 on checks made for forced marches or while running during a chase.  
+
+#### Flawless Intuition
+Increase your Investigation modifier by 1.  
+In addition, you have a sixth sense when researching a topic or examining a scene. You can roll three ten sided dice on Investigation checks when doing research, searching a crime scene for clues, or other similar information gathering task, taking the highest two die rolls.  
+//TODO reconsider
+
+#### Inspiring Endurance  
+Increase your Endure modifier by 1.  
+Your own tenacity inspires others to push themselves harder. Your allies have Boon 1 on Endure checks.  
+//Scaling on Boon?
+
+#### Packmule  
+Increase your Endure modifier by 1.  
+In addition, you can carry heavy loads easily. You have Boon 4 when called to make an Athletics or Endure check for picking up heavy things or carrying large loads.
+
+#### Rhetorical Trap  
+Increase your Empathy modifier by 1.  
+In addition, when you successfully note that someone is lying but cannot think of a way to reveal said falsehood, you can make a Mind check. Roll two ten sided dice and add your Mind. If the result is 15 or higher, the Arbiter should suggest a way to reveal that lie. Examples include ways to force the liar to contradict themselves or reminding the player of damning evidence. This is not always possible, in which case the Arbiter should say as much.
+
+#### Sharp Senses  
+Increase your Awareness modifier by 1.  
+You are also able to rely on senses other than sight to locate opponents, improving your odds for striking hidden foes. When attacking an Obscured target with a single target attack, you can roll two ten sided dice and take the higher result instead of just rolling one.
+
+#### Superior Stealth  
+Increase your Stealth modifier by 1.  
+You have a natural eye for hiding spots that helps you conceal yourself and others when you stay still. When helping allies hide, you do so with Boon 2.  
+//Scaling on Boon? 

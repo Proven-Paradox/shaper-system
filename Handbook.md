@@ -1288,24 +1288,9 @@ Broadly, Utilities are things your character can do that are not related to comb
 ## Skill-based Utilities
 Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
-#### Acrobatic Paragon  
-Increase your Acrobatics modifier by 1.  
-Your acrobatic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Acrobatics checks that you are helping them with.
-//Scaling on Boon? 
-
 #### Asceticism  
 Increase your Endure modifier by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
-
-#### Athletic Paragon  
-Increase your Athletics modifier by 1.  
-Your athletic training and anatomical knowledge allows you to help your allies unlock their potential. You grant allies Boon 2 on Athletics checks that you are helping them with.  
-//Scaling on Boon? 
-
-#### Captivating Performance  
-Increase your Performance modifier by 1.  
-In addition, you can utilize a performance to create a distraction for your allies in large crowds. While you perform for a room, allies attempting to move through that room unseen gain Boon 2 on Stealth checks.  
-//Is this enough? Do I need to add more benefits? Increase Boon? Might be too narrow?
 
 #### Chump Change  
 Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
@@ -1320,26 +1305,12 @@ Increase your Lore modifier by 1.
 You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
 > Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and handwaving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
 
-#### Endless Marcher  
-Increase your Endure modifier by 1.  
-In addition, you do not need to make Endure checks to make long marches, and have boon 4 on checks made for forced marches or while running during a chase.  
-
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
 You can also gain one of the following benefits at a time.  
 * If you set up a trap, increase the necessary Investigation check requirement by your Hero Tier. //This will make more sense once I write trap mechanics.
 * When destroying a device, you can set up the failure to occur after a delay. Upon successfully using Sabotage to damage the device, you can set a delay of up to ten minutes. Once used, the affected device functions normally for the specified amount of time before the malfunction you caused comes into effect.
 * If dealing with a trap laid by someone else, you can temporarily bypass the thing instead of destroying it, allowing your party to pass without leaving evidence of your tampering.
-
-#### Flawless Intuition
-Increase your Investigation modifier by 1.  
-In addition, you have a sixth sense when researching a topic or examining a scene. You can roll three ten sided dice on Investigation checks when doing research, searching a crime scene for clues, or other similar information gathering task, taking the highest two die rolls.  
-//TODO reconsider
-
-#### Inspiring Endurance  
-Increase your Endure modifier by 1.  
-Your own tenacity inspires others to push themselves harder. Your allies have Boon 1 on Endure checks.  
-//Scaling on Boon?
 
 #### Natural Intuition  
 Increase your Empathy modifier by 1.  
@@ -1349,27 +1320,10 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
-#### Packmule  
-Increase your Endure modifier by 1.  
-In addition, you can carry heavy loads easily. You have Boon 4 when called to make an Athletics or Endure check for picking up heavy things or carrying large loads.
-
 #### Pretty Penny  
 Prerequisites: [Chump Change](#chump-change), at least +10 in at least one of the listed skills.  
 Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
 In addition, you can generally ignore medium cost purchases with no difficulty, and an occasional significant purchase as well. On anything below an approximate equivalent to US$200, the cost can be completely ignored. In addition, you receive the approximate equivalent to $1000 in extra expendable money per month of inactivity. This can represent plying a trade at signficant levels of skill, working with a skill at high demand or wit extreme competence, running a particularly lucrative con, or some similar activities during downtime.
-
-#### Rhetorical Trap  
-Increase your Empathy modifier by 1.  
-In addition, when you successfully note that someone is lying but cannot think of a way to reveal said falsehood, you can make a Mind check. Roll two ten sided dice and add your Mind. If the result is 15 or higher, the Arbiter should suggest a way to reveal that lie. Examples include ways to force the liar to contradict themselves or reminding the player of damning evidence. This is not always possible, in which case the Arbiter should say as much.
-
-#### Sharp Senses  
-Increase your Awareness modifier by 1.  
-You are also able to rely on senses other than sight to locate opponents, improving your odds for striking hidden foes. When attacking an Obscured target with a single target attack, you can roll two ten sided dice and take the higher result instead of just rolling one.
-
-#### Superior Stealth  
-Increase your Stealth modifier by 1.  
-You have a natural eye for hiding spots that helps you conceal yourself and others when you stay still. When helping allies hide, you do so with Boon 2.  
-//Scaling on Boon? 
 
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
