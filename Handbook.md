@@ -306,7 +306,6 @@ Some Abilities are part of a series, building off each other and using each othe
 * **Ranged** - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
 * **Scan** - Abilities that focus on finding information about enemies, often in covert ways, and gaining advantages from that knowledge.
 * **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
-* **Ward** - Abilities that shield allies from specific elements. Wards will be explained in greater detail below.
 * **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
 
 ## Ability Keywords
@@ -317,7 +316,6 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 * **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 * **Upkeep** - Any ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
-* **Ward** - These are defensive abilities. You may only place Wards on allies, and a given character may only have one Ward active at a time. If a character is targeted by a Ward spell while already affected by a Ward, the new Ward replaces the old one. After reducing the damage on one Attack or Spell, the Ward fades. The Ward otherwise lasts until it is used or until the end of combat.
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
@@ -804,15 +802,15 @@ Special: None
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 #### Ward  
-Auxiliary [Ward] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
 Targets: 1 Ally  
 Cost: 1 MP  
 Duration: Until used or combat ends  
-Effect: Any hostile Abilities of the ward’s type attacks against an affected ally has its multiplier reduced by 1.  
-Special: You can select this ability multiple times. Each time you do, choose one of the following: Ice and Fire, Earth and Sky, Light and Dark. You may make this Ward protect against the chosen type of damage. You cannot use a given element that you haven’t yet chosen.  
+Effect: Choose an element you are [Elementally Attuned](#elemental-attunement) to. Any hostile Abilities of the ward’s type attacks against an affected ally has its multiplier reduced by 1.  
+Special: The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
 ## Tier 2
@@ -1084,9 +1082,6 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 #### Ataraxia  
 If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your Hero Tier (to a minimum of 0).
 
-#### Barrier Ward  
-Any target affected by a Ward you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
-
 #### Bloodlust  
 When you successfully kill or knock out a foe, your next attack is made at Boon 6.
 
@@ -1105,7 +1100,7 @@ Reduce all damage you take (after multipliers are applied) by your half your Tou
 When being attacked by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
 #### Double Ward  
-When you use a single target Ward that requires you to choose a single type of elemental damage to protect against, you may choose to double the cost for it. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single attack. Applying this Realization counts as paying an Overload cost, even on Abilities that normally do not have the [Overload] tag.
+When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
 After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  

@@ -524,3 +524,6 @@ Description: This represents overwhelming and pinning down your foe with your po
 Increase your Intimidation modifier by 1.  
 You have an air of danger to you that can distract foes from others who would deceive them, making them easier to read. You grant allies Boon 2 on Empathy checks outside of combat.
 //TODO reconsider
+
+#### Barrier Ward  
+Any target affected by a [Ward](#ward) you cast also gains Shield equal to your Soul. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Soul each Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on). The shield lasts as long as your Ward remains in place. If the Ward is removed by an effect that deals damage, the Shield fades AFTER absorbing damage from that effect.
