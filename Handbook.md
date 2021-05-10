@@ -612,7 +612,7 @@ Description: This is a simple, quick attack. This can represent telekinetically 
 #### Kinetic Force  
 Spell [Kinetic]  
 Action: Major  
-Prerequisites: Kinetic Dart  
+Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 2 MP  
@@ -623,7 +623,7 @@ Description: This can represent telekinetically picking a target up and throwing
 #### Kinetic Pummeling  
 Spell [Kinetic] [Careful]  
 Action: Major  
-Prerequisites: Kinetic Dart  
+Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Short  
 Targets: 2 adjacent squares  
 Cost: 6 MP (Careful 4 MP)  
@@ -644,7 +644,7 @@ Description: Focusing on one target. This may be a matter of meditative discipli
 #### Mobile Strike  
 Attack [Skilled] [Overload]  
 Action: Major  
-Prerequisites: Quick Strike  
+Prerequisites: [Quick Strike](#quick-strike)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: 1 MP (Overload 2 HP)  
@@ -677,12 +677,12 @@ Description: A quick melee strike. This could be a sly jab, a quick strike with 
 #### Reckless Strike  
 Attack [Powerful]  
 Action: Major  
-Prerequisites: Heavy Strike  
+Prerequisites: [Heavy Strike](#heavy-strike)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
 Damage: x2 (Physical)  
-Special: Until your next turn, enemy attacks and spells targeting you have Boon +4.  
+Special: This attack has Boon +4. Until your next turn, enemy attacks and spells targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
@@ -726,7 +726,7 @@ Description: A basic ranged attack. This can be shooting a bow, firing a gun, th
 #### Snipe  
 Attack [Ranged]  
 Action: Major  
-Prerequisites: Shoot  
+Prerequisites: [Shoot](#shoot)  
 Range: Long  
 Targets: 1 enemy  
 Cost: 3 MP  
@@ -737,12 +737,12 @@ Description: A precise ranged attack. This attack involves standing still and ta
 #### Suplex  
 Attack [Grappler]  
 Action: Major  
-Prerequisites: Grapple  
+Prerequisites: [Grapple](#grapple)  
 Range: Melee  
 Targets: 1 grappled enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon +2.  
+Special: This attack may only be used on a target you are currently Grappling.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -759,7 +759,7 @@ Description: A powerful, sustained healing power. This could involve invoking a 
 #### Sweeping Strike  
 Attack [Powerful]  
 Action: Major  
-Prerequisites: Heavy Strike  
+Prerequisites: [Heavy Strike](#heavy-strike)  
 Range: Melee  
 Targets: Up to 3 enemies  
 Cost: 3 HP  
@@ -770,7 +770,7 @@ Description: A sweeping melee strike that targets multiple foes. This could be a
 #### Throw  
 Attack [Grappler]  
 Action: Major  
-Prerequisites: Grapple  
+Prerequisites: [Grapple](#grapple)  
 Range: Melee  
 Targets: 1 grappled enemy, 1 non-grappled enemy  
 Cost: 2 MP  
@@ -793,7 +793,7 @@ Description: An easy way of limiting enemy vision (though allies are similarly h
 #### Volley  
 Attack [Ranged]  
 Action: Major  
-Prerequisites: Shoot  
+Prerequisites: [Shoot](#shoot)  
 Range: Medium  
 Targets: 1 square  
 Cost: 4 MP  
