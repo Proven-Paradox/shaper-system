@@ -228,7 +228,7 @@ In addition, purchasing a level gives its own benefit that goes in a five level 
 When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
 
 
-Characters start at level 1 (and therefore gain one free ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
+Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
 
 Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Shaper may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
@@ -315,7 +315,7 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 * **Grounded** - An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
 * **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
-* **Upkeep** - Any ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
+* **Upkeep** - Any Ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
@@ -373,7 +373,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Special: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
+Special: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
 
 #### Recover  
 Auxiliary  
@@ -438,12 +438,12 @@ Description: The most basic way to recover from ill effects. This could be magic
 #### Double Strike  
 Attack [Skilled]  
 Action: Major  
-Prerequisites: Quick Strike  
+Prerequisites: [Quick Strike](#quick-strike)  
 Range: Melee  
 Targets: Up to 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: When you use this ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
+Special: When you use this Ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
 #### Elemental Blast  
@@ -479,7 +479,7 @@ Targets: One ally
 Cost: 2 MP (Overload 6 MP)  
 Duration: None  
 Effect: The target gains one point on the Offensive Track.
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
@@ -491,7 +491,7 @@ Targets: One enemy
 Cost: 1 MP (Overload 4 MP)  
 Duration: None  
 Effect: The target loses one point on the Offensive Track.
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
@@ -516,7 +516,7 @@ Targets: One enemy
 Cost: 1 MP (Overload 4 MP)  
 Duration: None  
 Effect: The target loses one point on the Defensive Track.
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
@@ -584,7 +584,7 @@ Range: Medium (Careful: Long, see special)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.
-Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this ability from a Long range if done with Careful.  
+Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -628,7 +628,7 @@ Range: Short
 Targets: 2 adjacent squares  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
-Special: If you spend your minor action while using this ability, the MP cost is reduced to 4.  
+Special: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
 #### Lock  
@@ -707,7 +707,7 @@ Targets: 1 enemy
 Cost: 1 MP (Careful 0 MP)  
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
-Special:If you spend your major action while using this ability, you remove the MP cost entirely.  
+Special:If you spend your major action while using this Ability, you remove the MP cost entirely.  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
@@ -787,7 +787,7 @@ Targets: 1 Square
 Cost: 2 MP (Overload 5 MP)  
 Duration: 3 rounds  
 Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are Blinded and Obscured.  
-Special: If you pay the Overload cost, you may use this ability as a minor action.  
+Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
 #### Volley  
@@ -871,7 +871,7 @@ Range: Short
 Targets: One other ally in your square, and an adjacent square  
 Cost: 3 MP
 Effect: You and the targeted ally move to the selected square.  
-Special: You and the targeted ally must be able to move normally to use this ability.  
+Special: You and the targeted ally must be able to move normally to use this Ability.  
 Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
 #### Hold Fast  
@@ -966,7 +966,7 @@ Range: Medium
 Targets: One ally  
 Cost: 3 MP  
 Effect: You move to the target’s square.  
-Special: You must be able to move normally to use this ability.  
+Special: You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
 ________________
@@ -1079,7 +1079,7 @@ Broadly speaking, Powers represent passive combat benefits or extra options avai
 Powers cost 5 XP unless an exception is listed.
 
 #### A Curse Most Foul  
-When using a Curse ability, you may choose one of the following benefits.
+When using a Curse Ability, you may choose one of the following benefits.
 * Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane -10 becomes Bane -9, Bane -9 becomes Bane -8, and so on.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
@@ -1114,7 +1114,7 @@ When being attacked by a foe that you have Locked On to, you gain a bonus to you
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
-After taking damage in place of an ally--for example, when using an ability such as Defender’s Intervention--or are targeted by a single target offensive ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
 //See comments on Deadened Nerves
 
 #### Elemental Attunement  
@@ -1152,7 +1152,7 @@ After you cast a spell, the next spell you cast on your turn has its HP or MP co
 //TODO Consider if this is powerful enough
 
 #### Masochism  
-Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
+Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
 #### Offensive Lock  
 When attacking a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
@@ -1174,13 +1174,13 @@ Increase any HP restoration you receive by half.
 Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Power or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Power may cast [Grounded] Abilities in the air as well as on the ground.
 
 #### Relentless  
-When you successfully strike with an ability that forces a target to move, you gain the following benefits.  
+When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target cannot move until your next turn.
 //TODO: Look at the cannot move condition
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--such when using an ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
+When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
 
 #### Sadism  
 When you kill or knock out a foe, increase your Offensive Track by 1.
@@ -1195,7 +1195,7 @@ If you have not moved between the beginning of your previous turn and your curre
 When you use a Scan Ability, choose one of the following benefits.
 * You scan all targets in one square
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
-* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
+* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 * You Lock On to the target. Lock On applied in this way has Upkeep 0.
 
 #### Thick Skin  
