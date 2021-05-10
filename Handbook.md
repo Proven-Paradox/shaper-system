@@ -241,7 +241,7 @@ You may spend 2 XP to gain 5 skill points. Keep in mind that the maximum number 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
 
-Abilities come in four tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2, 7 for tier 3, and 9 for tier 4.
+Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2.
 
 Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
 ### Powers
@@ -467,7 +467,7 @@ Targets: 1 enemy
 Cost: 0 MP (Overload 3 MP)  
 Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
 Special:  The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you pay the Overload cost, your damage multiplier becomes 2.  
+If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -851,6 +851,17 @@ At the beginning of your turn you may choose to end Doom or attempt to maintain 
 If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only Doom one target at a time.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
+
+#### Elemental Lance  
+Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Action: Major  
+Prerequisites: [Elemental Dart](#elemental-dart)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 7 MP (Overload 12 MP)  
+Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
+Special: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
+Description: This represents a variety of powerful, focused elemental attacks. This could be an advanced spell, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Evacuation  
 Auxiliary  
