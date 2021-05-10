@@ -107,7 +107,7 @@ In general when you are asked to roll dice in Story Shaper, you will roll a pair
 ## Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
 ### Boon
-Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
+Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
 * Varna makes a Stealth roll with Boon +3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
 * Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 * Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
@@ -126,7 +126,7 @@ Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane -4 on an attempt to repair a damaged mechanism. He must reroll any result above a 7. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
 ### Combining Boon and Bane
-If in a situation where boon Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
+If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
 * Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
 * Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
@@ -319,21 +319,21 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
-* **Level 3** - You make attack rolls at Boon 4.
-* **Level 2** - You make attack rolls at Boon 3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
-* **Level 1** - You make attack rolls at Boon 2.
+* **Level 3** - You make attack rolls at Boon +4.
+* **Level 2** - You make attack rolls at Boon +3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
+* **Level 1** - You make attack rolls at Boon +2.
 * **Level 0** - Normal, no changes.
-* **Level -1** - You make attack rolls at Bane 9.
-* **Level -2** - You make attack rolls at Bane 8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make attack rolls at Bane 7.
+* **Level -1** - You make attack rolls at Bane -9.
+* **Level -2** - You make attack rolls at Bane -8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
+* **Level -3** - You make attack rolls at Bane -7.
 ### The Defensive Track
-* **Level 3** - Attack rolls made against you have Bane 7.
-* **Level 2** - Attack rolls made against you have Bane 8, and your Mental and Physical Defense increases by your Hero Tier.
-* **Level 1** - Attack rolls made against you have Bane 9.
+* **Level 3** - Attack rolls made against you have Bane -7.
+* **Level 2** - Attack rolls made against you have Bane -8, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 1** - Attack rolls made against you have Bane -9.
 * **Level 0** - Normal, no changes.
-* **Level -1** - Attack rolls against you have Boon 2.
-* **Level -2** - Attack rolls against you have Boon 3, and your Mental and Physical Defense decreases by your Hero Tier.
-* **Level -3** - Attack rolls against you have Boon 4.
+* **Level -1** - Attack rolls against you have Boon +2.
+* **Level -2** - Attack rolls against you have Boon +3, and your Mental and Physical Defense decreases by your Hero Tier.
+* **Level -3** - Attack rolls against you have Boon +4.
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
@@ -682,7 +682,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x2 (Physical)  
-Special: Until your next turn, enemy attacks and spells targeting you have Boon 4.  
+Special: Until your next turn, enemy attacks and spells targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
@@ -708,7 +708,7 @@ Cost: 1 MP (Careful 0 MP)
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Special:If you spend your major action while using this ability, you remove the MP cost entirely.  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon 3.  
+You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
@@ -719,7 +719,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Special: If you also use your minor action this attack is made with Boon 1.  
+Special: If you also use your minor action this attack is made with Boon +1.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 //TODO Reconsider if Boon is needed
 
@@ -731,7 +731,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: x2 (Physical)  
-Special: This attack has Boon 3. You cannot use this attack on a turn where you have moved.  
+Special: This attack has Boon +3. You cannot use this attack on a turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -742,7 +742,7 @@ Range: Melee
 Targets: 1 grappled enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon 2.  
+Special: This attack may only be used on a target you are currently Grappling. This attack is made with Boon +2.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -1069,7 +1069,7 @@ Powers cost 5 XP unless an exception is listed.
 
 #### A Curse Most Foul  
 When using a Curse ability, you may choose one of the following benefits.
-* Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane 10 becomes Bane 9, Bane 9 becomes Bane 8, and so on.
+* Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane -10 becomes Bane -9, Bane -9 becomes Bane -8, and so on.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
@@ -1083,7 +1083,7 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your Hero Tier (to a minimum of 0).
 
 #### Bloodlust  
-When you successfully kill or knock out a foe, your next attack is made at Boon 6.
+When you successfully kill or knock out a foe, your next attack is made at Boon +6.
 
 #### Curse Resistant  
 The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
@@ -1116,7 +1116,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 // Need to keep an eye on scaling here
 
 #### First to Act  
-Increase your Initiative modifier by your Hero Tier. Also, you gain Boon 2 on Initiative rolls.
+Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
 When you target creatures with an Augment, all affected gain Shield equal to your Mental Defense - 10.
@@ -1184,7 +1184,7 @@ If you have not moved between the beginning of your previous turn and your curre
 When you use a Scan Ability, choose one of the following benefits.
 * You scan all targets in one square
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
-* You gain Boon 4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
+* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan ability from your target.
 * You Lock On to the target. Lock On applied in this way has Upkeep 0.
 
 #### Thick Skin  
@@ -1448,7 +1448,7 @@ Recovery is a Major Action, and you cannot use your Minor Action to do anything 
 
 #### Lose Them
 Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
-For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon 2.  
+For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon +2.  
 If you succeed in this Stealth check, the Hunters completely lose track of you. If you choose to continue moving away you will exit the scene altogether.  
 If you fail in this Stealth check, you lose one point of Concealment.  
 
@@ -1537,31 +1537,31 @@ That is up to the Shaper and should suit the setting. Allowing resurrection invi
 
 ## Conditions and Properties
 #### Blind  
-You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon 6.
+You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
 This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
 #### Grappled  
-Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane 9. Attacks against you have Boon 2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
+Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane -9. Attacks against you have Boon +2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
 
 #### Grappling  
 Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple.  
-Attacks against you from targets other than the one you are grappling have Boon 2. Attacks you make against the one you are grappling have Boon 3. You may end this condition at any time without an action, which also frees your victim from the Grappled condition.
+Attacks against you from targets other than the one you are grappling have Boon +2. Attacks you make against the one you are grappling have Boon +3. You may end this condition at any time without an action, which also frees your victim from the Grappled condition.
 
 #### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon 6 on Stealth checks.
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon +6 on Stealth checks.
 
 #### Prone  
-Lying on the ground. Melee range attacks against Prone targets have Boon 5, while any attacks coming from beyond Short range are made at Bane 8. Moving a square while Prone costs a major action.  
+Lying on the ground. Melee range attacks against Prone targets have Boon +5, while any attacks coming from beyond Short range are made at Bane -8. Moving a square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects. This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
 
 #### Stagger  
-Knocked silly. While Staggered, you lose your Minor action and have Bane 10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
+Knocked silly. While Staggered, you lose your Minor action and have Bane -10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
 #### 
 
 # Chapter Y: Adversaries and Monsters
@@ -1612,7 +1612,7 @@ Mental Defense: 13
 
 *Elusive* (Passive): Physical damage against this target is halved.  
 *Zap* (Major action spell): x1 multiplier, medium range. Damage type is the same as this creature’s elemental resistance. 1 MP  
-*Fuddle* (Major action auxiliary): Curse, medium range, duration 2 rounds, must succeed on mental attack or it fails. Imposes Bane 2. 1 MP  
+*Fuddle* (Major action auxiliary): Curse, medium range, duration 2 rounds, must succeed on mental attack or it fails. Imposes Bane -2. 1 MP  
 Crack (Major action attack): x2 multiplier, melee range. Damage type is the same as this creature’s elemental resistance. 4 MP  
 Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP  
 
