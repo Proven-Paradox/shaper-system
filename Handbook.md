@@ -212,6 +212,8 @@ Rather than progressing in a class or explicitly gaining levels, heroes become s
 This section will focus on how the party gains XP, and is mostly of concern to Shapers. <COME BACK TO THIS LATER>
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
+
+If you're looking specifically for the XP cost of specific benefits, refer to this [cheat sheet](https://github.com/Proven-Paradox/shaper-system/blob/main/XP%20cheat%20sheet.md).
 ### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
 * Every level increases the number of times Vitality and Capacity can be purchased
