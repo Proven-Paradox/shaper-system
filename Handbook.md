@@ -792,6 +792,18 @@ Effect: The targeted square becomes impossible to see through for the duration. 
 Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
+#### Void Dart  
+Spell  
+Action: Major  
+Prerequisites: Capacity 1
+Range: Long
+Targets: 1 Enemy
+Cost: 15 MP
+Damage: x3 (Almighty)
+Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
+
+> Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
+
 #### Volley  
 Attack [Ranged]  
 Action: Major  
@@ -1486,7 +1498,7 @@ Losing HP does not necessarily mean being struck by a weapon or spell. Remember,
 Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties, or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
 The damage types are as follows:
-* *Physical* - Slashing, piercing, bashing. Being damaged by physical damage means. This is by far the most common type of damage.
+* *Physical* - Slashing, piercing, bashing. This is by far the most common type of damage.
    * //If you see damage listed without a clear damage type, PLEASE CONTACT ME so I can label it, but you may also assume it is Physical.
 * *Fire* - Burning, scorching, heat. Fire damage is broadly the way to describe damage that comes from using high temperatures.
 * *Ice* - Piercing with icicles, chilling winds, sucking the heat out of the air. If the damage source is primarily low temperatures, it is ice damage.
