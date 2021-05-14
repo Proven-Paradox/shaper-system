@@ -1031,6 +1031,18 @@ Effect: You move to the target’s square.
 Special: You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
+#### Umbral Bolt  
+Spell [Elemental] [Dark]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Dark](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 10 MP  
+Damage: x3 (Dark)  
+Duration: 2 round  
+Special: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
+Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
+
 ________________
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
@@ -1617,6 +1629,9 @@ Partially frozen or dealing with a lingering cold. This reduces your Physical De
 
 #### Crush X
 Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Attack by X for its duration.
+
+#### Drained  
+Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
