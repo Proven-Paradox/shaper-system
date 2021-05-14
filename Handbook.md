@@ -852,6 +852,18 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases their Offense Track.  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
+#### Chilling Bolt  
+Spell [Elemental] [Ice]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Ice](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 10 MP  
+Damage: x3 (Ice)  
+Duration: 3 rounds  
+Special: If this Ability hits, the target becomes [Chilled](#chill-x) after three rounds. The Chill severity is equal to your Hero Tier.  
+Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
+
 #### Doom  
 Auxiliary [Curse]  
 Action: Major  
@@ -958,7 +970,7 @@ Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire]
 Range: Medium  
 Targets: 1 enemy  
 Cost: 10 MP  
-Damage: x3  
+Damage: x3 (Fire)  
 Duration: 1 round  
 Special: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
@@ -1575,6 +1587,9 @@ That is up to the Shaper and should suit the setting. Allowing resurrection invi
 ## Conditions and Properties
 #### Blind  
 You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
+
+#### Chill X  
+Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
