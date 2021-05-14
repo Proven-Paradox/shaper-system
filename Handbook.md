@@ -975,6 +975,17 @@ Effect: Increase your Offensive Track by 1.
 Special: None  
 Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions.  
 
+#### Radiant Bolt
+Spell [Elemental] [Light] [Healing]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Light](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy, 1 ally  
+Cost: 10 MP  
+Damage: x3 (Light)  
+Special: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your hero tier. If this Ability misses no healing occurs.
+Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
+
 #### Searing Bolt  
 Spell [Elemental] [Fire]  
 Action: Major  
