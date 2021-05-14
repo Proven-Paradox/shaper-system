@@ -964,7 +964,7 @@ Special: If this Ability hits, the target becomes [Scorched](#scorch-x) until th
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
 
 #### Second Wind  
-Auxiliary [Healing]
+Auxiliary [Healing]  
 Action: Minor  
 Prerequisites: None  
 Range: None  
