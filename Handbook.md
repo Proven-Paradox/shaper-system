@@ -864,6 +864,18 @@ Duration: 3 rounds
 Special: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your Hero Tier.  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
 
+#### Crushing Bolt  
+Spell [Elemental] [Earth]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Earth](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 10 MP  
+Damage: x3 (Earth)  
+Duration: 2 rounds  
+Special: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your Hero Tier.  
+Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
+
 #### Doom  
 Auxiliary [Curse]  
 Action: Major  
@@ -984,8 +996,8 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Sky)  
 Duration: 2 rounds  
-Special: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Chill severity is equal to your Hero Tier.  
-Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
+Special: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your Hero Tier.  
+Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
 
 #### Second Wind  
 Auxiliary [Healing]  
@@ -1602,6 +1614,9 @@ You cannot see. If you attempt to attack a target that you can hear or whose loc
 
 #### Chill X  
 Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
+
+#### Crush X
+Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Attack by X for its duration.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
