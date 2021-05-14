@@ -861,7 +861,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Ice)  
 Duration: 3 rounds  
-Special: If this Ability hits, the target becomes [Chilled](#chill-x) after three rounds. The Chill severity is equal to your Hero Tier.  
+Special: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your Hero Tier.  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
 
 #### Doom  
