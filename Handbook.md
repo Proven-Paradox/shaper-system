@@ -905,7 +905,7 @@ Range: Short
 Targets: 1 Ally  
 Cost: None  
 Trigger: Targetted ally takes any damage.  
-Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn, but requires you be in the same space as the targetted ally.  
+Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Leyline  
