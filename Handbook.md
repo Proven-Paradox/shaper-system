@@ -975,6 +975,18 @@ Duration: 1 round
 Special: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
 
+#### Shocking Bolt  
+Spell [Elemental] [Sky]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Sky](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 10 MP  
+Damage: x3 (Sky)  
+Duration: 2 rounds  
+Special: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Chill severity is equal to your Hero Tier.  
+Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
+
 #### Second Wind  
 Auxiliary [Healing]  
 Action: Minor  
@@ -1614,6 +1626,9 @@ An opponent has demanded your attention. Any actions you take that affect oppone
 
 #### Scorch X  
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
+
+#### Shock X
+Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
