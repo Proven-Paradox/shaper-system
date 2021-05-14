@@ -951,6 +951,18 @@ Effect: Increase your Offensive Track by 1.
 Special: None  
 Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions.  
 
+#### Searing Bolt  
+Spell [Elemental] [Fire]  
+Action: Major  
+Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire](#elemental-attunement)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 10 MP  
+Damage: x3  
+Duration: 1 round  
+Special: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
+Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
+
 #### Second Wind  
 Auxiliary [Healing]
 Action: Minor  
@@ -1584,6 +1596,9 @@ You may fall Prone or stand up as a minor action.
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects. This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
+
+#### Scorch X  
+On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
