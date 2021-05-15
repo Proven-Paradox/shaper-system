@@ -665,6 +665,19 @@ Cost: 1 MP (Upkeep 1 MP)
 Effect: You gain Taunt.  
 Description: You provide cover for nearby allies. This can be physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
+#### Purge  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 Enemy  
+Cost: 2 MP  
+Effect: Choose one of the following -  
+* Reduce the target's Buff/Debuff track by 1, to a minimum of 0.  
+* Remove the target's current Ward.  
+* Reduce the target's buff/debuff track by 2, to a minimum of 0.  
+Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
+
 #### Quick Strike  
 Attack [Skilled]  
 Action: Minor  
@@ -973,9 +986,30 @@ Targets: Self
 Cost: 4 HP  
 Effect: Increase your Offensive Track by 1.  
 Special: None  
-Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions.  
+Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions. 
 
-#### Radiant Bolt
+#### Purging Dart  
+Spell  
+Action: Minor  
+Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)  
+Targets: 1 enemy  
+Cost: 6 MP  
+Damage: x1 (Physical)  
+Special: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
+Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, a painful curse, or similar measures.  
+
+#### Purging Strike  
+Attack  
+Action: Major  
+Prerequisites: [Purge](#purge), Any melee range Attack  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 8 MP  
+Damage: x3 (Physical)  
+Special: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
+Description: You neutralize a foe's advantages by striking them. This could represent counterspelling runes drawn on to your weapon, a punch that disrupt's the target's concentration, or similar techniques.  
+
+#### Radiant Bolt   
 Spell [Elemental] [Light] [Healing]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Light](#elemental-attunement)  
