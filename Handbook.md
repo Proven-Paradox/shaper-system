@@ -229,9 +229,7 @@ In addition, purchasing a level gives its own benefit that goes in a five level 
 
 When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
 
-
 Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
-
 
 Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Shaper may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
 ### Vitality/Capacity
