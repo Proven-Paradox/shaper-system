@@ -693,10 +693,10 @@ Action: Counter
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Trigger: The targeted enemy fails on an attack attempt.
-Cost: 2 MP   
-Damage: x1 (Physical)
-Effect: You attempt an attack against the enemy after they miss.
+Trigger: The targeted enemy fails on an attack attempt.  
+Cost: 2 MP  
+Damage: x1 (Physical)  
+Effect: You attempt an attack against the enemy after they miss.  
 Special: You may use your Physical Defense - 10 in place of your Physical Attack when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
