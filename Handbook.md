@@ -688,7 +688,7 @@ Special: This attack has Boon +4. Until your next turn, enemy attacks and spells
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
-Attack
+Attack  
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
