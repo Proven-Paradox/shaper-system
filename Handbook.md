@@ -675,7 +675,7 @@ Cost: 2 MP
 Effect: Choose one of the following -  
 * Reduce the target's Buff/Debuff track by 1, to a minimum of 0.  
 * Remove the target's current Ward.  
-* Reduce the target's buff/debuff track by 2, to a minimum of 0.  
+* Reduce the target's regeneration/degeneration track by 2, to a minimum of 0.  
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Quick Strike  
