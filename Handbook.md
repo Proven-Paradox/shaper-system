@@ -1277,6 +1277,14 @@ Increase the range at which you Counter Abilities can affect enemies by 1. For e
 After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
 //TODO Consider if this is powerful enough
 
+#### Manamaim
+Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
+
+Example: Merlin has the Manamaim power, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his attack total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+
+#### Manamend
+Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
+
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
