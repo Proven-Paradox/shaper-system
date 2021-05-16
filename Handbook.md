@@ -938,8 +938,8 @@ Action: Counter
 Prerequisites: [Guard](#guard)  
 Range: Short  
 Targets: 1 Ally  
-Cost: None  
 Trigger: Targetted ally takes any damage.  
+Cost: None  
 Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
@@ -971,10 +971,23 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 2 + Damage MP (See Special)  
 Trigger: You take any damage.  
+Cost: 2 + Damage MP (See Special)   
 Special: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
 Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
+
+#### Pin Down  
+Attack  
+Action: Counter  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Trigger: An opponent in melee range attempts to move away from you.  
+Cost: 5 MP  
+Damage: x1  
+Duration: 1 round  
+Special: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next turn.  
+Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
 Auxiliary 
@@ -1696,6 +1709,9 @@ You may fall Prone or stand up as a minor action.
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects. This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
+
+#### Rooted
+For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
 
 #### Scorch X  
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
