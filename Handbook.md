@@ -65,7 +65,6 @@
 - [Appendix A: Optional Rules](#appendix-a-optional-rules)
   - [Flavor Skills](#flavor-skills)
   - [Tricks](#tricks)
-  - [Signature Abilities](#signature-abilities)
 
 ***
 ## Chapter 0: Introduction
