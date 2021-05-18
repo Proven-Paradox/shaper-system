@@ -1477,15 +1477,7 @@ In addition, you can assume you have connections in any non-trivial settlement y
 Increase your Lore modifier by 1.  
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual seeking the answer to a single question that takes at least one minute and make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? (Powerful individuals tend be more difficult to learn about through this feature.)
-## Other Utilities
-
-#### Familiar
-You can summon or create a small familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, a small automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a skill check, the Familiar’s core stats are as follows:  
-Strength -2, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1  
-Physical Attack -1, Mental Attack 2, Physical Defense 11, Mental Defense 12  
-Familiars usually have [Flight](#flight).  
-Familiars do not gain class levels and thus only uses its base stats to modify the skill checks. (Familiars are not well suited to complex tasks or combat as a result.)  
-Summoning a familiar is a ritual that requires an hour of uninterrupted work and 7 MP. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one.  
+## Other Utilities 
 
 #### Hover  
 XP Cost: 2  
