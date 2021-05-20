@@ -430,6 +430,19 @@ Effect: Choose one of the following:
 * Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
+#### Dodge  
+Auxiliary  
+Action: Counter  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Trigger: The enemy successfully hits with an Ability with a Result of 2 or less.  
+Cost: 2 MP  
+Effect: Negate the Ability that triggered this counter.  
+Description: A last minute reaction that allows one to just barely dodge an incoming attack.
+
+> This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects, such as Curses.
+
 #### Double Strike  
 Attack [Skilled]  
 Action: Major  
