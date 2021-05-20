@@ -1478,7 +1478,6 @@ Increase your Lore modifier by 1.
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual seeking the answer to a single question that takes at least one minute and make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? (Powerful individuals tend be more difficult to learn about through this feature.)
 ## Other Utilities 
-
 #### Hover  
 XP Cost: 2  
 You can fly up to five feet off the ground.  
