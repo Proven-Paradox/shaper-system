@@ -40,14 +40,7 @@
   - [Matters of Heart](#matters-of-heart)
   - [Soulful Techniques](#soulful-techniques)
   - [General Powers](#general-powers)
-- [Chapter 8: Talents](#chapter-8-talents) 
-  - [Strength Capstones](#strength-capstones)
-  - [Finesse Capstones](#finesse-capstones)
-  - [Toughness Capstones](#toughness-capstones)
-  - [Mind Capstones](#mind-capstones)
-  - [Heart Capstones](#heart-capstones)
-  - [Soul Capstones](#soul-capstones)
-  - [General Capstones](#general-capstones)
+- [Chapter 8: Talents](#chapter-8-talents)  
 - [Chapter 9: Utilities](#chapter-9-utilities)  
   - [Skill-based Utilities](#skill-based-utilities)
   - [Other Utilities](#other-utilities)
@@ -1380,7 +1373,7 @@ When a target suffering from a Curse you cast dies or is knocked out, you immedi
 //Maybe not enough to be a capstone? Will consider additional effects.
 
 #### Death Dealer  
-Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
+Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
 #### Endurance Mage  
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
@@ -1394,7 +1387,7 @@ You have the skill to place a spell just right--your potency is less about the p
 
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
-This Capstone makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
+This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
@@ -1432,7 +1425,7 @@ You have perfected an unusual spellcasting style that enables you draw fuel for 
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
 
 #### Shrug it Off  
-You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this capstone if your Level is at least 10. This is an Exclusive Capstone, and you may only have one Exclusive Capstone.
+You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
 #### Soul Well  
 You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Mind to determine your MP.
