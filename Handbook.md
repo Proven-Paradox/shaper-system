@@ -40,7 +40,7 @@
   - [Matters of Heart](#matters-of-heart)
   - [Soulful Techniques](#soulful-techniques)
   - [General Powers](#general-powers)
-- [Chapter 8: Capstone Powers](#chapter-8-capstone-powers) 
+- [Chapter 8: Talents](#chapter-8-talents) 
   - [Strength Capstones](#strength-capstones)
   - [Finesse Capstones](#finesse-capstones)
   - [Toughness Capstones](#toughness-capstones)
@@ -192,15 +192,17 @@ Some advice if you want to make a powerful character and are having trouble choo
 * After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 10)
 
 ## Step 4: Skills
-Finally, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
+Next, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
 
 
 Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
 * If you’re satisfied with your character’s representation but still have skill points remaining, consider coordinating with the other players. A given party would typically benefit from having all of their bases covered.
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
-***
 
+## Step 5: Talent
+Finally, you choose one talent. Talents are described in full in Chapter 8; these are major changes that help define what your character is good at. You gain one Talent at level one.
+***
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 ## Gaining XP
@@ -220,7 +222,7 @@ In addition, purchasing a level gives its own benefit that goes in a five level 
 * At levels 2, 7, 12, … the character gains one level in Vitality or Capacity.
 * At levels 3, 8, 13, … the character increases their Physical or Mental Defense.
 * At level 4, 9, 14, … the character increases their Physical or Mental Attack.
-* At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Capstone Power (more on Capstone Powers in Chapter 8).
+* At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
 
 When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
 
@@ -243,10 +245,10 @@ Abilities are described in more detail in Chapter 4 and listed individually in C
 Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
 
 Powers are described in more detail in Chapter 7.
-### Capstone Powers
-Capstone Powers represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than standard Powers, and as such they are only available when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
+### Talents
+Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Powers, and as such they are only available at first level, and then when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
-Capstone Powers are described in more detail in Chapter 7.
+Talents are described in more detail in Chapter 8.
 ### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
@@ -1360,8 +1362,8 @@ Special: This Power costs 3 XP.
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 *** 
-# Chapter 8: Capstone Powers
-A character gains a Capstone Powers for free when gaining a level divisible by 5 (level 5, 10, 15, ...).
+# Chapter 8: Talents
+A character gains a Talent for free at level 1, and again when gaining a level divisible by 5 (level 5, 10, 15, ...).
 
 #### Arcane Evasion  
 Your agility aids you in evading magical effects. You may use your Finesse in place of Mind to determine your Mental Defense.
