@@ -1703,7 +1703,7 @@ You can fly. This allows you to move into the airborne parts of the battle grid.
 This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
 #### Grappled  
-Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane -9. Attacks against you have Boon +2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
+Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane -2. Attacks against you have Boon +2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
 
 #### Grappling  
 Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple.  
