@@ -61,7 +61,7 @@
 
 ***
 ## Chapter 0: Introduction
-<Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Shaper. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
+<Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Arbiter. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.
 
 ## Core Tenants
@@ -87,7 +87,7 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 * A notebook for each player to write personal notes in
 ***
 # Chapter 1: How to Play
-<Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Shaper describing the world, taking control of other characters, players describing their actions, Shaper describing results.>  
+<Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Arbiter describing the world, taking control of other characters, players describing their actions, Arbiter describing results.>  
 ## Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
 
@@ -133,11 +133,11 @@ If a damage type is not listed, assume the damage to be physical.
 
 ***
 # Chapter 2: Character Creation
-Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, all of these should be an exercise mostly taken between the Shaper and the player.
+Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
 ## Step 1: Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Shaper will tell you the rules on how you determine your Attributes. My recommendation is to give between five and seven points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation, but I can’t stop a Shaper who disagrees.
+Your Arbiter will tell you the rules on how you determine your Attributes. My recommendation is to give between five and seven points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation, but I can’t stop an Arbiter who disagrees.
 
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
@@ -199,7 +199,16 @@ Finally, you choose one talent. Talents are described in full in Chapter 8; thes
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 ## Gaining XP
-This section will focus on how the party gains XP, and is mostly of concern to Shapers. <COME BACK TO THIS LATER>
+This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
+
+The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. As the Arbiter, that is up to you. There are no set rules on this.
+
+> There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.  
+> In general, my recommendation is that a typical session gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
+> If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
+> My play-testers all agreed that they'd prefer they all have the same XP levels. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps you as Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
+> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
+
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
 
@@ -221,7 +230,7 @@ When leveling up can have one of two benefits, the benefit must be applied to th
 
 Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
-Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Shaper may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
+Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
 ### Physical/Mental Attack/Defense
@@ -1537,7 +1546,7 @@ You are able to reduce the injuries you take when falling by half. This might re
 The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game.
 
 ### Surprise/Ambush
-The Shaper determines who might be surprised in a given scenario. It often involves awareness checks against stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
+The Arbiter determines who might be surprised in a given scenario. It often involves awareness checks against stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
 
 ### Initiative
 Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
@@ -1626,7 +1635,7 @@ The damage types are as follows:
 
 With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be dramatically different from their expectations and make it very clear what is happening.
 
-> TODO Finish this: There should be a sidebar here cautioning Shapers to not go overboard on Physical resistance since that is the only damage type all characters can guaranteed do. I also want to talk about how to gauge when it’s right to try to specifically hand players something they can deal with and when it needs to be a challenge. 
+> TODO Finish this: There should be a sidebar here cautioning Arbiters to not go overboard on Physical resistance since that is the only damage type all characters can guaranteed do. I also want to talk about how to gauge when it’s right to try to specifically hand players something they can deal with and when it needs to be a challenge. 
 
 ## What are Injuries?
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
@@ -1639,10 +1648,10 @@ When you sustain an injury, you take that single six sided die that is listed in
 5. *Soul*. You’ve suffered pain that breaks through your resolve, have a ringing in your ears, are generally questioning yourself, or something that interrupts your inner tranquility. 
 6. *Heart*. You’ve suffered a concussion, severe pain, perhaps perceive a betrayal (real or imagined) that makes you less sociable for the time being.
 
-As always, these methods of describing an injury are just suggestions. Players and Shapers are free to come up with their own.
+As always, these methods of describing an injury are just suggestions. Players and Arbiters are free to come up with their own.
 
 ### How can I get Injured?
-There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Shaper makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Shaper may choose to reroll until something appropriate comes up.)
+There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to reroll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
 * Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries. These are described individually. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
@@ -1650,10 +1659,10 @@ There are many dangers in an adventure that can result in an injury. The most ob
    * When going without sleep for a night, make an Endure check, difficulty 10. On a failure, you take a random injury. On a success, you soldier on, but the next night you have to go without sleep you repeat the check with +5 difficulty. This continues stacking until you sleep for at least six hours. Failing this check does not reset the difficulty; only sleep can do that.
    * After two weeks without food, make an Endure check, difficulty 10. On a failure, you take an injury to strength, endurance, or dexterity. On a success, you can do without for a little longer. Every day spent without eating from here on requires another Endure check with +1 difficulty. This stacks until you get a good meal.
    * After three days without water, make an Endure check, difficulty 10. On a failure, you take a random injury. On a success, you can do without for a little longer. Every day spent without water from here on requires another Endure check with +4 difficulty. This stacks until you get a drink.
-   * Every day spent without shelter from severe rain, cold, or heat requires an Endure check, difficulty determined by the Shaper based on the conditions. Failure results in an injury appropriate to the situation.
+   * Every day spent without shelter from severe rain, cold, or heat requires an Endure check, difficulty determined by the Arbiter based on the conditions. Failure results in an injury appropriate to the situation.
 
 
-These are just a few examples, and the Shaper can likely come up with more in their games.
+These are just a few examples, and the Arbiter can likely come up with more in their games.
 
 ## How can I Recover?
 An interesting question, and there are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options (beyond healing Abilities, of course).
@@ -1664,7 +1673,7 @@ An interesting question, and there are several ways to approach recovery of HP, 
    * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.
 * *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
-* *Action Movie* - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Shaper’s choice.
+* *Action Movie* - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Arbiter's choice.
    * This mode has a specific purpose: to capture the action movie brawl. Two opponents square off, striking at each other for a period until eventually one gets an advantage and lands a powerful series of blows on the other. There’s a painful sound as the scene slows down, showing the loser of the exchange reeling in pain while the victor gets a moment to gloat. The loser then refocuses and continues the fight, but a bit shakier, until one or the other cannot stand any longer.
 
 These are recommendations that should provide a good variety, suitable to most types of games.
@@ -1674,7 +1683,7 @@ There is a point past which a character’s body can no longer endure injury, an
 //TODO THIS NEED PLAYTESTING, not going to write more until I have more data here.
 
 ### Is Resurrection a Thing?
-That is up to the Shaper and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being raised after the heroes are done with them? I am not going to set down hard rules for resurrecting dead player character, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Shaper.
+That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being raised after the heroes are done with them? I am not going to set down hard rules for resurrecting dead player character, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
 ## Conditions and Properties
 #### Blind  
