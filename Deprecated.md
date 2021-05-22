@@ -575,3 +575,6 @@ You are also able to rely on senses other than sight to locate opponents, improv
 Increase your Stealth modifier by 1.  
 You have a natural eye for hiding spots that helps you conceal yourself and others when you stay still. When helping allies hide, you do so with Boon 2.  
 //Scaling on Boon? 
+
+#### Thick Skin  
+You gain an additional 2 HP per Vitality. This Lesson applies retroactively.

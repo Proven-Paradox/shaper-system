@@ -1340,9 +1340,6 @@ When you use a Scan Ability, choose one of the following benefits.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 * You Lock On to the target. Lock On applied in this way has Upkeep 0.
 
-#### Thick Skin  
-You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
-
 #### Walk it Off  
 Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 //TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
