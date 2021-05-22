@@ -578,3 +578,6 @@ You have a natural eye for hiding spots that helps you conceal yourself and othe
 
 #### Thick Skin  
 You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
+
+#### Overwhelming Evoker  
+You have perfected an unusual spellcasting style that enables you to put the power of your muscles behind every spell you cast. You may use Strength in place of Soul when determining your Mental Attack.
