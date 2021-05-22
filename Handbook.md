@@ -199,7 +199,16 @@ Finally, you choose one talent. Talents are described in full in Chapter 8; thes
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 ## Gaining XP
-This section will focus on how the party gains XP, and is mostly of concern to Arbiters. <COME BACK TO THIS LATER>
+This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
+
+The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. As the Arbiter, that is up to you. There are no set rules on this.
+
+> There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.
+> In general, my recommendation is that a typical session gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
+> If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
+> My play-testers all agreed that they'd prefer they all have the same XP levels. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps you as Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
+> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
+
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
 
