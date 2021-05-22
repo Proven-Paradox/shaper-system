@@ -1729,7 +1729,7 @@ On fire or dealing with a lingering burn. This reduces your Mental Defense by X 
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
 
 #### Stagger  
-Knocked silly. While Staggered, you lose your Minor action and have Bane -10. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
+Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
 #### 
 
 
