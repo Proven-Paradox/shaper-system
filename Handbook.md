@@ -93,7 +93,7 @@ Circumstances or character traits sometimes grant a character an advantage that 
 * Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 * Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
 ### Bane
-The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). 
+The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
 
 | Bane -X | Reroll a die above... |
 |---------|-----------------------|
