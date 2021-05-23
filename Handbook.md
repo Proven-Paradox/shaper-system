@@ -749,6 +749,17 @@ Special: If you also use your minor action this attack is made with Boon +1.
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 //TODO Reconsider if Boon is needed
 
+#### Sneak Attack  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 enemy  
+Cost: None  
+Damage: x3 (Physical)  
+Special: This attack can only be used on a [Flat Footed](#flat-footed) target.  
+Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
+
 #### Snipe  
 Attack [Ranged]  
 Action: Major  
@@ -1088,6 +1099,17 @@ Cost: 8 MP
 Damage: x2  
 Effect: If you deal damage with this Ability, the target also decreases their Defense Track.  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
+
+#### Sneak Attack, Improved  
+Attack  
+Action: Major  
+Prerequisites: [Sneak Attack](#sneak-attack)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 4 MP  
+Damage: x5 (Physical)  
+Special: This attack can only be used on a [Flat Footed](#flat-footed) target.  
+Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### To the Rescue  
 Auxiliary    
@@ -1695,8 +1717,14 @@ Partially frozen or dealing with a lingering cold. This reduces your Physical De
 #### Crush X
 Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Attack by X for its duration.
 
+#### Distracted
+Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
+
 #### Drained  
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
+
+#### Flat Footed
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon 4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
