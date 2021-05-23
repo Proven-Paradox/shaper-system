@@ -33,13 +33,6 @@
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
 - [Chapter 7: Powers](#chapter-7-powers)  
-  - [Feats of Strength](#feats-of-strength)
-  - [Displays of Finesse](#displays-of-finesse)
-  - [Tough Lessons](#tough-lessons)
-  - [Mindful Approaches](#mindful-approaches)  
-  - [Matters of Heart](#matters-of-heart)
-  - [Soulful Techniques](#soulful-techniques)
-  - [General Powers](#general-powers)
 - [Chapter 8: Talents](#chapter-8-talents)  
 - [Chapter 9: Utilities](#chapter-9-utilities)  
   - [Skill-based Utilities](#skill-based-utilities)
@@ -1387,7 +1380,10 @@ When you use a single target Ward that normally has a Minor action requirement, 
 A character gains a Talent for free at level 1, and again when gaining a level divisible by 5 (level 5, 10, 15, ...).
 
 #### Arcane Evasion  
-Your agility aids you in evading magical effects. You may use your Finesse in place of Mind to determine your Mental Defense.
+Your agility aids you in evading magical effects. You may use your Finesse in place of Heart to determine your Mental Defense.
+
+#### Battering Defense
+You can physically batter aside your opponenet's attacks. You may use your Strength in place of your Toughness to determine your Physical Defense.
 
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
@@ -1437,14 +1433,14 @@ You hit so hard that you can knock your foes around without actively trying to. 
 #### Intelligent Avoidance  
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
 
+#### Intuitive Aim
+You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Attack.
+
 #### Matter over Mind  
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
 
 #### Measured Strikes  
 You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Attack.
-
-#### Overwhelming Evoker  
-You have perfected an unusual spellcasting style that enables you to put the power of your muscles behind every spell you cast. You may use Strength in place of Soul when determining your Mental Attack.
 
 #### Power Mage  
 You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
@@ -1456,7 +1452,7 @@ Your heart powers your body more than your muscles. You may use Heart in place o
 You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
 #### Soul Well  
-You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Mind to determine your MP.
+You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Toughness to determine your HP.
 
 #### Ward Recycling  
 When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.
