@@ -1425,8 +1425,8 @@ You can draw strength for your spells from the power of your heart instead of yo
 
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a Result of 10 or higher, you can choose one of the following extra effects.
-* Knock your target(s) prone.
-* Stagger your target(s) for a number of rounds equal to your Strength
+* Knock your target(s) [Prone](#prone).
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your Strength
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
 //Not sure about that 10 result.
 
