@@ -1214,6 +1214,10 @@ Singing, dancing, storytelling. This skill is used to gauge how entertained a cr
 Attributes: Finesse, Mind  
 Lock picking, trap laying, trap disabling. If you need to make some construction stop working or set up a nasty surprise for pursuers, this is the skill to use.
 
+#### Science  
+Attributes: Mind, Soul  
+Chemistry, biology, zoology, proper experiment design, and the like. Alchemy in settings where that's appropriate as well. Essential skills for understanding the world accurately.
+
 #### Stealth  
 Attributes: Finesse, Mind  
 Sneaking, hiding, stealing. The preferred skill of thieves and spies. This includes pick pocketing.
