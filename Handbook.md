@@ -155,7 +155,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 After choosing your class and your Attributes, you can determine your capacity stats. One could also call these points.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR*3) + (TGH*3)] (See Chapter X for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND*3) + (HRT*3)]
-* **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 15 skill points.
+* **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
 
 ## Step 2-b: Attack/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses. The secondary stats are as follows.
@@ -178,7 +178,7 @@ Some advice if you want to make a powerful character and are having trouble choo
 * After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 10)
 
 ## Step 4: Skills
-Next, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 15 skill points at character creation.
+Next, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 16 skill points at character creation.
 
 
 Here are some things to consider when distributing skill points:
@@ -200,7 +200,7 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 > In general, my recommendation is that a typical session gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
 > My play-testers all agreed that they'd prefer they all have the same XP levels. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps you as Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
-> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
+> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake (in my opinion).  
 
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
@@ -229,7 +229,7 @@ Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + t
 ### Physical/Mental Attack/Defense
 Every character has a base bonus to their physical and mental attacks and defences. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Attack costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 ### Skill Points
-You may spend 2 XP to gain 5 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
+You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
 
@@ -1761,7 +1761,7 @@ Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unl
 These are just extra rules that aren't necessary for the game to run, but if you're interested in a bit more to work with these are things to consider.
 
 ## Flavor Skills
-The Core Skills may determine whether or not a character survives a given situation. They can reflect some things about a characters’ personality, but are also important to consider from a mechanical standpoint. Not all skills have to be this way however. If allowed by the Arbiter, all characters start with 8 flavor skill points and gain an addition 3 every time they buy skill points with XP. These can only be put into Skills that flesh out the character’s personality, reflecting hobbies or a trade that they have outside of their adventuring. Checks involving these skills may only come up rarely, and are not meant to solve real problems the character will face. The following list contains some examples, but by no means all of them. Players should talk with their Arbiter if something they think their character would want to be good at isn’t on this list.
+The Core Skills may determine whether or not a character survives a given situation. They can reflect some things about a characters’ personality, but are also important to consider from a mechanical standpoint. Not all skills have to be this way however. If allowed by the Arbiter, all characters start with 8 flavor skill points. You have half as many flavor skill points as regular ones. (Reminder that all fractions round down.) These can only be put into Skills that flesh out the character’s personality, reflecting hobbies or a trade that they have outside of their adventuring. Checks involving these skills may only come up rarely, and are not meant to solve real problems the character will face. The following list contains some examples, but by no means all of them. Players should talk with their Arbiter if something they think their character would want to be good at isn’t on this list.
 
 #### Academics (Type)  
 Attributes: Mind, Heart  
