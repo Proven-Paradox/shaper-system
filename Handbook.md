@@ -1441,6 +1441,9 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 #### Intuitive Aim
 You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Attack.
 
+#### Lucky
+You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
+
 #### Matter over Mind  
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
 
