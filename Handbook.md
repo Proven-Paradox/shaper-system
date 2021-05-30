@@ -928,7 +928,20 @@ Targets: 1 enemy
 Cost: 7 MP (Overload 12 MP)  
 Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
 Special: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
+You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.    
 Description: This represents a variety of powerful, focused elemental attacks. This could be an advanced spell, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
+
+#### Elemental Strike  
+Attack [Elemental] ]Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Action: Major  
+Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 5 HP  
+Damage: x3 (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
+Special: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
+This Attack targets the enemy's Mental Defense rather than Physical Defense.  
+Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
 #### Evacuation  
 Auxiliary  
