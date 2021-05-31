@@ -164,7 +164,7 @@ These are modifiers to your attacks’ accuracy or your ability to avoid a foes�
 * **Physical Defense:** This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
 * **Mental Defense:** Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
 	* Some Abilities or effects sometimes use a value called "Defense Bonus." This is just your total defense without the base +10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense, it will be listed as Physical Defense Bonus, and the same for Mental Defense Bonus.
-* **Initiative:** A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse to initiative rolls.
+* **Initiative:** A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse and Soul to initiative rolls.
 
 How one uses these attributes will be described in Chapter 10.
 
@@ -1588,7 +1588,7 @@ The flow of strikes and parries, spells and counterspells, and so on has to be t
 The Arbiter determines who might be surprised in a given scenario. It often involves awareness checks against stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
 
 ### Initiative
-Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
+Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
 If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
 You may choose to delay your turn if you like. When your turn comes, you simply declare who you want your turn to come after instead. On the next round, your initiative order returns to where it originally was.
 
