@@ -1431,7 +1431,8 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Light - Successfully dealing Light damage allows you give [shield](#shield) to an ally within the triggering Ability's range.  
 // TODO: Define shield
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
-* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach level 10.
+* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach level 10.  
+Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
 #### Endurance Mage  
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
