@@ -1417,6 +1417,22 @@ When a target suffering from a Curse you cast dies or is knocked out, you immedi
 #### Death Dealer  
 Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
+#### Elemental Specialist (TYPE)
+Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
+* You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
+  * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
+* If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
+  * Tier 0 Abilities require no additional cost to convert, and your converted damage still targets the usual Physical or Mental Defense.
+* You gain an additional benefit unique to each element as follows
+  * Fire - Successfully dealing Fire damage also decrease the target's regen/degen track by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
+  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
+  * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
+  * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
+  * Light - Successfully dealing Light damage allows you give [shield](#shield) to an ally within the triggering Ability's range.  
+// TODO: Define shield
+  * Dark - Successfully dealing Dark damage heals you for half the damage done.
+* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach level 10.
+
 #### Endurance Mage  
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
@@ -1775,6 +1791,9 @@ On fire or dealing with a lingering burn. This reduces your Mental Defense by X 
 
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
+
+#### Slow
+You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different square.
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
