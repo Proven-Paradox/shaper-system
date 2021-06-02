@@ -1457,6 +1457,9 @@ You've developed an intuitive sense of when the right time to strike is. You may
 #### Lucky
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
 
+#### Mana Fountain
+You gain 9 additional MP, plus 3 more for each level of Capacity. This Talent applies retroactively to all levels of Capacity.
+
 #### Matter over Mind  
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
 
