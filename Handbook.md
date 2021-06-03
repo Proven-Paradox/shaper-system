@@ -1446,7 +1446,7 @@ You have the skill to place a spell just right--your potency is less about the p
 
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
-This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lost it but regain the 4 XP spent.
+This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
