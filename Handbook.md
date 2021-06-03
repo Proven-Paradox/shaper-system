@@ -1791,6 +1791,9 @@ For some reason, you cannot move. This might mean being tied down, having an inj
 #### Scorch X  
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
 
+#### Shield X
+You have a barrier or shield active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. Shield does not affect paying HP costs for skills or effects described as "losing life," such as HP loss from low Endurance during a chase.
+
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
 
