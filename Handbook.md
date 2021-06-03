@@ -1401,7 +1401,7 @@ A character gains a Talent for free at level 1, and again when gaining a level d
 Your agility aids you in evading magical effects. You may use your Finesse in place of Heart to determine your Mental Defense.
 
 #### Battering Defense
-You can physically batter aside your opponenet's attacks. You may use your Strength in place of your Toughness to determine your Physical Defense.
+You can physically batter aside your opponent's attacks. You may use your Strength in place of your Toughness to determine your Physical Defense.
 
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
