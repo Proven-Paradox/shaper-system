@@ -1413,6 +1413,8 @@ Sometimes the best solution is to just hit harder. Increase your damage multipli
 Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
 * You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
   * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
+* You gain resistance to the chosen element.
+  * If the chosen element was previously your weakness, you must choose a new element to be your weakness.
 * If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
