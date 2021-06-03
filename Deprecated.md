@@ -581,3 +581,13 @@ You gain an additional 2 HP per Vitality. This Lesson applies retroactively.
 
 #### Overwhelming Evoker  
 You have perfected an unusual spellcasting style that enables you to put the power of your muscles behind every spell you cast. You may use Strength in place of Soul when determining your Mental Attack.
+
+#### But Seriously, Me First  
+When called to make an Initiative check, you may choose to count one of your two 10 sided dice as an automatic 10. You still roll both die and presumably choose to turn the lower of the two into a 10. You can do this after seeing the result of Boon and Bane rerolls.  
+
+#### Curse Eater  
+When a target suffering from a Curse you cast dies or is knocked out, you immediately heal HP and MP equal to twice your Soul. This healing increases by an amount equal to your twice your Soul each Hero Tier (so Soul x 4 at Hero Tier 2, Soul x 6 at Hero Tier 3, and so on).  
+//Maybe not enough to be a capstone? Will consider additional effects.
+
+#### Ward Recycling  
+When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.

@@ -1406,14 +1406,6 @@ You can physically batter aside your opponent's attacks. You may use your Streng
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
 
-#### But Seriously, Me First  
-When called to make an Initiative check, you may choose to count one of your two 10 sided dice as an automatic 10. You still roll both die and presumably choose to turn the lower of the two into a 10. You can do this after seeing the result of Boon and Bane rerolls.  
-//Keeping my eye on this one. May be too much.
-
-#### Curse Eater  
-When a target suffering from a Curse you cast dies or is knocked out, you immediately heal HP and MP equal to twice your Soul. This healing increases by an amount equal to your twice your Soul each Hero Tier (so Soul x 4 at Hero Tier 2, Soul x 6 at Hero Tier 3, and so on).  
-//Maybe not enough to be a capstone? Will consider additional effects.
-
 #### Death Dealer  
 Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
@@ -1494,10 +1486,6 @@ You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abili
 
 #### Soul Well  
 You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Toughness to determine your HP.
-
-#### Ward Recycling  
-When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.
-
 ***
 # Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
