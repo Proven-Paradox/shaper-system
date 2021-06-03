@@ -1290,7 +1290,7 @@ When being attacked by a foe that you have Locked On to, you gain a bonus to you
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
-After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, you gain Shield equal to your Toughness. This benefit increases as you raise your Hero Tier: the shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This shield lasts until the beginning of your next turn. You may only gain this shield once per round.  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your Hero Tier: the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
 //See comments on Deadened Nerves
 
 #### Elemental Attunement  
@@ -1306,7 +1306,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain Shield equal to your Mental Defense - 10.
+When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental Defense - 10.
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
@@ -1336,13 +1336,13 @@ Example: Merlin has the Manamaim power, Capacity 4, and casts Elemental Dart wit
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
 
 #### Masochism  
-Any time you spend HP to use an Attack or Spell, you gain Shield equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
+Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
 #### Offensive Lock  
 When attacking a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
 #### Overcharge  
-If your healing would bring your target above maximum HP, the target gains Shield to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
+If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
 
 #### Pickup  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
@@ -1429,8 +1429,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
-  * Light - Successfully dealing Light damage allows you give [shield](#shield) to an ally within the triggering Ability's range.  
-// TODO: Define shield
+  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range.  
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
 * Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach level 10.  
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
@@ -1792,7 +1791,7 @@ For some reason, you cannot move. This might mean being tied down, having an inj
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
 
 #### Shield X
-You have a barrier or shield active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. Shield does not affect paying HP costs for skills or effects described as "losing life," such as HP loss from low Endurance during a chase.
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. Shield does not affect paying HP costs for skills or effects described as "losing life," such as HP loss from low Endurance during a chase.
 
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
