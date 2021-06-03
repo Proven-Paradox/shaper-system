@@ -1422,7 +1422,8 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
 * You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
   * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
 * If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
-  * Tier 0 Abilities require no additional cost to convert, and your converted damage still targets the usual Physical or Mental Defense.
+  * Tier 0 Abilities require no additional cost to convert.
+  * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
   * Fire - Successfully dealing Fire damage also decrease the target's regen/degen track by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
