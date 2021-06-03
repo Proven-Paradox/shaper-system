@@ -824,11 +824,11 @@ Description: An easy way of limiting enemy vision (though allies are similarly h
 #### Void Dart  
 Spell  
 Action: Major  
-Prerequisites: Capacity 1
-Range: Long
-Targets: 1 Enemy
-Cost: 15 MP
-Damage: x3 (Almighty)
+Prerequisites: Capacity 1  
+Range: Long  
+Targets: 1 Enemy  
+Cost: 15 MP  
+Damage: x3 (Almighty)  
 Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
 
 > Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
