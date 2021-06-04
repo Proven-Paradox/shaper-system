@@ -320,9 +320,9 @@ The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense 
 * **Level -2** - You make attack rolls at Bane -3, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
 * **Level -3** - You make attack rolls at Bane -4, and your Mental and Physical Attack decreases by your Hero Tier.
 ### The Defensive Track
-* **Level 3** - Attack rolls made against you have Bane -2, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 3** - Attack rolls made against you have Bane -4, and your Mental and Physical Defense increases by your Hero Tier.
 * **Level 2** - Attack rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
-* **Level 1** - Attack rolls made against you have Bane -4.
+* **Level 1** - Attack rolls made against you have Bane -2.
 * **Level 0** - Normal, no changes.
 * **Level -1** - Attack rolls against you have Boon +2.
 * **Level -2** - Attack rolls against you have Boon +3, and any Shield you gain is halved.
