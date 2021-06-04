@@ -312,21 +312,21 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
-* **Level 3** - You make attack rolls at Boon +4.
+* **Level 3** - You make attack rolls at Boon +4, and your Mental and Physical Attack increase by your Hero Tier
 * **Level 2** - You make attack rolls at Boon +3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
 * **Level 1** - You make attack rolls at Boon +2.
 * **Level 0** - Normal, no changes.
-* **Level -1** - You make attack rolls at Bane -9.
-* **Level -2** - You make attack rolls at Bane -8, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make attack rolls at Bane -7.
+* **Level -1** - You make attack rolls at Bane -2.
+* **Level -2** - You make attack rolls at Bane -3, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
+* **Level -3** - You make attack rolls at Bane -4, and your Mental and Physical Attack decreases by your Hero Tier
 ### The Defensive Track
-* **Level 3** - Attack rolls made against you have Bane -7.
-* **Level 2** - Attack rolls made against you have Bane -8, and your Mental and Physical Defense increases by your Hero Tier.
-* **Level 1** - Attack rolls made against you have Bane -9.
+* **Level 3** - Attack rolls made against you have Bane -2, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 2** - Attack rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
+* **Level 1** - Attack rolls made against you have Bane -4.
 * **Level 0** - Normal, no changes.
 * **Level -1** - Attack rolls against you have Boon +2.
-* **Level -2** - Attack rolls against you have Boon +3, and your Mental and Physical Defense decreases by your Hero Tier.
-* **Level -3** - Attack rolls against you have Boon +4.
+* **Level -2** - Attack rolls against you have Boon +3, and any Shield you gain is halved.
+* **Level -3** - Attack rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
@@ -1781,7 +1781,7 @@ For some reason, you cannot move. This might mean being tied down, having an inj
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
 
 #### Shield X
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP.
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stacks.
 
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
