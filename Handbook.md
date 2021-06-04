@@ -312,13 +312,13 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
-* **Level 3** - You make attack rolls at Boon +4, and your Mental and Physical Attack increase by your Hero Tier
+* **Level 3** - You make attack rolls at Boon +4, and your Mental and Physical Attack increase by your Hero Tier.
 * **Level 2** - You make attack rolls at Boon +3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
 * **Level 1** - You make attack rolls at Boon +2.
 * **Level 0** - Normal, no changes.
 * **Level -1** - You make attack rolls at Bane -2.
 * **Level -2** - You make attack rolls at Bane -3, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make attack rolls at Bane -4, and your Mental and Physical Attack decreases by your Hero Tier
+* **Level -3** - You make attack rolls at Bane -4, and your Mental and Physical Attack decreases by your Hero Tier.
 ### The Defensive Track
 * **Level 3** - Attack rolls made against you have Bane -2, and your Mental and Physical Defense increases by your Hero Tier.
 * **Level 2** - Attack rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
