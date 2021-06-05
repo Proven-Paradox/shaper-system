@@ -1862,7 +1862,6 @@ Granted By: Elemental Attunement (Light)
 You can fix minor damage done to items. This can be magically willing the damage to be fixed or having the tools and know-how to do the repairs manually. This only repairs small amounts of damage--a tear in cloth, a dent in armor, a crack in glass, and so on. If the object in question is actually broken, Mend is ineffective.  
 Granted By: Healing Word, Healing Touch
 
-
 #### Shadow  
 You can create shadowy figures or manipulate your shadow unnaturally. This can be sneaky usage of darkness magic, employing holograms, or similar procedures. When producing an image, it can occupy an area up to a cube with four foot sides. It can be as detailed and colorful as you like, but it will always be slightly transparent. It cannot produce light. When manipulating your shadow, you can cause it to take a different shape, produce faces or symbols on it, increase its size up to 50%, decrease its size up to 50%, or similar effects.  
 Granted By: Elemental Attunement (Dark)
@@ -1871,11 +1870,9 @@ Granted By: Elemental Attunement (Dark)
 You can generate a small flame. This can be a flame you light on your finger with fire magic, a simple lighter you keep in your gear, or something similar. If the flame comes from a device, it can be assumed to always have fuel. You are immune to harm from your own Spark, and the flame generated is not hot enough to cause HP damage, though it is still painful to touch for others. The warmth it provides is not enough to exist comfortably in low temperatures. This spark is enough to ignite flammable substances as normal.  
 Granted By: Elemental Attunement (Fire)
 
-
 #### Sprout  
 You can grow and manipulate plants. This can be a gentle application of earth or sylvan magic, a chemical concoction that causes rapid plant growth, or something similar. You can assume you always have the materials you need to perform this Trick. If working from nothing, you can cause small amounts of moss, grasses, or vines to grow, along with a single flower of whatever color you desire. If working from a seed or an existing plant, you can cause the seed to sprout, blooms to grow or change color, leaves and branches to grow, fruit to ripen, or damage to heal. (This does not heal HP damage dealt to plant-like creatures.) This Trick is not enough to grow food on its own but if used on existing crop plants it can double the rate at which they grow. Sprout cannot render poisonous plants safe to eat.  
 Granted By: Elemental Attunement (Earth)
-
 
 #### Static  
 You can generate small electric shocks. This can be subtle use of air magic, a glove that stores and releases electric charge, or something similar. If the electricity comes from a device, it can be assumed to always have fuel. You are immune to discomfort from your own Static, and the voltage generated is not enough to cause HP damage--though it can still be a painful surprise. This Trick can be used to power small devices or recharge batteries, but anything larger than two feet in diameter requires a dedicated power source to function continuously.  
