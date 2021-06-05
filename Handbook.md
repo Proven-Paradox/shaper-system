@@ -411,7 +411,7 @@ Targets: One enemy
 Cost 2 MP  
 Damage: 0  
 Special: If this spell hits the target, they are Provoked by you for one turn.  
-You may choose to use your Mental Defense - 10 instead of your Mental Attack for this spell.  
+You may choose to use your Mental Defense Bonus instead of your Mental Attack for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Cleanse  
@@ -714,7 +714,7 @@ Trigger: The targeted enemy fails on an attack attempt.
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: You attempt an attack against the enemy after they miss.  
-Special: You may use your Physical Defense - 10 in place of your Physical Attack when using this Ability.  
+Special: You may use your Physical Defense Bonus in place of your Physical Attack when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
@@ -866,7 +866,7 @@ Range: Melee
 Targets: One enemy  
 Cost: 0 MP (Overload 3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
-Effect: You may use your Phyiscal or Mental Defense - 10 in place of your Physical or Mental Attack. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
+Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Attack. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
 You may choose to overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
@@ -1306,7 +1306,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental Defense - 10.
+When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental Defense Bonus.
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
