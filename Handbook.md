@@ -1121,6 +1121,19 @@ Damage: x5 (Physical)
 Special: This attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
+#### Suspend  
+Spell  
+Action: Major  
+Prerequisites: [Kinetic Dart](#kinetic-dart)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 5 MP (Upkeep 1 MP)  
+Damage: x1  
+Special: If this attack succeeds, you [grab](#grab) your target. Instead of Physical Attack/Defense, Suspend uses Mental Attack/Defense.  
+Description: Holding a target using mental/technological means from a distance. This can be telekineticly grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
+
+>Note: You still cannot move if you grab a target using Suspend.
+
 #### To the Rescue  
 Auxiliary    
 Action: Minor  
