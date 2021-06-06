@@ -354,10 +354,14 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Cost: None  
+Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
-Special: If this attack succeeds, you begin Grappling your target (who also becomes Grappled).  
-Description: An untrained attempt to grab your target.
+Special: If this attack succeeds, you grab your target.  
+While you are grabbing a target, you cannot move. At the beginning of your turn, make a physical attack against your target; if this attack fails your target escapes your grasp.  
+If you have been grabbed by someone, you cannot move.  
+Description: An untrained attempt to hold on to your target.
+
+> Note that you can release a grabbed target by not paying the Upkeep cost, which immediately allows you to move.
 
 #### Prepare  
 Auxiliary  
@@ -555,7 +559,7 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 4 MP  
+Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
 Special: This attack succeeds, you also [Grab](#grab) the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
@@ -769,10 +773,10 @@ Attack [Grappler]
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 grappled enemy  
+Targets: 1  enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This attack may only be used on a target you are currently Grappling.  
+Special: This attack may only be used on a target you have [Grabbed](#grab).  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -802,10 +806,10 @@ Attack [Grappler]
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 grappled enemy, 1 non-grappled enemy  
+Targets: 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grappling your original target.
+Special: You must have [grabbed](#grab) one of your targets. Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Veil  
@@ -1755,13 +1759,6 @@ You are not prepared to defend yourself from attacks properly. Attacks against y
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
 This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
-
-#### Grappled  
-Grabbed by another target who currently has control of the situation. You cannot move willingly. You have Bane -2. Attacks against you have Boon +2. You can end this condition by spending a Minor action to attempt an Acrobatics or Athletics check, opposed by your opponent’s Athletics check.
-
-#### Grappling  
-Grabbing another target and in control of the situation. You may move both yourself and your victim as a Minor action. Attacking a target other than the one you are currently Grappling ends the grapple.  
-Attacks against you from targets other than the one you are grappling have Boon +2. Attacks you make against the one you are grappling have Boon +3. You may end this condition at any time without an action, which also frees your victim from the Grappled condition.
 
 #### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon +6 on Stealth checks.
