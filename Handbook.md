@@ -357,7 +357,7 @@ Targets: 1 enemy
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
 Special: If this attack succeeds, you grab your target.  
-While you are grabbing a target, you cannot move. At the beginning of your turn, make a physical attack against your target; if this attack fails your target escapes your grasp.  
+While you are grabbing a target, you cannot move. At the beginning of your turn, make a physical attack against your target; if this attack fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
 If you have been grabbed by someone, you cannot move.  
 Description: An untrained attempt to hold on to your target.
 
