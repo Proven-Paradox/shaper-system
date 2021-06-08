@@ -68,16 +68,20 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 ### Required:
 * A pair of 10 sided dice for each player (also called d10s).
 * A single 6 sided die for the entire group
-* Pencil and paper. (Do NOT use pen or something you can’t easily erase for anything. Trust me.)
+* Pencil and paper. 
+> Do NOT use pen or something you can’t easily erase for anything. Trust me.
 ### Recommended but not vital:
 * Standardized character sheets that help determine character attributes (provided in this book, have a copy for each player)
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
+* A calculator
+* A notebook for each player to write personal notes in
 ### Totally optional, but maybe fun:
 * Miniatures to represent characters in combat
-* Props to illustrate circumstances on the battlefield
-   * Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
 * A deck of playing cards or tarot cards (just in case a card game breaks out)
-* A notebook for each player to write personal notes in
+* Props to illustrate circumstances on the battlefield
+> Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
+
+
 ***
 # Chapter 1: How to Play
 <Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Arbiter describing the world, taking control of other characters, players describing their actions, Arbiter describing results.>  
