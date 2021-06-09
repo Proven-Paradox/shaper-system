@@ -976,10 +976,21 @@ Action: Counter
 Prerequisites: [Guard](#guard)  
 Range: Short  
 Targets: 1 Ally  
-Trigger: Targetted ally takes any damage.  
+Trigger: Target ally takes any damage.  
 Cost: None  
 Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
+
+#### Lean In  
+Auxiliary  
+Action: Counter  
+Prerequisites: [Fortify](#fortify)  
+Range: None  
+Targets: Self  
+Trigger: You are hit by a single target Ability that deals at least 10 damage  
+Cost: 4 HP, 2 MP  
+Effect: Increase your Defense Track by 1.  
+Description: You respond to a hard hit by tightening your defense.
 
 #### Leyline  
 Auxiliary \[Terrain\]  
