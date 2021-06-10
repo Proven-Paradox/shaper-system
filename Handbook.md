@@ -987,7 +987,7 @@ Action: Counter
 Prerequisites: [Fortify](#fortify)  
 Range: None  
 Targets: Self  
-Trigger: You are hit by a single target Ability that deals at least 10 damage  
+Trigger: You are hit by a single target Ability that has a Result of at least 5  
 Cost: 4 HP, 2 MP  
 Effect: Increase your Defense Track by 1.  
 Description: You respond to a hard hit by tightening your defense.
