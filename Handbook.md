@@ -1581,6 +1581,10 @@ While not as versatile as fully functioning flight, this allows to you avoid haz
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
 This Power makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
+#### Lip reading  
+XP Cost: 3  
+You can read lips.  
+
 #### One with Nature: Animals  
 XP Cost: 3  
 You are able to commune with and in a limited way communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
