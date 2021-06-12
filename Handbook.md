@@ -308,7 +308,6 @@ Some Abilities are part of a series, building off each other and using each othe
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
 * **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
-* **Cover** - If you have Cover and you are in a space with any other ally, enemies cannot target you. Any Abilities that pick a target can only pick your other allies. Abilities that affect squares instead of targets can still affect you as normal.
 * **Grounded** - An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
 * **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
 * **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
@@ -340,6 +339,17 @@ Positive values can represent gradual magical healing, an injection of tissue re
 ## Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
+
+#### Cover  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 other ally  
+Cost: None  
+Duration: 1 turn  
+Special: You grant the ally Cover. If you and the target are in the same square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
+Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
 Attack  
@@ -443,7 +453,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Trigger: The enemy successfully hits with an Ability with a Result of 2 or less.  
-Cost: 2 MP  
+Cost: None  
 Effect: Negate the Ability that triggered this counter.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.
 
@@ -552,9 +562,10 @@ Action: Minor
 Prerequisites: None  
 Range: Melee  
 Targets: One ally  
-Cost: 2 MP  
-Duration: Until the beginning of your next turn  
-Effect: Targetted ally has Cover as long as you remain in the same square.  
+Cost: None  
+Duration: 1 round  
+Effect: This functions the same as [Cover](#cover), and in addition grants you Shield equal to your Vitality.  
+You can use this Ability on yourself, in which case you only gain the Shield.    
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
