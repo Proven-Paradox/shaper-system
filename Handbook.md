@@ -347,7 +347,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 other ally  
 Cost: None  
-Duration: 1 turn  
+Duration: 1 round  
 Special: You grant the ally Cover. If you and the target are in the same square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
@@ -495,28 +495,26 @@ If you pay the Overload cost, this Ability's damage multiplier becomes 2.
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
+Auxiliary [Augment]  
+Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
+Cost: 2 MP  
 Duration: None  
 Effect: The target gains one point on the Offensive Track.
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
+Attack/Spell [Curse] (See Special)  
+Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
+Cost: 1 MP  
 Duration: None  
-Effect: The target loses one point on the Offensive Track.
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
+Effect: The target loses one point on the Offensive Track.  
+You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
 #### Entangle  
@@ -532,28 +530,26 @@ Special: If you also use your minor action, the duration increases to 3 rounds.
 Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
 
 #### Expose  
-Attack/Spell [Curse] [Overload] (See Special)  
-Action: Major (Overload Minor)  
+Attack/Spell [Curse] (See Special)  
+Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: One enemy  
-Cost: 1 MP (Overload 4 MP)  
+Cost: 1 MP  
 Duration: None  
-Effect: The target loses one point on the Defensive Track.
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
+Effect: The target loses one point on the Defensive Track.  
 You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
 #### Fortify  
-Auxiliary [Augment] [Overload]  
-Action: Major (Overload Minor)  
+Auxiliary [Augment]  
+Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: One ally  
-Cost: 2 MP (Overload 6 MP)  
+Cost: 2 MP  
 Duration: None  
-Effect: The target gains one point on the Defensive Track.
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
+Effect: The target gains one point on the Defensive Track.  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
 #### Guard  
