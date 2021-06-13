@@ -797,7 +797,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target advances 2 spaces on the regen/degen track.  
+Effect: The target advances 2 spaces on the regen/degen track, to a maximum of 5.  
 Special: You may only use this Ability once per turn.  
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
