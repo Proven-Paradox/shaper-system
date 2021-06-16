@@ -123,7 +123,7 @@ You count as your own ally. You can target yourself with anything that is listed
 
 Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.  
 
-In combat, defenders win ties. For example, if using an attack Ability results in the accuracy role matching the defender’s Defense, the attack misses and the defender suffers no consequence.  
+In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
 For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
 
 If a damage type is not listed, assume the damage to be physical.
@@ -138,21 +138,21 @@ Your Arbiter will tell you the rules on how you determine your Attributes. My re
 
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
-   * Strength is also added to your Hit Points and Physical Attack stats.
+   * Strength is also added to your Hit Points and Physical Offense stats.
 * **Finesse** represents how agile or dextrous your character is. High finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low finesse might instead confer general clumsiness.
-   * Finesse is also added to your Initiative, Physical Attack, and Physical Defense stats.
+   * Finesse is also added to your Initiative, Physical offense, and Physical Defense stats.
 * **Toughness** represents health and hardiness. A character with high toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low toughness might mean the character is sickly or bruises easily.
    * Toughness is also added to your Hit Points and Physical Defense stats.
 * **Mind** represents intelligence and cleverness. A character with high mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low mind often means difficulty learning new technical concepts and a hard time remembering some details.
-   * Mind is also added to your Mental Points and Mental Attack stats.
+   * Mind is also added to your Mental Points and Mental offense stats.
 * **Heart** represents charisma and presence. Someone with high heart is able to naturally be the center of attention or get people to do what they want, while someone with low heart might naturally go unnoticed in social situations or just generally lack presence.
    * Heart is also added to your Mental Points and Mental Defense stats.
 * **Soul** represents centeredness and perception. Someone with high soul might not be religious but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.
-   * Soul is also added to your Mental Attack and Mental Defense stats.
+   * Soul is also added to your Mental offense and Mental Defense stats.
    
 If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.
 
-* Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental Attack may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses (more on that later).
+* Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses (more on that later).
 * If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always a benefit.
 
 ## Step 2-a: Capacity Stats
@@ -161,10 +161,10 @@ After choosing your class and your Attributes, you can determine your capacity s
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND*3) + (HRT*3)]
 * **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
 
-## Step 2-b: Attack/Defense
+## Step 2-b: Offense/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses. The secondary stats are as follows.
-* **Physical Attack:** This broadly represents your ability to effectively attack foes by mundane means. The better your physical attack, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical attack could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical attack.
-* **Mental Attack:** This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental attack could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental attack.
+* **Physical Offense:** This broadly represents your ability to effectively attack foes by mundane means. The better your physical offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical offense.
+* **Mental Offense:** This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental offense.
 * **Physical Defense:** This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
 * **Mental Defense:** Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
 	* Some Abilities or effects sometimes use a value called "Defense Bonus." This is just your total defense without the base +10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense, it will be listed as Physical Defense Bonus, and the same for Mental Defense Bonus.
@@ -177,7 +177,7 @@ The next step is to choose Abilities. Chapter 4 goes into greater detail on what
 
 
 Some advice if you want to make a powerful character and are having trouble choosing your Abilities:
-* If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Heart dominant hero is going to want mental attacks.
+* If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Soul dominant hero is going to want mental attacks.
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
 * At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use once, maybe it’s not a good choice.
 * After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 10)
@@ -214,25 +214,25 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 ### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
 * Every level increases the number of times Vitality and Capacity can be purchased
-* The hero’s base Physical Attack, Physical Defense, Mental Attack, and Mental Defense can be increased a number of times up to the character’s level
+* The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s level
 * Every five levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
 
 In addition, purchasing a level gives its own benefit that goes in a five level loop. These benefits do not cost additional XP.
 * At levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
 * At levels 2, 7, 12, … the character gains one level in Vitality or Capacity.
 * At levels 3, 8, 13, … the character increases their Physical or Mental Defense.
-* At level 4, 9, 14, … the character increases their Physical or Mental Attack.
+* At level 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
 
-When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Attack (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Attack is 3, and the character purchases level 4, then their base Physical Attack improves by one. If there is a tie, the player chooses which improvement they gain.
+When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
 
 Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
 Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
-### Physical/Mental Attack/Defense
-Every character has a base bonus to their physical and mental attacks and defences. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Attack costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
+### Physical/Mental Offense/Defense
+Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
 ### Abilities
@@ -282,7 +282,7 @@ There are four types of Abilities.
 * **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
 * **Spell** means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
    * Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizzare anatomy, or some other thing.
-* **Auxiliary** Abilities do not use attack rolls. They generally target yourself or your allies.
+* **Auxiliary** Abilities do not use offense rolls. They generally target yourself or your allies.
 * **Blessing** Abilities are toggled on or off (taking the listed action to switch between them), and reserve some amount of HP or MP. In exchange for reducing your maximum HP or MP in this way, you gain a benefit that is available at the start of every battle.
    * Reserved HP and MP is not available to the character; it acts as though the character’s maximum HP or MP has been reduced by that much. Unless otherwise stated, reserved HP or MP is not restored when the reserving effect is removed, but if you have missing HP or MP you reserve that before available HP and MP. 
 ## Ability Series
@@ -315,21 +315,21 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
-* **Level 3** - You make attack rolls at Boon +4, and your Mental and Physical Attack increase by your Hero Tier.
-* **Level 2** - You make attack rolls at Boon +3, and your Abilities that require Attack rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
-* **Level 1** - You make attack rolls at Boon +2.
+* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your Hero Tier.
+* **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
+* **Level 1** - You make Offense rolls at Boon +2.
 * **Level 0** - Normal, no changes.
-* **Level -1** - You make attack rolls at Bane -2.
-* **Level -2** - You make attack rolls at Bane -3, and your Abilities that require Attack rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make attack rolls at Bane -4, and your Mental and Physical Attack decreases by your Hero Tier.
+* **Level -1** - You make Offense rolls at Bane -2.
+* **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier. 
+* **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.
 ### The Defensive Track
-* **Level 3** - Attack rolls made against you have Bane -4, and your Mental and Physical Defense increases by your Hero Tier.
-* **Level 2** - Attack rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
-* **Level 1** - Attack rolls made against you have Bane -2.
+* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
+* **Level 1** - Offense rolls made against you have Bane -2.
 * **Level 0** - Normal, no changes.
-* **Level -1** - Attack rolls against you have Boon +2.
-* **Level -2** - Attack rolls against you have Boon +3, and any Shield you gain is halved.
-* **Level -3** - Attack rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
+* **Level -1** - Offense rolls against you have Boon +2.
+* **Level -2** - Offense rolls against you have Boon +3, and any Shield you gain is halved.
+* **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
 ### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
@@ -370,8 +370,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
-Special: If this attack succeeds, you grab your target.  
-While you are grabbing a target, you cannot move. At the beginning of your turn, make a physical attack against your target; if this attack fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
+Special: If this Attack succeeds, you grab your target.  
+While you are grabbing a target, you cannot move. At the beginning of your turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
 If you have been grabbed by someone, you cannot move.  
 Description: An untrained attempt to hold on to your target.
 
@@ -404,7 +404,7 @@ Range: Melee
 Targets: 1 enemy or ally  
 Cost: None  
 Damage: x0 (Physical)  
-Effect: If this attack succeeds, move your target one square.  
+Effect: If this Attack succeeds, move your target one square.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 ## Tier 1
@@ -417,7 +417,7 @@ Range: Melee
 Targets: One enemy  
 Cost: 3 HP  
 Damage: x2 (Physical)  
-Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
+Special: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Challenge  
@@ -429,7 +429,7 @@ Targets: One enemy
 Cost 2 MP  
 Damage: 0  
 Special: If this spell hits the target, they are Provoked by you for one turn.  
-You may choose to use your Mental Defense Bonus instead of your Mental Attack for this spell.  
+You may choose to use your Mental Defense Bonus instead of your Mental Offense for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Cleanse  
@@ -467,7 +467,7 @@ Range: Melee
 Targets: Up to 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: When you use this Ability, you make two attacks and resolve them separately. You may strike one enemy twice or two enemies once.  
+Special: When you use this Ability, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
 #### Elemental Blast  
@@ -514,7 +514,7 @@ Targets: One enemy
 Cost: 1 MP  
 Duration: None  
 Effect: The target loses one point on the Offensive Track.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).  
+You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
 #### Entangle  
@@ -538,7 +538,7 @@ Targets: One enemy
 Cost: 1 MP  
 Duration: None  
 Effect: The target loses one point on the Defensive Track.  
-You may use this either as an Attack (using your Physical Attack and targeting your opponent’s Physical Defense) or a Spell (using your Mental Attack to target you’re opponent’s Mental Defense).
+You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
 #### Fortify  
@@ -572,7 +572,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
-Special: If this attack succeeds, you also [Grab](#grab) the target.  
+Special: If this Attack succeeds, you also [Grab](#grab) the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 #### Healing Burst  
@@ -615,7 +615,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP (2 HP Overload)  
 Damage: x2 (Physical)  
-Special: If you pay the Overload cost and your attack result is at least 5, you knock your target Prone.  
+Special: If you pay the Overload cost and your Result is at least 5, you knock your target Prone.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -637,7 +637,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: If this attack hits the target and they are not otherwise restrained, you move them one square.  
+Special: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -669,7 +669,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 1 MP (Overload 2 HP)  
 Damage: x1 (Physical)  
-Special: You may move one square before or after you make your attack roll.  
+Special: You may move one square before or after you make your Offense roll.  
 If you pay the Overload cost, you may move a square both before AND after.  
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
 
@@ -715,7 +715,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x2 (Physical)  
-Special: This attack has Boon +4. Until your next turn, enemy attacks and spells targeting you have Boon +4.  
+Special: This Attack has Boon +4. Until your next turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
@@ -724,11 +724,11 @@ Action: Counter
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Trigger: The targeted enemy fails on an attack attempt.  
+Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: You attempt an attack against the enemy after they miss.  
-Special: You may use your Physical Defense Bonus in place of your Physical Attack when using this Ability.  
+Effect: Attack the target.  
+Special: You may use your Physical Defense Bonus in place of your Physical Offense when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
@@ -753,7 +753,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Special: If you also use your minor action this attack is made with Boon +1.  
+Special: If you also use your minor action this Attack is made with Boon +3.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 //TODO Reconsider if Boon is needed
 
@@ -765,7 +765,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: None  
 Damage: x3 (Physical)  
-Special: This attack can only be used on a [Flat Footed](#flat-footed) target.  
+Special: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Snipe  
@@ -776,7 +776,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: x2 (Physical)  
-Special: This attack has Boon +3. You cannot use this attack on a turn where you have moved.  
+Special: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -787,7 +787,7 @@ Range: Melee
 Targets: 1  enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This attack may only be used on a target you have [Grabbed](#grab).  
+Special: This Attack may only be used on a target you have [Grabbed](#grab).  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -820,7 +820,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: You must have [grabbed](#grab) one of your targets. Make a single attack roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this attack, you are no longer grabbing your original target.
+Special: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this Attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Veil  
@@ -866,7 +866,7 @@ Range: Long
 Targets: 1 Ally  
 Cost: 1 MP  
 Duration: Until used or combat ends  
-Effect: Choose an element you are [Elementally Attuned](#elemental-attunement) to. Any hostile Abilities of the ward’s type attacks against an affected ally has its multiplier reduced by 1.  
+Effect: Choose an element you are [Elementally Attuned](#elemental-attunement) to. Any hostile Abilities of the ward’s type against an affected ally has its multiplier reduced by 1.  
 Special: The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
@@ -880,7 +880,7 @@ Range: Melee
 Targets: One enemy  
 Cost: 0 MP (Overload 3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
-Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Attack. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
+Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
 You may choose to overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
@@ -927,8 +927,8 @@ Range: Medium
 Targets: One enemy  
 Cost: 5 MP (Upkeep 2 MP)  
 Effect: At the beginning of your turn, reduce one of your target’s buff/debuff tracks by 1.  
-Special: When you cast this spell, make a Magic Attack roll against the target. This spell fails if your Result is less than 1.  
-At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Attack roll against the target: on a Result of less than 1, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed.  
+Special: When you cast this spell, make a Magic Offense roll against the target. This spell fails if your Result is less than 1.  
+At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Offense roll against the target: on a Result of less than 1, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed.  
 If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only Doom one target at a time.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
@@ -940,7 +940,7 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Any Ability you use in the same turn as Retribution that requires an Attack roll can instead be made with Physical Defense Bonus if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical Defense Bonus if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Elemental Lance  
@@ -1016,7 +1016,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Square  
 Cost: 6 MP (Upkeep 1)  
-Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Attack, Physical Attack, Mental Defense, and Physical Defense.  
+Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
 Special: You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1150,7 +1150,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x5 (Physical)  
-Special: This attack can only be used on a [Flat Footed](#flat-footed) target.  
+Special: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Suspend  
@@ -1161,7 +1161,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 5 MP (Upkeep 1 MP)  
 Damage: x1  
-Special: If this attack succeeds, you [grab](#grab) your target. Instead of Physical Attack/Defense, Suspend uses Mental Attack/Defense.  
+Special: If this Spell succeeds, you [grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
 Description: Holding a target using mental/technological means from a distance. This can be telekineticly grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
 
 >Note: You still cannot move if you grab a target using Suspend.
@@ -1312,13 +1312,13 @@ When using a Curse Ability, you may choose one of the following benefits.
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Anger  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Attack increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Attack bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
+Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
 
 #### Ataraxia  
 If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your Hero Tier (to a minimum of 0).
 
 #### Bloodlust  
-When you successfully kill or knock out a foe, your next attack is made at Boon +6.
+When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
 
 #### Curse Resistant  
 The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
@@ -1332,7 +1332,7 @@ Reduce all damage you take (after multipliers are applied) by your half your Tou
 //If this isn’t doing enough, maybe I need to increase both this and Enduring Protector benefits?
 
 #### Defensive Lock  
-When being attacked by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
+When being targetted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
@@ -1358,7 +1358,7 @@ When you target creatures with an Augment, all affected gain [Shield](#shield-x)
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
-* Increase the target’s Physical or Mental Attack by your Hero Tier.
+* Increase the target’s Physical or Mental Offense by your Hero Tier.
 * Increase the target’s Physical and Mental Defense by your Hero Tier.
 * The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
 
@@ -1369,7 +1369,7 @@ When you use a melee range Attack, you can move one square as part of the Attack
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
 
 #### Long Arm of Justice  
-Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies who make Melee range attacks. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
+Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Mana from Momentum  
 After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
@@ -1378,7 +1378,7 @@ After you cast a spell, the next spell you cast on your turn has its HP or MP co
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
 
-Example: Merlin has the Manamaim power, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his attack total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+Example: Merlin has the Manamaim power, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
@@ -1387,7 +1387,7 @@ Whenever you pay an Overload cost on an Ability that heals HP damage, add your C
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
 #### Offensive Lock  
-When attacking a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
+When targeted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
 #### Overcharge  
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
@@ -1412,13 +1412,13 @@ When you successfully strike with an Ability that forces a target to move, you g
 //TODO: Look at the cannot move condition
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that attack.
+When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
 
 #### Sadism  
 When you kill or knock out a foe, increase your Offensive Track by 1.
 
-#### Siege Caster  
-If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Attack increases by an amount equal to your Hero Tier.
+#### Siege Fighter  
+If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your Hero Tier.
 
 #### Spell Sniper  
 If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
@@ -1484,7 +1484,7 @@ At the beginning of every turn, you regain HP equal to your Toughness. If you ev
 //Scaling?
 
 #### Finesse Caster  
-You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Attack.
+You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
 
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
@@ -1498,7 +1498,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 * Increase the target along one buff/debuff track of your choice. You can only increase the value up to 0.
 
 #### Heartmage  
-You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Attack.
+You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
 
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a Result of 10 or higher, you can choose one of the following extra effects.
@@ -1511,7 +1511,7 @@ You hit so hard that you can knock your foes around without actively trying to. 
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
 
 #### Intuitive Aim
-You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Attack.
+You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Offense.
 
 #### Lucky
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
@@ -1523,7 +1523,7 @@ You gain 9 additional MP, plus 3 more for each level of Capacity. This Talent ap
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
 
 #### Measured Strikes  
-You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Attack.
+You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
 
 #### Power Mage  
 You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
@@ -1672,7 +1672,7 @@ Terrain can influence how one moves significantly. Some zone borders may require
 ### Attacking
 Blows will be exchanged often in combat.  
 //TODO Fill in more fluff, IDK  
-To make an attack, first you roll your 2d10 as normal, and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Attack. Abilities labeled as Spells instead add your Mental Attack. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your attack has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+To make an attack, first you roll your 2d10 as normal, and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. In future the individual or group being chased will be called the Quarry, while the one(s) doing the chasing will be the Hunter.
@@ -1788,13 +1788,13 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 
 ## Conditions and Properties
 #### Blind  
-You cannot see. If you attempt to attack a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
+You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
 #### Chill X  
 Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
 
 #### Crush X
-Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Attack by X for its duration.
+Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
 
 #### Distracted
 Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
@@ -1813,7 +1813,7 @@ This Condition makes you immune to Terrain effects with the [Grounded] tag, unle
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon +6 on Stealth checks.
 
 #### Prone  
-Lying on the ground. Melee range attacks against Prone targets have Boon +5, while any attacks coming from beyond Short range are made at Bane -8. Moving a square while Prone costs a major action.  
+Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
 #### Provoked
@@ -1829,7 +1829,7 @@ On fire or dealing with a lingering burn. This reduces your Mental Defense by X 
 You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stacks.
 
 #### Shock X
-Shocked, rattled by sonic damage, or the like. This reduces your Mental Attack by X for its duration.
+Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
 #### Slow
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different square.
