@@ -572,7 +572,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
-Special: This attack succeeds, you also [Grab](#grab) the target.  
+Special: If this attack succeeds, you also [Grab](#grab) the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 #### Healing Burst  
