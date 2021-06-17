@@ -488,7 +488,7 @@ Action: Major
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 0 MP (Overload 3 MP)  
+Cost: 0 MP (Overload +3 MP)  
 Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
 Special:  The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
@@ -591,7 +591,7 @@ Action: Minor
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Ally  
-Cost: 2 MP (Overload 4 MP)  
+Cost: 2 MP (Overload +4 MP)  
 Effect: The target regains HP equal to a ten-sided die roll.  
 Special: If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
@@ -613,7 +613,7 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 3 HP (2 HP Overload)  
+Cost: 3 HP (Overload +2 HP)  
 Damage: x2 (Physical)  
 Special: If you pay the Overload cost and your Result is at least 5, you knock your target Prone.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
@@ -667,7 +667,7 @@ Action: Major
 Prerequisites: [Quick Strike](#quick-strike)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 1 MP (Overload 2 HP)  
+Cost: 1 MP (Overload +2 HP)  
 Damage: x1 (Physical)  
 Special: You may move one square before or after you make your Offense roll.  
 If you pay the Overload cost, you may move a square both before AND after.  
@@ -829,7 +829,7 @@ Action: Major (Overload Minor)
 Prerequisites: None  
 Range: Short  
 Targets: 1 Square  
-Cost: 2 MP (Overload 5 MP)  
+Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
 Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are Blinded and Obscured.  
 Special: If you pay the Overload cost, you may use this Ability as a minor action.  
@@ -878,10 +878,10 @@ Action: Major
 Prerequisites: [Challenge](#challenge)  
 Range: Melee  
 Targets: One enemy  
-Cost: 0 MP (Overload 3 MP/7 MP)  
+Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
-You may choose to overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
+You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Bladebreak  
@@ -949,7 +949,7 @@ Action: Major
 Prerequisites: [Elemental Dart](#elemental-dart)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 7 MP (Overload 12 MP)  
+Cost: 7 MP (Overload +5 MP)  
 Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
 Special: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
 You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.    
