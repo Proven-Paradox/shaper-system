@@ -375,7 +375,7 @@ Cost: None (Upkeep 1 HP)
 Damage: x0 (Physical)  
 Special: If this Attack succeeds, you grab your target.  
 While you are grabbing a target, you cannot move. At the beginning of your turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
-If you have been grabbed by someone, you cannot move.  
+If you have been grabbed by someone, you cannot move. The person grabbing you can also cover your mouth to silence you if they wish.  
 Description: An untrained attempt to hold on to your target.
 
 > Note that you can release a grabbed target by not paying the Upkeep cost, which immediately allows you to move.
