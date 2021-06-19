@@ -591,3 +591,9 @@ When a target suffering from a Curse you cast dies or is knocked out, you immedi
 
 #### Ward Recycling  
 When a Ward you placed successfully reduces damage, you regain MP or HP equal to the Ward’s cost. In addition you may cast two Ward spells at a time. The Wards must be from the same spell and protect against the same element(s) but may affect different targets. You pay the cost for both.
+
+#### Shrug it Off  
+You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
+
+#### Death Dealer  
+Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.

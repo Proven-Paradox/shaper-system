@@ -1454,9 +1454,6 @@ You can physically batter aside your opponent's attacks. You may use your Streng
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
 
-#### Death Dealer  
-Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
-
 #### Elemental Specialist (TYPE)
 Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
 * You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
@@ -1530,9 +1527,6 @@ You have perfected an unusual spellcasting style that enables you draw fuel for 
 
 #### Serene Health  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
-
-#### Shrug it Off  
-You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abilities that target you by 1, to a minimum of 0. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
 
 #### Soul Well  
 You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Toughness to determine your HP.
