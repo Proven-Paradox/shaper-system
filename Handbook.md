@@ -412,6 +412,16 @@ Description: Attempting to force your target to move the way you want in an unfo
 
 ## Tier 1
 
+#### Aim  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: None  
+Special: You make your next attack this round with Boon +2.  
+Description: Taking a moment to steady your aim. This could just be standard careful aim, looking through a scope, activating a targeting system, or other similar actions.
+
 #### Bash  
 Attack  
 Action: Major  
@@ -756,9 +766,8 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Special: If you also use your minor action this Attack is made with Boon +3.  
+Special: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-//TODO Reconsider if Boon is needed
 
 #### Sneak Attack  
 Attack  
