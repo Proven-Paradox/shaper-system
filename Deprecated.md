@@ -597,3 +597,7 @@ You’re tough enough to resist any blow. Reduce the Multiplier on hostile Abili
 
 #### Death Dealer  
 Sometimes the best solution is to just hit harder. Increase your damage multiplier on all successful damaging Abilities by 1. You may only take this Talent if your Level is at least 10. This is an Exclusive Talent, and you may only have one Exclusive Talent.
+
+#### Mana from Momentum  
+After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
+//TODO Consider if this is powerful enough

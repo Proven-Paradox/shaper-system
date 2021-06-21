@@ -1383,10 +1383,6 @@ When casting a Healing Ability, you may roll an additional ten-sided die. Remove
 #### Long Arm of Justice  
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
-#### Mana from Momentum  
-After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
-//TODO Consider if this is powerful enough
-
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
 
@@ -1420,8 +1416,7 @@ Terrain effects with the [Grounded] tag that you create affect creatures with th
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target cannot move until your next turn.
-//TODO: Look at the cannot move condition
+* Your target is [Rooted](#rooted) until your next turn.
 
 #### Resilient Protector  
 When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
@@ -1514,7 +1509,6 @@ You hit so hard that you can knock your foes around without actively trying to. 
 * Knock your target(s) [Prone](#prone).
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your Strength
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
-//Not sure about that 10 result.
 
 #### Intelligent Avoidance  
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
