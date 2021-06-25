@@ -849,6 +849,20 @@ Damage: x1 (Physical)
 Special: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this Attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
+#### Vanish  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 5 MP  
+Duration: Until the end of your next action  
+Cooldown: 3 rounds  
+Special: You are [Obscured](#obscured) for the duration. If you are targetted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
+When you use this Ability, you may also move 1 square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what square you are in, though you remain Obscured to them.  
+If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
+Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
+
 #### Veil  
 Auxiliary [Terrain] [Overload]  
 Action: Major (Overload Minor)  
@@ -857,7 +871,7 @@ Range: Short
 Targets: 1 Square  
 Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
-Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are Blinded and Obscured.  
+Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are [Blinded](#blind) and [Obscured](#obscured).  
 Special: If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
@@ -1824,7 +1838,7 @@ You can fly. This allows you to move into the airborne parts of the battle grid.
 This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
 
 #### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.) You also gain Boon +6 on Stealth checks.
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
 
 #### Prone  
 Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a square while Prone costs a major action.  
