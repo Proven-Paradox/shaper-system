@@ -310,10 +310,17 @@ Some Abilities are part of a series, building off each other and using each othe
 
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
-* **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
-* **Grounded** - An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
-* **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
-* **Upkeep** - Any Ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
+### Careful
+An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
+
+### Grounded
+An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
+
+### Overload
+An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
+
+### Upkeep
+Any Ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 ### The Offensive Track
