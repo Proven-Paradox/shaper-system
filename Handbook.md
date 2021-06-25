@@ -539,6 +539,7 @@ Prerequisites: None
 Range: Medium  
 Targets: One enemy  
 Cost: 1 MP  
+Damage: 0  
 Duration: None  
 Effect: The target loses one point on the Offensive Track.  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
@@ -563,10 +564,24 @@ Prerequisites: None
 Range: Medium  
 Targets: One enemy  
 Cost: 1 MP  
+Damage: 0  
 Duration: None  
 Effect: The target loses one point on the Defensive Track.  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
+
+#### Flash  
+Attack/Spell (See Special)  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: One enemy  
+Cost: 4 MP  
+Damage: 0  
+Duration: 1 round  
+Cooldown: 3 rounds  
+Effect: If you hit with this Ability, the target is [Blind](#blind) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
+Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
 #### Fortify  
 Auxiliary [Augment]  
