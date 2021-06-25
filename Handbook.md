@@ -310,11 +310,15 @@ Some Abilities are part of a series, building off each other and using each othe
 
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
+
 ### Careful
 An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
 
+### Cooldown
+An Ability that, once used, cannot be used again for some duration, listed in the Ability.
+
 ### Grounded
-An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
+A Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
 
 ### Overload
 An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
@@ -322,8 +326,9 @@ An Ability that can be improved if you add an additional cost. This represents p
 ### Upkeep
 Any Ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
-### Buff Tracks
+## Buff Tracks
 These are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
+
 #### The Offensive Track
 * **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your Hero Tier.
 * **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
@@ -332,6 +337,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 * **Level -1** - You make Offense rolls at Bane -2.
 * **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier. 
 * **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.
+
 #### The Defensive Track
 * **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your Hero Tier.
 * **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
@@ -340,6 +346,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 * **Level -1** - Offense rolls against you have Boon +2.
 * **Level -2** - Offense rolls against you have Boon +3, and any Shield you gain is halved.
 * **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
+
 #### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
