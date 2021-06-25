@@ -313,7 +313,6 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 * **Careful** - An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
 * **Grounded** - An Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
 * **Overload** - An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
-* **Taunt** - If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 * **Upkeep** - Any Ability with an Upkeep in its cost requires the given cost to be paid at the beginning of the user's turn. As long as its Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
 The Buff/Debuff tracks are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
@@ -693,7 +692,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP (Upkeep 1 MP)   
-Effect: You gain Taunt.  
+Effect: You gain [Taunt](#taunt).  
 Description: You provide cover for nearby allies. This can be physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Purge  
@@ -1350,7 +1349,7 @@ When being targetted by a foe that you have Locked On to, you gain a bonus to yo
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
-After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your Hero Tier: the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your Hero Tier: the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
 //See comments on Deadened Nerves
 
 #### Elemental Attunement  
@@ -1419,7 +1418,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#rooted) until your next turn.
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have Taunt and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
+When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
 
 #### Sadism  
 When you kill or knock out a foe, increase your Offensive Track by 1.
@@ -1803,7 +1802,7 @@ Unable to bring fully react to your situation. Distracted characters cannot use 
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
 #### Flat Footed
-You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon 4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
@@ -1836,7 +1835,9 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
-#### 
+
+#### Taunt
+If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 
 
 # Appendix A: Optional Rules
