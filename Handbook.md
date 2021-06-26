@@ -1023,14 +1023,25 @@ Effect: You and the targeted ally move to the selected square.
 Special: You and the targeted ally must be able to move normally to use this Ability.  
 Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
+#### Friendly Fire  
+Auxiliary  
+Action: Counter  
+Range: Melee  
+Targets: 1 opponent that you have [Grabbed](#grab)  
+Trigger: An opponent misses you with an Ability  
+Cost: 4 MP  
+Effect: The Ability that missed you is re-rolled targeting the opponent you have Grabbed.  
+Description: You redirect a poorly aimed strike to instead hit the target you have in your grip. This would usually involve using them as a shield.  
+
 #### Hold Fast  
 Auxiliary  
 Action: Minor  
 Prerequisites: [Fortify](#fortify)  
+Range: None  
 Targets: Self  
 Cost: 4 HP  
 Effect: Increase your Defense Track by 1.  
-Description: You steele yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
+Description: You steel yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
 
 #### Intervene  
 Auxiliary  
@@ -1038,7 +1049,7 @@ Action: Counter
 Prerequisites: [Guard](#guard)  
 Range: Short  
 Targets: 1 Ally  
-Trigger: Target ally takes any damage.  
+Trigger: Target ally takes any damage  
 Cost: None  
 Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
