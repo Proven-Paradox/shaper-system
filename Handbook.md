@@ -1647,7 +1647,7 @@ This Power makes you immune to Terrain effects with the [Grounded] tag, unless t
 
 #### Lip reading  
 XP Cost: 3  
-You can read lips.  
+You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
 
 #### One with Nature: Animals  
 XP Cost: 3  
