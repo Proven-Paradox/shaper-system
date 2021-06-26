@@ -277,7 +277,7 @@ Range: How far away a target can be while still being in reach of this Ability. 
 Targets: Who or what this Ability targets.  
 Cost: The HP or MP cost of this Ability.  
 Damage: When using this Ability to do damage, multiply your Impact by this number to determine the amount.  
-Special: Things particular to a given Ability.
+Effect: Things particular to a given Ability.
 ## Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Attributes, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
 ## Ability Types
@@ -365,7 +365,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Special: You grant the ally Cover. If you and the target are in the same square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
+Effect: You grant the ally Cover. If you and the target are in the same square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -375,8 +375,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x1 (Physical)  
-Special: None  
+Damage: x1 (Physical) 
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
 #### Grab  
@@ -387,7 +386,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
-Special: If this Attack succeeds, you grab your target.  
+Effect: If this Attack succeeds, you grab your target.  
 While you are grabbing a target, you cannot move. At the beginning of your turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
 If you have been grabbed by someone, you cannot move. The person grabbing you can also cover your mouth to silence you if they wish.  
 Description: An untrained attempt to hold on to your target.
@@ -401,7 +400,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Special: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
+Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
 
 #### Recover  
 Auxiliary  
@@ -410,7 +409,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
-Special: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.  
+Effect: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
 #### Shove  
@@ -433,7 +432,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: None  
-Special: You make your next attack this round with Boon +2.  
+Effect: You make your next attack this round with Boon +2.  
 Description: Taking a moment to steady your aim. This could just be standard careful aim, looking through a scope, activating a targeting system, or other similar actions.
 
 #### Bash  
@@ -444,7 +443,7 @@ Range: Melee
 Targets: One enemy  
 Cost: 3 HP  
 Damage: x2 (Physical)  
-Special: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Challenge  
@@ -455,7 +454,7 @@ Range: Long
 Targets: One enemy  
 Cost 2 MP  
 Damage: 0  
-Special: If this spell hits the target, they are Provoked by you for one turn.  
+Effect: If this spell hits the target, they are Provoked by you for one turn.  
 You may choose to use your Mental Defense Bonus instead of your Mental Offense for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
@@ -494,31 +493,31 @@ Range: Melee
 Targets: Up to 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: When you use this Ability, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
+Effect: When you use this Ability, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
 #### Elemental Blast  
-Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: [Elemental Dart](#elemental-dart)  
 Range: Short  
 Targets: 1 square  
-Cost: 5 MP (See Special)  
-Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
-Special: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Cost: 5 MP 
+Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
 Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
 #### Elemental Dart  
-Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 0 MP (Overload +3 MP)  
-Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
-Special:  The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
+Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
+The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -533,7 +532,7 @@ Effect: The target gains one point on the Offensive Track.
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
-Attack/Spell [Curse] (See Special)  
+Attack/Spell [Curse]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
@@ -553,12 +552,12 @@ Range: Short
 Targets: 1 Square  
 Cost: 1 MP  
 Duration: 1 round (Careful 3 rounds)  
-Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action. 
-Special: If you also use your minor action, the duration increases to 3 rounds.  
+Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action.  
+If you also use your minor action, the duration increases to 3 rounds.  
 Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
 
 #### Expose  
-Attack/Spell [Curse] (See Special)  
+Attack/Spell [Curse]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
@@ -571,7 +570,7 @@ You may use this either as an Attack (using your Physical Offense and targeting 
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
 #### Flash  
-Attack/Spell (See Special)  
+Attack/Spell  
 Action: Major  
 Prerequisites: None  
 Range: Short  
@@ -614,7 +613,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
-Special: If this Attack succeeds, you also [Grab](#grab) the target.  
+Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 #### Healing Burst  
@@ -635,18 +634,18 @@ Range: Melee
 Targets: 1 Ally  
 Cost: 2 MP (Overload +4 MP)  
 Effect: The target regains HP equal to a ten-sided die roll.  
-Special: If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
+If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
 Auxiliary [Healing] [Careful]  
 Action: Major  
 Prerequisites: None  
-Range: Medium (Careful: Long, see special)  
+Range: Medium (Careful: Long)  
 Targets: 1 Ally  
 Cost: 2 MP  
-Effect: The target regains HP equal to a ten-sided die roll.
-Special: If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
+Effect: The target regains HP equal to a ten-sided die roll.  
+If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -657,7 +656,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP (Overload +2 HP)  
 Damage: x2 (Physical)  
-Special: If you pay the Overload cost and your Result is at least 5, you knock your target Prone.  
+Effect: If you pay the Overload cost and your Result is at least 5, you knock your target Prone.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -668,7 +667,6 @@ Range: Short
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: x1 (Physical)  
-Special: None  
 Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, lashing out with one’s mind, firing a bolt of pure energy, and similar sorts of attacks.
 
 #### Kinetic Force  
@@ -679,7 +677,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -690,7 +688,7 @@ Range: Short
 Targets: 2 adjacent squares  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
-Special: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
+Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
 #### Lock  
@@ -699,7 +697,7 @@ Action: Minor
 Range: Long  
 Targets: 1 enemy  
 Cost: 1 MP (Upkeep: 0 MP)  
-Special: You Lock On to the target. By default, this does nothing, but some Powers influence Lock On.  
+Effect: You Lock On to the target. By default, this does nothing, but some Powers influence Lock On.  
 When you first learn the Lock Ability, you also gain one of the following Powers: Defensive Lock, Offensive Lock, Pursuit Lock
 Description: Focusing on one target. This may be a matter of meditative discipline, deploying a targetting AI, or some other way of singling out a foe for particular focus.
 
@@ -711,7 +709,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 1 MP (Overload +2 HP)  
 Damage: x1 (Physical)  
-Special: You may move one square before or after you make your Offense roll.  
+Effect: You may move one square before or after you make your Offense roll.  
 If you pay the Overload cost, you may move a square both before AND after.  
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
 
@@ -746,7 +744,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: 1x (Physical)  
-Special: None  
+Effect: None  
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
 
 #### Reckless Strike  
@@ -757,7 +755,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x2 (Physical)  
-Special: This Attack has Boon +4. Until your next turn, enemy Abilities targeting you have Boon +4.  
+Effect: This Attack has Boon +4. Until your next turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
@@ -769,8 +767,7 @@ Targets: 1 enemy
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: Attack the target.  
-Special: You may use your Physical Defense Bonus in place of your Physical Offense when using this Ability.  
+Effect: You may use your Physical Defense Bonus in place of your Physical Offense when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
@@ -783,7 +780,7 @@ Cost: 1 MP (Careful 0 MP)
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 This Ability also reveals the presence of invisible creatures or objects in the square it is used, though it does not reveal their exact position.  
-Special:If you spend your major action while using this Ability, you remove the MP cost entirely.  
+If you spend your major action while using this Ability, you remove the MP cost entirely.  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
@@ -795,7 +792,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Special: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.
+Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Sneak Attack  
@@ -806,7 +803,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: None  
 Damage: x3 (Physical)  
-Special: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
+Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Snipe  
@@ -817,7 +814,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: x2 (Physical)  
-Special: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
+Effect: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -828,7 +825,7 @@ Range: Melee
 Targets: 1  enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
-Special: This Attack may only be used on a target you have [Grabbed](#grab).  
+Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -839,7 +836,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 2 MP  
 Effect: The target advances 2 spaces on the regen/degen track, to a maximum of 5.  
-Special: You may only use this Ability once per turn.  
+You may only use this Ability once per turn.  
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike  
@@ -850,7 +847,6 @@ Range: Melee
 Targets: Up to 3 enemies  
 Cost: 3 HP  
 Damage: x1 (Physical)  
-Special: None  
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### Throw  
@@ -861,7 +857,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Special: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this Attack, you are no longer grabbing your original target.
+Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this Attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
@@ -873,7 +869,7 @@ Targets: Self
 Cost: 5 MP  
 Duration: Until the end of your next action  
 Cooldown: 3 rounds  
-Special: You are [Obscured](#obscured) for the duration. If you are targetted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
+Effect: You are [Obscured](#obscured) for the duration. If you are targetted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
 When you use this Ability, you may also move 1 square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what square you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
@@ -887,7 +883,7 @@ Targets: 1 Square
 Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
 Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are [Blinded](#blind) and [Obscured](#obscured).  
-Special: If you pay the Overload cost, you may use this Ability as a minor action.  
+If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
 #### Void Dart  
@@ -910,11 +906,10 @@ Range: Medium
 Targets: 1 square  
 Cost: 4 MP  
 Damage: x1 (Physical)  
-Special: None  
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 #### Ward  
-Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
@@ -928,7 +923,7 @@ Description: A simple form of protection. This can represent a rune of protectio
 ## Tier 2
 
 #### Armor Crush  
-Attack/Spell (See Special) [Overload]  
+Attack/Spell [Overload]  
 Action: Major  
 Prerequisites: [Challenge](#challenge)  
 Range: Melee  
@@ -959,7 +954,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Ice)  
 Duration: 3 rounds  
-Special: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your Hero Tier.  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
 
 #### Crushing Bolt  
@@ -971,7 +966,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Earth)  
 Duration: 2 rounds  
-Special: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your Hero Tier.  
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
 
 #### Doom  
@@ -982,33 +977,33 @@ Range: Medium
 Targets: One enemy  
 Cost: 5 MP (Upkeep 2 MP)  
 Effect: At the beginning of your turn, reduce one of your target’s buff/debuff tracks by 1.  
-Special: When you cast this spell, make a Magic Offense roll against the target. This spell fails if your Result is less than 1.  
+Effect: When you cast this spell, make a Magic Offense roll against the target. This spell fails if your Result is less than 1.  
 At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Offense roll against the target: on a Result of less than 1, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed.  
 If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only Doom one target at a time.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
 #### Elemental Lance  
-Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: [Elemental Dart](#elemental-dart)  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 7 MP (Overload +5 MP)  
-Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
-Special: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
+Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
 You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.    
 Description: This represents a variety of powerful, focused elemental attacks. This could be an advanced spell, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Elemental Strike  
-Attack [Elemental] ]Fire/Ice/Earth/Sky/Light/Dark, see Special]  
+Attack [Elemental] ]Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: 5 HP  
-Damage: x3 (Fire/Ice/Earth/Sky/Light/Dark, see Special)  
-Special: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
+Damage: x3 (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
@@ -1019,8 +1014,7 @@ Prerequisites: None
 Range: Short  
 Targets: One other ally in your square, and an adjacent square  
 Cost: 3 MP
-Effect: You and the targeted ally move to the selected square.  
-Special: You and the targeted ally must be able to move normally to use this Ability.  
+Effect: You and the targeted ally move to the selected square. You and the targeted ally must be able to move normally to use this Ability.  
 Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
 #### Friendly Fire  
@@ -1073,7 +1067,7 @@ Range: Melee
 Targets: 1 Square  
 Cost: 6 MP (Upkeep 1)  
 Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
-Special: You cannot cast Leyline again while a previous Leyline you cast is still active.  
+You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
 
@@ -1083,8 +1077,7 @@ Action: Minor
 Prerequisites: None  
 Targets: Self  
 Cost: 3 HP  
-Effect: You regain MP equal to your Capacity level.  
-Special: This cannot be used outside of combat.  
+Effect: You regain MP equal to your Capacity level. This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
 
 #### Mental Shield
@@ -1094,8 +1087,8 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Trigger: You take any damage.  
-Cost: 2 + Damage MP (See Special)   
-Special: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
+Cost: 2 + Damage MP   
+Effect: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
 Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
 
 #### Pin Down  
@@ -1108,7 +1101,7 @@ Trigger: An opponent in melee range attempts to move away from you.
 Cost: 5 MP  
 Damage: x1  
 Duration: 1 round  
-Special: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next turn.  
+Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next turn.  
 Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
@@ -1118,7 +1111,6 @@ Prerequisites: [Empower](#empower)
 Targets: Self  
 Cost: 4 HP  
 Effect: Increase your Offensive Track by 1.  
-Special: None  
 Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions. 
 
 #### Purging Dart  
@@ -1128,7 +1120,7 @@ Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: x1 (Physical)  
-Special: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
+Effect: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, a painful curse, or similar measures.  
 
 #### Purging Strike  
@@ -1139,7 +1131,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x3 (Physical)  
-Special: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
+Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counterspelling runes drawn on to your weapon, a punch that disrupt's the target's concentration, or similar techniques.  
 
 #### Radiant Bolt   
@@ -1150,7 +1142,7 @@ Range: Medium
 Targets: 1 enemy, 1 ally  
 Cost: 10 MP  
 Damage: x3 (Light)  
-Special: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your hero tier. If this Ability misses no healing occurs.
+Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your hero tier. If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
 
 #### Retribution  
@@ -1172,7 +1164,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Fire)  
 Duration: 1 round  
-Special: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
 
 #### Shocking Bolt  
@@ -1184,7 +1176,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Sky)  
 Duration: 2 rounds  
-Special: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your Hero Tier.  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
 
 #### Second Wind  
@@ -1208,7 +1200,7 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases their Defense Track.  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
-#### Sneak Attack, Improved  
+#### Sneak Attack 2  
 Attack  
 Action: Major  
 Prerequisites: [Sneak Attack](#sneak-attack)  
@@ -1216,7 +1208,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x5 (Physical)  
-Special: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
+Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Suspend  
@@ -1227,7 +1219,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 5 MP (Upkeep 1 MP)  
 Damage: x1  
-Special: If this Spell succeeds, you [grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
+Effect: If this Spell succeeds, you [grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
 Description: Holding a target using mental/technological means from a distance. This can be telekineticly grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
 
 >Note: You still cannot move if you grab a target using Suspend.
@@ -1239,8 +1231,7 @@ Prerequisites: None
 Range: Medium  
 Targets: One ally  
 Cost: 3 MP  
-Effect: You move to the target’s square.  
-Special: You must be able to move normally to use this Ability.  
+Effect: You move to the target’s square. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
 #### Umbral Bolt  
@@ -1252,7 +1243,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Dark)  
 Duration: 2 round  
-Special: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
+Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
 
 ________________
