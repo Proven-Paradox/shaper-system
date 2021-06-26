@@ -1473,6 +1473,10 @@ If you have not moved between the beginning of your previous turn and your curre
 #### Spell Sniper  
 If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
 
+#### Spell Strike  
+If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
+If you successfully strike with a Spell Ability with your Major Action, you may use a Tier 1 Attack Ability that normally requires a Major Action as a Minor Action.
+
 #### Superior Scanner  
 When you use a Scan Ability, choose one of the following benefits.
 * You scan all targets in one square
