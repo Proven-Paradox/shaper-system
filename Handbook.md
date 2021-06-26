@@ -988,16 +988,6 @@ If you choose to maintain Doom, you must use the same buff/debuff track as the o
 You may only Doom one target at a time.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
-#### Retribution  
-Auxiliary  
-Action: Minor  
-Prerequisites: [Guard](#guard)  
-Range: None  
-Targets: Self  
-Cost: 1 MP  
-Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical Defense Bonus if it is an Attack, or Mental Defense Bonus if it is a Spell.  
-Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
-
 #### Elemental Lance  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark, see Special]  
 Action: Major  
@@ -1151,6 +1141,16 @@ Cost: 10 MP
 Damage: x3 (Light)  
 Special: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your hero tier. If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
+
+#### Retribution  
+Auxiliary  
+Action: Minor  
+Prerequisites: [Guard](#guard)  
+Range: None  
+Targets: Self  
+Cost: 1 MP  
+Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical Defense Bonus if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Searing Bolt  
 Spell [Elemental] [Fire]  
