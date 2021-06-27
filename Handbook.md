@@ -440,7 +440,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 3 HP  
 Damage: x2 (Physical)  
 Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
@@ -451,10 +451,10 @@ Spell
 Action: Minor  
 Prerequisites: None  
 Range: Long  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost 2 MP  
 Damage: 0  
-Effect: If this spell hits the target, they are [Provoked](#provoked) by you for one turn.  
+Effect: If this Spell hits the target, they are [Provoked](#provoked) by you for one turn.  
 You may choose to use your Mental Defense Bonus instead of your Mental Offense for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
@@ -480,7 +480,7 @@ Range: None
 Targets: Self  
 Trigger: The enemy successfully hits with an Ability with a Result of 2 or less.  
 Cost: None  
-Effect: Negate the Ability that triggered this counter.  
+Effect: Negate the Ability that triggered this Counter.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.
 
 > This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects, such as Curses.
@@ -493,7 +493,7 @@ Range: Melee
 Targets: Up to 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: When you use this Ability, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
+Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
 #### Elemental Blast  
@@ -536,7 +536,7 @@ Attack/Spell [Curse]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
 Duration: None  
@@ -561,7 +561,7 @@ Attack/Spell [Curse]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
 Duration: None  
@@ -574,7 +574,7 @@ Attack/Spell
 Action: Major  
 Prerequisites: None  
 Range: Short  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 4 MP  
 Damage: 0  
 Duration: 1 round  
@@ -927,7 +927,7 @@ Attack/Spell [Overload]
 Action: Major  
 Prerequisites: [Challenge](#challenge)  
 Range: Melee  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
@@ -939,7 +939,7 @@ Attack
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble)  
 Range: Melee  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x2  
 Effect: If you deal damage with this Ability, the target also decreases their Offense Track.  
@@ -974,7 +974,7 @@ Auxiliary [Curse]
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
 Range: Medium  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 5 MP (Upkeep 2 MP)  
 Effect: At the beginning of your turn, reduce one of your target’s buff/debuff tracks by 1.  
 Effect: When you cast this spell, make a Magic Offense roll against the target. This spell fails if your Result is less than 1.  
@@ -1194,7 +1194,7 @@ Attack
 Action: Major  
 Prerequisites: [Expose](#expose)  
 Range: Melee  
-Targets: One enemy  
+Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x2  
 Effect: If you deal damage with this Ability, the target also decreases their Defense Track.  
