@@ -463,7 +463,7 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Short  
-Targets: One ally  
+Targets: 1 ally  
 Cost: 2 MP  
 Duration: None  
 Effect: Choose one of the following:  
@@ -525,7 +525,7 @@ Auxiliary [Augment]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: One ally  
+Targets: 1 ally  
 Cost: 2 MP  
 Duration: None  
 Effect: The target gains one point on the Offensive Track.
@@ -587,7 +587,7 @@ Auxiliary [Augment]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: One ally  
+Targets: 1 ally  
 Cost: 2 MP  
 Duration: None  
 Effect: The target gains one point on the Defensive Track.  
@@ -598,7 +598,7 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Melee  
-Targets: One ally  
+Targets: 1 ally  
 Cost: None  
 Duration: 1 round  
 Effect: This functions the same as [Cover](#cover), and in addition grants you Shield equal to your Vitality.  
@@ -1229,7 +1229,7 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Medium  
-Targets: One ally  
+Targets: 1 ally  
 Cost: 3 MP  
 Effect: You move to the target’s square. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
