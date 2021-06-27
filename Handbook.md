@@ -469,7 +469,7 @@ Duration: None
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
 * Increase the target along all Buff Tracks by one. You can only increase the value up to 0.
-* Increase the target’s [Regen/Degen](#the-regen-degen-track) value by 4. You can only increase the value up to 0.  
+* Increase the target’s [Regen/Degen](#the-regendegen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Dodge  
@@ -733,7 +733,7 @@ Cost: 2 MP
 Effect: Choose one of the following -  
 * Reduce one of the target's [Buff track](#buff-tracks) by 1, to a minimum of 0.  
 * Remove the target's current [Ward](#ward).  
-* Reduce the target's [Regen/Degen Track](#the-regen-degen-track) by 2, to a minimum of 0.  
+* Reduce the target's [Regen/Degen Track](#the-regendegen-track) by 2, to a minimum of 0.  
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Quick Strike  
@@ -835,7 +835,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regen-degen-track), to a maximum of 5.  
+Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 5.  
 You may only use this Ability once per turn.  
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
@@ -1451,7 +1451,7 @@ Once per round, when an opponent you have Locked On to moves, you may choose to 
 
 #### Quick Healer  
 Increase any HP restoration you receive by half.  
-> Remember that all fractions round down. Also to be clear; this affects [The Regen/Degen Track](#the-regen-degen-track) as well.
+> Remember that all fractions round down. Also to be clear; this affects [The Regen/Degen Track](#the-regendegen-track) as well.
 
 #### Reaching Terrain
 Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Power or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Power may cast [Grounded] Abilities in the air as well as on the ground.
@@ -1518,7 +1518,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regen-degen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
+  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
