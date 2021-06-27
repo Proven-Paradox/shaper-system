@@ -1385,8 +1385,6 @@ When you move as a Major action, you can choose to move two squares instead of o
 
 #### Deadened Nerves  
 Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
-//Need to monitor this. Don’t want it to be strictly stronger than Enduring Protector.  
-//If this isn’t doing enough, maybe I need to increase both this and Enduring Protector benefits?
 
 #### Defensive Lock  
 When being targetted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
