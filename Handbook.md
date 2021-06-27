@@ -409,7 +409,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
-Effect: Increase the your value along one buff/debuff track of your choice. You can only increase the value up to 0.  
+Effect: Increase the your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
 #### Shove  
@@ -467,9 +467,9 @@ Targets: 1 ally
 Cost: 2 MP  
 Duration: None  
 Effect: Choose one of the following:  
-* Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.
-* Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.
-* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
+* Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
+* Increase the target along all Buff Tracks by one. You can only increase the value up to 0.
+* Increase the target’s [Regen/Degen](#the-regen-degen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Dodge  
@@ -528,7 +528,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 2 MP  
 Duration: None  
-Effect: The target gains one point on the Offensive Track.
+Effect: The target increases on the [Offensive Track](#the-offensive-track).
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
@@ -540,7 +540,7 @@ Targets: 1 enemy
 Cost: 1 MP  
 Damage: 0  
 Duration: None  
-Effect: The target loses one point on the Offensive Track.  
+Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
 
@@ -565,7 +565,7 @@ Targets: 1 enemy
 Cost: 1 MP  
 Damage: 0  
 Duration: None  
-Effect: The target loses one point on the Defensive Track.  
+Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
@@ -590,7 +590,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 2 MP  
 Duration: None  
-Effect: The target gains one point on the Defensive Track.  
+Effect: The target increases on the [Defensive Track](#the-defensive-track).  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
 #### Guard  
@@ -731,9 +731,9 @@ Range: Medium
 Targets: 1 Enemy  
 Cost: 2 MP  
 Effect: Choose one of the following -  
-* Reduce the target's Buff/Debuff track by 1, to a minimum of 0.  
-* Remove the target's current Ward.  
-* Reduce the target's regeneration/degeneration track by 2, to a minimum of 0.  
+* Reduce one of the target's [Buff track](#buff-tracks) by 1, to a minimum of 0.  
+* Remove the target's current [Ward](#ward).  
+* Reduce the target's [Regen/Degen Track](#the-regen-degen-track) by 2, to a minimum of 0.  
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Quick Strike  
@@ -835,7 +835,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target advances 2 spaces on the regen/degen track, to a maximum of 5.  
+Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regen-degen-track), to a maximum of 5.  
 You may only use this Ability once per turn.  
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
@@ -942,7 +942,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x2  
-Effect: If you deal damage with this Ability, the target also decreases their Offense Track.  
+Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
 #### Chilling Bolt  
@@ -970,17 +970,15 @@ Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rou
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
 
 #### Doom  
-Auxiliary [Curse]  
+Spell [Curse]  
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 5 MP (Upkeep 2 MP)  
-Effect: At the beginning of your turn, reduce one of your target’s buff/debuff tracks by 1.  
-Effect: When you cast this spell, make a Magic Offense roll against the target. This spell fails if your Result is less than 1.  
-At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Offense roll against the target: on a Result of less than 1, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed.  
-If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
-You may only Doom one target at a time.  
+Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
+At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Offense roll against the target: if you miss, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed. If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
+You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
 #### Elemental Lance  
@@ -1034,7 +1032,7 @@ Prerequisites: [Fortify](#fortify)
 Range: None  
 Targets: Self  
 Cost: 4 HP  
-Effect: Increase your Defense Track by 1.  
+Effect: Increase along [The Defensive Track](#the-defensive-track).  
 Description: You steel yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
 
 #### Intervene  
@@ -1056,7 +1054,7 @@ Range: None
 Targets: Self  
 Trigger: You are hit by a single target Ability that has a Result of at least 5  
 Cost: 4 HP, 2 MP  
-Effect: Increase your Defense Track by 1.  
+Effect: Increase your [Defensive Track](#the-defensive-track).  
 Description: You respond to a hard hit by tightening your defense.
 
 #### Leyline  
@@ -1110,7 +1108,7 @@ Action: Minor
 Prerequisites: [Empower](#empower)  
 Targets: Self  
 Cost: 4 HP  
-Effect: Increase your Offensive Track by 1.  
+Effect: Increase along [The Offensive Track](#the-offensive-track).  
 Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions. 
 
 #### Purging Dart  
@@ -1197,7 +1195,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x2  
-Effect: If you deal damage with this Ability, the target also decreases their Defense Track.  
+Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
 #### Sneak Attack 2  
@@ -1360,9 +1358,9 @@ Broadly speaking, Powers represent passive combat benefits or extra options avai
 Powers cost 5 XP unless an exception is listed.
 
 #### A Curse Most Foul  
-When using a Curse Ability, you may choose one of the following benefits.
+When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
+* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
 #### Advantageous Recovery  
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
@@ -1380,7 +1378,7 @@ If you have not moved between the beginning of your previous turn and your curre
 When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
 
 #### Curse Resistant  
-The first time you would have one of your buff/debuff tracks reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Power, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 
 #### Dash  
 When you move as a Major action, you can choose to move two squares instead of one.
@@ -1453,7 +1451,7 @@ Once per round, when an opponent you have Locked On to moves, you may choose to 
 
 #### Quick Healer  
 Increase any HP restoration you receive by half.  
-> Remember that all fractions round down. Also to be clear; this affects the Regeneration track as well.
+> Remember that all fractions round down. Also to be clear; this affects [The Regen/Degen Track](#the-regen-degen-track) as well.
 
 #### Reaching Terrain
 Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Power or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Power may cast [Grounded] Abilities in the air as well as on the ground.
@@ -1467,7 +1465,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
 
 #### Sadism  
-When you kill or knock out a foe, increase your Offensive Track by 1.
+When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1.
 
 #### Siege Fighter  
 If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your Hero Tier.
@@ -1520,7 +1518,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also decrease the target's regen/degen track by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
+  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regen-degen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
@@ -1548,7 +1546,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 * Heal an extra amount of HP equal to your Heart times your Hero Tier.
 * Increase the character’s Regeneration up to 0 immediately.
 * End a [Curse] effect on the target.
-* Increase the target along one buff/debuff track of your choice. You can only increase the value up to 0.
+* Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
 
 #### Heartmage  
 You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
