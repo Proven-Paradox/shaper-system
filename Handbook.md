@@ -454,7 +454,7 @@ Range: Long
 Targets: One enemy  
 Cost 2 MP  
 Damage: 0  
-Effect: If this spell hits the target, they are Provoked by you for one turn.  
+Effect: If this spell hits the target, they are [Provoked](#provoked) by you for one turn.  
 You may choose to use your Mental Defense Bonus instead of your Mental Offense for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
@@ -931,7 +931,7 @@ Targets: One enemy
 Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
-You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also Provokes its target.  
+You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Bladebreak  
