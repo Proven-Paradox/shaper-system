@@ -1367,6 +1367,9 @@ When using a Curse Ability, you may choose one of the following benefits.
 #### Advantageous Recovery  
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
+#### Aggressive Provocation  
+When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical Defense in place of your Physical Offense, or Mental Defense in place of your Mental Offense.
+
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
 
