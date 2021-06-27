@@ -1361,7 +1361,6 @@ Powers cost 5 XP unless an exception is listed.
 
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one of the following benefits.
-* Decrease the Bane applied by the curse by 1 (making it more debilitating). Bane -10 becomes Bane -9, Bane -9 becomes Bane -8, and so on.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the buff/debuff track, the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
