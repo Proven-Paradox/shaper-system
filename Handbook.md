@@ -659,7 +659,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP (Overload +2 HP)  
 Damage: x2 (Physical)  
-Effect: If you pay the Overload cost and your Result is at least 5, you knock your target Prone.  
+Effect: If you pay the Overload cost and your Result is at least 5, you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -860,7 +860,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked Prone. After using this Attack, you are no longer grabbing your original target.
+Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked [Prone](#prone). After using this Attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
