@@ -442,8 +442,8 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 HP  
-Damage: x2 (Physical)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Damage: x1 or x2 (Physical, see Effect)  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with the wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Powers and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Challenge  
