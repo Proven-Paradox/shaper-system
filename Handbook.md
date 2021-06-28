@@ -307,8 +307,9 @@ Some Abilities are part of a series, building off each other and using each othe
 * **Powerful** - Abilities which focus on doing heavy physical damage in melee to one or multiple opponents. This is generally accomplished through muscle, but they can be the result of powered armor or great skill.
 * **Ranged** - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
 * **Scan** - Abilities that focus on finding information about enemies, often in covert ways, and gaining advantages from that knowledge.
-* **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
 * **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
+* **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
+
 
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
