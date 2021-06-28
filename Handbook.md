@@ -464,7 +464,7 @@ Targets: 1 enemy
 Cost 2 MP  
 Damage: 0  
 Effect: If this Spell hits the target, they are [Provoked](#provoked) by you for one turn.  
-You may choose to use your Mental Defense Bonus instead of your Mental Offense for this spell.  
+You may choose to use your Mental [Defense Bonus](#defense-bonus) instead of your Mental Offense for this spell.  
 Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Cleanse  
@@ -776,7 +776,7 @@ Targets: 1 enemy
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: You may use your Physical Defense Bonus in place of your Physical Offense when using this Ability.  
+Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
@@ -939,7 +939,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
-Effect: You may use your Phyiscal or Mental Defense Bonus in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
+Effect: You may use your Phyiscal or Mental [Defense Bonus](#defense-bonus) in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
@@ -1159,7 +1159,7 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical Defense Bonus if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Searing Bolt  
@@ -1375,7 +1375,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical Defense Bonus in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
+When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
@@ -1418,7 +1418,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental Defense Bonus.
+When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
