@@ -312,7 +312,6 @@ Some Abilities are part of a series, building off each other and using each othe
 * **Kinetic** - Abilities which deal damage through force applied at a distance. This can be telekinetically hurling objects, firing bolts of concentrated force, or the like.
 * **Powerful** - Abilities which focus on doing heavy physical damage in melee to one or multiple opponents. This is generally accomplished through muscle, but they can be the result of powered armor or great skill.
 * **Ranged** - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
-* **Scan** - Abilities that focus on finding information about enemies, often in covert ways, and gaining advantages from that knowledge.
 * **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
 * **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
 
@@ -780,7 +779,7 @@ Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of yo
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
-Auxiliary [Scan] [Careful]  
+Auxiliary [Careful]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
@@ -791,7 +790,7 @@ Effect: You immediately learn the target’s elemental properties, Physical and 
 This Ability also reveals the presence of invisible creatures or objects in the square it is used, though it does not reveal their exact position.  
 If you spend your major action while using this Ability, you remove the MP cost entirely.  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
-Alternatively, Scan can be used on a square. Scanning a square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability cancelled by Scan, such as [Vanish](#vanish).  
+Alternatively, Scan can be used on a square. Scanning a square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
