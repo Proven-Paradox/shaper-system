@@ -1489,7 +1489,7 @@ If you successfully strike with a Spell Ability with your Major Action, you may 
 
 #### Superior Scanner  
 When you use a Scan Ability, choose one of the following benefits.
-* You scan all targets in one square
+* You automatically scan squares instead of individuals, simultaneously learning about all creatures in that square as well as checking for invisible creatures and objects in that square.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 * You Lock On to the target. Lock On applied in this way has Upkeep 0.
