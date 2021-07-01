@@ -299,7 +299,6 @@ There are four types of Abilities.
 ## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
-* **Counter** - Auxiliary abilities that set up a chance for you to deal damage to foes that strike at you.
 * **Curse** - Auxiliary abilities that weaken foes.
 * **Elemental** - Abilities which deal damage through one of the elements:
    * *Fire* - heat and flames
@@ -1239,6 +1238,18 @@ Targets: 1 ally
 Cost: 3 MP  
 Effect: You move to the target’s square. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
+
+#### Trap Ward  
+Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
+Action: Counter  
+Prerequisites: [Elemental Dart](#elemental-dart), [Ward](#ward)  
+Range: Medium  
+Targets: 1 enemy  
+Trigger: Your target deals damage of the appropriate element to an ally you have Warded. (For example, if you place Fire Ward and an enemy deals Fire damage to an ally.)  
+Cost: 5 MP  
+Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
+Description: Counter attacking an enemy after they strike one of your Wards. This could represent setting a trap up in the Ward itself, using the ward to to redirect/alter an enemy's own power, or just being ready to strike back against opponents during combat.
 
 #### Umbral Bolt  
 Spell [Elemental] [Dark]  
