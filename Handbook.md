@@ -1205,16 +1205,11 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
-#### Sneak Attack 2  
-Attack  
-Action: Major  
-Prerequisites: [Sneak Attack](#sneak-attack)  
-Range: Short  
-Targets: 1 enemy  
-Cost: 4 MP  
+#### Sneak Attack 2   
+Prerequisites: [Sneak Attack](#sneak-attack)   
+Cost: 7 MP  
 Damage: x5 (Physical)  
-Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
-Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
+Effect: As [Sneak Attack](#sneak-attack) except as noted here.
 
 #### Suspend  
 Spell  
