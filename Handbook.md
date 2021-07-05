@@ -32,7 +32,7 @@
 - [Chapter 6: Skills](#chapter-6-Skills) 
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
-- [Chapter 7: Powers](#chapter-7-powers)  
+- [Chapter 7: Lessons](#chapter-7-lessons)  
 - [Chapter 8: Talents](#chapter-8-talents)  
 - [Chapter 9: Utilities](#chapter-9-utilities)  
   - [Skill-based Utilities](#skill-based-utilities)
@@ -252,12 +252,12 @@ Abilities represent things you can actively do, typically in combat. These can c
 Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2.
 
 Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
-### Powers
-Powers represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Powers cost 5 XP unless an exception is listed.
+### Lessons
+Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
 
-Powers are described in more detail in Chapter 7.
+Lessons are described in more detail in Chapter 7.
 ### Talents
-Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Powers, and as such they are only available at first level, and then when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
+Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first level, and then when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
 Talents are described in more detail in Chapter 8.
 ### Utilities
@@ -325,7 +325,7 @@ An Ability that normally only uses the listed Major or Minor Action, but that is
 An Ability that, once used, cannot be used again for some duration, listed in the Ability.
 
 ### Grounded
-A Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Power or [Flight](#flight) Condition.
+A Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Lesson or [Flight](#flight) Condition.
 
 ### Overload
 An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
@@ -450,7 +450,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP  
 Damage: x1 or x2 (Physical, see Effect)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Powers and Talents, such as [Relentless](#relentless).   
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Challenge  
@@ -524,7 +524,7 @@ Targets: 1 enemy
 Cost: 0 MP (Overload +3 MP)  
 Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
-The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Lesson once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -924,7 +924,7 @@ Targets: 1 Ally
 Cost: 1 MP  
 Duration: Until used or combat ends  
 Effect: Choose an element you are [Elementally Attuned](#elemental-attunement) to. Any hostile Abilities of the ward’s type against an affected ally has its multiplier reduced by 1.  
-Special: The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Power once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Special: The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Lesson once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
 ## Tier 2
@@ -1367,9 +1367,9 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 
 ***
 
-# Chapter 7: Powers
-Broadly speaking, Powers represent passive combat benefits or extra options available to someone trained in specific style of combat. Some powers will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Power, and if you ever fail to meet those prerequisites you gain no benefit from the associated Power.  
-Powers cost 5 XP unless an exception is listed.
+# Chapter 7: Lessons
+Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
+Lessons cost 5 XP unless an exception is listed.
 
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
@@ -1377,7 +1377,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 * If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your Soul. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Soul x 2 at Hero Tier 2, Soul x 3 at Hero Tier 3, and so on).
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Power can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
+When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
 When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
@@ -1392,7 +1392,7 @@ If you have not moved between the beginning of your previous turn and your curre
 When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
 
 #### Curse Resistant  
-The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Power, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 
 #### Dash  
 When you move as a Major action, you can choose to move two squares instead of one.
@@ -1411,9 +1411,9 @@ After taking damage in place of an ally--for example, when using an Ability such
 //See comments on Deadened Nerves
 
 #### Elemental Attunement  
-When you gain this power, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
-Special: You may take this Power more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
-Every additional instance of this Power costs 3 XP.
+When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
+Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
+Every additional instance of this Lesson costs 3 XP.
 
 #### Extended Duration Obstacles  
 Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
@@ -1446,7 +1446,7 @@ Increase the range at which you Counter Abilities can affect enemies by 1. For e
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
 
-Example: Merlin has the Manamaim power, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
@@ -1458,7 +1458,7 @@ Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) eq
 When targeted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
 
 #### Overcharge  
-If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Power; if a larger Shield would be applied by this Power, the smaller one fades immediately. The Shield also fades at the start of your next turn.
+If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next turn.
 
 #### Pickup  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
@@ -1471,7 +1471,7 @@ Increase any HP restoration you receive by half.
 > Remember that all fractions round down. Also to be clear; this affects [The Regen/Degen Track](#the-regendegen-track) as well.
 
 #### Reaching Terrain
-Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Power or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Power may cast [Grounded] Abilities in the air as well as on the ground.
+Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Lesson or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Lesson may cast [Grounded] Abilities in the air as well as on the ground.
 
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
@@ -1507,7 +1507,7 @@ Ignore the first Injury you would receive every combat. For the purposes of this
 
 #### Wardsense  
 You are able to sense and identify wards placed by enemies accurately.  
-Special: This Power costs 3 XP.
+Special: This Lesson costs 3 XP.
 
 #### Wide Ward  
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
@@ -1660,7 +1660,7 @@ You can fly up to five feet off the ground.
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
-This Power makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
+This Lesson makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Lesson.
 
 #### Lip reading  
 XP Cost: 3  
@@ -1871,7 +1871,7 @@ You are not prepared to defend yourself from attacks properly. Attacks against y
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Power.
+This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Lesson.
 
 #### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
@@ -1951,7 +1951,7 @@ Knowing how to make a living in a given business. This can represent any profess
 > This Skill is focused on the business side of things. For example, a character may have very high Medicine skill that makes them able to provide a valuable service, but if they have no points in Trade (Doctor) they would struggle with paperwork and business decisions that they need to make to have a profitable business from their practice.
 
 ## Tricks
-Tricks represent minor things a character can do that don’t affect combat, but make life a little easier. Many Tricks will only be appropriate in fantasy or sci-fi settings, but some of these can work in more grounded settings. They can represent anything from fine control over fire magic to reliably having a lighter. Tricks can either be purchased in sets of 3 for 1 XP, or come along with some Abilities or Powers. If you spend XP to learn some Tricks and later learn an Ability or Power that grants a Trick you already know, you may learn a new Trick. Once learned, a Trick can be used at will. The Tricks available (along with any Abilities/Powers that grant them for free) are described below.  
+Tricks represent minor things a character can do that don’t affect combat, but make life a little easier. Many Tricks will only be appropriate in fantasy or sci-fi settings, but some of these can work in more grounded settings. They can represent anything from fine control over fire magic to reliably having a lighter. Tricks can either be purchased in sets of 3 for 1 XP, or come along with some Abilities or Lessons. If you spend XP to learn some Tricks and later learn an Ability or Lesson that grants a Trick you already know, you may learn a new Trick. Once learned, a Trick can be used at will. The Tricks available (along with any Abilities/Lessons that grant them for free) are described below.  
 
 #### Chill  
 You can generate a feeling of cold. This can a small ice spell, triggering an endothermic chemical reaction, or something similar. If the cold comes from a device, it can be assumed to always have fuel. You are immune to discomfort from your own Chill, and the cold--though deeply uncomfortable--is not strong enough to cause HP damage. The chill is not enough to counteract hot weather. This can be used to chill drinks, make ice, preserve food, or similar applications.  
