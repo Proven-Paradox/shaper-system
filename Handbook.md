@@ -1437,8 +1437,8 @@ When you use a melee range Attack, you can move one square as part of the Attack
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
 
-#### Lingering Provokation  
-Any time you [Provoke](#provoked) a target, that Provokation lasts for 2 rounds.
+#### Lingering Provocation  
+Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
 
 #### Long Arm of Justice  
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
