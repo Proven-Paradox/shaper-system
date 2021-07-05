@@ -70,34 +70,40 @@ These ideas are central to the design of Story Shaper. When I had a problem desi
 * A single 6 sided die for the entire group
 * Pencil and paper. 
 > Do NOT use pen or something you can’t easily erase for anything. Trust me.
+
 ### Recommended but not vital:
 * Standardized character sheets that help determine character attributes (provided in this book, have a copy for each player)
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
 * A calculator
 * A notebook for each player to write personal notes in
+
 ### Totally optional, but maybe fun:
 * Miniatures to represent characters in combat
 * A deck of playing cards or tarot cards (just in case a card game breaks out)
 * Props to illustrate circumstances on the battlefield
+
 > Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
 
-
-***
 # Chapter 1: How to Play
 <Like the intro, this isn’t the interesting part. Start by talking about character creation, refer to more in depth rules later. For moment to moment play, talk about Arbiter describing the world, taking control of other characters, players describing their actions, Arbiter describing results.>  
+
 ## Rolling Dice
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules to make things unpredictable. How does one add unpredictability? There are many methods, but in this game you roll dice.
 
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
+
 ## Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
+
 ### Boon
 Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
 * Varna makes a Stealth roll with Boon +3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
 * Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 * Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
+
 #### Optional: Boon Splitting
 Optionally, if a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. For example, if Rin makes a roll at Boon 4, and rolls a 3 and a 1, 3 + 1 = 4, meaning Rin can reroll both dice.
+
 ### Bane
 The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
 
@@ -112,6 +118,7 @@ The unfavorable complement of Boon, Bane is sometimes imposed on a character whe
 Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
 * XU-808 has Bane -4 on an attempt to repair a damaged mechanism. He must reroll any result above a 7. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+
 ### Combining Boon and Bane
 If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
 * Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
@@ -130,9 +137,9 @@ For a tie during opposed skill checks (such as Empathy versus Deception, or Awar
 
 If a damage type is not listed, assume the damage to be physical.
 
-***
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
+
 ## Step 1: Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
@@ -165,33 +172,39 @@ After choosing your class and your Attributes, you can determine your capacity s
 
 ## Step 2-b: Offense/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses. The secondary stats are as follows.
-#### Physical Offense
-This broadly represents your ability to effectively attack foes by mundane means. The better your physical offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high physical offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to physical offense.
-#### Mental Offense
-This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High mental offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to mental offense.
-#### Physical Defense
-This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to physical defense.
-#### Mental Defense
-Do you see the pattern yet? Mental defense enables you to mitigate damage you would otherwise take from energy attacks. High mental defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to mental defense.
-##### Defense Bonus
-Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base +10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense, it will be listed as Physical Defense Bonus, and the same for Mental Defense Bonus.
-#### Initiative
-A bit of an odd one out. At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse and Soul to initiative rolls.
 
-How one uses these attributes will be described in Chapter 10.
+#### Physical Offense
+This broadly represents your ability to effectively attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
+
+#### Mental Offense
+This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to Mental Offense.
+
+#### Physical Defense
+This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to Physical Defense.
+
+#### Mental Defense
+Do you see the pattern yet? Mental Defense enables you to mitigate damage you would otherwise take from energy attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to Mental Defense.
+
+##### Defense Bonus
+Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense, it will be listed as Physical Defense Bonus, and the same for Mental Defense Bonus.
+
+#### Initiative
+At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse and Soul to initiative rolls.
+
+How one uses these attributes will be described in [Chapter 10](#chapter-10-combat).
 
 ## Step 3: Abilities
-The next step is to choose Abilities. Chapter 4 goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know three Abilities (two + one gained from being level 1) for free as well as all Tier 0 Abilities.
+The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being level 1) for free as well as all Tier 0 Abilities.
 
 
 Some advice if you want to make a powerful character and are having trouble choosing your Abilities:
 * If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Soul dominant hero is going to want mental attacks.
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
-* At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use once, maybe it’s not a good choice.
-* After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in chapter 10)
+* At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
+* After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
 ## Step 4: Skills
-Next, you will distribute skill points. There’s more information on skills in Chapter 6, but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 16 skill points at character creation.
+Next, you will distribute Skill Points. There’s more information on skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase that modifier. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat (though certain enemies or Abilities may bring some to play during combat). You start with 16 skill points at character creation.
 
 Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
