@@ -150,7 +150,7 @@ There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul.
 * **Heart** represents charisma and presence. Someone with high heart is able to naturally be the center of attention or get people to do what they want, while someone with low heart might naturally go unnoticed in social situations or just generally lack presence.
    * Heart is also added to your Mental Points and Mental Defense stats.
 * **Soul** represents centeredness and perception. Someone with high soul might not be religious but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.
-   * Soul is also added to your Mental offense and Mental Defense stats.
+   * Soul is also added to your Initiative, Mental offense, Mental Defense stats.
    
 If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.
 
