@@ -42,7 +42,7 @@
   - [Moving and Positioning](#moving-and-positioning)
   - [Chasing rules](#chasing-rules)
 - [Chapter 11: Exploration](#chapter-11-exploration)
-- [Chapter X: Health, Injury, Death, and Recovery](#chapter-x-health-injury-death-and-recovery) 
+- [Chapter 12: Health, Injury, Death, and Recovery](#chapter-12-health-injury-death-and-recovery) 
   - [What are HP?](#what-are-hp)
   - [What Types of Damage are There?](#what-types-of-damage-are-there)
   - [What are Injuries?](#what-are-injuries)
@@ -159,7 +159,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 
 ## Step 2-a: Capacity Stats
 After choosing your class and your Attributes, you can determine your capacity stats. One could also call these points.
-* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See Chapter X for a more thorough description of what HP represent.)
+* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND*3) + (HRT*3)]
 * **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
 
@@ -1774,7 +1774,7 @@ If you have allies that are still being chased, or for other reasons want to con
 // TODO Figure out what goes here, I’m not sure
 
 ***
-# Chapter X: Health, Injury, Death, and Recovery
+# Chapter 12: Health, Injury, Death, and Recovery
 //Working on issues that will come up in playtesting. This won’t necessarily be the final order.  
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 
