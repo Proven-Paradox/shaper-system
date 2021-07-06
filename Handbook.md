@@ -821,7 +821,7 @@ Action: Major
 Prerequisites: None  
 Range: Short  
 Targets: 1 enemy  
-Cost: None  
+Cost: 3 MP  
 Damage: x3 (Physical)  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
@@ -1219,10 +1219,15 @@ Effect: If you deal damage with this Ability, the target also decreases their [D
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
 #### Sneak Attack 2   
-Prerequisites: [Sneak Attack](#sneak-attack)   
-Cost: 7 MP  
+Attack  
+Action: Major  
+Prerequisites: [Sneak Attack](#sneak-attack)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 8 MP  
 Damage: x5 (Physical)  
-Effect: As [Sneak Attack](#sneak-attack) except as noted here.
+Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
+Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Suspend  
 Spell  
