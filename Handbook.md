@@ -1450,7 +1450,7 @@ After you successfully heal an ally, choose one of the following effects. These 
 * The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
 
 #### Hit and Run  
-When you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
+Once per turn, when you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
