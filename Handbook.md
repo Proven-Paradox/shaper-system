@@ -1485,8 +1485,8 @@ When you heal an ally from 0 HP, add twice your Heart to the healing done. This 
 Once per round, when an opponent you have Locked On to moves, you may choose to follow them. This is only possible if the Locked On foe is within Short distance.
 
 #### Quick Healer  
-Increase any HP restoration you receive by half.  
-> Remember that all fractions round down. Also to be clear; this affects [The Regen/Degen Track](#the-regendegen-track) as well.
+Once per round, increase any HP restoration you receive by half.  
+> Remember that all fractions round down. If you haven't used your healing by [Round End](#round-end) you may improve the healing from [the Regen/Degen Track](#the-regendegen-track) or the [Everlasting](#everlasting) Talent.
 
 #### Reaching Terrain
 Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Lesson or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Lesson may cast [Grounded] Abilities in the air as well as on the ground.
@@ -1566,7 +1566,7 @@ Note that to gain these benefits, the damage must be done by you personally. If 
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
 #### Everlasting  
-At the beginning of every turn, you regain HP equal to your Toughness. If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+At the [Round End](#round-end) of every turn, you regain HP equal to your Toughness. If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 //Scaling?
 
 #### Finesse Caster  
@@ -1723,18 +1723,25 @@ XP Cost: 4
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 ***
 # Chapter 10: Combat
-<Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.>//
+// Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.
+
+## Surprise/Ambush
+The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
 
 ## Time in Combat
-The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game.
+The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game. Each round is broken down into three phases.
 
-### Surprise/Ambush
-The Arbiter determines who might be surprised in a given scenario. It often involves awareness checks against stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
+### Round Start
+At the start of the round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
 
 ### Initiative
-Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
+Most combat takes place in the second phase, Initiative.  
+Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the Initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
 If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
 You may choose to delay your turn if you like. When your turn comes, you simply declare who you want your turn to come after instead. On the next round, your initiative order returns to where it originally was.
+
+### Round End
+At the end of the round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the round end, unique to each character.
 
 ### Taking a Turn
 When your turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your turn; you’re not required to use them.  
