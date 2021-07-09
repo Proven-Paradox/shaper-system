@@ -1016,7 +1016,7 @@ Description: You cause the victim to gradually become weaker. This can be inflic
 #### Double Strike II  
 Attack [Skilled]  
 Action: Major  
-Prerequisites: Quick Strike  
+Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
 Targets: Up to 2 enemies  
 Cost: 6 MP  
