@@ -654,7 +654,8 @@ Range: Melee
 Targets: 1 Ally  
 Cost: 2 MP (Overload +4 MP)  
 Effect: The target regains HP equal to a ten-sided die roll.  
-If you pay the Overload cost, the healing increases to two ten-sided die rolls. This may only be used once per turn.  
+If you pay the Overload cost, the healing increases to two ten-sided die rolls.  
+This Ability may only be used once per turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -954,6 +955,17 @@ Effect: You may use your Phyiscal or Mental [Defense Bonus](#defense-bonus) in p
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
+#### Bash II  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 6 HP  
+Damage: x3 or x4 (Physical, see Effect)  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x3 multiplier damage. If you force them to collide with a wall, the damage increases to x4. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
+Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
+
 #### Bladebreak  
 Attack  
 Action: Major  
@@ -1001,6 +1013,17 @@ At the beginning of your turn you may choose to end Doom or attempt to maintain 
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
+#### Double Strike II  
+Attack [Skilled]  
+Action: Major  
+Prerequisites: Quick Strike  
+Range: Melee  
+Targets: Up to 2 enemies  
+Cost: 6 MP  
+Damage: x2 (Physical)  
+Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
+Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
+
 #### Elemental Lance  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
@@ -1044,6 +1067,39 @@ Trigger: An opponent misses you with an Ability
 Cost: 4 MP  
 Effect: The Ability that missed you is re-rolled targeting the opponent you have Grabbed.  
 Description: You redirect a poorly aimed strike to instead hit the target you have in your grip. This would usually involve using them as a shield.  
+
+#### Healing Burst II   
+Auxiliary [Healing Burst](#healing-burst)  
+Action: Major  
+Prerequisites:   
+Range: Short  
+Targets: 1 Square  
+Cost: 10 MP  
+Effect: You and all allies in the same square regain HP equal to a 2 ten-sided die rolls.  
+Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
+
+#### Healing Touch II  
+Auxiliary [Healing] [Overload]  
+Action: Minor  
+Prerequisites: [Healing Touch](#healing-touch)  
+Range: Melee  
+Targets: 1 Ally  
+Cost: 8 MP (Overload +4 MP)
+Effect: The target regains HP equal to a 3 ten-sided die rolls.
+If you pay the Overload cost, the healing increases to 4 ten-sided die rolls.  
+This Ability may only be used once per turn.  
+Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions.
+
+#### Healing Word II  
+Auxiliary [Healing] [Careful]  
+Action: Major  
+Prerequisites: None  
+Range: Medium (Careful: Long)  
+Targets: 1 Ally  
+Cost: 5 MP  
+Effect: The target regains HP equal to 3 ten-sided die roll.  
+If you also use your minor action increase the healing to 4 ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
+Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.
 
 #### Hold Fast  
 Auxiliary  
@@ -1218,7 +1274,7 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
-#### Sneak Attack 2   
+#### Sneak Attack II  
 Attack  
 Action: Major  
 Prerequisites: [Sneak Attack](#sneak-attack)  
