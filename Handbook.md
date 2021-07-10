@@ -321,10 +321,6 @@ Some Abilities are part of a series, building off each other and using each othe
    * *Light* - radiance, blinding light, and holy power
    * *Dark* - Destroying life essence, sharpened shadows, or unholy power
 * **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
-* **Kinetic** - Abilities which deal damage through force applied at a distance. This can be telekinetically hurling objects, firing bolts of concentrated force, or the like.
-* **Powerful** - Abilities which focus on doing heavy physical damage in melee to one or multiple opponents. This is generally accomplished through muscle, but they can be the result of powered armor or great skill.
-* **Ranged** - Abilities which focus on doing accurate physical attacks from a distance. These can be longbows, crossbows, sniper rifles, throwing knives, launched quills, or any other projectile you like.
-* **Skilled** - Abilities which focus on movement or striking multiple times. This can be self-taught street fighting or the result of years of training in a monastery, and anything in between.
 * **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
 
 
@@ -506,7 +502,7 @@ Description: A last minute reaction that allows one to just barely dodge an inco
 > This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects, such as Curses.
 
 #### Double Strike  
-Attack [Skilled]  
+Attack   
 Action: Major  
 Prerequisites: [Quick Strike](#quick-strike)  
 Range: Melee  
@@ -626,7 +622,7 @@ You can use this Ability on yourself, in which case you only gain the Shield.
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
-Attack [Grappler]  
+Attack  
 Action: Major  
 Prerequisites: None  
 Range: Melee  
@@ -670,7 +666,7 @@ If you also use your minor action increase the healing to two ten-sided die roll
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
-Attack [Powerful] [Overload]  
+Attack [Overload]  
 Action: Major  
 Prerequisites: None  
 Range: Melee  
@@ -681,7 +677,7 @@ Effect: If you pay the Overload cost and your Result is at least 5, you knock yo
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
-Spell [Kinetic]  
+Spell  
 Action: Minor  
 Prerequisites: None  
 Range: Short  
@@ -691,7 +687,7 @@ Damage: x1 (Physical)
 Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, lashing out with one’s mind, firing a bolt of pure energy, and similar sorts of attacks.
 
 #### Kinetic Force  
-Spell [Kinetic]  
+Spell  
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Medium  
@@ -702,7 +698,7 @@ Effect: If this Attack hits the target and they are not otherwise restrained, yo
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
-Spell [Kinetic] [Careful]  
+Spell [Careful]  
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Short  
@@ -723,7 +719,7 @@ When you first learn the Lock Ability, you also gain one of the following Powers
 Description: Focusing on one target. This may be a matter of meditative discipline, deploying a targetting AI, or some other way of singling out a foe for particular focus.
 
 #### Mobile Strike  
-Attack [Skilled] [Overload]  
+Attack [Overload]  
 Action: Major  
 Prerequisites: [Quick Strike](#quick-strike)  
 Range: Melee  
@@ -758,7 +754,7 @@ Effect: Choose one of the following -
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Quick Strike  
-Attack [Skilled]  
+Attack   
 Action: Minor  
 Prerequisites: None  
 Range: Melee  
@@ -769,7 +765,7 @@ Effect: None
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
 
 #### Reckless Strike  
-Attack [Powerful]  
+Attack  
 Action: Major  
 Prerequisites: [Heavy Strike](#heavy-strike)  
 Range: Melee  
@@ -806,7 +802,7 @@ Alternatively, Scan can be used on a square. Scanning a square reveals the prese
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
-Attack [Ranged] [Careful]  
+Attack  [Careful]  
 Action: Major (and Minor)  
 Prerequisites: None  
 Range: Long  
@@ -828,7 +824,7 @@ Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Snipe  
-Attack [Ranged]  
+Attack   
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Long  
@@ -839,7 +835,7 @@ Effect: This Attack has Boon +3. You cannot use this Attack on a turn where you 
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
-Attack [Grappler]  
+Attack  
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
@@ -861,7 +857,7 @@ You may only use this Ability once per turn.
 Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike  
-Attack [Powerful]  
+Attack  
 Action: Major  
 Prerequisites: [Heavy Strike](#heavy-strike)  
 Range: Melee  
@@ -871,7 +867,7 @@ Damage: x1 (Physical)
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### Throw  
-Attack [Grappler]  
+Attack  
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
@@ -920,7 +916,7 @@ Description: A costly way to do high damage. This could be utilizing a forbidden
 > Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
 
 #### Volley  
-Attack [Ranged]  
+Attack   
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Medium  
@@ -1014,7 +1010,7 @@ You may only have one instance of Doom at a time; if you wish to switch to a dif
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
 #### Double Strike II  
-Attack [Skilled]  
+Attack   
 Action: Major  
 Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
