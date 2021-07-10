@@ -813,7 +813,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: x1 (Physical)  
-Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.
+Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Sneak Attack  
