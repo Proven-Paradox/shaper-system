@@ -963,7 +963,7 @@ Effect: If this Attack hits the target and they are not otherwise restrained, yo
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Bladebreak  
-Attack  
+Attack [Curse]  
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble)  
 Range: Melee  
@@ -1260,7 +1260,7 @@ Effect: You regain health equal to two times your Vitality level.
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
 #### Shieldshatter  
-Attack  
+Attack [Curse]  
 Action: Major  
 Prerequisites: [Expose](#expose)  
 Range: Melee  
