@@ -235,6 +235,7 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
 
 If you're looking specifically for the XP cost of specific benefits, refer to this [cheat sheet](https://github.com/Proven-Paradox/shaper-system/blob/main/XP%20cheat%20sheet.md).
+
 ### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
 * Every level increases the number of times Vitality and Capacity can be purchased
@@ -253,9 +254,10 @@ When leveling up can have one of two benefits, the benefit must be applied to th
 Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
 Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
+
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
-### Physical/Mental Offense/Defense
+### Base Physical/Mental Offense/Defense
 Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
