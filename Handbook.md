@@ -1446,7 +1446,7 @@ Lessons cost 5 XP unless an exception is listed.
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell. The damage increases by an amount equal to your Soul every time you increase in Hero Tier (so Offense x 2 at Hero Tier 2, Offense x 3 at Hero Tier 3, and so on).
+* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell. The damage increases by an amount equal to your Base Offense every time you increase in Hero Tier (so Offense x 2 at Hero Tier 2, Offense x 3 at Hero Tier 3, and so on).
 
 #### Advantageous Recovery  
 When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
