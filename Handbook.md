@@ -416,7 +416,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Dart Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
+Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Lance Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
 
 #### Recover  
 Auxiliary  
@@ -515,7 +515,7 @@ Description: A pair of quick strikes. This could be striking with a pair of dagg
 #### Elemental Blast  
 Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
-Prerequisites: [Elemental Dart](#elemental-dart)  
+Prerequisites: [Elemental Lance](#elemental-Lance)  
 Range: Short  
 Targets: 1 square  
 Cost: 5 MP 
@@ -524,7 +524,7 @@ Effect: You may only choose elements that you have the corresponding Elemental A
 If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
 Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
-#### Elemental Dart  
+#### Elemental Lance  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: None  
@@ -903,7 +903,7 @@ Effect: The targeted square becomes impossible to see through for the duration. 
 If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
-#### Void Dart  
+#### Void Lance  
 Spell  
 Action: Major  
 Prerequisites: Capacity 1  
@@ -1020,10 +1020,10 @@ Damage: x2 (Physical)
 Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
-#### Elemental Lance  
+#### Elemental Lance II  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
-Prerequisites: [Elemental Dart](#elemental-dart)  
+Prerequisites: [Elemental Lance](#elemental-Lance)  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 7 MP (Overload +5 MP)  
@@ -1307,7 +1307,7 @@ Description: Quickly rushing to an ally’s side. This could represent teleporta
 #### Trap Ward  
 Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Counter  
-Prerequisites: [Elemental Dart](#elemental-dart), [Ward](#ward)  
+Prerequisites: [Elemental Lance](#elemental-Lance), [Ward](#ward)  
 Range: Medium  
 Targets: 1 enemy  
 Trigger: Your target deals damage of the appropriate element to an ally you have Warded. (For example, if you place Fire Ward and an enemy deals Fire damage to an ally.)  
@@ -1516,7 +1516,7 @@ Increase the range at which you Counter Abilities can affect enemies by 1. For e
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
 
-Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Dart with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Dart has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
