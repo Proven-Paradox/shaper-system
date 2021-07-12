@@ -1022,6 +1022,18 @@ Damage: x2 (Physical)
 Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
+#### Elemental Blast II  
+Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
+Action: Major  
+Prerequisites: [Elemental Blast](#elemental-blast)  
+Range: Short  
+Targets: 1 square  
+Cost: 11 MP 
+Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
+Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
+
 #### Elemental Lance II  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
@@ -1099,6 +1111,18 @@ Effect: The target regains HP equal to 3 ten-sided die roll.
 If you also use your minor action increase the healing to 4 ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.
 
+#### Heavy Strike II  
+Attack [Overload]  
+Action: Major  
+Prerequisites: [Heavy Strike](#heavy-strike)  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 7 HP (Overload +3 HP)  
+Damage: x3 (Physical)  
+Effect: If you pay the Overload cost and your Result is at least 5, you knock your target [Prone](#prone).  
+Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.
+
+
 #### Hold Fast  
 Auxiliary  
 Action: Minor  
@@ -1119,6 +1143,17 @@ Trigger: Target ally takes any damage
 Cost: None  
 Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
+
+#### Kinetic Force II  
+Spell  
+Action: Major  
+Prerequisites: [Kinetic Force](#kinetic-force)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 5 MP  
+Damage: x2 (Physical)  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks. 
 
 #### Lean In  
 Auxiliary  
