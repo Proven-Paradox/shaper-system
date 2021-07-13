@@ -856,7 +856,7 @@ Targets: 1 ally
 Cost: 2 MP  
 Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 5.  
 You may only use this Ability once per turn.  
-Description: A powerful, sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
+Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike  
 Attack  
@@ -1166,6 +1166,17 @@ Damage: x2 (Physical)
 Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks. 
 
+#### Kinetic Pummeling II  
+Spell [Careful]  
+Action: Major  
+Prerequisites: [Kinetic Pummeling](#kinetic-pummeling)  
+Range: Short  
+Targets: 2 adjacent squares  
+Cost: 14 MP (Careful 10 MP)  
+Damage: x2 (Physical)  
+Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
+Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
+
 #### Lean In  
 Auxiliary  
 Action: Counter  
@@ -1273,6 +1284,18 @@ Cost: 1 MP
 Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
+#### Riposte II  
+Attack  
+Action: Counter  
+Prerequisites: [Riposte](#riposte)  
+Range: Melee  
+Targets: 1 enemy  
+Trigger: The targeted enemy fails on an Offense attempt.  
+Cost: 6 MP  
+Damage: x2 (Physical)  
+Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
+Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
+
 #### Searing Bolt  
 Spell [Elemental] [Fire]  
 Action: Major  
@@ -1296,6 +1319,17 @@ Damage: x3 (Sky)
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your Hero Tier.  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
+
+#### Shoot II  
+Attack [Careful]  
+Action: Major (and Minor)  
+Prerequisites: [Shoot](#shoot)  
+Range: Long  
+Targets: 1 enemy  
+Cost: 5 MP  
+Damage: x3 (Physical)  
+Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
+Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Second Wind  
 Auxiliary [Healing]  
@@ -1329,6 +1363,17 @@ Damage: x5 (Physical)
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
+#### Snipe II  
+Attack   
+Action: Major  
+Prerequisites: [Snipe](#snipe)  
+Range: Long  
+Targets: 1 enemy  
+Cost: 9 MP  
+Damage: x4 (Physical)  
+Effect: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
+Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
+
 #### Suspend  
 Spell  
 Action: Major  
@@ -1341,6 +1386,27 @@ Effect: If this Spell succeeds, you [grab](#grab) your target. Instead of Physic
 Description: Holding a target using mental/technological means from a distance. This can be telekineticly grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
 
 >Note: You still cannot move if you grab a target using Suspend.
+
+#### Sustain II  
+Auxiliary [Augment]  
+Action: Minor  
+Prerequisites: [Sustain](#sustain)  
+Range: Medium  
+Targets: 1 ally  
+Cost: 6 MP  
+Effect: The target advances increases 3 levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 8.  
+You may only use this Ability once per turn.  
+Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
+
+#### Sweeping Strike II  
+Attack  
+Action: Major  
+Prerequisites: [Sweeping Strike](#sweeping-strike)  
+Range: Melee  
+Targets: Up to 3 enemies  
+Cost: 7 HP  
+Damage: x2 (Physical)  
+Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### To the Rescue  
 Auxiliary    
@@ -1375,6 +1441,26 @@ Damage: x3 (Dark)
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
+
+#### Void Lance II 
+Spell  
+Action: Major  
+Prerequisites: [Void Lance](#voild-lance)  
+Range: Long  
+Targets: 1 Enemy  
+Cost: 30 MP  
+Damage: x5 (Almighty)  
+Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
+
+#### Volley II  
+Attack   
+Action: Major  
+Prerequisites: [volley](#volley)  
+Range: Medium  
+Targets: 1 square  
+Cost: 9 MP  
+Damage: x2 (Physical)  
+Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 ________________
 # Chapter 6: Skills
