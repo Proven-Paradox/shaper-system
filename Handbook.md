@@ -975,6 +975,17 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
+#### Blink  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 square  
+Cost: 10 MP   
+Cooldown: 3 rounds  
+Effect: You move to the targeted square. This Ability can be used in any condition, including while [Grabbed](#grab) or [Rooted](#rooted) or similarly restrained, and those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would other obstructions.  
+Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
+
 #### Chilling Bolt  
 Spell [Elemental] [Ice]  
 Action: Major  
