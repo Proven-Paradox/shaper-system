@@ -373,7 +373,7 @@ Positive values can represent gradual magical healing, an injection of tissue re
 
 ## Tier 0
 Note: You automatically know all Tier 0 abilities.   
-There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straightjacket.
+There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
 
 #### Cover  
 Auxiliary  
@@ -440,6 +440,16 @@ Cost: None
 Damage: x0 (Physical)  
 Effect: If this Attack succeeds, move your target one square.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
+
+#### Struggle  
+Attack/Spell  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy who has [grabbed](#grab) you.  
+Cost: None  
+Damage: 0  
+Effect: You and the opponent who has grabbed you make attack rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is higher, you break your opponent's grip and are no longer grabbed.  
 
 ## Tier 1
 
