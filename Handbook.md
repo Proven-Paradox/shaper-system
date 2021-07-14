@@ -449,7 +449,7 @@ Range: Melee
 Targets: 1 enemy who has [grabbed](#grab) you.  
 Cost: None  
 Damage: 0  
-Effect: You and the opponent who has grabbed you make attack rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is higher, you break your opponent's grip and are no longer grabbed.  
+Effect: You and the opponent who has grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is higher, you break your opponent's grip and are no longer grabbed.  
 
 ## Tier 1
 
