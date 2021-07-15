@@ -283,7 +283,7 @@ Utilities are described in more detail in Chapter 9.
 # Chapter 4: Abilities
 Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
 ## Reading Abilities
-Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary): //Image would be fantastic here.
+Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary):
 
 **The Name of the Ability**  
 Ability Type (Attack/Spell/Auxiliary)  
