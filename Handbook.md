@@ -1,5 +1,4 @@
-﻿As I work on this, it’ll eventually become the unified handbook for the system that I really need to name at some point. For now, here’s a unified list of links. NOTE: I’ve set things up so that you can comment on these pages, please feel free to do so.  
-[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
+﻿[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
 [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
 ***
 # Table of Contents
