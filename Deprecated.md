@@ -604,3 +604,26 @@ After you cast a spell, the next spell you cast on your turn has its HP or MP co
 
 #### Deadened Nerves  
 Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
+
+* **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
+
+### Grounded
+A Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Lesson or [Flight](#flight) Condition.
+
+#### Entangle  
+Auxiliary [Terrain] [Careful] [Grounded]  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 Square  
+Cost: 1 MP  
+Duration: 1 round (Careful 3 rounds)  
+Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action.  
+If you also use your minor action, the duration increases to 3 rounds.  
+Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
+
+#### Extended Duration Obstacles  
+Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
+// Need to keep an eye on scaling here
+#### Reaching Terrain
+Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Lesson or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Lesson may cast [Grounded] Abilities in the air as well as on the ground.

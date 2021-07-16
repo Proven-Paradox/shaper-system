@@ -312,7 +312,7 @@ There are four types of Abilities.
    * Reserved HP and MP is not available to the character; it acts as though the character’s maximum HP or MP has been reduced by that much. Unless otherwise stated, reserved HP or MP is not restored when the reserving effect is removed, but if you have missing HP or MP you reserve that before available HP and MP. 
 ## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
-* **Augment** - Auxiliary abilities that empower allies, often allowing for a larger MP cost to increase the effect.
+* **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
 * **Elemental** - Abilities which deal damage through one of the elements:
    * *Fire* - heat and flames
@@ -322,8 +322,6 @@ Some Abilities are part of a series, building off each other and using each othe
    * *Light* - radiance, blinding light, and holy power
    * *Dark* - Destroying life essence, sharpened shadows, or unholy power
 * **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
-* **Terrain** - Abilities that change the battlefield, generally to limit what enemies are able to do. Note that Terrain abilities are not normally able to be dispelled after casting and may hinder allies as much as they hinder enemies.
-
 
 ## Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
@@ -334,8 +332,7 @@ An Ability that normally only uses the listed Major or Minor Action, but that is
 ### Cooldown
 An Ability that, once used, cannot be used again for some duration, listed in the Ability.
 
-### Grounded
-A Terrain Ability with the [Grounded] tag must be cast with a floor beneath it. These Abilities cannot be cast at airborne squares, and do not affect characters with the [Hover](#hover) Lesson or [Flight](#flight) Condition.
+
 
 ### Overload
 An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
@@ -570,18 +567,6 @@ Duration: None
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
-
-#### Entangle  
-Auxiliary [Terrain] [Careful] [Grounded]  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: 1 Square  
-Cost: 1 MP  
-Duration: 1 round (Careful 3 rounds)  
-Effect: The targeted square becomes difficult terrain for the duration. Moving into or out of the square requires a Major action.  
-If you also use your minor action, the duration increases to 3 rounds.  
-Description: A simple way to hinder opponents’ movements (though allies caught in the area are affected as well, unfortunately). This could be spreading caltrops or grease, magically reshaping the floor to be gravelly, deploying tear gas, or similar hindering effects.  
 
 #### Expose  
 Attack/Spell [Curse]  
@@ -903,7 +888,7 @@ If you attack an opponent who is not aware of your location, you may treat them 
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
 
 #### Veil  
-Auxiliary [Terrain] [Overload]  
+Auxiliary [Overload]  
 Action: Major (Overload Minor)  
 Prerequisites: None  
 Range: Short  
@@ -1198,7 +1183,7 @@ Effect: Increase your [Defensive Track](#the-defensive-track).
 Description: You respond to a hard hit by tightening your defense.
 
 #### Leyline  
-Auxiliary \[Terrain\]  
+Auxiliary  
 Action: Major  
 Prerequisites: None  
 Range: Melee  
@@ -1624,10 +1609,6 @@ When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Li
 Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
 Every additional instance of this Lesson costs 3 XP.
 
-#### Extended Duration Obstacles  
-Increase the duration of any Terrain Abilities you use by a number of rounds equal to your Hero Tier. In addition, you can dismiss your own Terrain Abilities as a Minor action.  
-// Need to keep an eye on scaling here
-
 #### First to Act  
 Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
 
@@ -1678,9 +1659,6 @@ Once per round, when an opponent you have Locked On to moves, you may choose to 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half.  
 > Remember that all fractions round down. If you haven't used your healing by [Round End](#round-end) you may improve the healing from [the Regen/Degen Track](#the-regendegen-track) or the [Everlasting](#everlasting) Talent.
-
-#### Reaching Terrain
-Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Lesson or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Lesson may cast [Grounded] Abilities in the air as well as on the ground.
 
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
@@ -1869,7 +1847,7 @@ You can fly up to five feet off the ground.
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
-This Lesson makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Lesson.
+This Lesson makes you immune to natural terrain effects.
 
 #### Lip reading  
 XP Cost: 3  
@@ -2087,7 +2065,7 @@ You are not prepared to defend yourself from attacks properly. Attacks against y
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to Terrain effects with the [Grounded] tag, unless the caster possesses the [Reaching Terrain](#reaching-terrain) Lesson.
+This Condition makes you immune to terrain effects.
 
 #### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
