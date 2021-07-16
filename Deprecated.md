@@ -601,3 +601,6 @@ Sometimes the best solution is to just hit harder. Increase your damage multipli
 #### Mana from Momentum  
 After you cast a spell, the next spell you cast on your turn has its HP or MP cost reduced by your Hero Tier, to a minimum of 0.
 //TODO Consider if this is powerful enough
+
+#### Deadened Nerves  
+Reduce all damage you take (after multipliers are applied) by your half your Toughness (minimum damage reduction: 1). This benefit increases as you raise your Hero Tier: the damage reduction increases by an amount equal to your half your Toughness each Hero Tier (so Toughness x 1 at Hero Tier 2, Toughness x 1.5 at Hero Tier 3, and so on).  
