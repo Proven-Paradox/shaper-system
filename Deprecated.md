@@ -627,3 +627,7 @@ Increase the duration of any Terrain Abilities you use by a number of rounds equ
 // Need to keep an eye on scaling here
 #### Reaching Terrain
 Terrain effects with the [Grounded] tag that you create affect creatures with the [Hover](#hover) Lesson or [Flight](#flight) Condition as though the Ability were not [Grounded]. A character with this Lesson may cast [Grounded] Abilities in the air as well as on the ground.
+
+#### Walk it Off  
+Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+//TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
