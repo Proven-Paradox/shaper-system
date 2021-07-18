@@ -1732,7 +1732,6 @@ You can draw energy from your body to fuel your abilities. You may use your Toug
 
 #### Everlasting  
 At the [Round End](#round-end) of every turn, you regain HP equal to your Toughness. If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
-//Scaling?
 
 #### Finesse Caster  
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
