@@ -1785,8 +1785,6 @@ You can tap the power of your spirit to sustain your spells. You may use your So
 ***
 # Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
-//I’ll figure out how I want to organize these better when I’ve written more of them I think
-
 ## Skill-based Utilities
 Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
