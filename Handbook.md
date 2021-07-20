@@ -1808,7 +1808,7 @@ You are able to reliably remember information correctly. You may ask the Arbiter
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
 You can also gain one of the following benefits at a time.  
-* If you set up a trap, increase the necessary Investigation check requirement by your Hero Tier. //This will make more sense once I write trap mechanics.
+* If you set up a trap, increase the necessary Investigation check requirement by your Hero Tier.
 * When destroying a device, you can set up the failure to occur after a delay. Upon successfully using Sabotage to damage the device, you can set a delay of up to ten minutes. Once used, the affected device functions normally for the specified amount of time before the malfunction you caused comes into effect.
 * If dealing with a trap laid by someone else, you can temporarily bypass the thing instead of destroying it, allowing your party to pass without leaving evidence of your tampering.
 
