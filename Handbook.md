@@ -1962,7 +1962,6 @@ If you have allies that are still being chased, or for other reasons want to con
 
 ***
 # Chapter 12: Health, Injury, Death, and Recovery
-//Working on issues that will come up in playtesting. This won’t necessarily be the final order.  
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 
 ## What are HP?
