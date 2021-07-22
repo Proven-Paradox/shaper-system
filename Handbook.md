@@ -1885,7 +1885,7 @@ XP Cost: 4
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 ***
 # Chapter 10: Combat
-// Talk about how combat is often an inevitable aspect of adventuring, and also a source of a lot of excitement and climactic moments, that kind of thing.
+Combat is frequently part of an exciting story. While not every game needs combat (and if you're playing a game that's not going to have any you may skip this chapter), many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
 
 ## Surprise/Ambush
 The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
