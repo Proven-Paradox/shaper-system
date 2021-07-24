@@ -470,18 +470,6 @@ Damage: x1 or x2 (Physical, see Effect)
 Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
-#### Challenge  
-Spell  
-Action: Minor  
-Prerequisites: None  
-Range: Long  
-Targets: 1 enemy  
-Cost 2 MP  
-Damage: 0  
-Effect: If this Spell hits the target, they are [Provoked](#provoked) by you for one turn.  
-You may choose to use your Mental [Defense Bonus](#defense-bonus) instead of your Mental Offense for this spell.  
-Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
-
 #### Cleanse  
 Auxiliary  
 Action: Minor  
@@ -495,6 +483,19 @@ Effect: Choose one of the following:
 * Increase the target along all Buff Tracks by one. You can only increase the value up to 0.
 * Increase the target’s [Regen/Degen](#the-regendegen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
+
+#### Demand  
+Attack/Spell  
+Action: Minor  
+Prerequisites: None  
+Range: Long  
+Targets: 1 enemy  
+Cost 2 MP  
+Damage: 0  
+Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
+If this Ability hits the target, they are [Provoked](#provoked) by you for one turn.  
+You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
+Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Dodge  
 Auxiliary  
@@ -935,18 +936,6 @@ Description: A simple form of protection. This can represent a rune of protectio
 
 ## Tier 2
 
-#### Armor Crush  
-Attack/Spell [Overload]  
-Action: Major  
-Prerequisites: [Challenge](#challenge)  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 0 MP (Overload +3 MP/7 MP)  
-Damage: x1/x2/x3 (Physical)  
-Effect: You may use your Phyiscal or Mental [Defense Bonus](#defense-bonus) in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
-You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
-Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
-
 #### Bash II  
 Attack  
 Action: Major  
@@ -1003,6 +992,18 @@ Damage: x3 (Earth)
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your Hero Tier.  
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
+
+#### Crushing Demand  
+Attack/Spell [Overload]  
+Action: Major  
+Prerequisites: [Demand](#demand)  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 0 MP (Overload +3 MP/7 MP)  
+Damage: x1/x2/x3 (Physical)  
+Effect: You may use your Phyiscal or Mental [Defense Bonus](#defense-bonus) in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
+You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
+Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Doom  
 Spell [Curse]  
