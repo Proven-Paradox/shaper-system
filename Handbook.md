@@ -490,7 +490,7 @@ Action: Minor
 Prerequisites: None  
 Range: Long  
 Targets: 1 enemy  
-Cost 1 HP  
+Cost: 1 HP  
 Damage: 0  
 Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoked) by you for one turn.  
