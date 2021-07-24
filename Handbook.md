@@ -1002,7 +1002,8 @@ Targets: 1 enemy
 Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may use your Phyiscal or Mental [Defense Bonus](#defense-bonus) in place of your Physical or Mental Offense. If you use Physical Defense, this Ability functions as an Attack. If you use Mental Defense, this Ability functions as a Spell.  
-You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively. If you pay any Overload cost, this Ability also [Provokes](#provoked) its target.  
+You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
+This Ability also [Provokes](#provoked) its target.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Doom  
