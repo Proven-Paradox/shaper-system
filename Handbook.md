@@ -1003,6 +1003,7 @@ Cost: 0 MP (Overload +3 MP/7 MP)
 Damage: x1/x2/x3 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 This Ability also [Provokes](#provoked) its target.  
+You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
