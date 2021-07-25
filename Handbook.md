@@ -939,7 +939,7 @@ Description: A simple form of protection. This can represent a rune of protectio
 #### Bash II  
 Attack  
 Action: Major  
-Prerequisites: None  
+Prerequisites: [Bash](#bash)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: 6 HP  
