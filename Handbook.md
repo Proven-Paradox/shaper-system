@@ -629,6 +629,16 @@ Damage: x1 (Physical)
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
+#### Haste  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 ally  
+Cost: 3 MP (Upkeep 3 MP)  
+Effect: The target is able to move one square with no action on their turn.  
+Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
+
 #### Healing Burst  
 Auxiliary [Healing]  
 Action: Major  
@@ -808,6 +818,17 @@ Cost: 1 MP
 Damage: x1 (Physical)  
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
+
+#### Slow  
+Spell [Curse]  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 3 MP (Upkeep: 3 MP)  
+Damage: 0  
+Effect: The target is [Slowed](#slowed). At [round start](#round-start), when you choose to maintain your Upkeep, make another Spell Offense against your target. If you miss, this Spell ends.  
+Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Sneak Attack  
 Attack  
@@ -1722,7 +1743,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
   * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
-  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
+  * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range.  
@@ -2084,7 +2105,7 @@ You have a barrier or defense active that takes damage for you. While you have a
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
-#### Slow
+#### Slowed
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different square.
 
 #### Stagger  
