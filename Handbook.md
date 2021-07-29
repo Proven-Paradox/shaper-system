@@ -1,6 +1,6 @@
 ﻿[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
 [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-***
+*** 
 # Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
   - [Core Tenants](#core-tenants)
@@ -1923,10 +1923,8 @@ Characters can (usually) move to any adjacent zones by spending a minor action. 
 Terrain can influence how one moves significantly. Some zone borders may require skill checks to cross, cause damage, require a major action to move through, restrict how many characters can move through each turn, or something similar.  
 //TODO Fill this out
 
-### Attacking
-Blows will be exchanged often in combat.  
-//TODO Fill in more fluff, IDK  
-To make an attack, first you roll your 2d10 as normal, and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+### Offense 
+To make an offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. In future the individual or group being chased will be called the Quarry, while the one(s) doing the chasing will be the Hunter.
