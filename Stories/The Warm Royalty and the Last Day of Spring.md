@@ -27,7 +27,7 @@ After a time, the Compassionate King asked the Eldest Evil, 'Good sir, you linge
 
 The Eldest Evil laughed, a bright and cheerful sound. 'No, good King! In fact, I greatly envy your fine selection of mortals; a magnificent realm you must rule, to produce such souls!' The King smiled, but before he could speak, the Eldest Evil held up a hand and said, 'Except... for this one.' He pointed to an infant child who stood among the mortals.
 
-Now, this is still the Compassionate King and the Equanimous Queen we speak of! What followed was no barbarity, regardless of the many who would claim the child was executed or tortured or somehow impure. The King and Queen knew full well the child was an innocent soul, but the child was also very young--it may well be they were in need of a change, as the stories often claim. The rulers instructed this child's father to take him to a nearby village for a time while they awaited to hear of the stranger's complaint or request.
+Now, this is still the Compassionate King and the Equanimous Queen we speak of! What followed was no barbarity, regardless of the many who would claim the child was executed or tortured or somehow impure. The King and Queen knew full well the child was an innocent soul, but the child was also very young--it may well be they were in need of a change, as the stories often claim. The rulers instructed this child's father to take them to a nearby village for a time while they awaited to hear of the stranger's complaint or request.
 
 We do not know much of the child or their father, but they are only reason we know this much of the story. That child was the first to tell this story, as their father died in the ensuing chaos. They would be known as The First Witch.
 
