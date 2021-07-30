@@ -40,8 +40,7 @@
   - [Time in Combat](#time-in-combat)
   - [Moving and Positioning](#moving-and-positioning)
   - [Chasing rules](#chasing-rules)
-- [Chapter 11: Exploration](#chapter-11-exploration)
-- [Chapter 12: Health, Injury, Death, and Recovery](#chapter-12-health-injury-death-and-recovery) 
+- [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
   - [What are HP?](#what-are-hp)
   - [What Types of Damage are There?](#what-types-of-damage-are-there)
   - [What are Injuries?](#what-are-injuries)
@@ -1978,12 +1977,8 @@ If you fail in this Stealth check, you lose one point of Concealment.
 
 #### Chase Participation after Losing Them
 If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
-***
-# Chapter 11: Exploration
-// TODO Figure out what goes here, I’m not sure
 
-***
-# Chapter 12: Health, Injury, Death, and Recovery
+# Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 
 ## What are HP?
