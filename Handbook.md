@@ -1992,7 +1992,6 @@ Broadly speaking, there are eight types of damage. Some beings may be vulnerable
 
 The damage types are as follows:
 * *Physical* - Slashing, piercing, bashing. This is by far the most common type of damage.
-   * //If you see damage listed without a clear damage type, PLEASE CONTACT ME so I can label it, but you may also assume it is Physical.
 * *Fire* - Burning, scorching, heat. Fire damage is broadly the way to describe damage that comes from using high temperatures.
 * *Ice* - Piercing with icicles, chilling winds, sucking the heat out of the air. If the damage source is primarily low temperatures, it is ice damage.
 * *Sky* - Zapping with lightning, being struck by slashing winds, and similar things. If it’s about electricity or wind, the damage type is Sky.
