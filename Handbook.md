@@ -2046,11 +2046,10 @@ An interesting question, and there are several ways to approach recovery of HP, 
 These are recommendations that should provide a good variety, suitable to most types of games.
 
 ## How does Death Work?
-There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
-//TODO THIS NEED PLAYTESTING, not going to write more until I have more data here.
+There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot-centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
 
 ### Is Resurrection a Thing?
-That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being raised after the heroes are done with them? I am not going to set down hard rules for resurrecting dead player character, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
+That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
 ## Conditions and Properties
 #### Blind  
