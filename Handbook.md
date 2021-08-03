@@ -1939,10 +1939,6 @@ Knowing who you can reach and who can reach you is critical in combat, so these 
 Combat is broken up into zones. A combat zone should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several zones. An open field would just be an effectively infinite number of zones that characters can move through freely. Multiple creatures can occupy a single zone, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same zone.  
 Characters can (usually) move to any adjacent zones by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-### Terrain
-Terrain can influence how one moves significantly. Some zone borders may require skill checks to cross, cause damage, require a major action to move through, restrict how many characters can move through each turn, or something similar.  
-//TODO Fill this out
-
 ### Offense 
 To make an offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
