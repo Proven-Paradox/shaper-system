@@ -1816,10 +1816,6 @@ Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 Increase your Endure modifier by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
 
-#### Chump Change  
-Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
-In addition, you can generally ignore trivial-to-low cost purchases with no difficulty, and an occasional nontrivial purchase as well. On anything below an approximate equivalent to US$20, the cost can be completely ignored. In addition, you receive the approximate equivalent to $100 in extra expendable money per month of inactivity. This can represent plying a trade, working with a skill, running a con, or some similar activities during downtime.
-
 #### Darksight
 Increase your Awareness modifier by 1.
 In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.
@@ -1844,10 +1840,6 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
-#### Pretty Penny  
-Prerequisites: [Chump Change](#chump-change), at least +10 in at least one of the listed skills.  
-Increase any two of the following by one: Construct, Craft, Deception, Diplomacy, Intimidation, Medicine, Performance, Sabotage, Stealth, Streetwise, or Tech.  
-In addition, you can generally ignore medium cost purchases with no difficulty, and an occasional significant purchase as well. On anything below an approximate equivalent to US$200, the cost can be completely ignored. In addition, you receive the approximate equivalent to $1000 in extra expendable money per month of inactivity. This can represent plying a trade at signficant levels of skill, working with a skill at high demand or wit extreme competence, running a particularly lucrative con, or some similar activities during downtime.
 
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
@@ -1998,8 +1990,6 @@ The damage types are as follows:
 * *Almighty* - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
 
 With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be dramatically different from their expectations and make it very clear what is happening.
-
-> TODO Finish this: There should be a sidebar here cautioning Arbiters to not go overboard on Physical resistance since that is the only damage type all characters can guaranteed do. I also want to talk about how to gauge when it’s right to try to specifically hand players something they can deal with and when it needs to be a challenge. 
 
 ## What are Injuries?
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
