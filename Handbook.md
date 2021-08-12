@@ -1972,15 +1972,6 @@ Sprinting is a Major Action, and allows you to move three Positions at once. Doi
 #### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
 
-#### Lose Them
-Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
-For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon +2.  
-If you succeed in this Stealth check, the Hunters completely lose track of you. If you choose to continue moving away you will exit the scene altogether.  
-If you fail in this Stealth check, you lose one point of Concealment.  
-
-#### Chase Participation after Losing Them
-If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
-
 # Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 

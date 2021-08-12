@@ -631,3 +631,12 @@ Terrain effects with the [Grounded] tag that you create affect creatures with th
 #### Walk it Off  
 Ignore the first Injury you would receive every combat. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
 //TODO Not 100% satisfied with the language of this one. Conveys meaning, but I want to refine. Consider "per scene"
+
+#### Lose Them
+Lose Them requires both your Major and Minor actions, and is only available when your Concealment score is higher than all of your Hunters Momentum. When you use Lose Them, you make a Stealth check opposed by the Hunter with the highest Momentum’s Awareness check (hereafter referred to as the Lead Hunter). You gain Boon to this Stealth check for every point of Concealment above the Lead Hunter’s Momentum.  
+For example, Alex has Concealment 5 and decides to try to lose his pursuers. Among his Hunters, Carol has the highest Momentum at 3. This means that Alex makes his Stealth check against Carol’s Awareness with Boon +2.  
+If you succeed in this Stealth check, the Hunters completely lose track of you. If you choose to continue moving away you will exit the scene altogether.  
+If you fail in this Stealth check, you lose one point of Concealment.  
+
+#### Chase Participation after Losing Them
+If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
