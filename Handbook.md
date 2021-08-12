@@ -312,7 +312,7 @@ Range: How far away a target can be while still being in reach of this Ability. 
 
 Targets: Who or what this Ability targets.  
 Cost: The HP or MP cost of this Ability.  
-Damage: When using this Ability to do damage, multiply your Impact by this number to determine the amount.  
+Damage: When using this Ability to do damage, multiply your [Impact](#impact) by this number to determine the amount.  
 Effect: Things particular to a given Ability.
 ## Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Attributes, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
@@ -517,7 +517,7 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Trigger: The enemy successfully hits with an Ability with a Result of 2 or less.  
+Trigger: The enemy successfully hits with an Ability with an [Impact](#impact) of 2 or less.  
 Cost: None  
 Effect: Negate the Ability that triggered this Counter.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.
@@ -694,7 +694,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP (Overload +2 HP)  
 Damage: x2 (Physical)  
-Effect: If you pay the Overload cost and your Result is at least 5, you knock your target [Prone](#prone).  
+Effect: If you pay the Overload cost and your [Impact](#impact) is at least 5, you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -1162,7 +1162,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP (Overload +3 HP)  
 Damage: x3 (Physical)  
-Effect: If you pay the Overload cost and your Result is at least 5, you knock your target [Prone](#prone).  
+Effect: If you pay the Overload cost and your [Impact](#impact) is at least 5, you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.
 
 
@@ -1215,7 +1215,7 @@ Action: Counter
 Prerequisites: [Fortify](#fortify)  
 Range: None  
 Targets: Self  
-Trigger: You are hit by a single target Ability that has a Result of at least 5  
+Trigger: You are hit by a single target Ability that has an [Impact](#impact) of at least 5  
 Cost: 4 HP, 2 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
 Description: You respond to a hard hit by tightening your defense.
@@ -1674,7 +1674,7 @@ Increase the range at which you Counter Abilities can affect enemies by 1. For e
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
 
-Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The Result is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
@@ -1789,7 +1789,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
 
 #### Heavy Hitter  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a Result of 10 or higher, you can choose one of the following extra effects.
+You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get an [Impact](#impact) of 10 or higher, you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your Strength
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
@@ -1946,7 +1946,7 @@ Knowing who you can reach and who can reach you is critical in combat, so these 
 Combat is broken up into zones. A combat zone should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several zones. An open field would just be an effectively infinite number of zones that characters can move through freely. Multiple creatures can occupy a single zone, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same zone.  
 Characters can (usually) move to any adjacent zones by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-### Offense 
+### Impact 
 To make an offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 ## Chasing rules
