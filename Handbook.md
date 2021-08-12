@@ -235,7 +235,19 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
 
-If you're looking specifically for the XP cost of specific benefits, refer to this [cheat sheet](https://github.com/Proven-Paradox/shaper-system/blob/main/XP%20cheat%20sheet.md).
+If you're looking specifically for the XP cost of specific benefits, refer to this cheat sheet.
+
+| Benefit                 | XP Cost                   |
+|-------------------------|---------------------------|
+| Level up                | 4 + current level         |
+| Vitality/Capacity       | 3                         |
+| Physical/Mental Attack  | 4                         |
+| Physical/Mental Defense | 3                         |
+| 3 Skill Points          | 1                         |
+| Tier 1 Ability          | 3                         |
+| Tier 2 Ability          | 5                         |
+| Powers                  | 5 unless otherwise stated |
+| Utilities               | Listed per entry          |
 
 ### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
