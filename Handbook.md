@@ -1627,7 +1627,7 @@ If you have not moved between the beginning of your previous turn and your curre
 When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
 
 #### Curse Resistant  
-The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.  
+The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
 #### Dash  
 When you move as a Major action, you can choose to move two squares instead of one.
@@ -1663,6 +1663,11 @@ Once per turn, when you use a melee range Attack, you can move one square as par
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
+
+#### Layering Ward
+You can give allies additional layers of protection using [Ward](#ward) or other Abilities that produce Wards. You may target an ally already affected by your Ward, allowing that Ward to affect an additional incoming Ability before fading. Your Wards have a maximum of 3 attacks.
+
+For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
 
 #### Lingering Provocation  
 Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
