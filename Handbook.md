@@ -728,16 +728,6 @@ Damage: x1 (Physical)
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
-#### Lock  
-Auxiliary  
-Action: Minor  
-Range: Long  
-Targets: 1 enemy  
-Cost: 1 MP (Upkeep: 0 MP)  
-Effect: You Lock On to the target. By default, this does nothing, but some Powers influence Lock On.  
-When you first learn the Lock Ability, you also gain one of the following Powers: Defensive Lock, Offensive Lock, Pursuit Lock
-Description: Focusing on one target. This may be a matter of meditative discipline, deploying a targetting AI, or some other way of singling out a foe for particular focus.
-
 #### Mobile Strike  
 Attack [Overload]  
 Action: Major  
@@ -1632,9 +1622,6 @@ The first time you would have one of your [Buff Track](#buff-tracks) reduced eac
 #### Dash  
 When you move as a Major action, you can choose to move two squares instead of one.
 
-#### Defensive Lock  
-When being targeted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
-
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
@@ -1681,17 +1668,12 @@ Whenever you pay an Overload cost on an Ability that heals HP damage, add your C
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
-#### Offensive Lock  
-When targeted by a foe that you have Locked On to, you gain a bonus to your Physical/Mental Defense equal to your Hero Tier. This increases the Upkeep of Lock On by 1.
-
 #### Overcharge  
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next turn.
 
 #### Pickup  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
 
-#### Pursuit Lock  
-Once per round, when an opponent you have Locked On to moves, you may choose to follow them. This is only possible if the Locked On foe is within Short distance.
 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half.  
@@ -1723,7 +1705,6 @@ When you use a Scan Ability, choose one of the following benefits.
 * You automatically scan squares instead of individuals, simultaneously learning about all creatures in that square as well as checking for invisible creatures and objects in that square.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
-* You Lock On to the target. Lock On applied in this way has Upkeep 0.
 
 #### Wardsense  
 You are able to sense and identify wards placed by enemies accurately.  
