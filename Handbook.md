@@ -145,7 +145,7 @@ Your Arbiter will tell you the rules on how you determine your Attributes. My re
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
    * Strength is also added to your Hit Points and Physical Offense stats.
-* **Finesse** represents how agile or dextrous your character is. High finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low finesse might instead confer general clumsiness.
+* **Finesse** represents how agile or dexterous your character is. High finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low finesse might instead confer general clumsiness.
    * Finesse is also added to your Initiative, Physical offense, and Physical Defense stats.
 * **Toughness** represents health and hardiness. A character with high toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low toughness might mean the character is sickly or bruises easily.
    * Toughness is also added to your Hit Points and Physical Defense stats.
