@@ -993,6 +993,17 @@ Cooldown: 3 rounds
 Effect: You move to the targeted square. This Ability can be used in any condition, including while [Grabbed](#grab) or [Rooted](#rooted) or similarly restrained, and those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would other obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
+#### Carry  
+Attack  
+Action: Major  
+Prerequisites: [Grapple](#grapple)  
+Range: Melee  
+Targets: 1 enemy that you have [grabbed](#grab)  
+Cost: 5 HP  
+Damage: x1 (Physical)  
+Effect: If this Ability hits, you and the target enemy move one square.  
+Description: Forcing a target you have in your grip to move with you. This could be as technical as a joint lock or as simple as bodily lifting your target.
+
 #### Chilling Bolt  
 Spell [Elemental] [Ice]  
 Action: Major  
