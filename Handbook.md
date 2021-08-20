@@ -51,7 +51,8 @@
   - [Tricks](#tricks)
 
 ## Chapter 0: Introduction
-<Here I should write something about the system in general. Talk about how it’s a storytelling/roleplay system, essentially a structure around which a group of people can frame a game of pretend in various settings. Talk about how the game is flexible and modular in a way that makes it suit many different types of settings and stories. Talk about the role of the Arbiter. For now just call it DM surrogate. This is not the interesting part of the rules, so I’m going to spend more effort on it closer to time to call this handbook “done.” For now, it’s more important to get to the next section.>  
+Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game. (Don't worry too much about the "tabletop" part of that; this system can be played online just as well.) This game is intended to facilitate improvisational storytelling. A group of however many players get together, each taking the role of a character in some fantastical story, while one person takes on the role of Arbiter, crafting the world and setting up a story. It's playing pretend, but with this book of rules deciding what happens during conflict and uncertainty. 
+
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.  
 
 ## Core Tenets
