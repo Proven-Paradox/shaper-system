@@ -62,7 +62,6 @@ These ideas are central to the design of Story Shaper. When designing the game t
 * **Depth**. Not all gaming systems suffer from the problems I listed above. However, many negate these problems by simplifying, going too far and leaving the system just an uninteresting way to resolve conflict. The term “RPG” stands for “role-playing game.” It’s fine to be primarily interested in role-playing, but one should also be eager to engage with the GAME part of that acronym. And the thing that makes any game engaging is making interesting decisions. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
 ## What you Need to Play
-
 ### Required:
 * A pair of 10 sided dice for each player (also called d10s).
 * A single 6 sided die for the entire group
