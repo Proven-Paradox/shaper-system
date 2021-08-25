@@ -1765,7 +1765,7 @@ Note that to gain these benefits, the damage must be done by you personally. If 
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
 #### Everlasting  
-At the [Round End](#round-end) of every turn, you regain HP equal to your Toughness. If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitality). If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
 #### Finesse Caster  
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
@@ -1776,7 +1776,6 @@ This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redu
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* Heal an extra amount of HP equal to your Heart times your Hero Tier.
 * Increase the character’s Regeneration up to 0 immediately.
 * End a [Curse] effect on the target.
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
@@ -1787,7 +1786,7 @@ You can draw strength for your spells from the power of your heart instead of yo
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get an [Impact](#impact) of 10 or higher, you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your Strength
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your Hero Tier.
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
 
 #### Intelligent Avoidance  
