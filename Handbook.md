@@ -1765,7 +1765,7 @@ Note that to gain these benefits, the damage must be done by you personally. If 
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
 #### Everlasting  
-At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitality). If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitalitycapacity). If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
 #### Finesse Caster  
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
