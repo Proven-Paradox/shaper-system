@@ -1765,7 +1765,9 @@ Note that to gain these benefits, the damage must be done by you personally. If 
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
 #### Everlasting  
-At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitalitycapacity). If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
+
+If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
 #### Finesse Caster  
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
@@ -1799,7 +1801,7 @@ You've developed an intuitive sense of when the right time to strike is. You may
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
 
 #### Mana Fountain
-You gain 9 additional MP, plus 3 more for each level of Capacity. This Talent applies retroactively to all levels of Capacity.
+You gain 9 additional MP, plus 3 more for each level of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a level of Capacity without paying the XP cost.
 
 #### Matter over Mind  
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
