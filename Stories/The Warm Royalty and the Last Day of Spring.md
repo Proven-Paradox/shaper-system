@@ -1,5 +1,9 @@
 # The Tale of the Warm Royalty
 
+It is a cold night, as usual in the mountain monastery. The day's training is done, and the young monks have gathered around a fire to warm themselves before sleep. Elder Masaccio has taken a seat as well. He has called for attention and silence, as usual before he begins one of his stories. Another one of the old legends most likely, they were always his favorite. Once order and attention has been established, he speaks.
+
+----
+
 This was an old story when I was your age, but the telling changes a little each time it is told. And that's fine; it's a story, not a history, and stories are supposed to grow with their tellers. So when you're as old as me, telling the story to your own fire circle, tell the version you think is best. If you prefer two princes, or two princesses, or perhaps to you the demon is a thing that is not quite a man, you should tell it your way. In my version, the story starts with a King, a Queen, a Prince, and a Princess.
 
 First, the Compassionate King. The oldest stories name him Karuna. At the core of him was a wish, above all, that all live free from harm and strife. Because he was assured to be benevolent, he was allowed to have whatever he desired; it would always be for the good of all.
