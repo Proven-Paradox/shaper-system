@@ -555,7 +555,8 @@ Targets: 1 enemy
 Cost: 0 MP (Overload +3 MP)  
 Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
-The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Lesson once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
+You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -954,8 +955,9 @@ Range: Long
 Targets: 1 Ally  
 Cost: 1 MP  
 Duration: Until used or combat ends  
-Effect: Choose an element you are [Elementally Attuned](#elemental-attunement) to. Any hostile Abilities of the ward’s type against an affected ally has its multiplier reduced by 1.  
-Special: The first time you gain an Ability with the [Elemental] tag, you also automatically gain the Elemental Attunement Lesson once. You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Effect: You place a Ward on an ally. Any hostile Abilities of the Ward’s elemental type against an affected ally has its multiplier reduced by 1.  
+Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
+You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
 
 ## Tier 2
@@ -1705,6 +1707,9 @@ When you take a would blow in place of an ally--such when using an Ability such 
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1.
+
+#### Sanctuary Ward  
+When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element.
 
 #### Siege Fighter  
 If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your Hero Tier.
