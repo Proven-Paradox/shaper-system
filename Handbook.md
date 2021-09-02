@@ -1,6 +1,6 @@
 ﻿[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
 [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-*** 
+------------
 # Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
   - [Core Tenets](#core-tenets)
@@ -49,7 +49,7 @@
 - [Appendix A: Optional Rules](#appendix-a-optional-rules)
   - [Flavor Skills](#flavor-skills)
   - [Tricks](#tricks)
-
+------------
 ## Chapter 0: Introduction
 Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game. (Don't worry too much about the "table" part of that; this system can be played online just as well.) This game is intended to facilitate improvisational storytelling. A group of however many players get together, each taking the role of a character in some fantastical story, while one person takes on the role of Arbiter, crafting the world and setting up a plot line. It's playing pretend, but with this book of rules deciding what happens during conflict and uncertainty. 
 
@@ -81,6 +81,7 @@ These ideas are central to the design of Story Shaper. When designing the game t
 
 > Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
 
+------------
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
 
@@ -132,6 +133,7 @@ For a tie during opposed skill checks (such as Empathy versus Deception, or Awar
 
 If a damage type is not listed, assume the damage to be physical.
 
+------------
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an epic tale (or perhaps an UN-epic tale, depending on the sort of game you’re trying to play). In this section, we will go through the steps of building characters. The focus will be on how the character is represented in rules. This is because the act of fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
 
@@ -215,6 +217,7 @@ In settings where elemental magic is common, characters can start with a weaknes
 
 > Note that there are no rules for items or equipment in this game. As an Arbiter, you are free to make up magical or technological items where it suits you. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. In general, a character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in SSS are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, if appropriate they could start with armor.
 
+------------
 # Chapter 3: Improving your character
 Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 ## Gaining XP
@@ -290,7 +293,8 @@ Utilities represent non-combat abilities that aid an adventurer. These may influ
 
 
 Utilities are described in more detail in Chapter 9.
-***
+
+------------
 # Chapter 4: Abilities
 Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
 ## Reading Abilities
@@ -376,8 +380,8 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 Unlike the previous tracks described, the regen/degen track has no limit. If you begin your turn with a positive value on this track, your HP regenerates by that amount, and if you begin your turn with a negative value, your HP degenerates by that amount. After this HP gain or loss, you move one position towards 0. So for example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.
 
+------------
 # Chapter 5: List of Abilities
-
 ## Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
@@ -1494,7 +1498,7 @@ Cost: 9 MP
 Damage: x2 (Physical)  
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
-________________
+------------
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
 
@@ -1601,8 +1605,7 @@ Navigating, tracking, hunting. Survival enables a character to know what directi
 Attributes: Finesse, Mind  
 Operating all sorts of computers, general technical savviness, hacking, and the like.
 
-***
-
+------------
 # Chapter 7: Lessons
 Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
 Lessons cost 5 XP unless an exception is listed.
@@ -1732,7 +1735,7 @@ Special: This Lesson costs 3 XP.
 #### Wide Ward  
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
-*** 
+------------
 # Chapter 8: Talents
 A character gains a Talent for free at level 1, and again when gaining a level divisible by 5 (level 5, 10, 15, ...).
 
@@ -1820,7 +1823,8 @@ Your heart powers your body more than your muscles. You may use Heart in place o
 
 #### Soul Well  
 You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Toughness to determine your HP.
-***
+
+------------
 # Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
 ## Skill-based Utilities
@@ -1913,7 +1917,8 @@ You can learn more from corpses; corpses you speak with in this way now remember
 #### Slow Fall  
 XP Cost: 4  
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
-***
+
+------------
 # Chapter 10: Combat
 Combat is frequently part of an exciting story. While not every game needs combat (and if you're playing a game that's not going to have any you may skip this chapter), many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
 
@@ -1972,6 +1977,7 @@ Sprinting is a Major Action, and allows you to move three Positions at once. Doi
 #### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
 
+------------
 # Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
 
@@ -2099,7 +2105,7 @@ Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unl
 #### Taunt
 If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
 
-
+------------
 # Appendix A: Optional Rules
 These are just extra rules that aren't necessary for the game to run, but if you're interested in a bit more to work with these are things to consider.
 
