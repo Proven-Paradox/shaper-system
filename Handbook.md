@@ -135,8 +135,7 @@ If a damage type is not listed, assume the damage to be physical.
 
 ------------
 # Chapter 2: Character Creation
-Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an interesting story. In this section, we will go through the steps of building characters. 
-
+Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, a someone who belongs in an interesting story. In this section, we will go through the steps of building characters.  
 The focus will be on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
 
 ## Step 1: Attributes
