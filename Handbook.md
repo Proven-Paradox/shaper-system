@@ -141,7 +141,7 @@ The focus will be on how the character is represented in rules. Fleshing out a c
 ## Step 1: Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Arbiter will tell you the rules on how you determine your Attributes. My recommendation is to give between five and seven points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation, but I can’t stop an Arbiter who disagrees.
+Your Arbiter will tell you the rules on how you determine your Attributes. My recommendation is to give between 5 and 7 points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation, but I can’t stop an Arbiter who disagrees.
 
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low strength might result in the character being spindly or out of shape.
@@ -150,7 +150,7 @@ There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul.
    * Finesse is also added to your Initiative, Physical offense, and Physical Defense stats.
 * **Toughness** represents health and hardiness. A character with high toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low toughness might mean the character is sickly or bruises easily.
    * Toughness is also added to your Hit Points and Physical Defense stats.
-* **Mind** represents intelligence and cleverness. A character with high mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low mind often means difficulty learning new technical concepts and a hard time remembering some details.
+* **Mind** represents intelligence and cleverness. A character with high mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low mind often means difficulty learning new technical concepts and a hard time remembering details.
    * Mind is also added to your Mental Points and Mental offense stats.
 * **Heart** represents charisma and presence. Someone with high heart is able to naturally be the center of attention or get people to do what they want, while someone with low heart might naturally go unnoticed in social situations or just generally lack presence.
    * Heart is also added to your Mental Points and Mental Defense stats.
@@ -159,8 +159,8 @@ There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul.
    
 If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.
 
-* Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses (more on that later).
-* If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always a benefit.
+* Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses.
+* If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always beneficial.
 
 ## Step 2-a: Capacity Stats
 After choosing your class and your Attributes, you can determine your capacity stats. One could also call these points.
