@@ -10,7 +10,7 @@
   - [Rerolls](#rerolls)
 - [Chapter 2: Character Creation](#chapter-2-character-creation) 
   - [Step 1: Attributes](#step-1-attributes)
-  - [Step 2-a: Capacity Stats](#step-2-a-capacity-stats)
+  - [Step 2-a: Point Stats](#step-2-a-point-stats)
   - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)
   - [Step 3: Abilities](#step-3-abilities)
   - [Step 4: Skills](#step-4-skills) 
@@ -162,29 +162,29 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 * Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses.
 * If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always beneficial.
 
-## Step 2-a: Capacity Stats
-After choosing your class and your Attributes, you can determine your capacity stats. One could also call these points.
+## Step 2-a: Point Stats
+After choosing your Attributes, you can determine your point stats.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
 * **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
 
 ## Step 2-b: Offense/Defense
-These are modifiers to your attacks’ accuracy or your ability to avoid a foes’ attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses. The secondary stats are as follows.
+These are modifiers to your attacks’ accuracy or your ability to avoid a foe's attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses, as follows.
 
 #### Physical Offense
 This broadly represents your ability to effectively attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
 
 #### Mental Offense
-This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such means power sources. You add your Mind and Soul to Mental Offense.
+This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.
 
 #### Physical Defense
 This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to Physical Defense.
 
 #### Mental Defense
-Do you see the pattern yet? Mental Defense enables you to mitigate damage you would otherwise take from energy attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to Mental Defense.
+Mental Defense enables you to mitigate damage you would otherwise take from energy attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to Mental Defense.
 
 ##### Defense Bonus
-Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense, it will be listed as Physical Defense Bonus, and the same for Mental Defense Bonus.
+Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense it will be listed as Physical Defense Bonus, while Mental Defense is listed as Mental Defense Bonus.
 
 #### Initiative
 At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse and Soul to initiative rolls.
