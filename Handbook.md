@@ -219,7 +219,8 @@ In settings where elemental magic is common, characters can start with a weaknes
 
 ------------
 # Chapter 3: Improving your character
-Rather than progressing in a class or explicitly gaining levels, heroes become stronger by spending experience points (XP) on improving their status. This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
+Rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
+
 ## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
 
@@ -227,7 +228,7 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 
 > There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.  
 > In general, my recommendation is that a typical session that moves the plot forward gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
-> Note that this does not necessarily imply physical danger being overcome. A tense negotiation can result in XP as much as a combat encounter.    
+> Note that this does not only apply to overcoming physical danger. A tense negotiation might result in XP as much as a combat encounter.    
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
 > My play-testers all agreed that they'd prefer they all have the same XP levels. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps you as Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
 > I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake (in my opinion).  
@@ -249,6 +250,8 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | Powers                  | 5 unless otherwise stated |
 | Utilities               | Listed per entry          |
 
+> An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
+
 ### Level
 While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
 * Every level increases the number of times Vitality and Capacity can be purchased
@@ -266,31 +269,36 @@ When leveling up can have one of two benefits, the benefit must be applied to th
 
 Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
 
-Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
+> Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
 
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
+
 ### Base Physical/Mental Offense/Defense
 Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
+
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
+
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
 
-Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 * their tier) XP. So 3 for tier 1, 5 for tier 2.
+Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
 
 Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
+
 ### Lessons
 Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
 
 Lessons are described in more detail in Chapter 7.
+
 ### Talents
 Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first level, and then when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
 Talents are described in more detail in Chapter 8.
+
 ### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
-
 
 Utilities are described in more detail in Chapter 9.
 
