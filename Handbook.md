@@ -164,7 +164,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 
 ## Step 2-a: Point Stats
 After choosing your Attributes, you can determine your point stats.
-* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At first level you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
+* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
 * **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
 
@@ -253,32 +253,32 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
 
 ### Level
-While there are no set classes, heroes do gain levels. Their level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s level. Increasing a character’s level represents a general increase in competence and potential. A character’s level limits the following:
-* Every level increases the number of times Vitality and Capacity can be purchased
-* The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s level
-* Every five levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
+While there are no set classes, heroes do gain levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
+* Every Level increases the number of times Vitality and Capacity can be purchased
+* The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s Level
+* Every five Levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
 
-In addition, purchasing a level gives its own benefit that goes in a five level loop. These benefits do not cost additional XP.
-* At levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
-* At levels 2, 7, 12, … the character gains one level in Vitality or Capacity.
-* At levels 3, 8, 13, … the character increases their Physical or Mental Defense.
-* At level 4, 9, 14, … the character increases their Physical or Mental Offense.
-* At level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
+In addition, purchasing a Level gives its own benefit that goes in a five Level loop. These benefits do not cost additional XP.
+* At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
+* At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
+* At Levels 3, 8, 13, … the character increases their Physical or Mental Defense.
+* At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
+* At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
 
-When leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
+When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases Level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
 
-Characters start at level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent level costs (4 + their current level) XP. So level 3 costs 6 XP, level 4 costs 7 XP, and so on.
+Characters start at Level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent Level costs (4 + their current Level) XP. So Level 3 costs 6 XP, Level 4 costs 7 XP, and so on.
 
-> Sidenote \<Milestone Levels>: Instead of allowing players to purchase levels, the Arbiter may instead choose to declare that all characters level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power levels, making it easier to balance combat encounters while also making milestones feel more impactful.
+> Sidenote \<Milestone Levels>: Instead of allowing players to purchase Levels, the Arbiter may instead choose to declare that all characters Level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power ranges, making it easier to balance combat encounters while also making milestones feel more impactful.
 
 ### Vitality/Capacity
-Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s Level. Vitality and Capacity upgrades cost 3 XP.
+Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
 
 ### Base Physical/Mental Offense/Defense
-Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s level. Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
+Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 
 ### Skill Points
-You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your level.
+You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your [Level](#level).
 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
@@ -293,7 +293,7 @@ Lessons represent passive abilities. These generally modify rolls, giving benefi
 Lessons are described in more detail in Chapter 7.
 
 ### Talents
-Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first level, and then when you reach a level divisible by 5 (5, 10, 15…). They have no cost to purchase.
+Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
 Talents are described in more detail in Chapter 8.
 
@@ -1250,7 +1250,7 @@ Action: Minor
 Prerequisites: None  
 Targets: Self  
 Cost: 3 HP  
-Effect: You regain MP equal to your Capacity level. This cannot be used outside of combat.  
+Effect: You regain MP equal to your Capacity. This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
 
 #### Mental Shield
@@ -1382,7 +1382,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 4 MP  
-Effect: You regain health equal to two times your Vitality level.  
+Effect: You regain health equal to two times your Vitality.  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
 #### Shieldshatter  
@@ -1510,7 +1510,7 @@ Description: An unfocused barrage of projectiles covering a small area. This can
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
 
-Your maximum number of Skill Points that can be invested into any one Skill is equal to your Character Level + 3.  
+Your maximum number of Skill Points that can be invested into any one Skill is equal to your [Level](#level) + 3.  
 Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
 Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocketwatch or a cut jewel you’ve found, make a Craft check.  
 Each skill has two associated Attributes. All skills of that type add those two Attributes in addition to any skill points that have been spent in those skills.  
@@ -1685,12 +1685,12 @@ Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Manamaim
-Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity level to your damage. This extra damage is not included in multipliers.
+Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity to your damage. This extra damage is not included in multipliers.
 
 Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
-Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity level to the total healing done.
+Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity to the total healing done.
 
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
@@ -1745,7 +1745,7 @@ When you use a single target Ward that normally has a Minor action requirement, 
 
 ------------
 # Chapter 8: Talents
-A character gains a Talent for free at level 1, and again when gaining a level divisible by 5 (level 5, 10, 15, ...).
+A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
 
 #### Arcane Evasion  
 Your agility aids you in evading magical effects. You may use your Finesse in place of Heart to determine your Mental Defense.
@@ -1772,7 +1772,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range.  
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
-* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach level 10.  
+* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
 #### Endurance Mage  
@@ -1815,7 +1815,7 @@ You've developed an intuitive sense of when the right time to strike is. You may
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
 
 #### Mana Fountain
-You gain 9 additional MP, plus 3 more for each level of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a level of Capacity without paying the XP cost.
+You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
 
 #### Matter over Mind  
 Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
@@ -2042,9 +2042,9 @@ An interesting question, and there are several ways to approach recovery of HP, 
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
    * This recovery method emphasizes action, enables risk taking, and encourages blowing everything quickly. This will result in faster battles since everyone is going full tilt at all times. Whatever happens will happen fast. 
-* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals two additional injuries during their rest. 
+* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals two additional injuries during their rest. 
    * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.
-* *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character level and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
+* *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
 * *Action Movie* - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Arbiter's choice.
    * This mode has a specific purpose: to capture the action movie brawl. Two opponents square off, striking at each other for a period until eventually one gets an advantage and lands a powerful series of blows on the other. There’s a painful sound as the scene slows down, showing the loser of the exchange reeling in pain while the victor gets a moment to gloat. The loser then refocuses and continues the fight, but a bit shakier, until one or the other cannot stand any longer.
