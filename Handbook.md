@@ -192,16 +192,16 @@ At the beginning of a dangerous encounter (usually but not always combat) you ma
 How one uses these attributes will be described in [Chapter 10](#chapter-10-combat).
 
 ## Step 3: Abilities
-The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being level 1) for free as well as all Tier 0 Abilities.
+The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being Level 1) for free as well as all Tier 0 Abilities.
 
 Some advice if you want to make a powerful character and are having trouble choosing your Abilities:
 * If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Soul dominant hero is going to want mental attacks.
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
-* At first level your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
-* After the first level, you will have more resources to spend. In that case it is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
+* At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
+* It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
 ## Step 4: Skills
-Next, you will distribute Skill Points. There’s more information on skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your level + 3 allocated. (So if you’re making a first level character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
+Next, you will distribute Skill Points. There’s more information on skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
 
 Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
@@ -209,7 +209,7 @@ Here are some things to consider when distributing skill points:
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
 
 ## Step 5: Talent
-Finally, you choose one talent. Talents are described in full in Chapter 8; these are major changes that help define what your character is good at. You gain one Talent at level one.
+Finally, you choose one talent. Talents are described in full in Chapter 8; these are major changes that help define what your character is good at.
 
 ## Step 6: Elemental Properties
 **Note that this step is optional.** Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
@@ -230,7 +230,7 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 > In general, my recommendation is that a typical session that moves the plot forward gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
 > Note that this does not only apply to overcoming physical danger. A tense negotiation might result in XP as much as a combat encounter.    
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
-> My play-testers all agreed that they'd prefer they all have the same XP levels. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps you as Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
+> My play-testers all agreed that they'd prefer they all have the same XP. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps the Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
 > I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake (in my opinion).  
 
 ## Spending XP
@@ -240,7 +240,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 
 | Benefit                 | XP Cost                   |
 |-------------------------|---------------------------|
-| Level up                | 4 + current level         |
+| Level up                | 4 + current Level         |
 | Vitality/Capacity       | 3                         |
 | Physical/Mental Attack  | 4                         |
 | Physical/Mental Defense | 3                         |
