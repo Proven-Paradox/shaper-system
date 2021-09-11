@@ -254,7 +254,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 
 ### Level
 While there are no set classes, heroes do gain levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
-* Every Level increases the number of times Vitality and Capacity can be purchased
+* Every Level increases the number of times [Vitality and Capacity](#vitalitycapacity) can be purchased
 * The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s Level
 * Every five Levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
 
@@ -354,8 +354,6 @@ An Ability that normally only uses the listed Major or Minor Action, but that is
 
 ### Cooldown
 An Ability that, once used, cannot be used again for some duration, listed in the Ability.
-
-
 
 ### Overload
 An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
@@ -938,7 +936,7 @@ Description: An easy way of limiting enemy vision (though allies are similarly h
 #### Void Lance  
 Spell  
 Action: Major  
-Prerequisites: Capacity 1  
+Prerequisites: [Capacity](#vitalitycapacity) 1  
 Range: Long  
 Targets: 1 Enemy  
 Cost: 15 MP  
@@ -1250,7 +1248,7 @@ Action: Minor
 Prerequisites: None  
 Targets: Self  
 Cost: 3 HP  
-Effect: You regain MP equal to your Capacity. This cannot be used outside of combat.  
+Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
 
 #### Mental Shield
@@ -1685,12 +1683,12 @@ Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
 Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Manamaim
-Whenever you pay an Overload cost on a damaging Spell, you may add your Capacity to your damage. This extra damage is not included in multipliers.
+Whenever you pay an Overload cost on a damaging Spell, you may add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
 
 Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
-Whenever you pay an Overload cost on an Ability that heals HP damage, add your Capacity to the total healing done.
+Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
 
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
