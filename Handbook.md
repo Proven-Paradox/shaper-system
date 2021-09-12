@@ -275,10 +275,10 @@ Characters start at Level 1 (and therefore gain one free Ability in addition to 
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
 
 ### Base Physical/Mental Offense/Defense
-Every character has a base bonus to their physical and mental offense and defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
+Every character has a base bonus to their Physical and Mental Offense and Defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 
 ### Skill Points
-You may spend 1 XP to gain 3 skill points. Keep in mind that the maximum number of points you can put into any skill is 3 + your [Level](#level).
+You may spend 1 XP to gain 3 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
