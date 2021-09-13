@@ -256,7 +256,6 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 While there are no set classes, heroes do gain levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
 * Every Level increases the number of times [Vitality and Capacity](#vitalitycapacity) can be purchased
 * The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s Level
-* Every five Levels after the first (6, 11, 16, …) increases your hero’s Hero Tier.  
 
 In addition, purchasing a Level gives its own benefit that goes in a five Level loop. These benefits do not cost additional XP.
 * At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
@@ -271,6 +270,11 @@ Characters start at Level 1 (and therefore gain one free Ability in addition to 
 
 > Sidenote \<Milestone Levels>: Instead of allowing players to purchase Levels, the Arbiter may instead choose to declare that all characters Level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power ranges, making it easier to balance combat encounters while also making milestones feel more impactful.
 
+#### Hero Tier
+Hero Tier is a value that broadly represents your character's power. You start at Hero Tier 1, and every five Levels after the first (6, 11, 16, …) increases this value. Hero Tier is used to scale many facets of your character. 
+
+> In general, increasing in Hero Tier represents a significant increase in competence and invites participation in more consequential events. 
+
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
 
@@ -283,7 +287,7 @@ You may spend 1 XP to gain 3 skill points. The maximum number of points you can 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
 
-Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your Hero Tier. They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
+Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
 
 Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
 
@@ -304,7 +308,8 @@ Utilities are described in more detail in Chapter 9.
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in four tiers, with each tier being more powerful (but more costly) than the previous. You may only purchase abilities whose tiers are equal to or lower than your Hero Tier.
+Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
+
 ## Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary):
 
@@ -365,7 +370,7 @@ Any Ability with an Upkeep in its cost requires the given cost to be paid at the
 These are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 
 #### The Offensive Track
-* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your Hero Tier.
+* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).
 * **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
 * **Level 1** - You make Offense rolls at Boon +2.
 * **Level 0** - Normal, no changes.
@@ -374,7 +379,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 * **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.
 
 #### The Defensive Track
-* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your Hero Tier.
+* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).
 * **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
 * **Level 1** - Offense rolls made against you have Bane -2.
 * **Level 0** - Normal, no changes.
@@ -1023,7 +1028,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Ice)  
 Duration: 3 rounds  
-Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
 
 #### Crushing Bolt  
@@ -1035,7 +1040,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Earth)  
 Duration: 2 rounds  
-Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
 
 #### Crushing Demand  
@@ -1237,7 +1242,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Square  
 Cost: 6 MP (Upkeep 1)  
-Effect: While standing in the affected square, you (and only you) gain an amount equal to your Hero Tier to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
+Effect: While standing in the affected square, you (and only you) gain an amount equal to your [Hero Tier](#hero-tier) to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1313,7 +1318,7 @@ Range: Medium
 Targets: 1 enemy, 1 ally  
 Cost: 10 MP  
 Damage: x3 (Light)  
-Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your hero tier. If this Ability misses no healing occurs.
+Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your [Hero Tier](#hero-tier). If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
 
 #### Retribution  
@@ -1347,7 +1352,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Fire)  
 Duration: 1 round  
-Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
 
 #### Shocking Bolt  
@@ -1359,7 +1364,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Sky)  
 Duration: 2 rounds  
-Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your Hero Tier.  
+Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
 
 #### Shoot II  
@@ -1619,19 +1624,19 @@ Lessons cost 5 XP unless an exception is listed.
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell. The damage increases by an amount equal to your Base Offense every time you increase in Hero Tier (so Offense x 2 at Hero Tier 2, Offense x 3 at Hero Tier 3, and so on).
+* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell. The damage increases by an amount equal to your Base Offense every time you increase in [Hero Tier](#hero-tier) (so Offense x 2 at Hero Tier 2, Offense x 3 at Hero Tier 3, and so on).
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your Hero Tier: the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
+When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your [Hero Tier](#hero-tier): the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
 When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
 
 #### Anger  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in Hero Tier, the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
+Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in [Hero Tier](#hero-tier), the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
 
 #### Ataraxia  
-If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your Hero Tier (to a minimum of 0).
+If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
 #### Bloodlust  
 When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
@@ -1646,7 +1651,7 @@ When you move as a Major action, you can choose to move two squares instead of o
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
-After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your Hero Tier: the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your [Hero Tier](#hero-tier): the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -1654,14 +1659,14 @@ Special: You may take this Lesson more than once, choosing a different element e
 Every additional instance of this Lesson costs 3 XP.
 
 #### First to Act  
-Increase your Initiative modifier by your Hero Tier. Also, you gain Boon +2 on Initiative rolls.
+Increase your Initiative modifier by your [Hero Tier](#hero-tier). Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
 When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
 
 #### Healing Rush  
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
-* Increase the target’s Physical or Mental Offense by your Hero Tier.
+* Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
 * Increase the target’s Physical and Mental Defense by your Hero Tier.
 * The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
 
@@ -1697,7 +1702,7 @@ Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) eq
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next turn.
 
 #### Pickup  
-When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your Hero Tier: the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
+When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your [Hero Tier](#hero-tier): the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
 
 
 #### Quick Healer  
@@ -1710,7 +1715,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#rooted) until your next turn.
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your Hero Tier for that Ability.
+When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1.
@@ -1719,7 +1724,7 @@ When you kill or knock out a foe, increase your [Offensive Track](#the-offensive
 When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element.
 
 #### Siege Fighter  
-If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your Hero Tier.
+If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
 
 #### Spell Sniper  
 If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
@@ -1764,7 +1769,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your Hero Tier.
+  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your [Hero Tier](#hero-tier).
   * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
@@ -1800,7 +1805,7 @@ You can draw strength for your spells from the power of your heart instead of yo
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get an [Impact](#impact) of 10 or higher, you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your Hero Tier.
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
 
 #### Intelligent Avoidance  
@@ -1810,7 +1815,7 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Offense.
 
 #### Lucky
-You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your Hero Tier. Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
+You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
 
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
@@ -1852,7 +1857,7 @@ You are able to reliably remember information correctly. You may ask the Arbiter
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
 You can also gain one of the following benefits at a time.  
-* If you set up a trap, increase the necessary Investigation check requirement by your Hero Tier.
+* If you set up a trap, increase the necessary Investigation check requirement by your [Hero Tier](#hero-tier).
 * When destroying a device, you can set up the failure to occur after a delay. Upon successfully using Sabotage to damage the device, you can set a delay of up to ten minutes. Once used, the affected device functions normally for the specified amount of time before the malfunction you caused comes into effect.
 * If dealing with a trap laid by someone else, you can temporarily bypass the thing instead of destroying it, allowing your party to pass without leaving evidence of your tampering.
 
@@ -1917,7 +1922,7 @@ You can speak with corpses. The corpses know everything they knew in life, up un
 
 #### Speak with the Recently Dead, Improved  
 XP Cost: 7  
-Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), Hero Tier 2  
+Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), [Hero Tier](#hero-tier) 2  
 You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have (Speak with the Ancient Dead)[#speak-with-the-ancient-dead] this effect extends to them.
 
 #### Slow Fall  
@@ -1967,7 +1972,7 @@ Sometimes when two opposing factions meet, one is not willing to stand and fight
 During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would cause you to move allows you to instead increase (or decrease) your Position by 1.
 
 ### Endurance
-A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your Hero Tier + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
+A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
 At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
 If your Endurance score goes negative, you lose that much HP every time you move a square of your own volition.
 
@@ -1981,7 +1986,7 @@ All Abilities available to you outside of a chase scene are available during cha
 Sprinting is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
 
 #### Recover
-Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your Hero Tier + Toughness + Heart.
+Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
 
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
