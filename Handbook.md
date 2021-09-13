@@ -328,8 +328,10 @@ Targets: Who or what this Ability targets.
 Cost: The HP or MP cost of this Ability.  
 Damage: When using this Ability to do damage, multiply your [Impact](#impact) by this number to determine the amount.  
 Effect: Things particular to a given Ability.
+
 ## Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Attributes, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
+
 ## Ability Types
 There are four types of Abilities.
 * **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
@@ -338,6 +340,7 @@ There are four types of Abilities.
 * **Auxiliary** Abilities do not use offense rolls. They generally target yourself or your allies.
 * **Blessing** Abilities are toggled on or off (taking the listed action to switch between them), and reserve some amount of HP or MP. In exchange for reducing your maximum HP or MP in this way, you gain a benefit that is available at the start of every battle.
    * Reserved HP and MP is not available to the character; it acts as though the character’s maximum HP or MP has been reduced by that much. Unless otherwise stated, reserved HP or MP is not restored when the reserving effect is removed, but if you have missing HP or MP you reserve that before available HP and MP. 
+   
 ## Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
