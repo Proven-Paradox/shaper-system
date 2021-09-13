@@ -319,10 +319,10 @@ Action (Major/Minor/Counter): whether the Ability requires a Minor, Major, or Co
 Prerequisites: What other things are required before one can learn this Ability.  
 Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
-* Melee - this skill can only be used on targets in the same zone as you.
-* Short - this skill can be used on targets up to one zone away.
-* Medium - this skill targets enemies up to two zones away.
-* Long - this skill targets enemies up to three zones away.  
+* Melee - this skill can only be used on targets in the same Square as you.
+* Short - this skill can be used on targets up to one Square away.
+* Medium - this skill targets enemies up to two Squares away.
+* Long - this skill targets enemies up to three Squares away.  
 
 Targets: Who or what this Ability targets.  
 Cost: The HP or MP cost of this Ability.  
@@ -405,7 +405,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Effect: You grant the ally Cover. If you and the target are in the same square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
+Effect: You grant the ally Cover. If you and the target are in the same Square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -460,7 +460,7 @@ Range: Melee
 Targets: 1 enemy or ally  
 Cost: None  
 Damage: x0 (Physical)  
-Effect: If this Attack succeeds, move your target one square.  
+Effect: If this Attack succeeds, move your target one Square.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 #### Struggle  
@@ -493,7 +493,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP  
 Damage: x1 or x2 (Physical, see Effect)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Cleanse  
@@ -552,11 +552,11 @@ Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-Lance)  
 Range: Short  
-Targets: 1 square  
+Targets: 1 Square  
 Cost: 5 MP 
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
+If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
 Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
 #### Elemental Lance  
@@ -663,7 +663,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP (Upkeep 3 MP)  
-Effect: The target is able to move one square with no action on their turn.  
+Effect: The target is able to move one Square with no action on their turn.  
 Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
 
 #### Healing Burst  
@@ -673,7 +673,7 @@ Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)
 Range: Melee  
 Targets: 1 Square  
 Cost: 5 MP  
-Effect: You and all allies in the same square regain HP equal to a ten-sided die roll.
+Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
@@ -728,7 +728,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -736,7 +736,7 @@ Spell [Careful]
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Short  
-Targets: 2 adjacent squares  
+Targets: 2 adjacent Squares  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
@@ -750,8 +750,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 1 MP (Overload +2 HP)  
 Damage: x1 (Physical)  
-Effect: You may move one square before or after you make your Offense roll.  
-If you pay the Overload cost, you may move a square both before AND after.  
+Effect: You may move one Square before or after you make your Offense roll.  
+If you pay the Overload cost, you may move a Square both before AND after.  
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
 
 #### Protector’s Presence  
@@ -816,13 +816,13 @@ Auxiliary [Careful]
 Action: Minor  
 Prerequisites: None  
 Range: Long  
-Targets: 1 enemy or 1 square  
+Targets: 1 enemy or 1 Square  
 Cost: 1 MP (Careful 0 MP)  
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 If you spend your major action while using this Ability, you remove the MP cost entirely.  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
-Alternatively, Scan can be used on a square. Scanning a square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
+Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
@@ -922,7 +922,7 @@ Cost: 5 MP
 Duration: Until the end of your next action  
 Cooldown: 3 rounds  
 Effect: You are [Obscured](#obscured) for the duration. If you are targetted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
-When you use this Ability, you may also move 1 square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what square you are in, though you remain Obscured to them.  
+When you use this Ability, you may also move 1 Square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what Square you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
 
@@ -934,7 +934,7 @@ Range: Short
 Targets: 1 Square  
 Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
-Effect: The targeted square becomes impossible to see through for the duration. Targets inside the square are [Blinded](#blind) and [Obscured](#obscured).  
+Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).  
 If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
@@ -955,7 +955,7 @@ Attack
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Medium  
-Targets: 1 square  
+Targets: 1 Square  
 Cost: 4 MP  
 Damage: x1 (Physical)  
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
@@ -983,7 +983,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 6 HP  
 Damage: x3 or x4 (Physical, see Effect)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square. Alternatively, if you're in a square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x3 multiplier damage. If you force them to collide with a wall, the damage increases to x4. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x3 multiplier damage. If you force them to collide with a wall, the damage increases to x4. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Bladebreak  
@@ -1002,10 +1002,10 @@ Auxiliary
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 square  
+Targets: 1 Square  
 Cost: 10 MP   
 Cooldown: 3 rounds  
-Effect: You move to the targeted square. This Ability can be used in any condition, including while [Grabbed](#grab) or [Rooted](#rooted) or similarly restrained, and those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would other obstructions.  
+Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab) or [Rooted](#rooted) or similarly restrained, and those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would other obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
 #### Carry  
@@ -1016,7 +1016,7 @@ Range: Melee
 Targets: 1 enemy that you have [grabbed](#grab)  
 Cost: 5 HP  
 Damage: x1 (Physical)  
-Effect: If this Ability hits, you and the target enemy move one square.  
+Effect: If this Ability hits, you and the target enemy move one Square.  
 Description: Forcing a target you have in your grip to move with you. This could be as technical as a joint lock or as simple as bodily lifting your target.
 
 #### Chilling Bolt  
@@ -1085,11 +1085,11 @@ Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]
 Action: Major  
 Prerequisites: [Elemental Blast](#elemental-blast)  
 Range: Short  
-Targets: 1 square  
+Targets: 1 Square  
 Cost: 11 MP 
 Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted square to be unaffected.
+If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
 Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
 #### Elemental Lance II  
@@ -1121,9 +1121,9 @@ Auxiliary
 Action: Major  
 Prerequisites: None  
 Range: Short  
-Targets: One other ally in your square, and an adjacent square  
+Targets: One other ally in your Square, and an adjacent Square  
 Cost: 3 MP
-Effect: You and the targeted ally move to the selected square. You and the targeted ally must be able to move normally to use this Ability.  
+Effect: You and the targeted ally move to the selected Square. You and the targeted ally must be able to move normally to use this Ability.  
 Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
 #### Friendly Fire  
@@ -1143,7 +1143,7 @@ Prerequisites:
 Range: Short  
 Targets: 1 Square  
 Cost: 10 MP  
-Effect: You and all allies in the same square regain HP equal to a 2 ten-sided die rolls.  
+Effect: You and all allies in the same Square regain HP equal to a 2 ten-sided die rolls.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch II  
@@ -1199,7 +1199,7 @@ Range: Short
 Targets: 1 Ally  
 Trigger: Target ally takes any damage  
 Cost: None  
-Effect: You move to the same square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
+Effect: You move to the same Square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Force II  
@@ -1210,7 +1210,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 5 MP  
 Damage: x2 (Physical)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one square.  
+Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks. 
 
 #### Kinetic Pummeling II  
@@ -1218,7 +1218,7 @@ Spell [Careful]
 Action: Major  
 Prerequisites: [Kinetic Pummeling](#kinetic-pummeling)  
 Range: Short  
-Targets: 2 adjacent squares  
+Targets: 2 adjacent Squares  
 Cost: 14 MP (Careful 10 MP)  
 Damage: x2 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
@@ -1242,7 +1242,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Square  
 Cost: 6 MP (Upkeep 1)  
-Effect: While standing in the affected square, you (and only you) gain an amount equal to your [Hero Tier](#hero-tier) to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
+Effect: While standing in the affected Square, you (and only you) gain an amount equal to your [Hero Tier](#hero-tier) to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1462,7 +1462,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP  
-Effect: You move to the target’s square. You must be able to move normally to use this Ability.  
+Effect: You move to the target’s Square. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
 #### Trap Ward  
@@ -1504,7 +1504,7 @@ Attack
 Action: Major  
 Prerequisites: [volley](#volley)  
 Range: Medium  
-Targets: 1 square  
+Targets: 1 Square  
 Cost: 9 MP  
 Damage: x2 (Physical)  
 Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
@@ -1645,7 +1645,7 @@ When you successfully kill or knock out a foe, your next Attack is made at Boon 
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
 #### Dash  
-When you move as a Major action, you can choose to move two squares instead of one.
+When you move as a Major action, you can choose to move 2 Squares instead of one.
 
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
@@ -1668,10 +1668,10 @@ When you target creatures with an Augment, all affected gain [Shield](#shield-x)
 After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
 * Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
 * Increase the target’s Physical and Mental Defense by your Hero Tier.
-* The target can move an extra square when making default movements. (This does not affect Abilities that involve movement.)
+* The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
 
 #### Hit and Run  
-Once per turn, when you use a melee range Attack, you can move one square as part of the Attack. You can do this before or after making the Attack.
+Once per turn, when you use a melee range Attack, you can move one Square as part of the Attack. You can do this before or after making the Attack.
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
@@ -1727,7 +1727,7 @@ When you place a [Ward](#ward) on an ally that corresponds to their Elemental we
 If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
 
 #### Spell Sniper  
-If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one square.
+If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one Square.
 
 #### Spell Strike  
 If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
@@ -1735,7 +1735,7 @@ If you successfully strike with a Spell Ability with your Major Action, you may 
 
 #### Superior Scanner  
 When you use a Scan Ability, choose one of the following benefits.
-* You automatically scan squares instead of individuals, simultaneously learning about all creatures in that square as well as checking for invisible creatures and objects in that square.
+* You automatically scan Squares instead of individuals, simultaneously learning about all creatures in that Square as well as checking for invisible creatures and objects in that Square.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 
@@ -1744,7 +1744,7 @@ You are able to sense and identify wards placed by enemies accurately.
 Special: This Lesson costs 3 XP.
 
 #### Wide Ward  
-When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
+When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one Square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 ------------
 # Chapter 8: Talents
@@ -1772,7 +1772,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your [Hero Tier](#hero-tier).
   * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully dealing Earth damage allows you to move the target one square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
+  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range.  
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
 * Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
@@ -1959,8 +1959,8 @@ Between your turns, you have one Counter Action. Some Abilities allow you to use
 
 ## Moving and Positioning
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
-Combat is broken up into zones. A combat zone should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several zones. An open field would just be an effectively infinite number of zones that characters can move through freely. Multiple creatures can occupy a single zone, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same zone.  
-Characters can (usually) move to any adjacent zones by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
+Combat is broken up into Squares. A combat Square should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same Square.  
+Characters can (usually) move to any adjacent Squares by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
 ### Impact 
 To make an offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
@@ -1974,7 +1974,7 @@ During a chase, exact position doesn’t necessarily matter as much as distance 
 ### Endurance
 A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
 At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
-If your Endurance score goes negative, you lose that much HP every time you move a square of your own volition.
+If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition.
 
 ### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
@@ -2087,12 +2087,12 @@ This Condition makes you immune to terrain effects.
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
 
 #### Prone  
-Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a square while Prone costs a major action.  
+Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
-Provoke overrides [Taunt](#taunt); any enemies you Provoke will strike you regardless of being in a square with an ally with Taunt.  
+Provoke overrides [Taunt](#taunt); any enemies you Provoke will strike you regardless of being in a Square with an ally with Taunt.  
 This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
 
 #### Rooted
@@ -2108,13 +2108,13 @@ You have a barrier or defense active that takes damage for you. While you have a
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
 #### Slowed
-You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different square.
+You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
 
 #### Taunt
-If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect squares instead of targets can still affect your allies as normal.
+If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect Squares instead of targets can still affect your allies as normal.
 
 ------------
 # Appendix A: Optional Rules
@@ -2178,7 +2178,7 @@ You can manipulate objects from a distance. This can be due to magical or psychi
 Granted By: Kinetic Dart
 
 #### Light  
-You can generate light. This can be a radiant spell, carrying a flashlight, or something similar. If the light comes from a device, it can be assumed to always have fuel. You can cause the light to radiate outward, in which case it illuminates squares all around you out to Close range (about 20 feet), or to shine out like a cone or flashlight, in which case it illuminates squares in a direction out to Long range (about 60 feet). This light does not penetrate magical darkness.  
+You can generate light. This can be a radiant spell, carrying a flashlight, or something similar. If the light comes from a device, it can be assumed to always have fuel. You can cause the light to radiate outward, in which case it illuminates Squares all around you out to Close range (about 20 feet), or to shine out like a cone or flashlight, in which case it illuminates Squares in a direction out to Long range (about 60 feet). This light does not penetrate magical darkness.  
 Granted By: Elemental Attunement (Light)
 
 #### Mend  
