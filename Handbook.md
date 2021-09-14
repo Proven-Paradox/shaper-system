@@ -308,7 +308,7 @@ Utilities are described in more detail in Chapter 9.
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character, you choose three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
+Abilities represent powers or moves your character is able to do, usually in combat. When you first create a characterstart with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
 
 ## Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary):
