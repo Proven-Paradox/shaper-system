@@ -314,7 +314,6 @@ Abilities represent powers or moves your character is able to do, usually in com
 > <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
 > <div align="center">The main thing to keep in mind is that Squares are larger than in most systems and can have multiple entities in each Square. So for example, anything that targets a Square targets every creature in that Square.</div>
 > <div align="center">=!=!=!=!=  </div>
-</div>
 
 ## Reading Abilities
 Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary):
