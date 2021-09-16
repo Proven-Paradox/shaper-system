@@ -398,7 +398,6 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 Unlike the previous tracks described, the regen/degen track has no limit aside from what is mentioned in the Ability description. At [Round End](#round-end) you gain or lose HP equal to your value on the track, and then move one point closer to 0. Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.  
 > For example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
 
-
 ------------
 # Chapter 5: List of Abilities
 ## Tier 0
@@ -413,7 +412,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Effect: You grant the ally Cover. If you and the target are in the same Square, targetted ally cannot be damaged and is excluded from all harmful area of effect Abilities. If you are incapacitated, your ally loses Cover.  
+Effect: As long as you are in the same Square at the target and, you give that target [Protection](#protection). If you fall unconscious at any point, this Ability ends.
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -649,8 +648,7 @@ Range: Melee
 Targets: 1 ally  
 Cost: None  
 Duration: 1 round  
-Effect: This functions the same as [Cover](#cover), and in addition grants you Shield equal to your Vitality.  
-You can use this Ability on yourself, in which case you only gain the Shield.    
+Effect: As long as you are in the same Square at the target and, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
@@ -1206,8 +1204,9 @@ Prerequisites: [Guard](#guard)
 Range: Short  
 Targets: 1 Ally  
 Trigger: Target ally takes any damage  
-Cost: None  
-Effect: You move to the same Square as the targetted ally, provide them with Cover, and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. The Cover produced this way lasts until the beginning of your next turn and requires you be in the same space as the targetted ally.  
+Cost: None
+Duration: 1 round    
+Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attacks for this turn. The Protection produced this way lasts until the beginning of your next turn and requires you be in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Force II  
@@ -2099,6 +2098,9 @@ You are invisible or otherwise very difficult to see, which makes you extremely 
 #### Prone  
 Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
+
+#### Protection
+A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
