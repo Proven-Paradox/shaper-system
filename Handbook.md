@@ -400,6 +400,7 @@ Unlike the previous tracks described, the regen/degen track has no limit aside f
 
 ------------
 # Chapter 5: List of Abilities
+
 ## Tier 0
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
@@ -412,7 +413,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square at the target and, you give that target [Protection](#protection). If you fall unconscious at any point, this Ability ends.
+Effect: As long as you are in the same Square at the target and haven't been knocked out, you give that target [Protection](#protection).
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -464,7 +465,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy or ally  
+Targets: 1 enemy  
 Cost: None  
 Damage: x0 (Physical)  
 Effect: If this Attack succeeds, move your target one Square.  
@@ -475,10 +476,10 @@ Attack/Spell
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy who has [grabbed](#grab) you.  
+Targets: 1 enemy who has [Grabbed](#grab) you.  
 Cost: None  
 Damage: 0  
-Effect: You and the opponent who has grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is higher, you break your opponent's grip and are no longer grabbed.  
+Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is higher, you break your opponent's grip and are no longer grabbed.  
 
 ## Tier 1
 
