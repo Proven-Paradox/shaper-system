@@ -816,7 +816,7 @@ Trigger: The targeted enemy fails on an Offense attempt.
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
-Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
+Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Scan  
 Auxiliary [Careful]  
@@ -828,13 +828,13 @@ Cost: 1 MP (Careful 0 MP)
 Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 If you spend your major action while using this Ability, you remove the MP cost entirely.  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.  
 Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
+You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.   
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
-Attack  [Careful]  
-Action: Major (and Minor)  
+Attack [Careful]  
+Action: Major  
 Prerequisites: None  
 Range: Long  
 Targets: 1 enemy  
@@ -860,7 +860,7 @@ Action: Major
 Prerequisites: None  
 Range: Short  
 Targets: 1 enemy  
-Cost: 3 MP  
+Cost: 4 MP  
 Damage: x3 (Physical)  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
@@ -871,9 +871,9 @@ Action: Major
 Prerequisites: [Shoot](#shoot)  
 Range: Long  
 Targets: 1 enemy  
-Cost: 3 MP  
+Cost: 4 MP  
 Damage: x2 (Physical)  
-Effect: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
+Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#rooted) until your next turn.
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -881,7 +881,7 @@ Attack
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1  enemy  
+Targets: 1 enemy  
 Cost: 2 HP  
 Damage: x2 (Physical)  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
@@ -914,9 +914,9 @@ Action: Major
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
 Targets: 2 enemies  
-Cost: 2 MP  
+Cost: 3 MP  
 Damage: x1 (Physical)  
-Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit on either, in addition to taking damage, they are knocked [Prone](#prone). After using this Attack, you are no longer grabbing your original target.
+Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the target [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
@@ -928,7 +928,7 @@ Targets: Self
 Cost: 5 MP  
 Duration: Until the end of your next action  
 Cooldown: 3 rounds  
-Effect: You are [Obscured](#obscured) for the duration. If you are targetted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
+Effect: You are [Obscured](#obscured) for the duration. If you are targeted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
 When you use this Ability, you may also move 1 Square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what Square you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
@@ -965,7 +965,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 4 MP  
 Damage: x1 (Physical)  
-Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
+Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 #### Ward  
 Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
@@ -1379,7 +1379,7 @@ Description: Anything that does lingering sky damage. This can be a thunder inca
 
 #### Shoot II  
 Attack [Careful]  
-Action: Major (and Minor)  
+Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Long  
 Targets: 1 enemy  
