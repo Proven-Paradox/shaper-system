@@ -514,7 +514,7 @@ Cost: 2 MP
 Duration: None  
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
-* Increase the target along all Buff Tracks by one. You can only increase the value up to 0.
+* Increase the target along both Buff Tracks by one. You can only increase the value up to 0.
 * Increase the target’s [Regen/Degen](#the-regendegen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
@@ -529,7 +529,7 @@ Damage: 0
 Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoked) by you for one turn.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
-Description: Draw an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
+Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Dodge  
 Auxiliary  
@@ -542,7 +542,7 @@ Cost: None
 Effect: Negate the Ability that triggered this Counter.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.
 
-> This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects, such as Curses.
+> This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects (such as Curses).
 
 #### Double Strike  
 Attack   
@@ -558,14 +558,14 @@ Description: A pair of quick strikes. This could be striking with a pair of dagg
 #### Elemental Blast  
 Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
-Prerequisites: [Elemental Lance](#elemental-Lance)  
+Prerequisites: [Elemental Lance](#elemental-lance)  
 Range: Short  
 Targets: 1 Square  
 Cost: 5 MP 
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
-Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
+Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
 #### Elemental Lance  
 Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
@@ -703,7 +703,7 @@ Range: Medium (Careful: Long)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.  
-If you also use your minor action increase the healing to two ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
+If you also use your minor action increase the healing to two ten-sided die rolls and this Ability's range increases to Long.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -742,12 +742,12 @@ Description: This can represent telekinetically picking a target up and throwing
 Spell [Careful]  
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
-Range: Short  
-Targets: 2 adjacent Squares  
+Range: Medium  
+Targets: 1 Square  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
-Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
+Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
 
 #### Mobile Strike  
 Attack [Overload]  
