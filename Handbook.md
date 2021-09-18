@@ -1012,7 +1012,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 10 MP   
 Cooldown: 3 rounds  
-Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab) or [Rooted](#rooted) or similarly restrained, and those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would other obstructions.  
+Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#rooted), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
 #### Carry  
@@ -1059,7 +1059,7 @@ Targets: 1 enemy
 Cost: 0 MP (Overload +3 MP/7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
-This Ability also [Provokes](#provoked) its target.  
+On hit, this Ability also [Provokes](#provoked) its target.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
@@ -1070,9 +1070,9 @@ Action: Major
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 5 MP (Upkeep 2 MP)  
+Cost: 6 MP (Upkeep 2 MP)  
 Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
-At the beginning of your turn you may choose to end Doom or attempt to maintain it. If you attempt to maintain it, you immediately pay the Upkeep cost, then repeat the Magic Offense roll against the target: if you miss, the spell immediately ends, though the damage done to the victim’s buff tracks remains until otherwise reversed. If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
+When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends (though the damage done to the victim’s buff tracks remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
@@ -1112,12 +1112,12 @@ You may only use an element that you have taken the corresponding [Elemental Att
 Description: This represents a variety of powerful, focused elemental attacks. This could be an advanced spell, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Elemental Strike  
-Attack [Elemental] ]Fire/Ice/Earth/Sky/Light/Dark]  
+Attack [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 5 HP  
+Cost: 7 HP  
 Damage: x3 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
@@ -1129,7 +1129,7 @@ Action: Major
 Prerequisites: None  
 Range: Short  
 Targets: One other ally in your Square, and an adjacent Square  
-Cost: 3 MP
+Cost: 5 MP
 Effect: You and the targeted ally move to the selected Square. You and the targeted ally must be able to move normally to use this Ability.  
 Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
@@ -1186,7 +1186,6 @@ Cost: 7 HP (Overload +3 HP)
 Damage: x3 (Physical)  
 Effect: If you pay the Overload cost and your [Impact](#impact) is at least 5, you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.
-
 
 #### Hold Fast  
 Auxiliary  
