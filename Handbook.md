@@ -1206,7 +1206,7 @@ Targets: 1 Ally
 Trigger: Target ally takes any damage  
 Cost: None
 Duration: 1 round    
-Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attacks for this turn. The Protection produced this way lasts until the beginning of your next turn and requires you be in the same space as the targeted ally.  
+Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Force II  
@@ -1224,11 +1224,11 @@ Description: This can represent telekinetically picking a target up and throwing
 Spell [Careful]  
 Action: Major  
 Prerequisites: [Kinetic Pummeling](#kinetic-pummeling)  
-Range: Short  
-Targets: 2 adjacent Squares  
-Cost: 14 MP (Careful 10 MP)  
+Range: Medium  
+Targets: 1 Square  
+Cost: 13 MP (Careful 10 MP)  
 Damage: x2 (Physical)  
-Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
+Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 10.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
 #### Lean In  
@@ -1240,7 +1240,7 @@ Targets: Self
 Trigger: You are hit by a single target Ability that has an [Impact](#impact) of at least 5  
 Cost: 4 HP, 2 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
-Description: You respond to a hard hit by tightening your defense.
+Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of 
 
 #### Leyline  
 Auxiliary  
@@ -1248,8 +1248,8 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Square  
-Cost: 6 MP (Upkeep 1)  
-Effect: While standing in the affected Square, you (and only you) gain an amount equal to your [Hero Tier](#hero-tier) to Mental Offense, Physical Offense, Mental Defense, and Physical Defense.  
+Cost: 6 MP (Upkeep 1 MP)  
+Effect: While standing in the affected Square, you (and only you) increase your Mental Offense, Physical Offense, Mental Defense, and Physical Defense by an amount equal to your [Hero Tier](#hero-tier). 
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1262,7 +1262,7 @@ Range: None
 Targets: Self  
 Cost: 3 HP  
 Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting personal shields to your weapons, and similar ways of exceeding your normal capacity.
+Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal capacity.
 
 #### Mental Shield
 Auxiliary  
@@ -1348,7 +1348,7 @@ Range: Melee
 Targets: 1 enemy  
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 6 MP  
-Damage: x2 (Physical)  
+Damage: x3 (Physical)  
 Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
 Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
@@ -1394,7 +1394,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 4 MP  
-Effect: You regain health equal to two times your Vitality.  
+Effect: You regain health equal to 2 times your [Vitality](#vitalitycapacity).  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
 #### Shieldshatter  
@@ -1438,10 +1438,10 @@ Range: Short
 Targets: 1 enemy  
 Cost: 5 MP (Upkeep 1 MP)  
 Damage: x1  
-Effect: If this Spell succeeds, you [grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
-Description: Holding a target using mental/technological means from a distance. This can be telekineticly grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
+Effect: If this Spell succeeds, you [Grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
+Description: Holding a target using mental/technological means from a distance. This can be telekinetically grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
 
->Note: You still cannot move if you grab a target using Suspend.
+>Note: You still cannot move if you Grab a target using Suspend.
 
 #### Sustain II  
 Auxiliary [Augment]  
@@ -1501,7 +1501,7 @@ Description: Anything that does lingering darkness damage. This can be a dark in
 #### Void Lance II 
 Spell  
 Action: Major  
-Prerequisites: [Void Lance](#voild-lance)  
+Prerequisites: [Void Lance](#void-lance)  
 Range: Long  
 Targets: 1 Enemy  
 Cost: 30 MP  
