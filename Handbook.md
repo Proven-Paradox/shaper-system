@@ -1634,10 +1634,10 @@ Lessons cost 5 XP unless an exception is listed.
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell. The damage increases by an amount equal to your Base Offense every time you increase in [Hero Tier](#hero-tier) (so Offense x 2 at Hero Tier 2, Offense x 3 at Hero Tier 3, and so on).
+* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell.
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain HP and MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your [Hero Tier](#hero-tier): the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
+When you strike a foe’s elemental weakness, you regain HP or MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your [Hero Tier](#hero-tier): the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
 When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
@@ -1655,10 +1655,10 @@ When you successfully kill or knock out a foe, your next Attack is made at Boon 
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
 #### Dash  
-When you move as a Major action, you can choose to move 2 Squares instead of one.
+When you move as a Major action, you can choose to move two Squares instead of one.
 
 #### Double Ward  
-When you use [Ward](#ward), you may choose to increase the cost to 3. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
+When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
 After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your [Hero Tier](#hero-tier): the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
@@ -1666,7 +1666,7 @@ After taking damage in place of an ally--for example, when using an Ability such
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
 Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
-Every additional instance of this Lesson costs 3 XP.
+Every instance of this Lesson costs 3 XP.
 
 #### First to Act  
 Increase your Initiative modifier by your [Hero Tier](#hero-tier). Also, you gain Boon +2 on Initiative rolls.
@@ -1783,7 +1783,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
-  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range.  
+  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
 * Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
@@ -1800,7 +1800,7 @@ If you ever reach zero HP, you cease regaining HP until you are given healing fr
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
 
 #### Flight  
-Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jetpack, or similar means of propulsion. You gain the Flight property.  
+Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the Flight property.  
 This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
 
 #### Healing Hands  
@@ -1822,7 +1822,7 @@ You hit so hard that you can knock your foes around without actively trying to. 
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
 
 #### Intuitive Aim
-You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesses to determine your Physical Offense.
+You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesse to determine your Physical Offense.
 
 #### Lucky
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
@@ -1847,7 +1847,8 @@ You can tap the power of your spirit to sustain your spells. You may use your So
 
 ------------
 # Chapter 9: Utilities
-Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.   
+Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.  
+ 
 ## Skill-based Utilities
 Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
