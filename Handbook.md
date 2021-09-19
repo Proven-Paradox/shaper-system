@@ -1520,17 +1520,18 @@ Description: An unfocused barrage of projectiles covering a small area. This can
 
 ------------
 # Chapter 6: Skills
-Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though Skills may come up in combat at times.  
+Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though they may come up in combat at times.  
 
 Your maximum number of Skill Points that can be invested into any one Skill is equal to your [Level](#level) + 3.  
-Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
-Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocketwatch or a cut jewel you’ve found, make a Craft check.  
 Each skill has two associated Attributes. All skills of that type add those two Attributes in addition to any skill points that have been spent in those skills.  
+Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
+Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.   
 
 ## Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
 ## Skill List
+
 #### Acrobatics  
 Attributes: Strength, Finesse  
 Balancing, tumbling, contorting. Tasks that require precise movements as well as power.
@@ -1545,7 +1546,7 @@ Training and taming animals, sensing animal feelings, nonverbal communication wi
 
 #### Awareness  
 Attributes: Mind, Soul  
-Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such hidden perils.
+Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such perils.
 
 #### Composure  
 Attributes: Toughness, Soul  
@@ -1562,14 +1563,14 @@ Jewel cutting, wood carving, tinkering, and other precise work. This skill is fo
 #### Deception  
 Attributes: Mind, Heart  
 Lying, disguise, conning. This skill is called for any time you wish to mask the truth.  
-Alternatively, this skill can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing would be, the Arbiter may allow the player to roll a deception check to get a suggestion for what to say in a given situation.
+Alternatively, this skill can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing would be, the Arbiter may allow the player to roll a Deception check to get a suggestion for what to say in a given situation.
 
 #### Diplomacy  
 Attributes: Heart, Soul  
 Negotiation, decorum, sociability. This skill is used when a player wants to make a good impression in a social situation.  
 Alternatively, this skill can be used as a player aid. If a player happens to be less silver tongued than the character they are playing would be, the Arbiter may allow the player to roll a diplomacy check to get a suggestion for what to say in a given situation.
 
-#### Drive (TYPE)  
+#### Drive  
 Attributes: Finesse, Mind  
 Handling vehicles or mounts. Options include a mount, a car, a ship, a plane, or anything similar. 
 
@@ -1619,7 +1620,7 @@ Understanding everyday goings on the seedier side of life. This skill lets you k
 
 #### Survival  
 Attributes: Mind, Soul  
-Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow prey tracks, and provide food for themselves and others in the wilderness.
+Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow tracks, and provide food for themselves and others in the wilderness.
 
 #### Tech  
 Attributes: Finesse, Mind  
