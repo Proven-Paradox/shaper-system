@@ -1516,7 +1516,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 9 MP  
 Damage: x2 (Physical)  
-Description: An unfocused barrage of projectiles covering a small area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
+Description: An unfocused barrage of projectiles covering a small area. This can represent sustained sub-machine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 ------------
 # Chapter 6: Skills
