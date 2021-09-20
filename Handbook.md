@@ -806,6 +806,16 @@ Damage: x2 (Physical)
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
+#### Remedy  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 ally  
+Cost: 3 MP  
+Effect: Remove 1 [Status Ailment](#status-ailments) from the target.  
+Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
+
 #### Riposte  
 Attack  
 Action: Counter  
@@ -1330,6 +1340,16 @@ Damage: x3 (Light)
 Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your [Hero Tier](#hero-tier). If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
 
+#### Remedy II  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 ally  
+Cost: 3 MP  
+Effect: Remove 3 [Status Ailments](#status-ailments) from the target.  
+Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
+
 #### Retribution  
 Auxiliary  
 Action: Minor  
@@ -1808,6 +1828,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 * Increase the character’s Regeneration up to 0 immediately.
 * End a [Curse] effect on the target.
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
+* Remove one [Status Ailment](#status-ailments) from the target.
 
 #### Heartmage  
 You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
@@ -2075,6 +2096,7 @@ There is a point past which a character’s body can no longer endure injury, an
 That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
 ## Status Ailments
+These effects are lingering problems that hamper a characters' ability to function. These effects can be removed by Abilities and effects such as [Remedy](#remedy).
 
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
@@ -2108,7 +2130,8 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
-## Conditions
+## Disadvantages
+These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
 
 #### Distracted
 Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
@@ -2120,7 +2143,8 @@ You are not prepared to defend yourself from attacks properly. Attacks against y
 Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
 
-## Benefits
+## Advantages
+These are circumstances that give the character in question an advantage.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
