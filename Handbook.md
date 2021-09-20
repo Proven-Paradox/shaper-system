@@ -57,7 +57,7 @@ Assembled friends and enemies, welcome to the Story Shaper System. This is a tab
 
 ## Core Tenets
 These ideas are central to the design of Story Shaper. When designing the game these are the guiding concepts that I referred to for direction. Any time one designs a complex system of any sort, one will inevitably come to points where one must compromise something or cut some idea that had appeal at one point. These are the things I refused to negotiate or cut.  
-* **Speed.**  If a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her turn. (Of course, one may take considerably longer describing these actions.)  
+* **Speed.**  If a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her Turn. (Of course, one may take considerably longer describing these actions.)  
 * **Versatility.** The rules have been written to allow players to describe their actions however they want. This system is intended to be usable in any fantastic setting. (With some restrictions on which Abilities are available, it could also be used for a modern setting.) The question of what a character can do is answered in the rules, but how they do it is left to be filled in by players.  
 * **Depth**. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
@@ -387,7 +387,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 
 #### The Defensive Track
 * **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).
-* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your turn.
+* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.
 * **Level 1** - Offense rolls made against you have Bane -2.
 * **Level 0** - Normal, no changes.
 * **Level -1** - Offense rolls against you have Boon +2.
@@ -396,7 +396,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 
 #### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit aside from what is mentioned in the Ability description. At [Round End](#round-end) you gain or lose HP equal to your value on the track, and then move one point closer to 0. Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.  
-> For example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next turn he would recover 2 HP and move to 1 on the track.  
+> For example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next Round he would recover 2 HP and move to 1 on the track.  
 
 ------------
 # Chapter 5: List of Abilities
@@ -435,7 +435,7 @@ Targets: 1 enemy
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
 Effect: If this Attack succeeds, you grab your target.  
-While you are grabbing a target, you cannot move. At the beginning of your turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
+While you are grabbing a target, you cannot move. At the beginning of your Turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
 If you have been grabbed by someone, you cannot move. The person grabbing you can also cover your mouth to silence you if they wish.  
 Description: An untrained attempt to hold on to your target.
 
@@ -527,7 +527,7 @@ Targets: 1 enemy
 Cost: 1 HP  
 Damage: 0  
 Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
-If this Ability hits the target, they are [Provoked](#provoked) by you for one turn.  
+If this Ability hits the target, they are [Provoked](#provoked) by you for one Round.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
@@ -670,7 +670,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP (Upkeep 3 MP)  
-Effect: The target is able to move one Square with no action on their turn.  
+Effect: The target is able to move one Square with no action on their Turn.  
 Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
 
 #### Healing Burst  
@@ -692,7 +692,7 @@ Targets: 1 Ally
 Cost: 2 MP (Overload +4 MP)  
 Effect: The target regains HP equal to a ten-sided die roll.  
 If you pay the Overload cost, the healing increases to two ten-sided die rolls.  
-This Ability may only be used once per turn.  
+This Ability may only be used once per Turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -803,7 +803,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x2 (Physical)  
-Effect: This Attack has Boon +4. Until your next turn, enemy Abilities targeting you have Boon +4.  
+Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
@@ -873,7 +873,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x2 (Physical)  
-Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#rooted) until your next turn.
+Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#rooted) until your next Turn.
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -895,7 +895,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 2 MP  
 Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 5.  
-You may only use this Ability once per turn.  
+You may only use this Ability once per Turn.  
 Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike  
@@ -1162,7 +1162,7 @@ Targets: 1 Ally
 Cost: 8 MP (Overload +4 MP)
 Effect: The target regains HP equal to a 3 ten-sided die rolls.
 If you pay the Overload cost, the healing increases to 4 ten-sided die rolls.  
-This Ability may only be used once per turn.  
+This Ability may only be used once per Turn.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions.
 
 #### Healing Word II  
@@ -1206,7 +1206,7 @@ Targets: 1 Ally
 Trigger: Target ally takes any damage  
 Cost: None
 Duration: 1 round    
-Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next turn and requires you be conscious and in the same space as the targeted ally.  
+Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Force II  
@@ -1285,7 +1285,7 @@ Trigger: An opponent in melee range attempts to move away from you.
 Cost: 5 MP  
 Damage: x1  
 Duration: 1 round  
-Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next turn.  
+Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next Turn.  
 Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
@@ -1337,7 +1337,7 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Any Ability you use in the same turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Effect: Any Ability you use in the same Turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Riposte II  
@@ -1361,7 +1361,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x3 (Fire)  
 Duration: 1 round  
-Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
+Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next Turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
 
 #### Shocking Bolt  
@@ -1427,7 +1427,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 9 MP  
 Damage: x4 (Physical)  
-Effect: This Attack has Boon +3. You cannot use this Attack on a turn where you have moved.  
+Effect: This Attack has Boon +3. You cannot use this Attack on a Turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suspend  
@@ -1451,7 +1451,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 6 MP  
 Effect: The target advances increases 3 levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 8.  
-You may only use this Ability once per turn.  
+You may only use this Ability once per Turn.  
 Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike II  
@@ -1643,10 +1643,10 @@ When you strike a foe’s elemental weakness, you regain HP or MP equal to your 
 When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
 
 #### Anger  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in [Hero Tier](#hero-tier), the Offense bonus and Defense penalty both increase by 1. If you end your turn without having received damage since the end of your previous turn, you are no longer Enraged.
+Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in [Hero Tier](#hero-tier), the Offense bonus and Defense penalty both increase by 1. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
 
 #### Ataraxia  
-If you have not moved between the beginning of your previous turn and your current turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
+If you have not moved between the beginning of your previous Turn and your current Turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
 #### Bloodlust  
 When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
@@ -1661,7 +1661,7 @@ When you move as a Major action, you can choose to move two Squares instead of o
 When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Enduring Protector  
-After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your [Hero Tier](#hero-tier): the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next turn. You may only gain this Shield once per round.  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your [Hero Tier](#hero-tier): the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next Turn. You may only gain this Shield once per round.  
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -1675,13 +1675,13 @@ Increase your Initiative modifier by your [Hero Tier](#hero-tier). Also, you gai
 When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
 
 #### Healing Rush  
-After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next turn.
+After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next Turn.
 * Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
 * Increase the target’s Physical and Mental Defense by your Hero Tier.
 * The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
 
 #### Hit and Run  
-Once per turn, when you use a melee range Attack, you can move one Square as part of the Attack. You can do this before or after making the Attack.
+Once per Turn, when you use a melee range Attack, you can move one Square as part of the Attack. You can do this before or after making the Attack.
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
@@ -1689,7 +1689,7 @@ When casting a Healing Ability, you may roll an additional ten-sided die. Remove
 #### Layering Ward
 You can give allies additional layers of protection using [Ward](#ward) or other Abilities that produce Wards. You may target an ally already affected by your Ward, allowing that Ward to affect an additional incoming Ability before fading. Your Wards have a maximum of 3 attacks.
 
-For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
+For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
 
 #### Lingering Provocation  
 Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
@@ -1706,10 +1706,10 @@ Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance w
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
 
 #### Masochism  
-Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
+Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
 
 #### Overcharge  
-If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next turn.
+If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
 
 #### Pickup  
 When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your [Hero Tier](#hero-tier): the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
@@ -1722,7 +1722,7 @@ Once per round, increase any HP restoration you receive by half.
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target is [Rooted](#rooted) until your next turn.
+* Your target is [Rooted](#rooted) until your next Turn.
 
 #### Resilient Protector  
 When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
@@ -1734,10 +1734,10 @@ When you kill or knock out a foe, increase your [Offensive Track](#the-offensive
 When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element.
 
 #### Siege Fighter  
-If you have not moved between the beginning of your previous turn and your current turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
+If you have not moved between the beginning of your previous Turn and your current Turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
 
 #### Spell Sniper  
-If you have not moved between the beginning of your previous turn and your current turn, the range of any spell you cast increases by one Square.
+If you have not moved between the beginning of your previous Turn and your current Turn, the range of any spell you cast increases by one Square.
 
 #### Spell Strike  
 If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
@@ -1782,7 +1782,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your [Hero Tier](#hero-tier).
   * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this turn, and after using it you cannot willingly move afterward until your next turn.
+  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
   * Dark - Successfully dealing Dark damage heals you for half the damage done.
 * Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
@@ -1792,7 +1792,7 @@ Note that to gain these benefits, the damage must be done by you personally. If 
 You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
 
 #### Everlasting  
-At the [Round End](#round-end) of every turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
+At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
 
 If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
@@ -1944,31 +1944,31 @@ You are able to reduce the injuries you take when falling by half. This might re
 
 ------------
 # Chapter 10: Combat
-Combat is frequently part of an exciting story. While not every game needs combat (and if you're playing a game that's not going to have any you may skip this chapter), many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
+Combat is frequently part of an exciting story. While not every game needs combat, many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
 
 ## Surprise/Ambush
-The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat, nor can it make reactions during the first round.
+The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat and is treated as [Flat Footed](#flat-footed).
 
 ## Time in Combat
-The flow of strikes and parries, spells and counterspells, and so on has to be tightly organized to make sense. As with most turn based games, these are organized into rounds and turns. Each set of actions a character takes constitutes that character’s “turn”. A set of everyone taking their turn is called a “round” and represents approximately 10 seconds in game. Each round is broken down into three phases.
+Actions in combat are organized into Rounds and Turns. Each set of actions a character takes constitutes that character’s Turn. A set of everyone taking their Turn is called a Round and represents approximately 10 seconds in game. Each Round is broken down into three phases.
 
 ### Round Start
-At the start of the round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
+At the start of the Round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
 
 ### Initiative
 Most combat takes place in the second phase, Initiative.  
-Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the Initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a turn.  
+Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the Initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
-You may choose to delay your turn if you like. When your turn comes, you simply declare who you want your turn to come after instead. On the next round, your initiative order returns to where it originally was.
+You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
 
 ### Round End
-At the end of the round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the round end, unique to each character.
+At the end of the Round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the Round end, unique to each character.
 
 ### Taking a Turn
-When your turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your turn; you’re not required to use them.  
-Between your turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.
+When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
+Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.
 
-> When it’s not your turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your turn during your friends’ actions means the game will be faster and more fun for everyone.
+> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
 
 ## Moving and Positioning
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
@@ -1986,7 +1986,7 @@ During a chase, exact position doesn’t necessarily matter as much as distance 
 
 ### Endurance
 A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
-At the end of every round during a chase, everyone involved that moved that round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next turn.  
+At the end of every Round during a chase, everyone involved that moved that Round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Turn.  
 If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition.
 
 ### Actions During Chases
@@ -2127,7 +2127,7 @@ Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense 
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
 
 #### Stagger  
-Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one round (or six seconds outside of Initiative).
+Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
 #### Taunt
 If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect Squares instead of targets can still affect your allies as normal.
