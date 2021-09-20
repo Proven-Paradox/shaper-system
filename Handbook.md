@@ -1863,7 +1863,8 @@ In addition, you are unaffected by low or no light conditions. This could repres
 #### Eidetic Memory
 Increase your Lore modifier by 1.
 You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
-> Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and handwaving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
+
+> Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and hand-waving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
 
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
@@ -1880,7 +1881,6 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
-
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
 In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
@@ -1889,7 +1889,9 @@ In addition, you can assume you have connections in any non-trivial settlement y
 Increase your Lore modifier by 1.  
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual seeking the answer to a single question that takes at least one minute and make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? (Powerful individuals tend be more difficult to learn about through this feature.)
+
 ## Other Utilities 
+
 #### Hover  
 XP Cost: 2  
 You can fly up to five feet off the ground.  
