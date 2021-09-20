@@ -2005,16 +2005,16 @@ Recovery is a Major Action, and you cannot use your Minor Action to do anything 
 
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
-In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rulebook will describe the rules that govern this grim part of the hero’s journey.
+In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rule book will describe the rules that govern this grim part of the hero’s journey.
 
 ## What are HP?
-HP (hit points or health points, both work) are an extremely abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could (and I think SHOULD) take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
+HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
 
 ### What does it mean to lose HP?
-Losing HP does not necessarily mean being struck by a weapon or spell. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.
+Losing HP does not necessarily mean being struck by a weapon or attack. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.
 
 ## What types of damage are there?
-Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties, or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
+Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
 The damage types are as follows:
 * *Physical* - Slashing, piercing, bashing. This is by far the most common type of damage.
@@ -2045,26 +2045,25 @@ As always, these methods of describing an injury are just suggestions. Players a
 There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to reroll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
-* Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries. These are described individually. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
-* Fatigue. Circumstance forces a character to march throughout the night, forgoing food, water, and rest, through driving rain and cold and without shelter. This will wear on the character, and the compounding fatigue that builds up over time of neglect is represented with injuries.
+* Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries, at the Arbiter's preference. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
+* Fatigue. Circumstance forces a character to march throughout the night, forgoing food, water, and rest, through driving rain and cold and without shelter. This will wear on the character, and compounding fatigue is represented with injuries.
    * When going without sleep for a night, make an Endure check, difficulty 10. On a failure, you take a random injury. On a success, you soldier on, but the next night you have to go without sleep you repeat the check with +5 difficulty. This continues stacking until you sleep for at least six hours. Failing this check does not reset the difficulty; only sleep can do that.
-   * After two weeks without food, make an Endure check, difficulty 10. On a failure, you take an injury to strength, endurance, or dexterity. On a success, you can do without for a little longer. Every day spent without eating from here on requires another Endure check with +1 difficulty. This stacks until you get a good meal.
-   * After three days without water, make an Endure check, difficulty 10. On a failure, you take a random injury. On a success, you can do without for a little longer. Every day spent without water from here on requires another Endure check with +4 difficulty. This stacks until you get a drink.
+   * After two weeks without food, make an Endure check, difficulty 10. On a failure, you take an injury to Strength, Endurance, or Dexterity. On a success, you can do without for a little longer. Every day spent without eating from here on requires another Endure check with +1 difficulty. This stacks until you get a good meal. Failing a check does not reset the difficulty.
+   * After three days without water, make an Endure check, difficulty 10. On a failure, you take a random injury. On a success, you can do without for a little longer. Every day spent without water from here on requires another Endure check with +4 difficulty. This stacks until you get a drink, and failure does not reset the difficulty.
    * Every day spent without shelter from severe rain, cold, or heat requires an Endure check, difficulty determined by the Arbiter based on the conditions. Failure results in an injury appropriate to the situation.
-
 
 These are just a few examples, and the Arbiter can likely come up with more in their games.
 
 ## How can I Recover?
-An interesting question, and there are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options (beyond healing Abilities, of course).
+There are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options (beyond healing Abilities, of course).
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
    * This recovery method emphasizes action, enables risk taking, and encourages blowing everything quickly. This will result in faster battles since everyone is going full tilt at all times. Whatever happens will happen fast. 
-* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals two additional injuries during their rest. 
+* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours straight regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals one additional injury during their rest. 
    * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.
 * *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this dangerous format, resting for eight hours regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
-* *Action Movie* - Low HP, High Injury, Instant Recovery. And now for something completely different. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Arbiter's choice.
+* *Action Movie* - Low HP, High Injury, Instant Recovery. In this format, all characters’ maximum HP are halved. When they hit zero HP they still receive an injury as normal, but instead of going unconscious they instead regain their maximum HP. Use the same injury rules as either Heroic Pulp or Middle Ground recovery, Arbiter's choice.
    * This mode has a specific purpose: to capture the action movie brawl. Two opponents square off, striking at each other for a period until eventually one gets an advantage and lands a powerful series of blows on the other. There’s a painful sound as the scene slows down, showing the loser of the exchange reeling in pain while the victor gets a moment to gloat. The loser then refocuses and continues the fight, but a bit shakier, until one or the other cannot stand any longer.
 
 These are recommendations that should provide a good variety, suitable to most types of games.
@@ -2073,9 +2072,10 @@ These are recommendations that should provide a good variety, suitable to most t
 There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot-centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
 
 ### Is Resurrection a Thing?
-That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops the bad guys from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
+That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
-## Conditions and Properties
+## Status Ailments
+
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
@@ -2085,28 +2085,8 @@ Partially frozen or dealing with a lingering cold. This reduces your Physical De
 #### Crush X
 Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
 
-#### Distracted
-Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
-
 #### Drained  
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
-
-#### Flat Footed
-You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
-
-#### Flight  
-You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to terrain effects.
-
-#### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
-
-#### Prone  
-Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
-You may fall Prone or stand up as a minor action. 
-
-#### Protection
-A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
@@ -2119,9 +2099,6 @@ For some reason, you cannot move. This might mean being tied down, having an inj
 #### Scorch X  
 On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
 
-#### Shield X
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stacks.
-
 #### Shock X
 Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
@@ -2130,6 +2107,33 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
+
+## Conditions
+
+#### Distracted
+Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
+
+#### Flat Footed
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
+
+#### Prone  
+Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
+You may fall Prone or stand up as a minor action. 
+
+## Benefits
+
+#### Flight  
+You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
+This Condition makes you immune to terrain effects.
+
+#### Obscured  
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
+
+#### Protection
+A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.
+
+#### Shield X
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stacks.
 
 #### Taunt
 If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect Squares instead of targets can still affect your allies as normal.
