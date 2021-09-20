@@ -1957,15 +1957,15 @@ At the start of the Round, everyone pays the Upkeep of any Abilities that have o
 
 ### Initiative
 Most combat takes place in the second phase, Initiative.  
-Before combat can begin, everyone needs to know the order that combat is happening in. This is determined by the Initiative roll. Everyone simply rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
+Before combat can begin, everyone needs to know the turn order. This is determined by the Initiative roll. Everyone rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
 You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
 
 ### Round End
 At the end of the Round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the Round end, unique to each character.
 
-### Taking a Turn
-When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action to use. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
+### Actions
+When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
 Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
@@ -1976,17 +1976,19 @@ Combat is broken up into Squares. A combat Square should generally be somewhere 
 Characters can (usually) move to any adjacent Squares by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
 ### Impact 
-To make an offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s defense score, Physical Defense for Attacks and Mental Defense for Spells (though there are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+
+> Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
 
 ## Chasing rules
-Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. In future the individual or group being chased will be called the Quarry, while the one(s) doing the chasing will be the Hunter.
+Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
 
 ### Position During Chases
-During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would cause you to move allows you to instead increase (or decrease) your Position by 1.
+During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would normally cause you to move a Square instead allows you to instead increase (or decrease) your Position by 1.
 
 ### Endurance
 A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
-At the end of every Round during a chase, everyone involved that moved that Round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Turn. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Turn.  
+At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
 If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition.
 
 ### Actions During Chases
