@@ -1657,7 +1657,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 * If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell.
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain HP or MP equal to your Mind, up to a maximum equal to the HP or MP used to perform the striking Ability. This benefit increases as you raise your [Hero Tier](#hero-tier): the recovery increases by an amount equal to your Mind (so Mind x 2 at Hero Tier 2, Mind x 3 at Hero Tier 3, and so on). This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
+When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
 When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
@@ -1680,16 +1680,13 @@ When you move as a Major action, you can choose to move two Squares instead of o
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
-#### Enduring Protector  
-After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your Toughness. This benefit increases as you raise your [Hero Tier](#hero-tier): the Shield increases by an amount equal to your Toughness each Hero Tier (so Toughness x 2 at Hero Tier 2, Toughness x 3 at Hero Tier 3, and so on). This Shield lasts until the beginning of your next Turn. You may only gain this Shield once per round.  
-
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
 Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
 Every instance of this Lesson costs 3 XP.
 
 #### First to Act  
-Increase your Initiative modifier by your [Hero Tier](#hero-tier). Also, you gain Boon +2 on Initiative rolls.
+Increase your Initiative modifier by twice your [Hero Tier](#hero-tier). Also, you gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
 When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
@@ -1715,7 +1712,7 @@ For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ab
 Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
 
 #### Long Arm of Justice  
-Increase the range at which you Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
+Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
@@ -1726,17 +1723,17 @@ Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance w
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
 
 #### Masochism  
-Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn. If you successfully hit with an Ability that costs HP, you deal that HP cost as extra damage (after the Multiplier is applied).
+Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
 
 #### Overcharge  
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
 
 #### Pickup  
-When you heal an ally from 0 HP, add twice your Heart to the healing done. This benefit increases as you raise your [Hero Tier](#hero-tier): the additional healing increases by an amount equal to your twice your Heart each Hero Tier (so Heart x 4 at Hero Tier 2, Heart x 6 at Hero Tier 3, and so on).
-
+When you heal an ally from 0 HP, add twice your Level to the healing done.
 
 #### Quick Healer  
-Once per round, increase any HP restoration you receive by half.  
+Once per round, increase any HP restoration you receive by half. 
+ 
 > Remember that all fractions round down. If you haven't used your healing by [Round End](#round-end) you may improve the healing from [the Regen/Degen Track](#the-regendegen-track) or the [Everlasting](#everlasting) Talent.
 
 #### Relentless  
@@ -2157,7 +2154,7 @@ You are invisible or otherwise very difficult to see, which makes you extremely 
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.
 
 #### Shield X
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stacks.
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.
 
 #### Taunt
 If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect Squares instead of targets can still affect your allies as normal.

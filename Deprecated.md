@@ -640,3 +640,7 @@ If you fail in this Stealth check, you lose one point of Concealment.
 
 #### Chase Participation after Losing Them
 If you have allies that are still being chased, or for other reasons want to continue harrying the Hunters, you may continue in the chase, unable to be targeted by the Hunters for any reason. You continue in the chase like this, keeping track of your Position as normal. At the end of every round, you must make a Stealth check against the Lead Hunter’s Awareness check or be spotted and lose half of your concealment. If at any point the Lead Hunter’s Momentum score exceeds your Concealment score, you are automatically spotted and must participate in the chase normally again.
+
+
+#### Enduring Protector  
+After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your [Vitality](#vitalitycapacity).
