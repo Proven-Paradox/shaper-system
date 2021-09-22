@@ -54,7 +54,7 @@
 Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game (TTRPG). 
 
 ## What is a TTRPG?
-This is a difficult question to answer succinctly because a TTRPG can be a lot of things. The genre's roots are war game and swords-and-sorcery stories, but games can be in any setting or genre. One could tell a blood soaked tale of violence and war, a story of political intrigue and skullduggery, an easy-going story about a strange world, or whatever else one wants. At its core, the goal is for people to get together and craft an improvised story together.  
+This is a difficult question to answer succinctly because a TTRPG can be a lot of things. The genre's roots are war game and swords-and-sorcery stories, but games can be in any setting or genre. One could tell a blood soaked tale of violence and war, a story of political intrigue and skulduggery, an easy-going story about a strange world, or whatever else one wants. At its core, the goal is for people to get together and craft an improvised story together.  
 To play a TTRPG, a group needs any number of Players who will take on the roles of heroes (or villains) in the story, as well as one participant playing the role of Arbiter, controlling the setting and the characters the heroes interact with.
 
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.  
