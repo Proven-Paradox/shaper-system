@@ -2,6 +2,8 @@
 
 The Core Skills may determine whether or not a character survives a given situation. They can reflect some things about a characters’ personality, but are also important to consider from a mechanical standpoint. Not all skills have to be this way however. If allowed by the Arbiter, all characters start with 8 flavor skill points. You have half as many flavor skill points as regular ones. (Reminder that all fractions round down.) These can only be put into Skills that flesh out the character’s personality, reflecting hobbies or a trade that they have outside of their adventuring. Checks involving these skills may only come up rarely, and are not meant to solve real problems the character will face. The following list contains some examples, but by no means all of them. Players should talk with their Arbiter if something they think their character would want to be good at isn’t on this list.
 
+To add these default Flavor Skills to your character sheet, download the [Flavor Skills CS.xls file](https://github.com/Proven-Paradox/shaper-system/blob/main/Modules/Flavor%20Skills%20CS.xls) and copy/paste the contents into your character sheet's "Skills" tab.
+
 #### Academics (Type)  
 Attributes: Mind, Heart  
 Advanced knowledge about a specific subject, as well as the knowledge of how to handle oneself in academic spaces for the subject. For example, in a modern/sci-fi setting this could represent a degree from a university. In medieval settings, this could represent an unusual opportunity to learn more than average peasants. Examples of types include Literature, Mathematics, Computer Science, Psychology, ect.
