@@ -50,22 +50,36 @@
   - [Flavor Skills](#flavor-skills)
   - [Tricks](#tricks)
 ------------
-## Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game. (Don't worry too much about the "table" part of that; this system can be played online just as well.) This game is intended to facilitate improvisational storytelling. A group of however many players get together, each taking the role of a character in some fantastical story, while one person takes on the role of Arbiter, crafting the world and setting up a plot line. It's playing pretend, but with this book of rules deciding what happens during conflict and uncertainty. 
+# Chapter 0: Introduction
+Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game (TTRPG). 
+
+## What is a TTRPG?
+This is a difficult question to answer succinctly because a TTRPG can be a lot of things. The genre's roots are war game and swords-and-sorcery stories, but games can be in any setting or genre. One could tell a blood soaked tale of violence and war, a story of political intrigue and skullduggery, an easy-going story about a strange world, or whatever else one wants. At its core, the goal is for people to get together and craft an improvised story together.  
+To play a TTRPG, a group needs any number of Players who will take on the roles of heroes (or villains) in the story, as well as one participant playing the role of Arbiter, controlling the setting and the characters the heroes interact with.
 
 > Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.  
 
-## Core Tenets
-These ideas are central to the design of Story Shaper. When designing the game these are the guiding concepts that I referred to for direction. Any time one designs a complex system of any sort, one will inevitably come to points where one must compromise something or cut some idea that had appeal at one point. These are the things I refused to negotiate or cut.  
+### What is the Arbiter's role?
+It's easier to define the Arbiter's role by defining the two things they don't have control of in the story. First, the actions of the player characters (PCs). Second, the results of dice rolls. Everything else is up to the Arbiter. The Arbiter defines the setting the story takes place in, what's happening there, and all the non-player characters (NPCs). The Arbiter also has last say in what happens if the written rules are unclear or don't cover a given situation.
+
+> Being the Arbiter is a lot of work, requiring both planning as well as improvisation. It's also time intensive. But if one can fill the requirements and overcome the hurdles, it's also a lot of fun. 
+
+### What is the Player's role?
+Players in a TTRPG are invited to temporarily take on a different identity. A player starts by crafting a persona to take on during the game. While this book primarily concerns itself with defining what a given character can do, Players also define what their avatar looks like, how they behave, and what they do. 
+
+## What are some things that set Story Shaper System apart?
+These ideas are central to the design of Story Shaper. 
+
 * **Speed.**  If a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her Turn. (Of course, one may take considerably longer describing these actions.)  
-* **Versatility.** The rules have been written to allow players to describe their actions however they want. This system is intended to be usable in any fantastic setting. (With some restrictions on which Abilities are available, it could also be used for a modern setting.) The question of what a character can do is answered in the rules, but how they do it is left to be filled in by players.  
-* **Depth**. Story Shaper has been constructed to create deep mechanics at every step of the game. Choosing your character’s Attributes, Abilities, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
+* **Versatility.** The rules have been written to allow players to describe their actions however they want. This system is intended to be usable in any fantastic setting. (With some restrictions on which Abilities are available, it could also be used for a mundane setting.) The question of what a character can do is answered in the rules, but how they do it is left to be filled in by players.  
+* **Depth**. Choosing your character’s Attributes, Abilities, Lessons, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
 
 ## What you Need to Play
 ### Required:
-* A pair of 10 sided dice for each player (also called d10s).
+* A pair of 10 sided dice for each player (also called d10s)
 * A single 6 sided die for the entire group
-* Pencil and paper. 
+* Pencil and paper
+
 > Do NOT use pen or something you can’t easily erase for anything. Trust me.
 
 ### Recommended but not vital:
