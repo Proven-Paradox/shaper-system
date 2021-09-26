@@ -99,6 +99,19 @@ These ideas are central to the design of Story Shaper.
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
 
+###Some general rules  
+Here are a few general rules that we need to get out of the way, just so there is no confusion.  
+
+You count as your own ally. You can target yourself with anything that is listed to target allies.
+
+Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it should still be rounded down to a 13.  
+
+In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
+
+For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
+
+If a damage type is not listed, assume the damage to be physical.
+
 ## Rolling Dice
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
 
@@ -127,25 +140,13 @@ The unfavorable complement of Boon, Bane is sometimes imposed on a character whe
 
 Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane -4 on an attempt to repair a damaged mechanism. He must reroll any result above a 7. He rolls a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+* XU-808 has Bane -4 on an attempt to repair a damaged mechanism. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
 
 #### Combining Boon and Bane
 If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
 * Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
 * Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
-
-### Let's get this over with: Some general rules  
-Here are a few of the more fiddly rules that we need to get out of the way, just so there is no confusion.  
-
-You count as your own ally. You can target yourself with anything that is listed to target allies.
-
-Round down. If you ever have a fraction, just cut off the fractional bit entirely. Even if your result is (somehow?) 13.9, it should still be rounded down to a 13.  
-
-In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
-For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
-
-If a damage type is not listed, assume the damage to be physical.
 
 ------------
 # Chapter 2: Character Creation
