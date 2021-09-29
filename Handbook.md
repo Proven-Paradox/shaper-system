@@ -154,7 +154,7 @@ Before you can begin playing a game of Story Shaper, you have to know who (or wh
 The focus will be on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
 
 > Let's walk through the character creation process for two hypothetical characters to give an example as well as demonstrate a point.  
-> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.
+> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808, or XU for short.
 > Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.
 
 ## Step 1: Attributes
@@ -188,7 +188,8 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 After choosing your Attributes, you can determine your point stats.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
-* **SP:** SP stands for skill points. This will be elaborated upon further when we discuss skills, but for now the higher this number is, the more things you’ll be able to do outside of combat. You start with 16 skill points.
+ 
+> Both XU and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart 0 gets the same amount of MP, 24.
 
 ## Step 2-b: Offense/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foe's attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses, as follows.
@@ -196,48 +197,72 @@ These are modifiers to your attacks’ accuracy or your ability to avoid a foe's
 #### Physical Offense
 This broadly represents your ability to effectively attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
 
+> Our characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. Which is fine; they can simply create a character that doesn't use Physical Offense.
+
 #### Mental Offense
 This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.
+
+> With Mind 3 and Soul -1, XU and Marona have Mental Offense 2.
 
 #### Physical Defense
 This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to Physical Defense.
 
+> Both characters have 3 Toughness and 0 Finesse, so their Physical Defense starts at 13.
+
 #### Mental Defense
 Mental Defense enables you to mitigate damage you would otherwise take from energy attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to Mental Defense.
+
+> Both characters have Heart 0 and Soul -1. They start with Mental Defense at 9.
 
 ##### Defense Bonus
 Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense it will be listed as Physical Defense Bonus, while Mental Defense is listed as Mental Defense Bonus.
 
+> So for XU and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
+
 #### Initiative
-At the beginning of a dangerous encounter (usually but not always combat) you make an initiative roll. This determines the order in which characters act. You add your Finesse and Soul to initiative rolls.
+At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
 
 How one uses these attributes will be described in [Chapter 10](#chapter-10-combat).
+
+> Marona and XU have Finesse 0 and Soul -1, so their Initiative is -1.
 
 ## Step 3: Abilities
 The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being Level 1) for free as well as all Tier 0 Abilities.
 
-Some advice if you want to make a powerful character and are having trouble choosing your Abilities:
+Some advice if you are having trouble choosing your Abilities:
 * If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Soul dominant hero is going to want mental attacks.
 * That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
 * At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
 * It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
+> Eric considers what kind of things XU should be able to do in fights. He likes the idea of a lightning ray, so XU starts with the Elemental Dart Ability, taking the Sky version. He also wants XU to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
+> Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Dart with Sky.
+
 ## Step 4: Skills
-Next, you will distribute Skill Points. There’s more information on skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
+Next, you will distribute Skill Points. There’s more information on Skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
 
 Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
 * If you’re satisfied with your character’s representation but still have skill points remaining, consider coordinating with the other players. A given party would typically benefit from having all of their bases covered.
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
 
+> Eric considers XU Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU's primary function is as a researcher, and puts those two skills to maximum.
+> Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She also knows her DM likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> After adding in Attributes, the two characters have the following Skill checks:
+> Composure +6, Endure +7, Investigation +6, Lore +6 (Marona), Science +6 (XU-808)
+> All their other skills are done just with their Attributes.
+
 ## Step 5: Talent
 Finally, you choose one talent. Talents are described in full in Chapter 8; these are major changes that help define what your character is good at.
+
+> Eric looks over the available Talents for something that looks interesting. He spots Matter Over Mind and decides that could represent XU having energy shields.
+> Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Soul, she decides to use Matter Over Mind to cover her weak Mental Defense.
 
 ## Step 6: Elemental Properties
 **Note that this step is optional.** Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 
-> Note that there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in SSS are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
+> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in SSS are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
 
 ------------
 # Chapter 3: Improving your character
