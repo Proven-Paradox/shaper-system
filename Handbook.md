@@ -420,6 +420,8 @@ An Ability that can be improved if you add an additional cost. This represents p
 ### Upkeep
 Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
+Unless otherwise specified, you may only utilize a given Ability with Upkeep once. For example, you cannot affect multiple people with the [Haste](#haste) Ability by using it in subsequent turns.
+
 ## Buff Tracks
 These are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 
