@@ -8,7 +8,7 @@ Please keep in mind as you read through that these are **living documents**; cha
 
 This system is in the tabletop rules equivalent of an open beta test. I want you to take the rules I've made and run games with them. 
 
-If you're here as a player, you'll find everything you need (besides a pair of d10s) in the [Story Shaper Handbook]([Handbook](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md). This is where all the stuff a player would need to know is kept.
+If you're here as a player, you'll find everything you need (besides a pair of d10s) in the [Story Shaper Handbook](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md). This is where all the stuff a player would need to know is kept.
 
 If you're here as an Arbiter (this system's equivalent to GM, DM, ST, and the like) then your job is a little harder. There is currently no documentation for the Arbiter separate from the players'. You'll use the same rules as the players for the most part, but things about scenario design, dungeons, towns, settings--all of that is up to you. I want you to run your game, and tell me spots where you need more information. The next phase of this project is going to be writing a book that addresses what an Arbiter needs to run this system. In order to write that, I need feedback on the kinds of things Arbiters need. 
 
