@@ -14,7 +14,7 @@ If you're here as an Arbiter (this system's equivalent to GM, DM, ST, and the li
 
 ## LINKS
 
-The Official Story Shaper System Discord channel: discord.gg/ubefmR2bNh
+The Official Story Shaper System Discord channel can be found [here](https://discord.com/invite/ubefmR2bNh).
 
 The primary document in this repo is the [Handbook](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md). This is the rulebook which describes how to play.
 
