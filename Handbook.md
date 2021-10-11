@@ -1074,6 +1074,17 @@ Cooldown: 3 rounds
 Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#rooted), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
+#### Blood Strike  
+Spell  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 8 HP  
+Damage: x4 (Physical)  
+Effect: This Spell target's the opponent's Physical Defense rather than Mental Defense.  
+Description: A powerful and unusual melee-ranged Spell. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a melee weapon with spiritual power, or something similar.
+
 #### Carry  
 Attack  
 Action: Major  
