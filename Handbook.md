@@ -247,7 +247,7 @@ Here are some things to consider when distributing skill points:
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
 
 > Eric considers XU Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU's primary function is as a researcher, and puts those two skills to maximum.
-> Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She also knows her DM likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
 > After adding in Attributes, the two characters have the following Skill checks:
 > Composure +6, Endure +7, Investigation +6, Lore +6 (Marona), Science +6 (XU-808)
 > All their other skills are done just with their Attributes.
@@ -262,6 +262,7 @@ Finally, you choose one talent. Talents are described in full in Chapter 8; thes
 **Note that this step is optional.** Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 
+## Step 7: Starting items
 > Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in SSS are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
 
 ------------
@@ -355,7 +356,7 @@ Utilities are described in more detail in Chapter 9.
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do, usually in combat. When you first create a characterstart with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
+Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character they start with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
   
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>
 > <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
