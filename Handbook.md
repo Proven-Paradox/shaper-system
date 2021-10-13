@@ -46,9 +46,6 @@
   - [What are Injuries?](#what-are-injuries)
   - [How can I Recover?](#how-can-i-recover)
   - [How does Death Work?](#how-does-death-work) 
-- [Appendix A: Optional Rules](#appendix-a-optional-rules)
-  - [Flavor Skills](#flavor-skills)
-  - [Tricks](#tricks)
 ------------
 # Chapter 0: Introduction
 Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game (TTRPG). 
@@ -253,7 +250,7 @@ Here are some things to consider when distributing skill points:
 > All their other skills are done just with their Attributes.
 
 ## Step 5: Talent
-Finally, you choose one talent. Talents are described in full in Chapter 8; these are major changes that help define what your character is good at.
+Finally, you choose one talent. Talents are described in full in [Chapter 8](#chapter-8-talents); these are major changes that help define what your character is good at.
 
 > Eric looks over the available Talents for something that looks interesting. He spots Matter Over Mind and decides that could represent XU having energy shields.
 > Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Soul, she decides to use Matter Over Mind to cover her weak Mental Defense.
@@ -310,7 +307,7 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
 * At Levels 3, 8, 13, … the character increases their Physical or Mental Defense.
 * At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
-* At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
+* At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
 
 When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases Level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
 
@@ -337,22 +334,22 @@ Abilities represent things you can actively do, typically in combat. These can c
 
 Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
 
-Abilities are described in more detail in Chapter 4 and listed individually in Chapter 5.
+Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).
 
 ### Lessons
 Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
 
-Lessons are described in more detail in Chapter 7.
+Lessons are described in more detail in [Chapter 7](#chapter-7-lessons).
 
 ### Talents
 Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
-Talents are described in more detail in Chapter 8.
+Talents are described in more detail in [Chapter 8](#chapter-8-talents).
 
 ### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
-Utilities are described in more detail in Chapter 9.
+Utilities are described in more detail in [Chapter 9](#chapter-9-utilities).
 
 ------------
 # Chapter 4: Abilities
