@@ -48,7 +48,7 @@
   - [How does Death Work?](#how-does-death-work) 
 ------------
 # Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System. This is a tabletop role-playing game (TTRPG). 
+Assembled friends and enemies, welcome to the Story Shaper System (3S). This is a tabletop role-playing game (TTRPG). 
 
 ## What is a TTRPG?
 This is a difficult question to answer succinctly because a TTRPG can be a lot of things. The genre's roots are war game and swords-and-sorcery stories, but games can be in any setting or genre. One could tell a blood soaked tale of violence and war, a story of political intrigue and skulduggery, an easy-going story about a strange world, or whatever else one wants. At its core, the goal is for people to get together and craft an improvised story together.  
@@ -151,7 +151,9 @@ Before you can begin playing a game of Story Shaper, you have to know who (or wh
 The focus will be on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
 
 > Let's walk through the character creation process for two hypothetical characters to give an example as well as demonstrate a point.  
+> 
 > The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808, or XU for short.
+> 
 > Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.
 
 ## Step 1: Attributes
@@ -179,6 +181,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 * If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always beneficial.
 
 > Eric considers XU-808's Attributes. His Arbiter has given him five points to work with. He reasons that his robot character should have high Mind to represent their ability to calculate quickly as well as a strong memory, so he puts his Mind to 3. Being made of metal instead of skin, he also figures XU should be pretty tough as well, and adds the last 2 points to Toughness. He also has the option of taking a negative point, and reasons that his robot is relatively naive and also not a particularly spiritual being. He puts a negative point in Soul, and uses the extra point to increase his Toughness by one more step. After all this, XU-808's Attributes are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul -1, Heart 0.
+> 
 > Lydia does the same thing for Marona, also with five points to distribute. She expects to be using a lot of spells, so she focuses in her Mind to get a lot of MP and Offense to work with. She sets her Mind to 3. She's also expecting a lot of combat in her game, so she wants to give her character the best chance to survive it. Looking over her options, she decides the best way to do this is to increase her HP, so she puts the rest of her points into Toughness. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one she can afford to drop. She decides that the right answer would be Soul. She has ulterior motives (which we'll talk about later) but decides to justify it by framing her character as uninterested in religion and spirituality, as well as being a tad shallow. She adds the extra point to Toughness. Her final stats for her wizard are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul -1, Heart 0.
 
 ## Step 2-a: Point Stats
@@ -233,6 +236,7 @@ Some advice if you are having trouble choosing your Abilities:
 * It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
 > Eric considers what kind of things XU should be able to do in fights. He likes the idea of a lightning ray, so XU starts with the Elemental Dart Ability, taking the Sky version. He also wants XU to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
+> 
 > Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Dart with Sky.
 
 ## Step 4: Skills
@@ -244,15 +248,20 @@ Here are some things to consider when distributing skill points:
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
 
 > Eric considers XU Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU's primary function is as a researcher, and puts those two skills to maximum.
+> 
 > Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> 
 > After adding in Attributes, the two characters have the following Skill checks:
+> 
 > Composure +6, Endure +7, Investigation +6, Lore +6 (Marona), Science +6 (XU-808)
+> 
 > All their other skills are done just with their Attributes.
 
 ## Step 5: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 8](#chapter-8-talents); these are major changes that help define what your character is good at.
 
 > Eric looks over the available Talents for something that looks interesting. He spots Matter Over Mind and decides that could represent XU having energy shields.
+> 
 > Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Soul, she decides to use Matter Over Mind to cover her weak Mental Defense.
 
 ## Step 6: Elemental Properties
@@ -260,11 +269,13 @@ Finally, you choose one talent. Talents are described in full in [Chapter 8](#ch
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 
 ## Step 7: Starting items
-> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in SSS are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
+> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in 3S are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
 
 ------------
 # Chapter 3: Improving your character
 Rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
+
+> XU-808 and Marona start the game with nearly identical sheets. However, as they level up they begin to diverge in interesting ways.
 
 ## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
@@ -276,7 +287,7 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 > Note that this does not only apply to overcoming physical danger. A tense negotiation might result in XP as much as a combat encounter.    
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
 > My play-testers all agreed that they'd prefer they all have the same XP. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps the Arbiter might like to give bonus XP for thing like helping to run the game. Discuss this with the group before you begin playing.  
-> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake (in my opinion).  
+> I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
 
 ## Spending XP
 Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
@@ -309,6 +320,9 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
 
+> It might be good to have a plan about when to increase your level. XU is mostly interested in Skills, and so levels up when their skills are all maxed out for a given level, choosing combat stats only when they feel it necessary. 
+> Meanwhile Marona generally levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her level allows.
+
 When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases Level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
 
 Characters start at Level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent Level costs (4 + their current Level) XP. So Level 3 costs 6 XP, Level 4 costs 7 XP, and so on.
@@ -323,11 +337,19 @@ Hero Tier is a value that broadly represents your character's power. You start a
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
 
+> Both XU and Marona need HP and MP, so they both take Vitality and Capacity levels occasionally.
+
 ### Base Physical/Mental Offense/Defense
 Every character has a base bonus to their Physical and Mental Offense and Defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 
+> Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
+
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
+
+> Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Sabotage, and Stealth.
+> 
+> Meanwhile XU is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that ability.
 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
