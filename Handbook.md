@@ -1627,6 +1627,14 @@ Each skill has two associated Attributes. All skills of that type add those two 
 Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
 Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.   
 
+| Target number | Skill level          |
+|---------------|----------------------|
+| 5             | Trivial              |
+| 10            | Easy                 |
+| 15            | Moderately difficult |
+| 20            | Very difficult       |
+| 30            | Exceptional          |
+
 ## Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
