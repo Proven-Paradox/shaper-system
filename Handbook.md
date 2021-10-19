@@ -275,7 +275,7 @@ In settings where elemental magic is common, characters can start with a weaknes
 # Chapter 3: Improving your character
 Rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
 
-> XU-808 and Marona start the game with nearly identical sheets. However, as they level up they begin to diverge in interesting ways.
+> XU-808 and Marona start the game with nearly identical sheets. However, as they level up they begin to diverge in specialized ways.
 
 ## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
