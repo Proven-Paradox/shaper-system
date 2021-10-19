@@ -309,7 +309,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
 
 ### Level
-While there are no set classes, heroes do gain levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
+While there are no set classes, heroes do gain Levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
 * Every Level increases the number of times [Vitality and Capacity](#vitalitycapacity) can be purchased
 * The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s Level
 
@@ -320,8 +320,8 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
 
-> It might be good to have a plan about when to increase your level. XU is mostly interested in Skills, and so levels up when their skills are all maxed out for a given level, choosing combat stats only when they feel it necessary. 
-> Meanwhile Marona generally levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her level allows.
+> It might be good to have a plan about when to increase your Level. XU is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
+> Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
 
 When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases Level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
 
@@ -375,7 +375,7 @@ Utilities are described in more detail in [Chapter 9](#chapter-9-utilities).
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character they start with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful (but more costly) than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
+Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character they start with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful and costly than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
   
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>
 > <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
@@ -383,7 +383,7 @@ Abilities represent powers or moves your character is able to do, usually in com
 > <div align="center">=!=!=!=!=  </div>
 
 ## Reading Abilities
-Ability entries will follow this basic layout (and further information about each aspect will be expanded upon after the summary):
+Ability entries will follow this basic layout:
 
 **The Name of the Ability**  
 Ability Type (Attack/Spell/Auxiliary)  
