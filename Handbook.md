@@ -349,7 +349,7 @@ You may spend 1 XP to gain 3 skill points. The maximum number of points you can 
 
 > Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Sabotage, and Stealth.
 > 
-> Meanwhile XU is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that ability.
+> Meanwhile XU is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that capability.
 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
@@ -358,10 +358,18 @@ Abilities come in two tiers. You may only purchase Abilities from tiers less tha
 
 Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).
 
+> In XU's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
+> 
+> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. She takes the Ward Ability, giving her something useful to do with her Minor Action as well as an additional element to use with Elemental Dart. She also takes the Elemental Blast Ability to deal with crowds.
+
 ### Lessons
 Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
 
 Lessons are described in more detail in [Chapter 7](#chapter-7-lessons).
+
+> Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, and Earth damage. Once done with that, she also takes the Advantageous Recovery Lesson so that she gets extra benefits when striking a foe's elemental weakness.
+> 
+> Meanwhile XU is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU's sturdiness in combat.  
 
 ### Talents
 Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
