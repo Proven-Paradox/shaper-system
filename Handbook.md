@@ -376,10 +376,18 @@ Talents represent significantly more impactful modifications to your characterâ€
 
 Talents are described in more detail in [Chapter 8](#chapter-8-talents).
 
+> Upon reaching 5th level, XU immediately decides to pick the Flight talent, adding a jetpack to their arsenal.
+> 
+> Meanwhile Marona wants more mobility in her build. Looking over the Talents, she decides to take Elemental Specialist (Sky), allowing her to move when she uses Sky Spells.
+
 ### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
 Utilities are described in more detail in [Chapter 9](#chapter-9-utilities).
+
+> XU starts picking up Utilities with Asceticism, reasoning that its benefits alighn with things a machine should be able to do anyway. Eiditic Memory also helps represent the capabilities of a computer based mind.
+> 
+> Marona spends a lot of time delving in dungeons, and decides to take some Utilities to help in those situations. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information with her Lore check.
 
 ------------
 # Chapter 4: Abilities
