@@ -476,7 +476,7 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 * **Level 1** - Offense rolls made against you have Bane -2.
 * **Level 0** - Normal, no changes.
 * **Level -1** - Offense rolls against you have Boon +2.
-* **Level -2** - Offense rolls against you have Boon +3, and any Shield you gain is halved.
+* **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.
 * **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
 
 #### The Regen/Degen Track
