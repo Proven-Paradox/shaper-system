@@ -632,7 +632,7 @@ Description: A last minute reaction that allows one to just barely dodge an inco
 #### Double Strike  
 Attack   
 Action: Major  
-Prerequisites: [Quick Strike](#quick-strike)  
+Prerequisites: None  
 Range: Melee  
 Targets: Up to 2 enemies  
 Cost: 2 MP  
@@ -837,7 +837,7 @@ Description: A basic area of effect kinetic spell. This could represent an unfoc
 #### Mobile Strike  
 Attack [Overload]  
 Action: Major  
-Prerequisites: [Quick Strike](#quick-strike)  
+Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: 1 MP (Overload +2 HP)  
@@ -872,7 +872,7 @@ Description: You strip a foe of their advantages. This could be countering an op
 #### Quick Strike  
 Attack   
 Action: Minor  
-Prerequisites: None  
+Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
 Targets: 1 enemy  
 Cost: 4 MP  
