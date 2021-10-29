@@ -1,3 +1,8 @@
+# Level 1
+3 Abilities
+16 Skill points
+1 Talent
+
 # XP Cost cheat sheet  
 Level up: 4 + current level XP  
 Vitality/Capacity: 3 XP  
