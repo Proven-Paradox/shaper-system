@@ -140,7 +140,7 @@ The unfavorable complement of Boon, Bane is sometimes imposed on a character whe
 
 Some examples of Bane in play:
 * Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane -4 on an attempt to repair a damaged mechanism. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+* XU-808 has Bane -4 on an attempt to repair a damaged mechanism with a Construct check. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
 
 #### Combining Boon and Bane
 If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
@@ -155,7 +155,7 @@ The focus will be on how the character is represented in rules. Fleshing out a c
 
 > Let's walk through the character creation process for two hypothetical characters to give an example as well as demonstrate a point.  
 > 
-> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808, or XU for short.
+> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.
 > 
 > Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.
 
@@ -183,7 +183,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 * Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses.
 * If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always beneficial.
 
-> Eric considers XU-808's Attributes. His Arbiter has given him five points to work with. He reasons that his robot character should have high Mind to represent their ability to calculate quickly as well as a strong memory, so he puts his Mind to 3. Being made of metal instead of skin, he also figures XU should be pretty tough as well, and adds the last 2 points to Toughness. He also has the option of taking a negative point, and reasons that his robot is relatively naive and also not a particularly spiritual being. He puts a negative point in Soul, and uses the extra point to increase his Toughness by one more step. After all this, XU-808's Attributes are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul -1, Heart 0.
+> Eric considers XU-808's Attributes. His Arbiter has given him five points to work with. He reasons that his robot character should have high Mind to represent their ability to calculate quickly as well as a strong memory, so he puts his Mind to 3. Being made of metal instead of skin, he also figures XU-808 should be pretty tough as well, and adds the last 2 points to Toughness. He also has the option of taking a negative point, and reasons that his robot is relatively naive and also not a particularly spiritual being. He puts a negative point in Soul, and uses the extra point to increase his Toughness by one more step. After all this, XU-808's Attributes are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul -1, Heart 0.
 > 
 > Lydia does the same thing for Marona, also with five points to distribute. She expects to be using a lot of spells, so she focuses in her Mind to get a lot of MP and Offense to work with. She sets her Mind to 3. She's also expecting a lot of combat in her game, so she wants to give her character the best chance to survive it. Looking over her options, she decides the best way to do this is to increase her HP, so she puts the rest of her points into Toughness. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one she can afford to drop. She decides that the right answer would be Soul. She has ulterior motives (which we'll talk about later) but decides to justify it by framing her character as uninterested in religion and spirituality, as well as being a tad shallow. She adds the extra point to Toughness. Her final stats for her wizard are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul -1, Heart 0.
 
@@ -192,7 +192,7 @@ After choosing your Attributes, you can determine your point stats.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
  
-> Both XU and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart 0 gets the same amount of MP, 24.
+> Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart 0 gets the same amount of MP, 24.
 
 ## Step 2-b: Offense/Defense
 These are modifiers to your attacks’ accuracy or your ability to avoid a foe's attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses, as follows.
@@ -205,7 +205,7 @@ This broadly represents your ability to effectively attack foes by mundane means
 #### Mental Offense
 This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.
 
-> With Mind 3 and Soul -1, XU and Marona have Mental Offense 2.
+> With Mind 3 and Soul -1, XU-808 and Marona have Mental Offense 2.
 
 #### Physical Defense
 This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to Physical Defense.
@@ -220,14 +220,14 @@ Mental Defense enables you to mitigate damage you would otherwise take from ener
 ##### Defense Bonus
 Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense it will be listed as Physical Defense Bonus, while Mental Defense is listed as Mental Defense Bonus.
 
-> So for XU and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
+> So for XU-808 and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
 
 #### Initiative
 At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
 
 How one uses these attributes will be described in [Chapter 10](#chapter-10-combat).
 
-> Marona and XU have Finesse 0 and Soul -1, so their Initiative is -1.
+> Marona and XU-808 have Finesse 0 and Soul -1, so their Initiative is -1.
 
 ## Step 3: Abilities
 The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being Level 1) for free as well as all Tier 0 Abilities.
@@ -238,7 +238,7 @@ Some advice if you are having trouble choosing your Abilities:
 * At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
 * It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
-> Eric considers what kind of things XU should be able to do in fights. He likes the idea of a lightning ray, so XU starts with the Elemental Dart Ability, taking the Sky version. He also wants XU to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
+> Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Dart Ability, taking the Sky version. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
 > 
 > Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Dart with Sky.
 
@@ -250,7 +250,7 @@ Here are some things to consider when distributing skill points:
 * If you’re satisfied with your character’s representation but still have skill points remaining, consider coordinating with the other players. A given party would typically benefit from having all of their bases covered.
 * If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
 
-> Eric considers XU Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU's primary function is as a researcher, and puts those two skills to maximum.
+> Eric considers XU-808's Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU-808's primary function is as a researcher, and puts those two skills to maximum.
 > 
 > Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
 > 
@@ -263,7 +263,7 @@ Here are some things to consider when distributing skill points:
 ## Step 5: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 8](#chapter-8-talents); these are major changes that help define what your character is good at.
 
-> Eric looks over the available Talents for something that looks interesting. He spots Matter Over Mind and decides that could represent XU having energy shields.
+> Eric looks over the available Talents for something that looks interesting. He spots Matter Over Mind and decides that could represent XU-808 having energy shields.
 > 
 > Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Soul, she decides to use Matter Over Mind to cover her weak Mental Defense.
 
@@ -323,7 +323,7 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
 
-> It might be good to have a plan about when to increase your Level. XU is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
+> It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
 
 When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character which has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. If a character’s base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3, and the character purchases Level 4, then their base Physical Offense improves by one. If there is a tie, the player chooses which improvement they gain.
@@ -340,19 +340,19 @@ Hero Tier is a value that broadly represents your character's power. You start a
 ### Vitality/Capacity
 Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
 
-> Both XU and Marona need HP and MP, so they both take Vitality and Capacity levels occasionally.
+> Both XU-808 and Marona need HP and MP, so they both take Vitality and Capacity levels occasionally.
 
 ### Base Physical/Mental Offense/Defense
 Every character has a base bonus to their Physical and Mental Offense and Defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 
-> Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
+> Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU-808 has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
 
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
 
 > Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Sabotage, and Stealth.
 > 
-> Meanwhile XU is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that capability.
+> Meanwhile XU-808 is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU-808 runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that capability.
 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
@@ -361,7 +361,7 @@ Abilities come in two tiers. You may only purchase Abilities from tiers less tha
 
 Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).
 
-> In XU's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
+> In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
 > 
 > Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. She takes the Ward Ability, giving her something useful to do with her Minor Action as well as an additional element to use with Elemental Dart. She also takes the Elemental Blast Ability to deal with crowds.
 
@@ -372,14 +372,14 @@ Lessons are described in more detail in [Chapter 7](#chapter-7-lessons).
 
 > Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, and Earth damage. Once done with that, she also takes the Advantageous Recovery Lesson so that she gets extra benefits when striking a foe's elemental weakness.
 > 
-> Meanwhile XU is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU's sturdiness in combat.  
+> Meanwhile XU-808 is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU-808's sturdiness in combat.  
 
 ### Talents
 Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
 Talents are described in more detail in [Chapter 8](#chapter-8-talents).
 
-> Upon reaching 5th level, XU immediately decides to pick the Flight talent, adding a jetpack to their arsenal.
+> Upon reaching 5th level, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.
 > 
 > Meanwhile Marona wants more mobility in her build. Looking over the Talents, she decides to take Elemental Specialist (Sky), allowing her to move when she uses Sky Spells.
 
@@ -388,7 +388,7 @@ Utilities represent non-combat abilities that aid an adventurer. These may influ
 
 Utilities are described in more detail in [Chapter 9](#chapter-9-utilities).
 
-> XU starts picking up Utilities with Asceticism, reasoning that its benefits alighn with things a machine should be able to do anyway. Eiditic Memory also helps represent the capabilities of a computer based mind.
+> XU-808 starts picking up Utilities with Asceticism, reasoning that its benefits alighn with things a machine should be able to do anyway. Eiditic Memory also helps represent the capabilities of a computer based mind.
 > 
 > Marona spends a lot of time delving in dungeons, and decides to take some Utilities to help in those situations. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information with her Lore check.
 
