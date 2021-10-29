@@ -501,7 +501,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square at the target and haven't been knocked out, you give that target [Protection](#protection).
+Effect: As long as you are in the same Square at the target and haven't been knocked out, you give that target [Protection](#protection).  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -511,7 +511,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x1 (Physical) 
+Damage: x1 (Physical)  
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
 #### Grab  
@@ -536,7 +536,8 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Lance Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.
+Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Lance Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.  
+Description: Getting ready to take action later in combat. This can be important if you want to time interactions specifically or want to let an opponent act first.
 
 #### Recover  
 Auxiliary  
@@ -768,7 +769,7 @@ Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)
 Range: Melee  
 Targets: 1 Square  
 Cost: 5 MP  
-Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.
+Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
@@ -1014,7 +1015,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 3 MP  
 Damage: x1 (Physical)  
-Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the target [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.
+Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the target [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
@@ -1205,7 +1206,7 @@ Targets: 1 Square
 Cost: 11 MP 
 Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
+If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.  
 Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
 
 #### Elemental Lance II  
@@ -1371,7 +1372,7 @@ Range: None
 Targets: Self  
 Cost: 3 HP  
 Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal capacity.
+Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.
 
 #### Mental Shield
 Auxiliary  
@@ -1426,7 +1427,7 @@ Targets: 1 enemy
 Cost: 8 MP  
 Damage: x3 (Physical)  
 Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
-Description: You neutralize a foe's advantages by striking them. This could represent counterspelling runes drawn on to your weapon, a punch that disrupt's the target's concentration, or similar techniques.  
+Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
 
 #### Radiant Bolt   
 Spell [Elemental] [Light] [Healing]  
