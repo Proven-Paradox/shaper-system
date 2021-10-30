@@ -239,8 +239,8 @@ Some advice if you are having trouble choosing your Abilities:
 * It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
 > Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Dart Ability, taking the Sky version. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
-> 
-> Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Dart with Sky.
+>
+> Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Lance with Sky.
 
 ## Step 4: Skills
 Next, you will distribute Skill Points. There’s more information on Skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
@@ -363,7 +363,7 @@ Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and 
 
 > In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
 > 
-> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. She takes the Ward Ability, giving her something useful to do with her Minor Action as well as an additional element to use with Elemental Dart. She also takes the Elemental Blast Ability to deal with crowds.
+> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. She takes the Ward Ability, giving her something useful to do with her Minor Action as well as an additional element to use with Elemental Lance. She also takes the Elemental Blast Ability to deal with crowds.
 
 ### Lessons
 Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
