@@ -238,7 +238,7 @@ Some advice if you are having trouble choosing your Abilities:
 * At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
 * It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
 
-> Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Dart Ability, taking the Sky version. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
+> Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Lance Ability, taking the Sky version. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
 >
 > Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too, and she decides to start her build off using electric damage, so she picks Elemental Lance with Sky.
 
