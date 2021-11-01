@@ -2005,10 +2005,15 @@ You are able to reliably remember information correctly. You may ask the Arbiter
 
 #### Extraordinary Saboteur  
 Increase your Sabotage modifier by 1.  
-You can also gain one of the following benefits at a time.  
-* If you set up a trap, increase the necessary Investigation check requirement by your [Hero Tier](#hero-tier).
-* When destroying a device, you can set up the failure to occur after a delay. Upon successfully using Sabotage to damage the device, you can set a delay of up to ten minutes. Once used, the affected device functions normally for the specified amount of time before the malfunction you caused comes into effect.
-* If dealing with a trap laid by someone else, you can temporarily bypass the thing instead of destroying it, allowing your party to pass without leaving evidence of your tampering.
+You can set Traps. This could represent a tripwire, a pressure plate, a laser scanner, or something similar.  
+You may set one Trap for every 5 Base Sabotage bonus (so 1 Trap at 5 Sabotage, 2 Traps at 10 Sabotage, and so on). Setting a Trap requires 1 minute of uninterrupted work. If you are interrupted during this time you must start over.  
+Detecting your Trap requires an [Awareness](#awareness) check equal to your Sabotage bonus +10. Disabling or bypassing it requires a Sabotage check at the same target. You may disable and recover the components of your own Traps safely, and anyone you make aware of your Traps may bypass them safely.  
+Each Trap you set can have 2 of the following attributes.  
+* When the Trap goes off, everyone within a 300' radius knows. A bang, explosion, flash of light, fireworks, or something similar occurs so everyone nearby knows the location of whoever set the Trap off.  
+* The creature who set it off becomes in place. This could be a bear trap, a net or lasso, a pit, or something similar. The target is entitled to an [Acrobatics](#acrobatics) or [Athletics](#athletics) check equal to your Sabotage bonus + 10. On success they break free. On a failure they are [Rooted](#root) for an hour or until they receive assistance.  
+* The target is damaged. When the Trap goes off you deal damage equal to a Sabotage check multiplied by 2. Every time you increase in [Hero Tier](#hero-tier) this multiplier increases by 1 (so x3 at Hero Tier 2, x4 at Hero Tier 3, and so on.) This damage is reduced by an amount equal to the target's Physical or Mental Defense, chosen when you set the Trap. This damage is either physical or of an element you have from [Elemental Attunement](#elemental-attunement).  
+* The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.
+
 
 #### Natural Intuition  
 Increase your Empathy modifier by 1.  
