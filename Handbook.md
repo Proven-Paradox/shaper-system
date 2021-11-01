@@ -644,6 +644,17 @@ Damage: x1 (Physical)
 Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
+#### Draining Strike  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 enemy  
+Cost: 3 MP  
+Damage: x1 (Physical)  
+Effect: If you successfully hit your target, they move -3 points on the Regen/Degen track, down to a minimum of -5. 
+Description: An attack that deals lingering damage to the target. This can be a slice that causes bleeding, coating your weapon in venom before attack, biting with venomous fangs, or similar attacks.
+
 #### Elemental Blast  
 Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
