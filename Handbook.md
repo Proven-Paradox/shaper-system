@@ -306,7 +306,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | 3 Skill Points          | 1                         |
 | Tier 1 Ability          | 3                         |
 | Tier 2 Ability          | 5                         |
-| Powers                  | 5 unless otherwise stated |
+| Lessons                 | 5 unless otherwise stated |
 | Utilities               | Listed per entry          |
 
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
