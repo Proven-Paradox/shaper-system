@@ -1092,6 +1092,18 @@ Description: A simple form of protection. This can represent a rune of protectio
 
 ## Tier 2
 
+#### Anti-Scan  
+Spell  
+Action: Counter  
+Prerequisites: [Scan](#scan)  
+Range: Long  
+Targets: 1 enemy  
+Trigger: Target enemy uses Scan or a similar effect on you  
+Cost: 5 MP  
+Damage: x1 Physical
+Effect: If this Spell deals damage, the opponent who attempted to Scan you gains no information and cannot attempt to Scan you again for a day.  
+Description: You interrupt an opponent's attempt to scan you. This could represent anti-divination runes, a robust firewall, deploying chaff grenades, psychic barriers, or other such measures. 
+
 #### Bash II  
 Attack  
 Action: Major  
