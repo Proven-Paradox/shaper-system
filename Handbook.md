@@ -593,6 +593,18 @@ Damage: x1 or x2 (Physical, see Effect)
 Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).   
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
+#### Charge Up  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 2 MP  
+Duration: Until used  
+Effect: You become [Charged](#charged).  
+You may not use this Ability on the same turn as you use an Attack or Spell.  
+Description: Preparing for a strong offense. This could be gaining focus or clarity for a spell, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
+
 #### Cleanse  
 Auxiliary  
 Action: Minor  
@@ -1066,6 +1078,17 @@ Damage: x3 (Almighty)
 Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
 
 > Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
+
+#### Void Shot  
+Attack  
+Action: Major  
+Prerequisites: [Charge Up](#charge-up), [Shoot](#shoot)  
+Range: Long  
+Targets: 1 Enemy  
+Cost: 6 MP  
+Damage: x3 (Almighty)  
+Effect: Using this Attack consumes your [Charge](#charged) Advantage. You cannot use this Attack if you are not Charged.  
+Description: Attacking with an extremely powerful projectile after preparing. This could represent the release of a powerful experimental firearm, launching powerful ki bullets, or similar attacks.
 
 #### Volley  
 Attack   
@@ -1551,6 +1574,18 @@ Damage: x2
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
+#### Shoot II  
+Attack [Careful]  
+Action: Major  
+Prerequisites: [Shoot](#shoot)  
+Range: Long  
+Targets: 1 enemy  
+Cost: 5 MP
+Damage: x3 (Physical)
+Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot II, you make this attack with Boon +4 instead.
+Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
+
+
 #### Sneak Attack II  
 Attack  
 Action: Major  
@@ -1650,6 +1685,17 @@ Targets: 1 Enemy
 Cost: 30 MP  
 Damage: x5 (Almighty)  
 Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
+
+#### Void Shot II  
+Attack  
+Action: Major  
+Prerequisites: [Void Shot](#void-shot), [Shoot II](#shoot-ii)  
+Range: Long  
+Targets: 1 Enemy  
+Cost: 15 MP  
+Damage: x5 (Almighty)  
+Effect: Using this Attack consumes your [Charge](#charged) Advantage. You cannot use this Attack if you are not Charged.  
+Description: Attacking with an extremely powerful projectile after preparing. This could represent the release of a powerful experimental firearm, launching powerful ki bullets, or similar attacks.
 
 #### Volley II  
 Attack   
@@ -1876,7 +1922,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
 
 #### Sadism  
-When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1.
+When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
 
 #### Sanctuary Ward  
 When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element.
@@ -1948,7 +1994,7 @@ If you ever reach zero HP, you cease regaining HP until you are given healing fr
 You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
 
 #### Flight  
-Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the Flight property.  
+Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
 This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
 
 #### Healing Hands  
@@ -2278,6 +2324,9 @@ You may fall Prone or stand up as a minor action.
 
 ## Advantages
 These are circumstances that give the character in question an advantage.
+
+#### Charged
+You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Doing so removed the Charged property. Some Abilities require the Charged Advantage to function or add addtional options to utilize your Charge.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
