@@ -297,6 +297,25 @@ Mental Defense: 10
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
+## Thugs  
+Straightforward brutes. In a fight, this represents someone who is going to get close, hit hard, and not much else. This could be a ruffian in a bar, a backstreet mugger, hired meatheads, or similar fare.
+
+#### Lesser Thug  
+Strength 3  
+Finess 0  
+Toughness 2  
+Mind -1  
+Soul -1  
+Heart 0  
+HP Max: 30  
+Physical Attack: 6  
+Mental Attack: -2  
+Physical Defense: 12  
+Mental Defense: 9  
+
+*Strike* (Major action attack): x1 melee range, physical damage  
+*Careless Strike* (Major action attack): x2 melee range, physical damage, incoming attack on the Thug gain Boon +2.
+
 ## Warriors
 The Warrior archetype represents creatures trained in combat that utilize physical attacks against the players. They generally will prefer to get into melee range to deal high damage. They may appear in groups with Archers or other similar types who can benefit from their strengths and/or cover their weaknesses. They fight intelligently and will prioritize casters and archers where possible.
 
