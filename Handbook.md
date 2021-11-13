@@ -826,7 +826,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP (Overload +2 HP)  
 Damage: x2 (Physical)  
-Effect: If you pay the Overload cost and your [Impact](#impact) is at least 5, you knock your target [Prone](#prone).  
+Effect: If you pay the Overload cost and land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -1340,7 +1340,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP (Overload +3 HP)  
 Damage: x3 (Physical)  
-Effect: If you pay the Overload cost and your [Impact](#impact) is at least 5, you knock your target [Prone](#prone).  
+Effect: If you pay the Overload cost and land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.
 
 #### Hold Fast  
@@ -1393,7 +1393,7 @@ Action: Counter
 Prerequisites: [Fortify](#fortify)  
 Range: None  
 Targets: Self  
-Trigger: You are hit by a single target Ability that has an [Impact](#impact) of at least 5  
+Trigger: You are struck by a [Solid Hit](#solid-hit)
 Cost: 4 HP, 2 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
 Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of 
@@ -2011,7 +2011,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
 
 #### Heavy Hitter  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get an [Impact](#impact) of 10 or higher, you can choose one of the following extra effects.
+You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
@@ -2023,7 +2023,8 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesse to determine your Physical Offense.
 
 #### Lucky
-You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.
+You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you may gain one additional dice reroll.
 
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
@@ -2182,6 +2183,15 @@ Characters can (usually) move to any adjacent Squares by spending a minor action
 To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
+
+#### Solid Hit  
+Any Attack or Spell Impact that is 5 or higher is considered a Solid Hit. This by itself has no implicit effect, but some Abilities, Lessons, etc. may confer additional benefits on a Solid Hit.
+
+#### Critical Hit  
+Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or higher. This doesn't have any inherent effect (though it is likely going to be very painful for the target) but may activate other effects from Abilities, Lessons, etc.
+
+#### Matches
+Any time your 2d10 roll comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
