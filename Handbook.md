@@ -1905,6 +1905,9 @@ Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) eq
 #### Overcharge  
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
 
+#### Oppressor  
+When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Square as them. The effect lasts one round per [Hero Tier](#hero-tier).
+
 #### Pickup  
 When you heal an ally from 0 HP, add twice your Level to the healing done.
 
