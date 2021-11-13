@@ -1393,7 +1393,7 @@ Action: Counter
 Prerequisites: [Fortify](#fortify)  
 Range: None  
 Targets: Self  
-Trigger: You are struck by a [Solid Hit](#solid-hit)
+Trigger: You are struck by a [Solid Hit](#solid-hit)  
 Cost: 4 HP, 2 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
 Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of 
