@@ -761,7 +761,7 @@ Range: Melee
 Targets: 1 ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square at the target and, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).
+Effect: As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
