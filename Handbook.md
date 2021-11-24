@@ -493,6 +493,20 @@ Unlike the previous tracks described, the regen/degen track has no limit aside f
 Note: You automatically know all Tier 0 abilities.   
 There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
 
+> This first Ability is critical, and is therefore presented out of order. Aside from this Ability, the listings will be in alphabetical order.
+
+#### Move  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: N/A  
+Targets: Self  
+Cost: None  
+Effect: Move 1 Square.
+Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
+
+> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character to be 2 Squares per turn.
+
 #### Cover  
 Auxiliary  
 Action: Minor  
@@ -939,6 +953,18 @@ Cost: 2 MP
 Damage: x1 (Physical)  
 Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
+
+#### Run  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: N/A  
+Targets: Self  
+Cost: None  
+Effect: Move 2 Squares.
+Description: This Ability represents someone having trained and conditioned themselves to be able to move further when they spend greater effort on it.  
+
+> By using Move with one's Minor Action and Run with one's Major Action, a character with Sprint can move 3 Squares per round.
 
 #### Scan  
 Auxiliary [Careful]  
@@ -1608,6 +1634,18 @@ Damage: x4 (Physical)
 Effect: This Attack has Boon +3. You cannot use this Attack on a Turn where you have moved.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
+#### Sprint  
+Auxiliary  
+Action: Minor  
+Prerequisites: [Run](#run)  
+Range: N/A  
+Targets: Self  
+Cost: 5 HP  
+Effect: Move 2 Squares.
+Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
+
+> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Squares per round, but not forever.  
+
 #### Suspend  
 Spell  
 Action: Major  
@@ -1845,14 +1883,8 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 #### Ataraxia  
 If you have not moved between the beginning of your previous Turn and your current Turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
-#### Bloodlust  
-When you successfully kill or knock out a foe, your next Attack is made at Boon +6.
-
 #### Curse Resistant  
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
-
-#### Dash  
-When you move as a Major action, you can choose to move two Squares instead of one.
 
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
@@ -1875,7 +1907,7 @@ After you successfully heal an ally, choose one of the following effects. These 
 * The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
 
 #### Hit and Run  
-Once per Turn, when you use a melee range Attack, you can move one Square as part of the Attack. You can do this before or after making the Attack.
+Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack.
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
@@ -2174,10 +2206,9 @@ Between your Turns, you have one Counter Action. Some Abilities allow you to use
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
 
-## Moving and Positioning
+## Positioning
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
-Combat is broken up into Squares. A combat Square should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same Square.  
-Characters can (usually) move to any adjacent Squares by spending a minor action. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
+Combat is broken up into Squares. A combat Square should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same Square.
 
 ### Impact 
 To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.

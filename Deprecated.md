@@ -644,3 +644,10 @@ If you have allies that are still being chased, or for other reasons want to con
 
 #### Enduring Protector  
 After taking damage in place of an ally--for example, when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, you gain [Shield](#shield-x) equal to your [Vitality](#vitalitycapacity).
+
+
+#### Bloodlust  
+When you successfully kill or knock out a foe, your become [Charged](#charged).
+
+#### Dash  
+When you move as a Major action, you can choose to move two Squares instead of one.
