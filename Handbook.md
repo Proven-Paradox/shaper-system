@@ -507,7 +507,7 @@ Cost: None
 Effect: Move 1 Square. 
 Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character to be 2 Squares per turn.
+> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character 2 Squares per turn.
 
 #### Cover  
 Auxiliary  
