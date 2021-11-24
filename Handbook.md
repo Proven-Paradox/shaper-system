@@ -104,6 +104,8 @@ Here are a few general rules that we need to get out of the way, just so there i
 
 You count as your own ally. You can target yourself with anything that is listed to target allies.
 
+When counting squares for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
+
 Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it should still be rounded down to a 13.  
 
 In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
@@ -502,7 +504,7 @@ Prerequisites: None
 Range: N/A  
 Targets: Self  
 Cost: None  
-Effect: Move 1 Square.
+Effect: Move 1 Square. 
 Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
 > Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character to be 2 Squares per turn.
