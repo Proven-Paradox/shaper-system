@@ -2204,7 +2204,8 @@ At the end of the Round, you apply damage or healing from the [Regen/Degen Track
 
 ### Actions
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
-Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.
+Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.  
+Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abilities [Move](#move) and [Default Strike](#default-strike) for basic rules on how to move and attack.  
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
 
