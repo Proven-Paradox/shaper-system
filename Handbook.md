@@ -1301,17 +1301,6 @@ Effect: You may only use an element that you have taken the corresponding [Eleme
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
-#### Empowered Charge  
-Auxiliary [Augment]  
-Action: Minor  
-Prerequisites: [Charge Up](#charge-up), [Empower](#empower)  
-Range: None  
-Targets: Self  
-Cost: 7 MP  
-Cooldown: 4 Rounds  
-Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).
-Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
-
 #### Evacuation  
 Auxiliary  
 Action: Major  
@@ -1384,7 +1373,7 @@ Range: None
 Targets: Self  
 Cost: 6 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
-Effect: Increase along [The Defensive Track](#the-defensive-track) and gaint [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase is persistent as normal for tracks.  
+Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase is persistent as normal for tracks.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
