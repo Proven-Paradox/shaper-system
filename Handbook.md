@@ -610,14 +610,14 @@ Effect: If this Attack hits the target and they are not otherwise restrained, yo
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Charge Up  
-Auxiliary  
+Auxiliary [Overload]  
 Action: Minor  
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 2 MP  
+Cost: 2 MP (Overload +2 MP)  
 Duration: Until used  
-Effect: You become [Charged](#charged).  
+Effect: You become [Charged](#charged). If you paid the Overload cost, you may also move 1 Square.  
 You may not use this Ability on the same turn as you use an Attack or Spell.  
 Description: Preparing for a strong offense. This could be gaining focus or clarity for a spell, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
 
@@ -628,7 +628,6 @@ Prerequisites: None
 Range: Short  
 Targets: 1 ally  
 Cost: 2 MP  
-Duration: None  
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.
@@ -715,7 +714,6 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Duration: None  
 Effect: The target increases on the [Offensive Track](#the-offensive-track).
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
@@ -727,7 +725,6 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
-Duration: None  
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
@@ -740,7 +737,6 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
-Duration: None  
 Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
@@ -765,7 +761,6 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Duration: None  
 Effect: The target increases on the [Defensive Track](#the-defensive-track).  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
@@ -975,7 +970,6 @@ Prerequisites: None
 Range: Long  
 Targets: 1 enemy or 1 Square  
 Cost: 1 MP (Careful 0 MP)  
-Duration: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 If you spend your major action while using this Ability, you remove the MP cost entirely.  
 Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
@@ -1307,6 +1301,17 @@ Effect: You may only use an element that you have taken the corresponding [Eleme
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
+#### Empowered Charge  
+Auxiliary [Augment]  
+Action: Minor  
+Prerequisites: [Charge Up](#charge-up), [Empower](#empower)  
+Range: None  
+Targets: Self  
+Cost: 7 MP  
+Cooldown: 4 Rounds  
+Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).
+Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
+
 #### Evacuation  
 Auxiliary  
 Action: Major  
@@ -1374,12 +1379,13 @@ Description: A strong melee attack. This can just be a particularly powerful upp
 #### Hold Fast  
 Auxiliary  
 Action: Minor  
-Prerequisites: [Fortify](#fortify)  
+Prerequisites: [Fortify](#fortify), [Protector's Presence](#protectors-presence)  
 Range: None  
 Targets: Self  
-Cost: 4 HP  
-Effect: Increase along [The Defensive Track](#the-defensive-track).  
-Description: You steel yourself to take a hit. This could be raising your shield, directing power to a force barrier, chanting a prayer for protection, or similar effects that would reduce damage taken.  
+Cost: 6 MP (Upkeep 1 MP)  
+Cooldown: 3 Rounds  
+Effect: Increase along [The Defensive Track](#the-defensive-track) and gaint [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase is persistent as normal for tracks.  
+Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
 Auxiliary  
@@ -1473,14 +1479,15 @@ Effect: If this Attack hits, the movement that triggered this Ability is cancele
 Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
-Auxiliary 
+Auxiliary [Augment]  
 Action: Minor  
-Prerequisites: [Empower](#empower)  
+Prerequisites: [Charge Up](#charge-up), [Empower](#empower)  
 Range: None  
 Targets: Self  
-Cost: 4 HP  
-Effect: Increase along [The Offensive Track](#the-offensive-track).  
-Description: You improve the power of your future attacks. This could represent taking time to wind up a punch, analyzing a foe to find their weak point, biting one’s tongue to build a berserker rage, and similar actions. 
+Cost: 7 HP  
+Cooldown: 4 Rounds  
+Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).
+Description: Winding up for a powerful attack. This could represent charging your weapon with power, winding up for a huge punch, charging up a laser weapon, or similar effects.
 
 #### Purging Dart  
 Spell  
@@ -1513,6 +1520,16 @@ Cost: 10 MP
 Damage: x3 (Light)  
 Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your [Hero Tier](#hero-tier). If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
+
+#### Rally  
+Auxiliary [Healing] [Augment]  
+Action: Major  
+Prerequisites: [Empower](#empower), [Fortify](#fortify), [Healing Word](#healing-word)  
+Range: Medium  
+Targets: 1 ally  
+Cost: 10 MP  
+Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a ten-sided die roll.  
+Description: Simultaneously healing an ally and preparing them for further combat. This could represent invoking healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
 
 #### Remedy II  
 Auxiliary  
