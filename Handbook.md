@@ -635,6 +635,18 @@ Effect: Choose one of the following:
 * Increase the target’s [Regen/Degen](#the-regendegen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
+#### Daze Strike  
+Attack  
+Action: Major  
+Prerequisties: [Bash](#bash)  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 4 HP  
+Duration: Variable, see Effect  
+Damagex: x1  
+Effect: On a successful hit, the target is [Dazed] for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
+
 #### Demand  
 Attack/Spell  
 Action: Minor  
@@ -1242,6 +1254,19 @@ On hit, this Ability also [Provokes](#provoked) its target.
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
+
+
+#### Daze Strike II  
+Attack  
+Action: Major  
+Prerequisites: [Bash II](#bash-ii), [Daze Strike](#daze-strike)  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 9 HP  
+Duration: Variable, see Effect  
+Damagex: x3  
+Effect: On a successful hit, the target is [Dazed] for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Doom  
 Spell [Curse]  
@@ -2221,8 +2246,10 @@ You may choose to delay your Turn if you like. When your Turn comes, you simply 
 ### Round End
 At the end of the Round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the Round end, unique to each character.
 
-### Actions
+### Major/Minor Actions
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
+
+### Counter Action  
 Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.  
 Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abilities [Move](#move) and [Default Strike](#default-strike) for basic rules on how to move and attack.  
 
@@ -2352,6 +2379,9 @@ Partially frozen or dealing with a lingering cold. This reduces your Physical De
 #### Crush X
 Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
 
+#### Dazed  
+Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
+
 #### Drained  
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
@@ -2377,9 +2407,6 @@ Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unl
 
 ## Disadvantages
 These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
-
-#### Distracted
-Unable to bring fully react to your situation. Distracted characters cannot use their Counter action. Unless otherwise noted, Distraction lasts until the character in question takes an action.
 
 #### Flat Footed
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
