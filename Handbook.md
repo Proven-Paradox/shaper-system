@@ -563,6 +563,7 @@ Range: None
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
 Effect: Increase the your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
+Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 1 Round.
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
 #### Shove  
