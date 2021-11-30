@@ -1530,6 +1530,18 @@ Cost: 3 MP
 Effect: Remove 3 [Status Ailments](#status-ailments) from the target.  
 Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
 
+#### Restrain  
+Spell  
+Action: Minor  
+Prerequisites: [Kinetic Force II](#kinetic-force-ii)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 6 MP  
+Damage: 0  
+Duration: Variable, see Effect  
+Effect: On a successful hit, the target is [Rooted](#rooted) for 1 round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 rounds.  
+Description: Denying the enemy the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
+
 #### Retribution  
 Auxiliary  
 Action: Minor  
