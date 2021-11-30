@@ -644,7 +644,7 @@ Targets: 1 enemy
 Cost: 4 HP  
 Duration: Variable, see Effect  
 Damagex: x1  
-Effect: On a successful hit, the target is [Dazed] for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Effect: On a successful hit, the target is [Dazed](#dazed) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Demand  
@@ -1265,7 +1265,7 @@ Targets: 1 enemy
 Cost: 9 HP  
 Duration: Variable, see Effect  
 Damagex: x3  
-Effect: On a successful hit, the target is [Dazed] for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Effect: On a successful hit, the target is [Dazed](#dazed) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Doom  
