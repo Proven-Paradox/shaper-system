@@ -2133,15 +2133,18 @@ Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 Increase your Endure modifier by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
 
-#### Darksight
-Increase your Awareness modifier by 1.
-In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.
-
 #### Eidetic Memory
 Increase your Lore modifier by 1.
 You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
 
 > Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and hand-waving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
+
+#### Enhanced Sight
+Increase your Awareness modifier by 1.
+In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.
+You are also able to see clearly up to a distance of 6 miles.
+
+> Note: The average human can see up to 3 miles according to Wikipedia. For metric system, that's about 4.8 to 9.6 KM.
 
 #### Extraordinary Saboteur  
 Increase your [Sabotage](#sabotage) modifier by 1.  
