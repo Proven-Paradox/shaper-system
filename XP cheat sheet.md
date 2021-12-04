@@ -13,3 +13,10 @@ Tier 1 Ability: 3 XP
 Tier 2 Ability: 5 XP  
 Lessons: 5 XP Unless otherwise stated  
 Utilities: Listed per entry
+
+# Level up
+At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn.
+At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
+At Levels 3, 8, 13, … the character increases their Physical or Mental Defense.
+At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
+At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in Chapter 8).
