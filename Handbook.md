@@ -2422,7 +2422,7 @@ You may fall Prone or stand up as a minor action.
 These are circumstances that give the character in question an advantage.
 
 #### Charged
-You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Doing so removed the Charged property. Some Abilities require the Charged Advantage to function or add addtional options to utilize your Charge.
+You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
