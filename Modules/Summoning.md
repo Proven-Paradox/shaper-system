@@ -1,18 +1,47 @@
 # Summoning
 
-Summoning in the Story Shaper system is divided into four aspects: the Summon Abilities, the Base Summons, the Summon Configuration Powers, supporting Powers, and finally, Advanced Options.
-***
+** Table of Contents **  
+- [Abilities](#abilities)  
+  - [Basic Summon](#basic-summon)
+  - [Advanced Summon](#advanced-summon)
+- [The Base Summons](#the-base-summons)
+  - [Basic Summon](#basic-summon)
+  - [Advanced Summon](#advanced-summon)
+- [Summon Configuration](#summon-configuration)
+  - [Summoning Attunement](#summoning-attunement)
+  - [Defender](#summon-configuration-defender)
+  - [Mental Attacker](#summon-configuration-mental-attacker)
+  - [Physical Attacker](#summon-configuration-physical-attacker)
+  - [Support](#summon-configuration-support)
+- [Summoning Lessons]
+  - [Assisting Summon](#assisting-summon)
+  - [Basher Summon](#basher-summon)
+  - [Blaster Summon](#blaster-summon)
+  - [Bodyguard Summon](#bodyguard-summon)
+  - [Channeling Summon](#channeling-summon)
+  - [Extra Options](#extra-options)
+  - [Elemental Summons](#elemental-summons)
+  - [Sturdy Summons](#sturdy-summons)
+- [Advanced Options](#advanced-options)
+ - [Universal Options](#universal-options)
+ - [Defender Options](#defender-options)  
+ - [Mental Attacker Options](#mental-attacker-options)
+ - [Physical Attacker Options](#physical-attacker-options)
+ - [Support Options](#support-options)
+- [Talent](#talent)
+ - [Double Summon](#double-summon)
+ 
 ## Abilities
 
 ### Basic Summon    
-Auxiliary  
+Auxiliary [Summoning]  
 Action: Minor  
 Prerequisites: None  
 Range: Short  
 Targets: None  
 Cost: Variable (See Special) (Upkeep: 2 MP)  
 Special: You summon a friendly Basic Summon creature to assist you in combat. The creature summoned is described below.  
-When you gain this Ability, you automatically gain one Summon Configuration Power.  
+When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
 You may spend MP up to a maximum of your level when you first use this Ability. The being summoned has max HP equal to five times the amount of MP spent.  
 When you use this Ability, choose one version of Summon Configuration benefits to add to the summoned creature.  
 Summoned creatures may move during the summoner's turn once for free. The summoner may commit a Minor action to move the ally a second square.  
@@ -23,7 +52,7 @@ Description: This Ability allows you to draw a second creature to your aid. This
 
 ### Advanced Summon
 Tier: 2
-Auxiliary  
+Auxiliary [Summoning]  
 Action: Minor  
 Prerequisites: [Basic Summon](#basic-summon)  
 Range: Short  
@@ -32,6 +61,7 @@ Cost: Variable (See Special) (Upkeep: 2 MP)
 Special: You summon a friendly Advanced Summon creature to assist you in combat. The creature summoned is described below.
 You may spend MP up to a maximum of your level and a minimum of 6. The being summoned has max HP equal to five times the amount of MP spent. In addition, you may select one Advanced Option.
 ***
+
 ## The Base Summons
 These are the stats of the base summoned creatures.
 
@@ -63,13 +93,17 @@ Mental Attack: 4
 Physical Defense: 14  
 Mental Defense: 14  
 ***
-## Summon Configuration  
-There are four broad categories a summoned creature can fall into. Defender, Physical Attacker, Mental Attacker, and Support.  
 
-### Summon Configuration: Defender  
+## Summon Configuration  
+There are four broad categories a summoned creature can fall into. Defender, Physical Attacker, Mental Attacker, and Support. You gain access to these configurations through the following Lesson:  
+
+### Summoning Attunement
+When you gain this Lesson, pick one of the following: Defender, Mental Attacker, Physical Attacker, or Support. Whenever you use a [Summoning] Ability, you can summon an Ally of the corresponding type.
+
+#### Summon Configuration: Defender  
 Summons created with this Configuration have twice as much HP as other types, as well as a bonus to Physical and Mental Defense equal to twice your Hero Tier. This ally cannot move once per turn for free like other summons; it must take a minor action from the summoner to move. Summons created this way have Taunt, and the following option for the Summoner:
 
-#### Overwhelm 
+##### Overwhelm 
 Attack  
 Action: Minor  
 Range: Melee  
@@ -77,10 +111,10 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP  
 The Defender ally makes an Attack with a x1 damage multiplier. If this attack succeeds, the ally Provokes the target until the start of your next turn.
 
-### Summon Configuration: Mental Attacker  
+#### Summon Configuration: Mental Attacker  
 Summons created with this Configuration have a bonus to Mental Attack equal to twice your Hero Tier. Summons created this way have two options.
 
-#### Zap  
+##### Zap  
 Spell   
 Action: None  
 Range: Medium  
@@ -88,7 +122,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Mental Attacker ally makes a mental attack with a x1 multiplier. This can be done for free once per turn.
 
-#### Empowered Zap  
+##### Empowered Zap  
 Spell  
 Action: Minor  
 Range: Medium  
@@ -96,10 +130,10 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP  
 The Mental Attacker ally makes a mental attack with a x2 multiplier. This cannot be done on the same turn where Zap has already been used.
 
-### Summon Configuration: Physical Attacker  
+#### Summon Configuration: Physical Attacker  
 Summons created with this Configuration have a bonus to Physical Attack equal to twice your Hero Tier. This ally may move two spaces per turn for free. This ally has two options.
 
-#### Strike  
+##### Strike  
 Attack  
 Action: None  
 Range: Melee  
@@ -107,7 +141,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Mental Attacker ally makes a physical attack with a x1 multiplier. This can be done for free once per turn.
 
-#### Empowered Strike  
+##### Empowered Strike  
 Attack  
 Action: Minor  
 Range: Melee  
@@ -115,10 +149,10 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP 
 The Mental Attacker ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.
 
-### Summon Configuration: Support  
+#### Summon Configuration: Support  
 Summons created with this Configuration have the following options.
 
-#### Soothe  
+##### Soothe  
 Auxiliary  
 Action: None  
 Range: Short  
@@ -126,7 +160,7 @@ Targets: 1 ally
 Summoner MP Cost: 0  
 The Support ally increases the target's Regen by 1. This can be done for free once per turn.
 
-#### Empowered Soothe  
+##### Empowered Soothe  
 Auxiliary  
 Action: Minor  
 Range: Short  
@@ -134,7 +168,9 @@ Targets: 1 ally
 Summoner MP Cost: 2  
 The Support ally increases the target's Regen by 2. This cannot be done on the same turn where Soothe has already been used.
 ***
-## Summoning Powers
+
+## Summoning Lessons
+
 #### Assisting Summon  
 Prerequisites: [Summon Configuration: Support]  
 Your summons gain an additional +1 to Physical and Mental Defense. In addition, when your Support Configuration uses Soothe or Empowered Soothe, the target is immediately healed for the same amount as it gain in Regen. (So 1 HP for Soothe, 2 HP for Empowered Soothe, when looking at the default Support Configuration summon.)
@@ -173,7 +209,7 @@ When utilizing this option, the Ability functions in all ways as though used by 
 
 #### Extra Options  
 Prerequisites: [Advanced Summon](#advanced-summon)  
-You may choose to increase the Upkeep of Summon by 1. If you do, you may choose an additional Advanced Option.
+You may choose to increase the Upkeep of Advanced Summon by 1. If you do, you may choose an additional Advanced Option.
 
 #### Elemental Summons  
 Prerequisites: [Elemental Attunement](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#elemental-attunement)  
@@ -181,13 +217,12 @@ When you use Summon, you may select an element you have Elemental Attunement to.
 
 #### Sturdy Summons  
 Your summons gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per MP spent to summon them. ([Defender Configuration](#summon-configuration-defender) summons double this additional HP as well.)
-
-
 ***
+
 ## Advanced Options  
 When using [Advanced Summon](#advanced-summon) or a stronger versions of Summon, the summoned creature gains an Advanced Option. These are additional options the summoned creature benefits from.
 
-### Universal  
+### Universal Options  
 These options are available to all summon configurations.
 
 #### Attack Up  
@@ -196,7 +231,7 @@ Increase your summoned ally's Mental and Physical Attack by your Hero Tier.
 #### Defense Up  
 Increase your summoned ally's Mental and Physical Defense by your Hero Tier.
 
-### Defender  
+### Defender Options  
 These options are available only to [Defender Configuration](#summon-configuration-defender) summons.
 
 #### Summoned Armor Crush  
@@ -205,7 +240,7 @@ When using its Overwhelm ability, your Defender Configuration ally may use its P
 #### Summoned Thorns X  
 When struck by a melee range attack, your Defender Configuration ally deals X damage to the attacker, where X equals half the MP used to initially summon it.
 
-### Mental Attacker  
+### Mental Attacker Options  
 These options are available only to [Mental Attack Configuration](#summon-configuration-mental-attacker) summons.
 
 #### Summoned Flight  
@@ -214,7 +249,7 @@ Your summoned ally has Flight.
 #### Hindering Zap  
 Increase your ally's damage multipliers by 1. In addition, when hitting with your ally's Empowered Zap ability you also cause the target to be unable to move with its minor action for 1 round.
 
-### Physical Attacker  
+### Physical Attacker Options  
 These options are available only to [Physical Attack Configuration](#summon-configuration-physical-attacker) summons.
 
 #### Summoned Draining Strike  
@@ -223,7 +258,7 @@ Increase your ally's damage multipliers by 1. In addition, when hitting with you
 #### Summoned Flight  
 Your summoned ally has Flight.
 
-### Support  
+### Support Options  
 These options are available only to [Support Configuration](#summon-configuration-support) summons.
 
 #### Summoned Shield X  
@@ -231,6 +266,7 @@ When your ally uses Soothe or Empowered Soothe, the targeted ally also gains [Sh
 
 #### Summoned Soother  
 Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
+***  
 
 ## Talent
 #### Double Summon
