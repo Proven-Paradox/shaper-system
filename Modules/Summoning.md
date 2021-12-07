@@ -1,6 +1,5 @@
 # Summoning
-
-** Table of Contents **  
+**Table of Contents**  
 - [Abilities](#abilities)  
   - [Basic Summon](#basic-summon)
   - [Advanced Summon](#advanced-summon)
@@ -13,7 +12,7 @@
   - [Mental Attacker](#summon-configuration-mental-attacker)
   - [Physical Attacker](#summon-configuration-physical-attacker)
   - [Support](#summon-configuration-support)
-- [Summoning Lessons]
+- [Summoning Lessons](#summoning-lessons)  
   - [Assisting Summon](#assisting-summon)
   - [Basher Summon](#basher-summon)
   - [Blaster Summon](#blaster-summon)
@@ -23,13 +22,13 @@
   - [Elemental Summons](#elemental-summons)
   - [Sturdy Summons](#sturdy-summons)
 - [Advanced Options](#advanced-options)
- - [Universal Options](#universal-options)
- - [Defender Options](#defender-options)  
- - [Mental Attacker Options](#mental-attacker-options)
- - [Physical Attacker Options](#physical-attacker-options)
- - [Support Options](#support-options)
-- [Talent](#talent)
- - [Double Summon](#double-summon)
+  - [Universal Options](#universal-options)
+  - [Defender Options](#defender-options)  
+  - [Mental Attacker Options](#mental-attacker-options)
+  - [Physical Attacker Options](#physical-attacker-options)
+  - [Support Options](#support-options)
+- [Talent](#talent)  
+  - [Double Summon](#double-summon)
  
 ## Abilities
 
