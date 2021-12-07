@@ -1247,7 +1247,7 @@ Action: Major
 Prerequisites: [Demand](#demand)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 0 MP (Overload +3 MP/7 MP)  
+Cost: 0 MP (Overload +3 MP/+7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoked) its target.  
