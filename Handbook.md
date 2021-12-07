@@ -254,7 +254,7 @@ Here are some things to consider when distributing skill points:
 
 > Eric considers XU-808's Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot's being difficult to rattle emotionally. He decides for simplicity to just max things out as he likes them, so he puts 4 points into it. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU-808's primary function is as a researcher, and puts those two skills to maximum.
 > 
-> Meanwhile Lydia thinks about what Marona should abe able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magis stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> Meanwhile Lydia thinks about what Marona should able able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magic stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
 > 
 > After adding in Attributes, the two characters have the following Skill checks:
 > 
@@ -2422,7 +2422,7 @@ You may fall Prone or stand up as a minor action.
 These are circumstances that give the character in question an advantage.
 
 #### Charged
-You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Doing so removed the Charged property. Some Abilities require the Charged Advantage to function or add addtional options to utilize your Charge.
+You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.
 
 #### Flight  
 You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
