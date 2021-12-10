@@ -268,5 +268,6 @@ Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
 ***  
 
 ## Talent
+
 #### Double Summon
-You may have two summon allies.
+You may have two summon allies active at the same time.
