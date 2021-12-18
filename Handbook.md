@@ -41,7 +41,7 @@
   - [Other Utilities](#other-utilities)
 - [Chapter 10: Combat](#chapter-10-combat) 
   - [Time in Combat](#time-in-combat)
-  - [Moving and Positioning](#moving-and-positioning)
+  - [Moving](#moving)
   - [Chasing rules](#chasing-rules)
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
   - [What are HP?](#what-are-hp)
@@ -971,7 +971,7 @@ Prerequisites: None
 Range: N/A  
 Targets: Self  
 Cost: None  
-Effect: Move 2 Squares.
+Effect: Move 2 Squares.  
 Description: This Ability represents someone having trained and conditioned themselves to be able to move further when they spend greater effort on it.  
 
 > By using Move with one's Minor Action and Run with one's Major Action, a character with Sprint can move 3 Squares per round.
@@ -1158,7 +1158,7 @@ Range: Long
 Targets: 1 enemy  
 Trigger: Target enemy uses Scan or a similar effect on you  
 Cost: 5 MP  
-Damage: x1 Physical
+Damage: x1 Physical  
 Effect: If this Spell deals damage, the opponent who attempted to Scan you gains no information and cannot attempt to Scan you again for a day.  
 Description: You interrupt an opponent's attempt to scan you. This could represent anti-divination runes, a robust firewall, deploying chaff grenades, psychic barriers, or other such measures. 
 
@@ -1348,9 +1348,9 @@ Effect: The Ability that missed you is re-rolled targeting the opponent you have
 Description: You redirect a poorly aimed strike to instead hit the target you have in your grip. This would usually involve using them as a shield.  
 
 #### Healing Burst II   
-Auxiliary [Healing Burst](#healing-burst)  
+Auxiliary [Healing]  
 Action: Major  
-Prerequisites:   
+Prerequisites: [Healing Burst](#healing-burst)   
 Range: Short  
 Targets: 1 Square  
 Cost: 10 MP  
@@ -1363,7 +1363,7 @@ Action: Minor
 Prerequisites: [Healing Touch](#healing-touch)  
 Range: Melee  
 Targets: 1 Ally  
-Cost: 8 MP (Overload +4 MP)
+Cost: 8 MP (Overload +4 MP)  
 Effect: The target regains HP equal to a 3 ten-sided die rolls.
 If you pay the Overload cost, the healing increases to 4 ten-sided die rolls.  
 This Ability may only be used once per Turn.  
@@ -1376,7 +1376,7 @@ Prerequisites: None
 Range: Medium (Careful: Long)  
 Targets: 1 Ally  
 Cost: 5 MP  
-Effect: The target regains HP equal to 3 ten-sided die roll.  
+Effect: The target regains HP equal to 3 ten-sided die rolls.  
 If you also use your minor action increase the healing to 4 ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.
 
@@ -1409,7 +1409,7 @@ Prerequisites: [Guard](#guard)
 Range: Short  
 Targets: 1 Ally  
 Trigger: Target ally takes any damage  
-Cost: None
+Cost: None  
 Duration: 1 round    
 Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
@@ -1687,7 +1687,7 @@ Prerequisites: [Run](#run)
 Range: N/A  
 Targets: Self  
 Cost: 5 HP  
-Effect: Move 2 Squares.
+Effect: Move 2 Squares.  
 Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
 
 > By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Squares per round, but not forever.  
@@ -1933,7 +1933,7 @@ If you have not moved between the beginning of your previous Turn and your curre
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
 #### Double Ward  
-When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element. The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
+When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -1961,7 +1961,7 @@ When casting a Healing Ability, you may roll an additional ten-sided die. Remove
 #### Layering Ward
 You can give allies additional layers of protection using [Ward](#ward) or other Abilities that produce Wards. You may target an ally already affected by your Ward, allowing that Ward to affect an additional incoming Ability before fading. Your Wards have a maximum of 3 attacks.
 
-For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
+> For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
 
 #### Lingering Provocation  
 Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
@@ -1972,7 +1972,7 @@ Increase the range at which your Counter Abilities can affect enemies by 1. For 
 #### Manamaim
 Whenever you pay an Overload cost on a damaging Spell, you may add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
 
-Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+> Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
@@ -2006,7 +2006,7 @@ When you take a would blow in place of an ally--such when using an Ability such 
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
 
 #### Sanctuary Ward  
-When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element.
+When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element while the Ward is in place.
 
 #### Siege Fighter  
 If you have not moved between the beginning of your previous Turn and your current Turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
