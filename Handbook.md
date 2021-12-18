@@ -1690,7 +1690,7 @@ Cost: 5 HP
 Effect: Move 2 Squares.  
 Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
 
-> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Squares per round, but not forever.  
+> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Run can move 4 Squares per round, but not forever.  
 
 #### Suspend  
 Spell  
