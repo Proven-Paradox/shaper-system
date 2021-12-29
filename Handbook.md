@@ -2039,7 +2039,7 @@ A character gains a Talent for free at [Level](#level) 1, and again when gaining
 Your agility aids you in evading magical effects. You may use your Finesse in place of Heart to determine your Mental Defense.
 
 #### Battering Defense
-You can physically batter aside your opponent's attacks. You may use your Strength in place of your Toughness to determine your Physical Defense.
+You can physically batter aside your opponent's attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
 
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
@@ -2064,7 +2064,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
 #### Endurance Mage  
-You can draw energy from your body to fuel your abilities. You may use your Toughness in place of your Mind to determine your MP.
+You can draw energy from your body to fuel your abilities. You may use your Toughness in place of Mind to determine your MP.
 
 #### Everlasting  
 At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
@@ -2098,7 +2098,7 @@ You hit so hard that you can knock your foes around without actively trying to. 
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
 
 #### Intuitive Aim
-You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of your Finesse to determine your Physical Offense.
+You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of Finesse to determine your Physical Offense.
 
 #### Lucky
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
@@ -2108,7 +2108,7 @@ When you roll [Matches](#matches), you may gain one additional dice reroll.
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
 
 #### Matter over Mind  
-Your resilience extends beyond the physical. You may use your Toughness in place of your Soul to determine your Mental Defense.
+Your resilience extends beyond the physical. You may use your Toughness in place of Soul to determine your Mental Defense.
 
 #### Measured Strikes  
 You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
