@@ -701,7 +701,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance)  
 Range: Short  
 Targets: 1 Square  
-Cost: 5 MP 
+Cost: 5 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
