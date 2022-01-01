@@ -2119,9 +2119,6 @@ You have perfected an unusual spellcasting style that enables you draw fuel for 
 #### Serene Health  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
 
-#### Soul Well  
-You can tap the power of your spirit to sustain your spells. You may use your Soul in place of Toughness to determine your HP.
-
 ------------
 # Chapter 9: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.  
