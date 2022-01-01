@@ -974,7 +974,7 @@ Cost: None
 Effect: Move 2 Squares.  
 Description: This Ability represents someone having trained and conditioned themselves to be able to move further when they spend greater effort on it.  
 
-> By using Move with one's Minor Action and Run with one's Major Action, a character with Sprint can move 3 Squares per round.
+> By using Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Squares per round.
 
 #### Scan  
 Auxiliary [Careful]  
