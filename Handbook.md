@@ -2035,14 +2035,14 @@ When you use a single target Ward that normally has a Minor action requirement, 
 # Chapter 8: Talents
 A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
 
-#### Arcane Evasion  
-Your agility aids you in evading magical effects. You may use your Finesse in place of Heart to determine your Mental Defense.
-
 #### Battering Defense
 You can physically batter aside your opponent's attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
 
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
+
+#### Crushing Zeal  
+Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense.
 
 #### Elemental Specialist (TYPE)
 Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
@@ -2063,9 +2063,6 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
 * Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
-#### Endurance Mage  
-You can draw energy from your body to fuel your abilities. You may use your Toughness in place of Mind to determine your MP.
-
 #### Everlasting  
 At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
 
@@ -2082,9 +2079,6 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
 * Remove one [Status Ailment](#status-ailments) from the target.
 
-#### Heartmage  
-You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
-
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
@@ -2093,9 +2087,6 @@ You hit so hard that you can knock your foes around without actively trying to. 
 
 #### Intelligent Avoidance  
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
-
-#### Intuitive Aim
-You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of Finesse to determine your Physical Offense.
 
 #### Lucky
 You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
@@ -2107,17 +2098,26 @@ You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapa
 #### Measured Strikes  
 You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
 
+#### Muscle Mage  
+You have trained in a magic style that uses strength of body over strength of mind. You may use your Strength in place of Mind to determine your MP.
+
 #### Overwhelming Force  
 You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
-
-#### Power Mage  
-You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart to determine your MP.
 
 #### Precise Evasion  
 You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
 
-#### Serene Health  
-Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
+#### Serene Capacity  
+You are able to power your spells with intuition and patience. You may use your Soul in place of Heart to determine your MP.
+
+#### Skill Spell  
+You make your spells more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.
+
+#### Sturdy Shield  
+You can use your physical sturdiness to protect yourself against mental forces. You may use y our Toughness in place of Heart to determine your Mental Defense.
+
+#### Unyielding Zeal  
+You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.
 
 ------------
 # Chapter 9: Utilities
