@@ -2111,10 +2111,10 @@ You practice a fighting style that emphasizes mind over muscle. You may use your
 You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
 
 #### Power Mage  
-You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
+You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart to determine your MP.
 
 #### Precise Evasion  
-You are able to avoid spells with agility. You may use your Finesse in place of Soul when deter
+You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
 
 #### Serene Health  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
