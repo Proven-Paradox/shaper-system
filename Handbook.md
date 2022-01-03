@@ -2071,9 +2071,6 @@ At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vital
 
 If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
-#### Finesse Caster  
-You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
-
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
 This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
@@ -2107,14 +2104,17 @@ When you roll [Matches](#matches), you may gain one additional dice reroll.
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
 
-#### Matter over Mind  
-Your resilience extends beyond the physical. You may use your Toughness in place of Soul to determine your Mental Defense.
-
 #### Measured Strikes  
 You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
 
+#### Overwhelming Force  
+You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
+
 #### Power Mage  
 You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart when determining your MP.
+
+#### Precise Evasion  
+You are able to avoid spells with agility. You may use your Finesse in place of Soul when deter
 
 #### Serene Health  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
