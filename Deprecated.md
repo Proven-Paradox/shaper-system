@@ -651,3 +651,25 @@ When you successfully kill or knock out a foe, your become [Charged](#charged).
 
 #### Dash  
 When you move as a Major action, you can choose to move two Squares instead of one.
+
+
+#### Finesse Caster  
+You have the skill to place a spell just right--your potency is less about the power behind the spell and more about the correct application. You may use your Finesse in place of Soul to determine your Mental Offense.
+
+#### Matter over Mind  
+Your resilience extends beyond the physical. You may use your Toughness in place of Soul to determine your Mental Defense.
+
+#### Endurance Mage  
+You can draw energy from your body to fuel your abilities. You may use your Toughness in place of Mind to determine your MP.
+
+#### Heartmage  
+You can draw strength for your spells from the power of your heart instead of your mind. You may use Heart in place of Mind when determining your Mental Offense.
+
+#### Intuitive Aim
+You've developed an intuitive sense of when the right time to strike is. You may use your Soul in place of Finesse to determine your Physical Offense.
+
+#### Power Mage  
+You have perfected an unusual spellcasting style that enables you draw fuel for your abilities from your strength. You may use Strength in place of Heart to determine your MP.
+
+#### Serene Health  
+Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
