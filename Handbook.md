@@ -2106,6 +2106,12 @@ You have trained in a magic style that uses strength of body over strength of mi
 #### Overwhelming Force  
 You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
 
+#### Perfect Protector  
+At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. 
+* Gain [Taunt](#taunt).  
+* Use [Cover](#cover) on one Ally in your Square.  
+* Use [Demand](#demand) on one Enemy within Medium range. 
+
 #### Precise Evasion  
 You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
 
