@@ -2107,10 +2107,10 @@ You have trained in a magic style that uses strength of body over strength of mi
 You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
 
 #### Perfect Protector  
-At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. 
+At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Square.  
-* Use [Demand](#demand) on one Enemy within Medium range. 
+* Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned the Demand Ability.)
 
 #### Precise Evasion  
 You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
