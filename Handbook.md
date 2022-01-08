@@ -2381,17 +2381,8 @@ These effects are lingering problems that hamper a characters' ability to functi
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
-#### Chill X  
-Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
-
-#### Crush X
-Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
-
 #### Dazed  
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
-
-#### Drained  
-Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
 #### Provoked
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
@@ -2400,12 +2391,6 @@ This may represent an opponent shouting insults to grab attention, minor mind co
 
 #### Rooted
 For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
-
-#### Scorch X  
-On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
-
-#### Shock X
-Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
 #### Slowed
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
@@ -2416,12 +2401,27 @@ Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unl
 ## Disadvantages
 These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
 
+#### Chill X  
+Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
+
+#### Crush X
+Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
+
+#### Drained  
+Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
+
 #### Flat Footed
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
 
 #### Prone  
 Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
 You may fall Prone or stand up as a minor action. 
+
+#### Scorch X  
+On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
+
+#### Shock X
+Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
 
 ## Advantages
 These are circumstances that give the character in question an advantage.
