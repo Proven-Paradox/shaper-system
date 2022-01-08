@@ -766,7 +766,7 @@ Cost: 4 MP
 Damage: 0  
 Duration: 1 round  
 Cooldown: 3 rounds  
-Effect: If you hit with this Ability, the target is [Blind](#blind) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
+Effect: If you hit with this Ability, the target is [Blind](#blinded) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
 #### Fortify  
@@ -873,7 +873,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square.  
+Effect: If this Spell hits the target and they are not otherwise restrained, you move them one Square.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -1100,7 +1100,7 @@ Range: Short
 Targets: 1 Square  
 Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
-Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).  
+Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blinded) and [Obscured](#obscured).  
 If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
@@ -2084,7 +2084,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
+* [Stagger](#staggered) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
 
 #### Intelligent Avoidance  
@@ -2378,7 +2378,7 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 ## Status Ailments
 These effects are lingering problems that hamper a characters' ability to function. These effects can be removed by Abilities and effects such as [Remedy](#remedy).
 
-#### Blind  
+#### Blinded  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
 #### Dazed  
@@ -2395,7 +2395,7 @@ For some reason, you cannot move. This might mean being tied down, having an inj
 #### Slowed
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
 
-#### Stagger  
+#### Staggered  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
 ## Disadvantages
