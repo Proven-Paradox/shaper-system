@@ -646,7 +646,7 @@ Targets: 1 enemy
 Cost: 4 HP  
 Duration: Variable, see Effect  
 Damagex: x1  
-Effect: On a successful hit, the target is [Dazed](#dazed) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Demand  
@@ -658,7 +658,7 @@ Targets: 1 enemy
 Cost: 1 HP  
 Damage: 0  
 Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
-If this Ability hits the target, they are [Provoked](#provoked) by you for one Round.  
+If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
@@ -766,7 +766,7 @@ Cost: 4 MP
 Damage: 0  
 Duration: 1 round  
 Cooldown: 3 rounds  
-Effect: If you hit with this Ability, the target is [Blind](#blinded) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
+Effect: If you hit with this Ability, the target is [Blind](#blind) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
 #### Fortify  
@@ -1010,7 +1010,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 3 MP (Upkeep: 3 MP)  
 Damage: 0  
-Effect: The target is [Slowed](#slowed). At [round start](#round-start), when you choose to maintain your Upkeep, make another Spell Offense against your target. If you miss, this Spell ends.  
+Effect: The target is [Slowed](#slow). At [round start](#round-start), when you choose to maintain your Upkeep, make another Spell Offense against your target. If you miss, this Spell ends.  
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Sneak Attack  
@@ -1032,7 +1032,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: x2 (Physical)  
-Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#rooted) until your next Turn.
+Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -1100,7 +1100,7 @@ Range: Short
 Targets: 1 Square  
 Cost: 2 MP (Overload +3 MP)  
 Duration: 3 rounds  
-Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blinded) and [Obscured](#obscured).  
+Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).  
 If you pay the Overload cost, you may use this Ability as a minor action.  
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
@@ -1194,7 +1194,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 10 MP   
 Cooldown: 3 rounds  
-Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#rooted), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
+Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
 #### Blood Strike  
@@ -1252,7 +1252,7 @@ Targets: 1 enemy
 Cost: 0 MP (Overload +3 MP/+7 MP)  
 Damage: x1/x2/x3 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
-On hit, this Ability also [Provokes](#provoked) its target.  
+On hit, this Ability also [Provokes](#provoke) its target.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
@@ -1267,7 +1267,7 @@ Targets: 1 enemy
 Cost: 9 HP  
 Duration: Variable, see Effect  
 Damagex: x3  
-Effect: On a successful hit, the target is [Dazed](#dazed) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Doom  
@@ -1492,7 +1492,7 @@ Trigger: An opponent in melee range attempts to move away from you.
 Cost: 5 MP  
 Damage: x1  
 Duration: 1 round  
-Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#rooted) until the beginning of their next Turn.  
+Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#root) until the beginning of their next Turn.  
 Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
@@ -1567,7 +1567,7 @@ Targets: 1 enemy
 Cost: 6 MP  
 Damage: 0  
 Duration: Variable, see Effect  
-Effect: On a successful hit, the target is [Rooted](#rooted) for 1 round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 rounds.  
+Effect: On a successful hit, the target is [Rooted](#root) for 1 round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 rounds.  
 Description: Denying the enemy the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
 
 #### Retribution  
@@ -1923,7 +1923,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoked) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
+When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in [Hero Tier](#hero-tier), the Offense bonus and Defense penalty both increase by 1. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
@@ -1966,7 +1966,7 @@ You can give allies additional layers of protection using [Ward](#ward) or other
 > For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
 
 #### Lingering Provocation  
-Any time you [Provoke](#provoked) a target, that Provocation lasts for 2 rounds.
+Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
 
 #### Long Arm of Justice  
 Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
@@ -1999,7 +1999,7 @@ Once per round, increase any HP restoration you receive by half.
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target is [Rooted](#rooted) until your next Turn.
+* Your target is [Rooted](#root) until your next Turn.
 
 #### Resilient Protector  
 When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
@@ -2057,7 +2057,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
   * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your [Hero Tier](#hero-tier).
-  * Cold - Successfully dealing Cold damage also [slows](#slowed) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#rooted) for 1 round.
+  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
@@ -2084,7 +2084,7 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).
-* [Stagger](#staggered) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
 
 #### Intelligent Avoidance  
@@ -2158,7 +2158,7 @@ You may set one Trap for every 5 Base Sabotage bonus (so 1 Trap at 5 Sabotage, 2
 Detecting your Trap requires an [Awareness](#awareness) check equal to your Sabotage bonus +10. Disabling or bypassing it requires a Sabotage check at the same target. You may disable and recover the components of your own Traps safely, and anyone you make aware of your Traps may bypass them safely.  
 Each Trap you set can have 2 of the following attributes.  
 * When the Trap goes off, everyone within a 300' radius knows. A bang, explosion, alarm, fireworks, or something similar occurs so everyone nearby knows the location of whoever set the Trap off.  
-* The creature who set it off becomes locked in place. This could be a bear trap, a net or lasso, a pit, or something similar. The target is entitled to an [Acrobatics](#acrobatics) or [Athletics](#athletics) check equal to your Sabotage bonus + 10. On success they break free. On a failure they are [Rooted](#rooted) for an hour or until they receive assistance.  
+* The creature who set it off becomes locked in place. This could be a bear trap, a net or lasso, a pit, or something similar. The target is entitled to an [Acrobatics](#acrobatics) or [Athletics](#athletics) check equal to your Sabotage bonus + 10. On success they break free. On a failure they are [Rooted](#root) for an hour or until they receive assistance.  
 * The target is damaged. When the Trap goes off you deal damage equal to a Sabotage check multiplied by 2. Every time you increase in [Hero Tier](#hero-tier) this multiplier increases by 1 (so x3 at Hero Tier 2, x4 at Hero Tier 3, and so on.) This damage is reduced by an amount equal to the target's Physical or Mental Defense, chosen when you set the Trap. This damage is either physical or of an element you have from [Elemental Attunement](#elemental-attunement).  
 * The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
@@ -2378,24 +2378,24 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 ## Status Ailments
 These effects are lingering problems that hamper a characters' ability to function. These effects can be removed by Abilities and effects such as [Remedy](#remedy).
 
-#### Blinded  
+#### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
-#### Dazed  
+#### Daze  
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
 
-#### Provoked
+#### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
 Provoke overrides [Taunt](#taunt); any enemies you Provoke will strike you regardless of being in a Square with an ally with Taunt.  
 This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
 
-#### Rooted
+#### Root
 For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
 
-#### Slowed
+#### Slow
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
 
-#### Staggered  
+#### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
 ## Disadvantages
