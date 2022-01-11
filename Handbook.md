@@ -2398,6 +2398,9 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
+#### Venom
+You are afflicted with a venom or poison that get worse over time. While affected by Venom, you lose one point on the [Regen/Degen Track](#the-regendegen-track) every turn instead of gaining one.
+
 ## Disadvantages
 These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
 
