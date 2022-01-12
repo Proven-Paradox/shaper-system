@@ -763,10 +763,9 @@ Prerequisites: None
 Range: Short  
 Targets: 1 enemy  
 Cost: 4 MP  
-Damage: 0  
-Duration: 1 round  
+Damage: 0   
 Cooldown: 3 rounds  
-Effect: If you hit with this Ability, the target is [Blind](#blind) for the duration. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
+Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
 #### Fortify  
@@ -946,12 +945,12 @@ Description: An undisciplined but powerful attack. Though the damage it deals is
 
 #### Remedy  
 Auxiliary  
-Action: Minor  
+Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: 1 ally  
-Cost: 3 MP  
-Effect: Remove 1 [Status Ailment](#status-ailments) from the target.  
+Cost: 2 MP  
+Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
 Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
 
 #### Riposte  
@@ -2076,10 +2075,10 @@ This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redu
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* Increase the character’s Regeneration up to 0 immediately.
+* Increase the character’s [Regen/Degen Track](#the-regendegen-track) by 2, up to a maximum of 0.
 * End a [Curse] effect on the target.
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
-* Remove one [Status Ailment](#status-ailments) from the target.
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
 
 #### Heavy Hitter  
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
@@ -2376,7 +2375,9 @@ There is a point past which a character’s body can no longer endure injury, an
 That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
 ## Status Ailments
-These effects are lingering problems that hamper a characters' ability to function. These effects can be removed by Abilities and effects such as [Remedy](#remedy).
+Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
+
+> So if a character is already suffering from the Venom Ailment with a duration of 2 rounds, and they then sustain a snake bite that would inflict Venom for 2 rounds, they now have Venom for 4 rounds.
 
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
@@ -2399,7 +2400,9 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
 #### Venom
-You are afflicted with a venom or poison that get worse over time. While affected by Venom, you lose one point on the [Regen/Degen Track](#the-regendegen-track) every turn instead of gaining one.
+You are afflicted with a venom or poison that get worse over time. While affected by Venom, you lose one point on the [Regen/Degen Track](#the-regendegen-track) every turn instead of gaining one.  
+If the target has more than five rounds of Venom remaining, the condition worsens to Severe Venom, causing the character to lose two points on the Regen/Degen Track per turn.  
+If the target has more than ten rounds of Venom remaining, the condition worsens to Extreme Venom, cause the character to lose four points on the Regen/Degen Track per turn.
 
 ## Disadvantages
 These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
