@@ -565,7 +565,7 @@ Range: None
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
 Effect: Increase the your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
-Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 1 Round.  
+Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 2 Rounds.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
 #### Shove  
@@ -763,7 +763,7 @@ Prerequisites: None
 Range: Short  
 Targets: 1 enemy  
 Cost: 4 MP  
-Damage: 0   
+Damage: 0  
 Cooldown: 3 rounds  
 Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
