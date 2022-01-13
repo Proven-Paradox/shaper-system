@@ -695,7 +695,7 @@ Targets: 1 enemy
 Cost: 3 MP  
 Damage: x1 (Physical)  
 Effect: If you successfully hit your target, they move -3 points on the Regen/Degen track, down to a minimum of -5. 
-Description: An attack that deals lingering damage to the target. This can be a slice that causes bleeding, coating your weapon in venom before attack, biting with venomous fangs, or similar attacks.
+Description: An attack that deals lingering damage to the target. This can be a slice that causes bleeding, spitting acid, blows that cause internal bleeding, or similar attacks.
 
 #### Elemental Blast  
 Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
