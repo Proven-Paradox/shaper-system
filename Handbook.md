@@ -638,7 +638,7 @@ Effect: Choose one of the following:
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Daze Strike  
-Attack  
+Attack [Status]  
 Action: Major  
 Prerequisties: [Bash](#bash)  
 Range: Melee  
@@ -650,7 +650,7 @@ Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Sol
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Demand  
-Attack/Spell  
+Attack/Spell [Status]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
@@ -745,7 +745,7 @@ You may use this either as an Attack (using your Physical Offense and targeting 
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
 #### Envenom  
-Attack  
+Attack [Status]  
 Action: Major  
 Prerequisites: None  
 Range: Short  
@@ -769,7 +769,7 @@ You may use this either as an Attack (using your Physical Offense and targeting 
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
 #### Flash  
-Attack/Spell  
+Attack/Spell [Status]  
 Action: Major  
 Prerequisites: None  
 Range: Short  
@@ -1014,14 +1014,15 @@ Effect: If you also use your minor action this Attack is made with Boon +2. If y
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Slow  
-Spell [Curse]  
+Spell [Status]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 3 MP (Upkeep: 3 MP)  
+Cost: 3 MP  
 Damage: 0  
-Effect: The target is [Slowed](#slow). At [round start](#round-start), when you choose to maintain your Upkeep, make another Spell Offense against your target. If you miss, this Spell ends.  
+Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds.  
+If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Sneak Attack  
@@ -1255,7 +1256,7 @@ Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rou
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
 
 #### Crushing Demand  
-Attack/Spell [Overload]  
+Attack/Spell [Overload][Status]  
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
@@ -1270,7 +1271,7 @@ Description: You overwhelm a foes defenses using your own. This could reflect a 
 
 
 #### Daze Strike II  
-Attack  
+Attack [Status]  
 Action: Major  
 Prerequisites: [Bash II](#bash-ii), [Daze Strike](#daze-strike)  
 Range: Melee  
@@ -1494,7 +1495,7 @@ Effect: Increase the MP cost of this Ability by the amount of damage you would h
 Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
 
 #### Pin Down  
-Attack  
+Attack [Status]  
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
@@ -1566,11 +1567,12 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP  
-Effect: Remove 3 [Status Ailments](#status-ailments) from the target.  
+Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 6 rounds.  
+Alternatively, you may reduce two separate Status Ailment durations by 4 rounds each.
 Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
 
 #### Restrain  
-Spell  
+Spell [Status]  
 Action: Minor  
 Prerequisites: [Kinetic Force II](#kinetic-force-ii)  
 Range: Short  
@@ -1669,7 +1671,6 @@ Cost: 5 MP
 Damage: x3 (Physical)
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot II, you make this attack with Boon +4 instead.
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-
 
 #### Sneak Attack II  
 Attack  
@@ -1774,7 +1775,7 @@ Effect: If this Ability hits, the target becomes [Drained](#drained) for two rou
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
 
 #### Venom Strike  
-Attack  
+Attack [Status]  
 Action: Major  
 Prerequisites: [Envenom](#envenom)  
 Range: Short  
@@ -1784,7 +1785,6 @@ Damage: x2
 Effect: If this Attack hits, the target loses 3 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
 If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
 Description: Striking with venom in a way that also deals significant damage immediately. This could be a cut from a poisoned blade, striking with snake fangs, launching a venom coated arrow, or similar effects.
-
 
 #### Void Lance II 
 Spell  
