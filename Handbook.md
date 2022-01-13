@@ -742,7 +742,19 @@ Cost: 1 MP
 Damage: 0  
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
-Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.  
+Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
+
+#### Envenom  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 enemy  
+Cost: 2 MP  
+Damage: 0  
+Effect: If this Attack hits, the target loses 2 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
+If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
+Description: Striking with venom. This could be a prick of a poisoned needle, striking with a stinger, launching a venom coated dart, or similar effects.
 
 #### Expose  
 Attack/Spell [Curse]  
@@ -1760,6 +1772,19 @@ Damage: x3 (Dark)
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
+
+#### Venom Strike  
+Attack  
+Action: Major  
+Prerequisites: [Envenom](#envenom)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 8 MP  
+Damage: x2  
+Effect: If this Attack hits, the target loses 3 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
+If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
+Description: Striking with venom in a way that also deals significant damage immediately. This could be a cut from a poisoned blade, striking with snake fangs, launching a venom coated arrow, or similar effects.
+
 
 #### Void Lance II 
 Spell  
