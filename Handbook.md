@@ -307,6 +307,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | Vitality/Capacity       | 3                         |
 | Physical/Mental Attack  | 4                         |
 | Physical/Mental Defense | 3                         |
+| Initiative              | 1                         |
 | 3 Skill Points          | 1                         |
 | Tier 1 Ability          | 3                         |
 | Tier 2 Ability          | 5                         |
@@ -350,6 +351,9 @@ Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + t
 Every character has a base bonus to their Physical and Mental Offense and Defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
 
 > Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU-808 has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
+
+### Initiative  
+Like with Offense and Defense, character have a base bonus to their Initiative rolls. It starts at zero and can be increased up to the character's level. Increasing base Initiative costs 1 XP.
 
 ### Skill Points
 You may spend 1 XP to gain 3 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
