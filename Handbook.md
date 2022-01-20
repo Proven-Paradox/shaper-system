@@ -672,12 +672,10 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Trigger: The enemy successfully hits with an Ability with an [Impact](#impact) of 2 or less.  
+Trigger: The enemy successfully hits with an Ability.  
 Cost: None  
-Effect: Negate the Ability that triggered this Counter.  
-Description: A last minute reaction that allows one to just barely dodge an incoming attack.
-
-> This generally would not prevent much HP damage, but this can be particularly useful against Abilities that leave lingering effects (such as Curses).
+Effect: Reduce the [Impact] of the successful Ability by 2. This reduces the damage you take. It can also turn a normal hit into a full miss, reduce a [Solid Hit] to a normal hit, or a [Critical Hit] into a Solid Hit.
+Description: A last minute reaction that allows one to just barely dodge an incoming attack.  
 
 #### Double Strike  
 Attack   
