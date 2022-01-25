@@ -324,9 +324,9 @@ While there are no set classes, heroes do gain Levels. Their Level acts as a cap
 In addition, purchasing a Level gives its own benefit that goes in a five Level loop. These benefits do not cost additional XP.
 * At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
 * At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
-* At Levels 3, 8, 13, … the character increases their Physical or Mental Defense.
-* At Level 4, 9, 14, … the character increases their Physical or Mental Offense.
-* At Level 5, 10, 15, … the character increases any one of their Attributes by 1 and gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
+* At Level 3, 8, 13, … the character increases their Physical or Mental Offense and any one of their Attributes by 1.
+* At Levels 4, 9, 14, … the character increases their Physical or Mental Defense.
+* At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
 
 > It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
