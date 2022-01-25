@@ -770,6 +770,17 @@ Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
+#### Finisher  
+Attack  
+Action: Major  
+Prerequisites: At least 3 other Melee or Short range Attacks of at least Tier 1.  
+Range: Melee  
+Targets: 1 enemy  
+Cost: 7 HP  
+Damage: x3  
+Effect: You may only use this Attack after successfully striking with 3 other Melee or Short ranged Attacks of at least Tier 1. Using an Ability that is does not meet these requirements or missing resets the counter.  
+Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
+
 #### Flash  
 Attack/Spell [Status]  
 Action: Major  
