@@ -419,9 +419,9 @@ Prerequisites: What other things are required before one can learn this Ability.
 Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
 * None - this skill targets yourself.
 * Melee - this skill can only be used on targets in the same Square as you.
-* Short - this skill can be used on targets up to one Square away.
-* Medium - this skill targets enemies up to two Squares away.
-* Long - this skill targets enemies up to three Squares away.  
+* Short - this skill can be used on targets up to 1 Square away.
+* Medium - this skill targets enemies up to 3 Squares away.
+* Long - this skill targets enemies up to 5 Squares away.  
 
 Targets: Who or what this Ability targets.  
 Cost: The HP or MP cost of this Ability.  
