@@ -1968,6 +1968,10 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 #### Ataraxia  
 If you have not moved between the beginning of your previous Turn and your current Turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
+#### Battle Warden  
+Prerequisite: [Elemental Lance](#elemental-lance), [Ward](#ward)
+If you successfully hit a target with an Elemental Attack or Spell, you may cast Ward without spending Mana or an Action. You may only use this Lesson once per round. 
+
 #### Curse Resistant  
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
