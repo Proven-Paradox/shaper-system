@@ -2080,9 +2080,10 @@ When you use a single target Ward that normally has a Minor action requirement, 
 A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
 
 #### Accelerated Assistance
-When you use an Augment ability, you can also do one of the following:
-* Double the cost of the Ability to use it on another target without spending an Action.
-* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment on this round.
+When you use an Augment ability, you can also do one of the following:  
+* Double the cost of the Ability to use it on another target without spending an Action.  
+* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment on this round.  
+
 When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). If you have already learned both, you may refund the XP spent to learn one of them.
 
 #### Battering Defense
