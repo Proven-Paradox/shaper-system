@@ -1,7 +1,4 @@
-﻿[This page](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md)  
-[Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-------------
-# Table of Contents
+﻿# Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
   - [Core Tenets](#core-tenets)
   - [What you Need to Play](#what-you-need-to-play)
@@ -26,7 +23,7 @@
   - [Ability Types](#ability-types)
   - [Ability Series](#ability-series)
   - [Ability Keywords](#ability-keywords)
-  - [Buff/Debuff Tracks](#buffdebuff-tracks)
+  - [Buff Tracks](#buff-tracks)
 - [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
   - [Tier 0](#tier-0)
   - [Tier 1](#tier-1)
@@ -76,7 +73,10 @@ These ideas are central to the design of Story Shaper.
 
 ## What you Need to Play
 ### Required:
-* A pair of 10 sided dice for each player (also called d10s)
+* Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
+* Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
+* A pair of 10 sided dice for each player (also called d10s). 
+  * Alternatively a random number generator, which can be found for free online.
 * A single 6 sided die for the entire group
 * Pencil and paper
 
@@ -87,6 +87,7 @@ These ideas are central to the design of Story Shaper.
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
 * A calculator
 * A notebook for each player to write personal notes in
+* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
 
 ### Totally optional, but maybe fun:
 * Miniatures to represent characters in combat
