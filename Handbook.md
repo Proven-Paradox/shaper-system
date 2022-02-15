@@ -2463,7 +2463,7 @@ Crushed by stones, blinded by sand, restrained by vines, or other similar means 
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
 #### Flat Footed
-You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Flat Footed characters are also [Distracted](#distracted). Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
 
 #### Prone  
 Lying on the ground. Melee range Abilities against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. Moving a Square while Prone costs a major action.  
