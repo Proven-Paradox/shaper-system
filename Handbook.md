@@ -2199,6 +2199,8 @@ In addition, you are unaffected by low or no light conditions. This could repres
 You are also able to see clearly up to a distance of 6 miles.
 
 > Note: The average human can see up to 3 miles according to Wikipedia. For metric system, the average human sees up to 4.8 KM, and this Utility increases it to about 9.6 KM.
+>
+> I am aware this has more to do with the curvature of the planet than the way eyes work. If you need a tabletop system that takes that into account accurately I don't know what to tell you.
 
 #### Extraordinary Saboteur  
 Increase your [Sabotage](#sabotage) modifier by 1.  
