@@ -4,6 +4,7 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
 */
 
 # Table of Contents
+- [Bystander](#bystander)
 - [Creeps](#creeps)
 - [Defenders](#defenders)
 - [Grapplers](#grapplers)
@@ -15,6 +16,16 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
 - [Slimes](#slimes)
 - [Warriors](#warriors)
 
+## Bystander
+A bystander represents a person who has no combat training and nothing about them that would be suitable to fighting. They are more likely to try to run, hide, or seek assitance from someone actually ready to fight during combat. The person they represent may have different Attributes, but with no combat ability or experience they are unlikely to be able to effectively use them when a fight breaks out.  
+Strength 0  
+Finesse 0  
+Toughness 0  
+Mind 0  
+Soul 0  
+Heart 0  
+
+*Desperate Strike* (Major action attack), x1 multiplier, physical, melee, made with Bane -3.
 
 ## Creeps
 Creeps represent enemies who rely on cheap tricks and numbers. Individually they usually aren’t that dangerous, but adventurers will never actually encounter creatures like these alone. They fight by trying to pile onto individual targets and overwhelm them with sheer numbers. In generally they should be small or scrawny creatures. These can be creatures like goblins, kobolds, imps, small and disposable aliens in part of a hive mind, and the like.  
