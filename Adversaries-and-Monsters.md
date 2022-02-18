@@ -127,13 +127,14 @@ Physical Defense: 12
 Mental Defense: 13  
 Initiative: 1  
 
-*Heal* (Major Aux), medium, heal target 1d10
-*Big heal* (Major Aux), medium, heal target 2d10, 1 MP
-*Cleanse* (Minor Aux)
-Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.
-Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.
-Increase the target’s regen/degen value by four. You can only increase the value up to 0.
-*Dart* (Major Spell), x1 damage, one element, medium
+*Heal* (Major Aux), medium, heal target 1d10  
+*Big heal* (Major Aux), medium, heal target 2d10, 1 MP  
+*Cleanse* (Minor Aux)  
+Choose one:  
+* Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
+* Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.  
+* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
+* *Dart* (Major Spell), x1 damage, one element, medium
 
 #### Competent Healer  
 Strength 0  
@@ -150,13 +151,13 @@ Physical Defense: 14
 Mental Defense: 15  
 Initiative: 1  
 
-*Heal* (Major Aux), medium, heal target 1d10
-*Big heal* (Major Aux), medium, heal target 2d10, 1 MP
-*Cleanse* (Minor Aux)
-Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.
-Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.
-Increase the target’s regen/degen value by four. You can only increase the value up to 0.
-*Dart* (Major Spell), x1 damage, one element, medium
+*Heal* (Major Aux), medium, heal target 1d10  
+*Big heal* (Major Aux), medium, heal target 2d10, 1 MP  
+Choose one:  
+* Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
+* Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.  
+* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
+* *Dart* (Major Spell), x1 damage, one element, medium
 
 ## Hexer
 Hexers are opponents who focus on limiting their enemies options using curses and other hindering effects. They are also defensively strong against magic, but vulnerable to physical attacks. This could be a cultist, a warlock, a curse-focused mage, or something similar.
@@ -175,8 +176,8 @@ Physical Defense: 11
 Mental Defense: 14  
 Initiative: 3
 
-*Offense Hex* (Major Spell), target loses one rank on the Offense Track
-*Defense Hex* (Major Spell), target loses one rank on the Defense Track
+*Offense Hex* (Major Spell), target loses one rank on the Offense Track  
+*Defense Hex* (Major Spell), target loses one rank on the Defense Track  
 *Zap* (Major Spell), x1 damage, choose one element for type, medium
 
 #### Competent Hexer
@@ -193,9 +194,9 @@ Physical Defense: 11
 Mental Defense: 15  
 Initiative: 3
 
-*Offense Hex* (Major Spell), target loses one rank on the Offense Track
-*Defense Hex* (Major Spell), target loses one rank on the Defense Track
-*Purge* (Major Aux), target loses two ranks on Offense/Defense Track, minimum 0
+*Offense Hex* (Major Spell), target loses one rank on the Offense Track  
+*Defense Hex* (Major Spell), target loses one rank on the Defense Track  
+*Purge* (Major Aux), target loses two ranks on Offense/Defense Track, minimum 0  
 *Zap* (Major Spell), x1 damage, choose one element for type, medium
 
 ## Magi
@@ -216,7 +217,7 @@ Physical Defense: 10
 Mental Defense: 12  
 Initiative: 1
 
-*Zap* (Major Spell), x1 damage, choose one of two elemental types, medium
+*Zap* (Major Spell), x1 damage, choose one of two elemental types, medium  
 *Quick Zap* (Minor Spell), x1 damage, physical, short, cannot be used on the same target as Zap in a round, 1 MP
 
 #### Competent Mage  
@@ -234,12 +235,13 @@ Physical Defense: 11
 Mental Defense: 13  
 Initiative: 2  
 
-*Zap* (Major Spell), x2 damage, choose one of two elemental types, medium.
-*Quick Zap* (Minor Spell), x1 damage, physical, short, cannot be used on the same target as Zap in a round, 1 MP
-*Purge* (Minor Aux), Medium
-Reduce the target's Buff/Debuff track by 1, to a minimum of 0.
-Remove the target's current Ward.
-Reduce the target's regeneration/degeneration track by 2, to a minimum of 0.
+*Zap* (Major Spell), x2 damage, choose one of two elemental types, medium.  
+*Quick Zap* (Minor Spell), x1 damage, physical, short, cannot be used on the same target as Zap in a round, 1 MP  
+*Purge* (Minor Aux), Medium  
+Choose one:  
+* Reduce the target's Buff/Debuff track by 1, to a minimum of 0.  
+* Remove the target's current Ward.  
+* Reduce the target's regeneration/degeneration track by 2, to a minimum of 0.
 
 ## Nuisances
 The Nuisance archetype represents small, elusive adversaries that utilize mental attacks against the heroes. These may appear in groups with other nuisances, or assist a more impressive threat as minor support. They generally shouldn’t appear alone, as their low hit points means individuals will typically be dealt with quickly. Example nuisances include pixies, will o’ wisps, imps, elemental motes, and the like.  
@@ -280,15 +282,15 @@ Physical Defense: 14
 Mental Defense: 12  
 Initiative: 3  
 
-*Shoot* (Major Attack), x2 damage, physical, long
-*Dash* (Minor Aux), move 2
-*Hide* (Minor Aux), gain Stealth, Cooldown 1, 1 MP  
-*Dodge* (Counter Aux), avoid Ability with Result <= 2
+*Shoot* (Major Attack), x2 damage, physical, long  
+*Dash* (Minor Aux), move 2  
+*Hide* (Minor Aux), gain Stealth, Cooldown 1, 1 MP    
+*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability  
 
 ## Slimes
 Slimes come in many sizes and shapes. These could be a pool of magically animated gel, a huge amoeba, the result of an alchemical accident, or just blobs with faces on them. Slimes tend to be associated with a specific <Element> and generally deals damage of that type.
 
-#### Medium <Element> Slime
+#### Medium Elemental Slime
 Strength 3  
 Finesse -1  
 Toughness 4  
@@ -301,9 +303,10 @@ Mental Attack: -
 Physical Defense: 13  
 Mental Defense: 10  
  
-*Absorb* (Major action Attack), x1 damage, <Element>, melee. On first success, target is partially absorbed. On second success, the target is rooted. On a third success, target is grappled and Absorb's damage becomes x2
-*Splash* (Major action Attack), x1 damage, <Element>, short.  
-*Thorns* (Passive), anyone who attacks a Slime in melee range takes 4 thorns damage. 
+*Favored Element*, each instance of this monster deals damage of a chosen element. Damage can be fire, ice, sky, earth, light, or dark.
+*Absorb* (Major action Attack), x1 damage, Elemental, melee. On first success, target is partially absorbed. On second success, the target is rooted. On a third success, target is grappled and Absorb's damage becomes x2
+*Splash* (Major action Attack), x1 damage, Elemental, short.  
+*Thorns* (Passive), anyone who attacks a Slime in melee range takes 4 Elemental damage. 
 
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
@@ -343,7 +346,7 @@ Mental Attack: -1
 Physical Defense: 14  
 Mental Defense: 9  
 
-*Jab* (Major action attack): x1 melee range, physical damage 
+*Jab* (Major action attack): x1 melee range, physical damage  
 *Bash* (Major action attack): x1 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square, cooldown 3
 
 #### Competent Warrior 
@@ -360,11 +363,11 @@ Physical Defense: 15
 Mental Defense: 11  
 Initiative: +1  
 
-*Strike* (Major Attack), x2 damage, physical, melee 
-*Shoot* (Major Attack), x1 damage, physical, medium
-*Restrain* (Major Attack), x1 damage, physical, melee, on success Grab 
-*Bash* (Major action attack): x1 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square, 
-*Protect* (Minor Aux), target ally gains Cover
+*Strike* (Major Attack), x2 damage, physical, melee  
+*Shoot* (Major Attack), x1 damage, physical, medium  
+*Restrain* (Major Attack), x1 damage, physical, melee, on success Grab   
+*Bash* (Major action attack): x1 melee range, physical damage, if Result is 5 or greater then the target and the Lesser Warrior move to an adjacent square  
+*Protect* (Minor Aux), target ally gains Cover  
 
 #### Excellent Warrior 
 Strength 2  
@@ -380,8 +383,8 @@ Physical Defense: 16
 Mental Defense: 13  
 Initiative: +1  
 
-*Strike* (Major Attack), x2 damage, physical, melee
-*Shoot* (Major Attack), x2 damage, physical, medium 
-*Restrain* (Major Attack), x1 damage, physical, melee, on success Grab the target
-*Bash* (Major Attack), x1 damage, physical, melee, on success move target 1 square
-*Protect* (Minor Aux), target ally gains Cover
+*Strike* (Major Attack), x2 damage, physical, melee  
+*Shoot* (Major Attack), x2 damage, physical, medium  
+*Restrain* (Major Attack), x1 damage, physical, melee, on success Grab the target  
+*Bash* (Major Attack), x1 damage, physical, melee, on success move target 1 square  
+*Protect* (Minor Aux), target ally gains Cover  
