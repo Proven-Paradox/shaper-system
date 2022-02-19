@@ -25,7 +25,7 @@ Toughness 0
 Mind 0  
 Soul 0  
 Heart 0  
-HP Max: 10
+HP Max: 10  
 Physical Attack: 0  
 Mental Attack: 0  
 Physical Defense: 10  
