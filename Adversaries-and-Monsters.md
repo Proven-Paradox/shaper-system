@@ -10,9 +10,10 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
 - [Grapplers](#grapplers)
 - [Healers](#healers)
 - [Magi](#magi)
-- [Snipers](#snipers)  
 - [Nuisances](#nuisances)
 - [Rogues](#rogues)
+- [Snipers](#snipers)  
+- [Thugs](#thugs)  
 - [Slimes](#slimes)
 - [Warriors](#warriors)
 
@@ -24,6 +25,11 @@ Toughness 0
 Mind 0  
 Soul 0  
 Heart 0  
+HP Max: 10
+Physical Attack: 0  
+Mental Attack: 0  
+Physical Defense: 10  
+Mental Defense: 10   
 
 *Desperate Strike* (Major action attack), x1 multiplier, physical, melee, made with Bane -3.
 
