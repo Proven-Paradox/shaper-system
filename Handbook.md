@@ -615,7 +615,7 @@ Targets: 1 enemy
 Cost: 3 HP  
 Damage: x1 or x2 (Physical, see Effect)  
 Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2.
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Charge Up  
@@ -649,10 +649,11 @@ Action: Major
 Prerequisties: [Bash](#bash)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 4 HP  
+Cost: 3 HP  
 Duration: Variable, see Effect  
 Damagex: x1  
 Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Demand  
@@ -711,6 +712,7 @@ Cost: 5 MP
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
 #### Elemental Lance  
@@ -719,11 +721,12 @@ Action: Major
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 0 MP (Overload +3 MP)  
-Damage: x1 (Overload x2) (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 2.  
+Cost: 0 MP 
+Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
 You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Scaling: At any Hero Tier, you may increase the cost of this Ability by 3 to MP increase its damage multiplier by 1.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 4 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -781,6 +784,7 @@ Targets: 1 enemy
 Cost: 7 HP  
 Damage: x3  
 Effect: You may only use this Attack after successfully striking with 3 other Melee or Short ranged Attacks of at least Tier 1. Using an Ability that is does not meet these requirements, missing, or using a given Attack twice in the sequence resets the counter.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
 #### Flash  
@@ -825,6 +829,7 @@ Targets: 1 enemy
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability. The cost increase only affects the initial use of the Ability; its Upkeep is unchanged.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 #### Haste  
@@ -845,18 +850,20 @@ Range: Melee
 Targets: 1 Square  
 Cost: 5 MP  
 Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
-Auxiliary [Healing] [Overload]  
+Auxiliary [Healing]  
 Action: Minor  
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Ally  
-Cost: 2 MP (Overload +4 MP)  
-Effect: The target regains HP equal to a ten-sided die roll.  
-If you pay the Overload cost, the healing increases to two ten-sided die rolls.  
+Cost: 2 MP
+Effect: The target regains HP equal to a ten-sided die roll.   
 This Ability may only be used once per Turn.  
+Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another ten-sided die to the amount healed.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 4 MP to add another ten-sided to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -868,6 +875,7 @@ Targets: 1 Ally
 Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.  
 If you also use your minor action increase the healing to two ten-sided die rolls and this Ability's range increases to Long.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase the number of die healed. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -876,9 +884,10 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 3 HP (Overload +2 HP)  
+Cost: 3 HP  
 Damage: x2 (Physical)  
-Effect: If you pay the Overload cost and land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
+Effect: If you land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -900,6 +909,7 @@ Targets: 1 enemy
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: If this Spell hits the target and they are not otherwise restrained, you move them one Square.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -910,7 +920,8 @@ Range: Medium
 Targets: 1 Square  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
-Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 4.  
+Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.    
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
 
 #### Mobile Strike  
@@ -978,6 +989,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 2 MP  
 Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to increase reduce a Status Ailment's duration by 5 round, or reduce two different Status Ailment durations by 3 each. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
 
 #### Riposte  
@@ -990,6 +1002,7 @@ Trigger: The targeted enemy fails on an Offense attempt.
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Run  
@@ -1026,6 +1039,7 @@ Targets: 1 enemy
 Cost: 1 MP  
 Damage: x1 (Physical)  
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Slow  
@@ -1049,6 +1063,7 @@ Targets: 1 enemy
 Cost: 4 MP  
 Damage: x3 (Physical)  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Snipe  
@@ -1060,6 +1075,7 @@ Targets: 1 enemy
 Cost: 4 MP  
 Damage: x2 (Physical)  
 Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -1071,6 +1087,7 @@ Targets: 1 enemy
 Cost: 2 HP  
 Damage: x2 (Physical)  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sustain  
@@ -1092,6 +1109,7 @@ Range: Melee
 Targets: Up to 3 enemies  
 Cost: 3 HP  
 Damage: x1 (Physical)  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### Throw  
@@ -1139,6 +1157,7 @@ Range: Long
 Targets: 1 Enemy  
 Cost: 15 MP  
 Damage: x3 (Almighty)  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 15 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
 
 > Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
@@ -1152,6 +1171,7 @@ Targets: 1 Enemy
 Cost: 6 MP  
 Damage: x3 (Almighty)  
 Effect: Using this Attack consumes your [Charge](#charged) Advantage. You cannot use this Attack if you are not Charged.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Attacking with an extremely powerful projectile after preparing. This could represent the release of a powerful experimental firearm, launching powerful ki bullets, or similar attacks.
 
 #### Volley  
@@ -1162,6 +1182,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 4 MP  
 Damage: x1 (Physical)  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 #### Ward  
@@ -1273,19 +1294,6 @@ You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offen
 You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
-
-#### Daze Strike II  
-Attack [Status]  
-Action: Major  
-Prerequisites: [Bash II](#bash-ii), [Daze Strike](#daze-strike)  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 9 HP  
-Duration: Variable, see Effect  
-Damagex: x3  
-Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
-Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
-
 #### Doom  
 Spell [Curse]  
 Action: Major  
@@ -1297,41 +1305,6 @@ Effect: If you hit with this Spell, the target decreases on [The Offensive Track
 When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends (though the damage done to the victim’s buff tracks remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
-
-#### Double Strike II  
-Attack   
-Action: Major  
-Prerequisites: [Double Strike](#double-strike)  
-Range: Melee  
-Targets: Up to 2 enemies  
-Cost: 6 MP  
-Damage: x2 (Physical)  
-Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
-Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
-
-#### Elemental Blast II  
-Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
-Action: Major  
-Prerequisites: [Elemental Blast](#elemental-blast)  
-Range: Short  
-Targets: 1 Square  
-Cost: 11 MP 
-Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.  
-Description: A distributed burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental mastery.
-
-#### Elemental Lance II  
-Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
-Action: Major  
-Prerequisites: [Elemental Lance](#elemental-Lance)  
-Range: Medium  
-Targets: 1 enemy  
-Cost: 7 MP (Overload +5 MP)  
-Damage: x3 (Overload x4) (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: If you pay the Overload cost, this Ability's damage multiplier becomes 4.  
-You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.    
-Description: This represents a variety of powerful, focused elemental attacks. This could be an advanced spell, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Elemental Strike  
 Attack [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
@@ -1365,50 +1338,6 @@ Cost: 4 MP
 Effect: The Ability that missed you is re-rolled targeting the opponent you have Grabbed.  
 Description: You redirect a poorly aimed strike to instead hit the target you have in your grip. This would usually involve using them as a shield.  
 
-#### Healing Burst II   
-Auxiliary [Healing]  
-Action: Major  
-Prerequisites: [Healing Burst](#healing-burst)   
-Range: Short  
-Targets: 1 Square  
-Cost: 10 MP  
-Effect: You and all allies in the same Square regain HP equal to a 2 ten-sided die rolls.  
-Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
-
-#### Healing Touch II  
-Auxiliary [Healing] [Overload]  
-Action: Minor  
-Prerequisites: [Healing Touch](#healing-touch)  
-Range: Melee  
-Targets: 1 Ally  
-Cost: 8 MP (Overload +4 MP)  
-Effect: The target regains HP equal to a 3 ten-sided die rolls.
-If you pay the Overload cost, the healing increases to 4 ten-sided die rolls.  
-This Ability may only be used once per Turn.  
-Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions.
-
-#### Healing Word II  
-Auxiliary [Healing] [Careful]  
-Action: Major  
-Prerequisites: None  
-Range: Medium (Careful: Long)  
-Targets: 1 Ally  
-Cost: 5 MP  
-Effect: The target regains HP equal to 3 ten-sided die rolls.  
-If you also use your minor action increase the healing to 4 ten-sided die rolls. You may also use this Ability from a Long range if done with Careful.  
-Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.
-
-#### Heavy Strike II  
-Attack [Overload]  
-Action: Major  
-Prerequisites: [Heavy Strike](#heavy-strike)  
-Range: Melee  
-Targets: 1 enemy  
-Cost: 7 HP (Overload +3 HP)  
-Damage: x3 (Physical)  
-Effect: If you pay the Overload cost and land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
-Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.
-
 #### Hold Fast  
 Auxiliary  
 Action: Minor  
@@ -1431,28 +1360,6 @@ Cost: None
 Duration: 1 round    
 Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
-
-#### Kinetic Force II  
-Spell  
-Action: Major  
-Prerequisites: [Kinetic Force](#kinetic-force)  
-Range: Medium  
-Targets: 1 enemy  
-Cost: 5 MP  
-Damage: x2 (Physical)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square.  
-Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks. 
-
-#### Kinetic Pummeling II  
-Spell [Careful]  
-Action: Major  
-Prerequisites: [Kinetic Pummeling](#kinetic-pummeling)  
-Range: Medium  
-Targets: 1 Square  
-Cost: 13 MP (Careful 10 MP)  
-Damage: x2 (Physical)  
-Effect: If you spend your minor action while using this Ability, the MP cost is reduced to 10.  
-Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or submachine guns, and the like.
 
 #### Lean In  
 Auxiliary  
@@ -1564,17 +1471,6 @@ Cost: 10 MP
 Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a ten-sided die roll.  
 Description: Simultaneously healing an ally and preparing them for further combat. This could represent invoking healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
 
-#### Remedy II  
-Auxiliary  
-Action: Minor  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 3 MP  
-Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 6 rounds.  
-Alternatively, you may reduce two separate Status Ailment durations by 4 rounds each.
-Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
-
 #### Restrain  
 Spell [Status]  
 Action: Minor  
@@ -1596,18 +1492,6 @@ Targets: Self
 Cost: 1 MP  
 Effect: Any Ability you use in the same Turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
-
-#### Riposte II  
-Attack  
-Action: Counter  
-Prerequisites: [Riposte](#riposte)  
-Range: Melee  
-Targets: 1 enemy  
-Trigger: The targeted enemy fails on an Offense attempt.  
-Cost: 6 MP  
-Damage: x3 (Physical)  
-Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
-Description: Preparing a basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Searing Bolt  
 Spell [Elemental] [Fire]  
@@ -1633,17 +1517,6 @@ Duration: 2 rounds
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
 
-#### Shoot II  
-Attack [Careful]  
-Action: Major  
-Prerequisites: [Shoot](#shoot)  
-Range: Long  
-Targets: 1 enemy  
-Cost: 5 MP  
-Damage: x3 (Physical)  
-Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
-Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-
 #### Second Wind  
 Auxiliary [Healing]  
 Action: Minor  
@@ -1664,39 +1537,6 @@ Cost: 8 MP
 Damage: x2  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
-
-#### Shoot II  
-Attack [Careful]  
-Action: Major  
-Prerequisites: [Shoot](#shoot)  
-Range: Long  
-Targets: 1 enemy  
-Cost: 5 MP
-Damage: x3 (Physical)
-Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot II, you make this attack with Boon +4 instead.
-Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-
-#### Sneak Attack II  
-Attack  
-Action: Major  
-Prerequisites: [Sneak Attack](#sneak-attack)  
-Range: Short  
-Targets: 1 enemy  
-Cost: 8 MP  
-Damage: x5 (Physical)  
-Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
-Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
-
-#### Snipe II  
-Attack   
-Action: Major  
-Prerequisites: [Snipe](#snipe)  
-Range: Long  
-Targets: 1 enemy  
-Cost: 9 MP  
-Damage: x4 (Physical)  
-Effect: This Attack has Boon +3. You cannot use this Attack on a Turn where you have moved.  
-Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Sprint  
 Auxiliary  
@@ -1722,27 +1562,6 @@ Effect: If this Spell succeeds, you [Grab](#grab) your target. Instead of Physic
 Description: Holding a target using mental/technological means from a distance. This can be telekinetically grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
 
 >Note: You still cannot move if you Grab a target using Suspend.
-
-#### Sustain II  
-Auxiliary [Augment]  
-Action: Minor  
-Prerequisites: [Sustain](#sustain)  
-Range: Medium  
-Targets: 1 ally  
-Cost: 6 MP  
-Effect: The target advances increases 3 levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 8.  
-You may only use this Ability once per Turn.  
-Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
-
-#### Sweeping Strike II  
-Attack  
-Action: Major  
-Prerequisites: [Sweeping Strike](#sweeping-strike)  
-Range: Melee  
-Targets: Up to 3 enemies  
-Cost: 7 HP  
-Damage: x2 (Physical)  
-Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### To the Rescue  
 Auxiliary    
@@ -1789,37 +1608,6 @@ Damage: x2
 Effect: If this Attack hits, the target loses 3 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
 If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
 Description: Striking with venom in a way that also deals significant damage immediately. This could be a cut from a poisoned blade, striking with snake fangs, launching a venom coated arrow, or similar effects.
-
-#### Void Lance II 
-Spell  
-Action: Major  
-Prerequisites: [Void Lance](#void-lance)  
-Range: Long  
-Targets: 1 Enemy  
-Cost: 30 MP  
-Damage: x5 (Almighty)  
-Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
-
-#### Void Shot II  
-Attack  
-Action: Major  
-Prerequisites: [Void Shot](#void-shot), [Shoot II](#shoot-ii)  
-Range: Long  
-Targets: 1 Enemy  
-Cost: 15 MP  
-Damage: x5 (Almighty)  
-Effect: Using this Attack consumes your [Charge](#charged) Advantage. You cannot use this Attack if you are not Charged.  
-Description: Attacking with an extremely powerful projectile after preparing. This could represent the release of a powerful experimental firearm, launching powerful ki bullets, or similar attacks.
-
-#### Volley II  
-Attack   
-Action: Major  
-Prerequisites: [volley](#volley)  
-Range: Medium  
-Targets: 1 Square  
-Cost: 9 MP  
-Damage: x2 (Physical)  
-Description: An unfocused barrage of projectiles covering a small area. This can represent sustained sub-machine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 ------------
 # Chapter 6: Skills
