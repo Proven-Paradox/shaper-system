@@ -1218,8 +1218,8 @@ Action: Major
 Prerequisites: [Enfeeble](#enfeeble)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 8 MP  
-Damage: x2  
+Cost: 6 MP  
+Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
@@ -1240,8 +1240,8 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 8 HP  
-Damage: x4 (Physical)  
+Cost: 7 HP  
+Damage: x3 (Physical)  
 Effect: This Spell target's the opponent's Physical Defense rather than Mental Defense.  
 Description: A powerful and unusual melee-ranged Spell. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a melee weapon with spiritual power, or something similar.
 
@@ -1262,8 +1262,8 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Ice](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 10 MP  
-Damage: x3 (Ice)  
+Cost: 9 MP  
+Damage: x2 (Ice)  
 Duration: 3 rounds  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
@@ -1274,24 +1274,24 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Earth](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 10 MP  
-Damage: x3 (Earth)  
+Cost: 9 MP  
+Damage: x2 (Earth)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
 
 #### Crushing Demand  
-Attack/Spell [Overload][Status]  
+Attack/Spell [Status]  
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 0 MP (Overload +3 MP/+7 MP)  
-Damage: x1/x2/x3 (Physical)  
+Cost: None  
+Damage: x1 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
-You may choose to Overload this Ability to 3 MP or 7 MP, which increases the Ability's damage multiplier to x2 or x3, respectively.  
+Scaling: You may increase the cost of this Ability by 4 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Doom  
@@ -1312,8 +1312,8 @@ Action: Major
 Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 7 HP  
-Damage: x3 (Fire/Ice/Earth/Sky/Light/Dark)  
+Cost: 6 HP  
+Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
@@ -1445,8 +1445,8 @@ Action: Major
 Prerequisites: [Purge](#purge), Any melee range Attack  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 8 MP  
-Damage: x3 (Physical)  
+Cost: 7 MP  
+Damage: x2 (Physical)  
 Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
 
@@ -1456,8 +1456,8 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Light](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy, 1 ally  
-Cost: 10 MP  
-Damage: x3 (Light)  
+Cost: 9 MP  
+Damage: x2 (Light)  
 Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your [Hero Tier](#hero-tier). If this Ability misses no healing occurs.
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
 
@@ -1499,8 +1499,8 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 10 MP  
-Damage: x3 (Fire)  
+Cost: 9 MP  
+Damage: x2 (Fire)  
 Duration: 1 round  
 Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next Turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
@@ -1511,8 +1511,8 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Sky](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 10 MP  
-Damage: x3 (Sky)  
+Cost: 9 MP  
+Damage: x2 (Sky)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
@@ -1533,7 +1533,7 @@ Action: Major
 Prerequisites: [Expose](#expose)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 8 MP  
+Cost: 6 MP  
 Damage: x2  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
@@ -1580,8 +1580,8 @@ Prerequisites: [Elemental Lance](#elemental-Lance), [Ward](#ward)
 Range: Medium  
 Targets: 1 enemy  
 Trigger: Your target deals damage of the appropriate element to an ally you have Warded. (For example, if you place Fire Ward and an enemy deals Fire damage to an ally.)  
-Cost: 5 MP  
-Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
+Cost: 4 MP  
+Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 Description: Counter attacking an enemy after they strike one of your Wards. This could represent setting a trap up in the Ward itself, using the ward to to redirect/alter an enemy's own power, or just being ready to strike back against opponents during combat.
 
@@ -1591,8 +1591,8 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Dark](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 10 MP  
-Damage: x3 (Dark)  
+Cost: 9 MP  
+Damage: x2 (Dark)  
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
@@ -1603,8 +1603,8 @@ Action: Major
 Prerequisites: [Envenom](#envenom)  
 Range: Short  
 Targets: 1 enemy  
-Cost: 8 MP  
-Damage: x2  
+Cost: 6 MP  
+Damage: x1  
 Effect: If this Attack hits, the target loses 3 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
 If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
 Description: Striking with venom in a way that also deals significant damage immediately. This could be a cut from a poisoned blade, striking with snake fangs, launching a venom coated arrow, or similar effects.
