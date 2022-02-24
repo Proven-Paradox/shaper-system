@@ -471,7 +471,7 @@ Any Ability with an Upkeep in its cost requires the given cost to be paid at [Ro
 Unless otherwise specified, you may only utilize a given Ability with Upkeep once. For example, you cannot affect multiple people with the [Haste](#haste) Ability by using it in subsequent turns.
 
 ## Buff Tracks
-These are a way of measuring advantage or disadvantage Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
+These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 
 #### The Offensive Track
 * **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).
@@ -490,6 +490,12 @@ These are a way of measuring advantage or disadvantage Offense or Defense. Unles
 * **Level -1** - Offense rolls against you have Boon +2.
 * **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.
 * **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
+
+### Duration  
+Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
+Positive values begin decaying once every 3 rounds. Recieving another increase along the Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+
+> For example, Cyrick casts [Fortify](#fortify) on himself in round 1 on combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not recieve another defense buff by roun 7's start, the track will decay to 0.
 
 #### The Regen/Degen Track
 Unlike the previous tracks described, the regen/degen track has no limit aside from what is mentioned in the Ability description. At [Round End](#round-end) you gain or lose HP equal to your value on the track, and then move one point closer to 0. Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.  
@@ -736,7 +742,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target increases on the [Offensive Track](#the-offensive-track).
+Effect: The target increases on the [Offensive Track](#the-offensive-track).  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
