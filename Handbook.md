@@ -497,10 +497,6 @@ Positive values begin decaying once every 3 rounds. Recieving another increase a
 
 > For example, Cyrick casts [Fortify](#fortify) on himself in round 1 on combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not recieve another defense buff by roun 7's start, the track will decay to 0.
 
-#### The Regen/Degen Track
-Unlike the previous tracks described, the regen/degen track has no limit aside from what is mentioned in the Ability description. At [Round End](#round-end) you gain or lose HP equal to your value on the track, and then move one point closer to 0. Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.  
-> For example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next Round he would recover 2 HP and move to 1 on the track.  
-
 ------------
 # Chapter 5: List of Abilities
 
@@ -646,7 +642,6 @@ Cost: 2 MP
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.
-* Increase the target’s [Regen/Degen](#the-regendegen-track) value by 4. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Daze Strike  
@@ -696,17 +691,6 @@ Cost: 2 MP
 Damage: x1 (Physical)  
 Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
-
-#### Draining Strike  
-Attack  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: 1 enemy  
-Cost: 3 MP  
-Damage: x1 (Physical)  
-Effect: If you successfully hit your target, they move -3 points on the Regen/Degen track, down to a minimum of -5. 
-Description: An attack that deals lingering damage to the target. This can be a slice that causes bleeding, spitting acid, blows that cause internal bleeding, or similar attacks.
 
 #### Elemental Blast  
 Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]  
@@ -758,6 +742,7 @@ You may use this either as an Attack (using your Physical Offense and targeting 
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
 #### Envenom  
+!!TODO: REWORK!!
 Attack [Status]  
 Action: Major  
 Prerequisites: None  
@@ -962,7 +947,6 @@ Cost: 2 MP
 Effect: Choose one of the following -  
 * Reduce one of the target's [Buff track](#buff-tracks) by 1, to a minimum of 0.  
 * Remove the target's current [Ward](#ward).  
-* Reduce the target's [Regen/Degen Track](#the-regendegen-track) by 2, to a minimum of 0.  
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Quick Strike  
@@ -1095,17 +1079,6 @@ Damage: x2 (Physical)
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
-
-#### Sustain  
-Auxiliary [Augment]  
-Action: Minor  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 2 MP  
-Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 5.  
-You may only use this Ability once per Turn.  
-Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
 #### Sweeping Strike  
 Attack  
@@ -1604,6 +1577,7 @@ Effect: If this Ability hits, the target becomes [Drained](#drained) for two rou
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
 
 #### Venom Strike  
+!! TODO: REWORK !!
 Attack [Status]  
 Action: Major  
 Prerequisites: [Envenom](#envenom)  
@@ -1819,8 +1793,6 @@ When you heal an ally from 0 HP, add twice your Level to the healing done.
 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half. 
- 
-> Remember that all fractions round down. If you haven't used your healing by [Round End](#round-end) you may improve the healing from [the Regen/Degen Track](#the-regendegen-track) or the [Everlasting](#everlasting) Talent.
 
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
@@ -1889,7 +1861,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also decrease the target's [Regen/Degen Track](#the-regendegen-track) by 2 every time you successfully hit with a Fire skill. This can build up to a maximum of 2 + your [Hero Tier](#hero-tier).
+  * Fire - !! TODO: REWORK !!
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
@@ -1909,7 +1881,6 @@ This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redu
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* Increase the character’s [Regen/Degen Track](#the-regendegen-track) by 2, up to a maximum of 0.
 * End a [Curse] effect on the target.
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
 * Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
@@ -2087,7 +2058,7 @@ If there’s a tie, the creature with the higher Initiative modifier goes first.
 You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
 
 ### Round End
-At the end of the Round, you apply damage or healing from the [Regen/Degen Track](#the-regendegen-track). Some Abilities, Lessons, and Talents add additional steps to the Round end, unique to each character.
+At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.
 
 ### Major/Minor Actions
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
@@ -2232,6 +2203,7 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
 
 #### Venom
+!! TODO: REWORK !!
 You are afflicted with a venom or poison that get worse over time. While affected by Venom, you lose one point on the [Regen/Degen Track](#the-regendegen-track) every turn instead of gaining one.  
 If the target has more than five rounds of Venom remaining, the condition worsens to Severe Venom, causing the character to lose two points on the Regen/Degen Track per turn.  
 If the target has more than ten rounds of Venom remaining, the condition worsens to Extreme Venom, cause the character to lose four points on the Regen/Degen Track per turn.

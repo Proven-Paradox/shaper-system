@@ -673,3 +673,32 @@ You have perfected an unusual spellcasting style that enables you draw fuel for 
 
 #### Serene Health  
 Your heart powers your body more than your muscles. You may use Heart in place of Strength when determining your HP.
+
+
+
+#### The Regen/Degen Track
+Unlike the previous tracks described, the regen/degen track has no limit aside from what is mentioned in the Ability description. At [Round End](#round-end) you gain or lose HP equal to your value on the track, and then move one point closer to 0. Positive values can represent gradual magical healing, an injection of tissue repairing nanobots, or similar ways to heal over time. Negative values could represent venom, bleeding, being drained of energy, or similar sources of gradual damage.  
+-> For example, if Roland is at 3 on the track, he regains 3 HP and his position then becomes 2. Unless something further happens to change his position, the next Round he would recover 2 HP and move to 1 on the track.  
+
+#### Draining Strike  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 enemy  
+Cost: 3 MP  
+Damage: x1 (Physical)  
+Effect: If you successfully hit your target, they move -3 points on the Regen/Degen track, down to a minimum of -5. 
+Description: An attack that deals lingering damage to the target. This can be a slice that causes bleeding, spitting acid, blows that cause internal bleeding, or similar attacks.
+
+#### Sustain  
+Auxiliary [Augment]  
+Action: Minor  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 ally  
+Cost: 2 MP  
+Effect: The target advances increases two levels on [the Regen/Degen Track](#the-regendegen-track), to a maximum of 5.  
+You may only use this Ability once per Turn.  
+Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
+
