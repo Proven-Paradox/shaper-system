@@ -1503,6 +1503,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 4 MP  
+Cooldown: 3 rounds  
 Effect: You regain health equal to 2 times your [Vitality](#vitalitycapacity).  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
 
