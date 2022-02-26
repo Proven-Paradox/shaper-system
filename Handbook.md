@@ -2181,13 +2181,18 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 ## Status Ailments
 Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
 
-> So if a character is already suffering from the Venom Ailment with a duration of 2 rounds, and they then sustain a snake bite that would inflict Venom for 2 rounds, they now have Venom for 4 rounds.
+> So if a character is already suffering from the Daze Ailment with a duration of 2 rounds, and they then struck by an enemy that inflicts Daze for 2 rounds, they now have Daze for 4 rounds.
 
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
 #### Daze  
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
+
+#### Degeneration  
+You are afflicted with a condition that causes the victim to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
+
+> For example, Cyrick begins the round with 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
 
 #### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
@@ -2202,12 +2207,6 @@ You are hobbled in a way that makes you slower, though you can still move somewh
 
 #### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).
-
-#### Venom
-!! TODO: REWORK !!
-You are afflicted with a venom or poison that get worse over time. While affected by Venom, you lose one point on the [Regen/Degen Track](#the-regendegen-track) every turn instead of gaining one.  
-If the target has more than five rounds of Venom remaining, the condition worsens to Severe Venom, causing the character to lose two points on the Regen/Degen Track per turn.  
-If the target has more than ten rounds of Venom remaining, the condition worsens to Extreme Venom, cause the character to lose four points on the Regen/Degen Track per turn.
 
 ## Disadvantages
 These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
