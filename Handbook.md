@@ -850,7 +850,7 @@ Action: Minor
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Ally  
-Cost: 2 MP
+Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.   
 This Ability may only be used once per Turn.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another ten-sided die to the amount healed.  
