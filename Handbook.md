@@ -2181,7 +2181,7 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 ## Status Ailments
 Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
 
-> So if a character is already suffering from the Daze Ailment with a duration of 2 rounds, and they then struck by an enemy that inflicts Daze for 2 rounds, they now have Daze for 4 rounds.
+> If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.
 
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
@@ -2190,9 +2190,9 @@ You cannot see. If you attempt to strike a target that you can hear or whose loc
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
 
 #### Degeneration  
-You are afflicted with a condition that causes the victim to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
+You are afflicted with a condition that causes you to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
 
-> For example, Cyrick begins the round with 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
+> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
 
 #### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
