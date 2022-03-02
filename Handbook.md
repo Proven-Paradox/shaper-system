@@ -1360,6 +1360,17 @@ Cost: 3 HP
 Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.
 
+#### Lingering Strike  
+Attack [Status]  
+Action: Major  
+Prerequisites: None  
+Range: Short  
+Targets: 1 enemy  
+Cost: 6 MP  
+Damage: x1  
+Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.   
+Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxin, or similar approaches to causing lingering damage.
+
 #### Mental Shield
 Auxiliary  
 Action: Counter  
@@ -1563,17 +1574,6 @@ Damage: x2 (Dark)
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
-
-#### Lingering Strike  
-Attack [Status]  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: 1 enemy  
-Cost: 6 MP  
-Damage: x1  
-Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.  
-Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxin, or similar approaches to causing lingering damage.
 
 ------------
 # Chapter 6: Skills
