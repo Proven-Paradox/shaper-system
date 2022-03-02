@@ -741,19 +741,6 @@ Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
-#### Envenom  
-!!TODO: REWORK!!
-Attack [Status]  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: 1 enemy  
-Cost: 2 MP  
-Damage: 0  
-Effect: If this Attack hits, the target loses 2 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
-If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
-Description: Striking with venom. This could be a prick of a poisoned needle, striking with a stinger, launching a venom coated dart, or similar effects.
-
 #### Expose  
 Attack/Spell [Curse]  
 Action: Major  
@@ -1577,18 +1564,16 @@ Duration: 2 round
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
 
-#### Venom Strike  
-!! TODO: REWORK !!
+#### Lingering Strike  
 Attack [Status]  
 Action: Major  
-Prerequisites: [Envenom](#envenom)  
+Prerequisites: None  
 Range: Short  
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: x1  
-Effect: If this Attack hits, the target loses 3 points on the Regen/Degen track and is affected by [Venom](#venom) for 2 rounds.  
-If this Attack scores a [Solid Hit](#solid-hit), the Venom lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Venom lasts for 4 rounds.  
-Description: Striking with venom in a way that also deals significant damage immediately. This could be a cut from a poisoned blade, striking with snake fangs, launching a venom coated arrow, or similar effects.
+Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.  
+Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxin, or similar approaches to causing lingering damage.
 
 ------------
 # Chapter 6: Skills
@@ -1862,7 +1847,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - !! TODO: REWORK !!
+  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds. Every time you increase in Hero Tier, this increases by 1 round.  
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
