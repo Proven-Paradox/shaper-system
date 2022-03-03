@@ -18,7 +18,7 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
 - [Warriors](#warriors)
 
 ## Bystander
-A bystander represents a person who has no combat training and nothing about them that would be suitable to fighting. They are more likely to try to run, hide, or seek assitance from someone actually ready to fight during combat. The person they represent may have different Attributes, but with no combat ability or experience they are unlikely to be able to effectively use them when a fight breaks out.  
+A bystander represents a person who has no combat training and nothing about them that would be suitable to fighting. They are more likely to try to run, hide, or seek assistance from someone actually ready to fight during combat. The person they represent may have different Attributes, but with no combat ability or experience they are unlikely to be able to effectively use them when a fight breaks out.  
 Strength 0  
 Finesse 0  
 Toughness 0  
@@ -139,7 +139,6 @@ Initiative: 1
 Choose one:  
 * Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
 * Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.  
-* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
 * *Dart* (Major Spell), x1 damage, one element, medium
 
 #### Competent Healer  
@@ -162,7 +161,6 @@ Initiative: 1
 Choose one:  
 * Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
 * Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.  
-* Increase the target’s regen/degen value by four. You can only increase the value up to 0.  
 * *Dart* (Major Spell), x1 damage, one element, medium
 
 ## Hexer
@@ -310,19 +308,16 @@ Physical Defense: 13
 Mental Defense: 10  
  
 *Favored Element*, each instance of this monster deals damage of a chosen element. Damage can be fire, ice, sky, earth, light, or dark.
-*Absorb* (Major action Attack), x1 damage, Elemental, melee. On first success, target is partially absorbed. On second success, the target is rooted. On a third success, target is grappled and Absorb's damage becomes x2
+*Absorb* (Major action Attack), x1 damage, Elemental, melee. On first success, the target is rooted. On a third success, target is grappled and this Attack's damage becomes x2
 *Splash* (Major action Attack), x1 damage, Elemental, short.  
 *Thorns* (Passive), anyone who attacks a Slime in melee range takes 4 Elemental damage. 
 
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
-## Thugs  
-Straightforward brutes. In a fight, this represents someone who is going to get close, hit hard, and not much else. This could be a ruffian in a bar, a backstreet mugger, hired meatheads, or similar fare.
-
 #### Lesser Thug  
 Strength 3  
-Finess 0  
+Finesse 0  
 Toughness 2  
 Mind -1  
 Soul -1  
