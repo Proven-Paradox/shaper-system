@@ -325,7 +325,7 @@ Heart 0
 HP Max: 25  
 MP Max: 0  
 
-*Shoot* (Major action Attack), x1 damage, long.
+*Shoot* (Major action Attack), x1 damage, long.  
 *Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
 
 ## Thugs
