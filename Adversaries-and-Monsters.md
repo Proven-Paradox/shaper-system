@@ -315,6 +315,19 @@ Mental Defense: 10
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
+#### Lesser Sniper
+Strength -1  
+Finesse 3  
+Toughness 0  
+Mind 0  
+Soul 0  
+Heart 0  
+HP Max: 25  
+MP Max: 0  
+
+*Shoot* (Major action Attack), x1 damage, long.
+*Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
+
 ## Thugs
 Heavy fighters who rely on brute strength to fight. A drunk brawler, a burly brute, or bulky animals can be represented with Thugs. They take a very straightforward approach to combat; get close and hit as hard as they can. Their reliance on brute strength often leaves them open to attacks, but they have the sturdiness needed to take a few hits anyway.
 
