@@ -324,6 +324,27 @@ Soul 0
 Heart 0  
 HP Max: 25  
 MP Max: 0  
+Physical Attack: +5  
+Mental Attack: +0  
+Physical Defense: 12
+Mental Defense: 10
+
+*Shoot* (Major action Attack), x1 damage, long.  
+*Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
+
+#### Average Sniper
+Strength -1  
+Finesse 3  
+Toughness 1  
+Mind 0  
+Soul 0  
+Heart 0  
+HP Max: 35  
+MP Max: 0  
+Physical Attack: +7  
+Mental Attack: +0  
+Physical Defense: 13
+Mental Defense: 11
 
 *Shoot* (Major action Attack), x1 damage, long.  
 *Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
