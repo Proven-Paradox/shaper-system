@@ -1974,6 +1974,12 @@ To determine the difficulty of the Lore check, the Arbiter should consider sever
 
 ## Other Utilities 
 
+#### Aquatic  
+XP Cost: 3  
+You are able to function better under water. You can breathe water, are able to move through calm water effortlessly, and have Boon 4 on checks made to swim through turbulent water.
+
+> In some settings where straight up water breathing isn't really viable for the PCs--for example, a game that takes place in a modern setting with only human characters--this Utility could instead represent access to oxygen tanks and gear for going underwater for at least 2 hours.
+
 #### Hover  
 XP Cost: 2  
 You can fly up to five feet off the ground.  
