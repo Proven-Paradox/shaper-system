@@ -462,9 +462,6 @@ An Ability that normally only uses the listed Major or Minor Action, but that is
 ### Cooldown
 An Ability that, once used, cannot be used again for some duration, listed in the Ability. Cooldowns decrease by 1 at [Round Start](#round-start).
 
-### Overload
-An Ability that can be improved if you add an additional cost. This represents putting more of your energy or power into the Ability.
-
 ### Upkeep
 Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
 
@@ -621,14 +618,14 @@ Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to in
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
 #### Charge Up  
-Auxiliary [Overload]  
+Auxiliary  
 Action: Minor  
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 2 MP (Overload +2 MP)  
+Cost: 2 MP  
 Duration: Until used  
-Effect: You become [Charged](#charged). If you paid the Overload cost, you may also move 1 Square.  
+Effect: You become [Charged](#charged).  
 You may not use this Ability on the same turn as you use an Attack or Spell.  
 Description: Preparing for a strong offense. This could be gaining focus or clarity for a spell, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
 
@@ -706,7 +703,7 @@ Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to in
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
 #### Elemental Lance  
-Spell [Elemental] [Overload] [Fire/Ice/Earth/Sky/Light/Dark]  
+Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
@@ -857,7 +854,7 @@ Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to in
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
-Attack [Overload]  
+Attack  
 Action: Major  
 Prerequisites: None  
 Range: Melee  
@@ -903,15 +900,14 @@ Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 to incre
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
 
 #### Mobile Strike  
-Attack [Overload]  
+Attack    
 Action: Major  
 Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 1 MP (Overload +2 HP)  
+Cost: 2 MP    
 Damage: x1 (Physical)  
-Effect: You may move one Square before or after you make your Offense roll.  
-If you pay the Overload cost, you may move a Square both before AND after.  
+Effect: You may move one Square before or after you make your Offense roll. 
 Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
 
 #### Protector’s Presence  
@@ -1104,15 +1100,14 @@ If you attack an opponent who is not aware of your location, you may treat them 
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
 
 #### Veil  
-Auxiliary [Overload]  
-Action: Major (Overload Minor)  
+Auxiliary  
+Action: Minor  
 Prerequisites: None  
 Range: Short  
 Targets: 1 Square  
-Cost: 2 MP (Overload +3 MP)  
+Cost: 4 MP  
 Duration: 3 rounds  
-Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).  
-If you pay the Overload cost, you may use this Ability as a minor action.  
+Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).   
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
 #### Void Lance  
@@ -1721,7 +1716,7 @@ If you successfully hit a target with an Elemental Attack or Spell, you may cast
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
 
 #### Double Ward  
-When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability. This counts as paying an Overload cost.
+When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability.  
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -1758,11 +1753,13 @@ Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
 Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Manamaim
+!! TODO FIX !!
 Whenever you pay an Overload cost on a damaging Spell, you may add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
 
 > Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
+!! TODO FIX !!
 Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
 
 #### Masochism  
