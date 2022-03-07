@@ -1,6 +1,8 @@
 # Level 1
 3 Abilities
 16 Skill points
+1 Lesson
+1 Utility
 1 Talent
 
 # XP Cost cheat sheet  
