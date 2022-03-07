@@ -277,7 +277,7 @@ Next you choose one Lesson. Lessons represent a character specializing in specif
 > Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
 
 ## Step 8: Utility
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield.  
+Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility.  
 
 > Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
 >
@@ -1830,10 +1830,9 @@ When you use a single target Ward that normally has a Minor action requirement, 
 
 ------------
 # Chapter 8: Utilities
-Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.  
+Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP. 
  
 ## Skill-based Utilities
-Unless otherwise stated, all Skill-based Utilities cost 3 XP.
 
 #### Asceticism  
 Increase your Endure modifier by 1.  
@@ -1886,13 +1885,11 @@ To determine the difficulty of the Lore check, the Arbiter should consider sever
 ## Other Utilities 
 
 #### Aquatic  
-XP Cost: 3  
 You are able to function better under water. You can breathe water, are able to move through calm water effortlessly, and have Boon 4 on checks made to swim through turbulent water.
 
 > In some settings where straight up water breathing isn't really viable for the PCs--for example, a game that takes place in a modern setting with only human characters--this Utility could instead represent access to oxygen tanks and gear for going underwater for at least 2 hours.
 
 #### Hover  
-XP Cost: 2  
 You can fly up to five feet off the ground.  
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
@@ -1900,22 +1897,18 @@ This does not protect you from falling damage; if you are suddenly more than fiv
 This Lesson makes you immune to natural terrain effects.
 
 #### Lip reading  
-XP Cost: 3  
 You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
 
 #### One with Nature: Animals  
-XP Cost: 3  
 You are able to commune with and in a limited way communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
 Animals have simple, instinctual desires and are usually very focused on the here and now. Most quickly dismiss past events that don’t affect their ability to survive and don’t really understand “the future” as a concept.
 
 #### One with Nature: Minerals  
-XP Cost: 3  
 You are able to commune with and in a limited way communicate with minerals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you have learned to tap into a subtle consciousness that is present in stone, metal, and gems.  
 Minerals have long memories, but no ability to move and thus a very limited frame of reference. They also have a difficult time telling moving things apart; seeking information about a specific person while speaking to stone is unlikely to be fruitful unless no one else has passed by in a very long time.  
 You may only use this method of communication to speak with unworked minerals. The process of cutting gems for jewelry or forging metal for equipment “kills” the materials, rendering them silent to you.
 
 #### One with Nature: Plants  
-XP Cost: 3  
 You are able to commune with and in a limited way communicate with plants. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you can hear the thoughts of plants from the smallest weed to the largest tree.  
 If they are getting adequate resources to grow, plants are generally pleasant conversationalists, often talking about weather patterns or similar topics. Trees will discuss the lives of the animals living within their branches, and grasses will talk about grazers coming for them and being stepped on.
 
@@ -1937,8 +1930,7 @@ XP Cost: 7
 Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), [Hero Tier](#hero-tier) 2  
 You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have (Speak with the Ancient Dead)[#speak-with-the-ancient-dead] this effect extends to them.
 
-#### Slow Fall  
-XP Cost: 4  
+#### Slow Fall    
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
 
 ------------
