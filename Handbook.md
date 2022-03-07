@@ -32,10 +32,10 @@
   - [Helping Others](#helping-others)
   - [Skill List](#skill-list)
 - [Chapter 7: Lessons](#chapter-7-lessons)  
-- [Chapter 8: Talents](#chapter-8-talents)  
-- [Chapter 9: Utilities](#chapter-9-utilities)  
+- [Chapter 8: Utilities](#chapter-9-utilities) 
   - [Skill-based Utilities](#skill-based-utilities)
   - [Other Utilities](#other-utilities)
+- [Chapter 9: Talents](#chapter-8-talents)  
 - [Chapter 10: Combat](#chapter-10-combat) 
   - [Time in Combat](#time-in-combat)
   - [Moving](#moving)
@@ -263,7 +263,11 @@ Here are some things to consider when distributing skill points:
 > 
 > All their other skills are done just with their Attributes.
 
-## Step 5: Talent
+## Step 6: Elemental Properties
+In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
+Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
+
+## Step 9: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 8](#chapter-8-talents); these are major changes that help define what your character is good at.  
 
 > Eric looks over the available Talents for something that looks interesting. He spots Sturdy Shield and decides that could represent XU-808 having energy shields.  
@@ -272,11 +276,7 @@ Finally, you choose one talent. Talents are described in full in [Chapter 8](#ch
 >
 > In both cases, this means that their Mental Defense goes from 9 to 13.  
 
-## Step 6: Elemental Properties
-**Note that this step is optional.** Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
-In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
-
-## Step 7: Starting items
+## Step 10: Starting items
 > Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in 3S are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor.
 
 ------------
@@ -1815,107 +1815,7 @@ Special: This Lesson costs 3 XP.
 When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one Square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 ------------
-# Chapter 8: Talents
-A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
-
-#### Accelerated Assistance
-When you use an Augment ability, you can also do one of the following:  
-* Double the cost of the Ability to use it on another target without spending an Action.  
-* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment on this round.  
-
-When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). If you have already learned both, you may refund the XP spent to learn one of them.
-
-#### Battering Defense
-You can physically batter aside your opponent's attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
-
-#### Body and Soul  
-Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
-
-#### Crushing Zeal  
-Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense.
-
-#### Elemental Specialist (TYPE)
-Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
-* You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
-  * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
-* You gain resistance to the chosen element.
-  * If the chosen element was previously your weakness, you must choose a new element to be your weakness.
-* If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
-  * Tier 0 Abilities require no additional cost to convert.
-  * Your converted damage still targets the usual Physical or Mental Defense.
-* You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds. Every time you increase in Hero Tier, this increases by 1 round.  
-  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
-  * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
-  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
-  * Dark - Successfully dealing Dark damage heals you for half the damage done.
-* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
-Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
-
-#### Everlasting  
-At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
-
-If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
-
-#### Flight  
-Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
-This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
-
-#### Healing Hands  
-You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* End a [Curse] effect on the target.
-* Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
-* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
-
-#### Heavy Hitter  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
-* Knock your target(s) [Prone](#prone).
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
-* Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
-
-#### Intelligent Avoidance  
-You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
-
-#### Lucky
-You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
-When you roll [Matches](#matches), you may gain one additional dice reroll.
-
-#### Mana Fountain
-You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
-
-#### Measured Strikes  
-You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
-
-#### Muscle Mage  
-You have trained in a magic style that uses strength of body over strength of mind. You may use your Strength in place of Mind to determine your MP.
-
-#### Overwhelming Force  
-You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
-
-#### Perfect Protector  
-At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
-* Gain [Taunt](#taunt).  
-* Use [Cover](#cover) on one Ally in your Square.  
-* Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned the Demand Ability.)
-
-#### Precise Evasion  
-You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
-
-#### Serene Capacity  
-You are able to power your spells with intuition and patience. You may use your Soul in place of Heart to determine your MP.
-
-#### Skill Spell  
-You make your spells more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.
-
-#### Sturdy Shield  
-You can use your physical sturdiness to protect yourself against mental forces. You may use y our Toughness in place of Heart to determine your Mental Defense.
-
-#### Unyielding Zeal  
-You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.
-
-------------
-# Chapter 9: Utilities
+# Chapter 8: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have.  
  
 ## Skill-based Utilities
@@ -2026,6 +1926,107 @@ You can learn more from corpses; corpses you speak with in this way now remember
 #### Slow Fall  
 XP Cost: 4  
 You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
+
+------------
+
+# Chapter 9: Talents
+A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
+
+#### Accelerated Assistance
+When you use an Augment ability, you can also do one of the following:  
+* Double the cost of the Ability to use it on another target without spending an Action.  
+* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment on this round.  
+
+When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). If you have already learned both, you may refund the XP spent to learn one of them.
+
+#### Battering Defense
+You can physically batter aside your opponent's attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
+
+#### Body and Soul  
+Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
+
+#### Crushing Zeal  
+Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense.
+
+#### Elemental Specialist (TYPE)
+Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
+* You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
+  * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
+* You gain resistance to the chosen element.
+  * If the chosen element was previously your weakness, you must choose a new element to be your weakness.
+* If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
+  * Tier 0 Abilities require no additional cost to convert.
+  * Your converted damage still targets the usual Physical or Mental Defense.
+* You gain an additional benefit unique to each element as follows
+  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds. Every time you increase in Hero Tier, this increases by 1 round.  
+  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
+  * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
+  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
+  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
+  * Dark - Successfully dealing Dark damage heals you for half the damage done.
+* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
+Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
+
+#### Everlasting  
+At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
+
+If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+
+#### Flight  
+Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
+This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
+
+#### Healing Hands  
+You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
+* End a [Curse] effect on the target.
+* Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
+
+#### Heavy Hitter  
+You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
+* Knock your target(s) [Prone](#prone).
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
+* Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.
+
+#### Intelligent Avoidance  
+You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
+
+#### Lucky
+You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you may gain one additional dice reroll.
+
+#### Mana Fountain
+You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
+
+#### Measured Strikes  
+You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
+
+#### Muscle Mage  
+You have trained in a magic style that uses strength of body over strength of mind. You may use your Strength in place of Mind to determine your MP.
+
+#### Overwhelming Force  
+You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
+
+#### Perfect Protector  
+At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
+* Gain [Taunt](#taunt).  
+* Use [Cover](#cover) on one Ally in your Square.  
+* Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned the Demand Ability.)
+
+#### Precise Evasion  
+You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
+
+#### Serene Capacity  
+You are able to power your spells with intuition and patience. You may use your Soul in place of Heart to determine your MP.
+
+#### Skill Spell  
+You make your spells more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.
+
+#### Sturdy Shield  
+You can use your physical sturdiness to protect yourself against mental forces. You may use y our Toughness in place of Heart to determine your Mental Defense.
+
+#### Unyielding Zeal  
+You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.
 
 ------------
 # Chapter 10: Combat
