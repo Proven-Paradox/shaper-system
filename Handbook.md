@@ -267,6 +267,22 @@ Here are some things to consider when distributing skill points:
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 
+> Note that steps 7 and 8 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
+
+## Step 7: Lesson  
+Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in chapter 7.
+
+> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
+>
+> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
+
+## Step 8: Utility
+Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield.  
+
+> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
+>
+> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
+
 ## Step 9: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 8](#chapter-8-talents); these are major changes that help define what your character is good at.  
 
