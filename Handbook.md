@@ -1769,14 +1769,12 @@ Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
 Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
 
 #### Manamaim
-!! TODO FIX !!
-Whenever you pay an Overload cost on a damaging Spell, you may add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
+Whenever you spend MP to cast a damaging Spell, you may increase the MP cost by the Spell's tier. If you do, add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
 
 > Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
 
 #### Manamend
-!! TODO FIX !!
-Whenever you pay an Overload cost on an Ability that heals HP damage, add your [Capacity](#vitalitycapacity) to the total healing done.
+Whenever us an Ability that heals HP damage, you may increase the MP cost by the Ability's tier. If you do, add your [Capacity](#vitalitycapacity) to the total healing done.
 
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
