@@ -1865,6 +1865,10 @@ Each Trap you set can have 2 of the following attributes.
 * The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 
+#### Mountain Climber  
+Increase your Athletics modifier by 1.  
+You are acclimated to high elevations and can survive at high altitudes without penalty. You have Boon +4 on all checks made to climb a slope or wall or maintain your grip on a ledge.
+
 #### Natural Intuition  
 Increase your Empathy modifier by 1.  
 When you successfully detect that someone is lying to you with an Empathy check, you automatically gain a small insight into their motivations. This comes as a single word. Some examples:
