@@ -329,7 +329,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | Tier 1 Ability          | 3                         |
 | Tier 2 Ability          | 5                         |
 | Lessons                 | 5 unless otherwise stated |
-| Utilities               | Listed per entry          |
+| Utilities               | 3 unless otherwise stated |
 
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
 
@@ -1864,6 +1864,10 @@ Each Trap you set can have 2 of the following attributes.
 * The target is damaged. When the Trap goes off you deal damage equal to a Sabotage check multiplied by 2. Every time you increase in [Hero Tier](#hero-tier) this multiplier increases by 1 (so x3 at Hero Tier 2, x4 at Hero Tier 3, and so on.) This damage is reduced by an amount equal to the target's Physical or Mental Defense, chosen when you set the Trap. This damage is either physical or of an element you have from [Elemental Attunement](#elemental-attunement).  
 * The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
+
+#### Gangster's Cant  
+Increase your Streetwise modifier by 1.  
+In addition, you have learned the secret language of the criminal underworld. This allows you to understand signs and symbols to guide you to where such people gather and speak their language. A conversation spoken in Cant is impossible to follow without this knowledge.  
 
 #### Mountain Climber  
 Increase your Athletics modifier by 1.  
