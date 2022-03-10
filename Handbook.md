@@ -1881,6 +1881,10 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
+#### Slow Fall  
+Increase your Acrobatics modifier by 1.  
+In addition, you are able to reduce the injuries you take when falling by half.
+
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
 In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
@@ -1938,9 +1942,6 @@ XP Cost: 7
 Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), [Hero Tier](#hero-tier) 2  
 You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have (Speak with the Ancient Dead)[#speak-with-the-ancient-dead] this effect extends to them.
 
-#### Slow Fall    
-You are able to reduce the injuries you take when falling by half. This might represent gliding down with wings, casting a spell that cushions your descent, a device that reduces your falling speed, or just training to be better able to reduce the injuries that come from falling.
-
 ------------
 
 # Chapter 9: Talents
@@ -1988,7 +1989,7 @@ If you ever reach zero HP, you cease regaining HP until you are given healing fr
 
 #### Flight  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
-This Talent makes the [Hover](#hover) and [Slow Fall](#slow-fall) Utilities redundant. If you previously took the Hover Utility, you lose it but regain the 2 XP spent. Likewise, if you previously took the Slow Fall Utility, you lose it but regain the 4 XP spent.
+This Talent makes the [Hover](#hover) Utility redundant. If you previously took the Hover Utility, you lose it but regain the XP spent.
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
