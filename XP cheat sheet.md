@@ -15,7 +15,7 @@ Skill points: 2 XP for 5 (+3 Flavor Skill Points)
 Tier 1 Ability: 3 XP  
 Tier 2 Ability: 5 XP  
 Lessons: 5 XP Unless otherwise stated  
-Utilities: Listed per entry
+Utilities: 3 XP Unless otherwise stated
 
 # Level up
 At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn.
