@@ -1881,6 +1881,10 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
 * The target is secretly after revenge against someone in the party. “Enmity”
 
+#### Poker Face  
+Increase your Composure modifier by 1.  
+In addition, you may use Composure to completely mask your emotional state, and you gain Boon +4 to do so. (This is only for concealing information; for actively misleading someone you would still need to use Deception.)
+
 #### Slow Fall  
 Increase your Acrobatics modifier by 1.  
 In addition, you are able to reduce the injuries you take when falling by half.
