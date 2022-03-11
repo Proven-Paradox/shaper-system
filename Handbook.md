@@ -343,7 +343,7 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
 * At Level 3, 8, 13, … the character increases their Physical or Mental Offense and any one of their Attributes by 1.
 * At Levels 4, 9, 14, … the character increases their Physical or Mental Defense.
-* At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 8](#chapter-8-talents)).
+* At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).
 
 > It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
@@ -402,7 +402,7 @@ Lessons are described in more detail in [Chapter 7](#chapter-7-lessons).
 ### Talents
 Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
 
-Talents are described in more detail in [Chapter 8](#chapter-8-talents).
+Talents are described in more detail in [Chapter 9](#chapter-9-talents).
 
 > Upon reaching 5th level, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.
 > 
@@ -411,7 +411,7 @@ Talents are described in more detail in [Chapter 8](#chapter-8-talents).
 ### Utilities
 Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
 
-Utilities are described in more detail in [Chapter 9](#chapter-9-utilities).
+Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).
 
 > XU-808 starts picking up Utilities with Asceticism, reasoning that its benefits align with things a machine should be able to do anyway. Eidetic Memory also helps represent the capabilities of a computer based mind.
 > 
