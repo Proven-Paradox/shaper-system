@@ -1834,6 +1834,15 @@ Broadly, Utilities are things your character can do that are not related to comb
  
 ## Skill-based Utilities
 
+#### 1337 H4xx0r  
+Increase your Tech modifier by 1.  
+In addition, when you break into a software system with your Tech skill, you may choose one of the following.  
+* Logging: You leave a logger in the compromised system. This allows you to read all messages sent through or with the system.  
+* Framing: You can plant files into the specified system.  
+* Crashing: You can cause the system to crash. You can delay this crash for a specified amount of time, or set up the crash to occur under specific circumstances. Examples could be crashing when a given user logs in, upon visiting a given website, or when you set off a remote signal.  
+* Trolling: You can cause the system to play loud music or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
+Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.
+
 #### Asceticism  
 Increase your Endure modifier by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
