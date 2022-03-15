@@ -1904,6 +1904,9 @@ In addition, choose a specialized type of crafting to specialize in. You produce
 For Construct, specializations could include arms, armor, masonry, carpentry, mechanics, heavy machinery, or similar specializations.  
 For Craft, specializations could include clothing, jewelry, leather working, clockwork, leather working, and the like.
 
+#### Versatile Pilot
+Increase your Drive modifier in one vehicle by 1. In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
+
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
 In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
