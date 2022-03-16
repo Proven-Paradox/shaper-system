@@ -1904,6 +1904,10 @@ In addition, choose a specialized type of crafting to specialize in. You produce
 For Construct, specializations could include arms, armor, masonry, carpentry, mechanics, heavy machinery, or similar specializations.  
 For Craft, specializations could include clothing, jewelry, leather working, clockwork, leather working, and the like.
 
+#### Stationary Stealth  
+Increase your Stealth modifier by 1.  
+In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds, you gain Boon +4 on Stealth checks.
+
 #### Versatile Pilot
 Increase your Drive modifier in one vehicle by 1. In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
 
