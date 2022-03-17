@@ -1896,7 +1896,7 @@ In addition, you may use Composure to completely mask your emotional state, and 
 
 #### Slow Fall  
 Increase your Acrobatics modifier by 1.  
-In addition, you are able to reduce the injuries you take when falling by half.
+In addition, you are able to reduce the damage you take when falling by half.
 
 #### Specialist Artisan  
 Increase your Construct or Craft modifier by 1.  
