@@ -2166,7 +2166,7 @@ The damage types are as follows:
 
 With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be dramatically different from their expectations and make it very clear what is happening.
 
-## What are Injuries?
+## Injuries  
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
 Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your Attributes by one until it is tended to.  
 When you sustain an injury, you take that single six sided die that is listed in Story Shaper’s required components and roll. The type of injury inflicted is decided by the die result.
