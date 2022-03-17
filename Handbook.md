@@ -100,7 +100,7 @@ These ideas are central to the design of Story Shaper.
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
 
-###Some general rules  
+### Some general rules  
 Here are a few general rules that we need to get out of the way, just so there is no confusion.  
 
 You count as your own ally. You can target yourself with anything that is listed to target allies.
