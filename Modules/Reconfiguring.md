@@ -10,7 +10,7 @@ Action: Major
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 3 MP or 6 HP per rearranged [Attribute](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#step-1-attributes) (Upkeep: 1 MP or 2 HP per rearranged Attribute, chosen per round)  
+Cost: 3 MP or 6 HP per rearranged [Attribute](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#step-1-attributes) point (Upkeep: 1 MP or 2 HP per rearranged Attribute point, chosen per round)  
 Effect: You may rearrange up to 2 points of your Attributes. 
 For example, a character with [Strength 2, Toughness 2, Finesse 0, Mind 1, Heart -1, Soul 1] can take  two points from Finesse to gain Strength and Toughness, making their physical Attributes [Strength 3, Toughness 3, Finesse -2]. Their associated [Point Stats](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#step-2-a-point-stats), [Offense/Defense](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#step-2-b-offensedefense), and [Initiative](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#initiative) are modified accordingly.  
 The round after you use Reconfigure, you act based on your new Initiative bonus. This can alter the order in which you act.  
@@ -24,7 +24,7 @@ Description: Temporarily shifting yourself to new attributes. This could be as s
 
 #### Quick Metamorpher  
 Prerequisite: [Reconfigure](#reconfigure) Ability  
-You may use Reconfigure as a Minor action. If you do this, you may only rearrange 1 Attribute.
+You may use Reconfigure as a Minor action. If you do this, you may only rearrange 1 Attribute point.
 
 >> Note that you can use Reconfigure as a Minor action additional times to rearrange multiple Attributes over multiple rounds.
 
