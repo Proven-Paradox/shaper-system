@@ -808,7 +808,7 @@ Range: Melee
 Targets: 1 ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).
+Effect: As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
@@ -1392,6 +1392,17 @@ Trigger: You take any damage.
 Cost: 2 + Damage MP   
 Effect: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
 Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
+
+#### Mobile Guard  
+Auxiliary  
+Action: Minor  
+Prerequisites: [Guard](#guard)  
+Range: Short  
+Targets: 1 ally  
+Cost: 2 MP  
+Duration: 1 round  
+Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality]#(vitalitycapacity).  
+Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
 #### Pin Down  
 Attack [Status]  
