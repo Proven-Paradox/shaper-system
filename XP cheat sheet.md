@@ -22,4 +22,4 @@ At Levels 1, 6, 11, … the character gains an Ability of any tier they could no
 At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
 At Levels 3, 8, 13, … the character increases their Physical or Mental Offense, and also increases any one of their Attributes by 1.
 At Level 4, 9, 14, … the character increases their Physical or Mental Defense.
-At Level 5, 10, 15, … gains a Talent (more on Talents in Chapter 8).
+At Level 5, 10, 15, … gains a Talent.
