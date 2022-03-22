@@ -1832,7 +1832,7 @@ When you use a Scan Ability, choose one of the following benefits.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 
-#### Wardsense  
+#### Ward Sense  
 You are able to sense and identify wards placed by enemies accurately.  
 Special: This Lesson costs 3 XP.
 
