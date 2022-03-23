@@ -1,4 +1,4 @@
-# COVEN COLORS
+# BOOKS
 **Table of Contents**  
 - [Books](#books)  
   - [Blue](#blue-books)  
