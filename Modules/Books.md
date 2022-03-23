@@ -1,7 +1,7 @@
 # COVEN COLORS
 **Table of Contents**  
 - [Books](#books)  
- - [Blue](#blue-books)  
+  - [Blue](#blue-books)  
  - [Copper](#copper-books)  
  - [Crimson](#crimson-books)  
  - [Gold](#gold-books)  
