@@ -1,16 +1,16 @@
 # COVEN COLORS
 **Table of Contents**  
 - [Books](#books)  
--- [Blue](#blue-books)  
--- [Copper](#copper-books)  
--- [Crimson](#crimson-books)  
--- [Gold](#gold-books)  
--- [Green](#green-books)  
--- [Orange](#orange-books)  
--- [Pink](#pink-books)  
--- [Purple](#purple-books)  
--- [Silver](#silver-books)  
--- [Multicolor](#multicolor-books)  
+ - [Blue](#blue-books)  
+ - [Copper](#copper-books)  
+ - [Crimson](#crimson-books)  
+ - [Gold](#gold-books)  
+ - [Green](#green-books)  
+ - [Orange](#orange-books)  
+ - [Pink](#pink-books)  
+ - [Purple](#purple-books)  
+ - [Silver](#silver-books)  
+ - [Multicolor](#multicolor-books)  
 
 # Books
 
@@ -39,6 +39,13 @@ Requirements: Copper 1, Endure, Sabotage, or Streetwise 6 or higher
 Crimson 2  
 A collection of short stories about a legendary gladiator named Osserad, who is said to have proposed to his wife seconds after finishing the match that crowned him the champion of his time. Each story ends in a duel, and describes in detail how Osserad handled each fight.  
 Requirements: Crimson 1, Athletics, Endure, or Intimidate 6 or higher  
+
+### Green Books  
+
+#### <NAME>  
+Green 2  
+<DESCRIPTION>  
+Requirements: Green 1, Animal Handling, Perform, or or Survival 6 or higher  
 
 ### Orange Books  
 
