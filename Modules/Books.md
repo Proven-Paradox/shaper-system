@@ -2,15 +2,15 @@
 **Table of Contents**  
 - [Books](#books)  
   - [Blue](#blue-books)  
- - [Copper](#copper-books)  
- - [Crimson](#crimson-books)  
- - [Gold](#gold-books)  
- - [Green](#green-books)  
- - [Orange](#orange-books)  
- - [Pink](#pink-books)  
- - [Purple](#purple-books)  
- - [Silver](#silver-books)  
- - [Multicolor](#multicolor-books)  
+  - [Copper](#copper-books)  
+  - [Crimson](#crimson-books)  
+  - [Gold](#gold-books)  
+  - [Green](#green-books)  
+  - [Orange](#orange-books)  
+  - [Pink](#pink-books)  
+  - [Purple](#purple-books)  
+  - [Silver](#silver-books)  
+  - [Multicolor](#multicolor-books)  
 
 # Books
 
