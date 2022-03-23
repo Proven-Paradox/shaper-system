@@ -42,9 +42,9 @@ Requirements: Crimson 1, Athletics, Endure, or Intimidate 6 or higher
 
 ### Green Books  
 
-#### <NAME>  
+#### Survival Revival  
 Green 2  
-<DESCRIPTION>  
+An accessible survival guide written by the famed explorer Battuata Nafir. He includes one section about basic navigation advice, another section on what to do when encountering certain animals, a chapter on finding/producing potable water, another for foraging food, and finally a chapter on dealing with boredom and monotony in a survival situation.  
 Requirements: Green 1, Animal Handling, Perform, or or Survival 6 or higher  
 
 ### Orange Books  
