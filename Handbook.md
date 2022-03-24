@@ -1356,7 +1356,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Square  
 Cost: 6 MP (Upkeep 1 MP)  
-Effect: While standing in the affected Square, you (and only you) increase your Mental Offense, Physical Offense, Mental Defense, and Physical Defense by an amount equal to your [Hero Tier](#hero-tier). 
+Effect: While standing in the affected Square, you (and only you) increase your Offense or Defense stats by an amount equal to your [Hero Tier](#hero-tier). 
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1815,9 +1815,6 @@ When you kill or knock out a foe, increase your [Offensive Track](#the-offensive
 
 #### Sanctuary Ward  
 When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element while the Ward is in place.
-
-#### Siege Fighter  
-If you have not moved between the beginning of your previous Turn and your current Turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
 
 #### Spell Sniper  
 If you have not moved between the beginning of your previous Turn and your current Turn, the range of any spell you cast increases by one Square.

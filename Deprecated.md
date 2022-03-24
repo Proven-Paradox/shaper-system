@@ -702,3 +702,5 @@ Effect: The target advances increases two levels on [the Regen/Degen Track](#the
 You may only use this Ability once per Turn.  
 Description: A sustained healing power. This could involve invoking a guardian spirit to heal your targets, infusing them with latent energy in the air, deploying a medical drone, and similar ways to get sustained healing.
 
+#### Siege Fighter  
+If you have not moved between the beginning of your previous Turn and your current Turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
