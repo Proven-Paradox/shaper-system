@@ -348,8 +348,6 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 > It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
 
-When Leveling up can have one of two benefits, the benefit must be applied to the lower option. For example, if a character that has one point in Vitality and no points in Capacity purchases Level 2, they gain a point in Capacity. For example, a character whose base Physical Offense (i.e. before Attributes and other modifiers are added) is 0 while their base Mental Offense is 3 that purchases Level 4 will increase their base Physical Offense. If there is a tie, the player chooses which improvement they gain.
-
 Characters start at Level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent Level costs (4 + their current Level) XP. So Level 3 costs 6 XP, Level 4 costs 7 XP, and so on.
 
 > Sidenote \<Milestone Levels>: Instead of allowing players to purchase Levels, the Arbiter may instead choose to declare that all characters Level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power ranges. This makes it easier to balance combat encounters while also making milestones feel more impactful.
