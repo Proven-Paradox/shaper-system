@@ -78,14 +78,13 @@ These ideas are central to the design of Story Shaper.
 * A pair of 10 sided dice for each player (also called d10s). 
   * Alternatively a random number generator, which can be found for free online.
 * A single 6 sided die for the entire group
-* Pencil and paper
+* If you're playing face to face, Pencil and paper
 
 > Do NOT use pen or something you can’t easily erase for anything. Trust me.
 
 ### Recommended but not vital:
 * Standardized character sheets that help determine character attributes (provided in this book, have a copy for each player)
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
-* A calculator
 * A notebook for each player to write personal notes in
 * The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
 
@@ -165,7 +164,7 @@ The focus will be on how the character is represented in rules. Fleshing out a c
 ## Step 1: Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Arbiter will tell you the rules on how you determine your Attributes. My recommendation is to give between 5 and 7 points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation.
+Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give between 6 points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation.
 
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High Strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low Strength might result in the character being spindly or out of shape.
@@ -193,7 +192,7 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 ## Step 2-a: Point Stats
 After choosing your Attributes, you can determine your point stats.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
-* **Max MP:** MP stats for mental points or mana points. Hopefully you recognize a pattern here. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
+* **Max MP:** MP stats for mental points or mana points. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
  
 > Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart -1, so [15 + (3 * 3) + (3 * -1) = 21].
 
