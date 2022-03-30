@@ -626,7 +626,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP  
 Damage: x1 or x2 (Physical, see Effect)  
-Effect: If this Attack hits the target and they are not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall, you may force them to collide with that wall. If you move the target, this Attack deals x1 multiplier damage. If you force them to collide with a wall, the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents, such as [Relentless](#relentless).  
+Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square. Alternatively, if you're in a Square next to a solid wall you may force them to collide with that wall. If you move the target this Attack deals x1 multiplier damage. If you force them to collide with a wall the damage increases to x2. In either case, treat this Attack as successfully forcing an opponent to move for the purposes of Lessons and Talents such as [Relentless](#relentless).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
