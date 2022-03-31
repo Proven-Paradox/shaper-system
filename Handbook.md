@@ -1398,7 +1398,7 @@ Range: Short
 Targets: 1 ally  
 Cost: 2 MP  
 Duration: 1 round  
-Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality]#(vitalitycapacity).  
+Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
 #### Pin Down  
@@ -1470,7 +1470,7 @@ Description: Simultaneously healing an ally and preparing them for further comba
 #### Restrain  
 Spell [Status]  
 Action: Minor  
-Prerequisites: [Kinetic Force II](#kinetic-force-ii)  
+Prerequisites: [Kinetic Force](#kinetic-force)  
 Range: Short  
 Targets: 1 enemy  
 Cost: 6 MP  
