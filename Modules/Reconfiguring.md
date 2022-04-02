@@ -4,6 +4,8 @@ This module goes over reconfiguration. This can represent metamorphic abilities,
 
 ## Ability
 
+### Tier 1
+
 #### Reconfigure  
 Auxiliary  
 Action: Major  
