@@ -1,7 +1,5 @@
 ﻿# Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
-  - [Core Tenets](#core-tenets)
-  - [What you Need to Play](#what-you-need-to-play)
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
   - [Rolling Dice](#rolling-dice)
   - [Rerolls](#rerolls)
@@ -48,21 +46,7 @@
   - [How does Death Work?](#how-does-death-work) 
 ------------
 # Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System (3S). This is a tabletop role-playing game (TTRPG). 
-
-## What is a TTRPG?
-This is a difficult question to answer succinctly because a TTRPG can be a lot of things. The genre's roots are war game and swords-and-sorcery stories, but games can be in any setting or genre. One could tell a blood soaked tale of violence and war, a story of political intrigue and skulduggery, an easy-going story about a strange world, or whatever else one wants. At its core, the goal is for people to get together and craft an improvised story together.  
-To play a TTRPG, a group needs any number of Players who will take on the roles of heroes (or villains) in the story, as well as one participant playing the role of Arbiter, controlling the setting and the characters the heroes interact with.
-
-> Hi. I'm Dox, the designer of this system. We're in a box right now. When we're in a box, that means I'm talking to you as the designer, and the words in the box are not necessarily part of the rules. I'll do this as an occasional aside if I need to explain something in a context other than the rules. Just keep that in mind if you see another box like this later.  
-
-### What is the Arbiter's role?
-It's easier to define the Arbiter's role by defining the two things they don't have control of in the story. First, the actions of the player characters (PCs). Second, the results of dice rolls. Everything else is up to the Arbiter. The Arbiter defines the setting the story takes place in, what's happening there, and all the non-player characters (NPCs). The Arbiter also has last say in what happens if the written rules are unclear or don't cover a given situation.
-
-> Being the Arbiter is a lot of work, requiring both planning as well as improvisation. It's also time intensive. But if one can fill the requirements and overcome the hurdles, it's also a lot of fun. 
-
-### What is the Player's role?
-Players in a TTRPG are invited to temporarily take on a different identity. A player starts by crafting a persona to take on during the game. While this book primarily concerns itself with defining what a given character can do, Players also define what their avatar looks like, how they behave, and what they do. 
+Assembled friends and enemies, welcome to the Story Shaper System (3S). 
 
 ## What are some things that set Story Shaper System apart?
 These ideas are central to the design of Story Shaper. 
