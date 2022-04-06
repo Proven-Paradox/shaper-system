@@ -57,6 +57,8 @@ These ideas are central to the design of Story Shaper.
 
 ## What you Need to Play
 ### Required:
+* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.
+* At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
 * A pair of 10 sided dice for each player (also called d10s). 
