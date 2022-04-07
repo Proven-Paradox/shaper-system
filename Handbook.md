@@ -69,7 +69,6 @@ These ideas are central to the design of Story Shaper.
 > Do NOT use pen or something you can’t easily erase for anything. Trust me.
 
 ### Recommended but not vital:
-* Standardized character sheets that help determine character attributes (provided in this book, have a copy for each player)
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
 * A notebook for each player to write personal notes in
 * The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
