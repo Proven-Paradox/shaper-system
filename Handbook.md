@@ -1305,7 +1305,7 @@ Range: None
 Targets: Self  
 Cost: 6 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
-Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase is persistent as normal for tracks.  
+Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 rounds as normal.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
