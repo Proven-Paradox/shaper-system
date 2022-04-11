@@ -636,7 +636,7 @@ Targets: 1 ally
 Cost: 2 MP  
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
-* Increase the target along both Buff Tracks by one. You can only increase the value up to 0.
+* Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Daze Strike  
