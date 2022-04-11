@@ -1721,7 +1721,7 @@ Prerequisite: [Elemental Lance](#elemental-lance), [Ward](#ward)
 If you successfully hit a target with an Elemental Attack or Spell, you may cast Ward without spending Mana or an Action. You may only use this Lesson once per round. 
 
 #### Curse Resistant  
-The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in mortal peril is considered a separate combat.
+The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
 
 #### Double Ward  
 When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability.  
@@ -1895,7 +1895,7 @@ For Craft, specializations could include clothing, jewelry, leather working, clo
 
 #### Stationary Stealth  
 Increase your Stealth modifier by 1.  
-In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds, you gain Boon +4 on Stealth checks.
+In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different squares; small shifts in position or posture do not remove this benefit.
 
 #### Versatile Pilot
 Increase your Drive modifier in one vehicle by 1. In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
