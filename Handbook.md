@@ -893,8 +893,8 @@ Range: Medium
 Targets: 1 Square  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
-Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.    
+Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
 
 #### Mobile Strike  
