@@ -881,7 +881,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: If this Spell hits the target and they are not otherwise restrained, you move them one Square.  
+Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
@@ -1021,8 +1021,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: 0  
-Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds.  
-If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
+Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Sneak Attack  
