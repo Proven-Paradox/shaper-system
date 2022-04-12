@@ -11,7 +11,7 @@ Vitality/Capacity: 3 XP
 Phys/Mental Attack: 4 XP  
 Phys/Mental Defense: 3 XP  
 Initiative: 1 XP  
-Skill points: 2 XP for 5 (+3 Flavor Skill Points)  
+Skill points: 1 XP for 3  
 Tier 1 Ability: 3 XP  
 Tier 2 Ability: 5 XP  
 Lessons: 5 XP Unless otherwise stated  
