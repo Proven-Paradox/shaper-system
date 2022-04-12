@@ -706,7 +706,7 @@ Action: Major
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 0 MP 
+Cost: 0 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
 You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
