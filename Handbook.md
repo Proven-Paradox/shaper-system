@@ -1438,7 +1438,7 @@ Range: Medium
 Targets: 1 enemy, 1 ally  
 Cost: 9 MP  
 Damage: x2 (Light)  
-Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP per your [Hero Tier](#hero-tier). If this Ability misses no healing occurs.  
+Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP. If this Ability misses no healing occurs.  
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
 
 #### Rally  
