@@ -593,6 +593,16 @@ Effect: You and the opponent who has Grabbed you make Offense rolls. You may use
 
 ## Tier 1
 
+#### Accelerate  
+Auxiliary  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 ally  
+Cost: 3 MP (Upkeep 3 MP)  
+Effect: The target is able to move one Square with no action on their Turn.  
+Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
+
 #### Aim  
 Auxiliary  
 Action: Minor  
@@ -651,6 +661,17 @@ Damagex: x1
 Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
+
+#### Decelerate  
+Spell [Status]  
+Action: Major  
+Prerequisites: None  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 3 MP  
+Damage: 0  
+Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
+Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
 Attack/Spell [Status]  
@@ -804,16 +825,6 @@ Damage: x1 (Physical)
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability. The cost increase only affects the initial use of the Ability; its Upkeep is unchanged.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
-
-#### Haste  
-Auxiliary  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 3 MP (Upkeep 3 MP)  
-Effect: The target is able to move one Square with no action on their Turn.  
-Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
 
 #### Healing Burst  
 Auxiliary [Healing]  
@@ -1012,17 +1023,6 @@ Damage: x1 (Physical)
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
-
-#### Slow  
-Spell [Status]  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 enemy  
-Cost: 3 MP  
-Damage: 0  
-Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
-Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Sneak Attack  
 Attack  
