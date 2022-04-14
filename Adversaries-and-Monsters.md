@@ -315,7 +315,7 @@ Mental Defense: 10
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
-#### Lesser Sniper
+#### Minor Sniper
 Strength -1  
 Finesse 3  
 Toughness 0  
@@ -332,7 +332,7 @@ Mental Defense: 10
 *Shoot* (Major action Attack), x1 damage, long.  
 *Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
 
-#### Average Sniper
+#### Moderate Sniper
 Strength -1  
 Finesse 3  
 Toughness 1  
@@ -341,10 +341,27 @@ Soul 0
 Heart 0  
 HP Max: 35  
 MP Max: 0  
-Physical Attack: +7  
+Physical Attack: +8  
 Mental Attack: +0  
-Physical Defense: 13
-Mental Defense: 11
+Physical Defense: 14
+Mental Defense: 12
+
+*Shoot* (Major action Attack), x1 damage, long.  
+*Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
+
+#### Major Sniper
+Strength -1  
+Finesse 4  
+Toughness 2  
+Mind 0  
+Soul 0  
+Heart 0  
+HP Max: 50  
+MP Max: 0  
+Physical Attack: +13  
+Mental Attack: +0  
+Physical Defense: 17
+Mental Defense: 14
 
 *Shoot* (Major action Attack), x1 damage, long.  
 *Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
