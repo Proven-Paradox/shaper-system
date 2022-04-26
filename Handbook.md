@@ -288,7 +288,7 @@ Rather than progressing in a class, heroes become stronger by spending experienc
 ## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
 
-The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. As the Arbiter, that is up to you. There are no set rules on this.
+The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. There are no set rules on this.
 
 > There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.  
 > In general, my recommendation is that a typical session that moves the plot forward gives the players 1 XP. This allows for slow, steady growth that you can reasonably keep on top of as an Arbiter. Sessions that involve a higher amount of risk or danger should give more XP, but not a ton more. I would say the completion of a story arc would merit 5 XP. Other sessions would fall somewhere between those two extremes.  
