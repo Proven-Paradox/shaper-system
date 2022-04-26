@@ -1171,16 +1171,15 @@ Effect: If this Spell deals damage, the opponent who attempted to Scan you gains
 Description: You interrupt an opponent's attempt to scan you. This could represent anti-divination runes, a robust firewall, deploying chaff grenades, psychic barriers, or other such measures. 
 
 #### Assassinate  
-Attack  
-Action: Major  
+Auxiliary  
+Action: Minor  
 Prerequisites: [Sneak Attack](#sneak-attack)  
-Range: Melee  
-Targets: 1 enemy  
+Range: None  
+Targets: Self  
 Cost: 9 MP  
-Cooldown: 1 round
-Damage: x2 Physical  
-Effect: This Attack can hit any target within range, ignoring [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
-Description: An attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, or similar effects.  
+Cooldown: 3 rounds  
+Effect: Your next Attack ignores [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
+Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, preparing a missile to ricochet, or similar effects.  
 
 #### Bladebreak  
 Attack [Curse]  
