@@ -1177,6 +1177,7 @@ Prerequisites: [Sneak Attack](#sneak-attack)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 9 MP  
+Cooldown: 1 round
 Damage: x2 Physical  
 Effect: This Attack can hit any target within range, ignoring [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
 Description: An attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, or similar effects.  
