@@ -1237,6 +1237,16 @@ Duration: 3 rounds
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
 
+#### Counter Stance  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 3 MP  
+Effect: You may take a second Counter action in the time between this turn and your next.  
+Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar effects.  
+
 #### Crushing Bolt  
 Spell [Elemental] [Earth]  
 Action: Major  
