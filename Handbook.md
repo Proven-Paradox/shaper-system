@@ -1348,7 +1348,8 @@ Range: Medium
 Targets: 1 Square  
 Cost: 8 MP (Upkeep 5 MP)  
 Damage: x1 (Physical)  
-Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Square. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.   
+Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Square. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
+You may have up to two active Kinetic Storms at a time. They may not target the same Square.  
 Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift, or similar ways of dealing damage in an area.
 
 #### Lean In  
