@@ -887,7 +887,7 @@ Description: This is a simple, quick attack. This can represent telekinetically 
 #### Kinetic Force  
 Spell  
 Action: Major  
-Prerequisites: [Kinetic Dart](#kinetic-dart)  
+Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
 Cost: 2 MP  
@@ -899,7 +899,7 @@ Description: This can represent telekinetically picking a target up and throwing
 #### Kinetic Pummeling  
 Spell [Careful]  
 Action: Major  
-Prerequisites: [Kinetic Dart](#kinetic-dart)  
+Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic=force)  
 Range: Medium  
 Targets: 1 Square  
 Cost: 6 MP (Careful 4 MP)  
