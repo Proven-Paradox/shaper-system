@@ -948,6 +948,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 Enemy  
 Cost: 4 MP  
+Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP.  
 Description: You assault a foe's mind. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.
@@ -1461,6 +1462,7 @@ Prerequisites: [Psychic Lance](#psychic-lance)
 Range: Medium  
 Targets: 1 Square  
 Cost: 10 MP  
+Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP. If you use your Minor Action while using this Ability, you can exclude one target in the area.  
 Description: You assault a group's minds. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar.  
 
