@@ -33,6 +33,11 @@ Copper 2
 A pamphlet that attempts to give practical advice to those who act as confidants or are otherwise compelled into secrecy who feel an urge to spread those secrets. It includes a short paragraph about times where secrecy is not appropriate (mostly relating to the safety or well being of those involved). Afterwards are coping mechanisms and strategies that are supposed to help the reader keep quiet.  
 Requirements: Copper 1, Endure, Sabotage, or Streetwise 6 or higher 
 
+#### Confessions of a Snitch
+Copper 3
+A short novel about a infiltrator spy named Nia Blackstar. (She assumed many other names in the book of course.) In the book she infiltrates a fictional fascist empire and helps orchestrate its downfall. It includes details on how she covers her tracks, delivered covert reports to her superiors, as well as philosophical discussion of the work of a spy.
+Requirements: Copper 2, 
+
 ### Crimson Books
 
 #### The Duelist's Parable  
@@ -44,7 +49,7 @@ Requirements: Crimson 1, Athletics, Endure, or Intimidate 6 or higher
 
 #### Survival Revival  
 Green 2  
-An accessible survival guide written by the famed explorer Battuata Nafir. He includes one section about basic navigation advice, another section on what to do when encountering certain animals, a chapter on finding/producing potable water, another for foraging food, and finally a chapter on dealing with boredom and monotony in a survival situation.  
+An accessible survival guide written by the famed explorer Battuata Nafir. He includes one section about basic navigation advice, another section on what too do when encountering certain animals, a chapter on finding/producing potable water, another for foraging food, and finally a chapter on dealing with boredom and monotony in a survival situation.  
 Requirements: Green 1, Animal Handling, Perform, or or Survival 6 or higher  
 
 ### Orange Books  
