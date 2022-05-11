@@ -36,7 +36,7 @@ Requirements: Copper 1, Endure, Sabotage, or Streetwise 6 or higher
 #### Confessions of a Snitch
 Copper 3
 A short novel about a infiltrator spy named Nia Blackstar. (She assumed many other names in the book of course.) In the book she infiltrates a fictional fascist empire and helps orchestrate its downfall. It includes details on how she covers her tracks, delivered covert reports to her superiors, as well as philosophical discussion of the work of a spy.
-Requirements: Copper 2, 
+Requirements: Copper 2, Sabotage 9 or higher
 
 ### Crimson Books
 
