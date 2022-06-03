@@ -2046,7 +2046,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Tier 0 Abilities require no additional cost to convert.
   * Your converted damage still targets the usual Physical or Mental Defense.
 * You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds. Every time you increase in Hero Tier, this increases by 1 round.  
+  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in Hero Tier, the Degeneration added per hit increases by 1 round, and the maximum duration increases by 2 rounds.  
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
