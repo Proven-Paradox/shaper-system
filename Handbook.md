@@ -1572,7 +1572,7 @@ Prerequisites: [Expose](#expose)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 6 MP  
-Damage: x2  
+Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
 
