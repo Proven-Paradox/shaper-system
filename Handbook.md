@@ -230,7 +230,7 @@ Some advice if you are having trouble choosing your Abilities:
 > Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too. She decides to start her build off using electric damage and so she picks Elemental Lance with Sky.
 
 ## Step 4: Skills
-Next, you will distribute Skill Points. There’s more information on Skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 16 skill points at character creation.
+Next, you will distribute Skill Points. There’s more information on Skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 20 skill points at character creation.
 
 Here are some things to consider when distributing skill points:
 * Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
@@ -309,7 +309,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | Physical/Mental Attack  | 4                         |
 | Physical/Mental Defense | 3                         |
 | Initiative              | 1                         |
-| 3 Skill Points          | 1                         |
+| 4 Skill Points          | 1                         |
 | Tier 1 Ability          | 3                         |
 | Tier 2 Ability          | 5                         |
 | Lessons                 | 5 unless otherwise stated |
@@ -355,7 +355,7 @@ Every character has a base bonus to their Physical and Mental Offense and Defens
 Like with Offense and Defense, character have a base bonus to their Initiative rolls. It starts at zero and can be increased up to the character's level. Increasing base Initiative costs 1 XP.
 
 ### Skill Points
-You may spend 1 XP to gain 3 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
+You may spend 1 XP to gain 4 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
 
 > Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Sabotage, and Stealth.
 > 

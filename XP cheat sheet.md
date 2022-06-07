@@ -1,6 +1,6 @@
 # Level 1
 3 Abilities
-16 Skill points
+20 Skill points
 1 Lesson
 1 Utility
 1 Talent
@@ -11,7 +11,7 @@ Vitality/Capacity: 3 XP
 Phys/Mental Attack: 4 XP  
 Phys/Mental Defense: 3 XP  
 Initiative: 1 XP  
-Skill points: 1 XP for 3  
+Skill points: 1 XP for 4  
 Tier 1 Ability: 3 XP  
 Tier 2 Ability: 5 XP  
 Lessons: 5 XP Unless otherwise stated  
