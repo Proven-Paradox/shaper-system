@@ -1954,6 +1954,12 @@ For Craft, specializations could include clothing, jewelry, leather working, clo
 Increase your Stealth modifier by 1.  
 In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different squares; small shifts in position or posture do not remove this benefit.
 
+#### Tracking Bug  
+Increase your Survival modifier by 1.  
+In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival check against your opponent's Awareness or Stealth check (target's choice). If you succeed, you plant your Bug on the target and can sense what direction and how far away the target is. At Hero Tier 1, this Bug lasts 1 day. This duration doubles every time you increase in Hero Tier (2 days, 4 days, 8 days, ...).  
+A target can remove your Bug by attempting an Investigation check to find it with a target equal to 10 + your Survival modifier. The first attempt to remove your Bug takes 1 minute. If this fails, the second attempts takes 5 minutes. Each attempt after that requires twice as long as the previous check (10 minutes, 20 minutes, 40 minutes, ...). On success, the Bug is found and the target may remove or destroy it.  
+This could represent a tracking spell, a homing beacon, a literal insect that helps you track the target, or similar means of sensing a target.
+
 #### Versatile Pilot
 Increase your Drive modifier in one vehicle by 1. In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
 
