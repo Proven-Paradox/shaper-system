@@ -2057,8 +2057,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
-  * Dark - Successfully dealing Dark damage heals you for half the damage done.
-* Your damage multiplier for all Abilities that deal your specialized damage type increases by 1 when you reach [Level](#level) 10.  
+  * Dark - Successfully dealing Dark damage restores you for half the damage done. If you do HP damage you heal that amount, and if you do MP damage you restore that much MP.   
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
 #### Everlasting  
