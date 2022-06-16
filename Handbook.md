@@ -1814,9 +1814,6 @@ You can give allies additional layers of protection using [Ward](#ward) or other
 #### Lingering Provocation  
 Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
 
-#### Long Arm of Justice  
-Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
-
 #### Manamaim
 Whenever you spend MP to cast a damaging Spell, you may increase the MP cost by the Spell's tier. If you do, add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
 

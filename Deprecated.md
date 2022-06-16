@@ -704,3 +704,6 @@ Description: A sustained healing power. This could involve invoking a guardian s
 
 #### Siege Fighter  
 If you have not moved between the beginning of your previous Turn and your current Turn, your Physical and Mental Offense increases by an amount equal to your [Hero Tier](#hero-tier).
+
+#### Long Arm of Justice  
+Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
