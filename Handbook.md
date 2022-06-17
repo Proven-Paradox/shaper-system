@@ -1224,7 +1224,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP  
 Damage: x2 (Physical)  
-Effect: This Spell target's the opponent's Physical Defense rather than Mental Defense.  
+Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense.  
 Description: A powerful and unusual melee-ranged Spell. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a melee weapon with spiritual power, or something similar.
 
 #### Carry  
