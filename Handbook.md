@@ -1958,7 +1958,8 @@ A target can remove your Bug by attempting an Investigation check to find it wit
 This could represent a tracking spell, a homing beacon, a literal insect that helps you track the target, or similar means of sensing a target.
 
 #### Versatile Pilot
-Increase your Drive modifier in one vehicle by 1. In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
+Increase your Drive modifier in one vehicle by 1.  
+In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
 
 #### Well Connected  
 Increase your Diplomacy modifier by 1.  
@@ -1983,6 +1984,10 @@ This could represent wings that don’t quite have the strength to fully fly, a 
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
 This Lesson makes you immune to natural terrain effects.
+
+#### Linguist  
+You learn a language. This can represent doing scholarship and lessons just as well as a background living in a multilingual culture.  
+You may take this Utility once per [Level](#level).
 
 #### Lip reading  
 You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
