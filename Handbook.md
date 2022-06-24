@@ -416,11 +416,12 @@ Ability Type (Attack/Spell/Auxiliary)
 Action (Major/Minor/Counter): whether the Ability requires a Minor, Major, or Counter Action to use.  
 Prerequisites: What other things are required before one can learn this Ability.  
 Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
-* None - this skill targets yourself.
-* Melee - this skill can only be used on targets in the same Square as you.
-* Short - this skill can be used on targets up to 1 Square away.
-* Medium - this skill targets enemies up to 3 Squares away.
-* Long - this skill targets enemies up to 5 Squares away.  
+* None - targets yourself.
+* Melee - targets in the same Square as you.
+* Short - can be used on targets up to 1 Square away.
+* Medium - targets enemies up to 3 Squares away.
+* Long - targets enemies up to 5 Squares away.  
+* Extreme - targets enemies up to 8 Squares away.  
 
 Targets: Who or what this Ability targets.  
 Cost: The HP or MP cost of this Ability.  
@@ -1052,9 +1053,9 @@ Description: A cheap shot at an opponent who is not ready. This could be a throw
 Attack   
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
-Range: Long  
+Range: Extreme  
 Targets: 1 enemy  
-Cost: 4 MP  
+Cost: 6 MP  
 Damage: x2 (Physical)  
 Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
