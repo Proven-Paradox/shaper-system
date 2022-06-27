@@ -1762,6 +1762,14 @@ When using a Curse Ability, you may choose one or both of the following benefits
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 * If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell.
 
+#### Ability Specialist  
+Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
+* Increase the Ability's Range by one increment. (So Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.)  
+* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier.  
+* If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
+* If the Ability is an Auxiliary and normally requires a Major Action, you may use a Minor Action instead. After doing this there is a 3 Round Cooldown on doing so again.  
+You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
+
 #### Advantageous Recovery  
 When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
