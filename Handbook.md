@@ -782,7 +782,7 @@ Effect: You may only use this Attack after hitting with 3 other unique Melee or 
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
-> So for example, Stuart spends his first round using Double Strike (1) and Quick Strike (2). The round after, he uses Heavy Strike (3). On the following round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
+> For example, Stuart spends his first round using Double Strike (1) and Quick Strike (2). The round after, he uses Heavy Strike (3). On the following round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
 
 #### Flash  
 Attack/Spell [Status]  
