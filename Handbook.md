@@ -778,7 +778,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP  
 Damage: x3  
-Effect: You may only use this Attack after successfully striking with 3 other Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing resets the counter.  
+Effect: You may only use this Attack after hitting with 3 other Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing your target resets the counter.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
