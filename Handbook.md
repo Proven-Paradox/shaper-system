@@ -621,7 +621,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 HP  
-Damage: x1 or x2 (Physical, see Effect)  
+Damage: x1 (Physical)  
 Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
