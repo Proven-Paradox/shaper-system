@@ -1228,7 +1228,7 @@ Targets: 1 enemy
 Cost: 7 HP  (Optional +4 HP, see Effect)
 Damage: x2 (Physical)  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
-Description: A powerful and unusual melee-ranged Spell. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a melee weapon with spiritual power, or something similar.
+Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
 
 #### Carry  
 Attack  
