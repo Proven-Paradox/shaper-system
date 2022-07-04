@@ -1780,7 +1780,7 @@ When you strike a foe’s elemental weakness, you regain MP equal to half your [
 When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
 
 #### Anger  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. Every time you increase in [Hero Tier](#hero-tier), the Offense bonus and Defense penalty both increase by 1. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
+Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
 
 #### Ataraxia  
 If you have not moved between the beginning of your previous Turn and your current Turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
