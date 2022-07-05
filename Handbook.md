@@ -459,7 +459,7 @@ Some specific terms come with Abilities. These can be effects that Abilities con
 An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
 
 ### Cooldown
-An Ability that, once used, cannot be used again for some duration, listed in the Ability. Cooldowns decrease by 1 at [Round Start](#round-start).
+An Ability or Lesson with a Cooldown cannot be used again for the listed duration. Cooldowns decrease by 1 at [Round Start](#round-start).
 
 ### Upkeep
 Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)
@@ -1813,7 +1813,7 @@ After you successfully heal an ally, choose one of the following effects. These 
 * The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
 
 #### Hit and Run  
-Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack.
+Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This less has [Cooldown](#cooldown) 3.
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
