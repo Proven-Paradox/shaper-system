@@ -707,3 +707,10 @@ If you have not moved between the beginning of your previous Turn and your curre
 
 #### Long Arm of Justice  
 Increase the range at which your Counter Abilities can affect enemies by 1. For example, the Riposte Ability normally only reaches enemies in melee range. With this Lesson, Riposte would also function against enemies who strike from Short range. (This could be reflecting missiles, expanding your retaliation field, invoking stronger magical counters, or something similar.)
+
+
+#### Healing Rush  
+After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next Turn.
+* Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
+* Increase the target’s Physical and Mental Defense by your Hero Tier.
+* The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)

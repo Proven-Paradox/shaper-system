@@ -1806,12 +1806,6 @@ Increase your Initiative modifier by twice your [Hero Tier](#hero-tier). Also, y
 #### Fortifying Voice  
 When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
 
-#### Healing Rush  
-After you successfully heal an ally, choose one of the following effects. These effects last until the beginning of your next Turn.
-* Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
-* Increase the target’s Physical and Mental Defense by your Hero Tier.
-* The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
-
 #### Hit and Run  
 Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
