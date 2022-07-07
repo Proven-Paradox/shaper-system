@@ -660,7 +660,7 @@ Cost: 3 HP
 Duration: Variable, see Effect  
 Damagex: x1  
 Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
 
 #### Decelerate  
@@ -719,7 +719,7 @@ Cost: 5 MP
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
 #### Elemental Lance  
@@ -733,7 +733,7 @@ Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)
 Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
 You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 3 to MP increase its damage multiplier by 1.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 4 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Empower  
@@ -779,7 +779,7 @@ Targets: 1 enemy
 Cost: 7 HP  
 Damage: x3  
 Effect: You may only use this Attack after hitting with 3 other unique Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing your target resets the counter. This excludes Abilities that have no effect other than changing your position (such as [Move](#move), [Run](#run), and [Sprint](#sprint)).  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 9 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
 > For example, Stuart spends his first round using Double Strike (1) and Quick Strike (2). The round after, he uses Heavy Strike (3). On the following round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
@@ -826,7 +826,7 @@ Targets: 1 enemy
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1 (Physical)  
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability. The cost increase only affects the initial use of the Ability; its Upkeep is unchanged.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability. The cost increase only affects the initial use of the Ability; its Upkeep is unchanged.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
 
 #### Healing Burst  
@@ -837,7 +837,7 @@ Range: Melee
 Targets: 1 Square  
 Cost: 5 MP  
 Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
@@ -850,7 +850,7 @@ Cost: 2 MP
 Effect: The target regains HP equal to a ten-sided die roll.   
 This Ability may only be used once per Turn.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another ten-sided die to the amount healed.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 4 MP to add another ten-sided to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another ten-sided to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -862,7 +862,7 @@ Targets: 1 Ally
 Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.  
 If you also use your minor action increase the healing to two ten-sided die rolls and this Ability's range increases to Long.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase the number of die healed. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of die healed. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -874,7 +874,7 @@ Targets: 1 enemy
 Cost: 3 HP  
 Damage: x2 (Physical)  
 Effect: If you land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
 
 #### Kinetic Dart  
@@ -896,7 +896,7 @@ Targets: 1 enemy
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
 #### Kinetic Pummeling  
@@ -908,7 +908,7 @@ Targets: 1 Square
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
 
 #### Mobile Strike  
@@ -953,8 +953,9 @@ Targets: 1 Enemy
 Cost: 4 MP  
 Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP.  
-Description: You assault a foe's mind. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.
+
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Description: You assault a foe's mind. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar. 
 
 #### Quick Strike  
 Attack   
@@ -999,7 +1000,7 @@ Trigger: The targeted enemy fails on an Offense attempt.
 Cost: 2 MP  
 Damage: x1 (Physical)  
 Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Run  
@@ -1036,7 +1037,7 @@ Targets: 1 enemy
 Cost: 1 MP  
 Damage: x1 (Physical)  
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
 #### Sneak Attack  
@@ -1048,7 +1049,7 @@ Targets: 1 enemy
 Cost: 4 MP  
 Damage: x3 (Physical)  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
 
 #### Snipe  
@@ -1060,7 +1061,7 @@ Targets: 1 enemy
 Cost: 6 MP  
 Damage: x2 (Physical)  
 Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
 #### Suplex  
@@ -1072,7 +1073,7 @@ Targets: 1 enemy
 Cost: 2 HP  
 Damage: x2 (Physical)  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
 
 #### Sweeping Strike  
@@ -1083,7 +1084,7 @@ Range: Melee
 Targets: Up to 3 enemies  
 Cost: 3 HP  
 Damage: x1 (Physical)  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
 #### Throw  
@@ -1155,7 +1156,7 @@ Range: Medium
 Targets: 1 Square  
 Cost: 4 MP  
 Damage: x1 (Physical)  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 #### Ward  
