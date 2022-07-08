@@ -1226,7 +1226,7 @@ Action: Major
 Prerequisites: None  
 Range: Short (or Medium, see Effect)  
 Targets: 1 enemy  
-Cost: 7 HP  (Optional +4 HP, see Effect)
+Cost: 8 HP  (Optional +4 HP, see Effect)
 Damage: x2 (Physical)  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
 Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
@@ -1248,7 +1248,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Ice](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Ice)  
 Duration: 3 rounds  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
@@ -1270,7 +1270,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Earth](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Earth)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
@@ -1287,7 +1287,7 @@ Damage: x1 (Physical)
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
 You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
-Scaling: You may increase the cost of this Ability by 4 MP to increase its damage multiplier by 1.  
+Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
 #### Doom  
@@ -1296,7 +1296,7 @@ Action: Major
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 6 MP (Upkeep 2 MP)  
+Cost: 8 MP (Upkeep 2 MP)  
 Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
 When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends (though the damage done to the victim’s buff tracks remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
@@ -1308,7 +1308,7 @@ Action: Major
 Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 6 HP  
+Cost: 7 HP  
 Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
@@ -1340,7 +1340,7 @@ Action: Minor
 Prerequisites: [Fortify](#fortify), [Protector's Presence](#protectors-presence)  
 Range: None  
 Targets: Self  
-Cost: 6 MP (Upkeep 1 MP)  
+Cost: 8 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
 Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 rounds as normal.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
@@ -1363,7 +1363,7 @@ Action: Major
 Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic-force)  
 Range: Medium  
 Targets: 1 Square  
-Cost: 8 MP (Upkeep 5 MP)  
+Cost: 10 MP (Upkeep 5 MP)  
 Damage: x1 (Physical)  
 Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Square. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
 You may have up to two active Kinetic Storms at a time. They may not target the same Square.  
@@ -1376,7 +1376,7 @@ Prerequisites: [Fortify](#fortify)
 Range: None  
 Targets: Self  
 Trigger: You are struck by a [Solid Hit](#solid-hit)  
-Cost: 4 HP, 2 MP  
+Cost: 4 HP, 4 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
 Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of 
 
@@ -1386,7 +1386,7 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Square  
-Cost: 6 MP (Upkeep 1 MP)  
+Cost: 8 MP (Upkeep 1 MP)  
 Effect: While standing in the affected Square, you (and only you) increase your Offense or Defense stats by an amount equal to your [Hero Tier](#hero-tier), chosen when you first cast this Ability.  
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
@@ -1398,8 +1398,8 @@ Action: Minor
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 3 HP  
-Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
+Cost: 5 HP  
+Effect: You regain MP equal to twice your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.
 
 #### Lingering Strike  
@@ -1408,7 +1408,7 @@ Action: Major
 Prerequisites: None  
 Range: Short  
 Targets: 1 enemy  
-Cost: 6 MP  
+Cost: 8 MP  
 Damage: x1  
 Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.   
 Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxin, or similar approaches to causing lingering damage.
@@ -1430,7 +1430,7 @@ Action: Minor
 Prerequisites: [Guard](#guard)  
 Range: Short  
 Targets: 1 ally  
-Cost: 2 MP  
+Cost: 3 MP  
 Duration: 1 round  
 Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
@@ -1442,7 +1442,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Trigger: An opponent in melee range attempts to move away from you.  
-Cost: 5 MP  
+Cost: 6 MP  
 Damage: x1  
 Duration: 1 round  
 Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#root) until the beginning of their next Turn.  
@@ -1454,7 +1454,7 @@ Action: Minor
 Prerequisites: [Charge Up](#charge-up), [Empower](#empower)  
 Range: None  
 Targets: Self  
-Cost: 7 HP  
+Cost: 8 HP  
 Cooldown: 4 Rounds  
 Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).
 Description: Winding up for a powerful attack. This could represent charging your weapon with power, winding up for a huge punch, charging up a laser weapon, or similar effects.
@@ -1474,8 +1474,9 @@ Description: You assault a group's minds. This can represent invoking a spell to
 Spell  
 Action: Minor  
 Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)  
+Range: Short
 Targets: 1 enemy  
-Cost: 6 MP  
+Cost: 8 MP  
 Damage: x1 (Physical)  
 Effect: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, a painful curse, or similar measures.  
@@ -1486,7 +1487,7 @@ Action: Major
 Prerequisites: [Purge](#purge), Any melee range Attack  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 7 MP  
+Cost: 8 MP  
 Damage: x2 (Physical)  
 Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
@@ -1497,7 +1498,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Light](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy, 1 ally  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Light)  
 Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP. If this Ability misses no healing occurs.  
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
@@ -1530,7 +1531,7 @@ Action: Minor
 Prerequisites: [Guard](#guard)  
 Range: None  
 Targets: Self  
-Cost: 1 MP  
+Cost: 2 MP  
 Effect: Any Ability you use in the same Turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
@@ -1540,7 +1541,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Fire)  
 Duration: 1 round  
 Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next Turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
@@ -1552,7 +1553,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Sky](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Sky)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
@@ -1564,7 +1565,7 @@ Action: Minor
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 4 MP  
+Cost: 5 MP  
 Cooldown: 3 rounds  
 Effect: You regain health equal to 2 times your [Vitality](#vitalitycapacity).  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
@@ -1575,7 +1576,7 @@ Action: Major
 Prerequisites: [Expose](#expose)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 6 MP  
+Cost: 7 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
@@ -1586,7 +1587,7 @@ Action: Minor
 Prerequisites: [Run](#run)  
 Range: N/A  
 Targets: Self  
-Cost: 5 HP  
+Cost: 6 HP  
 Effect: Move 2 Squares.  
 Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
 
@@ -1598,7 +1599,7 @@ Action: Major
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Short  
 Targets: 1 enemy  
-Cost: 5 MP (Upkeep 1 MP)  
+Cost: 6 MP (Upkeep 1 MP)  
 Damage: x1  
 Effect: If this Spell succeeds, you [Grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
 Description: Holding a target using mental/technological means from a distance. This can be telekinetically grabbing your opponent, suspending them in a gravity field, or even something as simple as a long lasso.  
@@ -1633,7 +1634,7 @@ Action: Major
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Dark](#elemental-attunement)  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 9 MP  
+Cost: 10 MP  
 Damage: x2 (Dark)  
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
