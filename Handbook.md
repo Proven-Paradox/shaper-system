@@ -637,7 +637,7 @@ Duration: Until canceled
 Effect: You become [Rooted](#root).  
 You can end this effect by spending another Minor Action.  
 Effects that would cause you to move must be a [Critical Hit](#critical-hit) to do so, which ends the Root effect on success.  
-Description: Planting yourself firmly in position. This can be as simple as adopting a stance that breaks attempts to move you, or as complicated as deploying a custom weapon system that drills into the groun.
+Description: Planting yourself firmly in position. This can be as simple as adopting a stance that breaks attempts to move you, or as complicated as deploying a custom weapon system that drills into the ground.
 
 #### Charge Up  
 Auxiliary  
