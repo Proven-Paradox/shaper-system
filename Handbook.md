@@ -626,6 +626,19 @@ Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not ot
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
+#### Brace  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 0 MP  
+Duration: Until canceled  
+Effect: You become [Rooted](#root).  
+You can end this effect by spending another Minor Action.  
+Effects that would cause you to move must be a [Critical Hit](#critical-hit) to do so, which ends the Root effect on success.  
+Description: Planting yourself firmly in position. This can be as simple as adopting a stance that breaks attempts to move you, or as complicated as deploying a custom weapon system that drills into the groun.
+
 #### Charge Up  
 Auxiliary  
 Action: Minor  
@@ -1786,7 +1799,8 @@ When you target an opponent you have [Provoked](#provoke) with an Attack or Spel
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
 
 #### Ataraxia  
-If you have not moved between the beginning of your previous Turn and your current Turn, you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
+Prerequisite: [Brace](#brace)  
+While [rooted](#root), you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
 #### Battle Warden  
 Prerequisite: [Elemental Lance](#elemental-lance), [Ward](#ward)  
@@ -1861,7 +1875,8 @@ When you kill or knock out a foe, increase your [Offensive Track](#the-offensive
 When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element while the Ward is in place.
 
 #### Spell Sniper  
-If you have not moved between the beginning of your previous Turn and your current Turn, the range of any spell you cast increases by one Square.
+Prerequisite: [Brace](#brace)  
+While [Rooted](#root), the range of any spell you cast increases by one Square.
 
 #### Spell Strike  
 If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
