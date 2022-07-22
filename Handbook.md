@@ -329,6 +329,7 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Levels 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).
 
+> One can think of your character's Level representing their potential, and think of gaining a level as pushing through the plateaus that come with developing, whether developing as a warrior, mage, diplomat, spy, or anything you care to create.  
 > It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
 
