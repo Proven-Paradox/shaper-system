@@ -1946,6 +1946,12 @@ If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 Increase your Streetwise modifier by 1.  
 In addition, you have learned the secret language of the criminal underworld. This allows you to understand signs and symbols to guide you to where such people gather and speak their language. A conversation spoken in Cant is impossible to follow without this knowledge.  
 
+#### Language Knowledge  
+Choose a language. You can speak, read, and write in that language.  
+You may take this Utility more than once, choosing a different language each time.  
+
+> Characters should generally know one or two languages as part of their background; a character begins the game the game knowing the language of their homeland as well as the language spoken wherever the adventure is starting.
+
 #### Mountain Climber  
 Increase your Athletics modifier by 1.  
 You are acclimated to high elevations and can survive at high altitudes without penalty. You have Boon +4 on all checks made to climb a slope or wall or maintain your grip on a ledge.
