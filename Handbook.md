@@ -1787,6 +1787,7 @@ Choose one Ability you already know. When you use that Ability, you may gain one
 * Reduce the cost of the Ability (whether HP or MP) by your Hero Tier.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
 * If the Ability is an Auxiliary and normally requires a Major Action, you may use a Minor Action instead. After doing this there is a 3 Round Cooldown on doing so again. (This Cooldown only applies to this specific application of this Lesson.)  
+
 You choose which benefit you gain every time you use the Ability and may choose different benefits on different rounds.  
 You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
 
@@ -1867,7 +1868,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#root) until your next Turn.
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--such when using an Ability such as Defender’s Intervention--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
+When you take a would blow in place of an ally--for example, using an Ability such as [Defender’s Intervention](#defenders-intervention)--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
