@@ -1868,7 +1868,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#root) until your next Turn.
 
 #### Resilient Protector  
-When you take a would blow in place of an ally--for example, using an Ability such as [Defender’s Intervention](#defenders-intervention)--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
+When you take a would blow in place of an ally--for example, using an Ability such as [Intervene](#intervene)--or are targeted by a single target offensive Ability while you have [Taunt](#taunt) and are in the same space as another ally, increase your Physical and Mental Defense by your [Hero Tier](#hero-tier) for that Ability.
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
