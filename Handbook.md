@@ -1868,7 +1868,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#root) until your next Turn.
 
 #### Resilient Protector  
-While you have [Taunt](#taunt) and are in the same space an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier).
+While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier).
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
