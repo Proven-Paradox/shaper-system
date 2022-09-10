@@ -2313,8 +2313,8 @@ You are afflicted with a condition that causes you to weaken over time. This cou
 
 #### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
-Provoke overrides [Taunt](#taunt); any enemies you Provoke will strike you regardless of being in a Square with an ally with Taunt.  
-This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand attention in combat.
+Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you.  
+This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.
 
 #### Root
 For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
