@@ -149,7 +149,7 @@ The focus will be on how the character is represented in rules. Fleshing out a c
 ## Step 1: Attributes
 Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give between 6 points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation.
+Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give 6 points to spend, with the option to take a -1 in order to increase another attribute by 1. I recommend against randomizing Attribute generation.
 
 There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
 * **Strength** represents both raw strength and one’s ability to utilize strength. High Strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low Strength might result in the character being spindly or out of shape.
@@ -1393,7 +1393,7 @@ Targets: Self
 Trigger: You are struck by a [Solid Hit](#solid-hit)  
 Cost: 4 HP, 4 MP  
 Effect: Increase your [Defensive Track](#the-defensive-track).  
-Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of 
+Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of empowering your defense after taking a significant hit.
 
 #### Leyline  
 Auxiliary  
@@ -2151,7 +2151,7 @@ You are able to power your spells with intuition and patience. You may use your 
 You make your spells more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.
 
 #### Sturdy Shield  
-You can use your physical sturdiness to protect yourself against mental forces. You may use y our Toughness in place of Heart to determine your Mental Defense.
+You can use your physical sturdiness to protect yourself against mental forces. You may use your Toughness in place of Heart to determine your Mental Defense.
 
 #### Unyielding Zeal  
 You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.
