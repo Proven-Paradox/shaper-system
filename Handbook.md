@@ -1868,7 +1868,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 * Your target is [Rooted](#root) until your next Turn.
 
 #### Resilient Protector  
-While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier).
+While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier). This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
@@ -2114,7 +2114,7 @@ You hit so hard that you can knock your foes around without actively trying to. 
 * Knock your target(s) [Prone](#prone).
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.  
-You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single attack (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected.
+You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single attack (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to a roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.
 
 #### Intelligent Avoidance  
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
