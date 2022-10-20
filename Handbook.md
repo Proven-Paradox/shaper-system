@@ -1991,7 +1991,7 @@ This could represent a tracking spell, a homing beacon, a literal insect that he
 
 #### Trackless Traversal  
 Increase your Stealth and Survival modifiers by 1.  
-In addition, you and up to three allies may travel without leaving any sort of trail. Survival and Investigation checks made to follow you are made at Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating a boots that leave no trails, casting a spell of safe passage, or similar measures.  
+In addition, you and up to three allies may travel without leaving any sort of trail. Survival and Investigation checks made to follow you are made at Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating boots that leave no trails, casting a spell of safe passage, or similar measures.  
 
 #### Versatile Pilot
 Increase your Drive modifier in one vehicle by 1.  
