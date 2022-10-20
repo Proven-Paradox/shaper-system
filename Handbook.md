@@ -1989,6 +1989,10 @@ In addition, you can plant a Bug on a target to keep track of them. If you get w
 A target can remove your Bug by attempting an Investigation check to find it with a target equal to 10 + your Survival modifier. The first attempt to remove your Bug takes 1 minute. If this fails, the second attempts takes 5 minutes. Each attempt after that requires twice as long as the previous check (10 minutes, 20 minutes, 40 minutes, ...). On success, the Bug is found and the target may remove or destroy it.  
 This could represent a tracking spell, a homing beacon, a literal insect that helps you track the target, or similar means of sensing a target.
 
+#### Trackless Traversal  
+Increase your Stealth and Survival modifiers by 1.  
+In addition, you and up to three allies may travel without leaving any sort of trail. Survival and Investigation checks made to follow you are made at Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating a boots that leave no trails, casting a spell of safe passage, or similar measures.  
+
 #### Versatile Pilot
 Increase your Drive modifier in one vehicle by 1.  
 In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
