@@ -1727,6 +1727,10 @@ Gauging reactions, spotting bluffs, reading moods. If the player wants to learn 
 Attributes: Toughness, Heart  
 Pain tolerance, doing without, pressing on. This is a reactive skill: if a player is subject to forces that would impair their functioning, they can shrug it off with a successful Endure check.
 
+#### History  
+Attributes: Mind, Soul  
+Knowledge about the past. Who did what, where, when. The more important events tend to be more well known, while local or subtle knowledge would require deeper research.
+
 #### Intimidation  
 Attributes: Strength, Heart  
 Browbeating and bullying. When the player wants something and is willing to threaten others to get it, this is the skill to use.
@@ -1761,7 +1765,7 @@ Sneaking, hiding, stealing. The preferred skill of thieves and spies. This inclu
 
 #### Streetwise  
 Attributes: Mind, Heart  
-Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
+Knowledge about the present. Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
 
 #### Survival  
 Attributes: Mind, Soul  
