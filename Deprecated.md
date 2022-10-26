@@ -714,3 +714,50 @@ After you successfully heal an ally, choose one of the following effects. These 
 * Increase the target’s Physical or Mental Offense by your [Hero Tier](#hero-tier).
 * Increase the target’s Physical and Mental Defense by your Hero Tier.
 * The target can move an extra Square when making default movements. (This does not affect Abilities that involve movement.)
+
+#### Double Ward  
+When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability.  
+
+#### Layering Ward
+You can give allies additional layers of protection using [Ward](#ward) or other Abilities that produce Wards. You may target an ally already affected by your Ward, allowing that Ward to affect an additional incoming Ability before fading. Your Wards have a maximum of 3 attacks.
+
+> For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
+
+#### Sanctuary Ward  
+When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element while the Ward is in place.
+
+#### Ward Sense  
+You are able to sense and identify wards placed by enemies accurately.  
+Special: This Lesson costs 3 XP.
+
+#### Wide Ward  
+When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one Square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
+
+#### Battle Warden  
+Prerequisite: [Elemental Lance](#elemental-lance), [Ward](#ward)  
+If you successfully hit a target with an Elemental Attack or Spell, you may cast Ward without spending Mana or an Action. You may only use this Lesson once per round. 
+
+#### Ward  
+Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
+Action: Minor  
+Prerequisites: None  
+Range: Long  
+Targets: 1 Ally  
+Cost: 1 MP  
+Duration: Until used or combat ends  
+Effect: You place a Ward on an ally. Any hostile Abilities of the Ward’s elemental type against an affected ally has its multiplier reduced by 1.  
+Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
+You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
+
+#### Trap Ward  
+Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
+Action: Counter  
+Prerequisites: [Elemental Lance](#elemental-Lance), [Ward](#ward)  
+Range: Medium  
+Targets: 1 enemy  
+Trigger: Your target deals damage of the appropriate element to an ally you have Warded. (For example, if you place Fire Ward and an enemy deals Fire damage to an ally.)  
+Cost: 4 MP  
+Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
+Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
+Description: Counter attacking an enemy after they strike one of your Wards. This could represent setting a trap up in the Ward itself, using the ward to to redirect/alter an enemy's own power, or just being ready to strike back against opponents during combat.

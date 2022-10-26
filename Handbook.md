@@ -371,7 +371,7 @@ Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and 
 
 > In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
 > 
-> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. She takes the Ward Ability, giving her something useful to do with her Minor Action as well as an additional element to use with Elemental Lance. She also takes the Elemental Blast Ability to deal with crowds.
+> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. For example, she takes the Elemental Blast Ability to deal with crowds.
 
 ### Lessons
 Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
@@ -953,9 +953,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 Enemy  
 Cost: 2 MP  
-Effect: Choose one of the following -  
-* Reduce one of the target's [Buff track](#buff-tracks) by 1, to a minimum of 0.  
-* Remove the target's current [Ward](#ward).  
+Effect: Reduce one of the target's [Buff track](#buff-tracks) by 1, to a minimum of 0.  
 Description: You strip a foe of their advantages. This could be countering an opponent's enchantments, hacking into an opponent's systems to hinder performance, disrupting your foe's concentration, or other such measures to undermine advantages.  
 
 #### Psychic Lance  
@@ -1174,19 +1172,6 @@ Damage: x1 (Physical)
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
-#### Ward  
-Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
-Action: Minor  
-Prerequisites: None  
-Range: Long  
-Targets: 1 Ally  
-Cost: 1 MP  
-Duration: Until used or combat ends  
-Effect: You place a Ward on an ally. Any hostile Abilities of the Ward’s elemental type against an affected ally has its multiplier reduced by 1.  
-Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
-You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
-Description: A simple form of protection. This can represent a rune of protection, re-calibrating energy shields, banishing elemental spirits to deny foes needed energy, and similar defensive measures.
-
 ## Tier 2  
 Tier 2 Abilities are available once you have reached Hero Tier 2.
 
@@ -1369,7 +1354,7 @@ Targets: 1 Ally
 Trigger: Target ally takes any damage  
 Cost: None  
 Duration: 1 round    
-Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes, and is affected by Wards and elemental properties normally. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
+Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Storm  
@@ -1631,18 +1616,6 @@ Cost: 3 MP
 Effect: You move to the target’s Square. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
-#### Trap Ward  
-Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
-Action: Counter  
-Prerequisites: [Elemental Lance](#elemental-Lance), [Ward](#ward)  
-Range: Medium  
-Targets: 1 enemy  
-Trigger: Your target deals damage of the appropriate element to an ally you have Warded. (For example, if you place Fire Ward and an enemy deals Fire damage to an ally.)  
-Cost: 4 MP  
-Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
-Description: Counter attacking an enemy after they strike one of your Wards. This could represent setting a trap up in the Ward itself, using the ward to to redirect/alter an enemy's own power, or just being ready to strike back against opponents during combat.
-
 #### Umbral Bolt  
 Spell [Elemental] [Dark]  
 Action: Major  
@@ -1808,15 +1781,8 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 Prerequisite: [Brace](#brace)  
 While [rooted](#root), you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
-#### Battle Warden  
-Prerequisite: [Elemental Lance](#elemental-lance), [Ward](#ward)  
-If you successfully hit a target with an Elemental Attack or Spell, you may cast Ward without spending Mana or an Action. You may only use this Lesson once per round. 
-
 #### Curse Resistant  
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
-
-#### Double Ward  
-When you use [Ward](#ward), you may choose to increase the cost to 3 MP. If you do, you may choose a second element for which you have [Elemental Attunement](#elemental-attunement). The applied ward protects against both kind of damage. The ward is still expended after protecting against a single Ability.  
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -1834,11 +1800,6 @@ Once per Turn when you use a melee range Attack, you can move 1 Square as part o
 
 #### Improved Healing  
 When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
-
-#### Layering Ward
-You can give allies additional layers of protection using [Ward](#ward) or other Abilities that produce Wards. You may target an ally already affected by your Ward, allowing that Ward to affect an additional incoming Ability before fading. Your Wards have a maximum of 3 attacks.
-
-> For example, Drahlo has placed a Fire Ward on himself using the [Ward](#ward) Ability. During his Turn, he uses Ward again, empowering his existing Ward to reduce damage from 2 Fire elemental Abilities.
 
 #### Lingering Provocation  
 Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
@@ -1877,9 +1838,6 @@ While you have [Taunt](#taunt) and are in the same space as an ally, are providi
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
 
-#### Sanctuary Ward  
-When you place a [Ward](#ward) on an ally that corresponds to their Elemental weakness(es), they become no longer weak to that Element while the Ward is in place.
-
 #### Spell Sniper  
 Prerequisite: [Brace](#brace)  
 While [Rooted](#root), the range of any spell you cast increases by one Square.
@@ -1893,13 +1851,6 @@ When you use a Scan Ability, choose one of the following benefits.
 * You automatically scan Squares instead of individuals, simultaneously learning about all creatures in that Square as well as checking for invisible creatures and objects in that Square.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
-
-#### Ward Sense  
-You are able to sense and identify wards placed by enemies accurately.  
-Special: This Lesson costs 3 XP.
-
-#### Wide Ward  
-When you use a single target Ward that normally has a Minor action requirement, you may increase that to a Major action. If you do, the Ward affects one Square. Applying this Technique counts as using a Careful action, even on Abilities that normally do not have the [Careful] tag.
 
 ------------
 # Chapter 8: Utilities
