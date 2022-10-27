@@ -444,7 +444,7 @@ There are three types of Abilities.
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three ten-sided dice, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
+* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three ten-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
    * *Fire* - heat and flames
    * *Ice* - sharp icicles and freezing cold
    * *Earth* - shards of rock, acid, and plant vines
