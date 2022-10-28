@@ -1763,7 +1763,6 @@ Choose one Ability you already know. When you use that Ability, you may gain one
 * Increase the Ability's Range by one increment. (So Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.)  
 * Reduce the cost of the Ability (whether HP or MP) by your Hero Tier.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
-* If the Ability is an Auxiliary and normally requires a Major Action, you may use a Minor Action instead. After doing this there is a 3 Round Cooldown on doing so again. (This Cooldown only applies to this specific application of this Lesson.)  
 
 You choose which benefit you gain every time you use the Ability and may choose different benefits on different rounds.  
 You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
