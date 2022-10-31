@@ -1858,7 +1858,7 @@ Broadly, Utilities are things your character can do that are not related to comb
 ## Skill-based Utilities
 
 #### 1337 H4xx0r  
-Increase your Tech modifier by 1.  
+Increase your [Tech](#tech) and [Sabotage](#sabotage) modifiers by 1.  
 In addition, when you break into a software system with your Tech skill, you may choose one of the following.  
 * Logging: You leave a logger in the compromised system. This allows you to read all messages sent through or with the system.  
 * Framing: You can plant files into the specified system.  
@@ -1867,17 +1867,17 @@ In addition, when you break into a software system with your Tech skill, you may
 Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.
 
 #### Asceticism  
-Increase your Endure modifier by 1.  
+Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
 
 #### Eidetic Memory
-Increase your Lore modifier by 1.
+Increase your [History](#history) and [Lore](#lore) modifiers by 1.
 You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
 
 > Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and hand-waving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
 
 #### Enhanced Sight  
-Increase your Awareness modifier by 1.  
+Increase your [Awareness](#awareness) and [Investigation](#investigation) modifiers by 1.  
 In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.  
 You are also able to see clearly up to a distance of 6 miles.
 
@@ -1886,7 +1886,7 @@ You are also able to see clearly up to a distance of 6 miles.
 > I am aware this has more to do with the curvature of the planet than the way eyes work. If you need a tabletop system that takes that into account accurately I don't know what to tell you.
 
 #### Extraordinary Saboteur  
-Increase your [Sabotage](#sabotage) modifier by 1.  
+Increase your [Sabotage](#sabotage) and [Stealth](#stealth) modifier by 1.  
 You can set Traps. This could represent a tripwire, a pressure plate, a laser scanner, or something similar.  
 You may set one Trap for every 5 Base Sabotage bonus (so 1 Trap at 5 Sabotage, 2 Traps at 10 Sabotage, and so on). Setting a Trap requires 1 minute of uninterrupted work. If you are interrupted during this time you must start over.  
 Detecting your Trap requires an [Awareness](#awareness) check equal to your Sabotage bonus +10. Disabling or bypassing it requires a Sabotage check at the same target. You may disable and recover the components of your own Traps safely, and anyone you make aware of your Traps may bypass them safely.  
@@ -1898,21 +1898,15 @@ Each Trap you set can have 2 of the following attributes.
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 
 #### Gangster's Cant  
-Increase your Streetwise modifier by 1.  
+Increase your [Deception](#deception) and [Streetwise](#streetwise) modifiers by 1.  
 In addition, you have learned the secret language of the criminal underworld. This allows you to understand signs and symbols to guide you to where such people gather and speak their language. A conversation spoken in Cant is impossible to follow without this knowledge.  
 
-#### Language Knowledge  
-Choose a language. You can speak, read, and write in that language.  
-You may take this Utility more than once, choosing a different language each time.  
-
-> Characters should generally know one or two languages as part of their background; a character begins the game the game knowing the language of their homeland as well as the language spoken wherever the adventure is starting.
-
 #### Mountain Climber  
-Increase your Athletics modifier by 1.  
+Increase your [Acrobatics](#acrobatics) and [Athletics](#athletics) modifiers by 1.  
 You are acclimated to high elevations and can survive at high altitudes without penalty. You have Boon +4 on all checks made to climb a slope or wall or maintain your grip on a ledge.
 
 #### Natural Intuition  
-Increase your Empathy modifier by 1.  
+Increase your [Diplomacy](#diplomacy) and [Empathy](#empathy) modifiers by 1.  
 When you successfully detect that someone is lying to you with an Empathy check, you automatically gain a small insight into their motivations. This comes as a single word. Some examples:
 * The target is being blackmailed by someone who can ruin their lives, forced to work against the party. “Fear”
 * The target is a petty conman and just wants to score some easy coin off the party. “Greed”
@@ -1920,43 +1914,39 @@ When you successfully detect that someone is lying to you with an Empathy check,
 * The target is secretly after revenge against someone in the party. “Enmity”
 
 #### Poker Face  
-Increase your Composure modifier by 1.  
+Increase your [Composure](#composure) and [Deception](#deception) modifiers by 1.  
 In addition, you may use Composure to completely mask your emotional state, and you gain Boon +4 to do so. (This is only for concealing information; for actively misleading someone you would still need to use Deception.)
 
-#### Slow Fall  
-Increase your Acrobatics modifier by 1.  
-In addition, you are able to reduce the damage you take when falling by half.
-
 #### Specialist Artisan  
-Increase your Construct or Craft modifier by 1.  
+Increase your [Construct](#construct) and [Craft](#craft) modifiers by 1.  
 In addition, choose a specialized type of crafting to specialize in. You produce items from within that specialization at double the normal pace and can presume you have materials and tools necessary to do basic repairs on items from that specialization at all times and/or are able to recycle existing items to gain those materials.  
 For Construct, specializations could include arms, armor, masonry, carpentry, mechanics, heavy machinery, or similar specializations.  
 For Craft, specializations could include clothing, jewelry, leather working, clockwork, leather working, and the like.
 
 #### Stationary Stealth  
-Increase your Stealth modifier by 1.  
+Increase your [Endure](#endure) and [Stealth](#stealth) modifiers by 1.  
 In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different squares; small shifts in position or posture do not remove this benefit.
 
 #### Tracking Bug  
-Increase your Survival modifier by 1.  
+Increase your [Craft](#craft) and [Survival](#survival) modifiers by 1.  
 In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival check against your opponent's Awareness or Stealth check (target's choice). If you succeed, you plant your Bug on the target and can sense what direction and how far away the target is. At Hero Tier 1, this Bug lasts 1 day. This duration doubles every time you increase in Hero Tier (2 days, 4 days, 8 days, ...).  
 A target can remove your Bug by attempting an Investigation check to find it with a target equal to 10 + your Survival modifier. The first attempt to remove your Bug takes 1 minute. If this fails, the second attempts takes 5 minutes. Each attempt after that requires twice as long as the previous check (10 minutes, 20 minutes, 40 minutes, ...). On success, the Bug is found and the target may remove or destroy it.  
 This could represent a tracking spell, a homing beacon, a literal insect that helps you track the target, or similar means of sensing a target.
 
 #### Trackless Traversal  
-Increase your Stealth and Survival modifiers by 1.  
+Increase your [Stealth](#stealth) and [Survival](#survival) modifiers by 1.  
 In addition, you and up to three allies may travel without leaving any sort of trail. Survival and Investigation checks made to follow you are made at Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating boots that leave no trails, casting a spell of safe passage, or similar measures.  
 
 #### Versatile Pilot
-Increase your Drive modifier in one vehicle by 1.  
+Increase your [Construct](#construct) and [Drive](#drive) modifiers by 1. (Choose one vehicle for Drive.)  
 In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
 
 #### Well Connected  
-Increase your Diplomacy modifier by 1.  
+Increase your [Diplomacy](#diplomacy) and [Streetwise](#streetwise) modifiers by 1.  
 In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
 
 #### Whispered Wisdom  
-Increase your Lore modifier by 1.  
+Increase your [Empathy](#empathy) and [Lore](#lore) modifiers by 1.  
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual that takes at least one minute. Afterwards make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? Powerful individuals are more difficult to learn about through this feature.   
 After performing the ritual, you cannot do so again for the next eight hours. You cannot do this ritual again in the same place until either a year has passed, or you increase your Lore modifier by 2.
@@ -1973,7 +1963,9 @@ You can fly up to five feet off the ground.
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
 While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
-This Lesson makes you immune to natural terrain effects.
+This Lesson makes you immune to natural terrain effects.  
+In addition, you are able to reduce the damage you take when falling by half.
+
 
 #### Linguist  
 You learn a language. This can represent doing scholarship and lessons just as well as a background living in a multilingual culture.  
