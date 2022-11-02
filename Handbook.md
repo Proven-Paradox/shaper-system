@@ -1897,6 +1897,12 @@ Each Trap you set can have 2 of the following attributes.
 * The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 
+#### Familiar bond
+Increase the modifier of any one Skill by 1.
+You can summon or create a familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a skill check, the Familiar’s core stats are as follows:  
+Strength -1, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1    
+Summoning a familiar is a ritual that requires an hour of uninterrupted work. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one. 
+
 #### Gangster's Cant  
 Increase your [Deception](#deception) and [Streetwise](#streetwise) modifiers by 1.  
 In addition, you have learned the secret language of the criminal underworld. This allows you to understand signs and symbols to guide you to where such people gather and speak their language. A conversation spoken in Cant is impossible to follow without this knowledge.  
