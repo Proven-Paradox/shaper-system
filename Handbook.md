@@ -977,7 +977,7 @@ Action: Minor
 Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 4 MP  
+Cost: 3 MP  
 Damage: 1x (Physical)  
 Effect: None  
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
