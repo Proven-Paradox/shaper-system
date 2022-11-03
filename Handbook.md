@@ -1054,6 +1054,17 @@ Effect: If you also use your minor action this Attack is made with Boon +2. If y
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
+#### Snapshot  
+Attack  
+Action: Minor  
+Prerequisites: [Shoot](#shoot)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 2 MP  
+Damage: x1 (Physical)  
+Cooldown: 1 round  
+Description: A quick ranged attack. This could represent throwing a hidden dagger, shooting an off-hand pistol, or in combination with Shoot might represent notching and firing two arrows from a bow at once, or activating a weapon's burst fire mode.
+
 #### Sneak Attack  
 Attack  
 Action: Major  
