@@ -1980,7 +1980,7 @@ You are able to function better under water. You can breathe water, are able to 
 #### Hover  
 You can fly up to five feet off the ground.  
 This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
-While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reaching a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
+While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reach a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
 This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
 This Lesson makes you immune to natural terrain effects.  
 In addition, you are able to reduce the damage you take when falling by half.
