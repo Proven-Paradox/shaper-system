@@ -1793,6 +1793,9 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 Prerequisite: [Brace](#brace)  
 While [rooted](#root), you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
 
+#### Combo Striker
+Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
+
 #### Curse Resistant  
 The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
 
