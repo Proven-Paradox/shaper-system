@@ -2061,7 +2061,7 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in Hero Tier, the Degeneration added per hit increases by 1 round, and the maximum duration increases by 2 rounds.  
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully dealing Earth damage allows you to move the target one Square. You cannot use this benefit if you have moved this Turn, and after using it you cannot willingly move afterward until your next Turn.
+  * Earth - Successfully scoring a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Square.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
   * Dark - Successfully dealing Dark damage restores you for half the damage done. If you do HP damage you heal that amount, and if you do MP damage you restore that much MP.   
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
