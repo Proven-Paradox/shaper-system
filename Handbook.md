@@ -1867,6 +1867,9 @@ When you use a Scan Ability, choose one of the following benefits.
 * You learn the target’s Physical and Mental Attack in addition to the usual stats.
 * You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
 
+#### Sustaining Upkeep  
+When you pay an Upkeep cost in MP, you heal for that much HP.
+
 ------------
 # Chapter 8: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP. 
