@@ -853,7 +853,7 @@ Range: Melee
 Targets: 1 Square  
 Cost: 5 MP  
 Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
-Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1.
+Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1.
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
