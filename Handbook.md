@@ -853,7 +853,7 @@ Range: Melee
 Targets: 1 Square  
 Cost: 5 MP  
 Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1.
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
@@ -862,11 +862,11 @@ Action: Minor
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Ally  
-Cost: 2 MP  
+Cost: 3 MP  
 Effect: The target regains HP equal to a ten-sided die roll.   
 This Ability may only be used once per Turn.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another ten-sided die to the amount healed.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another ten-sided to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another ten-sided die to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -877,8 +877,8 @@ Range: Medium (Careful: Long)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a ten-sided die roll.  
-If you also use your minor action increase the healing to two ten-sided die rolls and this Ability's range increases to Long.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of die healed. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
+If you also use your Minor action, add another ten-sided die to the amount healed.   
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
