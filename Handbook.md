@@ -1487,7 +1487,7 @@ Description: You assault a group's minds. This can represent invoking a spell to
 Spell  
 Action: Minor  
 Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)  
-Range: Short
+Range: Short  
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x1 (Physical)  
