@@ -2288,7 +2288,7 @@ You are afflicted with a condition that causes you to weaken over time. This cou
 
 #### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
-Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you.  
+Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you. In addition, you gain no benefit of being [Protected](#protection) from a target you have Provoked.  
 This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.
 
 #### Root
@@ -2341,7 +2341,7 @@ You are invisible or otherwise very difficult to see, which makes you extremely 
 #### Protection
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
 If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
-A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.  
+A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
 This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects. 
 
 #### Shield X
