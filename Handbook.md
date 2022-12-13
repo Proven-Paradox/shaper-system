@@ -2349,7 +2349,7 @@ You have a barrier or defense active that takes damage for you. While you have a
 
 #### Taunt
 If you have Taunt and are in a space with any other ally, enemies must target you. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Squares instead of targets can still affect your allies as normal.   
-If multiple allies have Taunt in the same Square, foes may choose between them at will. Abilities that affect multiple targets in a Square  (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
+If multiple allies have Taunt in the same Square, foes may choose between them at will. Abilities that affect multiple targets in a Square (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
 [Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
 A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
 This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
