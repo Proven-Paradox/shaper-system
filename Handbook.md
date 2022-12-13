@@ -2339,14 +2339,20 @@ This Condition makes you immune to terrain effects.
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
 
 #### Protection
-A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.
+You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
+If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
+A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect.  
+This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects. 
 
 #### Shield X
 You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.
 
 #### Taunt
-If you have Taunt and are in a space with any other ally, enemies must target you. Any Abilities that pick a target can only pick you. Abilities that affect Squares instead of targets can still affect your allies as normal.
-
+If you have Taunt and are in a space with any other ally, enemies must target you. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Squares instead of targets can still affect your allies as normal.   
+If multiple allies have Taunt in the same Square, foes may choose between them at will. Abilities that affect multiple targets in a Square  (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
+[Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
+A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
+This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
 
 
 
