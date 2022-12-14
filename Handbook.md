@@ -555,12 +555,13 @@ Description: An untrained attempt to hold on to your target.
 
 #### Prepare  
 Auxiliary  
-Action: Minor  
+Action: Minor or Major (See Effect)  
 Prerequisites: None  
 Range: None  
 Targets: Self  
 Cost: 1 MP  
 Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Lance Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.  
+This Ability's Action is the same as the chosen Ability you are Preparing.  
 Description: Getting ready to take action later in combat. This can be important if you want to time interactions specifically or want to let an opponent act first.
 
 #### Recover  
