@@ -755,7 +755,7 @@ At Hero Tier 2, you may increase the cost of this Ability by an additional 5 MP 
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
 #### Elemental Resistance Aura  
-Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark] 
+Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
 Action: Minor  
 Prerequisites: None  
 Range: Short  
