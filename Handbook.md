@@ -44,6 +44,10 @@
   - [What are Injuries?](#what-are-injuries)
   - [How can I Recover?](#how-can-i-recover)
   - [How does Death Work?](#how-does-death-work) 
+  - [Status Ailments](#status-ailments)
+  - [Disadvantages](#disadvantages)
+  - [Advantages](#advantages)
+  
 ------------
 # Chapter 0: Introduction
 Assembled friends and enemies, welcome to the Story Shaper System (3S). 
