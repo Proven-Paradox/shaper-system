@@ -754,6 +754,18 @@ Scaling: At any Hero Tier, you may increase the cost of this Ability by 3 to MP 
 At Hero Tier 2, you may increase the cost of this Ability by an additional 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
 
+#### Elemental Resistance Aura  
+Auxiliary [Elemental] [Fire/Ice/Earth/Sky/Light/Dark] 
+Action: Minor  
+Prerequisites: None  
+Range: Short  
+Targets: All allies in Range  
+Cost: 2 MP (Upkeep 2 MP)  
+Effect: All affected allies gain [Elemental Resistance](#step-5-elemental-properties) to the chosen Element.  
+Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
+You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+Description: Providing a shield against the elements in a small area around you. This could represent a warding spell, activating energy shields, invoking elemental spirits, or similar ways of protecting allies from an element.
+
 #### Empower  
 Auxiliary [Augment]  
 Action: Major  
