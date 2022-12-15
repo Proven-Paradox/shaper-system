@@ -250,6 +250,7 @@ Here are some things to consider when distributing skill points:
 ## Step 5: Elemental Properties
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
+When receiving damage in an element a combatant is weak to, the attacker rolls three ten-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three ten-sided dice and drops the **highest** die.  
 
 > Note that steps 7 and 8 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
 
