@@ -171,7 +171,7 @@ The Support ally increases the target's Regen by 2. This cannot be done on the s
 ## Summoning Lessons
 
 #### Assisting Summon  
-Prerequisites: [Summon Configuration: Support]  
+Prerequisites: [Summon Configuration: Support](#summon-configuration-support)  
 Your summons gain an additional +1 to Physical and Mental Defense. In addition, when your Support Configuration uses Soothe or Empowered Soothe, the target is immediately healed for the same amount as it gain in Regen. (So 1 HP for Soothe, 2 HP for Empowered Soothe, when looking at the default Support Configuration summon.)
 
 #### Basher Summon  
