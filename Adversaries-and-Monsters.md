@@ -12,9 +12,10 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
 - [Magi](#magi)
 - [Nuisances](#nuisances)
 - [Rogues](#rogues)
-- [Snipers](#snipers)  
-- [Thugs](#thugs)  
+- [Snipers](#snipers)
+- [Thugs](#thugs)
 - [Slimes](#slimes)
+- [Swarms](#swarms)
 - [Warriors](#warriors)
 
 ## Bystander
@@ -311,6 +312,29 @@ Mental Defense: 10
 *Absorb* (Major action Attack), x1 damage, Elemental, melee. On first success, the target is rooted. On a third success, target is grappled and this Attack's damage becomes x2
 *Splash* (Major action Attack), x1 damage, Elemental, short.  
 *Thorns* (Passive), anyone who attacks a Slime in melee range takes 4 Elemental damage. 
+
+## Swarms
+This class of adversary represents a large group of small creatures. These could be spiders, locusts, bats, piranhas, nanomachine particles, or similar clusters of tiny creatures. This base type can be expanded with abilities and properties to more accurately represent what they are; spiders might have venomous attacks, bats should be able to fly, nanomachines might self-repair, and so on. One common element to all swarms is that they are resistant to single target Attacks and Spells, but are particularly susceptible to area effects.  
+
+#### Minor Swarm  
+Strength -2  
+Finesse 4  
+Toughness 4  
+Mind -2  
+Soul -2  
+Heart 0  
+HP Max: 30  
+MP Max: -  
+Physical Attack: 2  
+Mental Attack: -  
+Physical Defense: 12  
+Mental Defense: 8  
+
+*Dispersed Damage* (Passive), any damaging Attacks or Spells that do not target entire Squares have their Multipliers reduced by 1. If this would reduce the Multiplier to 0, the Attack or Spell deals half damage.  
+Attacks or Spells that target entire Squares have their multipliers increased by 1 instead.  
+*Wavering* (Passive), at half HP (15) the Swarm begins Wavering, decreasing the effectiveness of its attacks.  
+*Swarm Stings* (Passive), any foes in the same Square as this Swarm takes 5 damage per round. If the Swarm is Wavering, deal 2 damage per round instead.  
+*Active Sting* (Major action Attack), x1 damage, melee. If the Swarm is Wavering, its Physical Attack decreases to 0.  
 
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
