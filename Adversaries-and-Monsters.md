@@ -333,7 +333,7 @@ Mental Defense: 8
 *Dispersed Damage* (Passive), any damaging Attacks or Spells that do not target entire Squares have their Multipliers reduced by 1. If this would reduce the Multiplier to 0, the Attack or Spell deals half damage.  
 Attacks or Spells that target entire Squares have their multipliers increased by 1 instead.  
 *Wavering* (Passive), at half HP (15) the Swarm begins Wavering, decreasing the effectiveness of its attacks.  
-*Swarm Stings* (Passive), any foes in the same Square as this Swarm takes 5 damage per round. If the Swarm is Wavering, deal 2 damage per round instead.  
+*Passive Stings* (Passive), any foes in the same Square as this Swarm takes 5 damage per round. If the Swarm is Wavering, deal 2 damage per round instead. This trait does not stack; if there are multiple Swarms in the same Square, only the strongest instance of Passive Stings applies.  
 *Active Sting* (Major action Attack), x1 damage, melee. If the Swarm is Wavering, its Physical Attack decreases to 0.  
 
 ## Snipers
