@@ -1792,7 +1792,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 #### Ability Specialist  
 Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
 * Increase the Ability's Range by one increment. (So Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.)  
-* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier.  
+* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial costs; this has no effect on Upkeep.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
 
 You choose which benefit you gain every time you use the Ability and may choose different benefits on different rounds.  
