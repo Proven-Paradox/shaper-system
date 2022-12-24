@@ -2215,8 +2215,8 @@ There are a few things one can do that is specific to chase scenes to consider.
 #### Use Abilities
 All Abilities available to you outside of a chase scene are available during chases as well. In order to use a Melee range Ability, your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 2; for Long, 3. Abilities that did only damage previously still do so, but any Ability that affects movement can be used to get an upper hand during the chase.
 
-#### Sprint
-Sprinting is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
+#### Rush
+Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
 
 #### Recover
 Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
