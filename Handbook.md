@@ -2330,6 +2330,12 @@ Crushed by stones, blinded by sand, restrained by vines, or other similar means 
 #### Drained  
 Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
+#### Fatigue  
+Extended combat can cause characters to become Fatigued, causing them to take additional damage. All damage multipliers against Fatigued characters are increased by 1. 
+
+> This can be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time. I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain hearty enough to continue the fight as long as everyone wants.  
+> Fatigue might also be imposed by certain monsters or effects, in which case the Arbiter might rule to treat this as a [Status Ailment](#status-ailments) instead of a Disadvantage. This makes it something that can be removed by effects like [Remedy](#remedy) or [Healing Hands](#healing-hands). 
+
 #### Flat Footed
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
 
