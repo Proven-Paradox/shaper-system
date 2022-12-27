@@ -99,7 +99,7 @@ Round down during dice rolls. If you ever have a fraction, just cut off the frac
 
 In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
 
-For a tie during opposed skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
+For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
 
 If a damage type is not listed, assume the damage to be physical.
 
@@ -151,7 +151,7 @@ The focus will be on how the character is represented in rules. Fleshing out a c
 > Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.
 
 ## Step 1: Attributes
-Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain skill checks (more on both of these subjects later).  
+Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain Skill checks (more on both of these subjects later).  
 A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
 Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give 6 points to spend, with a cap of 3 points into one attribute and the option to take a -1 in order to  get a 7th point. I recommend against randomizing Attribute generation.
 
@@ -1663,7 +1663,7 @@ Description: Anything that does lingering darkness damage. This can be a dark in
 # Chapter 6: Skills
 Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat (though they may come up in combat at times).  
 
-Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to do something as trivial as climbing a ladder. However, if you're rushed, being attacked, the ladder is damaged and unstable, or under similar duress, you will need a skill check. Doing something inherently dangerous, such as trying to climb a sheer cliff face, also requires a Skill check. For all of these examples, these checks would be a combination of Athletics, Acrobatics, with occasional Endure checks.  
+Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to do something as trivial as climbing a ladder. However, if you're rushed, being attacked, the ladder is damaged and unstable, or under similar duress, you will need a Skill check. Doing something inherently dangerous, such as trying to climb a sheer cliff face, also requires a Skill check. For all of these examples, these checks would be a combination of Athletics, Acrobatics, with occasional Endure checks.  
 Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.   
 
 | Target number | Skill level          |
@@ -1675,7 +1675,7 @@ Skills can also be used to answer questions about a related subject. For example
 | 30            | Exceptional          |
 
 ## Skill Attributes
-Each Skill has two associated Attributes. All skills of that type add those two Attributes to those skill checks.  
+Each Skill has two associated Attributes. All skills of that type add those two Attributes to those Skill checks.  
 
 ## Skill Points  
 You can spend Skill Points on each skill to raise its Base Bonus by 1. You start the game with 20 Skill Points to spend, and can purchase 5 Skill Points for 1 XP.  
@@ -1943,7 +1943,7 @@ If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 
 #### Familiar bond
 Increase the modifier of any one Skill by 1.
-You can summon or create a familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a skill check, the Familiar’s core stats are as follows:  
+You can summon or create a familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a Skill check, the Familiar’s core stats are as follows:  
 Strength -1, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1    
 Summoning a familiar is a ritual that requires an hour of uninterrupted work. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one. 
 
