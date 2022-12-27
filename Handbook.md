@@ -1661,11 +1661,9 @@ Description: Anything that does lingering darkness damage. This can be a dark in
 
 ------------
 # Chapter 6: Skills
-Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat, though they may come up in combat at times.  
+Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat (though they may come up in combat at times).  
 
-Your maximum number of Skill Points that can be invested into any one Skill is equal to your [Level](#level) + 3.  
-Each skill has two associated Attributes. All skills of that type add those two Attributes in addition to any skill points that have been spent in those skills.  
-Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to climb a ladder unless the character doing it is rushed, being attacked, or under similar duress. If that same character were trying to climb a sheer cliff face, an Athletics check is necessary.  
+Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to do something as trivial as climbing a ladder. However, if you're rushed, being attacked, the ladder is damaged and unstable, or under similar duress, you will need a skill check. Doing something inherently dangerous, such as trying to climb a sheer cliff face, also requires a Skill check. For all of these examples, these checks would be a combination of Athletics, Acrobatics, with occasional Endure checks.  
 Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.   
 
 | Target number | Skill level          |
@@ -1676,7 +1674,14 @@ Skills can also be used to answer questions about a related subject. For example
 | 20            | Very difficult       |
 | 30            | Exceptional          |
 
-## Helping Others
+## Skill Attributes
+Each Skill has two associated Attributes. All skills of that type add those two Attributes to those skill checks.  
+
+## Skill Points  
+You can spend Skill Points on each skill to raise its Base Bonus by 1. You start the game with 20 Skill Points to spend, and can purchase 5 Skill Points for 1 XP.  
+The maximum number of Skill Points that can be invested into any one Skill is equal to your [Level](#level) + 3.  
+
+### Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
 ## Skill List
@@ -1893,6 +1898,8 @@ When you pay an Upkeep cost in MP, you heal for that much HP.
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP. 
  
 ## Skill-based Utilities
+> Note: the skill bonuses on these skill-based Utilities are NOT [Skill Points](#skill-points) and are added ON TOP OF the character's Base Skill Bonus.  
+> For example, Elaahni wants to maximize her [Empathy](#empathy) checks. She is [Level](#level) 6, and has Heart 2 and Soul -1. She has purchased enough Skill Points to max her Base Skill Bonus at 6. 6 + 2 - 1 = 7. She also purchases the [Natural Intuition](#natural-intuition) and [Whispered Wisdom](#whispered-wisdom) Utilities, each of which increase her Empathy modifier by 1 more each. This gives her a total Empathy bonus of 9.
 
 #### 1337 H4xx0r  
 Increase your [Tech](#tech) and [Sabotage](#sabotage) modifiers by 1.  
