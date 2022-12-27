@@ -1283,7 +1283,7 @@ Cost: 10 MP
 Damage: x2 (Ice)  
 Duration: 3 rounds  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, or similar effects.
+Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, a literal cold glare, or similar effects.
 
 #### Counter Stance  
 Auxiliary  
@@ -1305,7 +1305,7 @@ Cost: 10 MP
 Damage: x2 (Earth)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering earth damage. This can be a siesmic incantation, partially petrifying your target, a gravity ray, or similar effects.
+Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, a gravity ray, just throwing a big rock, or similar effects.
 
 #### Crushing Demand  
 Attack/Spell [Status]  
@@ -1532,7 +1532,7 @@ Targets: 1 enemy, 1 ally
 Cost: 10 MP  
 Damage: x2 (Light)  
 Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP. If this Ability misses no healing occurs.  
-Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, or other such effects.
+Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
 
 #### Rally  
 Auxiliary [Healing] [Augment]  
@@ -1576,7 +1576,7 @@ Cost: 10 MP
 Damage: x2 (Fire)  
 Duration: 1 round  
 Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next Turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, or similar effects.
+Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, an insult so powerful it results in an actual burn, or similar effects.
 
 #### Shocking Bolt  
 Spell [Elemental] [Sky]  
@@ -1588,7 +1588,7 @@ Cost: 10 MP
 Damage: x2 (Sky)  
 Duration: 2 rounds  
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, or similar effects.
+Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, music that is electric, or similar effects.
 
 #### Second Wind  
 Auxiliary [Healing]  
@@ -1657,7 +1657,7 @@ Cost: 10 MP
 Damage: x2 (Dark)  
 Duration: 2 round  
 Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
-Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, or similar effects.
+Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, speaking a curse that drains a foe's resolve, or similar effects.
 
 ------------
 # Chapter 6: Skills
