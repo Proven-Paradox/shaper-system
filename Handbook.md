@@ -1707,7 +1707,7 @@ Attributes: Toughness, Soul
 Keeping your cool under duress. This is a reactive skill, used when the character sees something disturbing or frightening, is dealing with stress, or similar chances for one to snap under pressure.
 
 #### Construct  
-Attributes: Toughness, Mind  
+Attributes: Toughness, Strength  
 Metal working, carpentry, masonry, and other heavy work. This skill is for building and repairing large objects with heavy materials.
 
 #### Craft  
@@ -1777,7 +1777,7 @@ Attributes: Mind, Heart
 Knowledge about the present. Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
 
 #### Survival  
-Attributes: Mind, Soul  
+Attributes: Toughness, Soul  
 Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow tracks, and provide food for themselves and others in the wilderness.
 
 #### Tech  
