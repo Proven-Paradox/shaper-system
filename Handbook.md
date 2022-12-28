@@ -1684,6 +1684,23 @@ The maximum number of Skill Points that can be invested into any one Skill is eq
 ### Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
+### Raising the Stakes
+You may choose to raise the target of a Skill check in order to get better results. If you do this, you fail the check if you don't meet the increased target, *even if you would have met the unaltered target*.  
+
+Here are a few examples of modifications you can make. You and the Arbiter are encouraged to improvise additional possibilities.  
+
+| Extra Effect            | Target Increase |
+|-------------------------|-----------------|
+| Look cool               | +1              |
+| Use 25% fewer materials | +2              |
+| Go 25% faster           | +3              |
+| Get a superior result   | +5              |
+| Look *extremely* cool   | +7              |
+
+> Some examples:  
+> Balam is climbing a rope ladder in a storm. The Athletics/Acrobatics target is 15. He wants to do it extra fast, so the Arbiter lets him increase that to 18.    
+> Dr. Skren is working on a cybernetic arm for a friend. Normally this tech requires a Science or Tech check of 20, but she wants this to be extra powerful and cranks that target up to 25. If it works she gets a hell of an arm, but on failure the materials and time are wasted.
+
 ## Skill List
 
 #### Acrobatics  
