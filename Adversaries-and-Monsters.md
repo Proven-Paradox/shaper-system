@@ -400,7 +400,7 @@ Toughness 2
 Mind -1  
 Soul -1  
 Heart 0  
-HP Max: 30  
+HP Max: 20  
 Physical Attack: 6  
 Mental Attack: -2  
 Physical Defense: 12  
