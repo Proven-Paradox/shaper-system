@@ -1809,7 +1809,7 @@ Lessons cost 5 XP unless an exception is listed.
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Base Offense](#base-physicalmental-offensedefense). Use Base Physical Offense if the Ability is an Attack, or Base Mental Offense if the Ability is a Spell.
+* If the Curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Ability is an Attack, or Mental Offense if the Ability is a Spell.
 
 #### Ability Specialist  
 Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
