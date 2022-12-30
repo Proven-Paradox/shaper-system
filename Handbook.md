@@ -2090,6 +2090,14 @@ You can physically batter aside your opponent's attacks. You may use your Streng
 #### Body and Soul  
 Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
 
+#### Cascading Curses  
+When you successfully strike a target with a Curse Ability, you can also do one of the following:  
+* Double the cost of the Ability to use it on another target without spending an Action.  
+* Use a non-Curse Spell Ability that normally requires a Major Action as a Minor Action. This Spell may not be of a higher Tier than the Curse that triggers this Talent.  
+* Triple the cost of Enfeeble or Expose to use it on a Square.  
+
+When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). If you have already learned both, you may refund the XP spent to learn one of them.
+
 #### Crushing Zeal  
 Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense.
 
