@@ -670,6 +670,7 @@ Cost: 2 MP
 Effect: Choose one of the following:  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
+* End a Curse effect on the target.  
 Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
 
 #### Daze Strike  
@@ -786,10 +787,12 @@ Action: Major
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 1 MP  
+Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
+Scaling: At any Hero Tier, you may increase the cost of thie Ability by 7 MP to give it a damage multiplier of 1.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
 #### Expose  
@@ -798,10 +801,12 @@ Action: Major
 Prerequisites: None  
 Range: Medium  
 Targets: 1 enemy  
-Cost: 1 MP  
+Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive-track).  
-You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).
+You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
+Scaling: At any Hero Tier, you may increase the cost of the Ability by 5 MP to give it a damage multiplier of 1.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
 
 #### Finisher  
@@ -1235,7 +1240,7 @@ Action: Major
 Prerequisites: [Enfeeble](#enfeeble)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 6 MP  
+Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
@@ -1330,7 +1335,7 @@ Targets: 1 enemy
 Cost: 8 MP (Upkeep 2 MP)  
 Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
 When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends (though the damage done to the victim’s buff tracks remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
-You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom.  
+You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom. Exception: If you have the [Cascading Curses](#cascading-curses) Talent, you may have two instances of Doom active.  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
 
 #### Elemental Strike  
@@ -1510,7 +1515,7 @@ Targets: 1 enemy
 Cost: 8 MP  
 Damage: x1 (Physical)  
 Effect: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
-Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, a painful curse, or similar measures.  
+Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, or similar measures.  
 
 #### Purging Strike  
 Attack  
@@ -1607,7 +1612,7 @@ Action: Major
 Prerequisites: [Expose](#expose)  
 Range: Melee  
 Targets: 1 enemy  
-Cost: 7 MP  
+Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
@@ -1809,7 +1814,9 @@ Lessons cost 5 XP unless an exception is listed.
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
 * If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* If the Curse decreases a victim on the [Buff Track](#buff-tracks), the victim of your Curse also takes damage equal to your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Ability is an Attack, or Mental Offense if the Ability is a Spell.
+* The victim of your Curse also takes damage equal to half of your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Ability is an Attack, or Mental Offense if the Ability is a Spell.
+
+> Reminder: all fractions round down. If your Offense is 5, then you add 2 damage when using the section benefit.
 
 #### Ability Specialist  
 Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
@@ -1837,7 +1844,7 @@ While [rooted](#root), you may reduce the MP cost of any Spells you cast by your
 Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
 
 #### Curse Resistant  
-The first time you would have one of your [Buff Track](#buff-tracks) reduced each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
+The first time you are successfully targeted by a Curse each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
@@ -2093,8 +2100,7 @@ Your wholeness of spirit leads to wholeness of body. You may use your Soul in pl
 #### Cascading Curses  
 When you successfully strike a target with a Curse Ability, you can also do one of the following:  
 * Double the cost of the Ability to use it on another target without spending an Action.  
-* Use a non-Curse Spell Ability that normally requires a Major Action as a Minor Action. This Spell may not be of a higher Tier than the Curse that triggers this Talent.  
-* Triple the cost of Enfeeble or Expose to use it on a Square.  
+* Use a non-Curse Attack or Spell Ability that normally requires a Major Action as a Minor Action. This Ability may not be of a higher Tier than the Curse that triggers this Talent, and must have the same target as the Curse that triggered this.  
 
 When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). If you have already learned both, you may refund the XP spent to learn one of them.
 
@@ -2337,7 +2343,7 @@ You are afflicted with a condition that causes you to weaken over time. This cou
 > For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
 
 #### Provoke
-An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect or curse effects.  
+An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
 Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you. In addition, you gain no benefit of being [Protected](#protection) from a target you have Provoked.  
 This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.
 
