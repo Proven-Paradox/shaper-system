@@ -602,7 +602,7 @@ Effect: You and the opponent who has Grabbed you make Offense rolls. You may use
 ## Tier 1
 
 #### Accelerate  
-Auxiliary  
+Auxiliary [Augment]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
