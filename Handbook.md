@@ -2136,7 +2136,7 @@ This Talent makes the [Hover](#hover) Utility redundant. If you previously took 
 
 #### Healing Hands  
 You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* End a [Curse] effect on the target.
+* End a Curse effect on the target.
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
 * Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
 
