@@ -216,7 +216,7 @@ Some Abilities or effects sometimes use a value called "Defense Bonus." This can
 #### Initiative
 At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
 
-How one uses these attributes will be described in [Chapter 10](#chapter-10-combat).
+Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative; whoever rolls the highest is the first to act in such a situation.
 
 > Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0.
 
