@@ -262,23 +262,7 @@ Extra dice rolled this way are affected by Boon and Bane normally.
 
 > So for example, Anezka is using the Elemental Lance Ability with Ice element against a target that is weak to Ice and is also at -2 on the [Defense Track](#buff-tracks). This means she gets to roll three ten-sided dice and take the best two, and also has Boon 3 with her Offense roll. She rolls 4, 2, 9. Her Boon allows her to reroll the 2. She does so and gets a 6. This means her final result is 6 + 9 + her Mental Offense.
 
-> Note that steps 7 and 8 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
-
-## Step 6: Lesson  
-Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
-
-> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
->
-> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
-
-## Step 8: Utility
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities)   
-
-> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
->
-> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
-
-## Step 9: Talent
+## Step 6: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 9](#chapter-9-talents); these are major changes that help define what your character is good at.  
 
 > Eric looks over the available Talents for something that looks interesting. He spots Sturdy Shield and decides that could represent XU-808 having energy shields.  
@@ -287,8 +271,24 @@ Finally, you choose one talent. Talents are described in full in [Chapter 9](#ch
 >
 > In both cases, this means that their Mental Defense goes from 9 to 13.  
 
-## Step 10: Starting items
+## Step 7: Starting items
 > Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in 3S are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
+
+> Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
+
+## Step 8: Lesson  
+Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
+
+> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
+>
+> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
+
+## Step 9: Utility
+Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities)   
+
+> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
+>
+> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
 
 ------------
 # Chapter 3: Improving your character
