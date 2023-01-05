@@ -258,6 +258,9 @@ Here are some things to consider when distributing skill points:
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 When receiving damage in an element a combatant is weak to, the attacker rolls three ten-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three ten-sided dice and drops the **highest** die.  
+Extra dice rolled this way are affected by Boon and Bane normally. 
+
+> So for example, Anezka is using the Elemental Lance Ability with Ice element against a target that is weak to Ice and is also at -2 on the [Defense Track](#buff-tracks). This means she gets to roll three ten-sided dice and take the best two, and also has Boon 3 with her Offense roll. She rolls 4, 2, 9. Her Boon allows her to reroll the 2. She does so and gets a 6. This means her final result is 6 + 9 + her Mental Offense.
 
 > Note that steps 7 and 8 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
 
