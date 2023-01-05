@@ -139,6 +139,9 @@ If in a situation where Boon and Bane apply, they cancel each other out. Add the
 * Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
+#### Boon, Bane, and Multiple Targets  
+When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that give Boon to attackers while other affected do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate rerolls.
+
 ------------
 # Chapter 2: Character Creation
 Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, someone who belongs in an interesting story. In this section, we will go through the steps of building characters.  
