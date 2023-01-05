@@ -140,7 +140,7 @@ If in a situation where Boon and Bane apply, they cancel each other out. Add the
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
 #### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that give Boon to attackers while other affected do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate rerolls.
+When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while other affected do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate Boon/Bane rerolls on the targets affected by Boon or Bane.
 
 ------------
 # Chapter 2: Character Creation
