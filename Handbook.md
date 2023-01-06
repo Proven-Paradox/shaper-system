@@ -65,7 +65,7 @@ These ideas are central to the design of Story Shaper.
 * At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-* A pair of 10 sided dice for each player (also called d10s). 
+* A pair of 10-sided dice for each player (also called d10s). 
   * Alternatively a random number generator, which can be found for free online.
 * A single 6 sided die for the entire group
 * If you're playing face to face, Pencil and paper
@@ -104,7 +104,7 @@ For a tie during opposed Skill checks (such as Empathy versus Deception, or Awar
 If a damage type is not listed, assume the damage to be physical.
 
 ## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
+In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
 
 ### Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
@@ -257,7 +257,7 @@ Here are some things to consider when distributing skill points:
 ## Step 5: Elemental Properties
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
-When receiving damage in an element a combatant is weak to, the attacker rolls three ten-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three ten-sided dice and drops the **highest** die.  
+When receiving damage in an element a combatant is weak to, the attacker rolls three 10-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three 10-sided dice and drops the **highest** die.  
 When striking multiple targets with different elemental properties (such as with an area of , first resolve all targets that are neither resistant nor weak to the element by rolling two ten-siders as normal. After that, roll an additional die, then apply the highest two against foes weak to your chosen element and the lowest two against resistant foes.  
 Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
 
@@ -457,7 +457,7 @@ There are three types of Abilities.
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three ten-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
+* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three 10-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
    * *Fire* - heat and flames
    * *Ice* - sharp icicles and freezing cold
    * *Earth* - shards of rock, acid, and plant vines
