@@ -258,9 +258,11 @@ Here are some things to consider when distributing skill points:
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 When receiving damage in an element a combatant is weak to, the attacker rolls three ten-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three ten-sided dice and drops the **highest** die.  
-Extra dice rolled this way are affected by Boon and Bane normally. 
+When striking multiple targets with different elemental properties (such as with an area of , first resolve all targets that are neither resistant nor weak to the element by rolling two ten-siders as normal. After that, roll an additional die, then apply the highest two against foes weak to your chosen element and the lowest two against resistant foes.  
+Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
 
-> So for example, Anezka is using the Elemental Lance Ability with Ice element against a target that is weak to Ice and is also  . This means she gets to roll three ten-sided dice and take the best two, and also has Boon 3 with her Offense roll. She rolls 4, 2, 9. Her Boon allows her to reroll the 2. She does so and gets a 6. This means her final result is 6 + 9 + her Mental Offense.
+> So for example, Anezka is using the Elemental Blast Ability with Ice element against a target that is weak to Ice along with two targets that are neutral toward Ice. She also has Boon 4. To damage the two neutral opponents, she rolls the normal two dice, getting a 9 and a 4. She rerolls the 4 and gets a 1 (Boon backfires sometimes), so her final die result is 9 + 1 + her Mental Offense.  
+> She now targets the Ice-weak target by rolling a third die, getting a 2. Since she already used Boon to reroll the 4 earlier, she cannot reroll the 2. She still drops the lowest two dice, so for this foe her final result is 9 + 2 + her Mental Offense.
 
 ## Step 6: Talent
 Choose one talent. Talents are described in full in [Chapter 9](#chapter-9-talents); these are major changes that help define what your character is good at.  
