@@ -65,7 +65,7 @@ These ideas are central to the design of Story Shaper.
 * At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-*  A pair of 10-sided dice for each player (also called d10s).
+* A pair of 10-sided dice for each player (also called d10s).
   * Alternatively a random number generator, which can be found for free online.
 * A single 6 sided die for the entire group
 * If you're playing face to face, Pencil and paper
@@ -83,6 +83,9 @@ These ideas are central to the design of Story Shaper.
 * Props to illustrate circumstances on the battlefield
 
 > Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
+
+### Contact/Social Media
+If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon at @Proven_Paradox@mastodon.gamedev.place, or join the S3 Discord: [Link](https://discord.gg/ubefmR2bNh).
 
 ------------
 # Chapter 1: How to Play
