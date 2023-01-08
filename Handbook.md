@@ -65,7 +65,7 @@ These ideas are central to the design of Story Shaper.
 * At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-* A pair of 10 sided dice for each player (also called d10s). 
+*  A pair of 10-sided dice for each player (also called d10s).
   * Alternatively a random number generator, which can be found for free online.
 * A single 6 sided die for the entire group
 * If you're playing face to face, Pencil and paper
@@ -83,9 +83,6 @@ These ideas are central to the design of Story Shaper.
 * Props to illustrate circumstances on the battlefield
 
 > Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
-
-### Contact/Social Media
-If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon at @Proven_Paradox@mastodon.gamedev.place, or join the S3 Discord: [Link](https://discord.gg/ubefmR2bNh).
 
 ------------
 # Chapter 1: How to Play
@@ -107,7 +104,7 @@ For a tie during opposed Skill checks (such as Empathy versus Deception, or Awar
 If a damage type is not listed, assume the damage to be physical.
 
 ## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of ten sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
+In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
 
 ### Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
@@ -141,6 +138,9 @@ If in a situation where Boon and Bane apply, they cancel each other out. Add the
 * Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
 * Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
 * Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
+
+#### Boon, Bane, and Multiple Targets  
+When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while other affected do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate Boon/Bane rerolls on the targets affected by Boon or Bane.
 
 ------------
 # Chapter 2: Character Creation
@@ -257,25 +257,14 @@ Here are some things to consider when distributing skill points:
 ## Step 5: Elemental Properties
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
-When receiving damage in an element a combatant is weak to, the attacker rolls three ten-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three ten-sided dice and drops the **highest** die.  
+When receiving damage in an element a combatant is weak to, the attacker rolls three 10-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three 10-sided dice and drops the **highest** die.  
+When striking multiple targets with different elemental properties (such as with an area of effect), first resolve all targets that are neither resistant nor weak to the element by rolling two ten-siders as normal. After that, roll an additional die, then apply the highest two against foes weak to your chosen element and the lowest two against resistant foes.  
+Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
 
-> Note that steps 7 and 8 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
+> For example, Anezka is using the Elemental Blast Ability with Ice element against a target that is weak to Ice along with two targets that are neutral toward Ice. She also has Boon 4. To damage the two neutral opponents, she rolls the normal two dice, getting a 9 and a 4. She rerolls the 4 and gets a 1 (Boon backfires sometimes), so her final die result is 9 + 1 + her Mental Offense.  
+> She now targets the Ice-weak target by rolling a third die, getting a 2. Since she already used Boon to reroll the 4 earlier, she cannot reroll the 2. She still drops the lowest two dice, so for this foe her final result is 9 + 2 + her Mental Offense.
 
-## Step 6: Lesson  
-Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
-
-> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
->
-> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
-
-## Step 8: Utility
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities)   
-
-> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
->
-> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
-
-## Step 9: Talent
+## Step 6: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 9](#chapter-9-talents); these are major changes that help define what your character is good at.  
 
 > Eric looks over the available Talents for something that looks interesting. He spots Sturdy Shield and decides that could represent XU-808 having energy shields.  
@@ -284,8 +273,24 @@ Finally, you choose one talent. Talents are described in full in [Chapter 9](#ch
 >
 > In both cases, this means that their Mental Defense goes from 9 to 13.  
 
-## Step 10: Starting items
+## Step 7: Starting items
 > Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in 3S are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
+
+> Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
+
+## Step 8: Lesson  
+Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
+
+> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
+>
+> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
+
+## Step 9: Utility
+Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities)   
+
+> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
+>
+> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
 
 ------------
 # Chapter 3: Improving your character
@@ -452,7 +457,7 @@ There are three types of Abilities.
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three ten-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
+* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three 10-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
    * *Fire* - heat and flames
    * *Ice* - sharp icicles and freezing cold
    * *Earth* - shards of rock, acid, and plant vines
