@@ -265,7 +265,7 @@ When striking multiple targets with different elemental properties (such as with
 Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
 
 > For example, Anezka is using the Elemental Blast Ability with Ice element against a target that is weak to Ice along with two targets that are neutral toward Ice. She also has Boon 4. To damage the two neutral opponents, she rolls the normal two dice, getting a 9 and a 4. She rerolls the 4 and gets a 1 (Boon backfires sometimes), so her final die result is 9 + 1 + her Mental Offense.  
-> She now targets the Ice-weak target by rolling a third die, getting a 2. Since she already used Boon to reroll the 4 earlier, she cannot reroll the 2. She still drops the lowest two dice, so for this foe her final result is 9 + 2 + her Mental Offense.
+> She now targets the Ice-weak target by rolling a third die, getting a 3. Since she already used Boon to reroll the 4 earlier, she cannot reroll the 3. She still drops the lowest two dice, so for this foe her final result is 9 + 3 + her Mental Offense.
 
 ## Step 6: Talent
 Finally, you choose one talent. Talents are described in full in [Chapter 9](#chapter-9-talents); these are major changes that help define what your character is good at.  
