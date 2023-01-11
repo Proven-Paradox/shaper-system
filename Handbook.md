@@ -2295,14 +2295,32 @@ With the exception of Almighty damage, enemies may have resistances or weaknesse
 
 ## Injuries  
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
-Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your Attributes by one until it is tended to.  
-When you sustain an injury, you take that single six sided die that is listed in Story Shaper’s required components and roll. The type of injury inflicted is decided by the die result.
-1. *Strength*. You’ve torn a muscle, broken a bone, lost so much blood that you can’t pack the same kind of punch as you used to, or something similar.
-2. *Finesse*. You’ve torn a ligament, broken your fingers, sustained nerve damage that makes movement difficult or painful, or otherwise lost mobility. 
-3. *Toughness*. You’ve broken a rib and/or punctured a lung, lost a lot of blood, or otherwise picked up some affliction that makes you less vigorous than your best.
-4. *Mind*. You’ve suffered a concussion, have sight damage, are dealing with temporary memory loss, or some other problem that makes you duller than usual.
-5. *Soul*. You’ve suffered pain that breaks through your resolve, have a ringing in your ears, are generally questioning yourself, or something that interrupts your inner tranquility. 
-6. *Heart*. You’ve suffered a concussion, severe pain, perhaps perceive a betrayal (real or imagined) that makes you less sociable for the time being.
+Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your [Attributes](#step-1-attributes) or [Vitality or Capacity](#vitalitycapacity) by one until it is tended to.  
+When you sustain an injury in combat, roll a die and refer to this table for what type of injury.
+
+| Die| Injury Type       |
+|----|-------------------|
+| 1  | Roll again twice  |
+| 2  | Vitality          |
+| 3  | Capacity          |
+| 4  | Strength          |
+| 5  | Finesse           |
+| 6  | Toughness         |
+| 7  | Mind              |
+| 8  | Soul              |
+| 9  | Heart             |
+| 10 | None              |
+
+1. *Roll again twice*. You've been struck so hard you take more than one injury with one blow.  
+2. *Vitality*. You've lost a lot of blood, taken an injury to your lungs or torso, or something similar that reduces your maximum health.  
+3. *Capacity*. You've been concussed, suffered critical damage in your gear's energy storage systems, or something similar that limits how much energy you can bring to a fight.  
+4. *Strength*. You’ve torn a muscle, broken a bone, lost so much blood that you can’t pack the same kind of punch as you used to, or something similar.  
+5. *Finesse*. You’ve torn a ligament, broken your fingers, sustained nerve damage that makes movement difficult or painful, or otherwise lost mobility.  
+6. *Toughness*. You’ve broken a rib and/or punctured a lung, lost a lot of blood, or otherwise picked up some affliction that makes you less vigorous than your best.  
+7. *Mind*. You’ve suffered a concussion, have sight damage, are dealing with temporary memory loss, or some other problem that makes you duller than usual.  
+8. *Soul*. You’ve suffered pain that breaks through your resolve, have a ringing in your ears, are generally questioning yourself, or something that interrupts your inner tranquility.  
+9. *Heart*. You’ve suffered a concussion, severe pain, or perhaps perceive a betrayal (real or imagined) that makes you less sociable for the time being.  
+10. *None*. You got lucky; while you still go unconscious, you suffer no lingering injury.  
 
 As always, these methods of describing an injury are just suggestions. Players and Arbiters are free to come up with their own.
 
