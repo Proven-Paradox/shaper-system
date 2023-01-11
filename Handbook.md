@@ -65,9 +65,8 @@ These ideas are central to the design of Story Shaper.
 * At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-* A pair of 10-sided dice for each player (also called d10s).
+* A pair of 10-sided dice for each player (also called d10s). ALL rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
   * Alternatively a random number generator, which can be found for free online.
-* A single 6 sided die for the entire group
 * If you're playing face to face, Pencil and paper
 
 > Do NOT use pen or something you can’t easily erase for anything. Trust me.
@@ -107,7 +106,8 @@ For a tie during opposed Skill checks (such as Empathy versus Deception, or Awar
 If a damage type is not listed, assume the damage to be physical.
 
 ## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.
+In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.  
+There are instances where a different number of dice will be rolled, but all dice in S3 are 10-sided.
 
 ### Rerolls
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
@@ -260,7 +260,7 @@ Here are some things to consider when distributing skill points:
 ## Step 5: Elemental Properties
 In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
-When receiving damage in an element a combatant is weak to, the attacker rolls three 10-sided dice and drops the **lowest** die to calculate the damage done (instead of the normal two ten-sided). When receiving damage in an element a combatant is resistant to, the attacker rolls three 10-sided dice and drops the **highest** die.  
+When receiving damage in an element a combatant is weak to, the attacker rolls three dice and drops the **lowest** die to calculate the damage done. When receiving damage in an element a combatant is resistant to, the attacker rolls three dice and drops the **highest** die.  
 When striking multiple targets with different elemental properties (such as with an area of effect), first resolve all targets that are neither resistant nor weak to the element by rolling two ten-siders as normal. After that, roll an additional die, then apply the highest two against foes weak to your chosen element and the lowest two against resistant foes.  
 Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
 
@@ -460,7 +460,7 @@ There are three types of Abilities.
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three 10-sided dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
+* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
    * *Fire* - heat and flames
    * *Ice* - sharp icicles and freezing cold
    * *Earth* - shards of rock, acid, and plant vines
@@ -884,7 +884,7 @@ Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)
 Range: Melee  
 Targets: 1 Square  
 Cost: 5 MP  
-Effect: You and all allies in the same Square regain HP equal to a ten-sided die roll.  
+Effect: You and all allies in the same Square regain HP equal to a die roll.  
 Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
@@ -895,10 +895,10 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Ally  
 Cost: 3 MP  
-Effect: The target regains HP equal to a ten-sided die roll.   
+Effect: The target regains HP equal to a die roll.   
 This Ability may only be used once per Turn.  
-Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another ten-sided die to the amount healed.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another ten-sided die to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another die to the amount healed.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another die to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -908,8 +908,8 @@ Prerequisites: None
 Range: Medium (Careful: Long)  
 Targets: 1 Ally  
 Cost: 2 MP  
-Effect: The target regains HP equal to a ten-sided die roll.  
-If you also use your Minor action, add another ten-sided die to the amount healed.   
+Effect: The target regains HP equal to a die roll.  
+If you also use your Minor action, add another die to the amount healed.   
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
@@ -1555,7 +1555,7 @@ Prerequisites: [Empower](#empower), [Fortify](#fortify), [Healing Word](#healing
 Range: Medium  
 Targets: 1 ally  
 Cost: 10 MP  
-Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a ten-sided die roll.  
+Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a die roll.  
 Description: Simultaneously healing an ally and preparing them for further combat. This could represent invoking healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
 
 #### Restrain  
@@ -1870,7 +1870,7 @@ When you target creatures with an Augment, all affected gain [Shield](#shield-x)
 Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
 #### Improved Healing  
-When casting a Healing Ability, you may roll an additional ten-sided die. Remove the lowest die from your total result.
+When casting a Healing Ability, you may roll an additional die. Remove the lowest die from your total result.
 
 #### Lingering Provocation  
 Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
@@ -2341,7 +2341,7 @@ Status Ailments are lingering problems that hamper a characters' ability to func
 > If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.
 
 #### Blind  
-You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single ten sided die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
+You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
 
 #### Daze  
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
@@ -2407,7 +2407,7 @@ You can fly. This allows you to move into the airborne parts of the battle grid.
 This Condition makes you immune to terrain effects.
 
 #### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single ten sided die. (Obscured provides no benefit against area of effect attacks.)
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)
 
 #### Protection
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
