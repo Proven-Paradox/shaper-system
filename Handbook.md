@@ -1853,7 +1853,7 @@ While [rooted](#root), you may reduce the MP cost of any Spells you cast by your
 Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
 
 #### Curse Resistant  
-The first time you are successfully targeted by a Curse each battle, ignore the effect. For the purposes of this Lesson, a period of 30 minutes or longer without being in peril is considered a separate combat.
+Curse Abilities that target you do so at Bane -2.
 
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
