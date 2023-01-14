@@ -41,7 +41,7 @@
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
   - [What are HP?](#what-are-hp)
   - [What Types of Damage are There?](#what-types-of-damage-are-there)
-  - [What are Injuries?](#what-are-injuries)
+  - [Injuries](#injuries)
   - [How can I Recover?](#how-can-i-recover)
   - [How does Death Work?](#how-does-death-work) 
   - [Status Ailments](#status-ailments)
