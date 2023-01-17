@@ -39,11 +39,10 @@
   - [Moving](#moving)
   - [Chasing rules](#chasing-rules)
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
-  - [What are HP?](#what-are-hp)
-  - [What Types of Damage are There?](#what-types-of-damage-are-there)
+  - [HP](#hp)
+  - [Damage Types](#damage-types)
   - [Injuries](#injuries)
-  - [How can I Recover?](#how-can-i-recover)
-  - [How does Death Work?](#how-does-death-work) 
+  - [Death](#death) 
   - [Status Ailments](#status-ailments)
   - [Disadvantages](#disadvantages)
   - [Advantages](#advantages)
@@ -2272,13 +2271,13 @@ Recovery is a Major Action, and you cannot use your Minor Action to do anything 
 # Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rule book will describe the rules that govern this grim part of the hero’s journey.
 
-## What are HP?
-HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can still press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP maximum.
+## HP
+HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP.
 
-### What does it mean to lose HP?
+### Losing HP
 Losing HP does not necessarily mean being struck by a weapon or attack. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.
 
-## What types of damage are there?
+## Damage Types
 Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
 The damage types are as follows:
@@ -2291,7 +2290,7 @@ The damage types are as follows:
 * *Dark* - Consuming blackness, draining life, unholy blight. If the damage comes from utilizing darkness or draining away the health of others, it is dark damage.
 * *Almighty* - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
 
-With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be dramatically different from their expectations and make it very clear what is happening.
+With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be noticeably different from their expectations.
 
 ## Injuries  
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
@@ -2324,7 +2323,7 @@ When you sustain an injury in combat, roll a die and refer to this table for wha
 
 As always, these methods of describing an injury are just suggestions. Players and Arbiters are free to come up with their own.
 
-### How can I get Injured?
+### Getting Injured
 There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to reroll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
@@ -2337,7 +2336,7 @@ There are many dangers in an adventure that can result in an injury. The most ob
 
 These are just a few examples, and the Arbiter can likely come up with more in their games.
 
-## How can I Recover?
+### Recovering From Injuries
 There are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options. (Beyond healing Abilities, of course.)
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
@@ -2347,10 +2346,10 @@ There are several ways to approach recovery of HP, MP, and injuries. Here are so
 * *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this format, resting for eight hours regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
 
-## How does Death Work?
+## Death
 There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot-centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
 
-### Is Resurrection a Thing?
+### Resurrection
 That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
 
 ## Status Ailments
