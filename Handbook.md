@@ -2294,7 +2294,7 @@ With the exception of Almighty damage, enemies may have resistances or weaknesse
 
 ## Injuries  
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
-Injuries in Story Shaper are the decidedly less abstract consequences of failing certain tasks or running out of HP. An injury reduces one of your [Attributes](#step-1-attributes) or [Vitality or Capacity](#vitalitycapacity) by one until it is tended to.  
+Injuries in Story Shaper are the consequences of failing certain tasks or running out of HP. An injury reduces one of your [Attributes](#step-1-attributes) or [Vitality or Capacity](#vitalitycapacity) by one until it is tended to.  
 When you sustain an injury in combat, roll a die and refer to this table for what type of injury.
 
 | Die| Injury Type       |
@@ -2311,7 +2311,9 @@ When you sustain an injury in combat, roll a die and refer to this table for wha
 | 10 | None              |
 
 1. *Roll again twice*. You've been struck so hard you take more than one injury with one blow.  
+> In the unlikely event that a player rolls this more than once, the Arbiter should keep reasonable limits in mind. If the injury came from a minor brawl or from someone fighting without lethal intent, this result should not cause a character to suddenly explode with Injuries.  
 2. *Vitality*. You've lost a lot of blood, taken an injury to your lungs or torso, or something similar that reduces your maximum health.  
+> If this type of Injury (along with Strength or Toughness Injuries) causes a character's max HP to be 0 or less, the character should either die or fall into a coma, depending on the circumstances. In the case of a coma, it lasts until enough Injuries are healed to get the character back to positive max HP.  
 3. *Capacity*. You've been concussed, suffered critical damage in your gear's energy storage systems, or something similar that limits how much energy you can bring to a fight.  
 4. *Strength*. You’ve torn a muscle, broken a bone, lost so much blood that you can’t pack the same kind of punch as you used to, or something similar.  
 5. *Finesse*. You’ve torn a ligament, broken your fingers, sustained nerve damage that makes movement difficult or painful, or otherwise lost mobility.  
