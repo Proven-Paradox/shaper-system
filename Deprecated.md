@@ -761,3 +761,33 @@ Cost: 4 MP
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 Description: Counter attacking an enemy after they strike one of your Wards. This could represent setting a trap up in the Ward itself, using the ward to to redirect/alter an enemy's own power, or just being ready to strike back against opponents during combat.
+
+BANE REWRITE
+>>>>>>> NEW VERSION >>>>>>>
+TODO
+#### Bane
+The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane X, the player must reroll their highest die if it is equal to or greater than X. Note that Bane does not go below 6, as rerolling any die below a 6 is statistically advantageous.
+
+Some examples of Bane in play:
+* Adam is trying to follow tracks that have had some time to fade, imposing Bane 8. He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
+* XU-808 has Bane 7 on an attempt to repair a damaged mechanism with a Construct check. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+
+#### Combining Boon and Bane
+If in a situation where Boon X and Bane Y apply, they cancel each other out. For Bane, take 11 - Y to find its intensity (or just use this table).
+
+| Bane X | Intensity |
+|--------|-----------|
+| 10     | 1         |
+|  9     | 2         |
+|  8     | 3         |
+|  7     | 4         |
+|  6     | 5         |
+
+Once you have that intensity, take the amount of Boon you have minus that intensity. If the value is still positive, act with Boon of that value. If the value is negative, act with Bane of the same intensity.
+
+Some examples: 
+* Erin is attacking while affected by a blessing that gives her Boon 2, but is attacking an opponent who has a defensive spell that imposes Bane 10. Bane 10's intensity is 1, so (2 - 1) adds up to Boon 1, meaning she may reroll a die if she rolls a 1.
+* Morris is attempting to pick a lock. His skill in lock picking gives him Boon 1 on the check, but his picks have been damaged in a way that imposes Bane 8. Bane 8's intensity is 3, so (1 - 3) add up to -2, so he acts with Bane 8.
+* Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon 2, but a windstorm is making it harder with Bane 9, intensity 2. (2 - 2) adds to 0, so they will not have any opportunity or obligation to reroll dice.
+
+<<<<<<<< END <<<<<<<<
