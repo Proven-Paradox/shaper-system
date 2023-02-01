@@ -49,7 +49,7 @@
   
 ------------
 # Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System (3S). 
+Assembled friends and enemies, welcome to the Story Shaper System (S3). 
 
 ## What are some things that set Story Shaper System apart?
 These ideas are central to the design of Story Shaper. 
@@ -276,7 +276,7 @@ Finally, you choose one talent. Talents are described in full in [Chapter 9](#ch
 > In both cases, this means that their Mental Defense goes from 9 to 13.  
 
 ## Step 7: Starting items
-> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in 3S are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
+> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in S3 are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
 
 > Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
 
