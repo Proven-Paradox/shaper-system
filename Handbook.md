@@ -1479,6 +1479,17 @@ Duration: 1 round
 Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
+#### Pickup  
+Auxiliary [Healing]  
+Action: Major  
+Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
+Range: Melee  
+Targets: One [unconscious] Ally  
+Cost: 15 MP  
+Cooldown: 10 rounds  
+Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone) and the injury they sustained upon being knocked out remains.  
+Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target an adrenaline syringe to get the back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
+
 #### Pin Down  
 Attack [Status]  
 Action: Counter  
@@ -1544,7 +1555,7 @@ Range: Medium
 Targets: 1 enemy, 1 ally  
 Cost: 10 MP  
 Damage: x2 (Light)  
-Effect: If this Ability hits your target, choose one ally. That ally heals 1d10 HP. If this Ability misses no healing occurs.  
+Effect: If this Ability hits your target, choose one ally. That ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
 
 #### Rally  
@@ -1890,9 +1901,6 @@ If your healing would bring your target above maximum HP, the target gains [Shie
 
 #### Oppressor  
 When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Square as them. The effect lasts one round per [Hero Tier](#hero-tier).
-
-#### Pickup  
-When you heal an ally from 0 HP, add twice your Level to the healing done.
 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half. 
@@ -2271,14 +2279,8 @@ Recovery is a Major Action, and you cannot use your Minor Action to do anything 
 # Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rule book will describe the rules that govern this grim part of the hero’s journey.
 
-## HP
-HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP.
-
-### Losing HP
-Losing HP does not necessarily mean being struck by a weapon or attack. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.
-
 ## Damage Types
-Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types, resistant or even immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
+Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types while being resistant or immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
 The damage types are as follows:
 * *Physical* - Slashing, piercing, bashing. This is by far the most common type of damage.
@@ -2290,7 +2292,16 @@ The damage types are as follows:
 * *Dark* - Consuming blackness, draining life, unholy blight. If the damage comes from utilizing darkness or draining away the health of others, it is dark damage.
 * *Almighty* - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
 
-With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be noticeably different from their expectations.
+With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be noticeably different from their expectations.  
+
+## HP
+HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP.  
+
+### Losing HP
+Losing HP does not necessarily mean being struck by a weapon or attack. Remember, HP are abstract. Losing HP can be represented by narrowly avoiding a brutal attack (and thus using up one’s luck). It could be parrying a heavy blow, but suffering significant pain in one’s arm from the effort (testing one’s pain tolerance). It could be expending internal energy to throw an arcane shield up to deflect a spell (draining one’s endurance). And, maybe in the end, it could be getting a knife in the back. One should take getting hit as an opportunity for creativity, just like dealing a hit.  
+
+### Reaching 0 HP
+Upon reaching 0 remaining HP, a character is knocked unconscious and receives an Injury (explained below). They can take no actions and cannot be healed unless someone spends at least five minutes tending to them outside of combat or dangerous situations.  
 
 ## Injuries  
 When you lose all HP, you take an injury and fall unconscious. You can’t move, take actions, and are completely unaware of your surroundings. Anything that would cause additional damage while you’re at zero HP causes an additional injury.  
