@@ -2167,8 +2167,10 @@ You may only affect a given target with this Talent once per Turn. If you strike
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
 
 #### Lucky
-You're just lucky sometimes. You may reroll a number of d10s equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
-When you roll [Matches](#matches), you may gain one additional dice reroll.
+You're just lucky sometimes. 
+You may reroll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you may gain one additional dice reroll.  
+When you reroll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
 
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
