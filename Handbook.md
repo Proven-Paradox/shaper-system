@@ -482,7 +482,7 @@ An Ability that normally only uses the listed Major or Minor Action, but that is
 An Ability or Lesson with a Cooldown cannot be used again for the listed duration. Cooldowns decrease by 1 at [Round Start](#round-start).
 
 ### Upkeep
-Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)  
+Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)  
 
 ## Buff Tracks
 These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
