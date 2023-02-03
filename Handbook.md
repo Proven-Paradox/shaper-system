@@ -112,13 +112,17 @@ There are instances where a different number of dice will be rolled, but all dic
 Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
 
 #### Boon
-Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. Some examples of Boon in play:
-* Varna makes a Stealth roll with Boon +3. He rolls his two d10s and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.
-* Jonny aims a gun and takes a shot that has Boon +2. He rolls his two d10s and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
-* Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
+Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. 
 
-##### Optional: Boon Splitting
-Optionally, if a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. For example, if Rin makes a roll at Boon 4, and rolls a 3 and a 1, 3 + 1 = 4, meaning Rin can reroll both dice.
+> Some examples of Boon in play:  
+> Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
+> Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
+> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
+
+##### Boon Splitting
+If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. 
+
+> For example, Billy Baggins is sniping an enemy, and has Boon 5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.
 
 #### Bane
 The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
