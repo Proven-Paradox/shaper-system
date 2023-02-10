@@ -56,7 +56,8 @@ These ideas are central to the design of Story Shaper.
 
 * **Speed.**  If a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her Turn. (Of course, one may take considerably longer describing these actions.)  
 * **Versatility.** The rules have been written to allow players to describe their actions however they want. This system is intended to be usable in any fantastic setting. (With some restrictions on which Abilities are available, it could also be used for a mundane setting.) The question of what a character can do is answered in the rules, but how they do it is left to be filled in by players.  
-* **Depth**. Choosing your character’s Attributes, Abilities, Lessons, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.
+* **Depth.** Choosing your character’s Attributes, Abilities, Lessons, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.  
+* **Freedom.** There aren't (and never will be) any rules that restrain what your character looks like. While the abilities and skills on your character sheet and the details of your settings' game may make some implications, characters' appearances are ultimately decided by their players.  
 
 ## What you Need to Play
 ### Required:
