@@ -1685,7 +1685,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x2 (Dark)  
 Duration: 2 round  
-Effect: If this Ability hits, the target becomes [Drained](#drained) for two rounds.
+Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, speaking a curse that drains a foe's resolve, or similar effects.
 
 ------------
@@ -2386,9 +2386,6 @@ Partially frozen or dealing with a lingering cold. This reduces your Physical De
 #### Crush X
 Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
 
-#### Drained  
-Afflicted by a life draining curse, necromantic energies, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
-
 #### Daze  
 Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
 
@@ -2396,6 +2393,9 @@ Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Count
 You are afflicted with a condition that causes you to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
 
 > For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
+
+#### Enervate  
+Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
 
 #### Provoke
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
