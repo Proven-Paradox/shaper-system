@@ -2044,7 +2044,7 @@ In addition, you can assume you have connections in any non-trivial settlement y
 Increase your [Empathy](#empathy) and [Lore](#lore) modifiers by 1.  
 You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual that takes at least one minute. Afterwards make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
 To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? Powerful individuals are more difficult to learn about through this feature.   
-After performing the ritual, you cannot do so again for the next eight hours. You cannot do this ritual again in the same place until either a year has passed, or you increase your Lore modifier by 2.
+After performing the ritual, you cannot do so again for the next eight hours. You cannot do this ritual again in the same place until either a year has passed, or you permanently increase your Lore modifier by 2.
 
 ## Other Utilities 
 
