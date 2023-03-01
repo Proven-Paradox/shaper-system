@@ -190,18 +190,18 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 > 
 > Lydia does the same thing for Marona, also with five points to distribute. She expects to be using a lot of spells, so she focuses in her Mind to get a lot of MP and Offense to work with. She sets her Mind to 3. She's also expecting a lot of combat in her game, so she wants to give her character the best chance to survive it. Looking over her options, she decides the best way to do this is to increase her HP, so she puts the rest of her points into Toughness. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one she can afford to drop. She decides that the right answer would be Heart. She has ulterior motives (which we'll talk about later) but decides to justify it by framing her character as being an academic who has spent more time with books than people, making her socially awkward. She adds the extra point to Toughness. Her final stats for her wizard are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul 0, Heart -1.
 
-## Step 2-a: Point Stats
+## Step 2-a: HP/MP
 After choosing your Attributes, you can determine your point stats.
 * **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
 * **Max MP:** MP stats for mental points or mana points. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
  
 > Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart -1, so [15 + (3 * 3) + (3 * -1) = 21].
 
-## Step 2-b: Offense/Defense
-These are modifiers to your attacks’ accuracy or your ability to avoid a foe's attacks. It is relatively rare for a roll to be modified only by one’s Attributes; rolls generally have two Attributes added as well as some modifiers from XP bonuses, as follows.
+## Step 2-b: Offense/Defense/Initiative  
+Offense modifies to your attacks’ effectiveness, Defense represents or your ability to mitigate a foe's attacks, and Initiative determines what order you act in combat.
 
 #### Physical Offense
-This broadly represents your ability to effectively attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
+This broadly represents your ability to attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
 
 > Our characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. Which is fine; they can simply create a character that doesn't use Physical Offense.
 
@@ -225,10 +225,10 @@ Some Abilities or effects sometimes use a value called "Defense Bonus." This can
 
 > So for XU-808 and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
 
-#### Initiative
+#### Initiative Bonus
 At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
 
-Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative; whoever rolls the highest is the first to act in such a situation.
+Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative; whoever rolls the highest is the first to act.
 
 > Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0.
 
@@ -342,7 +342,7 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 ### Level
 While there are no set classes, heroes do gain Levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
 * Every Level increases the number of times [Vitality and Capacity](#vitalitycapacity) can be purchased
-* The hero’s base Physical Offense, Physical Defense, Mental Offense, and Mental Defense can be increased a number of times up to the character’s Level
+* The hero’s Base Physical Offense, Physical Defense, Mental Offense, Mental Defense, and Initiative Bonus can be increased a number of times up to the character’s Level
 
 In addition, purchasing a Level gives its own benefit that goes in a five Level loop. These benefits do not cost additional XP.
 * At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
@@ -351,7 +351,7 @@ In addition, purchasing a Level gives its own benefit that goes in a five Level 
 * At Levels 4, 9, 14, … the character increases their Physical or Mental Offense.
 * At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).
 
-> You can think of your character's Level representing their potential. Gaining a Level would represent pushing through the plateaus and putting in the work that come with developing, whether developing as a warrior, mage, diplomat, spy, or anything you care to create. That could represent training or practice in the background, taking a class on the side, or just getting better with experience.  
+> You can think of your character's Level representing their potential. Gaining a Level would represent pushing through the plateaus and putting in the work that come with developing, whether as a warrior, mage, diplomat, spy, or anything you care to create. That could represent training or practice in the background, taking a class on the side, or just getting better with experience.  
 > It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
 > Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
 
@@ -374,7 +374,7 @@ Every character has a base bonus to their Physical and Mental Offense and Defens
 
 > Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU-808 has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
 
-### Initiative  
+### Base Initiative  
 Like with Offense and Defense, character have a base bonus to their Initiative rolls. It starts at zero and can be increased up to the character's level. Increasing base Initiative costs 1 XP.
 
 ### Skill Points
@@ -1878,7 +1878,7 @@ Special: You may take this Lesson more than once, choosing a different element e
 Every instance of this Lesson costs 3 XP.
 
 #### First to Act  
-Increase your Initiative modifier by twice your [Hero Tier](#hero-tier). Also, you gain Boon +2 on Initiative rolls.
+Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
 When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
@@ -2225,9 +2225,9 @@ Actions in combat are organized into Rounds and Turns. Each set of actions a cha
 ### Round Start
 At the start of the Round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
 
-### Initiative
-Most combat takes place in the second phase, Initiative.  
-Before combat can begin, everyone needs to know the turn order. This is determined by the Initiative roll. Everyone rolls normally, adding their Finesse, Soul, and any other modifiers. The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
+### Initiative Phase
+Most combat takes place in the Initiative Phase.  
+Before combat can begin, everyone needs to know the turn order. This is determined by the Initiative roll. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
 You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
 
