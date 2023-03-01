@@ -731,7 +731,7 @@ Range: None
 Targets: Self  
 Trigger: The enemy successfully hits with an Ability.  
 Cost: None  
-Effect: Reduce the [Impact](#impact) of the successful Ability by 2. This reduces the damage you take. This can turn a normal hit into a miss, reduce a [Solid Hit](#solid-hit) to a normal hit, or a [Critical Hit](#critical-hit) into a Solid Hit.  
+Effect: Reduce the [Impact](#impact) of the successful Ability by 3. This reduces the damage you take. This can turn a normal hit into a miss, reduce a [Solid Hit](#solid-hit) to a normal hit, or a [Critical Hit](#critical-hit) into a Solid Hit.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.  
 
 #### Double Strike  
