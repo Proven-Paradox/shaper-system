@@ -49,15 +49,19 @@
   
 ------------
 # Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System (S3). 
+Assembled friends and enemies, welcome to the Story Shaper System (S3).  
 
-## What are some things that set Story Shaper System apart?
+## Who am I?  
+Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a game designer just as long--writing homebrew content for my campaigns, programming small video games, and analyzing and mastering games created by others.
+
+## What is Story Shaper System?  
+S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, and flexible enough to run any genre.  
 These ideas are central to the design of Story Shaper. 
 
-* **Speed.**  If a given task is not going to be fun for most players at the table, Story Shaper will try to make that task quick, easy, and painless. If this has gone well, an experienced player who knows their character should never take more than two minutes to figure out the rules for his or her Turn. (Of course, one may take considerably longer describing these actions.)  
-* **Versatility.** The rules have been written to allow players to describe their actions however they want. This system is intended to be usable in any fantastic setting. (With some restrictions on which Abilities are available, it could also be used for a mundane setting.) The question of what a character can do is answered in the rules, but how they do it is left to be filled in by players.  
-* **Depth.** Choosing your character’s Attributes, Abilities, Lessons, and what they do in a given situation should present satisfying puzzles. One with many valid solutions that rewards smart play and mastery of the system, but NOT so many approaches to invite analysis paralysis or pitfalls that render characters impotent.  
-* **Freedom.** There aren't (and never will be) any rules that restrain what your character looks like. While the abilities and skills on your character sheet and the details of your settings' game may make some implications, characters' appearances are ultimately decided by their players.  
+* **Speed.**  If a given task is not going to be fun for most players at the table, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis. Ideally, an experienced player who knows their character should never take more than two minutes to figure out the rules for their actions. (Of course, one may take considerably deliberating on tactical options or describing their actions.)  
+* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. With some restrictions on which options are available, S3 could even be used for a story grounded in reality.  
+* **Depth.** A lot of focus has gone into the *game* part of this roleplaying game. Building a character sheet presents players with strategic choices on how to spend resources. Combat rewards tactical thinking and teamwork. A character's non-combat options allow players to flesh out what kind of person their character is. 
+* **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character looks like in this book. While the abilities and skills on your character sheet and the details of your settings' game may make some implications, characters' appearances are ultimately decided by their players. The rules describe *what* a character can do, but that character's player describes *how* they do it.  
 
 ## What you Need to Play
 ### Required:
@@ -65,11 +69,9 @@ These ideas are central to the design of Story Shaper.
 * At least one player.
 * Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-* A pair of 10-sided dice for each player (also called d10s). ALL rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
+* A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
   * Alternatively a random number generator, which can be found for free online.
-* If you're playing face to face, Pencil and paper
-
-> Do NOT use pen or something you can’t easily erase for anything. Trust me.
+* If you're playing face to face, Pencil and paper. (Do not use pen or something you can’t easily erase.)
 
 ### Recommended but not vital:
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
@@ -81,14 +83,14 @@ These ideas are central to the design of Story Shaper.
 * A deck of playing cards or tarot cards (just in case a card game breaks out)
 * Props to illustrate circumstances on the battlefield
 
-> Here’s a cheap one: those plastic rings around bottled drinks can be removed and used as markers
-
 ### Contact/Social Media
 If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon at @Proven_Paradox@mastodon.gamedev.place, or join the S3 Discord: [Link](https://discord.gg/ubefmR2bNh).
 
 ------------
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
+
+> TODO: Re-write Dox Box intro here
 
 ### Some general rules  
 Here are a few general rules that we need to get out of the way, just so there is no confusion.  
@@ -2461,6 +2463,9 @@ If multiple allies have Taunt in the same Square, foes may choose between them a
 [Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
 A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
 This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
+
+
+// TODO: WRITE OUTTRO //
 
 
 
