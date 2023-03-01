@@ -63,26 +63,6 @@ These ideas are central to the design of Story Shaper.
 * **Depth.** A lot of focus has gone into the *game* part of this roleplaying game. Building a character sheet presents players with strategic choices on how to spend resources. Combat rewards tactical thinking and teamwork. A character's non-combat options allow players to flesh out what kind of person their character is. 
 * **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character looks like in this book. While the abilities and skills on your character sheet and the details of your settings' game may make some implications, characters' appearances are ultimately decided by their players. The rules describe *what* a character can do, but that character's player describes *how* they do it.  
 
-## What you Need to Play
-### Required:
-* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.
-* At least one player.
-* Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
-* Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing)
-* A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
-  * Alternatively a random number generator, which can be found for free online.
-* If you're playing face to face, Pencil and paper. (Do not use pen or something you can’t easily erase.)
-
-### Recommended but not vital:
-* A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions
-* A notebook for each player to write personal notes in
-* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
-
-### Totally optional, but maybe fun:
-* Miniatures to represent characters in combat
-* A deck of playing cards or tarot cards (just in case a card game breaks out)
-* Props to illustrate circumstances on the battlefield
-
 ### Contact/Social Media
 If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon at @Proven_Paradox@mastodon.gamedev.place, or join the S3 Discord: [Link](https://discord.gg/ubefmR2bNh).
 
@@ -90,45 +70,52 @@ If you want to get in contact with me, you can email me at ProvenParadox@gmail.c
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
 
-> TODO: Re-write Dox Box intro here
+> Hello. This is Dox. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game smoothly.  
 
-### Some general rules  
-Here are a few general rules that we need to get out of the way, just so there is no confusion.  
+## What you Need to Play
+### Required:
+* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.
+* At least one player.
+* Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
+* Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing).
+* A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
+  * Alternatively a random number generator, which can be found for free online.
+> If you are playing a character focused on doing elemental damage, you may want to bring three dice.  
 
-You count as your own ally. You can target yourself with anything that is listed to target allies.
+### Recommended but not vital:
+* Pencil and paper.  
+> Do not use pen or something you can’t easily erase. Trust me.
+* A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
+* A notebook for each player to write personal notes in.
+* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
 
-When counting squares for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
-
-Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it should still be rounded down to a 13.  
-
-In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
-
-For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the rolls still apply when rerolling due to a tie.  
-
-If a damage type is not listed, assume the damage to be physical.
+### Totally optional, but maybe fun:
+* Miniatures to represent characters in combat.
+* A deck of playing cards or tarot cards (just in case a card game breaks out).
+* Props to illustrate circumstances on the battlefield.
 
 ## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s attributes (more on that later). The higher the result, the better you did at the task in question.  
+In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
 There are instances where a different number of dice will be rolled, but all dice in S3 are 10-sided.
 
-### Rerolls
-Some circumstances enable a player to reroll their dice. As a general rule, a given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
+### Rerolls  
+Some circumstances enable a player to reroll their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
 
 #### Boon
 Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. 
 
 > Some examples of Boon in play:  
 > Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
-> Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. He can only reroll one die with Boon, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 > Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
 
 ##### Boon Splitting
 If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. 
 
 > For example, Billy Baggins is sniping an enemy, and has Boon 5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.
+> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. This is not enough to reroll both dice, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
 
 #### Bane
-The unfavorable complement of Boon, Bane is sometimes imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their highest die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
+The unfavorable complement of Boon, Bane is imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their *highest* die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
 
 | Bane -X | Reroll a die above... |
 |---------|-----------------------|
@@ -139,17 +126,30 @@ The unfavorable complement of Boon, Bane is sometimes imposed on a character whe
 | -5      | 6                     |
 
 Some examples of Bane in play:
-* Adam is trying to follow tracks that have had some time to fade, imposing Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane -4 on an attempt to repair a damaged mechanism with a Construct check. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+* Adam is trying to follow tracks that have had some time to fade. This imposes Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
+* XU-808 has Bane -4 on an attempt to repair a damaged mechanism with a Construct check due to them being on a ship that is currently engaged in chaotic combat. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
 
 #### Combining Boon and Bane
 If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
-* Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she rerolls a die if she rolls a 1.
-* Morris is attempting to pick a lock. His skill in lock picking gives him Boon +1 on the check, but his picks have been damaged in a way that provides Bane -3. Boon +1 and Bane -3 adds to Bane -2, meaning he must reroll a die if the roll is higher than 9.
-* Arden is trying to leap over to a ledge. They have an item that grants them minor athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
+* Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may reroll a die if she rolls a 1.
+* Morris is attempting to pick a lock. He has picked these kinds of locks before on, so his familiariy gives him Boon +2 the check. However, his picks have been badly damaged in a way that, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must reroll a die if the roll is higher than 10.
+* Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
 #### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while other affected do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate Boon/Bane rerolls on the targets affected by Boon or Bane.
+When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while other affected by an ability do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate Boon/Bane rerolls on the targets affected by Boon or Bane.
+
+### Miscellaneous Rules  
+Here are a few general rules prevent confusion.  
+
+You count as your own ally. You can target yourself with anything that is listed to target allies.
+
+When counting squares for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
+
+Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
+
+In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
+
+For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the original rolls still apply when rerolling due to a tie.  
 
 ------------
 # Chapter 2: Character Creation
@@ -2302,6 +2302,7 @@ The damage types are as follows:
 * *Almighty* - Beyond definition and comprehension, power in its rawest form. Almighty damage is extremely rare, and no force in existence can resist it.
 
 With the exception of Almighty damage, enemies may have resistances or weaknesses to any combination of these damage types. A character can tell when they have struck a resistance or weakness as their blow lands; the results should be noticeably different from their expectations.  
+If a damage type is not listed on an Ability, assume the damage to be physical.  
 
 ## HP
 HP (hit points or health points, both work) are an abstract representation of a character’s health. While the character still has HP, they can press on. At a glance this could just be how much punishment the character can endure, but one could take it farther than that. Endurance, pain tolerance, mental fortitude, and dumb luck can all be part of a character’s HP.  
