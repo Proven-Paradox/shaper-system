@@ -1494,7 +1494,7 @@ Range: Melee
 Targets: One [unconscious] Ally  
 Cost: 15 MP  
 Cooldown: 10 rounds  
-Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone) and the injury they sustained upon being knocked out remains.  
+Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
 Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target an adrenaline syringe to get the back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
 
 #### Pin Down  
@@ -1553,6 +1553,17 @@ Cost: 8 MP
 Damage: x2 (Physical)  
 Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
+
+#### Push Through  
+Auxiliary  
+Action: Counter  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Trigger: You hit 0 HP  
+Cost: None (but see Special)  
+Effect: Note how much damage beyond 0 HP the triggering damage would do, referred to as the overkill damage. Make an [Endure](#endure) check with a target of 10 + the overkill damage. On success, you instead fall to 1 HP.  
+Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability.  
 
 #### Radiant Bolt   
 Spell [Elemental] [Light] [Healing]  
@@ -2318,6 +2329,7 @@ When you lose all HP, you take an injury and fall unconscious. You can’t move,
 Injuries in Story Shaper are the consequences of failing certain tasks or running out of HP. An injury reduces one of your [Attributes](#step-1-attributes) or [Vitality or Capacity](#vitalitycapacity) by one until it is tended to.  
 When you sustain an injury in combat, roll a die and refer to this table for what type of injury.
 
+##### Injury Type Table
 | Die| Injury Type       |
 |----|-------------------|
 | 1  | Roll again twice  |
