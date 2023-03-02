@@ -55,7 +55,7 @@ Assembled friends and enemies, welcome to the Story Shaper System (S3).
 Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a game designer just as long--writing homebrew content for my campaigns, programming small video games, and analyzing and mastering games created by others.
 
 ## What is Story Shaper System?  
-S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, and flexible enough to run any genre.  
+S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, and flexible enough to run any genre, using only ten-sided dice.  
 These ideas are central to the design of Story Shaper. 
 
 * **Speed.**  If a given task is not going to be fun for most players at the table, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis. Ideally, an experienced player who knows their character should never take more than two minutes to figure out the rules for their actions. (Of course, one may take considerably deliberating on tactical options or describing their actions.)  
