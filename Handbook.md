@@ -1560,10 +1560,10 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Trigger: You hit 0 HP  
+Trigger: You would otherwise hit 0 HP  
 Cost: None (but see Special)  
 Effect: Note how much damage beyond 0 HP the triggering damage would do, referred to as the overkill damage. Make an [Endure](#endure) check with a target of 10 + the overkill damage. On success, you instead fall to 1 HP.  
-Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability.  
+Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability. If you fail the Endure check, you roll a second Injury.  
 
 #### Radiant Bolt   
 Spell [Elemental] [Light] [Healing]  
