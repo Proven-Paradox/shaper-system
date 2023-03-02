@@ -87,7 +87,9 @@ One of the most important things separating a roleplaying game from simple prete
 > Do not use pen or something you can’t easily erase. Trust me.
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
 * A notebook for each player to write personal notes in.
-* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.
+* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.  
+* Access to a search engine or an agreement among participants to not worry too much about what would actually happen in a given unusual situation.  
+> This might be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this might be available to players as well.  
 
 ### Totally optional, but maybe fun:
 * Miniatures to represent characters in combat.
