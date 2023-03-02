@@ -1491,7 +1491,7 @@ Auxiliary [Healing]
 Action: Major  
 Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
 Range: Melee  
-Targets: One [unconscious] Ally  
+Targets: One [Unconscious](#unconscious) Ally  
 Cost: 15 MP  
 Cooldown: 10 rounds  
 Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
