@@ -1565,7 +1565,7 @@ Targets: Self
 Trigger: You would otherwise hit 0 HP  
 Cost: None (but see Special)  
 Effect: Note how much damage beyond 0 HP the triggering damage would do, referred to as the overkill damage. Make an [Endure](#endure) check with a target of 10 + the overkill damage. On success, you instead fall to 1 HP.  
-Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability. If you fail the Endure check, you roll a second Injury.  
+Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability. If you fail the Endure check, you roll a second Injury. Injuries take effect after the Endure check.  
 Description: Pushing through otherwise disabling damage, at risk of significant further harm if the strain is too much. This can be gritty determination, a state of focus that trancends pain, emergency stimulants, or similar measures.  
 
 #### Radiant Bolt   
