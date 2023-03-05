@@ -80,7 +80,7 @@ One of the most important things separating a roleplaying game from simple prete
 * Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing).
 * A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
   * Alternatively a random number generator, which can be found for free online.
-> If you are playing a character focused on doing elemental damage, you may want to bring three dice.  
+> If you are playing a character focused on doing elemental damage, you probably want to bring three dice.  
 
 ### Recommended but not vital:
 * Pencil and paper.  
@@ -88,13 +88,13 @@ One of the most important things separating a roleplaying game from simple prete
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
 * A notebook for each player to write personal notes in.
 * The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.  
-* Access to a search engine or an agreement among participants to not worry too much about what would actually happen in a given unusual situation.  
-> This might be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this might be available to players as well.  
 
-### Totally optional, but maybe fun:
+### Totally optional, but maybe fun/useful:
 * Miniatures to represent characters in combat.
 * A deck of playing cards or tarot cards (just in case a card game breaks out).
-* Props to illustrate circumstances on the battlefield.
+* Props to illustrate circumstances on the battlefield.  
+* Access to a search engine.  
+> This should be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this could be available to players as well.  
 
 ## Rolling Dice
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
