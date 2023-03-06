@@ -64,7 +64,7 @@ These ideas are central to the design of Story Shaper.
 * **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. With some restrictions on which options are available, S3 could even be used for a story grounded in reality.  
 
 ### Contact/Social Media
-If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon at @Proven_Paradox@mastodon.gamedev.place, or join the S3 Discord: [Link](https://discord.gg/ubefmR2bNh).
+If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon [Here](https://mastodon.gamedev.place/@Proven_Paradox), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).
 
 ------------
 # Chapter 1: How to Play
