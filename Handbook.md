@@ -287,7 +287,7 @@ Finally, you choose one talent. Talents are described in full in [Chapter 9](#ch
 ## Step 7: Starting items
 > Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in S3 are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
 
-> Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps. You should still do step 9 because of the significant effect is has on your character's performance.
+> Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps.  
 
 ## Step 8: Lesson  
 Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
@@ -297,7 +297,7 @@ Next you choose one Lesson. Lessons represent a character specializing in specif
 > Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
 
 ## Step 9: Utility
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities)   
+Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities).   
 
 > Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
 >
@@ -2108,7 +2108,6 @@ Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead)
 Your ability to speak with corpses improves; now all that is required is an intact skull. The state of the rest of the body does not matter.
 
 #### Speak with the Recently Dead  
-XP Cost: 5  
 You can speak with corpses. The corpses know everything they knew in life, up until the last day of their lives, which they completely forget. Corpses in this state have no emotions, and cannot learn new information, including the fact that they are dead. They also cannot move. The corpse must still have enough lungs and vocal cords to be able speak, or this Utility fails. This could be harnessing necromancy, utilizing nanobots to reconstruct what the body's brain knew, being an effective medium, knowledge of certain rituals, or similar measures.
 
 #### Speak with the Recently Dead, Improved  
