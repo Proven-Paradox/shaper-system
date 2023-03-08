@@ -98,8 +98,7 @@ One of the most important things separating a roleplaying game from simple prete
 > This should be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this could be available to players as well.  
 
 ## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then take the two dice, add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
-There are instances where a different number of dice will be rolled, but all dice in S3 are 10-sided.
+In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
 
 ### Rerolls  
 Some circumstances enable a player to reroll their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
@@ -135,11 +134,11 @@ Some examples of Bane in play:
 #### Combining Boon and Bane
 If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
 * Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may reroll a die if she rolls a 1.
-* Morris is attempting to pick a lock. He has picked these kinds of locks before on, so his familiariy gives him Boon +2 the check. However, his picks have been badly damaged in a way that, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must reroll a die if the roll is higher than 10.
+* Morris is attempting to pick a lock. He has picked these kinds of locks before on, so his familiarity gives him Boon +2 the check. However, his picks have been badly damaged in a way that, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must reroll a die if the roll is higher than 10.
 * Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
 
 #### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while other affected by an ability do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane effects first, then do appropriate Boon/Bane rerolls on the targets affected by Boon or Bane.
+When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane first, then do appropriate Boon/Bane rerolls on the targets affected that ARE by Boon or Bane.
 
 ### Miscellaneous Rules  
 Here are a few general rules prevent confusion.  
@@ -150,7 +149,7 @@ When counting squares for movement or range, the count is orthogonal--i.e. exclu
 
 Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
 
-In combat, defenders win ties. For example, if using an offensive Ability results in the accuracy role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
+In combat, defenders win ties. For example, if using an offensive Ability results in the Offense role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
 
 For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the original rolls still apply when rerolling due to a tie.  
 
