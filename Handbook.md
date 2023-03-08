@@ -2263,7 +2263,7 @@ Combat is broken up into Squares. A combat Square should generally be somewhere 
 Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.
 
 ## Impact 
-To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
 
@@ -2284,20 +2284,20 @@ During a chase, exact position doesn’t necessarily matter as much as distance 
 
 ### Endurance
 A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
-At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an Endure check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
-If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition.
+At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an [Endure](#endure) check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
+If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition during the chase.
 
 ### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
 
 #### Use Abilities
-All Abilities available to you outside of a chase scene are available during chases as well. In order to use a Melee range Ability, your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 2; for Long, 3. Abilities that did only damage previously still do so, but any Ability that affects movement can be used to get an upper hand during the chase.
+All Abilities available to you during combat are also available during chases. In order to use a Melee range Ability your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 3; for Long, 5; for Extreme, 8.  
 
 #### Rush
 Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
 
 #### Recover
-Recovery is a Major Action, and you cannot use your Minor Action to do anything that causes you to move. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
+Recover is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on a the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
 
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
