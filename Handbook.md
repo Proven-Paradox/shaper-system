@@ -36,7 +36,8 @@
 - [Chapter 9: Talents](#chapter-9-talents)  
 - [Chapter 10: Combat](#chapter-10-combat) 
   - [Time in Combat](#time-in-combat)
-  - [Moving](#moving)
+  - [Positioning](#positioning)
+  - [Impact](#impact)
   - [Chasing rules](#chasing-rules)
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
   - [HP](#hp)
@@ -2258,20 +2259,21 @@ Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abiliti
 
 ## Positioning
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
-Combat is broken up into Squares. A combat Square should generally be somewhere between 20-40 feet in length, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and unless there is an Ability or circumstance saying otherwise everyone is able to get into melee range of everyone else in the same Square.
+Combat is broken up into Squares. A combat Square should generally be somewhere between 20-30 feet in length on each side, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and everyone in a Square can reach each other.  
+Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.
 
-### Impact 
+## Impact 
 To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions which will be described in those abilities’ descriptions). The result is called the Impact, and if the Impact is above zero, your Ability has landed and will affect your opponent. By and large this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
 
-#### Solid Hit  
+### Solid Hit  
 Any Attack or Spell Impact that is 5 or higher is considered a Solid Hit. This by itself has no implicit effect, but some Abilities, Lessons, etc. may confer additional benefits on a Solid Hit.
 
-#### Critical Hit  
+### Critical Hit  
 Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or higher. This doesn't have any inherent effect (though it is likely going to be very painful for the target) but may activate other effects from Abilities, Lessons, etc.
 
-#### Matches
+### Matches
 Any time your 2d10 roll comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
 
 ## Chasing rules
