@@ -907,7 +907,7 @@ Cost: 3 MP
 Effect: The target regains HP equal to a die roll.   
 This Ability may only be used once per Turn.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 4 MP to add another die to the amount healed.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another die to the amount healed for a total of 3d10. When used this way, this Ability counts as a Tier 2 Ability.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 6 MP to add another die to the amount healed for a total of 3 dice. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A quick healing ability that must be done up close. This could be jamming a syringe into the target, applying a healing herb, channeling vitality through your hands, and other similar actions. 
 
 #### Healing Word  
@@ -919,7 +919,7 @@ Targets: 1 Ally
 Cost: 2 MP  
 Effect: The target regains HP equal to a die roll.  
 If you also use your Minor action, add another die to the amount healed.   
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2d10 healing normally, or 3d10 healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2 dice of healing normally, or 3 dice of healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
 #### Heavy Strike  
@@ -2263,7 +2263,7 @@ Combat is broken up into Squares. A combat Square should generally be somewhere 
 Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.
 
 ## Impact 
-To make an Offense roll, first you roll your 2d10 as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
+To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
 
@@ -2274,7 +2274,7 @@ Any Attack or Spell Impact that is 5 or higher is considered a Solid Hit. This b
 Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or higher. This doesn't have any inherent effect (though it is likely going to be very painful for the target) but may activate other effects from Abilities, Lessons, etc.
 
 ### Matches
-Any time your 2d10 roll comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
+Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
