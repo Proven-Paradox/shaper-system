@@ -1226,7 +1226,7 @@ Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to in
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 ## Tier 2  
-Tier 2 Abilities are available once you have reached Hero Tier 2.
+Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Level](#level) 6).
 
 #### Anti-Scan  
 Spell  
@@ -1682,6 +1682,17 @@ Description: Holding a target using mental/technological means from a distance. 
 
 >Note: You still cannot move if you Grab a target using Suspend.
 
+#### Terrify  
+Spell  
+Action: Major  
+Prerequisites: [Psychic Lance](#psychic-lance)  
+Range: Short  
+Targets: 1 enemy  
+Cost: 6 MP  
+Duration: Variable; see Effect  
+Effect: The target becomes [Afraid](#afraid) of you for 1 Round. If you land a [Solid Hit](#solid-hit) this lasts for 2 Rounds. On a [Critical Hit](#critical-hit), this lasts for 3 Rounds.  
+Description: You do something that compels your opponent to run away from you. This could be a psychic attack, producing horrifying illusions, injecting your target with a toxin that produces a panic, giving a terrifying roar, or similar actions.  
+
 #### To the Rescue  
 Auxiliary    
 Action: Minor  
@@ -1889,7 +1900,7 @@ Curse Abilities that target you do so at Bane -2.
 #### Elemental Attunement  
 When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
 Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
-Every instance of this Lesson costs 3 XP.
+Every instance of this Lesson costs 3 XP.  
 
 #### First to Act  
 Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
@@ -1916,6 +1927,9 @@ Whenever us an Ability that heals HP damage, you may increase the MP cost by the
 
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
+
+#### Nerves of Steel  
+Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. If this reduces the effect to 0 Rounds, the action fails outright.  
 
 #### Overcharge  
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
@@ -2394,6 +2408,9 @@ That is up to the Arbiter and should suit the setting. Allowing resurrection inv
 Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
 
 > If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.
+
+#### Afraid   
+You are in the grip of a deep terror. This Ailment comes with an entity that you are Afraid of. At the start of your Turn, you *must* use your [Minor Action](#minor-action) to move away from whatever you're Afraid of. If you are unable to do so, you instead lose your Minor Action entirely. Offensive actions against you have Boon +2.  
 
 #### Blind  
 You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
