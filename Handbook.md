@@ -532,7 +532,7 @@ Prerequisites: None
 Range: N/A  
 Targets: Self  
 Cost: None  
-Effect: Move 1 Square. 
+Effect: Move 1 Square.  
 Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
 > Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character 2 Squares per turn.
@@ -1306,6 +1306,16 @@ Damage: x2 (Ice)
 Duration: 3 rounds  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, a literal cold glare, or similar effects.
+
+#### Coordinated Stride  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: Melee  
+Targets: Self and up to 2 allies  
+Cost: 3 MP  
+Effect: You and target allies move 1 Square. A given character can only move with this Ability once per Turn.  
+Description: Moving at the same time as your . This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short range portal, or similar effects.  
 
 #### Counter Stance  
 Auxiliary  
