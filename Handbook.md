@@ -1315,7 +1315,7 @@ Range: Melee
 Targets: Self and up to 2 allies  
 Cost: 3 MP  
 Effect: You and target allies move 1 Square. A given character can only move with this Ability once per Turn.  
-Description: Moving at the same time as your . This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short range portal, or similar effects.  
+Description: Moving at the same time as your allies. This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short range portal, or similar effects.  
 
 #### Counter Stance  
 Auxiliary  
