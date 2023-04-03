@@ -1921,7 +1921,7 @@ When you target creatures with an Augment, all affected gain [Shield](#shield-x)
 #### Hit and Run  
 Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
-#### Improved Healing  
+#### Reliable Healing  
 When casting a Healing Ability, you may roll an additional die. Remove the lowest die from your total result.
 
 #### Lingering Provocation  
@@ -2111,7 +2111,7 @@ You can read lips, i.e. if you are close enough to see a creature's face while i
 
 #### One with Nature: Animals  
 You are able to commune with and in a limited way communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
-Animals have simple, instinctual desires and are usually very focused on the here and now. Most quickly dismiss past events that don’t affect their ability to survive and don’t really understand “the future” as a concept.
+Animals have simple, instinctual desires and are usually very focused on the here and now. Most quickly dismiss past events that don’t affect their ability to survive and don’t really understand “the future” as a concept.  
 
 #### One with Nature: Minerals  
 You are able to commune with and in a limited way communicate with minerals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you have learned to tap into a subtle consciousness that is present in stone, metal, and gems.  
