@@ -2165,7 +2165,7 @@ When you successfully strike a target with a Curse Ability, you can also do one 
 When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). If you have already learned both, you may refund the XP spent to learn one of them.
 
 #### Crushing Zeal  
-Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense.
+Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense and Initiative.
 
 #### Elemental Specialist (TYPE)
 Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
@@ -2226,7 +2226,7 @@ You practice a fighting style that emphasizes mind over muscle. You may use your
 You have trained in a magic style that uses strength of body over strength of mind. You may use your Strength in place of Mind to determine your MP.
 
 #### Overwhelming Force  
-You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense.
+You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense and Initiative.
 
 #### Perfect Protector  
 At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
