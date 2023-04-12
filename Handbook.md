@@ -46,7 +46,8 @@
   - [Death](#death) 
   - [Status Ailments](#status-ailments)
   - [Disadvantages](#disadvantages)
-  - [Advantages](#advantages)
+  - [Advantages](#advantages)  
+- [Appendix A: Supplemental Materials](#appendix-a-supplemental-materials)  
   
 ------------
 # Chapter 0: Introduction
@@ -2515,14 +2516,18 @@ A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Pro
 This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
 
 
-// TODO: WRITE OUTTRO //
+// TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
 
+# Appendix A: Supplemental Materials  
+These are some optional rules you can add to your game. These are either supplemental things like an expansion on Skills, a themed expansion or series of features, or experimental rulesets that are not quite ready to be added to the main game just yet.
 
+* [Adversaries and Monsters](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md) - Some simple and generic statblocks to throw at your party in your games. Primarily of interest to Arbiters.  
+* [Flavor Skills](https://github.com/Proven-Paradox/shaper-system/blob/main/Modules/Flavor%20Skills.md) - A little expansion on Skills that enables a more granular expression of your character's capabilities outside of combat (for no extra XP cost).  
+* [Summoning](https://github.com/Proven-Paradox/shaper-system/blob/main/Modules/Summoning.md) - Have MP to burn? Summon something to assist you in combat. This could represent conjuration, necromancy, animal companions, automaton assistants, and the like.  
+* [Tricks](https://github.com/Proven-Paradox/shaper-system/blob/main/Modules/Tricks.md) - Non-combat additions to some existing Abilities.
 
-
-
-
-
+And last, but certainly not least:
+* [Credits](https://github.com/Proven-Paradox/shaper-system/blob/main/Credits.md)  
 
 
 
