@@ -1,7 +1,7 @@
 # Credits
 
-## Alpha Testers
-Anga
-avior
-Easha Dustfeather
-Little Justices
+## Alpha Testers  
+Anga  
+avior  
+Easha Dustfeather  
+Little Justices  
