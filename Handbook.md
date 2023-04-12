@@ -426,12 +426,19 @@ Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do, usually in combat. When you first create a character they start with three Abilities. Additional abilities are purchased for XP. Abilities come in two tiers (currently), with each tier being more powerful and costly than the previous. You must reach [Hero Tier](#hero-tier) 2 to purchase Tier 2 Abilities.
-  
+Abilities represent powers or moves your character is able to do in combat.  
+
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>
 > <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
-> <div align="center">The main thing to keep in mind is that Squares are larger than in most systems and can have multiple entities in each Square. So for example, anything that targets a Square targets every creature in that Square.</div>
+> <div align="center">The main thing to keep in mind is that Squares are larger than in most systems and can have multiple entities in each Square. Abilities that list their target as a Square target all creatures in that Square. </div>
 > <div align="center">=!=!=!=!=  </div>
+
+## Ability Tiers
+Abilities come in three tiers (currently).
+
+* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities.  
+* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase any Ability for 3 XP. (Some of these Abilities have prerequisites that must be first, described in each entry.)
+* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 (character Level 6) before you can take Tier 2 Abilities, and they cost 5 XP each.
 
 ## Reading Abilities
 Ability entries will follow this basic layout:
@@ -454,17 +461,17 @@ Damage: When using this Ability to do damage, multiply your [Impact](#impact) by
 Effect: Things particular to a given Ability.  
 Description: A general overview of what a given Ability might represent from a roleplaying perspective.  
 
-## Prerequisites
+### Prerequisites
 Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Skills, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
 
-## Ability Types
+### Ability Types
 There are three types of Abilities.
 * **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
 * **Spell** means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
    * Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizzare anatomy, or some other thing.
 * **Auxiliary** Abilities do not use offense rolls. They generally target yourself or your allies.
    
-## Ability Series
+### Ability Series
 Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
 * **Augment** - Auxiliary abilities that empower allies.
 * **Curse** - Auxiliary abilities that weaken foes.
@@ -477,19 +484,19 @@ Some Abilities are part of a series, building off each other and using each othe
    * *Dark* - Destroying life essence, sharpened shadows, or unholy power
 * **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
 
-## Ability Keywords
+### Ability Keywords
 Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
 
-### Careful
+#### Careful
 An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
 
-### Cooldown
+#### Cooldown
 An Ability or Lesson with a Cooldown cannot be used again for the listed duration. Cooldowns decrease by 1 at [Round Start](#round-start).
 
-### Upkeep
+#### Upkeep
 Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)  
 
-## Buff Tracks
+### Buff Tracks
 These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
 
 #### The Offensive Track
@@ -510,11 +517,11 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.
 * **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
 
-### Duration  
+##### Duration  
 Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
-Positive values begin decaying once every 3 rounds. Recieving another increase along the Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+Positive values begin decaying once every 3 rounds. Receiving another increase along the Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
 
-> For example, Cyrick casts [Fortify](#fortify) on himself in round 1 on combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not recieve another defense buff by roun 7's start, the track will decay to 0.
+> For example, Cyrick casts [Fortify](#fortify) on himself in round 1 of combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.
 
 ------------
 # Chapter 5: List of Abilities
