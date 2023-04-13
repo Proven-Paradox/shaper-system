@@ -15,7 +15,8 @@
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
   - [Gaining XP](#gaining-xp)
   - [Spending XP](#spending-xp)
-- [Chapter 4: Abilities](#chapter-4-abilities)  
+- [Chapter 4: Abilities](#chapter-4-abilities) 
+  - [Ability Tiers](#ability-tiers)  
   - [Reading Abilities](#reading-abilities)
   - [Prerequisites](#prerequisites)
   - [Ability Types](#ability-types)
@@ -1907,7 +1908,7 @@ Whenever you receive damage you may enter an Enraged state. Spending HP to use a
 
 #### Ataraxia  
 Prerequisite: [Brace](#brace)  
-While [rooted](#root), you may reduce the MP cost of any Spells you cast by your [Hero Tier](#hero-tier) (to a minimum of 0).
+While [rooted](#root), you may reduce the MP cost of any Spells you cast by their  (to a minimum of 0).
 
 #### Combo Striker
 Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
