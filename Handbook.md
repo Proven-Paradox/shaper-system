@@ -1930,6 +1930,9 @@ When you target creatures with an Augment, all affected gain [Shield](#shield-x)
 #### Hit and Run  
 Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
+#### Melee Mage  
+When using a Spell that normally has a range of Medium or better against a foe who is within melee range of you, you may reduce the MP cost by their [Ability Tier](#ability-tiers) (to a minimum of 0).  
+
 #### Reliable Healing  
 When casting a Healing Ability, you may roll an additional die. Remove the lowest die from your total result.
 
