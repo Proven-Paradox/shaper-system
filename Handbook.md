@@ -984,8 +984,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 2 MP    
 Damage: x1 (Physical)  
-Effect: You may move one Square before or after you make your Offense roll. 
-Description: A mobile strike. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where an attack is paired with movement.
+Effect: You may move one Square before or after you make your Offense roll.  
+Description: Moving as you attack. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where a strike is paired with movement.
 
 #### Protector’s Presence  
 Auxiliary  
