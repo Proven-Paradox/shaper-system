@@ -1901,7 +1901,7 @@ You may take this Lesson once per Hero Tier, choosing a different Ability each t
 When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense.
+When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense. If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked, and your Defense Bonus against foes you have.  
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
