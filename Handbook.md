@@ -1965,7 +1965,8 @@ Once per round, increase any HP restoration you receive by half.
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target is [Rooted](#root) until your next Turn.
+* Your target is [Rooted](#root) until your next Turn.  
+Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
 
 #### Resilient Protector  
 While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier). This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
