@@ -2040,7 +2040,7 @@ Each Trap you set can have 2 of the following attributes.
 If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
 
 #### Familiar bond
-Increase the modifier of any one Skill by 1.
+Increase the modifier of any one Skill by 1.  
 You can summon or create a familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a Skill check, the Familiar’s core stats are as follows:  
 Strength -1, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1    
 Summoning a familiar is a ritual that requires an hour of uninterrupted work. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one. 
