@@ -52,7 +52,7 @@ Physical Defense: 11
 Mental Defense: 8  
 
 *Melee strike* (Major action attack), x1 multiplier, physical, melee.  
-*Hoard Tactics* (Passive): If in a square with two other allied Creeps, Melee Strike has Boon 4 on Offense rolls.  
+*Horde Tactics* (Passive): If in a square with two other allied Creeps, Melee Strike has Boon 4 on Offense rolls.  
 
 ## Defenders
 Defenders represent enemies whose main goal is to ensure the safety of their allies. They block attacks and focus on being difficult to take down, giving their allies cover during combat. They are often especially concerned with the safety of healers. This could be a town guard with a shield, a mercenary, a bodyguard, or something similar.  
