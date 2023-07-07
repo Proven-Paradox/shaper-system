@@ -89,7 +89,7 @@ Physical Defense: 15
 Mental Defense: 15  
 Initiative: 0  
 
-*Taunt* (<Passive>)  
+*Taunt* (Passive)  
 *Defend* (Minor Aux), melee, target ally gains Cover, gain 2 Shield  
 *Challenge* (Minor Attack/Spell), medium, target is Provoked, +5 to hit  
 *Shield Bash* (Major Attack), x1 damage, melee, physical, +5 to hit (PDef)  
@@ -134,7 +134,7 @@ Physical Defense: 12
 Mental Defense: 13  
 Initiative: 1  
 
-*Heal* (Major Aux), medium, heal target one dice  
+*Heal* (Major Aux), medium, heal target one die  
 *Big heal* (Major Aux), medium, heal target two dice, 1 MP  
 *Cleanse* (Minor Aux)  
 Choose one:  
@@ -157,7 +157,7 @@ Physical Defense: 14
 Mental Defense: 15  
 Initiative: +1  
 
-*Heal* (Major Aux), medium, heal target one dice  
+*Heal* (Major Aux), medium, heal target one die  
 *Big heal* (Major Aux), medium, heal target two dice, 1 MP  
 Choose one:  
 * Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
