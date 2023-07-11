@@ -1786,10 +1786,6 @@ Balancing, tumbling, contorting. Tasks that require precise movements as well as
 Attributes: Strength, Toughness  
 Jumping, climbing, swimming, lifting, pushing, and pulling. Tasks that require muscle and endurance.
 
-#### Animal Handling  
-Attributes: Heart, Soul  
-Training and taming animals, sensing animal feelings, nonverbal communication with animals, and all other things related to interacting with animals.
-
 #### Awareness  
 Attributes: Mind, Soul  
 Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such perils.
@@ -1848,6 +1844,10 @@ Forbidden secrets, occult rituals, and mysticism. This skill represents one’s 
 Attributes: Mind, Finesse  
 Anatomical knowledge, herbalism, and performing medical procedures. If you need to suture a wound, identify a poison, diagnose a disease, and other such actions, you should make a Medicine check.
 
+#### Nature  
+Attributes: Heart, Soul  
+Taming, raising, training, and understanding animals. Planting, tending to, and caring for plants. Understanding nature in an intuitive and nurturing sense.
+
 #### Performance  
 Attributes: Finesse, Heart  
 Singing, dancing, storytelling. This skill is used to gauge how entertained a crowd is with a show.
@@ -1858,7 +1858,7 @@ Lock picking, trap laying, trap disabling. If you need to make some construction
 
 #### Science  
 Attributes: Mind, Soul  
-Chemistry, biology, zoology, proper experiment design, and the like. Alchemy in settings where that's appropriate as well. Essential skills for understanding the world accurately.
+Chemistry, biology, zoology, proper experiment design, and the like. Alchemy in settings where that's appropriate as well. Essential skills for understanding the world accurately. Understanding nature in a measured and studious sense.
 
 #### Stealth  
 Attributes: Finesse, Mind  
