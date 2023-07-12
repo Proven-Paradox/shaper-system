@@ -402,14 +402,32 @@ Mind -1
 Soul -1  
 Heart 0  
 HP Max: 20  
-Physical Attack: 6  
+Physical Attack: +4  
 Mental Attack: -2  
 Physical Defense: 12  
 Mental Defense: 9  
-Initiative: +1  
+Initiative: -1  
 
 *Strike* (Major action attack): x1 melee range, physical damage  
-*Careless Strike* (Major action attack): x2 melee range, physical damage, incoming attacks on the Minor Thug gain Boon +2.
+*Careless Strike* (Major action attack): x2 melee range, physical damage, incoming attacks on the Minor Thug gain Boon +2.  
+
+#### Medium Thug 
+Strength 3  
+Finesse 0  
+Toughness 3  
+Mind -1  
+Soul 0  
+Heart 0  
+HP Max: 50  
+Physical Attack: +6  
+Mental Attack: -1  
+Physical Defense: 14  
+Mental Defense: 10  
+Initiative: 0  
+
+*Bashing Strike* (Passive): On a Solid Hit, Strike causes the target to move 1 Square. This passive has a cooldown of 3 Rounds.  
+*Strike* (Major Action Attack): x1 melee range, physical damage  
+*Careless Strike* (Major Action Attack): x2 melee range, physical damage, incoming attack on the Medium Thug gain Boon +2.  
 
 ## Warriors
 The Warrior archetype represents creatures trained in combat that utilize physical attacks against the players. They generally will prefer to get into melee range to deal high damage. They may appear in groups with Archers or other similar types who can benefit from their strengths and/or cover their weaknesses. They fight intelligently and will prioritize casters and archers where possible.
