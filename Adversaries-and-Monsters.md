@@ -471,14 +471,16 @@ Mind 0
 Soul -1  
 Heart -1  
 HP Max: 30  
+MP Max: -  
 Physical Attack: 5  
 Mental Attack: -1  
-Physical Defense: 14  
+Physical Defense: 13  
 Mental Defense: 9  
-Initiative: +1  
+Initiative: 0  
 
 *Jab* (Major action attack): x1 melee range, physical damage  
-*Bash* (Major action attack): x1 melee range, physical damage, if Result is 5 or greater then the target and the  Warrior move to an adjacent square, cooldown 3
+*Bash* (Major action attack): x1 melee range, physical damage, if Result is 5 or greater then the target and the  Warrior move to an adjacent square, cooldown 3  
+*Protect* (Minor Aux), target is [Protected](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#protection) by the Minor Warrior.  
 
 #### Medium Warrior 
 Strength 2  
