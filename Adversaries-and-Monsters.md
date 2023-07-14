@@ -215,7 +215,7 @@ Toughness 0
 Mind 3  
 Soul 1  
 Heart 0  
-HP Max: 20  
+HP Max: 15  
 MP Max: 25
 Physical Attack: -1  
 Mental Attack: +5  
@@ -284,7 +284,7 @@ Toughness 0
 Mind 1  
 Soul 0  
 Heart 0  
-HP Max: 15  
+HP Max: 20  
 MP Max: 5  
 Physical Attack: +4  
 Mental Attack: +1  
@@ -294,7 +294,7 @@ Initiative: +5
 
 *Dash* (Minor Aux), move 2, 1 MP  
 *Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability, 1 MP  
-*Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+9) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
+*Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+5) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
 *Shoot* (Major Attack), x1 damage, physical, Long Range, 2 MP  
 *Slash* (Major Attack), x1 damage, physical, Melee Range  
 
@@ -377,6 +377,7 @@ Mind 0
 Soul 0  
 Heart 0  
 HP Max: 25  
+MP Max: -
 Physical Attack: +5  
 Mental Attack: +0  
 Physical Defense: 12  
@@ -384,7 +385,7 @@ Mental Defense: 10
 Initiative: +3  
 
 *Shoot* (Major action Attack), x1 damage, long.  
-*Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
+*Aim* (Minor action Auxiliary), gain Boon +3 on Shoot this turn.  
 
 #### Moderate Sniper
 Strength -1  
@@ -393,7 +394,8 @@ Toughness 1
 Mind 0  
 Soul 0  
 Heart 0  
-HP Max: 35  
+HP Max: 40  
+MP Max: 10
 Physical Attack: +8  
 Mental Attack: +0  
 Physical Defense: 14  
@@ -468,7 +470,7 @@ Toughness 1
 Mind 0  
 Soul -1  
 Heart -1  
-HP Max: 24  
+HP Max: 30  
 Physical Attack: 5  
 Mental Attack: -1  
 Physical Defense: 14  
