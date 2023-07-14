@@ -290,7 +290,7 @@ Mental Defense: 12
 Initiative: +5  
 
 *Dash* (Minor Aux), move 2, 1 MP  
-*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability  
+*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability, 1 MP  
 *Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+9) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
 *Shoot* (Major Attack), x1 damage, physical, Long Range, 2 MP  
 *Slash* (Major Attack), x1 damage, physical, Melee Range  
@@ -311,7 +311,7 @@ Mental Defense: 14
 Initiative: +7  
 
 *Dash* (Minor Aux), move 2, 1 MP  
-*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability  
+*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability, 1 MP  
 *Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+9) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
 *Shoot* (Major Attack), x1 damage, physical, Long Range, 2 MP  
 *Slash* (Major Attack), x1 damage, physical, Melee Range  
