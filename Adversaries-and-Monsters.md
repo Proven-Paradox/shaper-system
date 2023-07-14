@@ -27,8 +27,8 @@ Mind 0
 Soul 0  
 Heart 0  
 HP Max: 10  
-Physical Attack: 0  
-Mental Attack: 0  
+Physical Offense: 0  
+Mental Offense: 0  
 Physical Defense: 10  
 Mental Defense: 10  
 
@@ -46,8 +46,8 @@ Mind -1
 Soul -1  
 Heart -1  
 HP Max: 8  
-Physical Attack: 2  
-Mental Attack: -2  
+Physical Offense: 2  
+Mental Offense: -2  
 Physical Defense: 11  
 Mental Defense: 8  
 
@@ -65,8 +65,8 @@ Mind 0
 Soul 0  
 Heart 1  
 HP Max: 35  
-Physical Attack: 0  
-Mental Attack: 0  
+Physical Offense: 0  
+Mental Offense: 0  
 Physical Defense: 13  
 Mental Defense: 13  
 Initiative: 0  
@@ -84,8 +84,8 @@ Mind 0
 Soul 0  
 Heart 2  
 HP Max: 60  
-Physical Attack: 0  
-Mental Attack: 0  
+Physical Offense: 0  
+Mental Offense: 0  
 Physical Defense: 15  
 Mental Defense: 15  
 Initiative: 0  
@@ -107,8 +107,8 @@ Mind 0
 Soul -1  
 Heart 0  
 HP Max: 30  
-Physical Attack: 3  
-Mental Attack: -1  
+Physical Offense: 3  
+Mental Offense: -1  
 Physical Defense: 14  
 Mental Defense: 9  
 Initiative: -1  
@@ -129,8 +129,8 @@ Soul 1
 Heart 3  
 HP Max: 20  
 MP Max: 3  //TODO revise  
-Physical Attack: 0  
-Mental Attack: 2  
+Physical Offense: 0  
+Mental Offense: 2  
 Physical Defense: 12  
 Mental Defense: 13  
 Initiative: 1  
@@ -152,8 +152,8 @@ Soul 1
 Heart 3  
 HP Max: 35  
 MP Max: 5  // TODO REVISE  
-Physical Attack: 0  
-Mental Attack: +4  
+Physical Offense: 0  
+Mental Offense: +4  
 Physical Defense: 14  
 Mental Defense: 15  
 Initiative: +1  
@@ -176,8 +176,8 @@ Mind 0
 Soul 3  
 Heart 0  
 HP Max: 35  
-Physical Attack: -1  
-Mental Attack: 5  
+Physical Offense: -1  
+Mental Offense: 5  
 Physical Defense: 11  
 Mental Defense: 14  
 Initiative: 3  
@@ -194,8 +194,8 @@ Mind 0
 Soul 3  
 Heart 0  
 HP Max: 35  
-Physical Attack: -1  
-Mental Attack: +7  
+Physical Offense: -1  
+Mental Offense: +7  
 Physical Defense: 11  
 Mental Defense: 15  
 Initiative: +3  
@@ -217,8 +217,8 @@ Soul 1
 Heart 0  
 HP Max: 15  
 MP Max: 25
-Physical Attack: -1  
-Mental Attack: +5  
+Physical Offense: -1  
+Mental Offense: +5  
 Physical Defense: 10  
 Mental Defense: 12  
 Initiative: +1  
@@ -236,8 +236,8 @@ Soul 2
 Heart 0  
 HP Max: 30  
 MP Max: 40
-Physical Attack: -1  
-Mental Attack: +8  
+Physical Offense: -1  
+Mental Offense: +8  
 Physical Defense: 12  
 Mental Defense: 14  
 Initiative: +2  
@@ -263,8 +263,8 @@ Mind 2
 Soul 0  
 Heart 1  
 HP Max: 5  
-Physical Attack: +1  
-Mental Attack: +3  
+Physical Offense: +1  
+Mental Offense: +3  
 Physical Defense: 12  
 Mental Defense: 13  
 Initiative: +2  
@@ -286,8 +286,8 @@ Soul 0
 Heart 0  
 HP Max: 20  
 MP Max: 5  
-Physical Attack: +4  
-Mental Attack: +1  
+Physical Offense: +4  
+Mental Offense: +1  
 Physical Defense: 13  
 Mental Defense: 12  
 Initiative: +5  
@@ -307,8 +307,8 @@ Soul 0
 Heart 0  
 HP Max: 30  
 MP Max: 15  
-Physical Attack: +8  
-Mental Attack: +3  
+Physical Offense: +8  
+Mental Offense: +3  
 Physical Defense: 15  
 Mental Defense: 14  
 Initiative: +7  
@@ -332,8 +332,8 @@ Mind -3
 Soul 0  
 Heart 0  
 HP Max: 25  
-Physical Attack: +6  
-Mental Attack: -  
+Physical Offense: +6  
+Mental Offense: -  
 Physical Defense: 13  
 Mental Defense: 10  
 Initiative: -1  
@@ -354,8 +354,8 @@ Mind -2
 Soul -2  
 Heart 0  
 HP Max: 30  
-Physical Attack: 2  
-Mental Attack: -  
+Physical Offense: 2  
+Mental Offense: -  
 Physical Defense: 12  
 Mental Defense: 8  
 Initiative: +2  
@@ -378,8 +378,8 @@ Soul 0
 Heart 0  
 HP Max: 25  
 MP Max: -
-Physical Attack: +5  
-Mental Attack: +0  
+Physical Offense: +5  
+Mental Offense: +0  
 Physical Defense: 12  
 Mental Defense: 10  
 Initiative: +3  
@@ -396,8 +396,8 @@ Soul 0
 Heart 0  
 HP Max: 40  
 MP Max: 10
-Physical Attack: +8  
-Mental Attack: +0  
+Physical Offense: +8  
+Mental Offense: +0  
 Physical Defense: 14  
 Mental Defense: 12  
 Initiative: +3
@@ -413,8 +413,8 @@ Mind 0
 Soul 1  
 Heart 0  
 HP Max: 50  
-Physical Attack: +13  
-Mental Attack: +1  
+Physical Offense: +13  
+Mental Offense: +1  
 Physical Defense: 17  
 Mental Defense: 14  
 Initiative: +5  
@@ -433,8 +433,8 @@ Mind -1
 Soul -1  
 Heart 0  
 HP Max: 20  
-Physical Attack: +4  
-Mental Attack: -2  
+Physical Offense: +4  
+Mental Offense: -2  
 Physical Defense: 12  
 Mental Defense: 9  
 Initiative: -1  mi
@@ -450,8 +450,8 @@ Mind -1
 Soul 0  
 Heart 0  
 HP Max: 50  
-Physical Attack: +6  
-Mental Attack: -1  
+Physical Offense: +6  
+Mental Offense: -1  
 Physical Defense: 14  
 Mental Defense: 10  
 Initiative: 0  
@@ -472,8 +472,8 @@ Soul -1
 Heart -1  
 HP Max: 30  
 MP Max: -  
-Physical Attack: 5  
-Mental Attack: -1  
+Physical Offense: 5  
+Mental Offense: -1  
 Physical Defense: 13  
 Mental Defense: 9  
 Initiative: 0  
@@ -490,8 +490,8 @@ Mind 0
 Soul 0  
 Heart 0  
 HP Max: 40  
-Physical Attack: +8  
-Mental Attack: 0  
+Physical Offense: +8  
+Mental Offense: 0  
 Physical Defense: 15  
 Mental Defense: 11  
 Initiative: +1  
@@ -509,8 +509,8 @@ Mind 0
 Soul 0  
 Heart 0  
 HP Max: 70   
-Physical Attack: +12  
-Mental Attack: 0  
+Physical Offense: +12  
+Mental Offense: 0  
 Physical Defense: 18  
 Mental Defense: 13  
 Initiative: +1  
