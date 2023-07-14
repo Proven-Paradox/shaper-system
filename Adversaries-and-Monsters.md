@@ -64,14 +64,15 @@ Toughness 2
 Mind 0  
 Soul 0  
 Heart 1  
-HP Max: 60  
+HP Max: 35  
 Physical Attack: 0  
 Mental Attack: 0  
-Physical Defense: 14  
-Mental Defense: 13  
+Physical Defense: 13  
+Mental Defense: 12  
 Initiative: 0  
 
 *Taunt* (Passive)  
+*Strike* {Major Attack), x1 multiplier, physical
 *Defend* (Minor Aux), melee, target ally gains Cover, gain 2 Shield  
 *Challenge* (Minor Attack/Spell), medium, target is Provoked, +4/+3 to hit  
 
@@ -85,8 +86,8 @@ Heart 2
 HP Max: 60  
 Physical Attack: 0  
 Mental Attack: 0  
-Physical Defense: 15  
-Mental Defense: 15  
+Physical Defense: 14  
+Mental Defense: 14  
 Initiative: 0  
 
 *Taunt* (Passive)  
@@ -406,7 +407,7 @@ Physical Attack: +4
 Mental Attack: -2  
 Physical Defense: 12  
 Mental Defense: 9  
-Initiative: -1  
+Initiative: -1  mi
 
 *Strike* (Major action attack): x1 melee range, physical damage  
 *Careless Strike* (Major action attack): x2 melee range, physical damage, incoming attacks on the Minor Thug gain Boon +2.  
