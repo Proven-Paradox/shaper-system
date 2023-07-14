@@ -206,7 +206,7 @@ Initiative: +3
 *Zap* (Major Spell), x1 damage, choose one element for type, medium  
 
 ## Magi
-Magi tend to focus on doing damage from a medium distance. They often do elemental damage. They tend to hide behind Defenders or cover where they have the chance, as they are very fragile.  
+Magi tend to focus on doing damage from a medium distance. They often do elemental damage. Some magi are elemental specialists, while others can use multiple elements. They tend to hide behind Defenders or cover where they have the chance, as they are very fragile.  
 
 #### Minor Mage
 Strength -1  
@@ -216,15 +216,16 @@ Mind 3
 Soul 1  
 Heart 0  
 HP Max: 20  
-MP Max: 4  // TODO revise  
+MP Max: 25
 Physical Attack: -1  
-Mental Attack: 5  
+Mental Attack: +5  
 Physical Defense: 10  
 Mental Defense: 12  
 Initiative: +1  
 
-*Zap* (Major Spell), x1 damage, choose one of two elemental types, medium  
-*Quick Zap* (Minor Spell), x1 damage, physical, short, cannot be used on the same target as Zap in a round, 1 MP  
+*Blast* (Major Spell), x1 damage, Medium Range, targets Square, elemental damage, Cooldown 1, 5 MP  
+*Zap* (Major Spell), x1 damage, Medium Range, elemental damage  
+*Quick Zap* (Minor Spell), x1 damage, physical, Short Range, cannot be used on the same target as Zap in a round, cannot be used in the same round as Blast, 3 MP  
 
 #### Medium Mage  
 Strength -1  
@@ -233,20 +234,22 @@ Toughness 0
 Mind 3  
 Soul 2  
 Heart 0  
-HP Max: 25  
-MP Max: 6  //TODO revise
+HP Max: 30  
+MP Max: 40
 Physical Attack: -1  
-Mental Attack: +7  
-Physical Defense: 11  
-Mental Defense: 13  
+Mental Attack: +8  
+Physical Defense: 12  
+Mental Defense: 14  
 Initiative: +2  
 
-*Zap* (Major Spell), x2 damage, choose one of two elemental types, medium.  
-*Quick Zap* (Minor Spell), x1 damage, physical, short, cannot be used on the same target as Zap in a round, 1 MP  
-*Purge* (Minor Aux), Medium  
+*Blast* (Major Spell), x1 damage, Medium Range, targets Square, elemental damage, 5 MP  
+*Purge* (Minor Aux), Medium Range, 3 MP  
 Choose one:  
 * Reduce the target's Buff/Debuff track by 1, to a minimum of 0.  
-* Reduce the target's regeneration/degeneration track by 2, to a minimum of 0.  
+* End a buff on the target  
+*Zap* (Major Spell), x1 damage, elemental damage, Medium Range.  
+*Big Zap* (Major Spell), x2 damage, elemental damage, Medium Range, 5 MP  
+*Quick Zap* (Minor Spell), x1 damage, physical, Short Range, cannot be used on the same target as Big Zap in a round.  
 
 ## Nuisances
 The Nuisance archetype represents small, elusive adversaries that utilize mental attacks against the heroes. These may appear in groups with other nuisances, or assist a more impressive threat as minor support. They generally shouldn’t appear alone, as their low hit points means individuals will typically be dealt with quickly. Example nuisances include pixies, will o’ wisps, imps, elemental motes, and the like.  
