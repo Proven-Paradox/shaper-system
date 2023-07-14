@@ -2411,13 +2411,13 @@ There are many dangers in an adventure that can result in an injury. The most ob
 
 These are just a few examples, and the Arbiter can likely come up with more in their games.
 
-### Recovering  
+### Recovering
 There are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options. (Beyond healing Abilities, of course.)
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
    * This recovery method emphasizes action, enables risk taking, and encourages blowing everything quickly. This will result in faster battles since everyone is going full tilt at all times. Whatever happens will happen fast. 
-* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this mode, resting for an hour regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level (minimum 1 HP/MP per hour). Resting for eight hours regenerates all HP and MP and heals one injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, the target heals one additional injury during their rest. 
-   * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.
+* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this method, resting for an hour after a fight regenerates HP equal to the character's Toughness + Character Level and MP equal to character's Heart + Character Level (minimum 1 HP/MP). Resting for more than an hour provides no further benefit (unless that rest lasts 8 hours). Resting for 8 hours regenerates all HP and MP and heals one Injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 15 + twice the number of injuries the target has received. On a success, the target heals one additional injury during their rest.  
+   * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.  
 * *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this format, resting for eight hours regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
 
