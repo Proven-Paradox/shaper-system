@@ -2411,7 +2411,7 @@ There are many dangers in an adventure that can result in an injury. The most ob
 
 These are just a few examples, and the Arbiter can likely come up with more in their games.
 
-### Recovering From Injuries
+### Recovering  
 There are several ways to approach recovery of HP, MP, and injuries. Here are some recommended options. (Beyond healing Abilities, of course.)
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
