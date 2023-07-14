@@ -72,7 +72,7 @@ Mental Defense: 12
 Initiative: 0  
 
 *Taunt* (Passive)  
-*Strike* {Major Attack), x1 multiplier, physical
+*Strike* {Major Attack), x1 multiplier, physical  
 *Defend* (Minor Aux), melee, target ally gains Cover, gain 2 Shield  
 *Challenge* (Minor Attack/Spell), medium, target is Provoked, +4/+3 to hit  
 
