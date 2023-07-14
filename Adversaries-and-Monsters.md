@@ -68,7 +68,7 @@ HP Max: 35
 Physical Attack: 0  
 Mental Attack: 0  
 Physical Defense: 13  
-Mental Defense: 12  
+Mental Defense: 13  
 Initiative: 0  
 
 *Taunt* (Passive)  
@@ -86,8 +86,8 @@ Heart 2
 HP Max: 60  
 Physical Attack: 0  
 Mental Attack: 0  
-Physical Defense: 14  
-Mental Defense: 14  
+Physical Defense: 15  
+Mental Defense: 15  
 Initiative: 0  
 
 *Taunt* (Passive)  
@@ -271,7 +271,29 @@ Initiative: +2
 *Fuddle* (Major action auxiliary): Curse, medium range, duration 2 rounds, must succeed on mental attack or it fails. Imposes Bane -2. 
 Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP  
 
-## Rogues
+## Rogues  
+Rogues are mobile, tricky enemies that can do a lot of damage. They are slippery and hard to hit, but do not have much HP.  
+
+#### Minor Rogue  
+Strength 0  
+Finesse 2  
+Toughness 0  
+Mind 1  
+Soul 0  
+Heart 0  
+HP Max: 15  
+MP Max: 5  
+Physical Attack: +4  
+Mental Attack: +1  
+Physical Defense: 13  
+Mental Defense: 12  
+Initiative: +5  
+
+*Dash* (Minor Aux), move 2, 1 MP  
+*Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability  
+*Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+9) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
+*Shoot* (Major Attack), x1 damage, physical, Long Range, 2 MP  
+*Slash* (Major Attack), x1 damage, physical, Melee Range  
 
 #### Medium Rogue  
 Strength 0  
@@ -281,17 +303,20 @@ Mind 1
 Soul 0  
 Heart 0  
 HP Max: 30  
-MP Max: 3  //TODO revise
-Physical Attack: +6  
-Mental Attack: +1  
-Physical Defense: 14  
-Mental Defense: 12  
-Initiative: +6  
+MP Max: 15  
+Physical Attack: +8  
+Mental Attack: +3  
+Physical Defense: 15  
+Mental Defense: 14  
+Initiative: +7  
 
-*Shoot* (Major Attack), x2 damage, physical, long  
-*Dash* (Minor Aux), move 2  
-*Hide* (Minor Aux), gain Stealth, Cooldown 1, 1 MP    
+*Dash* (Minor Aux), move 2, 1 MP  
 *Dodge* (Counter Aux), increase Defense by 2 against an incoming Ability  
+*Hide* (Minor Aux), gain Stealth for 1 round, Cooldown 2, 3 MP; on use, make a Stealth roll (+9) against all enemies' Awareness; enemies who fail this check are [Flat Footed](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flat-footed) for the Rogue's Attacks while hiding.  
+*Shoot* (Major Attack), x1 damage, physical, Long Range, 2 MP  
+*Slash* (Major Attack), x1 damage, physical, Melee Range  
+*Sneak Attack* (Major Attack), x2 damage, physical, Short Range, 5 MP, can only be used on enemies who are Flat Footed.  
+
 
 ## Slimes
 Slimes come in many sizes and shapes. These could be a pool of magically animated gel, a huge amoeba, the result of an alchemical accident, or just blobs with faces on them. Slimes tend to be associated with a specific Element and generally deals damage of that type.
