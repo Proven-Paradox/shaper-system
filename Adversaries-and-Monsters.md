@@ -128,20 +128,20 @@ Mind 0
 Soul 1  
 Heart 3  
 HP Max: 20  
-MP Max: 3  //TODO revise  
+MP Max: 15  
 Physical Offense: 0  
 Mental Offense: 2  
 Physical Defense: 12  
 Mental Defense: 13  
 Initiative: 1  
 
-*Heal* (Major Aux), medium, heal target one die  
-*Big heal* (Major Aux), medium, heal target two dice, 1 MP  
-*Cleanse* (Minor Aux)  
+*Heal* (Major Aux), medium, heal target one die, 1 MP  
+*Big heal* (Major Aux), medium, heal target two dice, 3 MP  
+*Cleanse* (Minor Aux), 1 MP  
 Choose one:  
 * Increase the target along one buff/debuff track of your choice by two. You can only increase the value up to 0.  
 * Increase the target along all buff/debuff tracks by one. You can only increase the value up to 0.  
-* *Dart* (Major Spell), x1 damage, one element, medium  
+*Dart* (Major Spell), x1 damage, one element, medium  
 
 #### Medium Healer  
 Strength 0  
