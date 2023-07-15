@@ -370,12 +370,12 @@ Attacks or Spells that target entire Squares have their multipliers increased by
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
 #### Minor Sniper  
-Strength -1  
+Strength 0  
 Finesse 3  
 Toughness 0  
 Mind 0  
 Soul 0  
-Heart 0  
+Heart -1  
 HP Max: 25  
 MP Max: -
 Physical Offense: +5  
