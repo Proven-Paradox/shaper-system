@@ -1870,7 +1870,7 @@ Knowledge about the present. Understanding everyday goings on the seedier side o
 
 #### Survival  
 Attributes: Toughness, Soul  
-Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow tracks, and provide food for themselves and others in the wilderness.
+Navigating, tracking, hunting. Survival enables a character to know what direction to go to find their destination, follow tracks, and provide food for themselves and others in the wilderness. It also indicates how well the user handles rope or ties knots.  
 
 #### Tech  
 Attributes: Finesse, Mind  
