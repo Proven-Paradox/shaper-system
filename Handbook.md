@@ -2151,7 +2151,7 @@ You can speak with corpses. The corpses know everything they knew in life, up un
 #### Speak with the Recently Dead, Improved  
 XP Cost: 7  
 Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), [Hero Tier](#hero-tier) 2  
-You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have (Speak with the Ancient Dead)[#speak-with-the-ancient-dead] this effect extends to them.
+You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have [Speak with the Ancient Dead](#speak-with-the-ancient-dead) this effect extends to them.
 
 ------------
 
