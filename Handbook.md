@@ -2181,7 +2181,7 @@ When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expos
 #### Crushing Zeal  
 Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense and Initiative.
 
-#### Elemental Specialist (TYPE)
+#### Elemental Specialist  
 Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
 * You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
   * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
