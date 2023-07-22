@@ -216,7 +216,7 @@ Mind 3
 Soul 1  
 Heart 0  
 HP Max: 15  
-MP Max: 25
+MP Max: 25  
 Physical Offense: -1  
 Mental Offense: +5  
 Physical Defense: 10  
