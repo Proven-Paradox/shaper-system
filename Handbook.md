@@ -37,9 +37,11 @@
 - [Chapter 9: Talents](#chapter-9-talents)  
 - [Chapter 10: Combat](#chapter-10-combat) 
   - [Time in Combat](#time-in-combat)
-  - [Positioning](#positioning)
   - [Impact](#impact)
   - [Chasing rules](#chasing-rules)
+  - [Positioning](#positioning)
+    - [Squares](#squares)
+    - [Advanced Positioning](#advanced-positioning)
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
   - [HP](#hp)
   - [Damage Types](#damage-types)
@@ -2294,11 +2296,6 @@ Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abiliti
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
 
-## Positioning
-Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
-Combat is broken up into Squares. A combat Square should generally be somewhere between 20-30 feet in length on each side, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and everyone in a Square can reach each other.  
-Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.
-
 ## Impact 
 To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
@@ -2312,6 +2309,30 @@ Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or h
 
 ### Matches
 Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
+
+## Positioning  
+Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
+
+### Squares  
+Combat is broken up into Squares. A combat Square should generally be somewhere between 15-20 feet in length on each side, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and everyone in a Square can reach each other.  
+Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
+
+### Advanced Positioning  
+Rules for more advanced, granular, and tactical movement. These rules will not be used every combat; many combat scenarios don't really need this level of precision. The Arbiter should specifically point out when they're running a combat with these rules.  
+
+#### Subsquares  
+Subsquares are a way of dividing up a normal Square in situations where precise positioning is necessary. Each Subsquare is a portion of a larger Square.  
+When you first enter a Square that contain Subsquares, you choose which Subsquare you land on. Any time after, you can change which Subsquare you occupy by doing anything that would allow you to move.  
+Unlike regular Squares, Subsquares can only have one character in them at a time. Allies do not block movement for each other, but one cannot walk through Subsquares that contain an enemy.  
+You do not need to be in the same Subsquare as an ally to affect them with your Melee Range Abilities (such as Guard or Healing Touch). Using these Abilities on an ally causes you to move adjacent to them automatically. You cannot do this if you do not have line of sight to target ally.  
+Subsquares generally come up when line of sight or cover becomes a factor in a fight. Each situation with Subsquares includes rules on how line of sight or effect is determined in their descriptions.  
+Characters can move between top level Squares as normal, regardless of which Subsquare you start from.  
+Some examples of Subsquare use:  
+
+##### Central column  
+A Square that includes a column, pillar, or other obstruction at its center. The containing Square is divided up into 9 Subsquares. The central Subsquare is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight, just count the number of Subsquares away your target is. Count orthogonality; i.e. without moving diagonally. Any target more than two Subsquares away is blocked; the pillar is between you and your target.
+
+//TODO: Visual aid, more examples
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
