@@ -1690,6 +1690,17 @@ Description: This Ability represents someone able to push themselves to the limi
 
 > By using Sprint with one's Minor Action and Run with one's Major Action, a character with Run can move 4 Squares per round, but not forever.  
 
+#### Subversive Scan  
+Spell [Curse]  
+Action: Major  
+Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose), [Scan](#scan)  
+Range: Medium  
+Targets: 1 enemy  
+Cost: 3 MP  
+Damage: 0  
+Effect: You learn the target's properties as if you affect them with Scan. If you hit with this Ability, the target also decreases their [Defensive Track](#the-defensive-track) or [Offensive Track](#the-offense-track) by 1.  
+Description: Analyzing enemy capabilities while also damaging them. This could be a psychic assault that reads the mind it is damaging, hacking into an opponent's equipment and messing it up, a curse that reveals its target's secret weaknesses to the user, or something similar that can read information while also hobbling their target.  
+
 #### Suspend  
 Spell  
 Action: Major  
