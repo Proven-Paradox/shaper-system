@@ -3,20 +3,24 @@
 Figure out how to explain adversary archetypes at some point. Add notes about figuring out skill mods when they’re not listed.
 */
 
-# Table of Contents
-- [Bystander](#bystander)
-- [Creeps](#creeps)
-- [Defenders](#defenders)
-- [Grapplers](#grapplers)
-- [Healers](#healers)
-- [Magi](#magi)
-- [Nuisances](#nuisances)
-- [Rogues](#rogues)
-- [Snipers](#snipers)
-- [Thugs](#thugs)
-- [Slimes](#slimes)
-- [Swarms](#swarms)
-- [Warriors](#warriors)
+# Table of Contents  
+- [Enemy Categories](#enemy-categories)  
+  - [Bystander](#bystander)  
+  - [Creeps](#creeps)  
+  - [Defenders](#defenders)  
+  - [Grapplers](#grapplers)  
+  - [Healers](#healers)  
+  - [Magi](#magi)  
+  - [Nuisances](#nuisances)  
+  - [Rogues](#rogues)  
+  - [Snipers](#snipers)  
+  - [Thugs](#thugs)  
+  - [Slimes](#slimes)  
+  - [Swarms](#swarms)  
+  - [Warriors](#warriors)  
+- [Monster Rules and Traits](#monster-rules-and-traits)  
+
+# Enemy Categories
 
 ## Bystander
 A bystander represents a person who has no combat training and nothing about them that would be suitable to fighting. They are more likely to try to run, hide, or seek assistance from someone actually ready to fight during combat. The person they represent may have different Attributes, but with no combat ability or experience they are unlikely to be able to effectively use them when a fight breaks out.  
@@ -539,3 +543,10 @@ Initiative: +1
 *Restrain* (Major Attack), x1 damage, physical, melee, on success [Grab](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#grab) the target  
 *Bash* (Major Attack), x1 damage, physical, melee, on success move target 1 square  
 *Protect* (Minor Aux), target is [Protected](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#protection) by the Major Warrior.  
+
+# Monster Rules and Traits  
+
+## Size X  
+Particularly large enemies may have a Size stat. This increases how difficult it is to restrict a creature's movement; it's harder to grab and hold down bigger creatures. Size comes into play when targeting a creature with an Ability that would cause the creature to move against its will (such as [Bash](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#bash) ) or gain an ailment that would restrict its ability to move (such as [Root](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#bash) or [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) ). Such Abilities do damage as normal, but they must have a result X higher to successfully move or restraint the creature.  
+> For example, Balam is trying to hit with the Bash Ability. If he scores a Solid Hit with the Attack, he moves his target 1 Square. If his target has 14 Physical Defense and his result is 19, he deals 5 Physical damage to his target and moves them. If that target were a grizzly bear with Size 2, a result of 19 would still do 5 damage, but he needs a result of at least 21 to successfully move the bear. (The 21 result would still increase to 7 damage, as normal.)
+//TODO more examples of different size levels
