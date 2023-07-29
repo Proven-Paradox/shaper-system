@@ -269,9 +269,9 @@ Physical Defense: 11
 Mental Defense: 12  
 Initiative: +2  
 
+*Hover* (Passive)  
 *Zap* (Major action spell): x1 multiplier, medium range. Damage type is the same as this creature’s elemental resistance.  
 *Muddle* (Minor action Spell): Curse, medium range, duration 2 rounds, cooldown 2 rounds. On a successful hit, afflicts a curse which imposes Bane -2 on all rolls.  
-Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP  
 
 #### Medium Nuisance  
 Strength -1  
@@ -288,10 +288,10 @@ Physical Defense: 12
 Mental Defense: 13  
 Initiative: +3  
 
+*Hover* (Passive)  
 *Zap* (Major action spell): x1 multiplier, medium range. Damage type is the same as this creature’s elemental resistance.  
 *Big Zap* (Major action spell): x2 multiplier, medium range. Damage type is the same as this creature’s elemental resistance, 1 MP.  
 *Muddle* (Minor action Spell): Curse, medium range, duration 2 rounds, cooldown 2 rounds. On a successful hit, afflicts a curse which imposes Bane -2 on all rolls.  
-Hover (Minor action auxiliary): Move one square and ignore a single Terrain effect for one round. 2 MP  
 
 ## Rogues  
 Rogues are mobile, tricky enemies that can do a lot of damage. They are slippery and hard to hit, but do not have much HP.  
