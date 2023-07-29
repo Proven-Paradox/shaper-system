@@ -2228,11 +2228,12 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 * Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
 
 #### Heavy Hitter  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
-* Knock your target(s) [Prone](#prone).
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).
+You hit so hard that you can knock your foes around without actively trying to. When you make an Attack or Spell and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
+* Knock your target(s) [Prone](#prone).  
+* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).  
 * Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.  
-You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single attack (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to a roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.
+You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
+This Talent also reduces the effect of the [Size](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#size-x) quality on enemies by your Hero Tier. This is a passive effect that applies to all Attacks and Spells, not just Critical Hits.  
 
 #### Intelligent Avoidance  
 You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
