@@ -2274,8 +2274,8 @@ You make your spells more deadly by striking with superior control and aim. You 
 #### Sturdy Shield  
 You can use your physical sturdiness to protect yourself against mental forces. You may use your Toughness in place of Heart to determine your Mental Defense.
 
-#### Unyielding Zeal  
-You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.
+#### Unyielding Confidence  
+You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.  
 
 ------------
 # Chapter 10: Combat
