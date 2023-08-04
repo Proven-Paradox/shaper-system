@@ -1,4 +1,7 @@
-﻿# Table of Contents
+﻿# This is a living document!  
+This page is still being actively updated. For the time being updates will be irregular. You can keep up with changes to the document with the history links above, and I also post logs of significant updates to the Discord channel. While the core systems in place here are not going to change very much going forward, balance alterations and additional content are still being made.  
+
+# Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
   - [Rolling Dice](#rolling-dice)
