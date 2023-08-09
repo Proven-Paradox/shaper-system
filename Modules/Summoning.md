@@ -44,7 +44,7 @@ When you gain this Ability, you automatically gain the [Summoning Attunement](#s
 You may spend MP up to a maximum of your level when you first use this Ability. The being summoned has max HP equal to five times the amount of MP spent.  
 When you use this Ability, choose one version of Summon Configuration benefits to add to the summoned creature.  
 Summoned creatures may move during the summoner's turn once for free. The summoner may commit a Minor action to move the ally a second square.  
-You may only summon one creature at a time. If a summoned creature dies, you cannot use Summon again to call to a creature with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one by using this Ability again.  
+You may only summon one creature at a time. If a summoned creature dies, you cannot use Summon with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one by using this Ability again.  
 Description: This Ability allows you to draw a second creature to your aid. This could be the result of necromancy, alchemy, robotics, conjuration, imbuing a familiar with combat ability, ritual summoning, or any other effect that would result in an additional creature involved in the combat. As long as you pay the MP cost and the ally is not killed, the creature remains on hand to help in combat.
 
 > The high MP cost and Upkeep of this Ability makes it a poor choice for low level characters. No one can stop you from taking this as one of your first three Abilities, but this would typically be a poor tactical decision as you should probably get a few levels of Capacity to support the MP costs.
@@ -101,6 +101,7 @@ When you gain this Lesson, pick one of the following: Defender, Mental Attacker,
 
 #### Summon Configuration: Defender  
 Summons created with this Configuration have twice as much HP as other types, as well as a bonus to Physical and Mental Defense equal to twice your Hero Tier. This ally cannot move once per turn for free like other summons; it must take a minor action from the summoner to move. Summons created this way have Taunt, and the following option for the Summoner:
+//TODO scaling
 
 ##### Overwhelm 
 Attack  
@@ -112,6 +113,7 @@ The Defender ally makes an Attack with a x1 damage multiplier. If this attack su
 
 #### Summon Configuration: Mental Attacker  
 Summons created with this Configuration have a bonus to Mental Attack equal to twice your Hero Tier. Summons created this way have two options.
+//TODO scaling
 
 ##### Zap  
 Spell   
@@ -131,6 +133,7 @@ The Mental Attacker ally makes a mental attack with a x2 multiplier. This cannot
 
 #### Summon Configuration: Physical Attacker  
 Summons created with this Configuration have a bonus to Physical Attack equal to twice your Hero Tier. This ally may move two spaces per turn for free. This ally has two options.
+//TODO scaling
 
 ##### Strike  
 Attack  
@@ -150,6 +153,7 @@ The Mental Attacker ally makes a physical attack with a x2 multiplier. This cann
 
 #### Summon Configuration: Support  
 Summons created with this Configuration have the following options.
+//TODO rework
 
 ##### Soothe  
 Auxiliary  
