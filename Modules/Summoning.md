@@ -38,7 +38,7 @@ Action: Minor
 Prerequisites: None  
 Range: Short  
 Targets: None  
-Cost: Variable (See Special) (Upkeep: 2 MP)  
+Cost: Variable (See Special) (Upkeep: 3 MP)  
 Special: You summon a friendly Basic Summon creature to assist you in combat. The creature summoned is described below.  
 When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
 You may spend MP up to a maximum of your level when you first use this Ability. The being summoned has max HP equal to five times the amount of MP spent.  
