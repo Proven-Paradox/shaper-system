@@ -122,6 +122,7 @@ For every MP used to summon it, the Attacker gains +1 to its Physical Offense an
 | 3                  | +5               | 14               | 13             | 15     |
 | 4                  | +6               | 14               | 14             | 20     |
 | 5                  | +7               | 15               | 14             | 25     |
+...  
 
 ##### Strike  
 Attack  
@@ -129,20 +130,56 @@ Action: None
 Range: Melee  
 Targets: 1 enemy  
 Summoner MP Cost: 0  
-The Spellcaster ally makes a physical attack with a x1 multiplier. This can be done for free once per turn.
+The Spellcaster ally makes a physical attack with a x1 multiplier. This can be done for free once per turn.  
 
 ##### Empowered Strike  
 Attack  
 Action: Minor  
 Range: Melee  
 Targets: 1 enemy  
-Summoner MP Cost: 3 MP 
-The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.
+Summoner MP Cost: 3 MP  
+The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
 
 #### Summon Configuration: Support  
-Summons created with this Configuration have the following options.
-//TODO rework
-//TODO Consider making higher DPS focuses in Lessons  
+The Support configuration is not very good at dealing damage, but is able to keep summoners and their allies on their feet by sharing their HP.  
+For every MP used to summon it, the Support gains +6 Max HP. In addition, every odd MP used (1, 3, 5, ...) gives it +1 Mental Defense, and every even MP used (2, 4, 6, ...) gives it +1 Mental Offense and Physical Defense.  
+Support Summons have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities. It starts at 4, and every level divisible by 3 (3, 6, 9, ...) it increases by 1.  
+//TODO Consider giving status ailment relief, other utilities in Lessons. Maybe efficiency Lesson that reduces the self drain on using Soothe  
+
+| MP Spent to summon | Mental Offense | Physical Defense | Mental Defense | Max HP | Efficacy |
+|--------------------|----------------|------------------|----------------|--------|----------|
+| 1                  | +2             | 12               | 13             | 6      | 4        |
+| 2                  | +3             | 13               | 13             | 12     | 4        |
+| 3                  | +3             | 13               | 14             | 18     | 5        |
+| 4                  | +4             | 14               | 14             | 24     | 5        |
+| 5                  | +4             | 14               | 15             | 30     | 5        |
+| 6                  | +5             | 15               | 15             | 36     | 6        |
+...  
+
+##### Jolt  
+Spell  
+Action: None  
+Range: Short  
+Targets: 1 enemy  
+Summoner MP Cost: 0  
+The Support ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn.  
+
+##### Soothe  
+Auxiliary  
+Action: None  
+Range: Short  
+Targets: 1 ally  
+Summoner MP Cost: 0  
+The Support ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn.  
+
+##### Empowered Soothe  
+Auxiliary  
+Action: Minor  
+Range: Medium  
+Targets: 1 ally  
+Summoner MP Cost: 2 MP  
+The Support ally heals the target an amount equal to twice its Efficacy and loses that much HP. This cannot be done on the same turn where Jolt or Soothe has already been used.  
+
 ***
 
 ## Summoning Lessons
