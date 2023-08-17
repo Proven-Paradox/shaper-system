@@ -92,6 +92,7 @@ This configuration serves as a source of cover. Though slower than the other typ
 #### Summon Configuration: Spellcaster  
 Summons created with this Configuration have a bonus to Mental Attack equal to twice your Hero Tier. Summons created this way have two options.
 //TODO scaling
+//TODO Consider making utility/ailment options
 
 ##### Zap  
 Spell   
@@ -111,6 +112,7 @@ The Spellcaster ally makes a mental attack with a x2 multiplier. This cannot be 
 
 #### Summon Configuration: Attacker  
 This configuration is a hyper mobile ally that gets into melee with foes and deals physical damage.  
+//TODO Consider making higher DPS focuses  
 For every MP used to summon it, the Attacker gains +1 to its Physical Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Physical Defense, and every even point (2, 4, 6, ...) gives it +1 Mental Defense.  
 
 | MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
@@ -143,6 +145,7 @@ Summons created with this Configuration have the following options.
 ***
 
 ## Summoning Lessons
+//TODO: revise  
 
 #### Assisting Summon  
 Prerequisites: [Summon Configuration: Support](#summon-configuration-support)  
@@ -193,6 +196,7 @@ Your summons gain an additional +1 to Physical and Mental Defense. In addition, 
 ***
 
 ## Advanced Options  
+//TODO: revise  
 When using [Advanced Summon](#advanced-summon) or a stronger versions of Summon, the summoned creature gains an Advanced Option. These are additional options the summoned creature benefits from.
 
 ### Universal Options  
