@@ -162,7 +162,7 @@ Special: This attack has a x1 multiplier and moves the target one square.
 
 #### Blaster Summon  
 Prerequisites: [Summon Configuration: Spellcaster](#summon-configuration-spellcaster)  
-Your summons gain an additional +1 to Physical and Mental Attack. Your Mental Attack Configuration ally gains the following option:
+Your summons gain an additional +1 to Physical and Mental Attack. Your Spellcaster Configuration ally gains the following option:
 
 ##### Blast  
 Spell  
@@ -214,7 +214,7 @@ When using its Overwhelm ability, your Defender Configuration ally may use its P
 When struck by a melee range attack, your Defender Configuration ally deals X damage to the attacker, where X equals half the MP used to initially summon it.
 
 ### Spellcaster Options  
-These options are available only to [Mental Attack Configuration](#summon-configuration-spellcaster) summons.
+These options are available only to [Spellcaster Configuration](#summon-configuration-spellcaster) summons.
 
 #### Summoned Flight  
 Your summoned ally has Flight.
@@ -244,4 +244,4 @@ Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
 ## Talent
 
 #### Double Summon
-You may have two summon allies active at the same time.
+You may have two summon allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instread refund the XP spent on one of those lessons.  
