@@ -162,7 +162,7 @@ Action: None
 Range: Short  
 Targets: 1 enemy  
 Summoner MP Cost: 0  
-The Support ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn.  
+The Support ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn, but cannot be used on the same turn as they use Soothe.  
 
 ##### Soothe  
 Auxiliary  
@@ -170,7 +170,7 @@ Action: None
 Range: Short  
 Targets: 1 ally  
 Summoner MP Cost: 0  
-The Support ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn.  
+The Support ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn, but cannot be used on the same turn as they use Jolt.  
 
 ##### Empowered Soothe  
 Auxiliary  
