@@ -92,7 +92,7 @@ This configuration serves as a source of cover. Though slower than the other typ
 #### Summon Configuration: Spellcaster  
 Summons created with this Configuration have a bonus to Mental Attack equal to twice your Hero Tier. Summons created this way have two options.
 //TODO scaling
-//TODO Consider making utility/ailment options in Lessons  
+//TODO Consider making utility/ailment options
 
 ##### Zap  
 Spell   
@@ -112,7 +112,7 @@ The Spellcaster ally makes a mental attack with a x2 multiplier. This cannot be 
 
 #### Summon Configuration: Attacker  
 This configuration is a hyper mobile ally that gets into melee with foes and deals physical damage.  
-//TODO Consider making higher DPS focuses in Lessons  
+//TODO Consider making higher DPS focuses  
 For every MP used to summon it, the Attacker gains +1 to its Physical Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Physical Defense, and every even point (2, 4, 6, ...) gives it +1 Mental Defense.  
 
 | MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
@@ -140,18 +140,8 @@ Summoner MP Cost: 3 MP
 The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.
 
 #### Summon Configuration: Support  
-This configuration is not a strong damage dealer, but is able to keep the summoner and their allies alive by sharing its HP with them.  
-//TODO Utility focuses in Lessons  
-| MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
-|--------------------|------------------|------------------|----------------|--------|
-| 1                  | +3               | 13               | 12             | 5      |
-| 2                  | +4               | 13               | 13             | 10     |
-| 3                  | +5               | 14               | 13             | 15     |
-| 4                  | +6               | 14               | 14             | 20     |
-| 5                  | +7               | 15               | 14             | 25     |
-
-
-
+Summons created with this Configuration have the following options.
+//TODO rework
 ***
 
 ## Summoning Lessons
