@@ -84,32 +84,6 @@ There are four broad categories a summoned creature can fall into. Attacker, Def
 ### Summoning Attunement
 When you gain this Lesson, pick one of the following: Attacker, Defender, Spellcaster, or Support. Whenever you use a [Summoning] Ability, you can summon an Ally of the corresponding type.
 
-#### Summon Configuration: Defender  
-This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. In addition to the stats 
-
-//TODO rework
-
-#### Summon Configuration: Spellcaster  
-Summons created with this Configuration have a bonus to Mental Attack equal to twice your Hero Tier. Summons created this way have two options.
-//TODO scaling
-//TODO Consider making utility/ailment options in Lessons  
-
-##### Zap  
-Spell   
-Action: None  
-Range: Medium  
-Targets: 1 enemy  
-Summoner MP Cost: 0  
-The Spellcaster ally makes a mental attack with a x1 multiplier. This can be done for free once per turn.
-
-##### Empowered Zap  
-Spell  
-Action: Minor  
-Range: Medium  
-Targets: 1 enemy  
-Summoner MP Cost: 2 MP  
-The Spellcaster ally makes a mental attack with a x2 multiplier. This cannot be done on the same turn where Zap has already been used.
-
 #### Summon Configuration: Attacker  
 This configuration is a hyper mobile ally that gets into melee with foes and deals physical damage.  
 //TODO Consider making higher DPS focuses in Lessons  
@@ -139,6 +113,39 @@ Range: Melee
 Targets: 1 enemy  
 Summoner MP Cost: 3 MP  
 The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
+
+#### Summon Configuration: Defender  
+This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. 
+//TODO rework  
+
+#### Summon Configuration: Spellcaster  
+This configuration is an ally with unremarkable mobility but high range.
+//TODO Consider adding utility/ailment options in Lessons  
+For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Mental Defense, and every even point (2, 4, 6, ...) gives it +1 Physical Defense.  
+
+| MP Spent to summon | Mental Offense | Physical Defense | Mental Defense | Max HP |
+|--------------------|----------------|------------------|----------------|--------|
+| 1                  | +3             | 12               | 13             | 5      |
+| 2                  | +4             | 13               | 13             | 10     |
+| 3                  | +5             | 13               | 14             | 15     |
+| 4                  | +6             | 14               | 14             | 20     |
+| 5                  | +7             | 14               | 15             | 25     |
+
+##### Zap  
+Spell   
+Action: None  
+Range: Medium  
+Targets: 1 enemy  
+Summoner MP Cost: 0  
+The Spellcaster ally makes a mental attack with a x1 multiplier. This can be done for free once per turn.
+
+##### Empowered Zap  
+Spell  
+Action: Minor  
+Range: Long  
+Targets: 1 enemy  
+Summoner MP Cost: 2 MP  
+The Spellcaster ally makes a mental attack with a x2 multiplier. This cannot be done on the same turn where Zap has already been used.
 
 #### Summon Configuration: Support  
 The Support configuration is not very good at dealing damage, but is able to keep summoners and their allies on their feet by sharing their HP.  
