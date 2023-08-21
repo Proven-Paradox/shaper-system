@@ -30,9 +30,9 @@
 - [Talent](#talent)  
   - [Double Summon](#double-summon)
  
-## Abilities
+# Abilities
 
-### Basic Summon    
+## Basic Summon    
 Auxiliary [Summoning]  
 Action: Minor  
 Prerequisites: None  
@@ -51,7 +51,7 @@ Summoned creatures do not have MP of their own. Any of their Abilities that cost
 
 > The high MP cost and Upkeep of this Ability makes it a poor choice for low level characters. No one can stop you from taking this as one of your first three Abilities, but this would typically be a poor tactical decision as you should probably get a couple levels of Capacity to support the MP costs.
 
-### Advanced Summon
+## Advanced Summon
 Tier: 2
 Auxiliary [Summoning]  
 Action: Minor  
@@ -63,10 +63,10 @@ Special: You summon a friendly Advanced Summon creature to assist you in combat.
 You may spend MP up to a maximum of your level and a minimum of 6. The being summoned has max HP equal to five times the amount of MP spent. In addition, you may select one Advanced Option.
 ***
 
-## The Base Summons
-These are the stats of the base summoned creatures. These describe a Summon with 1 MP spent
+# The Base Summons
+These are the stats of the base summoned creatures. These describe a Summon with 1 MP spent, before the bonuses of its Configuration are applied.  
 
-### Basic Summon  
+## Basic Summon  
 Strength: 1  
 Finesse: 1  
 Toughness: 1  
@@ -78,13 +78,13 @@ Mental Offense: +2
 Physical Defense: 12  
 Mental Defense: 12  
 
-## Summon Configurations  
+# Summon Configurations  
 There are four broad categories a summoned creature can fall into. Attacker, Defender, Attacker, Spellcaster, and Support. You gain access to these configurations through the following Lesson:  
 
-### Summoning Attunement
+## Summoning Attunement
 When you gain this Lesson, pick one of the following: Attacker, Defender, Spellcaster, or Support. Whenever you use a [Summoning] Ability, you can summon an Ally of the corresponding type.
 
-#### Summon Configuration: Attacker  
+### Summon Configuration: Attacker  
 This configuration is a hyper mobile ally that gets into melee with foes and deals physical damage.  
 //TODO Consider making higher DPS focuses in Lessons  
 For every MP used to summon it, the Attacker gains +1 to its Physical Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Physical Defense, and every even point (2, 4, 6, ...) gives it +1 Mental Defense.  
@@ -98,7 +98,7 @@ For every MP used to summon it, the Attacker gains +1 to its Physical Offense an
 | 5                  | +7               | 15               | 14             | 25     |
 ...  
 
-##### Strike  
+#### Strike  
 Attack  
 Action: None  
 Range: Melee  
@@ -106,7 +106,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Spellcaster ally makes a physical attack with a x1 multiplier. This can be done for free once per turn.  
 
-##### Empowered Strike  
+#### Empowered Strike  
 Attack  
 Action: Minor  
 Range: Melee  
@@ -114,7 +114,7 @@ Targets: 1 enemy
 Summoner MP Cost: 3 MP  
 The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
 
-#### Summon Configuration: Defender  
+### Summon Configuration: Defender  
 This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. 
 //TODO more tanking options in lessons  
 For every MP used to summon it, the Defender gains +1 to its Physical and Mental Defense and +7 Max HP. Every even point (2, 4, 6, ...) gives it +1 Physical Offense.  7
@@ -127,15 +127,15 @@ For every MP used to summon it, the Defender gains +1 to its Physical and Mental
 | 4                  | +4               | 16               | 16             | 28     |
 | 5                  | +4               | 17               | 17             | 35     |  
 
-##### Immobile  
+#### Immobile  
 Passive  
 Defender allies cannot move for free once per turn, unlike other summoned allies.  
 
-##### Taunt  
+#### Taunt  
 Passive  
 The Defender ally must be targeted first, before other allies in its square. For details, see the [handbook entry](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#taunt).  
 
-##### Slam  
+#### Slam  
 Attack  
 Action: None  
 Range: Melee  
@@ -143,7 +143,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Defender ally makes a Physical Attack with a x1 multiplier. This can be done for free once per turn.  
 
-##### Demanding Slam  
+#### Demanding Slam  
 Attack  
 Action: Minor  
 Range: Melee  
@@ -152,7 +152,7 @@ Summoner MP Cost: 2
 The Defender ally makes a Physical Attack with a x1 multiplier using its Physical [Defense Bonus](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#defense-bonus). If this Attack hits, the Defender ally [Provokes](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#provoke) its target.  
 
 
-#### Summon Configuration: Spellcaster  
+### Summon Configuration: Spellcaster  
 This configuration is an ally with unremarkable mobility but high range.
 //TODO Consider adding utility/ailment options in Lessons  
 For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Mental Defense, and every even point (2, 4, 6, ...) gives it +1 Physical Defense.  
@@ -165,7 +165,7 @@ For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense a
 | 4                  | +6             | 14               | 14             | 20     |
 | 5                  | +7             | 14               | 15             | 25     |
 
-##### Zap  
+#### Zap  
 Spell   
 Action: None  
 Range: Medium  
@@ -173,7 +173,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Spellcaster ally makes a mental attack with a x1 multiplier. This can be done for free once per turn.
 
-##### Empowered Zap  
+#### Empowered Zap  
 Spell  
 Action: Minor  
 Range: Long  
@@ -181,7 +181,7 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP  
 The Spellcaster ally makes a mental attack with a x2 multiplier. This cannot be done on the same turn where Zap has already been used.
 
-#### Summon Configuration: Support  
+### Summon Configuration: Support  
 The Support configuration is not very good at dealing damage, but is able to keep summoners and their allies on their feet by sharing their HP.  
 For every MP used to summon it, the Support gains +6 Max HP. In addition, every odd MP used (1, 3, 5, ...) gives it +1 Mental Defense, and every even MP used (2, 4, 6, ...) gives it +1 Mental Offense and Physical Defense.  
 Support Summons have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities. It starts at 4, and every level divisible by 3 (3, 6, 9, ...) it increases by 1.  
@@ -194,10 +194,9 @@ Support Summons have a value called their Healing Efficacy (generally shortened 
 | 3                  | +3             | 13               | 14             | 18     | 5        |
 | 4                  | +4             | 14               | 14             | 24     | 5        |
 | 5                  | +4             | 14               | 15             | 30     | 5        |
-| 6                  | +5             | 15               | 15             | 36     | 6        |
-...  
+| 6                  | +5             | 15               | 15             | 36     | 6        |  
 
-##### Jolt  
+#### Jolt  
 Spell  
 Action: None  
 Range: Short  
@@ -205,7 +204,7 @@ Targets: 1 enemy
 Summoner MP Cost: 0  
 The Support ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn, but cannot be used on the same turn as they use Soothe.  
 
-##### Soothe  
+#### Soothe  
 Auxiliary  
 Action: None  
 Range: Short  
@@ -213,7 +212,7 @@ Targets: 1 ally
 Summoner MP Cost: 0  
 The Support ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn, but cannot be used on the same turn as they use Jolt.  
 
-##### Empowered Soothe  
+#### Empowered Soothe  
 Auxiliary  
 Action: Minor  
 Range: Medium  
@@ -223,18 +222,18 @@ The Support ally heals the target an amount equal to twice its Efficacy and lose
 
 ***
 
-## Summoning Lessons
+# Summoning Lessons
 //TODO: revise  
 
-#### Assisting Summon  
+## Assisting Summon  
 Prerequisites: [Summon Configuration: Support](#summon-configuration-support)  
 Your summons gain an additional +1 to Physical and Mental Defense. In addition, when your Support Configuration uses Soothe or Empowered Soothe, the target is immediately healed for the same amount as it gain in Regen. (So 1 HP for Soothe, 2 HP for Empowered Soothe, when looking at the default Support Configuration summon.)
 
-#### Basher Summon  
+## Basher Summon  
 Prerequisites: [Summon Configuration: Attacker](#summon-configuration-physical-attacker)  
 Your summons gain an additional +1 to Physical and Mental Attack. Your Physical Attack Configuration ally against the following option:
 
-##### Bash  
+### Bash  
 Attack  
 Action: Minor  
 Range: Melee  
@@ -242,11 +241,11 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP  
 Special: This attack has a x1 multiplier and moves the target one square.  
 
-#### Blaster Summon  
+## Blaster Summon  
 Prerequisites: [Summon Configuration: Spellcaster](#summon-configuration-spellcaster)  
 Your summons gain an additional +1 to Physical and Mental Attack. Your Spellcaster Configuration ally gains the following option:
 
-##### Blast  
+### Blast  
 Spell  
 Action: Minor  
 Range: Medium  
@@ -254,77 +253,77 @@ Targets: 1 square
 Summoner MP Cost: 2 MP  
 Special: The Spellcaster ally makes a mental attack on all creatures in the square with a x1 multiplier. This cannot be done on the same turn where Zap has already been used.
 
-#### Bodyguard Summon  
+## Bodyguard Summon  
 Prerequisites: [Summon Configuration: Defender](#summon-configuration-defender)  
 Your summoned allies gain an additional +1 to Physical and Mental Defense. In addition, your Defender Configuration ally may, as a minor action from the summoner, provide Cover to one creature in the same square as it. While doing this, the ally loses the Taunt property. This Cover lasts until the summoner chooses to withdraw it or if the creature provided Cover moves out of that your Defender Configuration's square, at which point the Defender immediately regains Taunt.
 
-#### Channeling Summon  
+## Channeling Summon  
 You may use Spell and Auxiliary Abilities from your summoned ally's position. Utilizing this option increases the cost of the Ability by said Ability's tier. So a tier 1 Ability costs 1 additional MP, a tier 2 Ability costs 2 additional MP, and so on.  
 When utilizing this option, the Ability functions in all ways as though used by yourself, but if your ally is not in the same square as you, you may treat the origin of your Ability as your ally's square, effectively extending your range.
 
-#### Extra Options  
+## Extra Options  
 Prerequisites: [Advanced Summon](#advanced-summon)  
 You may choose to increase the Upkeep of Advanced Summon by 1. If you do, you may choose an additional Advanced Option.
 
-#### Elemental Summons  
+## Elemental Summons  
 Prerequisites: [Elemental Attunement](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#elemental-attunement)  
 When you use Summon, you may select an element you have Elemental Attunement to. Your ally is resistant to damage of that element, and all damage it deals is of that element.
 
-#### Sturdy Summons  
+## Sturdy Summons  
 Your summons gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per MP spent to summon them. ([Defender Configuration](#summon-configuration-defender) summons double this additional HP as well.)
 ***
 
-## Advanced Options  
+# Advanced Options  
 //TODO: revise  
 When using [Advanced Summon](#advanced-summon) or a stronger versions of Summon, the summoned creature gains an Advanced Option. These are additional options the summoned creature benefits from.
 
-### Universal Options  
+## Universal Options  
 These options are available to all summon configurations.
 
-#### Attack Up  
+### Attack Up  
 Increase your summoned ally's Mental and Physical Attack by your Hero Tier.
 
-#### Defense Up  
+### Defense Up  
 Increase your summoned ally's Mental and Physical Defense by your Hero Tier.
 
-### Defender Options  
+## Defender Options  
 These options are available only to [Defender Configuration](#summon-configuration-defender) summons.
 
-#### Summoned Armor Crush  
+### Summoned Armor Crush  
 When using its Overwhelm ability, your Defender Configuration ally may use its Physical Defense - 10 in place of Physical Attack. Its damage multiplier also increases by 1.
 
-#### Summoned Thorns X  
+### Summoned Thorns X  
 When struck by a melee range attack, your Defender Configuration ally deals X damage to the attacker, where X equals half the MP used to initially summon it.
 
-### Spellcaster Options  
+## Spellcaster Options  
 These options are available only to [Spellcaster Configuration](#summon-configuration-spellcaster) summons.
 
-#### Summoned Flight  
+### Summoned Flight  
 Your summoned ally has Flight.
 
-#### Hindering Zap  
+### Hindering Zap  
 Increase your ally's damage multipliers by 1. In addition, when hitting with your ally's Empowered Zap ability you also cause the target to be unable to move with its minor action for 1 round.
 
-### Attacker Options  
+## Attacker Options  
 These options are available only to [Physical Attack Configuration](#summon-configuration-physical-attacker) summons.
 
-#### Summoned Draining Strike  
+### Summoned Draining Strike  
 Increase your ally's damage multipliers by 1. In addition, when hitting with your ally's Empowered Strike ability you also reduce the target's Degen by your Hero Tier.
 
-#### Summoned Flight  
+### Summoned Flight  
 Your summoned ally has Flight.
 
-### Support Options  
+## Support Options  
 These options are available only to [Support Configuration](#summon-configuration-support) summons.
 
-#### Summoned Shield X  
+### Summoned Shield X  
 When your ally uses Soothe or Empowered Soothe, the targeted ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X is half the MP used to initially summon it.
 
-#### Summoned Soother  
+### Summoned Soother  
 Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
 ***  
 
-## Talent
+# Talent
 
-#### Double Summon
+## Double Summon
 You may have two summon allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instread refund the XP spent on one of those lessons.  
