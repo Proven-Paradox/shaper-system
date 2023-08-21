@@ -116,7 +116,41 @@ The Spellcaster ally makes a physical attack with a x2 multiplier. This cannot b
 
 #### Summon Configuration: Defender  
 This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. 
-//TODO rework  
+//TODO more tanking options in lessons  
+For every MP used to summon it, the Defender gains +1 to its Physical and Mental Defense and +7 Max HP. Every even point (2, 4, 6, ...) gives it +1 Physical Offense.  7
+
+| MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
+|--------------------|------------------|------------------|----------------|--------|
+| 1                  | +2               | 13               | 13             | 7      |
+| 2                  | +3               | 14               | 14             | 14     |
+| 3                  | +3               | 15               | 15             | 21     |
+| 4                  | +4               | 16               | 16             | 28     |
+| 5                  | +4               | 17               | 17             | 35     |  
+
+##### Immobile  
+Passive  
+Defender allies cannot move for free once per turn, unlike other summoned allies.  
+
+##### Taunt  
+Passive  
+The Defender ally must be targeted first, before other allies in its square. For details, see the [handbook entry](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#taunt).  
+
+##### Slam  
+Attack  
+Action: None  
+Range: Melee  
+Targets: 1 enemy  
+Summoner MP Cost: 0  
+The Defender ally makes a Physical Attack with a x1 multiplier. This can be done for free once per turn.  
+
+##### Demanding Slam  
+Attack  
+Action: Minor  
+Range: Melee  
+Targets: 1 enemy  
+Summoner MP Cost: 2  
+The Defender ally makes a Physical Attack with a x1 multiplier using its Physical [Defense Bonus](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#defense-bonus). If this Attack hits, the Defender ally [Provokes](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#provoke) its target.  
+
 
 #### Summon Configuration: Spellcaster  
 This configuration is an ally with unremarkable mobility but high range.
