@@ -263,7 +263,8 @@ When you use Summon, you may select an element you have Elemental Attunement to.
 ## Sturdy Allies  
 Your Allies gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per MP spent to summon them.
 ***
-``` This section of the document (everything in this font) is currently deprecated while I make sure things are balanced up to this point.
+``` 
+This section of the document (everything in this font) is currently deprecated while I make sure things are balanced up to this point.  
 # Advanced Options  
 //TODO: revise  
 When using the [Summon](#summon) Ability and paying at least 6 MP to use it, the summoned creature gains an Advanced Option. These are additional options that empower your Summon Ally.
