@@ -1966,6 +1966,10 @@ Whenever us an Ability that heals HP damage, you may increase the MP cost by the
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
 
+#### Mend or Rend  
+On the turn after using an Auxiliary Ability with the Healing tag, you gain Boon +2 on all Short or Melee Range Attacks.  
+On the turn after using a Short or Melee Range Attack, your Auxiliary Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
+
 #### Nerves of Steel  
 Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. If this reduces the effect to 0 Rounds, the action fails outright.  
 
