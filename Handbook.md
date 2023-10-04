@@ -201,8 +201,8 @@ If you’re struggling to come up with your Attribute arrangement, here are a fe
 
 ## Step 2-a: HP/MP
 After choosing your Attributes, you can determine your point stats.
-* **Max HP:** HP stands for hit points or health points (both work), and they are an abstract representation of a character’s health. While the character still has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
-* **Max MP:** MP stats for mental points or mana points. While some Abilities spend HP, most require you to spend MP to use them. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
+* **Max HP:** HP stands for hit points or health points, and they are an abstract representation of a character’s health. While the character has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
+* **Max MP:** MP stats for mental points or mana points. While some Abilities spend HP, most require you to spend MP to use them. What this represents can be very abstract; it could represent a pool of mana to draw power from, concentration and energy needed to perform a complex maneuver in a fight, or it can be as simple as tracking ammunition. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
  
 > Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart -1, so [15 + (3 * 3) + (3 * -1) = 21].
 
