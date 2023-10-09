@@ -988,7 +988,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 2 HP  
-Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
+Effect: You regain MP equal to your [Capacity](#vitalitycapacity) (2 MP minimum). This cannot be used outside of combat.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 HP to regain MP equal to twice your Capacity. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.  
 
