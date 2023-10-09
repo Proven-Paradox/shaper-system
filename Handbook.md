@@ -979,7 +979,18 @@ Cost: 6 MP (Careful 4 MP)
 Damage: x1 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
-Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.
+Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.  
+
+#### Life Tap  
+Auxiliary  
+Action: Minor  
+Prerequisites: None  
+Range: None  
+Targets: Self  
+Cost: 2 HP  
+Effect: You regain MP equal to your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 HP to regain MP equal to twice your Capacity. When used this way, this Ability counts as a Tier 2 Ability.  
+Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.  
 
 #### Mobile Strike  
 Attack    
@@ -1468,16 +1479,6 @@ Effect: While standing in the affected Square, you (and only you) increase your 
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
-
-#### Life Tap  
-Auxiliary  
-Action: Minor  
-Prerequisites: None  
-Range: None  
-Targets: Self  
-Cost: 5 HP  
-Effect: You regain MP equal to twice your [Capacity](#vitalitycapacity). This cannot be used outside of combat.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.
 
 #### Lingering Strike  
 Attack [Status]  
