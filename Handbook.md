@@ -2139,7 +2139,7 @@ In addition, you are able to reduce the damage you take when falling by half.
 
 #### Linguist  
 You learn a language. This can represent doing scholarship and lessons just as well as a background living in a multilingual culture.  
-You may take this Utility once per [Level](#level).
+You may take this Utility twice at first [Level](#level), plus once more per Level.  
 
 #### Lip reading  
 You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
