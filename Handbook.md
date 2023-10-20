@@ -2467,101 +2467,101 @@ There are several ways to approach recovery of HP, MP, and injuries. Here are so
 There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot-centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
 
 ### Resurrection
-That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
+Whether characters can come back from the dead is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It could be a matter of a resurrection spell, regeneration through a clone, returning as some brand of undead, or the like.  
+It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.  
 
-## Status Ailments
-Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
+## Status Ailments  
+Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.  
 
-> If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.
+> I.E. If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.  
 
-#### Afraid   
+### Afraid  
 You are in the grip of a deep terror. This Ailment comes with an entity that you are Afraid of. At the start of your Turn, you *must* use your [Minor Action](#minor-action) to move away from whatever you're Afraid of. If you are unable to do so, you instead lose your Minor Action entirely. Offensive actions against you have Boon +2.  
 
-#### Blind  
-You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
+### Blind  
+You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.  
 
-#### Chill X  
-Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
+### Chill X  
+Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.  
 
-#### Crush X
-Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
+### Crush X  
+Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.  
 
-#### Daze  
-Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
+### Daze  
+Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).  
 
-#### Degeneration  
+### Degeneration  
 You are afflicted with a condition that causes you to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
 
-> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
+> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains a hit that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.  
 
-#### Enervate  
-Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
+### Enervate  
+Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.  
 
-#### Provoke
+### Provoke  
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
 Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you. In addition, you gain no benefit of being [Protected](#protection) from a target you have Provoked.  
-This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.
+This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.  
 
-#### Root
-For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
+### Root  
+For some reason, you cannot move. This might mean being tied down, having an injured foot, being entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.  
 
-#### Scorch X  
-On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
+### Scorch X  
+On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.  
 
-#### Shock X
-Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
+### Shock X  
+Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.  
 
-#### Slow
-You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
+### Slow  
+You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.  
 
-## Disadvantages
-These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
+## Disadvantages  
+These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.  
 
-#### Fatigue  
-Extended combat can cause characters to become Fatigued, causing them to take additional damage. All damage multipliers against Fatigued characters are increased by 1. 
+### Fatigue  
+Extended combat can cause characters to become Fatigued, causing them to take additional damage. All damage multipliers against Fatigued characters are increased by 1.  
 
-> This can be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time. I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain hearty enough to continue the fight as long as everyone wants.  
-> Fatigue might also be imposed by certain monsters or effects, in which case the Arbiter might rule to treat this as a [Status Ailment](#status-ailments) instead of a Disadvantage. This makes it something that can be removed by effects like [Remedy](#remedy) or [Healing Hands](#healing-hands). 
+> This can be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time. I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
+> Fatigue might also be imposed by certain monsters or effects, in which case the Arbiter might rule to treat this as a [Status Ailment](#status-ailments) instead of a Disadvantage. This makes it something that can be removed by effects like [Remedy](#remedy) or [Healing Hands](#healing-hands).  
 
-#### Flat Footed
-You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
+### Flat Footed  
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon first taking an action or being successfully struck by a damaging Ability.  
 
-#### Prone  
+### Prone  
 Lying on the ground. Abilities used at Melee range against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. (Abilities used at Short range are made normally.) Moving a Square while Prone costs a Major Action.  
 You may fall Prone or stand up as a Minor Action.  
 
-#### Stagger  
+### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).  
 
-## Advantages
-These are circumstances that give the character in question an advantage.
+## Advantages  
+These are circumstances that give the character in question an advantage.  
 
-#### Charged
-You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.
+### Charged  
+You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.  
 
-#### Flight  
-You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to terrain effects.
+### Flight  
+You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.  
+This Condition makes you immune to terrain effects.  
 
-#### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)
+### Obscured  
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)  
 
-#### Protection
+### Protection  
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
 If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
-This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects. 
+This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
 
-#### Shield X
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.
+### Shield X  
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
 
-#### Taunt
-If you have Taunt and are in a space with any other ally, enemies must target you over other allies in the same square. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Squares instead of targets can still affect your allies as normal.   
+### Taunt  
+If you have Taunt and are in a space with any other ally, enemies must target you over other allies in the same square. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Squares instead of targets can still affect your allies as normal.  
 If multiple allies have Taunt in the same Square, foes may choose between them at will. Abilities that affect multiple targets in a Square (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
 [Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
 A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
-This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
-
+This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.  
 
 // TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
 
