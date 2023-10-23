@@ -2547,8 +2547,6 @@ This Condition makes you immune to terrain effects.
 ### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)  
 
-
-
 ### Shield X  
 You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
 
