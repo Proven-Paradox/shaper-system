@@ -1274,7 +1274,7 @@ Targets: Self
 Cost: 9 MP  
 Cooldown: 3 rounds  
 Effect: Your next Attack ignores [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
-Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, preparing a missile to ricochet, or similar effects.  
+Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, causing a projectile to ricochet, or similar effects.  
 
 #### Bladebreak  
 Attack [Curse]  
@@ -2547,11 +2547,7 @@ This Condition makes you immune to terrain effects.
 ### Obscured  
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)  
 
-### Protection  
-You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
-If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
-A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
-This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
+
 
 ### Shield X  
 You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
@@ -2564,6 +2560,15 @@ A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Pro
 This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.  
 
 // TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
+
+## Linked States
+Linked States are conditions that involve two different combatants. In Linked States, there is a primary creature causing the state, and a number of other creatures affected by the state (though usually just one).  
+
+### Protection  
+You are either providing an ally with Protection (the Protector, the source of the Linked State), or are Protected by an ally.  
+If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
+A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
+This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
 
 # Appendix A: Supplemental Materials  
 These are some optional rules you can add to your game. These are either supplemental things like an expansion on Skills, a themed expansion or series of features, or experimental rulesets that are not quite ready to be added to the main game just yet.
