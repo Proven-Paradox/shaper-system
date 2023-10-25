@@ -574,7 +574,7 @@ Cost: None
 Damage: x1 (Physical)  
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
-#### Grab  
+#### Clutch  
 Attack  
 Action: Major  
 Prerequisites: None  
@@ -582,12 +582,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
-Effect: If this Attack succeeds, you grab your target.  
-While you are grabbing a target, you cannot move. At the beginning of your Turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
-If you have been grabbed by someone, you cannot move. The person grabbing you can also cover your mouth to silence you if they wish.  
-Description: An untrained attempt to hold on to your target.
-
-> Note that you can release a grabbed target by not paying the Upkeep cost, which immediately allows you to move.
+Effect: If this Attack succeeds, you [Grab](#grab) your target.  
+Description: An untrained attempt to hold on to your target.  
 
 #### Prepare  
 Auxiliary  
@@ -1165,7 +1161,7 @@ Cost: 2 HP
 Damage: x2 (Physical)  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
-Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
+Description: Striking foes while you have the upper hand in a grappling match. This can be a literal suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is in your grasp.  
 
 #### Sweeping Strike  
 Attack  
@@ -1186,7 +1182,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 3 MP  
 Damage: x1 (Physical)  
-Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the target [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
+Effect: You must have [Grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the targets [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
@@ -1314,11 +1310,11 @@ Attack
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 enemy that you have [grabbed](#grab)  
+Targets: 1 enemy that you have [Grabbed](#grab)  
 Cost: 5 HP  
 Damage: x1 (Physical)  
 Effect: If this Ability hits, you and the target enemy move one Square.  
-Description: Forcing a target you have in your grip to move with you. This could be as technical as a joint lock or as simple as bodily lifting your target.
+Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
 #### Chilling Bolt  
 Spell [Elemental] [Ice]  
@@ -2562,8 +2558,13 @@ This might represent presenting yourself as an obvious target to draw fire, subt
 ## Linked States
 Linked States are conditions that involve two different combatants. In Linked States, there is a primary creature causing the state, and a number of other creatures affected by the state (though usually just one).  
 
+### Grab  
+You are either keeping hold of a target (the Controller) or in another's clutches (the Captured). Neither the Controller nor the Captured can move.  
+At the beginning of the Controller's Turn, they make a Physical Offense roll against their target; if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
+Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
+
 ### Protection  
-You are either providing an ally with Protection (the Protector, the source of the Linked State), or are Protected by an ally.  
+You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
 If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
 This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
