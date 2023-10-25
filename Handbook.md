@@ -2560,7 +2560,7 @@ Linked States are conditions that involve two different combatants. In Linked St
 
 ### Grab  
 You are either keeping hold of a target (the Controller) or in another's clutches (the Captured). Neither the Controller nor the Captured can move.  
-At the beginning of the Controller's Turn, they make a Physical Offense roll against their target; if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
+At the beginning of the Controller's Turn, they make an Offense roll against their target (Physical for Attacks, Mental for Spells as usual); if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
 Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
 
 ### Protection  
