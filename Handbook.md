@@ -626,7 +626,7 @@ Range: Melee
 Targets: 1 enemy who has [Grabbed](#grab) you.  
 Cost: None  
 Damage: 0  
-Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is equal or higher, you break your opponent's grip and are no longer grabbed.  
+Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially Grab you. If your roll is equal or higher, you break your target's grip and are no longer Grabbed by them.  
 
 ## Tier 1
 
@@ -2562,6 +2562,9 @@ Linked States are conditions that involve two different combatants. In Linked St
 You are either keeping hold of a target (the Controller) or in another's clutches (the Captured). Neither the Controller nor the Captured can move.  
 At the beginning of the Controller's Turn, they make an Offense roll against their target (Physical for Attacks, Mental for Spells as usual); if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
 Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
+A single target can be Grabbed by multiple targets. In this case, the Captured must escape each Controller separately.  
+
+> As an example, Balam and Bannon have Grabbed a monster to try to keep it in place. None of the three can move in this state. On the monster's turn, it uses [Struggle](#struggle) to successfully shake of Bannon, but remains Grabbed by Balam and therefore unable to move.  
 
 ### Protection  
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
