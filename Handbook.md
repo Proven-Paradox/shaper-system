@@ -2524,8 +2524,10 @@ Extended combat can cause characters to become Fatigued, causing them to take ad
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon first taking an action or being successfully struck by a damaging Ability.  
 
 ### Prone  
-Lying on the ground. Abilities used at Melee range against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. (Abilities used at Short range are made normally.) Moving a Square while Prone costs a Major Action.  
-You may fall Prone or stand up as a Minor Action.  
+Lying on the ground.  
+Offensive Abilities used at Melee range against Prone targets have Boon +3, while any Offense rolls against Prone targets coming from beyond Short range are made at Bane -3. (Abilities used at Short range are made normally.)  
+A Prone combatant making an Offense roll against a target in Melee range does so with Bane -3.  
+Moving a Square while Prone costs a Major Action. You may fall Prone or stand up as a Minor Action.  
 
 ### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).  
