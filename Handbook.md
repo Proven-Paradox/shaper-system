@@ -927,7 +927,7 @@ Range: Medium (Careful: Long)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a die roll.  
-If you also use your Minor action, increase the MP cost by 1, then add another die to the amount healed.  
+If you also use your Minor action, increase this Ability's MP cost by 1, increase its range to Long, and add another die to the amount healed.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2 dice of healing normally, or 3 dice of healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
