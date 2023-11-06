@@ -2000,10 +2000,12 @@ If you successfully strike with an Attack Ability with your Major Action, you ma
 If you successfully strike with a Spell Ability with your Major Action, you may use a Tier 1 Attack Ability that normally requires a Major Action as a Minor Action.
 
 #### Superior Scanner  
-When you use a Scan Ability, choose one of the following benefits.
-* You automatically scan Squares instead of individuals, simultaneously learning about all creatures in that Square as well as checking for invisible creatures and objects in that Square.
-* You learn the target’s Physical and Mental Attack in addition to the usual stats.
-* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
+When you use a Scan Ability, choose one of the following benefits.  
+* You automatically scan Squares instead of individuals, simultaneously learning about all creatures in that Square as well as checking for invisible creatures and objects in that Square.  
+* You learn the target’s Physical and Mental Attack in addition to the usual stats.  
+* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.  
+* You learn the target's Abilities.  
+* You [Mark](#marked) your target.  
 
 #### Sustaining Upkeep  
 When you pay an Upkeep cost in MP, you heal for that much HP.
@@ -2522,6 +2524,9 @@ Extended combat can cause characters to become Fatigued, causing them to take ad
 
 ### Flat Footed  
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon first taking an action or being successfully struck by a damaging Ability.  
+
+### Marked  
+Your position or defenses have been temporarily compromised. The next Offensive Ability that targets you does so at Boon +2 and ends the Marked state.  
 
 ### Prone  
 Lying on the ground.  
