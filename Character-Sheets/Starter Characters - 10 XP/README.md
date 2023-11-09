@@ -1,3 +1,3 @@
 # Character Sheets README
 
-This is a test.
+This directory contains some pre-made characters suitable for an introduction to Story Shaper System. This can be used to ease players more familiar with class-based systems into the more free-form style of S3. To access a sheet, select it in the above list and hit the download button (the downward pointing arrow on the top right) to download the raw file, which can be opened and altered with Excel or a similar program.
