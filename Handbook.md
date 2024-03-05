@@ -1924,7 +1924,7 @@ Prerequisite: [Brace](#brace)
 While [rooted](#root), you may reduce the MP cost of any Spells you cast by their [Ability Tier](#ability-tiers) (to a minimum of 0).  
 
 #### Combo Striker
-Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
+Every time you successfully hit an opponent with a single target Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
 
 #### Curse Resistant  
 Curse Abilities that target you do so at Bane -2.
