@@ -2033,7 +2033,7 @@ Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
 
 #### Dangerous Aura  
-Increase your [Diplomacy] and [Intimidation] modifiers by 1.  
+Increase your [Diplomacy](#diplomacy) and [Intimidation](#intimidation) modifiers by 1.  
 In addition, you have a presence or air about you that leaves no doubt about your familiarity with violence. You inspire fear in most, gaining Boon +3 on Intimidation checks made against NPCs with no combat training. Meanwhile you inspire respect in fellow fighters, gaining Boon +3 on Diplomacy checks made with them.  
 
 #### Eidetic Memory
