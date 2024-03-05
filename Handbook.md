@@ -396,9 +396,9 @@ You may spend 1 XP to gain 4 skill points. The maximum number of points you can 
 ### Abilities
 Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
 
-Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
+Abilities come in three tiers. <For now. More are planned in future.> You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 XP for tier 1, 5 for tier 2. All characters begin the game knowing all Tier 0 Abilities for free.  
 
-Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).
+Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).  
 
 > In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
 > 
