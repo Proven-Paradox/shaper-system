@@ -2,5 +2,8 @@
 
 This directory contains some pre-made characters suitable for an introduction to Story Shaper System. This can be used to ease players more familiar with class-based systems into the more free-form style of S3. To access a sheet, select it in the above list and hit the download button (the downward pointing arrow on the top right) to download the raw file, which can be opened and altered with Excel or a similar program.
 
-## Warrior
+## Scoundrel  
+An agile, sneaky, underhanded character. Outside of combat they have Skills that make them excellent infiltrators; Acrobatics to get to hard to reach places, Awareness to stay alert for witnesses, Sabotage to bypass locks and security, and Stealth to stay out of sight. They also have strong Deception, Empathy, and Streetwise bonuses, plus the Gangster's Cant Utility, making them comfortable around others who operate outside the law. In combat their primary tools are the Sneak Attack and Vanish Abilities, allowing them to deal high burst of intermittent damage. If it comes to a straightforward fight, they have decent Physical Offense and the Double Strike Ability to do damage, but will have to deal with relatively low HP compared to other physical combatants.
+
+## Warrior  
 A straightforward and versatile physical combatant. The starter Warrior has high HP, Physical Offense, and Physical Defense. They start with low MP, but mostly use Abilities that spend HP instead of MP to compensate for this. With the Masochism Lesson, that spent HP is converted to a Shield which helps them last longer in a fight. While they are focused on doing damage in melee combat, they have the Shoot Ability for distance foes, and the Guard Ability to defend their allies, giving them a variety of combat options.  
