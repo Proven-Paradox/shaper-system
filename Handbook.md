@@ -504,7 +504,7 @@ An Ability or Lesson with a Cooldown cannot be used again for the listed duratio
 Any Ability with an Upkeep in its cost requires the given cost  to be paid every Round at [Round Start](#round-start). This Ability lasts as long as the Upkeep is paid or until some effect ends the Ability prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. The listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.  
 
 > For a specific example, Drahlo casts the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is listed as "2 MP (Upkeep 1 MP)". This means that when he initially uses the Ability, he spends 2 MP. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no extra action investment from him.  
-> There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay said Upkeep effects.  
+> There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay  for said effects.  
 
 ### Buff Tracks
 These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
