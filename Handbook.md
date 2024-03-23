@@ -1747,7 +1747,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x2 (Dark)  
 Duration: 2 round  
-Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.
+Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.  
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, speaking a curse that drains a foe's resolve, or similar effects.
 
 ------------
