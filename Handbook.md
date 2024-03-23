@@ -1401,16 +1401,6 @@ Effect: You may only use an element that you have taken the corresponding [Eleme
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
-#### Evacuation  
-Auxiliary  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: One other ally in your Square, and an adjacent Square  
-Cost: 5 MP
-Effect: You and the targeted ally move to the selected Square. You and the targeted ally must be able to move normally to use this Ability.  
-Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
-
 #### Friendly Fire  
 Auxiliary  
 Action: Counter  
