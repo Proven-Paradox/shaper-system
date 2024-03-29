@@ -177,7 +177,7 @@ The Spellcaster Ally makes a Mental Attack with a x2 multiplier. This cannot be 
 
 ### Summon Configuration: Support  
 The Support configuration is not very good at dealing damage, but is able to keep summoners and their friends on their feet by sharing their HP.  
-The Attacker's statistics scale based on the MP used to summon it. Support Summons have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities.  
+The Support's statistics scale based on the MP used to summon it. Support Allies have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities.  
 //TODO Consider giving status ailment relief, other utilities in Lessons. Maybe efficiency Lesson that reduces the self drain on using Soothe  
 
 
