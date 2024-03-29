@@ -39,12 +39,12 @@ Cost: Variable (See Special) (Upkeep: 2 MP)
 Special: You summon a friendly Summon Ally (henceforth shortened to Ally) to assist you in combat. The creature summoned is described below.  
 When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
 When you use this Ability, choose one version of Summon Configuration benefits to add to your Ally.  
-You may spend MP up to a maximum of your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the MP used and which Summon Configuration you choose, explained in each individual [Summon Configuration](#summon-configuration) entry.  
+You may spend MP up to a maximum of your twice your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the amount of MP used and which Summon Configuration you choose, explained in each individual [Summon Configuration](#summon-configuration) entry.  
 Allies may move during the summoner's turn once for free. The summoner may use a Minor action to move the Ally a second square.  
-Summoned creatures do not have MP of their own. Any of their Abilities that cost MP take from their original Summoner's MP.  
+Summoned creatures do not have MP of their own. Any of their Abilities that cost MP take from their Summoner's MP.  
 You may only summon one Ally at a time. If an Ally runs out of HP, you cannot use Summon with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one by using this Ability again.  
-If you spend 6 or more MP to cast this Ability, the Summoned Ally gains one [Advanced Option](#advanced-options) which allows the summoned creature to be further customized.  
-Description: This Ability allows you to create or summon a second creature to your aid in combat. This could be the result of necromancy, alchemy, robotics, conjuration, imbuing a familiar with combat ability, ritual summoning, or any other effect that would result in an additional creature involved in the combat. As long as you pay the Upkeep cost and the Ally is not killed, the creature remains on hand to help in combat.  
+If you spend 12 or more MP to cast this Ability, the Summoned Ally gains one [Advanced Option](#advanced-options) which allows the summoned creature to be further customized.  
+Description: This Ability allows you to create or summon a second creature to your aid in combat. This could be the result of necromancy, alchemy, robotics, conjuration, imbuing a familiar with combat ability, calling a sidekick, or any other effect that would result in an additional creature involved in the combat. As long as you pay the Upkeep cost and the Ally is not killed, the creature remains on hand to help in combat.  
 It is up to the player and Arbiter how to handle summons running out of HP. The summoned creature can be forced back to wherever it was summoned from, limp away from battle to return after spending some time resting, fall apart and need to be repaired, run out of ammo/power, die and be discarded for a cheap replacement, or whatever sort of justification is needed for your particular spin on summoning.  
 
 > The high MP cost and Upkeep of this Ability makes it a poor choice for low level characters. No one can stop you from taking this as one of your first three Abilities, but this would typically be a poor tactical decision as you should probably get a couple levels of Capacity to support the Upkeep cost.  
@@ -75,16 +75,16 @@ When you gain this Lesson, pick one of the following: Attacker, Defender, Spellc
 ### Summon Configuration: Attacker  
 This configuration is a hyper mobile Ally that gets into melee with foes and deals physical damage.  
 //TODO Consider making higher DPS focuses in Lessons  
-For every MP used to summon it, the Attacker gains +1 to its Physical Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Physical Defense, and every even point (2, 4, 6, ...) gives it +1 Mental Defense.  
+The Attacker's statistics scale based on the MP used to summon it.
 
-| MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
-|--------------------|------------------|------------------|----------------|--------|
-| 1                  | +3               | 13               | 12             | 5      |
-| 2                  | +4               | 13               | 13             | 10     |
-| 3                  | +5               | 14               | 13             | 15     |
-| 4                  | +6               | 14               | 14             | 20     |
-| 5                  | +7               | 15               | 14             | 25     |
-...  
+| MP Spent to summon | Physical Offense | Physical/Mental Defense | Max HP |
+|--------------------|------------------|-------------------------|--------|
+| 2                  | +5               | 13                      | 10     |
+| 4                  | +6               | 13                      | 15     |
+| 6                  | +8               | 14                      | 20     |
+| 8                  | +9               | 14                      | 26     |
+| 10                 | +10              | 16                      | 32     |
+...  //TODO further scaling
 
 #### Mobile  
 Passive  
@@ -107,6 +107,7 @@ Summoner MP Cost: 3 MP
 The Attacker Ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
 
 ### Summon Configuration: Defender  
+// TODO REBALANCE
 This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. 
 //TODO more tanking options in lessons  
 For every MP used to summon it, the Defender gains +1 to its Physical and Mental Defense and +7 Max HP. Every even point (2, 4, 6, ...) gives it +1 Physical Offense.  
@@ -145,6 +146,7 @@ The Defender Ally makes a Physical Attack with a x1 multiplier using its Physica
 
 
 ### Summon Configuration: Spellcaster  
+// TODO REBALANCE
 This configuration is an ally with unremarkable mobility but high range and damage output.
 //TODO Consider adding utility/ailment options in Lessons  
 For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Mental Defense, and every even point (2, 4, 6, ...) gives it +1 Physical Defense.  
@@ -175,18 +177,22 @@ The Spellcaster Ally makes a Mental Attack with a x2 multiplier. This cannot be 
 
 ### Summon Configuration: Support  
 The Support configuration is not very good at dealing damage, but is able to keep summoners and their friends on their feet by sharing their HP.  
-For every MP used to summon it, the Support gains +6 Max HP. In addition, every odd MP used (1, 3, 5, ...) gives it +1 Mental Defense, and every even MP used (2, 4, 6, ...) gives it +1 Mental Offense and Physical Defense.  
-Support Summons have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities. It starts at 4, and every level divisible by 3 (3, 6, 9, ...) it increases by 1.  
+The Attacker's statistics scale based on the MP used to summon it. Support Summons have a value called their Healing Efficacy (generally shortened to just Efficacy). This number is used in its healing Abilities.  
 //TODO Consider giving status ailment relief, other utilities in Lessons. Maybe efficiency Lesson that reduces the self drain on using Soothe  
 
-| MP Spent to summon | Mental Offense | Physical Defense | Mental Defense | Max HP | Efficacy |
-|--------------------|----------------|------------------|----------------|--------|----------|
-| 1                  | +2             | 12               | 13             | 6      | 4        |
-| 2                  | +3             | 13               | 13             | 12     | 4        |
-| 3                  | +3             | 13               | 14             | 18     | 5        |
-| 4                  | +4             | 14               | 14             | 24     | 5        |
-| 5                  | +4             | 14               | 15             | 30     | 5        |
-| 6                  | +5             | 15               | 15             | 36     | 6        |  
+
+| MP Spent to summon | Mental Offense | Physical/Mental Defense | Max HP | Efficacy |
+|--------------------|----------------|-------------------------|--------|----------|
+| 2                  | +4             | 14                      | 12     | 4        |
+| 4                  | +5             | 14                      | 18     | 4        |
+| 6                  | +5             | 15                      | 20     | 5        |
+| 8                  | +6             | 16                      | 26     | 5        |
+| 10                 | +7             | 17                      | 32     | 6        |
+...  //TODO further scaling  
+
+#### Resilient
+Passive  
+If a Support Ally runs out of HP, it can be re-summoned after one Round (as opposed to one hour).  
 
 #### Jolt  
 Spell  
@@ -194,7 +200,7 @@ Action: None
 Range: Short  
 Targets: 1 enemy  
 Summoner MP Cost: 0  
-The Support Ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn, but cannot be used on the same turn as they use Soothe.  
+The Support Ally makes a Mental Attack with a x1 multiplier. This can be done for free once per turn, but cannot be used on the same turn as Soothe.  
 
 #### Soothe  
 Auxiliary  
@@ -202,7 +208,7 @@ Action: None
 Range: Short  
 Targets: 1 ally  
 Summoner MP Cost: 0  
-The Support Ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn, but cannot be used on the same turn as they use Jolt.  
+The Support Ally heals the target an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn, but cannot be used on the same turn as Jolt.  
 
 #### Empowered Soothe  
 Auxiliary  
@@ -210,7 +216,7 @@ Action: Minor
 Range: Medium  
 Targets: 1 ally  
 Summoner MP Cost: 2 MP  
-The Support Ally heals the target an amount equal to twice its Efficacy and loses that much HP. This cannot be done on the same turn where Jolt or Soothe has already been used.  
+The Support Ally heals the target an amount equal to twice its Efficacy and loses that much HP. This cannot be done on a turn where Jolt or Soothe has already been used.  
 
 ***
 
