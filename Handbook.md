@@ -1511,7 +1511,7 @@ Targets: One [Unconscious](#unconscious) Ally
 Cost: 15 MP  
 Cooldown: 10 rounds  
 Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
-Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target an adrenaline syringe to get the back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
+Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target with an adrenaline syringe to get them back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
 
 #### Pin Down  
 Attack [Status]  
