@@ -81,9 +81,10 @@ The Attacker's statistics scale based on the MP used to summon it.
 |--------------------|------------------|-------------------------|--------|
 | 2                  | +5               | 13                      | 10     |
 | 4                  | +6               | 13                      | 15     |
-| 6                  | +8               | 14                      | 20     |
-| 8                  | +9               | 14                      | 26     |
-| 10                 | +10              | 16                      | 32     |
+| 6                  | +7               | 14                      | 20     |
+| 8                  | +8               | 14                      | 26     |
+| 10                 | +9               | 15                      | 32     |
+| 12                 | +10              | 16                      | 38     |
 ...  //TODO further scaling
 
 #### Mobile  
@@ -188,6 +189,7 @@ The Support's statistics scale based on the MP used to summon it. Support Allies
 | 6                  | +5             | 15                      | 24     | 5        |
 | 8                  | +6             | 16                      | 32     | 5        |
 | 10                 | +7             | 17                      | 40     | 6        |
+| 12                 | +7             | 18                      | 48     | 6        |
 ...  //TODO further scaling  
 
 #### Resilient
