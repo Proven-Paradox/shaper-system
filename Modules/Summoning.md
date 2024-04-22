@@ -38,7 +38,7 @@ Targets: None
 Cost: Variable (See Special) (Upkeep: 2 MP)  
 Special: You summon a friendly creature or character (henceforth shortened to Ally) to assist you in combat.  
 When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
-You may spend MP up to a maximum of your twice your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the amount of MP used and which Summon Configuration you choose, explained in each individual [Summon Configuration](#summon-configuration) entry.  
+You may spend MP up to a maximum of your twice your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the amount of MP used and which Summon Configuration you choose, explained in each individual [Summon Configuration](#summon-configurations) entry.  
 Allies may move during the summoner's turn once for free. The summoner may use a Minor action to move the Ally a second square.  
 Summoned creatures do not have MP of their own. Any of their Abilities that cost MP take from their Summoner's MP.  
 You may only summon one Ally at a time. If an Ally runs out of HP, you cannot use Summon with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one after another has been knocked out by using this Ability again.  
