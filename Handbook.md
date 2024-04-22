@@ -606,9 +606,12 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
-Effect: Increase your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
-Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 2 Rounds.  
-Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
+Effect: Choose one of the following:
+* Increase your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
+* Reduce the duration of a [Status Ailment](#status-ailments) affecting you by 2 Rounds.  
+* Regain MP equal to twice your [Hero Tier](#hero-tier).  
+
+Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
 
 #### Shove  
 Attack  
@@ -987,7 +990,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 2 HP  
-Effect: You regain MP equal to your [Capacity](#vitalitycapacity) (2 MP minimum). This cannot be used outside of combat.  
+Effect: You regain MP equal to your [Capacity](#vitalitycapacity) (3 MP minimum). This cannot be used outside of combat.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 HP to regain MP equal to twice your Capacity. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.  
 
