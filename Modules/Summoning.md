@@ -272,8 +272,8 @@ These options are available only to [Attacker Configuration](#summon-configurati
 ### Summoned Draining Strike  
 When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also inflict [Degeneration](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#degeneration) with a duration equal to your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
-### Summoned Flight  
-Your summoned Attacker Ally has Flight.  
+### Summoned Attacker Flight  
+Your summoned Attacker Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Defender Options  
 These options are available only to [Defender Configuration](#summon-configuration-defender) Allies.  
@@ -290,8 +290,8 @@ These options are available only to [Spellcaster Configuration](#summon-configur
 ### Hindering Zap  
 When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target.  
 
-### Summoned Flight  
-Your summoned Spellcaster Ally has Flight.  
+### Summoned Spellcaster Flight  
+Your summoned Spellcaster Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Support Options  
 These options are available only to [Support Configuration](#summon-configuration-support) Allies.  
