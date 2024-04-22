@@ -36,41 +36,24 @@ Prerequisites: None
 Range: Short  
 Targets: None  
 Cost: Variable (See Special) (Upkeep: 2 MP)  
-Special: You summon a friendly Summon Ally (henceforth shortened to Ally) to assist you in combat. The creature summoned is described below.  
+Special: You summon a friendly creature or character (henceforth shortened to Ally) to assist you in combat.  
 When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
-When you use this Ability, choose one version of Summon Configuration benefits to add to your Ally.  
 You may spend MP up to a maximum of your twice your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the amount of MP used and which Summon Configuration you choose, explained in each individual [Summon Configuration](#summon-configuration) entry.  
 Allies may move during the summoner's turn once for free. The summoner may use a Minor action to move the Ally a second square.  
 Summoned creatures do not have MP of their own. Any of their Abilities that cost MP take from their Summoner's MP.  
-You may only summon one Ally at a time. If an Ally runs out of HP, you cannot use Summon with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one by using this Ability again.  
+You may only summon one Ally at a time. If an Ally runs out of HP, you cannot use Summon with the the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one after another has been knocked out by using this Ability again.  
 If you spend 12 or more MP to cast this Ability, the Summoned Ally gains one [Advanced Option](#advanced-options) which allows the summoned creature to be further customized.  
 Description: This Ability allows you to create or summon a second creature to your aid in combat. This could be the result of necromancy, alchemy, robotics, conjuration, imbuing a familiar with combat ability, calling a sidekick, or any other effect that would result in an additional creature involved in the combat. As long as you pay the Upkeep cost and the Ally is not killed, the creature remains on hand to help in combat.  
 It is up to the player and Arbiter how to handle summons running out of HP. The summoned creature can be forced back to wherever it was summoned from, limp away from battle to return after spending some time resting, fall apart and need to be repaired, run out of ammo/power, die and be discarded for a cheap replacement, or whatever sort of justification is needed for your particular spin on summoning.  
 
-> The high MP cost and Upkeep of this Ability makes it a poor choice for low level characters. No one can stop you from taking this as one of your first three Abilities, but this would typically be a poor tactical decision as you should probably get a couple levels of Capacity to support the Upkeep cost.  
 ***
 
-# The Base Summon
-Here are the stats of the base Ally. These describe an Ally with 1 MP spent and before the bonuses of its Configuration are applied.  
-
-## Base Summon  
-Strength: 1  
-Finesse: 1  
-Toughness: 1  
-Mind: 1  
-Soul: 1  
-Heart: 1  
-Physical Offense: +2  
-Mental Offense: +2  
-Physical Defense: 12  
-Mental Defense: 12  
-
 # Summon Configurations  
-There are four broad categories a summoned creature can fall into. Attacker, Defender, Attacker, Spellcaster, and Support. You gain access to these configurations through the following Lesson:  
+There are four broad categories a summoned creature can fall into: Attacker, Defender, Attacker, Spellcaster, and Support. You gain access to these configurations through the following Lesson:  
 
 ## Summoning Attunement  
 **Lesson**  
-When you gain this Lesson, pick one of the following: Attacker, Defender, Spellcaster, or Support. Whenever you use a [Summoning] Ability, you can summon an Ally of the corresponding type.
+When you gain this Lesson, pick one of the following: Attacker, Defender, Spellcaster, or Support. Whenever you use a [Summoning] Ability, you can summon an Ally of the corresponding type.  
 
 ### Summon Configuration: Attacker  
 This configuration is a hyper mobile Ally that gets into melee with foes and deals physical damage.  
@@ -89,7 +72,7 @@ The Attacker's statistics scale based on the MP used to summon it.
 
 #### Mobile  
 Passive  
-Attacker Allies can move two Squares for free each turn, one Square more than other summons can move freely.  
+Attacker Allies can move two Squares for free each turn.  
 
 #### Strike  
 Attack  
@@ -108,8 +91,8 @@ Summoner MP Cost: 3 MP
 The Attacker Ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
 
 ### Summon Configuration: Defender  
-// TODO REBALANCE
-This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself. 
+// TODO REBALANCE  
+This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself.  
 //TODO more tanking options in lessons  
 For every MP used to summon it, the Defender gains +1 to its Physical and Mental Defense and +7 Max HP. Every even point (2, 4, 6, ...) gives it +1 Physical Offense.  
 
@@ -147,8 +130,8 @@ The Defender Ally makes a Physical Attack with a x1 multiplier using its Physica
 
 
 ### Summon Configuration: Spellcaster  
-// TODO REBALANCE
-This configuration is an ally with unremarkable mobility but high range and damage output.
+// TODO REBALANCE  
+This configuration is an ally with unremarkable mobility but high range and damage output.  
 //TODO Consider adding utility/ailment options in Lessons  
 For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Mental Defense, and every even point (2, 4, 6, ...) gives it +1 Physical Defense.  
 
@@ -225,11 +208,11 @@ The Support Ally heals the target an amount equal to twice its Efficacy and lose
 # Summoning Lessons
 //TODO: revise  
 
-## Basher Summon  
-Prerequisites: [Summon Configuration: Attacker](#summon-configuration-physical-attacker)  
+### Basher Summon  
+Prerequisites: [Summon Configuration: Attacker](#summon-configuration-attacker)  
 Your Allies gain an additional +1 to Physical and Mental Attack. Your Physical Attack Configuration Ally against the following option:
 
-### Bash  
+#### Bash  
 Attack  
 Action: Minor  
 Range: Melee  
@@ -237,11 +220,11 @@ Targets: 1 enemy
 Summoner MP Cost: 2 MP  
 Special: This attack has a x1 multiplier and moves the target one square.  
 
-## Blaster Summon  
+### Blaster Summon  
 Prerequisites: [Summon Configuration: Spellcaster](#summon-configuration-spellcaster)  
 Your Allies gain an additional +1 to Physical and Mental Attack. Your Spellcaster Configuration Ally gains the following option:
 
-### Blast  
+#### Blast  
 Spell  
 Action: Minor  
 Range: Medium  
@@ -249,11 +232,11 @@ Targets: 1 square
 Summoner MP Cost: 2 MP  
 Special: The Spellcaster Ally makes a mental attack on all creatures in the square with a x1 multiplier. This cannot be done on the same turn where Zap has already been used.
 
-## Bodyguard Summon  
+### Bodyguard Summon  
 Prerequisites: [Summon Configuration: Defender](#summon-configuration-defender)  
 Your summoned Allies gain an additional +1 to Physical and Mental Defense. In addition, your Defender Configuration Ally gains the following option:  
 
-### Summon's Guard  
+#### Summon's Guard  
 Auxiliary  
 Action: Minor  
 Range: Melee  
@@ -261,14 +244,14 @@ Targets: 1 ally
 Summoner MP Cost: 1 MP  
 Special: As long as your Ally is in the same Square as the target and conscious, the Ally provides that target with [Protection](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#protection) and gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).
 
-## Channeling Summon  
+### Channeling Summon  
 You may use Spell and Auxiliary Abilities from your summoned Ally's position. When utilizing this option, the Ability functions in all ways as though used by yourself, but if your Ally is not in the same square as you, you may treat the origin of your Ability as your Ally's square, effectively extending your range.
 
-## Elemental Allies  
+### Elemental Allies  
 Prerequisites: [Elemental Attunement](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#elemental-attunement)  
 When you use Summon, you may select an element you have Elemental Attunement to. Your Ally is resistant to damage of that element, and all damage it deals is of that element.
 
-## Sturdy Allies  
+### Sturdy Allies  
 Your Allies gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per MP spent to summon them.
 ***
 ``` 
