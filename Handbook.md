@@ -697,14 +697,16 @@ Description: Preparing for a strong offense. This could be gaining focus or clar
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
-Range: Short  
+Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
 Effect: Choose one of the following:  
-* Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
+* Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.  
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
 * End a Curse effect on the target.  
-Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to use Cleanse twice with one action.  
+Description: The most basic way to recover from ill effects. This could be a general purpose restoration spell, utilizing nanobots to repair the target’s damage, a quick application of medical training, or similar effects.  
 
 #### Daze Strike  
 Attack [Status]  
@@ -1059,17 +1061,6 @@ Cost: None
 Damage: x2 (Physical)  
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
-
-#### Remedy  
-Auxiliary  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 2 MP  
-Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to increase reduce a Status Ailment's duration by 5 round, or reduce two different Status Ailment durations by 3 each. When used this way, this Ability counts as a Tier 2 Ability.  
-Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
 
 #### Riposte  
 Attack  
@@ -2472,7 +2463,7 @@ Whether characters can come back from the dead is up to the Arbiter and should s
 It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.  
 
 ## Status Ailments  
-Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.  
+Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Cleanse](#cleanse) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.  
 
 > I.E. If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.  
 
