@@ -606,7 +606,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
-Effect: Increase the your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
+Effect: Increase your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
 Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 2 Rounds.  
 Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
 
@@ -1303,7 +1303,7 @@ Action: Major
 Prerequisites: None  
 Range: Short (or Medium, see Effect)  
 Targets: 1 enemy  
-Cost: 8 HP  (Optional +4 HP, see Effect)
+Cost: 8 HP  (Optional +4 HP, see Effect)  
 Damage: x2 (Physical)  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
 Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
@@ -2237,6 +2237,7 @@ You hit so hard that you can knock your foes around without actively trying to. 
 * Knock your target(s) [Prone](#prone).  
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).  
 * Move your target(s) one Square. In the case of multiple targets, you must move them all in the same direction.  
+
 You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
 This Talent also reduces the effect of the [Size](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#size-x) quality on enemies by your Hero Tier. This is a passive effect that applies to all Attacks and Spells, not just Critical Hits.  
 
