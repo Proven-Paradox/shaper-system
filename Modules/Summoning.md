@@ -265,14 +265,20 @@ Increase your summoned Ally's Mental and Physical Defense by 1.
 ## Advanced Attacker Options  
 These options are available only to [Attacker Configuration](#summon-configuration-attacker) Allies.  
 
+### Dazing Strike  
+When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also [Daze](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#daze) the target for 1 round. On a [Solid Hit](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#solid-hit), the duration increases to 2 rounds.  
+
 ### Draining Strike  
-When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also inflict [Degeneration](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#degeneration) with a duration equal to your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
+When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also inflict [Degeneration](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#degeneration) with a duration equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ### Attacker Flight  
 Your summoned Attacker Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Defender Options  
 These options are available only to [Defender Configuration](#summon-configuration-defender) Allies.  
+
+### Extended Demand  
+Your Defender Ally's [Demanding Slam](#demanding-slam) Ability's Range increase to Medium.  
 
 ### Mobile Defender  
 Your Defender Ally loses the [Immobile](#immobile) passive.  
@@ -286,17 +292,23 @@ These options are available only to [Spellcaster Configuration](#summon-configur
 ### Hindering Zap  
 When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target for 1 round. On a [Solid Hit](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#solid-hit), the duration increases to 2 rounds.  
 
+### Purging Zap  
+When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also reduce one of the target's [Buff Tracks](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#buff-tracks) by 1, to a minimum of 0.  
+
 ### Spellcaster Flight  
 Your summoned Spellcaster Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Support Options  
 These options are available only to [Support Configuration](#summon-configuration-support) Allies.  
 
+### Cleansing Soothe  
+When your Ally uses [Empowered Soothe](#empowered-soothe), you may either reduce the duration of one [Status Ailment](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#status-ailments) by 2 rounds or increase one of the target's [Buff Tracks](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#buff-tracks) by 1, to a minimum of 0.  
+
 ### Potent Healer  
 Increase your Support Ally's Efficacy by 1.  
 
 ### Protective Support  
-When your Ally uses [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
+When your Ally uses [Empowered Soothe](#empowered-soothe), the target also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ***  
 
