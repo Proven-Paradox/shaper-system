@@ -611,7 +611,7 @@ Effect: Choose one of the following:
 * Reduce the duration of a [Status Ailment](#status-ailments) affecting you by 2 Rounds.  
 * Regain MP equal to twice your [Hero Tier](#hero-tier).  
 
-Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
+Description: Taking a moment to deal with a hindering effect or otherwise . This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
 
 #### Shove  
 Attack  
