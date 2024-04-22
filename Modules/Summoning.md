@@ -275,7 +275,7 @@ Your summoned Attacker Ally has [Flight](https://github.com/Proven-Paradox/shape
 These options are available only to [Defender Configuration](#summon-configuration-defender) Allies.  
 
 ### Mobile Defender  
-Your Defender Ally loses the Immobile passive.  
+Your Defender Ally loses the [Immobile](#immobile) passive.  
 
 ### Summoned Thorns X  
 When struck by a melee range Ability, your Defender Ally deals X damage to the attacker, where X equals half the MP used to initially summon it.  
@@ -284,7 +284,7 @@ When struck by a melee range Ability, your Defender Ally deals X damage to the a
 These options are available only to [Spellcaster Configuration](#summon-configuration-spellcaster) Allies.  
 
 ### Hindering Zap  
-When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target.  
+When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target for 1 round. On a [Solid Hit](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#solid-hit), the duration increases to 2 rounds.  
 
 ### Summoned Spellcaster Flight  
 Your summoned Spellcaster Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
@@ -296,7 +296,7 @@ These options are available only to [Support Configuration](#summon-configuratio
 Increase your Support Ally's Efficacy by 1.  
 
 ### Summoned Shield X  
-When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
+When your Ally [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ***  
 
