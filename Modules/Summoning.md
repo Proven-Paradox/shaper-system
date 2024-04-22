@@ -265,10 +265,10 @@ Increase your summoned Ally's Mental and Physical Defense by 1.
 ## Advanced Attacker Options  
 These options are available only to [Attacker Configuration](#summon-configuration-attacker) Allies.  
 
-### Summoned Draining Strike  
+### Draining Strike  
 When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also inflict [Degeneration](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#degeneration) with a duration equal to your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
-### Summoned Attacker Flight  
+### Attacker Flight  
 Your summoned Attacker Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Defender Options  
@@ -277,7 +277,7 @@ These options are available only to [Defender Configuration](#summon-configurati
 ### Mobile Defender  
 Your Defender Ally loses the [Immobile](#immobile) passive.  
 
-### Summoned Thorns X  
+### Thorns X  
 When struck by a melee range Ability, your Defender Ally deals X damage to the attacker, where X equals half the MP used to initially summon it.  
 
 ## Advanced Spellcaster Options  
@@ -286,7 +286,7 @@ These options are available only to [Spellcaster Configuration](#summon-configur
 ### Hindering Zap  
 When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target for 1 round. On a [Solid Hit](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#solid-hit), the duration increases to 2 rounds.  
 
-### Summoned Spellcaster Flight  
+### Spellcaster Flight  
 Your summoned Spellcaster Ally has [Flight](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#flight).  
 
 ## Advanced Support Options  
@@ -295,8 +295,8 @@ These options are available only to [Support Configuration](#summon-configuratio
 ### Potent Healer  
 Increase your Support Ally's Efficacy by 1.  
 
-### Summoned Shield X  
-When your Ally [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
+### Protective Support  
+When your Ally uses [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ***  
 
