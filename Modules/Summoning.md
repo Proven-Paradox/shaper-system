@@ -251,7 +251,7 @@ Your Allies gain an additional +1 to Physical and Mental Defense. In addition, t
 ***  
 
 # Advanced Options  
-When using the [Summon](#summon) Ability and paying at least 12 MP to use it, the summoned creature gains an Advanced Option. These are additional options that empower your Summon Ally.  
+When using the [Summon](#summon) Ability and paying at least 12 MP to use it, the summoned creature gains one of the following Advanced Options.  
 
 ## Universal Advanced Options  
 These options are available to all summon configurations.  
