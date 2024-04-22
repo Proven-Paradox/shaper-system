@@ -1977,6 +1977,7 @@ Once per round, increase any HP restoration you receive by half.
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target is [Rooted](#root) until your next Turn.  
+
 Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
 
 #### Resilient Protector  
