@@ -2225,7 +2225,7 @@ At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vital
 
 If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
-#### Flight  
+#### Flight Talent  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
 This Talent makes the [Hover](#hover) Utility redundant. If you previously took the Hover Utility, you lose it but regain the XP spent.
 
