@@ -130,18 +130,17 @@ The Defender Ally makes a Physical Attack with a x1 multiplier using its Physica
 
 
 ### Summon Configuration: Spellcaster  
-// TODO REBALANCE  
 This configuration is an ally with unremarkable mobility but high range and damage output.  
 //TODO Consider adding utility/ailment options in Lessons  
-For every MP used to summon it, the Spellcaster gains +1 to its Mental Offense and +5 Max HP. Every odd point of MP used to summon it (1, 3, 5, ...) gives is +1 Mental Defense, and every even point (2, 4, 6, ...) gives it +1 Physical Defense.  
 
-| MP Spent to summon | Mental Offense | Physical Defense | Mental Defense | Max HP |
-|--------------------|----------------|------------------|----------------|--------|
-| 1                  | +3             | 12               | 13             | 5      |
-| 2                  | +4             | 13               | 13             | 10     |
-| 3                  | +5             | 13               | 14             | 15     |
-| 4                  | +6             | 14               | 14             | 20     |
-| 5                  | +7             | 14               | 15             | 25     |
+| MP Spent to summon | Mental Offense | Physical/Mental Defense | Max HP |
+|--------------------|----------------|-------------------------|--------|
+| 2                  | +5             | 14                      | 10     |
+| 4                  | +6             | 14                      | 15     |
+| 6                  | +7             | 15                      | 20     |
+| 8                  | +8             | 15                      | 26     |
+| 10                 | +9             | 16                      | 32     |
+| 12                 | +10            | 17                      | 38     |
 
 #### Zap  
 Spell   
