@@ -327,4 +327,5 @@ Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
 # Talent
 
 ## Double Summon
-You may have two summon Allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instread refund the XP spent on one of those lessons.  
+You may have two summon Allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instead refund the XP spent on one of those lessons.  
+Whenever you use your Minor Action for your Ally, you may affect both Allies if you have multiple summoned. This allows you to move and/or Empower both of your Allies with one Minor Action.  
