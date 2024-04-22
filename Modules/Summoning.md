@@ -91,18 +91,18 @@ Summoner MP Cost: 3 MP
 The Attacker Ally makes a physical attack with a x2 multiplier. This cannot be done on the same turn where Strike has already been used.  
 
 ### Summon Configuration: Defender  
-// TODO REBALANCE  
 This configuration serves as a source of cover. Though slower than the other types and not great at offense, it is much tougher and able to draw enemy attention to itself.  
 //TODO more tanking options in lessons  
-For every MP used to summon it, the Defender gains +1 to its Physical and Mental Defense and +7 Max HP. Every even point (2, 4, 6, ...) gives it +1 Physical Offense.  
 
-| MP Spent to summon | Physical Offense | Physical Defense | Mental Defense | Max HP |
-|--------------------|------------------|------------------|----------------|--------|
-| 1                  | +2               | 13               | 13             | 7      |
-| 2                  | +3               | 14               | 14             | 14     |
-| 3                  | +3               | 15               | 15             | 21     |
-| 4                  | +4               | 16               | 16             | 28     |
-| 5                  | +4               | 17               | 17             | 35     |  
+| MP Spent to summon | Physical Offense | Physical/Mental Defense | Max HP |
+|--------------------|------------------|-------------------------|--------|
+| 2                  | +4               | 15                      | 14     |
+| 4                  | +5               | 15                      | 21     |
+| 6                  | +5               | 16                      | 28     |
+| 8                  | +6               | 17                      | 37     |
+| 10                 | +6               | 18                      | 46     |  
+| 12                 | +7               | 19                      | 55     |
+//TODO further scaling
 
 #### Immobile  
 Passive  
