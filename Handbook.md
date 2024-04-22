@@ -2490,6 +2490,12 @@ You are afflicted with a condition that causes you to weaken over time. This cou
 ### Enervate  
 Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.  
 
+### Fatigue  
+Tired in a way that interferes with your defenses. All damage multipliers against Fatigued characters are increased by 1.  
+
+> This ailment can also be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time for the remainder of the fight. In this circumstance, treat Fatigue as a [Disadvantage](#disadvantages) instead of a Status Ailment (meaning it is not removed by Abilities like [Cleanse](#cleanse)).  
+> I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
+
 ### Provoke  
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
 Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you. In addition, you gain no benefit of being [Protected](#protection) from a target you have Provoked.  
@@ -2508,13 +2514,7 @@ Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense 
 You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.  
 
 ## Disadvantages  
-These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.  
-
-### Fatigue  
-Extended combat can cause characters to become Fatigued, causing them to take additional damage. All damage multipliers against Fatigued characters are increased by 1.  
-
-> This can be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time. I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
-> Fatigue might also be imposed by certain monsters or effects, in which case the Arbiter might rule to treat this as a [Status Ailment](#status-ailments) instead of a Disadvantage. This makes it something that can be removed by effects like [Remedy](#remedy) or [Healing Hands](#healing-hands).  
+These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical or technical means.  
 
 ### Flat Footed  
 You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon first taking an action or being successfully struck by a damaging Ability.  
