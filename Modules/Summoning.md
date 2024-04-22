@@ -63,11 +63,11 @@ The Attacker's statistics scale based on the MP used to summon it.
 | MP Spent to summon | Physical Offense | Physical/Mental Defense | Max HP |
 |--------------------|------------------|-------------------------|--------|
 | 2                  | +5               | 13                      | 10     |
-| 4                  | +6               | 13                      | 15     |
-| 6                  | +7               | 14                      | 20     |
-| 8                  | +8               | 14                      | 26     |
-| 10                 | +9               | 15                      | 32     |
-| 12                 | +10              | 16                      | 38     |
+| 4                  | +6               | 13                      | 16     |
+| 6                  | +7               | 14                      | 22     |
+| 8                  | +8               | 14                      | 29     |
+| 10                 | +9               | 15                      | 36     |
+| 12                 | +10              | 16                      | 43     |
 ...  //TODO further scaling
 
 #### Mobile  
