@@ -205,7 +205,6 @@ The Support Ally heals the target an amount equal to twice its Efficacy and lose
 ***
 
 # Summoning Lessons
-//TODO: revise  
 
 ### Basher Summon  
 Prerequisites: [Summon Configuration: Attacker](#summon-configuration-attacker)  
