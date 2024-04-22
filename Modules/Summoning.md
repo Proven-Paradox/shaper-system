@@ -209,105 +209,104 @@ The Support Ally heals the target an amount equal to twice its Efficacy and lose
 
 ### Basher Summon  
 Prerequisites: [Summon Configuration: Attacker](#summon-configuration-attacker)  
-Your Allies gain an additional +1 to Physical and Mental Attack. Your Physical Attack Configuration Ally against the following option:
+Your Allies gain an additional +1 to Physical and Mental Attack. Your Physical Attack Configuration Ally gains the following option:
 
-#### Bash  
+#### Summon Bash  
 Attack  
 Action: Minor  
 Range: Melee  
 Targets: 1 enemy  
 Summoner MP Cost: 2 MP  
-Special: This attack has a x1 multiplier and moves the target one square.  
+Special: This attack has a x1 multiplier and moves the target one square. This cannot be done on the same turn as [Strike](#strike).   
 
 ### Blaster Summon  
 Prerequisites: [Summon Configuration: Spellcaster](#summon-configuration-spellcaster)  
 Your Allies gain an additional +1 to Physical and Mental Attack. Your Spellcaster Configuration Ally gains the following option:
 
-#### Blast  
+#### Summon Blast  
 Spell  
 Action: Minor  
 Range: Medium  
 Targets: 1 square  
 Summoner MP Cost: 2 MP  
-Special: The Spellcaster Ally makes a mental attack on all creatures in the square with a x1 multiplier. This cannot be done on the same turn where Zap has already been used.
+Special: The Spellcaster Ally makes a mental attack on all creatures in the square with a x1 multiplier. This cannot be done on the same turn where [Zap](#zap) has already been used.
 
 ### Bodyguard Summon  
 Prerequisites: [Summon Configuration: Defender](#summon-configuration-defender)  
 Your summoned Allies gain an additional +1 to Physical and Mental Defense. In addition, your Defender Configuration Ally gains the following option:  
 
-#### Summon's Guard  
+#### Summon Guard  
 Auxiliary  
 Action: Minor  
 Range: Melee  
 Targets: 1 ally  
-Summoner MP Cost: 1 MP  
-Special: As long as your Ally is in the same Square as the target and conscious, the Ally provides that target with [Protection](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#protection) and gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).
+Summoner MP Cost: 0 MP  
+Special: As long as your Ally is in the same Square as the target and conscious, the Ally provides that target with [Protection](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#protection) and gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ### Channeling Summon  
-You may use Spell and Auxiliary Abilities from your summoned Ally's position. When utilizing this option, the Ability functions in all ways as though used by yourself, but if your Ally is not in the same square as you, you may treat the origin of your Ability as your Ally's square, effectively extending your range.
+You may use Spell and Auxiliary Abilities from your summoned Ally's position. When utilizing this option, the Ability functions in all ways as though used by yourself, but if your Ally is not in the same square as you, you may treat the origin of your Ability as your Ally's square, effectively extending your range.  
 
 ### Elemental Allies  
 Prerequisites: [Elemental Attunement](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#elemental-attunement)  
-When you use Summon, you may select an element you have Elemental Attunement to. Your Ally is resistant to damage of that element, and all damage it deals is of that element.
+When you use Summon, you may select an element you have Elemental Attunement to. Your Ally is resistant to damage of that element, and all damage it deals is of that element.  
 
 ### Sturdy Allies  
-Your Allies gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per MP spent to summon them.
-***
-``` 
-This section of the document (everything in this font) is currently deprecated while I make sure things are balanced up to this point.  
+Your Allies gain an additional +1 to Physical and Mental Defense. In addition, they gain one more HP per 2 MP spent to summon them.  
+
+***  
+
 # Advanced Options  
-//TODO: revise  
-When using the [Summon](#summon) Ability and paying at least 6 MP to use it, the summoned creature gains an Advanced Option. These are additional options that empower your Summon Ally.
+When using the [Summon](#summon) Ability and paying at least 12 MP to use it, the summoned creature gains an Advanced Option. These are additional options that empower your Summon Ally.  
 
-## Universal Options  
-These options are available to all summon configurations.
-
-### Attack Up  
-Increase your summoned Ally's Mental and Physical Attack by your Hero Tier.
+## Universal Advanced Options  
+These options are available to all summon configurations.  
+  
+### Offense Up  
+Increase your summoned Ally's Mental and Physical Offense by 1.  
 
 ### Defense Up  
-Increase your summoned Ally's Mental and Physical Defense by your Hero Tier.
+Increase your summoned Ally's Mental and Physical Defense by 1.  
 
-## Defender Options  
-These options are available only to [Defender Configuration](#summon-configuration-defender) Allies.
-
-### Summoned Armor Crush  
-When using its Overwhelm ability, your Defender Configuration Ally may use its Physical Defense - 10 in place of Physical Attack. Its damage multiplier also increases by 1.
-
-### Summoned Thorns X  
-When struck by a melee range attack, your Defender Configuration Ally deals X damage to the attacker, where X equals half the MP used to initially summon it.
-
-## Spellcaster Options  
-These options are available only to [Spellcaster Configuration](#summon-configuration-spellcaster) Allies.
-
-### Summoned Flight  
-Your summoned Ally has Flight.
-
-### Hindering Zap  
-Increase your Ally's damage multipliers by 1. In addition, when hitting with your Ally's Empowered Zap ability you also cause the target to be unable to move with its minor action for 1 round.
-
-## Attacker Options  
-These options are available only to [Physical Attack Configuration](#summon-configuration-physical-attacker) Allies.
+## Advanced Attacker Options  
+These options are available only to [Attacker Configuration](#summon-configuration-attacker) Allies.  
 
 ### Summoned Draining Strike  
-Increase your Ally's damage multipliers by 1. In addition, when hitting with your Ally's Empowered Strike ability you also reduce the target's Degen by your Hero Tier.
+When hitting with your Ally's [Empowered Strike](#empowered-strike) Ability you also inflict [Degeneration](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#degeneration) with a duration equal to your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ### Summoned Flight  
-Your summoned Ally has Flight.
+Your summoned Attacker Ally has Flight.  
 
-## Support Options  
-These options are available only to [Support Configuration](#summon-configuration-support) Allies.
+## Advanced Defender Options  
+These options are available only to [Defender Configuration](#summon-configuration-defender) Allies.  
+
+### Mobile Defender  
+Your Defender Ally loses the Immobile passive.  
+
+### Summoned Thorns X  
+When struck by a melee range Ability, your Defender Ally deals X damage to the attacker, where X equals half the MP used to initially summon it.  
+
+## Advanced Spellcaster Options  
+These options are available only to [Spellcaster Configuration](#summon-configuration-spellcaster) Allies.  
+
+### Hindering Zap  
+When hitting with your Ally's [Empowered Zap](#empowered-zap) Ability you also [Slow](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#slow) the target.  
+
+### Summoned Flight  
+Your summoned Spellcaster Ally has Flight.  
+
+## Advanced Support Options  
+These options are available only to [Support Configuration](#summon-configuration-support) Allies.  
+
+### Potent Healer  
+Increase your Support Ally's Efficacy by 1.  
 
 ### Summoned Shield X  
-When your Ally uses Soothe or Empowered Soothe, the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X is half the MP used to initially summon it.
+When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), the targeted Ally also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
-### Summoned Soother  
-Increase the effect of Soothe by 1, and Empowered Soothe by your Hero Tier.
 ***  
-```
 
-# Talent
+# Talent  
 
-## Double Summon
+## Double Summon  
 You may have two summon Allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instead refund the XP spent on one of those lessons.  
 Whenever you use your Minor Action for your Ally, you may affect both Allies if you have multiple summoned. This allows you to move and/or Empower both of your Allies with one Minor Action.  
