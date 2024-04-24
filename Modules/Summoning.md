@@ -117,12 +117,12 @@ Summoner MP Cost: 0
 The Defender Ally makes a Physical Attack with a x1 multiplier. This can be done for free once per turn.  
 
 #### Demanding Slam  
-Attack  
+Attack [Guardian Strike]  
 Action: Minor  
 Range: Melee  
 Targets: 1 enemy  
 Summoner MP Cost: 2  
-The Defender Ally makes a Physical Attack with a x1 multiplier using its Physical [Defense Bonus](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#defense-bonus). If this Attack hits, the Defender ally [Provokes](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#provoke) its target. This Ability cannot be used in the same Round as Slam.  
+The Defender Ally makes a Physical Attack with a x1 multiplier. If this Attack hits, the Defender ally [Provokes](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#provoke) its target. This Ability cannot be used in the same Round as Slam.  
 
 
 ### Summon Configuration: Spellcaster  

@@ -227,11 +227,6 @@ Mental Defense enables you to mitigate damage you would otherwise take from ener
 
 > Both characters have Heart -1 and Soul 0. They start with Mental Defense at 9.
 
-##### Defense Bonus
-Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense it will be listed as Physical Defense Bonus, while Mental Defense is listed as Mental Defense Bonus.
-
-> So for XU-808 and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
-
 #### Initiative Bonus
 At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
 
@@ -505,6 +500,9 @@ Abilities which deal elemental damage, which combatants can be weak, resistant, 
 
 > I would advise Arbiters use damage immunity sparingly, make it intuitive when it happens, and pair immunity with vulnerabilities. Obviously a fire spirit wouldn't care about being burned, but I would advise using resistance unless the creature involved is very strongly tied to a particular element.  
 
+#### Guardian Strike  
+Abilities with this keyword allow a character to convert their defense into offense. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
+
 #### Healing  
 Abilities that restore HP.  
 
@@ -762,7 +760,7 @@ Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this 
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
-Attack/Spell [Status]  
+Attack/Spell [Status] [Guardian Strike]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
@@ -771,7 +769,6 @@ Cost: 1 MP
 Damage: 0  
 Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
-You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Dodge  
@@ -1092,7 +1089,7 @@ Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
 #### Riposte  
-Attack  
+Attack [Guardian Strike]  
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
@@ -1100,7 +1097,6 @@ Targets: 1 enemy
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
@@ -1387,7 +1383,7 @@ Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rou
 Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, a gravity ray, just throwing a big rock, or similar effects.
 
 #### Crushing Demand  
-Attack/Spell [Status]  
+Attack/Spell [Status] [Guardian Strike]  
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
@@ -1396,7 +1392,6 @@ Cost: None
 Damage: x1 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
-You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
@@ -1645,7 +1640,7 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 2 MP  
-Effect: Any Ability you use in the same Turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-strike)  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Searing Bolt  
@@ -1930,7 +1925,7 @@ You may take this Lesson once per Hero Tier, choosing a different Ability each t
 When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense. If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked, and your Defense Bonus against foes you have.  
+When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may apply [Guardian Strike](#guardian-strike) If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
@@ -1955,7 +1950,7 @@ Every instance of this Lesson costs 3 XP.
 Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
+When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your [Mental Defense](#mental-defense) - 10.
 
 #### Hit and Run  
 Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
