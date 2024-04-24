@@ -2349,22 +2349,22 @@ Any time your dice rolls comes up on the same number, that is considered a Match
 These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.  
 
 ### The Offensive Track  
-* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).  
-* **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
+* **Level 3** - You make Offense rolls at Boon +4, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
+* **Level 2** - You make Offense rolls at Boon +3.  
 * **Level 1** - You make Offense rolls at Boon +2.  
-* **Level 0** - Normal, no changes.  
+* **Level 0** - The default state, no affect.  
 * **Level -1** - You make Offense rolls at Bane -2.  
-* **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
-* **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.  
+* **Level -2** - You make Offense rolls at Bane -3.  
+* **Level -3** - You make Offense rolls at Bane -4, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
 
 ### The Defensive Track
-* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).  
-* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
+* **Level 3** - Offense rolls made against you have Bane -4, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
+* **Level 2** - Offense rolls made against you have Bane -3.  
 * **Level 1** - Offense rolls made against you have Bane -2.  
-* **Level 0** - Normal, no changes.  
+* **Level 0** - The default state, no affect.  
 * **Level -1** - Offense rolls against you have Boon +2.  
-* **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.  
-* **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.  
+* **Level -2** - Offense rolls against you have Boon +3.  
+* **Level -3** - Offense rolls against you have Boon +4, and you cannot gain Shield.  
 
 #### Buff Track Duration  
 Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
