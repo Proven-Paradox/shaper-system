@@ -454,7 +454,7 @@ Abilities come in three tiers (currently).
 ### Format  
 Ability entries will follow this basic layout. (Fields that aren't relevant to a given Ability will be omitted.)  
 
-**Name**  
+**Ability Name**  
 Type [Keywords]  
 Action:  
 Prerequisites:  
@@ -467,7 +467,7 @@ Cooldown:
 Duration:  
 Effect:  
 Description:  
-  
+
 ### Ability Type  
 There are three types of Abilities.  
 
@@ -477,7 +477,7 @@ Attack Abilities use [Physical Offense](#physical-offense) and are resisted by [
 #### Spell  
 Spell Abilities use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
 
-> Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizarre anatomy, or some other thing.  
+> Note that the term “Spell” is used here as a contrast to "Attack." During the game, Spell Abilities could also represent technology, chemistry, specialized anatomy, or anything else that might fit the game's setting.  
 
 #### Auxiliary  
 Auxiliary Abilities do not use offense rolls. They target yourself or your allies and do something to make it easier to fight.  
@@ -486,7 +486,7 @@ Auxiliary Abilities do not use offense rolls. They target yourself or your allie
 Some specific terms come with Abilities. These Keywords signify a related set of Abilities for the purposes of Lessons and Talents, or alter the way an Ability functions.  
 
 #### Augment  
-Auxiliary Abilities that strengthen allies. These will generally produce effects on the targets that have a Duration or Upkeep associated with them.  
+Abilities that strengthen allies. These will generally produce effects on the targets that have a Duration or Upkeep associated with them.  
 
 #### Careful  
 An Ability that can be made stronger by taking more time to do it. These require a Major Action, but have the option of using your Minor Action as well to improve them.  
@@ -497,19 +497,19 @@ Abilities that leave a lingering weakening effect on the target when they hit. I
 #### Elemental  
 Abilities which deal elemental damage, which combatants can be weak, resistant, or immune to. Striking an opponent with an Element they are weak to allows you to roll three dice during your Offense Roll, taking the higher of the two results. When striking an opponent with an element they resist you also roll three dice, but take the lower two results. Immune targets take no damage. The six elements are:  
 * *Fire* - heat and flames  
-* *Ice* - sharp icicles and freezing cold  
+* *Ice* - sharp icicles, freezing cold, or water  
 * *Earth* - shards of rock, acid, and plant vines  
 * *Sky* - electricity, wind blades, and the like  
 * *Light* - radiance, blinding light, and holy power  
-* *Dark* - Destroying life essence, sharpened shadows, or unholy power  
+* *Dark* - draining away life essence, sharpened shadows, or unholy power  
 
-> I would advise Arbiters use damage immunity sparingly, make it intuitive when it happens, and pair immunity with vulnerabilities. Obviously a fire spirit wouldn't care about being burned, but otherwise I would advise using resistance unless the creature involved is very strongly tied to a particular element.  
+> I would advise Arbiters use damage immunity sparingly, make it intuitive when it happens, and pair immunity with vulnerabilities. Obviously a fire spirit wouldn't care about being burned, but I would advise using resistance unless the creature involved is very strongly tied to a particular element.  
 
 #### Healing  
-Abilities that restore the target's HP.  
+Abilities that restore HP.  
 
 #### Status  
-Abilities that afflict their target with a [Status Ailment], effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
+Abilities that afflict their target with a [Status Ailment](#status-ailment), effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
 
 ### Action  
 Whether the Ability is used with a Major, Minor, or Counter Action. See the [Time in Combat](#time-in-combat) section for details.
@@ -527,6 +527,7 @@ How far away you can be from your target(s).
 * Medium - Reaches up to 3 Squares  
 * Long - Reaches up to 5 Squares  
 * Extreme - Reaches up to 8 Squares  
+
 An Ability may also have a Minimum Range; such Abilities cannot affect targets that close or closer.  
 
 ### Targets  
@@ -546,7 +547,7 @@ Any Ability with an Upkeep in its Cost requires the listed HP or MP to be paid e
 > There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
 ### Damage  
-The Ability's damage multiplier. See [Impact](#impact) for more info.
+The Ability's damage multiplier. See [Impact](#impact) for more info.  
 //TODO after refactoring Impact section, adjust here.  
 
 ### Cooldown  
@@ -2313,19 +2314,17 @@ Combat is frequently part of an exciting story. While not every story needs comb
 The Arbiter determines who might be surprised in a given scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
 
 ## Time in Combat  
-Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn. Each Round is broken down into three phases.  
+Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn.  
 
-### Turn Order  
-Who acts when in a given Round is determined by an Initiative roll. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
-
+Each Round is broken down into three phases.
 
 ### Round Start  
 At the start of every Round, everyone pays the Upkeep of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
 
 > It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
-### Action Phase  
-Each Round, every combatant acts in the order of their Initiative rolls.  
+### Turn Taking  
+Each Round, every combatant takes a turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
 #### Actions  
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
@@ -2338,7 +2337,7 @@ At this step you return to Round Start for the next round. Some Abilities, Lesso
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
 
-// TODO refactor into better "How to do damage" section
+// TODO refactor into better "How to do damage" section, figure out how to work Buff Tracks into this chapter better.  
 ## Impact 
 To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
