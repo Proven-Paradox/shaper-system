@@ -8,7 +8,7 @@ This page is still being actively updated. For the time being updates will be ir
   - [Rerolls](#rerolls)  
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
   - [Step 1: Attributes](#step-1-attributes)  
-  - [Step 2-a: Point Stats](#step-2-a-hpmp)  
+  - [Step 2-a: HP/MP](#step-2-a-hpmp)  
   - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)  
   - [Step 3: Abilities](#step-3-abilities)  
   - [Step 4: Skills](#step-4-skills)  
