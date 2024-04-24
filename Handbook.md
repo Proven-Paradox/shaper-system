@@ -1111,16 +1111,15 @@ Description: This Ability represents someone having trained and conditioned them
 > By using Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Squares per round.
 
 #### Scan  
-Auxiliary [Careful]  
+Auxiliary  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
 Targets: 1 enemy or 1 Square  
-Cost: 1 MP (Careful 0 MP)  
+Cost: 0 MP  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
-If you spend your major action while using this Ability, you remove the MP cost entirely.  
 Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.   
+You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
