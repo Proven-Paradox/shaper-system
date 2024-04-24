@@ -4,54 +4,51 @@ This page is still being actively updated. For the time being updates will be ir
 # Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
-  - [Rolling Dice](#rolling-dice)
-  - [Rerolls](#rerolls)
-- [Chapter 2: Character Creation](#chapter-2-character-creation) 
-  - [Step 1: Attributes](#step-1-attributes)
-  - [Step 2-a: Point Stats](#step-2-a-point-stats)
-  - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)
-  - [Step 3: Abilities](#step-3-abilities)
-  - [Step 4: Skills](#step-4-skills) 
-  - [Step 5: Talent](#step-5-talent)
-  - [Step 6: Elemental Properties](#step-6-elemental-properties)
-  - [Step 7: Starting items](#step-7-elemental-properties)
+  - [Rolling Dice](#rolling-dice)  
+  - [Rerolls](#rerolls)  
+- [Chapter 2: Character Creation](#chapter-2-character-creation)  
+  - [Step 1: Attributes](#step-1-attributes)  
+  - [Step 2-a: Point Stats](#step-2-a-point-stats)  
+  - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)  
+  - [Step 3: Abilities](#step-3-abilities)  
+  - [Step 4: Skills](#step-4-skills)  
+  - [Step 5: Talent](#step-5-talent)  
+  - [Step 6: Elemental Properties](#step-6-elemental-properties)  
+  - [Step 7: Starting items](#step-7-starting-items)  
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
-  - [Gaining XP](#gaining-xp)
-  - [Spending XP](#spending-xp)
-- [Chapter 4: Abilities](#chapter-4-abilities) 
+  - [Gaining XP](#gaining-xp)  
+  - [Spending XP](#spending-xp)  
+- [Chapter 4: Abilities](#chapter-4-abilities)  
   - [Ability Tiers](#ability-tiers)  
-  - [Reading Abilities](#reading-abilities)
-  - [Prerequisites](#prerequisites)
-  - [Ability Types](#ability-types)
-  - [Ability Series](#ability-series)
-  - [Ability Keywords](#ability-keywords)
-  - [Buff Tracks](#buff-tracks)
-- [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
-  - [Tier 0](#tier-0)
-  - [Tier 1](#tier-1)
-  - [Tier 2](#tier-2)
-- [Chapter 6: Skills](#chapter-6-Skills) 
-  - [Helping Others](#helping-others)
-  - [Skill List](#skill-list)
+  - [Reading Abilities](#reading-abilities)  
+    - [Ability Keywords](#ability-keywords)  
+- [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)  
+  - [Tier 0](#tier-0)  
+  - [Tier 1](#tier-1)  
+  - [Tier 2](#tier-2)  
+- [Chapter 6: Skills](#chapter-6-Skills)  
+  - [Helping Others](#helping-others)  
+  - [Skill List](#skill-list)  
 - [Chapter 7: Lessons](#chapter-7-lessons)  
-- [Chapter 8: Utilities](#chapter-8-utilities) 
-  - [Skill-based Utilities](#skill-based-utilities)
-  - [Other Utilities](#other-utilities)
+- [Chapter 8: Utilities](#chapter-8-utilities)  
+  - [Skill-based Utilities](#skill-based-utilities)  
+  - [Other Utilities](#other-utilities)  
 - [Chapter 9: Talents](#chapter-9-talents)  
-- [Chapter 10: Combat](#chapter-10-combat) 
-  - [Time in Combat](#time-in-combat)
-  - [Impact](#impact)
-  - [Chasing rules](#chasing-rules)
-  - [Positioning](#positioning)
-    - [Squares](#squares)
-    - [Advanced Positioning](#advanced-positioning)
-- [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
-  - [HP](#hp)
-  - [Damage Types](#damage-types)
-  - [Injuries](#injuries)
-  - [Death](#death) 
-  - [Status Ailments](#status-ailments)
-  - [Disadvantages](#disadvantages)
+- [Chapter 10: Combat](#chapter-10-combat)  
+  - [Time in Combat](#time-in-combat)  
+  - [Impact](#impact)  
+  - [Buff Tracks](#buff-tracks)  
+  - [Positioning](#positioning)  
+    - [Squares](#squares)  
+    - [Advanced Positioning](#advanced-positioning)  
+  - [Chasing rules](#chasing-rules)  
+- [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery)  
+  - [HP](#hp)  
+  - [Damage Types](#damage-types)  
+  - [Injuries](#injuries)  
+  - [Death](#death)  
+  - [Status Ailments](#status-ailments)  
+  - [Disadvantages](#disadvantages)  
   - [Advantages](#advantages)  
 - [Appendix A: Supplemental Materials](#appendix-a-supplemental-materials)  
   
@@ -501,7 +498,7 @@ Abilities which deal elemental damage, which combatants can be weak, resistant, 
 > I would advise Arbiters use damage immunity sparingly, make it intuitive when it happens, and pair immunity with vulnerabilities. Obviously a fire spirit wouldn't care about being burned, but I would advise using resistance unless the creature involved is very strongly tied to a particular element.  
 
 #### Guardian Strike  
-Abilities with this keyword allow a character to convert their defense into offense. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
+Abilities with this Keyword allow a character to convert their defense into offense. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
 
 #### Healing  
 Abilities that restore HP.  
@@ -509,7 +506,7 @@ Abilities that restore HP.
 #### Status  
 Abilities that afflict their target with a [Status Ailment](#status-ailment), effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
 
-### Action  
+### Action Requirement  
 Whether the Ability is used with a Major, Minor, or Counter Action. See the [Time in Combat](#time-in-combat) section for details.
 
 ### Prerequisites  
@@ -2321,7 +2318,7 @@ At the start of every Round, everyone pays the Upkeep of any ongoing Abilities, 
 ### Turn Taking  
 Each Round, every combatant takes a turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
-#### Actions  
+#### Your Turn  
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
 
 #### Counters  
@@ -2347,10 +2344,10 @@ Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or h
 ### Matches
 Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
 
-### Buff Tracks  
+## Buff Tracks  
 These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.  
 
-#### The Offensive Track  
+### The Offensive Track  
 * **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).  
 * **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
 * **Level 1** - You make Offense rolls at Boon +2.  
@@ -2359,7 +2356,7 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
 * **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.  
 
-#### The Defensive Track
+### The Defensive Track
 * **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).  
 * **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
 * **Level 1** - Offense rolls made against you have Bane -2.  
@@ -2368,7 +2365,7 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.  
 * **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.  
 
-##### Duration  
+#### Buff Track Duration  
 Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
 Positive values begin decaying after 3 rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
 
@@ -2418,8 +2415,8 @@ All Abilities available to you during combat are also available during chases. I
 #### Rush
 Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
 
-#### Recover
-Recover is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on a the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
+#### Rest
+Rest is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.  
 
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
