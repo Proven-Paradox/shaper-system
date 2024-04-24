@@ -150,8 +150,6 @@ When using a multi-target Ability, there may be situations where Boon or Bane ap
 ### Miscellaneous Rules  
 Here are a few general rules prevent confusion.  
 
-You count as your own ally. You can target yourself with anything that is listed to target allies.
-
 When counting squares for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
 
 Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
@@ -433,105 +431,133 @@ Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do in combat.  
+Abilities represent actions your character is able to perform that are focused on combat.  
 
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>
-> <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
-> <div align="center">The main thing to keep in mind is that Squares are larger than in most systems and can have multiple entities in each Square. Abilities that list their target as a Square target all creatures in that Square. </div>
-> <div align="center">=!=!=!=!=  </div>
+> The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
+> Two major things to keep in mind. 
+> * Squares are large in S3 and can have multiple combatants in each Square. Think of a Square as an individual room or a room-sized region of a larger space. Abilities that list their target as a Square target all creatures in that Square. See [the Positioning section](#positioning) if you want more detail.
+> * Every Round you get a Minor, Major, and Counter Action to work with. You use the Minor and Major Actions during your Turn, and can use Counter Actions during other combatants' Turns in response to opponents' Actions.  
+> <div align="center">=!=!=!=!=  </div>  
 
-## Ability Tiers
-Abilities come in three tiers (currently).
+## Ability Tiers  
+Abilities come in three tiers (currently).  
 
-* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities.  
-* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase any Ability for 3 XP. (Some of these Abilities have prerequisites that must be first, described in each entry.)
-* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 (character Level 6) before you can take Tier 2 Abilities, and they cost 5 XP each.
+* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities. These represent actions done with low skill or low effort.  
+* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase any Ability for 3 XP.  
+* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 before you can take Tier 2 Abilities, and they cost 5 XP each.  
 
-## Reading Abilities
-Ability entries will follow this basic layout:
+## Reading Abilities  
 
-**The Name of the Ability**  
-Ability Type (Attack/Spell/Auxiliary)  
-Action (Major/Minor/Counter): whether the Ability requires a Minor, Major, or Counter Action to use.  
-Prerequisites: What other things are required before one can learn this Ability.  
-Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
-* None - targets yourself.
-* Melee - targets in the same Square as you.
-* Short - can be used on targets up to 1 Square away.
-* Medium - targets enemies up to 3 Squares away.
-* Long - targets enemies up to 5 Squares away.  
-* Extreme - targets enemies up to 8 Squares away.  
+### Format  
+Ability entries will follow this basic layout. (Fields that aren't relevant to a given Ability will be omitted.)  
 
-Targets: Who or what this Ability targets.  
-Cost: The HP or MP cost of this Ability.  
-Damage: When using this Ability to do damage, multiply your [Impact](#impact) by this number to determine the amount.  
-Effect: Things particular to a given Ability.  
-Description: A general overview of what a given Ability might represent from a roleplaying perspective.  
+**Name**  
+Type [Keywords]  
+Action:  
+Prerequisites:  
+Range:  
+Targets:  
+Trigger:  
+Cost: [Upkeep: ]  
+Damage:  
+Cooldown:  
+Duration:  
+Effect:  
+Description:  
+  
+### Ability Type  
+There are three types of Abilities.  
 
-### Prerequisites
-Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Skills, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
+#### Attack  
+Attack Abilities use [Physical Offense](#physical-offense) and are resisted by [Physical Defense](#physical-defense).  
 
-### Ability Types
-There are three types of Abilities.
-* **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
-* **Spell** means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
-   * Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizzare anatomy, or some other thing.
-* **Auxiliary** Abilities do not use offense rolls. They generally target yourself or your allies.
-   
-### Ability Series
-Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
-* **Augment** - Auxiliary abilities that empower allies.
-* **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
-   * *Fire* - heat and flames
-   * *Ice* - sharp icicles and freezing cold
-   * *Earth* - shards of rock, acid, and plant vines
-   * *Sky* - electricity, wind blades, and the like
-   * *Light* - radiance, blinding light, and holy power
-   * *Dark* - Destroying life essence, sharpened shadows, or unholy power
-* **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
+#### Spell  
+Spell Abilities use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
 
-### Ability Keywords
-Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
+> Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizarre anatomy, or some other thing.  
 
-#### Careful
-An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
+#### Auxiliary  
+Auxiliary Abilities do not use offense rolls. They target yourself or your allies and do something to make it easier to fight.  
 
-#### Cooldown
-An Ability or Lesson with a Cooldown cannot be used again for the listed duration. Cooldowns decrease by 1 at [Round Start](#round-start).
+### Ability Keywords  
+Some specific terms come with Abilities. These Keywords signify a related set of Abilities for the purposes of Lessons and Talents, or alter the way an Ability functions.  
+
+#### Augment  
+Auxiliary Abilities that strengthen allies. These will generally produce effects on the targets that have a Duration or Upkeep associated with them.  
+
+#### Careful  
+An Ability that can be made stronger by taking more time to do it. These require a Major Action, but have the option of using your Minor Action as well to improve them.  
+
+#### Curse  
+Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it (see below) then the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
+
+#### Elemental  
+Abilities which deal elemental damage, which combatants can be weak, resistant, or immune to. Striking an opponent with an Element they are weak to allows you to roll three dice during your Offense Roll, taking the higher of the two results. When striking an opponent with an element they resist you also roll three dice, but take the lower two results. Immune targets take no damage. The six elements are:  
+* *Fire* - heat and flames  
+* *Ice* - sharp icicles and freezing cold  
+* *Earth* - shards of rock, acid, and plant vines  
+* *Sky* - electricity, wind blades, and the like  
+* *Light* - radiance, blinding light, and holy power  
+* *Dark* - Destroying life essence, sharpened shadows, or unholy power  
+
+> I would advise Arbiters use damage immunity sparingly, make it intuitive when it happens, and pair immunity with vulnerabilities. Obviously a fire spirit wouldn't care about being burned, but otherwise I would advise using resistance unless the creature involved is very strongly tied to a particular element.  
+
+#### Healing  
+Abilities that restore the target's HP.  
+
+#### Status  
+Abilities that afflict their target with a [Status Ailment], effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
+
+### Action  
+Whether the Ability is used with a Major, Minor, or Counter Action. See the [Time in Combat](#time-in-combat) section for details.
+
+### Prerequisites  
+If an Ability has a Prerequisite listed in its entry, you must fulfill the listed conditions before you are able to take that Ability. Usually this will be another Ability, representing related maneuvers building off of each other or more refined techniques. There are other things that could be prerequisites as well, such as [Skills](#skill-list).  
+
+If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.  
+
+### Range  
+How far away you can be from your target(s). 
+* None -  Targets you or your current Square  
+* Melee - Targets you or others in your current Square  
+* Short - Reaches up to 1 Square  
+* Medium - Reaches up to 3 Squares  
+* Long - Reaches up to 5 Squares  
+* Extreme - Reaches up to 8 Squares  
+An Ability may also have a Minimum Range; such Abilities cannot affect targets that close or closer.  
+
+### Targets  
+Whether the Ability targets yourself, allies, enemies, or a Square, and how many. (You count as your own ally for targeting purposes.)
+
+### Trigger  
+This is specific to [Counter Actions](#counters) and specifies what has to happen to be able to use the Ability.  
+
+### Cost  
+The HP or MP cost of using an Ability. If you cannot pay the Cost, you cannot use the Ability.  
 
 #### Upkeep
-Any Ability with an Upkeep in its cost requires the given cost  to be paid every Round at [Round Start](#round-start). This Ability lasts as long as the Upkeep is paid or until some effect ends the Ability prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. The listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.  
+Any Ability with an Upkeep in its Cost requires the listed HP or MP to be paid every [Round Start](#round-start). The Ability lasts as long as the Upkeep is paid or until some effect ends it prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. 
 
-> For a specific example, Drahlo casts the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is listed as "2 MP (Upkeep 1 MP)". This means that when he initially uses the Ability, he spends 2 MP. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no extra action investment from him.  
-> There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay  for said effects.  
+> Note: The separate Cost is paid when the Ability is first used, and the Upkeep cost is paid on all subsequent rounds.  
+> For example, Drahlo uses the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is listed as "2 MP (Upkeep 1 MP)". This means that when he initially uses the Ability, he spends 2 MP. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no extra action investment from him.  
+> There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
-### Buff Tracks
-These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
+### Damage  
+The Ability's damage multiplier. See [Impact](#impact) for more info.
+//TODO after refactoring Impact section, adjust here.  
 
-#### The Offensive Track
-* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).
-* **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
-* **Level 1** - You make Offense rolls at Boon +2.
-* **Level 0** - Normal, no changes.
-* **Level -1** - You make Offense rolls at Bane -2.
-* **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.
+### Cooldown  
+If an Ability has a listed Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldowns decrease at [Round Start](#round-start).  
 
-#### The Defensive Track
-* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).
-* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.
-* **Level 1** - Offense rolls made against you have Bane -2.
-* **Level 0** - Normal, no changes.
-* **Level -1** - Offense rolls against you have Boon +2.
-* **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.
-* **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
+### Duration  
+How long the Ability lasts. Duration decreases at [Round Start](#round-start).  
 
-##### Duration  
-Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
-Positive values begin decaying once every 3 rounds. Receiving another increase along the Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+### Effect  
+An Ability's specific functions, covering any information that can't be listed in the above fields.  
 
-> For example, Cyrick casts [Fortify](#fortify) on himself in round 1 of combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.
+### Description  
+A basic summation of what the Ability represents and some suggestions on how to work the Ability into your character's kit. While the rules for what Abilities do are set, how it looks when a given character uses them is up to the player or Arbiter.  
 
 ------------
 # Chapter 5: List of Abilities
@@ -1879,7 +1905,7 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 ------------
 # Chapter 7: Lessons
 Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
-Lessons cost 5 XP unless an exception is listed.
+Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
 
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
@@ -2278,36 +2304,39 @@ You can use your physical sturdiness to protect yourself against mental forces. 
 You can keep yourself going with sheer willpower. You may use your Heart in place of Toughness to determine your HP.  
 
 ------------
-# Chapter 10: Combat
-Combat is frequently part of an exciting story. While not every game needs combat, many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
+# Chapter 10: Combat  
+Combat is frequently part of an exciting story. While not every story needs combat, often conflict escalates until it cannot be solved peacefully. This chapter presents rules for handling fights.  
 
-## Surprise/Ambush
-The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat and is treated as [Flat Footed](#flat-footed).
+## Surprise/Ambush  
+The Arbiter determines who might be surprised in a given scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
 
-## Time in Combat
-Actions in combat are organized into Rounds and Turns. Each set of actions a character takes constitutes that character’s Turn. A set of everyone taking their Turn is called a Round and represents approximately 10 seconds in game. Each Round is broken down into three phases.
+## Time in Combat  
+Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn. Each Round is broken down into three phases.  
 
-### Round Start
-At the start of the Round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
+### Turn Order  
+Who acts when in a given Round is determined by an Initiative roll. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
-### Initiative Phase
-Most combat takes place in the Initiative Phase.  
-Before combat can begin, everyone needs to know the turn order. This is determined by the Initiative roll. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
-If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
-You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
 
-### Round End
-At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.
+### Round Start  
+At the start of every Round, everyone pays the Upkeep of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
 
-### Major/Minor Actions
-When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
+> It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
-### Counter Action  
-Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.  
-Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abilities [Move](#move) and [Default Strike](#default-strike) for basic rules on how to move and attack.  
+### Action Phase  
+Each Round, every combatant acts in the order of their Initiative rolls.  
 
-> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
+#### Actions  
+When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
 
+#### Counters  
+Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something that interrupts or responds to another combatant's Turn. Abilities that requires a Counter Action will list a trigger condition that must be fulfilled before the action can be used.  
+
+### Round End  
+At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.  
+
+> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
+
+// TODO refactor into better "How to do damage" section
 ## Impact 
 To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
@@ -2321,6 +2350,33 @@ Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or h
 
 ### Matches
 Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
+
+### Buff Tracks  
+These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.  
+
+#### The Offensive Track  
+* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).  
+* **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
+* **Level 1** - You make Offense rolls at Boon +2.  
+* **Level 0** - Normal, no changes.  
+* **Level -1** - You make Offense rolls at Bane -2.  
+* **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
+* **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.  
+
+#### The Defensive Track
+* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).  
+* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
+* **Level 1** - Offense rolls made against you have Bane -2.  
+* **Level 0** - Normal, no changes.  
+* **Level -1** - Offense rolls against you have Boon +2.  
+* **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.  
+* **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.  
+
+##### Duration  
+Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
+Positive values begin decaying after 3 rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+
+> For example, Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.  
 
 ## Positioning  
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
