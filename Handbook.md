@@ -8,12 +8,12 @@ This page is still being actively updated. For the time being updates will be ir
   - [Rerolls](#rerolls)  
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
   - [Step 1: Attributes](#step-1-attributes)  
-  - [Step 2-a: Point Stats](#step-2-a-point-stats)  
+  - [Step 2-a: Point Stats](#step-2-a-hpmp)  
   - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)  
   - [Step 3: Abilities](#step-3-abilities)  
   - [Step 4: Skills](#step-4-skills)  
-  - [Step 5: Talent](#step-5-talent)  
-  - [Step 6: Elemental Properties](#step-6-elemental-properties)  
+  - [Step 5: Elemental Properties](#step-5-elemental-properties)  
+  - [Step 6: Talent](#step-6-talent)  
   - [Step 7: Starting items](#step-7-starting-items)  
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
   - [Gaining XP](#gaining-xp)  
@@ -28,6 +28,7 @@ This page is still being actively updated. For the time being updates will be ir
   - [Tier 2](#tier-2)  
 - [Chapter 6: Skills](#chapter-6-Skills)  
   - [Helping Others](#helping-others)  
+  - [Raising the Stakes](#raising-the-stakes)  
   - [Skill List](#skill-list)  
 - [Chapter 7: Lessons](#chapter-7-lessons)  
 - [Chapter 8: Utilities](#chapter-8-utilities)  
@@ -2603,8 +2604,6 @@ If multiple allies have Taunt in the same Square, foes may choose between them a
 A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
 This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.  
 
-// TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
-
 ## Linked States
 Linked States are conditions that involve two different combatants. In Linked States, there is a primary creature causing the state, and a number of other creatures affected by the state (though usually just one).  
 
@@ -2621,6 +2620,8 @@ You are either providing an ally with Protection (the Protector), or are Protect
 If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
 This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
+
+// TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
 
 # Appendix A: Supplemental Materials  
 These are some optional rules you can add to your game. These are either supplemental things like an expansion on Skills, a themed expansion or series of features, or experimental rulesets that are not quite ready to be added to the main game just yet.
