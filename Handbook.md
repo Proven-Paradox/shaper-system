@@ -1997,7 +1997,7 @@ When you successfully strike with an Ability that forces a target to move, you g
 Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
 
 #### Resilient Protector  
-While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier). This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
+While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
