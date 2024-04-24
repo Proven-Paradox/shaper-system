@@ -1116,7 +1116,7 @@ Action: Minor
 Prerequisites: None  
 Range: Long  
 Targets: 1 enemy or 1 Square  
-Cost: 0 MP  
+Cost: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
 You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
