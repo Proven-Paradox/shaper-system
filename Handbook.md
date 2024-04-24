@@ -1479,8 +1479,8 @@ Action: Major
 Prerequisites: None  
 Range: Melee  
 Targets: 1 Square  
-Cost: 8 MP (Upkeep 1 MP)  
-Effect: While standing in the affected Square, you (and only you) increase your Offense or Defense stats by an amount equal to your [Hero Tier](#hero-tier), chosen when you first cast this Ability.  
+Cost: 10 MP (Upkeep 2 MP)  
+Effect: While standing in the affected Square, you (and only you) increase your Offense or Defense stats by 1, chosen when you first cast this Ability.  
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
