@@ -446,7 +446,7 @@ Abilities represent actions your character is able to perform that are focused o
 Abilities come in three tiers (currently).  
 
 * Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities. These represent actions done with low skill or low effort.  
-* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase any Ability for 3 XP.  
+* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase more Tier 1 Abilities for 3 XP.  
 * Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 before you can take Tier 2 Abilities, and they cost 5 XP each.  
 
 ## Reading Abilities  
