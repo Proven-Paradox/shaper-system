@@ -435,7 +435,7 @@ Abilities represent actions your character is able to perform that are focused o
 
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>  
 
-> The following section uses some terms defined in <[Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
+> The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
 > Two major things to keep in mind.  
 > * Squares are large in S3 and can have multiple combatants in each Square. Think of a Square as an individual room or a room-sized region of a larger space. Abilities that list their target as a Square target all creatures in that Square. See [the Positioning section](#positioning) if you want more detail.  
 > * Every Round you get a Minor, Major, and Counter Action to work with. You use the Minor and Major Actions during your Turn, and can use Counter Actions during other combatants' Turns in response to opponents' Actions.  
