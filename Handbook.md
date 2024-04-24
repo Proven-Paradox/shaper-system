@@ -2351,7 +2351,7 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level 3** - You make Offense rolls at Boon +4, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
 * **Level 2** - You make Offense rolls at Boon +3.  
 * **Level 1** - You make Offense rolls at Boon +2.  
-* **Level 0** - The default state, no affect.  
+* **Level 0** - The default state, no effect.  
 * **Level -1** - You make Offense rolls at Bane -2.  
 * **Level -2** - You make Offense rolls at Bane -3.  
 * **Level -3** - You make Offense rolls at Bane -4, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
@@ -2360,7 +2360,7 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level 3** - Offense rolls made against you have Bane -4, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
 * **Level 2** - Offense rolls made against you have Bane -3.  
 * **Level 1** - Offense rolls made against you have Bane -2.  
-* **Level 0** - The default state, no affect.  
+* **Level 0** - The default state, no effect.  
 * **Level -1** - Offense rolls against you have Boon +2.  
 * **Level -2** - Offense rolls against you have Boon +3.  
 * **Level -3** - Offense rolls against you have Boon +4, and you cannot gain Shield.  
