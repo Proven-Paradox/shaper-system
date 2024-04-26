@@ -2035,11 +2035,27 @@ In addition, when you break into a software system with your Tech skill, you may
 * Framing: You can plant files into the specified system.  
 * Crashing: You can cause the system to crash. You can delay this crash for a specified amount of time, or set up the crash to occur under specific circumstances. Examples could be crashing when a given user logs in, upon visiting a given website, or when you set off a remote signal.  
 * Trolling: You can cause the system to play loud music or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
-Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.
+Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.  
 
 #### Asceticism  
 Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.  
-In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
+In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.  
+
+#### Credentialed Academic  
+Increase your [Endure](#endure) and your choice of [History](#history), [Lore](#lore), [Medicine](#medicine), [Nature](#nature), [Science](#science), or [Tech](#tech) modifiers by 1.  
+In addition, you have studied a topic related to the chosen field extensively. Your modifier in that field increases by an additional 3. You also have documents affirming your expertise. Finally, you have access to an academic venue willing to re-issue said documents if they are lost or destroyed and connections with other academics in that venue. Discuss the implications of this Utility with your Arbiter when you take it so both of you are able to apply this should it come up in your game.  
+
+| Chosen Skill | Example Specializations                                                   |  
+|--------------|---------------------------------------------------------------------------|  
+| History      | A country, organization, culture, language, or time period                |  
+| Lore         | A religion, philosophy, folklore, or esoteric system                      |  
+| Medicine     | Anatomy, disease, a field of treatment, psychology, diagnostics           |  
+| Nature       | Botany, zoology, veterinarian training, agriculture, a specific ecosystem |  
+| Science      | Astronomy, physics, geology, chemistry, biology                           |  
+| Tech         | Algorithms, computer science, information security, mathematics           |  
+
+> This Utility is intended for characters who have legitimately done the research and earned these credentials. Characters who have forged their documents or who got their academic positions through nepotism or skulduggery aren't covered here.  
+> I promise you: everyone who has made it through academia understands the Endure bonus.  
 
 #### Dangerous Aura  
 Increase your [Diplomacy](#diplomacy) and [Intimidation](#intimidation) modifiers by 1.  
