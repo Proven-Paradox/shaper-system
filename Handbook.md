@@ -506,7 +506,7 @@ An Ability that can be made stronger by taking more time to do it. These require
 Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it (see below) then the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
 
 #### Elemental  
-Abilities which deal Elemental damage, which combatants can be Weak, Resistant, or Immune to. Striking an opponent with an Element they are Weak to allows you to roll three dice during your Offense Roll, taking the **higher** two of the results. When striking an opponent with an Element they Resist you also roll three dice, but take the **lower** two results. Immune targets take no damage of that Element.  
+Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. Striking an opponent with an Element they are Weak to allows you to roll three dice during your Offense Roll, taking the **higher** two of the results. When striking an opponent with an Element they Resist you also roll three dice, but take the **lower** two results. Immune targets take no damage of that Element.  
 
 The six elements are:  
 * *Fire* - heat and flames  
