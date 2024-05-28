@@ -34,6 +34,9 @@ Most fields are just for numbers, but some of these fields should be large enoug
 	<Current MP!> = <Max MP> - [MP used]
 		[Capacity]
 		<Max MP> =  <Base MP> + <Mind> + <Heart> + [Other]
+	Elements
+		[Resistance]
+		[Weakness]
 	<Physical Offense!> = [Realized Potential] + <Strength> + <Finesse> + [Other]
 	<Physical Defense!> = [Realized Potential] + <Toughness> + <Finesse> + [Other]
 	<Mental Offense!> = [Realized Potential] + <Mind> + <Soul> + [Other]
@@ -68,11 +71,16 @@ Most fields are just for numbers, but some of these fields should be large enoug
 	<Streetwise!> = [Realized Potential] + <Mind> + <Heart> + [Other]
 	<Survival!> = [Realized Potential] + <Mind> + <Soul> + [Other]
 	<Tech!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Total Skill Points used>
 	[Utilities?]
 
+* Page 4: XP 
+	This page should primarily be a table with two columns:
+		<Benefit>
+		<XP Cost>
+	[The player then fills in entries below.]
 
-
-
+(Page 4 might be something that can be fit into one of the other pages if there's enough room. Alternatively, this page could also have a section for the Buff Tracks and for tracking temporary things like Status Ailments or Injuries. I think seeing how the other pages shape out will alter how this page fits into the final version.)
 
 
 
