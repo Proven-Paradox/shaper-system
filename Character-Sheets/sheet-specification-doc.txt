@@ -3,9 +3,9 @@ A pre-existing DnD 3.5 sheet used for reference: https://www.dandwiki.com/w/imag
 
 I want the S3 sheet to have three pages: Identity, Combat, and Utility.
 
-By default, some fields will be auto-calculated by the final sheet. (I can do the programming side of things if that's outside of your scope.) I want there to be a visual difference between fields that the sheet expect player input (Attributes, Realized Potential, etc) and fields that are auto-calculated (Total HP/MP, Skill totals, Physical Offense, etc). I'm thinking different colored/textures on the borders of input and calculated fields. I will label player input fields with [square brackets] and calculated fields with <angle brackets>.
+By default, some fields will be auto-calculated by the final sheet. (I can do the programming side of things if that's outside of your scope.) I want there to be a visual difference between fields for player input (Attributes, Realized Potential, MP Used, etc) and fields that are auto-calculated (Total HP/MP, Skill totals, Physical Offense, etc). I'm thinking different colored/textures on the borders of input and calculated fields. I will label player input fields with [square brackets] and calculated fields with <angle brackets>.
 
-I also want some fields to be visually larger than others to draw player attention to them. In S3's current character sheet, you can see the effect I want to go for with the Current HP/MP fields that are slightly larger. I will note these fields with a bang! symbol. 
+I also want some fields to be visually larger than others to draw player attention to them. These are fields that the player will be referencing frequently during play. In S3's current character sheet, you can see the effect I want to go for with the Current HP/MP fields: they're are slightly larger. I will note these fields with a bang! symbol.
 
 Most fields are just for numbers, but some of these fields should be large enough for players to write paragraphs as description for the character or extended explanations of the character's options. These will be noted with a question mark?
 
