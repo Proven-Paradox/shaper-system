@@ -74,13 +74,13 @@ Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; 
 S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, while being flexible enough to run any genre. You only need ten-sided dice.  
 These ideas are central to the design of Story Shaper. 
 
-* **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character looks like in this book. While the abilities and skills on your character sheet make some implications about *what* a character can do, the player describes *how* they do it.  
+* **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character or their gear looks like in this book. While the abilities and skills on character sheets describe *what* a character can do, the players and Arbiter describe *how* they do it.  
 * **Depth.** The "game" portion of this roleplaying game focuses on strategic character building, compelling problem solving, and interesting moment to moment decisions. Combat rewards tactical thinking and teamwork. A character's non-combat options allow players to flesh out what kind of person their character is.  
 * **Speed.** If a given task might not be fun for some players, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis. Ideally, an experienced player who knows their character should take no more than two minutes to figure out the rules for their actions. (Of course, one may take considerably more time deliberating on tactical options or describing their actions.)  
-* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. With some restrictions on which options are available, S3 could even be used for a story grounded in reality.  
+* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. The only type of setting that would be awkward for S3 is one based in reality, and even that can work if everyone involved avoids fantastical, unrealistic powers.  
 
 ### Contact/Social Media
-If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon [Here](https://mastodon.gamedev.place/@Proven_Paradox), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).
+If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on BlueSky [Here](https://bsky.app/profile/proven-paradox.bsky.social), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).  
 
 ------------
 # Chapter 1: How to Play
