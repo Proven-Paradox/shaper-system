@@ -590,8 +590,7 @@ Any Ability with an Upkeep in its Cost requires the listed HP or MP to be paid e
 > There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
 ### Damage  
-The Ability's damage multiplier. See [Impact](#impact) for more info.  
-//TODO after refactoring Impact section, adjust here.  
+The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how damage works.  
 
 ### Cooldown  
 If an Ability has a listed Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldowns decrease at [Round Start](#round-start).  
