@@ -63,7 +63,8 @@ The Attacker's statistics scale based on the MP used to summon it.
 | 6                  | +7               | 14                      | 22     |
 | 8                  | +8               | 14                      | 29     |
 | 10                 | +9               | 15                      | 36     |
-| 12                 | +10              | 16                      | 43     |
+| 12                 | +10              | 16                      | 43     |  
+
 ...  //TODO further scaling
 
 #### Mobile  
@@ -97,7 +98,8 @@ This configuration serves as a source of cover. Though slower than the other typ
 | 6                  | +5               | 16                      | 28     |
 | 8                  | +6               | 17                      | 37     |
 | 10                 | +6               | 18                      | 46     |  
-| 12                 | +7               | 19                      | 55     |
+| 12                 | +7               | 19                      | 55     |  
+
 //TODO further scaling
 
 #### Immobile  
@@ -136,7 +138,10 @@ This configuration is an ally with unremarkable mobility but high range and dama
 | 6                  | +7             | 15                      | 20     |
 | 8                  | +8             | 15                      | 26     |
 | 10                 | +9             | 16                      | 32     |
-| 12                 | +10            | 17                      | 38     |
+| 12                 | +10            | 17                      | 38     |  
+
+//TODO further scaling
+
 
 #### Zap  
 Spell   
@@ -167,7 +172,8 @@ The Support's statistics scale based on the MP used to summon it. Support Allies
 | 6                  | +5             | 15                      | 24     | 5        |
 | 8                  | +6             | 16                      | 32     | 5        |
 | 10                 | +7             | 17                      | 40     | 6        |
-| 12                 | +7             | 18                      | 48     | 6        |
+| 12                 | +7             | 18                      | 48     | 6        |  
+
 ...  //TODO further scaling  
 
 #### Resilient
@@ -305,7 +311,7 @@ These options are available only to [Support Configuration](#summon-configuratio
 When your Ally uses [Empowered Soothe](#empowered-soothe), you may either reduce the duration of one [Status Ailment](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#status-ailments) by 2 rounds or increase one of the target's [Buff Tracks](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#buff-tracks) by 1, to a minimum of 0.  
 
 ### Efficient Healer  
-When your Ally uses [Soothe](#soothe), it heals an additional 1 HP. WHen using [Empowered Soothe](#empowered-soothe), it heals an additional 2 HP. This does not increase the HP drained from the Ally; they still lose HP equal to their Efficacy or twice their Efficacy respectively.  
+When your Ally uses [Soothe](#soothe), it heals an additional 1 HP. When using [Empowered Soothe](#empowered-soothe), it heals an additional 2 HP. This does not increase the HP drained from the Ally; they still lose HP equal to their Efficacy or twice their Efficacy respectively.  
 
 ### Potent Healer  
 When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), you may choose to double the amount of HP it loses to increase the amount of healing it provides by 50%.  
