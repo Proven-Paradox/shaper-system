@@ -312,7 +312,7 @@ When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), 
 > Reminder, fractions round down.  
 
 ### Protective Healer  
-When your Ally uses [Empowered Soothe](#empowered-soothe), the target also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
+When your Ally uses [Soothe](#soothe), the target also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier). When your Ally uses [Empowered Soothe](#empowered-soothe), the target gains Shield equal to tree times your Hero Tier.  
 
 ***  
 
