@@ -304,10 +304,14 @@ These options are available only to [Support Configuration](#summon-configuratio
 ### Cleansing Soothe  
 When your Ally uses [Empowered Soothe](#empowered-soothe), you may either reduce the duration of one [Status Ailment](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#status-ailments) by 2 rounds or increase one of the target's [Buff Tracks](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#buff-tracks) by 1, to a minimum of 0.  
 
-### Potent Healer  
-Increase your Support Ally's Efficacy by 1.  
+### Efficient Healer  
+When your Ally uses [Soothe](#soothe), it heals an additional 1 HP. WHen using [Empowered Soothe](#empowered-soothe), it heals an additional 2 HP. This does not increase the HP drained from the Ally; they still lose HP equal to their Efficacy or twice their Efficacy respectively.  
 
-### Protective Support  
+### Potent Healer  
+When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), you may choose to double the amount of HP it loses to increase the amount of healing it provides by 50%.  
+> Reminder, fractions round down.  
+
+### Protective Healer  
 When your Ally uses [Empowered Soothe](#empowered-soothe), the target also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to X, where X twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier).  
 
 ***  
