@@ -1,8 +1,10 @@
 ﻿# This is a living document!  
 This page is still being actively updated. For the time being updates will be irregular. You can keep up with changes to the document with the history links above, and I also post logs of significant updates to the Discord channel. While the core systems in place here are not going to change very much going forward, balance alterations and additional content are still being made.  
-``` 
+```  
 TODO: Remove this notice; low priority: text is not yet done.  
-I'll use this spot to specify: These notes are both reminders for myself for future plans, and also communicating to you readers what I'm up to and how I'm prioritizing things.
+I'll use this spot to specify: These notes are both reminders for myself for  
+future plans, and also communicating to you readers what I'm up to and how I'm  
+prioritizing things.  
 ```  
 
 # Table of Contents
@@ -342,7 +344,10 @@ In S3, rather than progressing in a class, heroes become stronger by spending ex
 ## Gaining XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
 
-// TODO Rewrite to properly codify this at some point. For now:
+```  
+TODO Rewrite to properly codify this at some point ; low priority: more of the 
+system needs writing before this is codified. For now:  
+```  
 The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. There are no set rules on this.
 
 > There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.  
@@ -2390,8 +2395,12 @@ At this step you return to Round Start for the next round. Some Abilities, Lesso
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
 
-// TODO refactor into better "How to do damage" section, figure out how to work Buff Tracks into this chapter better.  
-## Impact 
+```  
+TODO refactor into better "How to do damage" section, figure out how to work  
+Buff Tracks into this chapter better; high priority  
+```  
+
+## Impact  
 To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
@@ -2454,7 +2463,10 @@ Some examples of Subsquare use:
 ##### Central column  
 A Square that includes a column, pillar, or other obstruction at its center. The containing Square is divided up into 9 Subsquares. The central Subsquare is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight, just count the number of Subsquares away your target is. Count orthogonality; i.e. without moving diagonally. Any target more than two Subsquares away is blocked; the pillar is between you and your target.
 
-//TODO: Visual aid, more examples
+```  
+TODO: Visual aid, more examples; low priority: I want to get closer to done  
+with everything else before getting into fiddly portions like this.  
+```  
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
@@ -2681,7 +2693,10 @@ If you are the Protector, you cannot benefit from being Protected yourself. Stan
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
 This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
 
-// TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
+```  
+TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving  
+my system a chance. I hope you've enjoyed.  
+```
 
 # Appendix A: Supplemental Materials  
 These are some optional rules you can add to your game. These are either supplemental things like an expansion on Skills, a themed expansion or series of features, or experimental rulesets that are not quite ready to be added to the main game just yet.
