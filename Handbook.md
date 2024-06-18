@@ -1,5 +1,9 @@
 ﻿# This is a living document!  
 This page is still being actively updated. For the time being updates will be irregular. You can keep up with changes to the document with the history links above, and I also post logs of significant updates to the Discord channel. While the core systems in place here are not going to change very much going forward, balance alterations and additional content are still being made.  
+``` 
+TODO: Remove this notice; low priority: text is not yet done.  
+I'll use this spot to specify: These notes are both reminders for myself for future plans, and also communicating to you readers what I'm up to and how I'm prioritizing things.
+```  
 
 # Table of Contents
 - [Chapter 0: Introduction](#chapter-0-introduction)  
