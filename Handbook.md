@@ -7,7 +7,7 @@ future plans, and also communicating to you readers what I'm up to and how I'm
 prioritizing things.  
 ```  
 
-# Table of Contents
+# Table of Contents  
 - [Chapter 0: Introduction](#chapter-0-introduction)  
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
   - [Rolling Dice](#rolling-dice)  
@@ -32,7 +32,7 @@ prioritizing things.
       - [Skill Points](#skill-points)  
     - [Abilities](#abilities)  
     - [Lesson](#lessons)  
-    - [Utilities](#utilities)
+    - [Utilities](#utilities)  
     - [Talents](#talents)  
 - [Chapter 4: Abilities](#chapter-4-abilities)  
   - [Ability Tiers](#ability-tiers)  
@@ -69,15 +69,15 @@ prioritizing things.
   - [Advantages](#advantages)  
 - [Appendix A: Supplemental Materials](#appendix-a-supplemental-materials)  
   
-------------
-# Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System (S3).  
+------------  
+# Chapter 0: Introduction  
+Assembled friends and enemies, welcome to the Story Shaper System (S3) Handbook.  
 
 ## Who am I?  
-Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a hobbyist game designer just as long--writing homebrew content for my game mastering, programming small video games, and the like.
+Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a hobbyist game designer just as long--writing homebrew content for my game mastering, programming small video games, and the like.  
 
 ## What is Story Shaper System?  
-S3 is a setting-agnostic tabletop RPG that is focused on being smooth and entertaining as a game, while being flexible enough to run any genre, using only ten-sided dice.  
+S3 is a setting-agnostic tabletop RPG that is focused on being smooth and entertaining as a game while being flexible enough to run any genre, using only ten-sided dice.  
 The core goals of Story Shaper are:  
 
 * **Freedom.** Players describe their characters and actions however they want. There are no rules that restrain how characters or their gear look in this book (and never will be). While the abilities and skills on character sheets describe *what* a character can do, players describe *how* they do it.  
@@ -85,32 +85,29 @@ The core goals of Story Shaper are:
 * **Speed.** S3 aims to make resolving conflicts quick and easy. Combat is simplified in a way that reduces analysis paralysis, and determining what numbers are needed for a given action is simple and consistent.  
 * **Versatility.** This system is intended to be usable in any genre. Pulpy sci-fi, high fantasy, classic superheroes, and everything in between. What this system refers to as a "Spell" doesn't have to be magic. It could be powered by technology instead of magic, replacing a fireball with a heat ray. Alternatively, they could be re-imagined as gunslinger trick shots in a wild west flavored setting. Combat rules could be abstracted to represent something something less violent, such as a verbal battle between philosophers, with Offense stats representing persuasive ability and Defense representing poise and resolution.  
 
-### Contact/Social Media
+### Contact/Social Media  
 If you want to get in contact with me, you can email me at Proven-Paradox@proton.me, find me on BlueSky [Here](https://bsky.app/profile/proven-paradox.bsky.social), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).  
+
+
+------------  
+# Chapter 1: How to Play  
+
+## What you Need to Play  
+### Required:  
+* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.  
+* At least one player.  
+* The S3 Handbook (this page): https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
+* A [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing) for each player.  
+* A pair of 10-sided dice (also called d10s) for each participant. *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.  
+> If you are playing a character focused on doing elemental damage, you probably want to bring three dice.  
+* Pencil and paper.  
+> Do not use pen or something you can’t easily erase. Trust me.  
 
 ```  
 TODO: Continue review from here; highest priority: need to review text before
 continuing development.  
 ```
-------------
-# Chapter 1: How to Play
-One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
-
-> Hello. This is Dox. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game smoothly.  
-
-## What you Need to Play
-### Required:
-* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.
-* At least one player.
-* Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
-* Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing).
-* A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
-  * Alternatively a random number generator, which can be found for free online.
-> If you are playing a character focused on doing elemental damage, you probably want to bring three dice.  
-
-### Recommended but not vital:
-* Pencil and paper.  
-> Do not use pen or something you can’t easily erase. Trust me.
+### Recommended but not vital:  
 * A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
 * A notebook for each player to write personal notes in.
 * The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.  
@@ -121,6 +118,8 @@ One of the most important things separating a roleplaying game from simple prete
 * Props to illustrate circumstances on the battlefield.  
 * Access to a search engine.  
 > This should be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this could be available to players as well.  
+
+> Hello. This is Dox. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game smoothly.  
 
 ## Rolling Dice
 In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
