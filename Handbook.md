@@ -92,55 +92,55 @@ If you want to get in contact with me, you can email me at Proven-Paradox@proton
 ------------  
 # Chapter 1: How to Play  
 
-## What you Need to Play  
+## What you Need  
 ### Required:  
 * An Arbiter. This is S3's term for game master; the person running everything other than the heroes.  
 * At least one player.  
 * The S3 Handbook (this page): https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
 * A [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing) for each player.  
-* A pair of 10-sided dice (also called d10s) for each participant. *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.  
-> If you are playing a character focused on doing elemental damage, you probably want to bring three dice.  
+* A pair of 10-sided dice (also called d10s) for each participant.  
+> Characters focused on elemental damage often need three dice.  
 * Pencil and paper.  
 > Do not use pen or something you can’t easily erase. Trust me.  
+
+### Useful but not vital:  
+* A play mat with grid sections large enough to house multiple characters, or a dry erase surface.  
+* A notebook for each player.  
+For combat scenarios...  
+* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies.  
+* Miniatures.  
+* Props to illustrate terrains and objects on a map.  
+
+> Hello. This is Dox, the game dev. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game.  
+
+## Rolling Dice  
+Almost all dice checks go the same way. First the random factor: roll two 10-sided dice and add them together. This gives a range of 2 to 20, with middling results being significantly more likely than extremes.  
+On top of that, each type of roll has a modifier depending on the entity's character sheet. Each is the sum of two Attributes and that roll's Realized Potential, a bonus purchased with XP. One can think of Attributes as representing a character's talent, while Realized Potential is the result of training and effort. (This modifier can be negative.)  
+This is S3's core mechanic: almost all rolls are 2d10+<bonus>. The higher this sum, the better the result.  
+
+> For example, Alex is trying to climb over a fence with Athletics, which is based on Strength and Toughness. Alex's Strength is 1 and Toughness is 2, and he has Realized Potential of 2 in Athletics from his time in high school sports, for a total modifier of +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+
+### Rerolls  
+Some circumstances enable a player to reroll one of their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.  
+
+#### Boon  
+Circumstances or character traits grant a character a conditional or temporary advantage are represented by Boon +X. When a roll is made with Boon +X, the character may reroll a die if it is equal to or less than X. They must take the new roll, even if it is lower.  
+
+> Some examples of Boon in play:  
+> Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
+> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.  
+
+##### Boon Splitting  
+If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled.  
+
+> For example, Billy Baggins is sniping an enemy, and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.  
+> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. This is not enough to reroll both dice, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.  
 
 ```  
 TODO: Continue review from here; highest priority: need to review text before
 continuing development.  
 ```
-### Recommended but not vital:  
-* A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
-* A notebook for each player to write personal notes in.
-* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.  
-
-### Totally optional, but maybe fun/useful:
-* Miniatures to represent characters in combat.
-* A deck of playing cards or tarot cards (just in case a card game breaks out).
-* Props to illustrate circumstances on the battlefield.  
-* Access to a search engine.  
-> This should be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this could be available to players as well.  
-
-> Hello. This is Dox. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game smoothly.  
-
-## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
-
-### Rerolls  
-Some circumstances enable a player to reroll their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
-
-#### Boon
-Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. 
-
-> Some examples of Boon in play:  
-> Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
-> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
-
-##### Boon Splitting
-If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. 
-
-> For example, Billy Baggins is sniping an enemy, and has Boon 5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.
-> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. This is not enough to reroll both dice, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
-
-#### Bane
+#### Bane  
 The unfavorable complement of Boon, Bane is imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their *highest* die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
 
 | Bane -X | Reroll a die above... |
