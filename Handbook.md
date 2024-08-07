@@ -74,20 +74,24 @@ prioritizing things.
 Assembled friends and enemies, welcome to the Story Shaper System (S3).  
 
 ## Who am I?  
-Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a game designer just as long--writing homebrew content for my campaigns, programming small video games, and analyzing and mastering games created by others.
+Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a hobbyist game designer just as long--writing homebrew content for my game mastering, programming small video games, and the like.
 
 ## What is Story Shaper System?  
-S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, while being flexible enough to run any genre. You only need ten-sided dice.  
-These ideas are central to the design of Story Shaper. 
+S3 is a setting-agnostic RPG that is focused on being smooth and entertaining as a game, while being flexible enough to run any genre, using only ten-sided dice.  
+The core goals of Story Shaper are:  
 
-* **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character or their gear looks like in this book. While the abilities and skills on character sheets describe *what* a character can do, the players and Arbiter describe *how* they do it.  
+* **Freedom.** Players are encouraged to describe their characters and actions however they want. There are not (and never will be) any rules that restrain what characters or their gear look can like in this book. While the abilities and skills on character sheets describe *what* a character can do, the players and Arbiter describe *how* they do it.  
 * **Depth.** The "game" portion of this roleplaying game focuses on strategic character building, compelling problem solving, and interesting moment to moment decisions. Combat rewards tactical thinking and teamwork. A character's non-combat options allow players to flesh out what kind of person their character is.  
-* **Speed.** If a given task might not be fun for some players, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis. Ideally, an experienced player who knows their character should take no more than two minutes to figure out the rules for their actions. (Of course, one may take considerably more time deliberating on tactical options or describing their actions.)  
-* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. The only type of setting that would be awkward for S3 is one based in reality, and even that can work if everyone involved avoids fantastical, unrealistic powers.  
+* **Speed.** If a given task might not be fun for some players, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis, and determining what roll is needed for a given action is simple.  
+* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. What this system refers to as a "Spell" could be powered by technology instead of magic. Alternatively, they could be re-imagined as gunslinger trick shots in an old-west flavored campaign. Combat rules could be abstracted to represent something something less violent, such as a verbal battle between philosophers, with Offense stats representing persuasive ability and Defense representing poise and resolution.  
 
 ### Contact/Social Media
-If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on BlueSky [Here](https://bsky.app/profile/proven-paradox.bsky.social), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).  
+If you want to get in contact with me, you can email me at Proven-Paradox@proton.me, find me on BlueSky [Here](https://bsky.app/profile/proven-paradox.bsky.social), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).  
 
+```  
+TODO: Continue review from here; highest priority: need to review text before
+continuing development.  
+```
 ------------
 # Chapter 1: How to Play
 One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
