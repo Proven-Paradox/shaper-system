@@ -116,12 +116,12 @@ For combat scenarios...
 ## Rolling Dice  
 Almost all dice checks go the same way. First the random factor: roll two 10-sided dice and add them together. This gives a range of 2 to 20, with middling results being significantly more likely than extremes.  
 On top of that, each type of roll has a modifier depending on the entity's character sheet. Each is the sum of two Attributes and that roll's Realized Potential, a bonus purchased with XP. One can think of Attributes as representing a character's talent, while Realized Potential is the result of training and effort. (This modifier can be negative.)  
-This is S3's core mechanic: almost all rolls are 2d10+<bonus>. The higher this sum, the better the result.  
+This is S3's core mechanic: almost all rolls are 2d10+ \[bonus\]. The higher this sum, the better the result.  
 
-> For example, Alex is trying to climb over a fence with Athletics, which is based on Strength and Toughness. Alex's Strength is 1 and Toughness is 2, and he has Realized Potential of 2 in Athletics from his time in high school sports, for a total modifier of +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+> For example, Alex is trying to climb over a fence with Athletics, which is based on Strength and Toughness. Alex's Strength is 1 and Toughness is 2, and he has Realized Potential of 2 in Athletics from his time in high school sports. His total Athletics modifier is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
 
 ### Rerolls  
-Some circumstances enable a player to reroll one of their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.  
+Some circumstances enable a creature to reroll one of their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.  
 
 #### Boon  
 Circumstances or character traits grant a character a conditional or temporary advantage are represented by Boon +X. When a roll is made with Boon +X, the character may reroll a die if it is equal to or less than X. They must take the new roll, even if it is lower.  
