@@ -92,6 +92,12 @@ If you want to get in contact with me, you can email me at Proven-Paradox@proton
 ------------  
 # Chapter 1: How to Play  
 
+```  
+TODO: Consider how much of a "What are TTRPGs" section I want to write; low  
+priority: For now anyone reading this document either already knows what  
+TTRPGs are or were invited here by me personally, so not much urgency.  
+```
+
 ## What you Need  
 ### Required:  
 * An Arbiter. This is S3's term for game master; the person running everything other than the heroes.  
