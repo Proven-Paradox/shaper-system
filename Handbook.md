@@ -10,8 +10,9 @@ prioritizing things.
 # Table of Contents  
 - [Chapter 0: Introduction](#chapter-0-introduction)  
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
-  - [Rolling Dice](#rolling-dice)  
-  - [Rerolls](#rerolls)  
+  - [What you Need](#what-you-need)  
+  - [Core Mechanics](#core-mechanics)  
+  - [Re-rolling Dice]#(re-rolling-dice---boon-and-bane)  
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
   - [Step 1: Attributes](#step-1-attributes)  
   - [Step 2-a: HP/MP](#step-2-a-hpmp)  
@@ -92,10 +93,10 @@ If you want to get in contact with me, you can email me at Proven-Paradox@proton
 ------------  
 # Chapter 1: How to Play  
 
-```  
-TODO: Consider how much of a "What are TTRPGs" section I want to write; low  
-priority: For now anyone reading this document either already knows what  
-TTRPGs are or were invited here by me personally, so not much urgency.  
+```
+TODO: Consider how much of a "What are TTRPGs" section I want to write; low 
+priority: For now anyone reading this document either already knows what TTRPGs
+are or were invited here by me personally, so not much urgency.
 ```
 
 ## What you Need  
@@ -112,74 +113,75 @@ TTRPGs are or were invited here by me personally, so not much urgency.
 ### Useful but not vital:  
 * A play mat with grid sections large enough to house multiple characters, or a dry erase surface.  
 * A notebook for each player.  
+
 For combat scenarios...  
 * The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies.  
 * Miniatures.  
 * Props to illustrate terrains and objects on a map.  
 
-> Hello. This is Dox, the game dev. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game.  
+> Hello. This is Dox, the game dev. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. These are for clarifications, examples, and recommendations to help understand the rules or run the game.  
 
-## Rolling Dice  
-Almost all dice checks go the same way. First the random factor: roll two 10-sided dice and add them together. This gives a range of 2 to 20, with middling results being significantly more likely than extremes.  
-On top of that, each type of roll has a modifier depending on the entity's character sheet. Each is the sum of two Attributes and that roll's Realized Potential, a bonus purchased with XP. One can think of Attributes as representing a character's talent, while Realized Potential is the result of training and effort. (This modifier can be negative.)  
-This is S3's core mechanic: almost all rolls are 2d10+ \[bonus\]. The higher this sum, the better the result.  
+## Core Mechanics  
+This is a long rulebook with a lot of text. However, these rules are all additions or twists on this core.  
 
-> For example, Alex is trying to climb over a fence with Athletics, which is based on Strength and Toughness. Alex's Strength is 1 and Toughness is 2, and he has Realized Potential of 2 in Athletics from his time in high school sports. His total Athletics modifier is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+At the most basic level, characters in S3 are represented by six Attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul. These Attributes broadly determine a character's dice modifiers, each Attribute affecting several different types of rolls. The Arbiter determines how high or low a character's attributes can be for each campaign.  
+> For example, a character's Strength is added to things like health, physical offense, athletic ability, intimidation, and so on.  
 
-### Rerolls  
-Some circumstances enable a creature to reroll one of their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.  
+Characters gain experience points (XP) as they adventure. In S3, XP are a currency used to purchase benefits rather than a total that ticks towards leveling up. They can be spent on bonuses for specific roll types, learning new techniques, and so on. The roll bonuses gained from XP purchases are called Realized Potential (RP).  
+> So a character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly, while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
+
+All dice in this system are 10-sided. Any time a die or dice are mentioned, assume they're d10s. Almost all rolls in S3 are the same: take two of your Attributes, plus that roll's RP bonus, plus the result of two dice rolls. Add these numbers together to get your total result. The higher the roll, the better the result.  
+> So most rolls condense to a 2d10. This gives range from 2 to 20 with middling results being significantly more likely than extremes. The full formula is \[2d10 + \<2 Attributes\> + \<Realized Potential\>\].  
+
+> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics from his time in high school sports. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+
+There are a few rolls that vary from this formula, but not many. They will be described specifically when they come up. Always round down to the nearest integer during dice rolls. If you ever have a fraction, cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
+
+### Re-rolling Dice - Boon and Bane  
+Some circumstances enable or force a creature to re-roll dice. A given die can only be re-rolled once, even if the new roll would otherwise qualify.  
 
 #### Boon  
-Circumstances or character traits grant a character a conditional or temporary advantage are represented by Boon +X. When a roll is made with Boon +X, the character may reroll a die if it is equal to or less than X. They must take the new roll, even if it is lower.  
+Circumstances or character traits that grant a conditional or temporary advantage in a situation are represented by Boon +X. When a roll is made with Boon +X, the character may re-roll a die if it is less than or equal to X. They must take the new roll, even if it is lower.  
+Some examples of Boon in play:  
+> Varna makes a Stealth roll with Boon +3. He rolls 2 and 6 on his d10s. He chooses to re-roll the 2, getting an 8. His final result is (6 + 8) 14 plus his modifier.  
 
-> Some examples of Boon in play:  
-> Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
-> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.  
+> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She could keep this roll if she likes, but chooses to use the re-roll and gets a 1. Her final result is (9 + 1) 10 plus her modifier.  
 
 ##### Boon Splitting  
-If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled.  
+If a character's Boon magnitude matches or exceeds the sum of both dice, both may be re-rolled.  
 
-> For example, Billy Baggins is sniping an enemy, and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.  
-> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. This is not enough to reroll both dice, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.  
+> For example, Billy Baggins is sniping an enemy and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
 
-```  
-TODO: Continue review from here; highest priority: need to review text before
-continuing development.  
-```
+> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls the dice and gets 1 and 2. This is not enough to re-roll both dice, so he chooses to re-roll the 1 and gets a 4. His final result is (2 + 4) 6, plus any modifiers.  
+
 #### Bane  
-The unfavorable complement of Boon, Bane is imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their *highest* die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
+The unfavorable complement of Boon, Bane -X is imposed on a character when circumstances or sabotage make the character more likely to fail. When a roll is made with Bane -X, the player must re-roll their *highest* die if it is equal to or greater than (11 - X). Bane does not go beyond -5, as re-rolling any die below a 6 is statistically advantageous. They must take the new roll, including when it is higher than the original.  
 
-| Bane -X | Reroll a die above... |
-|---------|-----------------------|
-| -1      | 10                    |
-| -2      | 9                     |
-| -3      | 8                     |
-| -4      | 7                     |
-| -5      | 6                     |
+| Bane -X | Re-roll a die above... |
+|---------|------------------------|
+| -1      | 10                     |
+| -2      | 9                      |
+| -3      | 8                      |
+| -4      | 7                      |
+| -5      | 6                      |
 
-Some examples of Bane in play:
-* Adam is trying to follow tracks that have had some time to fade. This imposes Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane -4 on an attempt to repair a damaged mechanism with a Construct check due to them being on a ship that is currently engaged in chaotic combat. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+Some examples of Bane in play:  
+> Adam is trying to follow tracks that have had some time to fade. This imposes Bane -3, meaning he must re-roll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to re-roll the 9, which comes up as a 2. Final result is (1 + 2) 3.  
 
-#### Combining Boon and Bane
-If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
-* Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may reroll a die if she rolls a 1.
-* Morris is attempting to pick a lock. He has picked these kinds of locks before on, so his familiarity gives him Boon +2 the check. However, his picks have been badly damaged in a way that, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must reroll a die if the roll is higher than 10.
-* Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
+> XU-808 is attempting to repair a damaged warp drive with a Construct check. They have Bane -4 since the ship is currently engaged in chaotic combat, causing a distracting cacophony and major turbulence. This means they must re-roll any result above a 7. They roll 7 and 8. Because Bane specifies that one must re-roll the higher die, the 8 is re-rolled. The new result is 9, for a final result of (7 + 9) 16 plus any modifiers.  
 
-#### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane first, then do appropriate Boon/Bane rerolls on the targets affected that ARE by Boon or Bane.
+##### Combining Boon and Bane  
+In a situation where both Boon and Bane apply, they cancel each other out. Add their magnitudes (the "X") together. If the result is positive, proceed with Boon equal to that amount. For negative results, use Bane instead.  
+Some examples:  
+> Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may re-roll a die on a 1.  
 
-### Miscellaneous Rules  
-Here are a few general rules prevent confusion.  
+> Morris is attempting to pick a lock. He has picked this kind of lock many times before, so his familiarity gives him Boon +2. However, his picks were badly damaged in a previous scene, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must re-roll if a die is 10.  
 
-When counting Zones for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
+> Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to re-roll dice.  
 
-Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
-
-In combat, defenders win ties. For example, if using an offensive Ability results in the Offense role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
-
-For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the original rolls still apply when rerolling due to a tie.  
+##### Boon, Bane, and Multiple Targets  
+When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets affected that ARE by Boon or Bane.  
+> For example, Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
 ------------
 # Chapter 2: Character Creation  
@@ -1849,8 +1851,18 @@ Here are a few examples of modifications you can make. You and the Arbiter are e
 | Look *extremely* cool   | +7              |
 
 > Some examples:  
-> Balam is climbing a rope ladder in a storm. The Athletics/Acrobatics target is 15. He wants to do it extra fast, so the Arbiter lets him increase that to 18.    
-> Dr. Skren is working on a cybernetic arm for a friend. Normally this tech requires a Science or Tech check of 20, but she wants this to be extra powerful and cranks that target up to 25. If it works she gets a hell of an arm, but on failure the materials and time are wasted.
+> Balam is climbing a rope ladder in a storm. The Athletics/Acrobatics target is 15. He wants to do it extra fast, so the Arbiter lets him increase that to 18.  
+> Dr. Skren is working on a cybernetic arm for a friend. Normally this tech requires a Science or Tech check of 20, but she wants this to be extra powerful and cranks that target up to 25. If it works she gets a hell of an arm, but on failure the materials and time are wasted.  
+
+## Competitive Checks  
+```
+TODO work this section into the chapter better; high priority: currently copy/
+pasted from its previous place in chapter 1.
+```
+For a tie during opposed Skill checks (such as Empathy versus Deception or Awareness versus Stealth), both characters re-roll until there is no tie. Any Boon or Bane on the original rolls still apply when re-rolling due to a tie.  
+> For example, Boris is trying to lie to a guard who (correctly) suspects that he broke into a noble's house two nights ago. Boris has the Poker Face utility, allowing him to use Composure instead of Deception with Boon +4 on the check, while the guard must roll Empathy to catch him in the lie. Boris's Composure modifier is +7 and the guard's Empathy is +3.  
+> For the first roll, Boris gets a 1 and a 6. He re-rolls that 1, replacing it with a 5. His total is(5 + 6 + 7) 18. Meanwhile guard rolls a 6 and a 9, for a result of (6 + 9 + 3) 18. This is a tie, so they must re-roll.  
+> The second time, Boris rolls a 2 and an 8. This is a new attempt, so Boon allows him to re-roll that 2. The re-roll gives an 8, for a total of (8 + 8 + 7) 23. The guard re-rolls and gets a 4 and a 6 for a total of (4 + 6 + 3) 13. Boris succeeds in this contest, successfully denying the guard the information they're after.  
 
 ## Skill List
 
@@ -2403,6 +2415,11 @@ At this step you return to Round Start for the next round. Some Abilities, Lesso
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
 
+```
+TODO better work this line into the chapter; high priority, currently copy/
+pasted from a different part of the book.
+```  
+In combat, defenders win ties. For example, if using an attack results in the Offense matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
 ```  
 TODO refactor into better "How to do damage" section, figure out how to work  
 Buff Tracks into this chapter better; high priority  
