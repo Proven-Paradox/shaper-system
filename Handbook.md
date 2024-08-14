@@ -183,6 +183,10 @@ Some examples:
 When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets affected that ARE by Boon or Bane.  
 > For example, Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
+
 ------------
 # Chapter 2: Character Creation  
 Before you can begin playing a game of Story Shaper, you have to know who your Player Character (PC) is. This is the persona you’re taking control during the game. Your character sheet defines what they can do and what they struggle with. In this section, we will go through the steps of defining your character's capabilities.  
@@ -548,11 +552,11 @@ The six elements are:
 * *Dark* - draining away life essence, sharpened shadows, or unholy power  
 
 When striking multiple targets with different Elemental Properties (such as with an area of effect Spell), first resolve all targets that are neither Resistant nor Weak to the element by rolling two ten-sided die as normal. After you have determined how much damage each of them receive, keep the results of those first two and roll the third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
-Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot/does not reroll the die rolled during the second phase.  
+Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot/does not re-roll the die rolled during the second phase.  
 
 > For example, Anezka is using the Elemental Blast Ability with Ice Element. The Zone she targets has one foe that is Weak to Ice along with two that are neutral towards Ice. She also has Boon 4. 
-> First, to damage the two neutral opponents she rolls the normal two dice, getting a 9 and a 4. She rerolls the 4 and gets a 1 (Boon backfires sometimes), so her final Result is 9 + 1 + her Mental Offense.  
-> She now calculates damage for the Ice-weak target by rolling a third die, getting a 3. Since she used Boon to reroll the 4 earlier, she cannot reroll the 3. She still drops the lowest die, so for this foe her final result is 9 + 3 + her Mental Offense.  
+> First, to damage the two neutral opponents she rolls the normal two dice, getting a 9 and a 4. She re-rolls the 4 and gets a 1 (Boon backfires sometimes), so her final Result is 9 + 1 + her Mental Offense.  
+> She now calculates damage for the Ice-weak target by rolling a third die, getting a 3. Since she used Boon to re-roll the 4 earlier, she cannot re-roll the 3. She still drops the lowest die, so for this foe her final result is 9 + 3 + her Mental Offense.  
 >  
 > Arbiters: I would advise you to use Immunity sparingly, make it intuitive when it happens, and pair it with Weaknesses. Obviously spirit composed entirely of flames wouldn't care about being burned, but if it's at all ambiguous cases I would advise using Resistance instead of Immunity.  
 
@@ -2347,9 +2351,9 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 
 #### Lucky
 You're just lucky sometimes. 
-You may reroll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
-When you roll [Matches](#matches), you may gain one additional dice reroll.  
-When you reroll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
+You may re-roll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your re-rolls refresh after you spend six hours not using any. You still cannot re-roll dice that have already been re-rolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you may gain one additional dice re-roll.  
+When you re-roll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
 
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
@@ -2580,7 +2584,7 @@ When you sustain an injury in combat, roll a die and refer to this table for wha
 As always, these methods of describing an injury are just suggestions. Players and Arbiters are free to come up with their own.
 
 ### Getting Injured
-There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to reroll until something appropriate comes up.)
+There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to re-roll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
 * Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries, at the Arbiter's preference. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
