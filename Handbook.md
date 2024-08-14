@@ -12,7 +12,7 @@ prioritizing things.
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
   - [What you Need](#what-you-need)  
   - [Core Mechanics](#core-mechanics)  
-  - [Re-rolling Dice]#(re-rolling-dice---boon-and-bane)  
+  - [Re-rolling Dice](#re-rolling-dice---boon-and-bane)  
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
   - [Step 1: Attributes](#step-1-attributes)  
   - [Step 2-a: HP/MP](#step-2-a-hpmp)  
