@@ -124,16 +124,16 @@ For combat scenarios...
 ## Core Mechanics  
 This is a long rulebook with a lot of text. However, these rules are all additions or twists on this core.  
 
-At the most basic level, characters in S3 are represented by six Attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul. These Attributes broadly determine a character's dice modifiers, each Attribute affecting several different types of rolls. The Arbiter determines how high or low a character's attributes can be for each campaign.  
+At the most basic level characters in S3 are represented by six Attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul. These Attributes broadly determine a character's dice modifiers, each Attribute affecting several different types of rolls. The Arbiter determines how high or low a character's attributes can be for each campaign.  
 > For example, a character's Strength is added to things like health, physical offense, athletic ability, intimidation, and so on.  
 
 Characters gain experience points (XP) as they adventure. In S3, XP are a currency used to purchase benefits rather than a total that ticks towards leveling up. They can be spent on bonuses for specific roll types, learning new techniques, and so on. The roll bonuses gained from XP purchases are called Realized Potential (RP).  
-> So a character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly, while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
+> A character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly, while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
 
 All dice in this system are 10-sided. Any time a die or dice are mentioned, assume they're d10s. Almost all rolls in S3 are the same: take two of your Attributes, plus that roll's RP bonus, plus the result of two dice rolls. Add these numbers together to get your total result. The higher the roll, the better the result.  
-> So most rolls condense to a 2d10. This gives range from 2 to 20 with middling results being significantly more likely than extremes. The full formula is \[2d10 + \<2 Attributes\> + \<Realized Potential\>\].  
+> Most rolls condense to a 2d10. This gives range from 2 to 20 with middling results being significantly more likely than extremes. The full formula is \[2d10 + \<2 Attributes\> + \<Realized Potential\>\].  
 
-> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics from his time in high school sports. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics from his time in an athletic club in his youth. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
 
 There are a few rolls that vary from this formula, but not many. They will be described specifically when they come up. Always round down to the nearest integer during dice rolls. If you ever have a fraction, cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
 
@@ -141,7 +141,7 @@ There are a few rolls that vary from this formula, but not many. They will be de
 Some circumstances enable or force a creature to re-roll dice. A given die can only be re-rolled once, even if the new roll would otherwise qualify.  
 
 #### Boon  
-Circumstances or character traits that grant a conditional or temporary advantage in a situation are represented by Boon +X. When a roll is made with Boon +X, the character may re-roll a die if it is less than or equal to X. They must take the new roll, even if it is lower.  
+Circumstances or character traits that grant a conditional or temporary advantage are represented by Boon +X. When a roll is made with Boon +X, the character may re-roll a die if it is less than or equal to X. They must take the new roll, even if it is lower.  
 Some examples of Boon in play:  
 > Varna makes a Stealth roll with Boon +3. He rolls 2 and 6 on his d10s. He chooses to re-roll the 2, getting an 8. His final result is (6 + 8) 14 plus his modifier.  
 
@@ -150,7 +150,7 @@ Some examples of Boon in play:
 ##### Boon Splitting  
 If a character's Boon magnitude matches or exceeds the sum of both dice, both may be re-rolled.  
 
-> For example, Billy Baggins is sniping an enemy and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
+> Billy Baggins is sniping an enemy and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
 
 > As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls the dice and gets 1 and 2. This is not enough to re-roll both dice, so he chooses to re-roll the 1 and gets a 4. His final result is (2 + 4) 6, plus any modifiers.  
 
@@ -165,23 +165,22 @@ The unfavorable complement of Boon, Bane -X is imposed on a character when circu
 | -4      | 7                      |
 | -5      | 6                      |
 
-Some examples of Bane in play:  
-> Adam is trying to follow tracks that have had some time to fade. This imposes Bane -3, meaning he must re-roll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to re-roll the 9, which comes up as a 2. Final result is (1 + 2) 3.  
+Some examples:  
+> Adam is trying to follow tracks that have faded over time. This imposes Bane -3, meaning he must re-roll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to re-roll the 9, which comes up as a 2. Final result is (1 + 2) 3.  
 
 > XU-808 is attempting to repair a damaged warp drive with a Construct check. They have Bane -4 since the ship is currently engaged in chaotic combat, causing a distracting cacophony and major turbulence. This means they must re-roll any result above a 7. They roll 7 and 8. Because Bane specifies that one must re-roll the higher die, the 8 is re-rolled. The new result is 9, for a final result of (7 + 9) 16 plus any modifiers.  
 
 ##### Combining Boon and Bane  
 In a situation where both Boon and Bane apply, they cancel each other out. Add their magnitudes (the "X") together. If the result is positive, proceed with Boon equal to that amount. For negative results, use Bane instead.  
-Some examples:  
 > Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may re-roll a die on a 1.  
 
-> Morris is attempting to pick a lock. He has picked this kind of lock many times before, so his familiarity gives him Boon +2. However, his picks were badly damaged in a previous scene, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must re-roll if a die is 10.  
+> Morris is attempting to pick a lock. He has picked this kind of lock many times before, so his familiarity gives him Boon +2. Unfortunately his picks were badly damaged in a previous scene, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must re-roll if a die is 10.  
 
 > Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to re-roll dice.  
 
 ##### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets affected that ARE by Boon or Bane.  
-> For example, Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
+When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets that are subject to Boon or Bane.  
+> Example: Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
 ```
 TODO: Continue review of existing text here; high priority
