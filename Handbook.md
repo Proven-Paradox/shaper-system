@@ -16,12 +16,14 @@ prioritizing things.
 - [Chapter 2: Character Creation](#chapter-2-character-creation)  
   - [Step 1: Attributes](#step-1-attributes)  
   - [Step 2-a: HP/MP](#step-2-a-hpmp)  
-  - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)  
+  - [Step 2-b: Offense/Defense/Initiative](#step-2-b-offensedefenseinitiative)  
   - [Step 3: Abilities](#step-3-abilities)  
   - [Step 4: Skills](#step-4-skills)  
-  - [Step 5: Elemental Properties](#step-5-elemental-properties)  
-  - [Step 6: Talent](#step-6-talent)  
-  - [Step 7: Starting items](#step-7-starting-items)  
+  - [Step 5: Talent](#step-5-talent)  
+  - [Step 6: Starting items](#step-6-starting-items)  
+  - [Step 7: Lesson](#step-7-lesson)  
+  - [Step 8: Utility](#step-8-utility)  
+  - [Step 9: Elements](#step-9-elements)  
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
   - [Gaining XP](#gaining-xp)  
   - [Spending XP](#spending-xp)  
@@ -182,173 +184,142 @@ In a situation where both Boon and Bane apply, they cancel each other out. Add t
 When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets that are subject to Boon or Bane.  
 > Example: Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 ------------
 # Chapter 2: Character Creation  
-Before you can begin playing a game of Story Shaper, you have to know who your Player Character (PC) is. This is the persona you’re taking control during the game. Your character sheet defines what they can do and what they struggle with. In this section, we will go through the steps of defining your character's capabilities.  
-This chapter will focus on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world: their appearance, background, motivations, hopes, fears, and similar details should be an exercise mostly taken between the Arbiter and the player. These rules define what your character can do, but you decide who they are and how they do it.  
+Before you can begin playing a game of Story Shaper, you have to know who your Player Character (PC) is. This is the persona you’re taking control during the game. Your character sheet defines their capabilities and weaknesses.  
+This chapter will focus on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world--their appearance, backstory, motivations, hopes, fears, and similar details--is an exercise mostly taken between the Arbiter and the player. The rules define what your character can do, but you decide who they are and how they do it.  
 A blank character sheet can be found [here](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit#gid=0). The sheet is set up to do a lot of the necessary math (Max HP, MP, etc) automatically.  
 
 > Let's walk through the character creation process for two hypothetical characters to give an example as well as demonstrate a point.  
 > 
-> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.  
+> The first is being played by Eric. He is joining a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.  
 > 
-> Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.  
+> Meanwhile in another group, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.  
 
 ## Step 0: Starting Out  
-When a character is first created, they start at Max Potential 1 and Hero Tier 1. These values represent a character that is just getting started in their adventuring career. These values will be defined in a later step, for now just note these on your sheet.  
+When a character is first created, they start at Max Potential 1 and Hero Tier 1. These values represent a character that is just getting started. These values will be defined in a later step, for now just note these on your sheet.  
 
 ## Step 1: Attributes  
-Attributes are the most broad representation of your character's capabilities. These numbers add directly to at least two other secondary statistics and are added in when making certain Skill checks (more on both of these subjects later).  
-A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give 6 points to spend, with a cap of 3 points into one Attribute and the option to take a -1 in order to  get a 7th point. I recommend against randomizing Attribute generation.  
+Attributes are the most broad representation of your character's capabilities. A zero represents average human performance in that Attribute, and from there it can go positive or negative. Three or above represents a gifted individual, and above five indicates superhuman ability. Negative three or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
+Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, I recommend 6 points to spend, a cap of 3 points into one Attribute, and the option to take a -1 in order to  get a 7th point. I recommend against randomizing Attribute generation.  
 
-There are six attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul. 
-* **Strength** represents both raw physical power as one’s control and ability to utilize said force. High Strength could translate to generating a lot of force with unarmed strikes, or it could enable a character to carry heavier equipment than most. High Strength characters could be visibly muscular. Meanwhile, low Strength might result in the character being spindly or out of shape.  
-   * Strength is also added to your Hit Points and Physical Offense stats.  
-* **Toughness** represents health and hardiness. A character with high Toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low Toughness might mean the character is sickly or bruises easily.  
+There are six attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul.  
+* **Strength** represents raw physical force and one’s control of said force. High Strength character can generate a lot of force with their attacks through raw power, using heavy equipment, or a combination of the two. Low Strength might result in the character being spindly or out of shape.  
+   * Strength is also added to your Hit Points and Physical Offense.  
+* **Toughness** represents health and hardiness. A character with high Toughness is slow to tire from physical activity and can shrug off injuries with relative ease, while low Toughness might mean the character is sickly or bruises easily.  
    * Toughness is also added to your Hit Points and Physical Defense stats.  
-* **Finesse** represents how agile or dexterous your character is. High Finesse means that a character would generally move with grace, or perhaps represents good aim or dexterity. Low Finesse might instead implies general clumsiness and poor reactions.  
+* **Finesse** represents how agile or dexterous your character is. High Finesse characters can move with grace and has good aim or dexterity. Low Finesse might instead implies general clumsiness and poor reaction time.  
    * Finesse is also added to your Initiative, Physical Offense, and Physical Defense stats.  
-* **Mind** represents intelligence and cleverness. A character with high Mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low Mind often means difficulty learning new technical concepts and a hard time remembering details.  
+* **Mind** represents intelligence and cleverness. A character with high Mind has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low Mind often means difficulty learning new technical concepts and remembering details.  
    * Mind is also added to your Mental Points and Mental Offense stats.  
-* **Heart** represents charisma and intensity. Someone with high Heart is able to naturally be the center of attention and get along well with people, while someone with low Heart might naturally go unnoticed in social situations or just generally lack presence.  
+* **Heart** represents charisma and intensity. Someone with high Heart is able to naturally be the center of attention and get along well with people, while someone with low Heart might go unnoticed in social situations or lack presence.  
    * Heart is also added to your Mental Points and Mental Defense stats.  
-* **Soul** represents calmness and perception. Someone with high Soul might not be religious, but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low Soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.  
-   * Soul is also added to your Initiative, Mental Offense, Mental Defense stats.
-   
-If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.  
-
-* It is often useful to have at least one high Attribute. This ensures your character has at least one thing they are naturally good at, which can help define their role in the group (both in and out of combat), as well as guide the character creation process.  
-
-> Note that generalized Attribute spreads still absolutely work. Jack-of-all-trade characters can be a bit more challenging to build, but have broader capabilities and options to weave different fighting styles together. Broadly distributed Attributes also enable a character to have a naturally broad range of non-combat capabilities.  
-
-* That said, be careful about overspecialization in combat. During fights most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in many situations. Any PC who takes only melee range offense options is helpless against flying foes. A knight who has a very high HP pool along with high Defenses is durable, but if said knight has no means of dealing damage or drawing a foe’s attention the enemy may just ignore them in a fight. An alchemist character with tremendous MP and Mental Offense may do a lot of damage, but if their HP and Physical Defense are too low they will have a bad time when enemies get too close.  
-   * This can be an *issue* outside of combat scenarios, but is not necessarily a *problem*. While combat scenarios usually involve the PCs working together on equal footings, non-combat scenarios can be natural places for a specific character's skill set to shine while other characters support them. A thief specialized in stealth and infiltration can lead a heist while a hunter with high awareness keeps watch or waits for a signal to assist. A trickster character with a silver tongue and quick wit can charm and deceive their way through a fancy party, with a warrior friend by their side to provide intimidation and to step in if things get ugly.  
-* Coordinate with other players at the table. There are several ways characters can interact that make all involved stronger. A character focused on support abilities can help a physical attacker do more damage, while a defensive character can provide cover for a fragile spellcaster. If the group features some players who want to fight monsters while others prefer non-combat scenarios, those players should discuss things they could do to support each other. The combat oriented players might take some specific options that let them cover an important area the non-combat players need help with, while the non-combat characters might take options that support the eager combatants.  
-   * This can be an in-character process as well; a group of people who do perilous work together will naturally figure out ways to keep each other safe in their adventures.  
-
-> Eric considers XU-808's Attributes. His Arbiter has given him five points to work with. He reasons that his robot character should have high Mind to represent their ability to calculate quickly as well as a strong memory, so he puts their Mind to 3. Being made of metal instead of skin, he also figures XU-808 should be pretty tough as well: the last 2 points go to Toughness. He also reasons that his newly-created robot is socially naive and logical in a way that makes them hard to relate to. To represent this (and with the Arbiter's permission), he makes their Heart -1. The Arbiter allows him to get an extra Attribute point for this, which he uses to increase his Toughness by one more step. After all this, XU-808's Attributes are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.  
+* **Soul** represents calmness and perception. Someone with high Soul might not be religious, but could be spiritual while. They are also good at reading people or noticing small details. In contrast, someone with low Soul would struggle with spiritual pursuits such as meditation and also have a general obliviousness to them.  
+   * Soul is also added to your Initiative, Mental Offense, Mental Defense stats.  
+> Eric considers XU-808's Attributes. His Arbiter has given him five Attribute points. He decides his robot character should have high Mind to represent their ability to calculate quickly and the perfect memory of a computer, so set their Mind at 3. Being made of steel instead of skin, he also figures XU-808 should be tough as well: the last 2 points go to Toughness. His newly-assembled robot is socially naive and logical in a way that makes them hard to relate to. To represent this (and with the Arbiter's permission), he makes their Heart -1. His Arbiter allows an extra Attribute point for this, which he uses to increase his Toughness by one more step. XU-808's starting Attributes are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.  
 > 
-> Lydia does the same thing for Marona. Her Arbiter has set the Attribute rules down ahead of time: 5 Attribute points, permission to take one negative Attribute for a 6th, and a hard cap of 3 points in any one Attribute. She expects to be using a lot of spells, so she prioritizes Mind to get a lot of MP and Mental Offense to work with. Since it's her highest priority, Marona's Mind is maxed out at 3. She's also expecting a lot of combat in her game, so she wants to give her character the best chance to survive it. Looking over her options, she concludes the best way to do this is to increase her HP. She doesn't need Physical Offense at all, so she puts the rest of her points into Toughness so it also boosts her Physical Defense. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one she can afford to drop. She decides that the right answer would be Heart. She has ulterior motives (which we'll talk about later) but decides to justify it by framing her character as being an academic who has spent more time with books than people, making her socially awkward. She adds the extra point to Toughness. Her final stats for her wizard are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.  
+> Lydia does the same thing for Marona. Her Arbiter gives her group 5 Attribute points, permission to take one negative Attribute for a 6th, and a hard cap of 3 points in any one Attribute. Marona highest priority in combat will be using a lot of spells, so she puts 3 points into Mind for MP and Mental Offense. Lydia is also expecting a lot of fighting in her game, so she wants to be tough enough to last in a fight. In Lydia's reasoning, the most reliable defense is high HP. She doesn't need Physical Offense at all, so she puts points into Toughness since it also boosts her Physical Defense. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one Marona can afford to drop. She decides that the right answer would be Heart. She has ulterior motives (which we'll talk about later) but justifies it by framing her character as being a socially awkward academic who has spent more time with books than people. She adds the extra point to Toughness. The final stats for her mage are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.  
 
-The next two steps are aspects of your character that emerge from your Attribute distribution. These steps are calculations, all of which the character sheet linked earlier does for you.  
+Your Attributes determine your starting combat stats. The following steps are calculations based on your chosen Attributes. (The character sheet linked earlier does these calculations automatically.)  
 
 ## Step 2-a: HP/MP  
 After choosing your Attributes, you can determine your point stats.  
-* **Max HP:** HP stands for hit points or health points, and they are an abstract representation of a character’s health. While the character has HP, they can still press on. Your character starts with 15 plus your Strength times 3 plus your Toughness times 3 HP.  
+
+### Max Health Points (HP)
+A representation of a character’s stamina. While a character has HP, they can still press on. When a character runs out of HP they are (at best) injured and knocked unconscious. PCs starts with 15 plus your Strength times 3 plus your Toughness times 3 HP.  
    * [15 + (STR x 3) + (TGH x 3)]  
-* **Max MP:** MP stats for mental points or mana points. While some combat maneuvers spend HP, most require you to spend MP to use them. What this represents can be very abstract; it could represent a pool of mana to draw power from, concentration and energy needed to perform a complex maneuver in a fight, or it can be as simple as tracking ammunition. Your character starts with 15 plus your Mind times 3 plus your Heart times 3 MP.  
+
+### Max Mental Points (MP)
+Most combat maneuvers spend MP. What this represents can be abstract or setting specific: a pool of mana to draw power from, concentration and focus needed to perform a complex techniques in a fight, ammunition, battery power, or something similar. Your character starts with 15 plus your Mind times 3 plus your Heart times 3 MP.  
    * [15 + (MND x 3) + (HRT x 3)]  
 
-The sheet also lists a field for Vitality in the HP calculation, and Capacity for MP. Both of these values start at 0, and will be explained in the next chapter.  
- 
-> Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart -1, so [15 + (3 * 3) + (3 * -1) = 21]. These numbers represent a decent starting point for both HP and MP levels; not spectacular, but enough.  
+The sheet also lists a field for Vitality and Capacity for HP and MP respectively. Both of these values start at 0 and will be explained in the next chapter.  
+> Both XU-808 and Marona calculate their point stats. For HP, their Strength is 0 and their Toughness is 3: [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. For MP they have Mind 3 and Heart -1: [15 + (3 * 3) + (3 * -1) = 21].  
 
 ## Step 2-b: Offense/Defense/Initiative  
-These are values that are used when rolling dice in combat. Offense is a general increase to your attacks’ effectiveness, Defense represents or your ability to mitigate incoming strikes, and Initiative determines the order in which characters act.  
+These are values that are used when rolling dice in combat. Offense increases your attacks’ effectiveness, Defense reduces damage you take, and Initiative determines the order characters act in a fight.  
 Each of these sections on the character sheet have a field for Realized Potential. For new characters, these values all start at 0. Raising these values will be discussed in the next chapter.  
 
-#### Physical Offense  
-This broadly represents your ability to attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and mundane missile attacks. A high Physical Offense could imply raw strength, extensive training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.  
+### Physical Offense  
+Your ability to attack foes by physical means. The better your Physical Offense, the more damage you do with fists, melee weapons, and mundane missile attacks. A high Physical Offense could imply raw strength, extensive training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.  
+> Our example characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. This is fine; neither character use their Physical Offense.  
 
-> Our example characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. Which is totally fine; they can just create characters that doesn't ever use Physical Offense.  
+### Mental Offense  
+Your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply intense magical abilities, better understanding of technology used in combat, a connection to some external power source you channel to lash out at your enemies, psychic potential, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.  
+> With Mind 3 and Soul 0, XU-808 and Marona have a starting Mental Offense of 3.  
 
-#### Mental Offense  
-This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply a deep well of mana to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.  
+### Physical Defense  
+Your ability to mitigate mundane strikes sent against you. High Physical Defense characters could be fast to dodge attacks, tough enough to just ignore them, equipped with armor or shields, or a combination of these effects. You start with 10 Physical Defense plus your Toughness and Finesse.  
+> Both characters have 3 Toughness and 0 Finesse, so their Physical Defense starts at 13.  
 
-> With Mind 3 and Soul 0, XU-808 and Marona have a starting Mental Offense of 3. A good starting point for building up their characters' damage capabilities.  
+### Mental Defense  
+Your resilience against technical or magical attacks. High Mental Defense can imply being trained in counter-spells, arcane shielding techniques, equipment or techniques that absorb energy attack, carrying a shield that deflects magic, raw resilience, or the like. You start with 10 Mental Defense, plus your Heart and Soul.  
+> Both characters have Heart -1 and Soul 0. They start with Mental Defense 9.  
 
-#### Physical Defense  
-This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense, plus your Toughness and Finesse.  
-
-> Both characters have 3 Toughness and 0 Finesse, so their Physical Defense starts at 13. Both characters are fairly resilient to physical harm.  
-
-#### Mental Defense  
-Mental Defense enables you to mitigate damage you would otherwise take from technical or magical attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy targeting you, carrying a shield that deflects magica, just being so resilient that you can endure the attack without harm, or the like. You start with 10 Mental Defense, plus your Heart and Soul.  
-
-> Both characters have Heart -1 and Soul 0. They start with Mental Defense at 9. Unlike their low Physical Offense, this is a weakness that can be a significant problem for these characters.  
-
-#### Initiative Bonus  
+### Initiative Bonus  
 At the beginning of a dangerous encounter (usually but not always combat) everyone involved make Initiative rolls. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.  
-Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative; whoever rolls the highest is the first to act.  
+Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative. Resolve these conflicting actions in the resulting order.  
 
-> Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0. Not ideal, but not all character need to prioritize acting first.  
+> Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0.  
 
 ## Step 3: Abilities  
-The next step is to choose Abilities. Chapter 4 goes into greater detail on what an Ability actually entails, but in short an Ability represents something that characters can do in combat. You can think of these as the verbs you can perform in fights. These will define your character's fighting style. Characters start knowing all Tier 0 and with 3 Tier 1 Abilities.  
+The next step is to choose Abilities: actions a character can take in a fight. These will define your character's fighting style. Chapter 4 defines Abilities in detail and Chapter 5 is an Ability list. Newly created characters start with all Tier 0 Abilities and 3 Tier 1 Abilities.  
 
-Some advice if you are having trouble choosing your Abilities:  
-* You should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one attack. A Mind/Soul dominant hero is going to want Abilities that use Mental Offense. A character with high defenses can better leverage them if they choose Abilities that force enemies to target them instead of more fragile allies.  
-* That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you should add some variety to your arsenal.  
-* At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, it might be better to set that aside until you've gotten stronger.  
-* Once your major bases are covered, it is often useful to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (Actions are described in more detail in Chapter 10.)  
-   * The same could be said for choosing at least one Ability that is a Counter Action, but Counters are more situational than Minor Actions.  
-
-> Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Lance Ability, taking the Sky Attunement version to represent the electrical element. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.  
+> Eric considers what kind of gadgets XU-808 would start with. He likes the idea of a lightning ray, taking the Elemental Lance Ability, choosing the Sky Element to represent the electricity. He also wants to analyze enemy shields, so he takes Scan. A cloaking device sounds fun to him, so he fishes with Vanish.  
 >
-> Meanwhile Lydia considers her Abilities. She wants Scan because she plans to build Marona into an elementalist, so she needs to know enemy weak points. She also wants a way to escape bad situations, so she takes Vanish. Finally she needs to be able to damage. She decides to start her character off using wind slashes, so she picks Elemental Lance with Sky Attunement.  
+> Meanwhile Lydia considers Marona. She plans to be an elemental specialist which means she needs to know enemy weak points. Scan handles that. She also wants a way to escape bad situations: Vanish. Finally she needs to be able to damage. She decides to start off using wind slashes, so she picks Elemental Lance with Sky Attunement.  
 
 ## Step 4: Skills  
-Next, you will distribute Skill Points. Chapter 6 covers Skills in detail, but the general idea is that Skills are things that your character are good at besides fighting. These are verbs for your character outside of combat. Each Skill starts off based on two Attributes. For example, the Acrobatics Skill adds your Strength and Finesse Attributes; History adds Mind and Soul; Stealth adds Finesse and Mind; and so on for each Skill. You can think of the Attribute bonus as a character's talent level in a given activity; how good they are at the thing with no extra training or preparation.  
-In addition, each Skill has a Realized Potential modifier, representing training, study, and/or practice of the Skill in question. The reason for the term "Realized Potential" will be discussed in the next chapter, but for now you can think of this as the effect of your character's active effort rather than passive talent. You can increase your Realized Potential in a Skill for one Skill Point. All characters start with 20 Skill Points to spend, with a maximum Realized Potential of 4.  
-
-Here are some things to consider when distributing skill points:  
-* Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose Skills that make sense for your character to have from a story perspective. Think about the things a person with your characters' history would be good at.  
-   * Don't let that limit you though. Having an unusual or out of character Skill can be very compelling as well.  
-* If you’re satisfied with your character’s representation but still have Skill Points remaining, consider coordinating with the other players. A given party would typically benefit from having most of their bases covered, so if you have points left and there's a major gap in the party's capabilities, it might help the whole group to use those spare points to fill that gap. (Explaining how your character comes to have said Skill could be an interesting prompt for extra details in your PC's background as well.)  
-* If you’ve done the above and still have Skill Points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These Skills are either universally useful, reactive in nature, or beneficial for the party to have multiple members able to use them well.  
-
-> Eric considers XU-808's Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot being difficult to rattle emotionally. He decides for simplicity to just max things out as he chooses them, so he puts 4 points into Composure. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two Skills that catch his interest are Investigation and Science. He decides that XU-808's primary function is as a researcher, and puts those two skills to maximum.  
+Next, distribute Skill Points. Skills are things that your character are good at besides fighting. Each Skill starts off based on two Attributes. The Acrobatics Skill adds Strength and Finesse; History adds Mind and Soul; Stealth adds Finesse and Mind; and so on for each Skill. You can think of the Attribute bonus as a character's talent level in a given activity; how good they are at the thing with no extra training or preparation.  
+Each Skill also has a Realized Potential modifier to represent training, study, and/or practice. Think of this as the effect of your character's active effort rather than passive talent. You can increase your Realized Potential in a Skill for one Skill Point. All characters start with 20 Skill Points to spend. All Skills have a maximum Realized Potential of 4 at character creation.  
+Chapter 6 describes and lists Skills in detail.  
+> Eric considers XU-808's Skills. For simplicity he maximizes each Skill he chooses. High Composure could represent his robot being more emotionally stable than most people. Endure represents pain tolerance, going without food, working tirelessly--all things a robot can do. He decides that XU-808's primary function is research, and to represent that he maxes out Investigation, Science, and Tech.  
 > 
-> Meanwhile Lydia thinks about what Marona should able able to do. Like Eric, she decides to just max four Skills. Lore obviously, a wizard needs to know magic stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful to withstand the eldritch knowledge she'll be gathering. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> Lydia thinks about what Marona should able able to do. Like Eric, she maxes five Skills. She knows her Arbiter likes cosmic horror elements, so Composure will be useful to withstand the eldritch knowledge she'll be gathering. She then picks some Skills to represent her character's scholarly background: a lot of time in a fantasy library would mean high Skill with History, Investigation, and Lore. In past games she's also noted her Arbiter likes to call for a lot of Endure checks, so she maxes that out in preparation.  
 > 
 > After adding in Attributes, the two characters have the following Skill checks:  
 > 
-> Composure +7, Endure +6, Investigation +7, Lore +7 (Marona), Science +7 (XU-808)  
+> Composure +7, Endure +6, History +7 (Marona), Investigation +7, Lore +7 (Marona), Science +7 (XU-808), Tech +7 (XU-808)  
 > 
-> All their other skills are done just with their Attributes.  
+> All their other Skills only add their Attributes.  
 
-## Step 5: Elemental Properties  
+## Step 5: Talent  
+Choose one Talent. Talents are described in full in Chapter 9; these are major changes that define what your character excels at. These can allow you to act more efficiently, add powerful benefits for specific types of Abilities, or expand how you can use your Attributes.  
+
+> Eric looks over the available Talents. He spots Sturdy Shield and decides that could represent XU-808 having energy shields installed.  
+> 
+> Lydia looked ahead to plan her build. Since she took a point away in Heart, she decides to use Sturdy Shield. Now she can use her strong Toughness to partially negate the downside of her low Heart.  
+> 
+> In both cases, this means that their Mental Defense goes from 9 to 13.  
+
+## Step 6: Starting items  
+There are no rules for mundane items or equipment in this system. Axes and swords don't have different stats. A character starts with their most essential items already on hand. High Strength characters start with appropriate weapons: a sword, ax, polearm, or whatever weapon the player thinks best suits their warrior. Mages start with any implements they need to use their magic. Sturdy characters could start with armor or a shield. An engineer will have their equipment stored in easy reach. The Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar. An experienced soldier has the tools needed to maintain their gear somewhere, and a scholarly character has what they need to write down their observations somewhere in their bags.  
+
+> Note that steps 7-9 can be skipped for brand new players. If this is your first time with S3 and you want to get straight into it you can skip these steps for now. This also means one can skip reading chapters 7 and 8. If you play for a while and like the system, you can come back to these steps to finish your character later.  
+
+## Step 7: Lesson  
+New characters start knowing one Lesson, which represents focusing on or expanding a fighting style. These give passive bonuses or new options. They are described in full in Chapter 7.  
+
+> For XU-808, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced analysis equipment.  
+>
+> Lydia takes the same Lesson because she expects to be using Scan frequently to find enemy weaknesses. If she's going to be Scanning anyway, she wants to get the most out of it.  
+
+## Step 8: Utility  
+Choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills and/or new options off the battlefield. Utilities are listed in Chapter 8. At character creation you may only choose a Utility with the standard 3 XP cost; more expensive Utilities must be purchased with XP.  
+> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.  
+>
+> Lidia just likes being able to ask the Arbiter to fill in memory gaps, so she takes the Eidetic Memory Utility to give an explanation on how Marona keeps all those details in her head even though Lydia cannot.  
+
+## Step 9: Elements  
 In settings where elemental magic is common, your character can start with a Weakness to one Element and a Resistance to one other. The available Elements are Fire, Ice, Sky, Earth, Light, and Dark.  
 Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
 The effect of Elemental Properties is described in Chapter 4. For now; you take significantly less damage from Elements you Resist, and more from Elements you are Weak to.  
 
-## Step 6: Talent  
-Finally, you choose one Talent. Talents are described in full in Chapter 9; these are major changes that help define what your character excels at. These can allow you to act more efficiently, add powerful benefits for specific types of Abilities, or expand how you can use your Attributes.  
-
-> Eric looks over the available Talents for something that looks interesting. He spots Sturdy Shield and decides that could represent XU-808 having energy shields installed.  
-> 
-> Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Heart, she decides to use Sturdy Shield, using her strong Toughness to partially negate the downside of her low Heart.  
-> 
-> In both cases, this means that their Mental Defense goes from 9 to 13.  
-
-## Step 7: Starting items  
-There are no rules for mundane items or equipment in this system. Axes and swords don't have different stats. A character starts with their most essential items (weapons, armor, tools) already on hand. Unless there are specific circumstances that say otherwise, characters can hand-wave having access to common tools for their profession.  
-The basic idea is that characters in S3 are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor or a shield. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar. An experienced soldier has the tools needed to maintain their gear somewhere, and a scholarly character has what they need to write down their observations somewhere in their bags.  
-
-> Note that steps 8 and 9 can be skipped for brand new players. If this is your first time with S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every chapter of this book. If you play for a while and find you like the system, you can come back to these steps to finish fleshing out your character.  
-
-## Step 8: Lesson  
-New characters start knowing one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive bonuses or new options. If Abilities are combat verbs, Lessons are combat adverbs. They are described in full in Chapter 7.  
-
-> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.  
->
-> Meanwhile Lydia takes the same Lesson because she expects to be using Scan frequently to find enemy weaknesses a lot and wants to get as much as she can out of said actions.  
-
-## Step 9: Utility  
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. These are non-combat adverbs.  
-Utilities are listed in Chapter 8. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your starting Utility.  
-
-> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.  
->
-> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how her character keeps all those details in her head even though the player cannot.  
-
 ...And with that, you have a fresh character ready for adventure.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ------------
 # Chapter 3: Improving your character
 In S3, rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
