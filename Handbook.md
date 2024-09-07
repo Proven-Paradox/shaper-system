@@ -793,7 +793,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
-Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
+Effect: You may use your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
