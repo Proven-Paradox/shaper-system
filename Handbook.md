@@ -130,12 +130,12 @@ At the most basic level characters in S3 are represented by six Attributes: Stre
 > For example, a character's Strength is added to things like health, physical offense, athletic ability, intimidation, and so on.  
 
 Characters gain experience points (XP) as they adventure. In S3, XP are a currency used to purchase benefits rather than a total that ticks towards leveling up. They can be spent on bonuses for specific roll types, learning new techniques, and so on. The roll bonuses gained from XP purchases are called Realized Potential (RP).  
-> A character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly, while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
+> A character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
 
 All dice in this system are 10-sided. Any time a die or dice are mentioned, assume they're d10s. Almost all rolls in S3 are the same: take two of your Attributes, plus that roll's RP bonus, plus the result of two dice rolls. Add these numbers together to get your total result. The higher the roll, the better the result.  
 > Most rolls condense to a 2d10. This gives range from 2 to 20 with middling results being significantly more likely than extremes. The full formula is \[2d10 + \<2 Attributes\> + \<Realized Potential\>\].  
 
-> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics from his time in an athletic club in his youth. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
+> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
 
 There are a few rolls that vary from this formula, but not many. They will be described specifically when they come up. Always round down to the nearest integer during dice rolls. If you ever have a fraction, cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
 
@@ -314,21 +314,102 @@ The effect of Elemental Properties is described in Chapter 4. For now; you take 
 ## Conclusion
 And with that, XU-808, Marona, and hopefully your PC are ready for adventure. Despite one character being a robot in a sci-fi world and the other being a mage in a fantasy game, their sheets are nearly identical. This is intended: while the two characters use different methods to get there and have contrasting aesthetics, their actual capabilities are very similar. The sheets describe what the characters can do while the players describe how they do it.
 
-```
-TODO: Continue review of existing text here; high priority
-```
 ------------
 # Chapter 3: Improving your character
-In S3, rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
+In S3, heroes become stronger by spending experience points (XP) to purchase upgrades to your character: new Abilities, Lessons, Utilities, and increasing their Potential. There are no set classes that dictate your character's capabilities: if your character has the XP and meets any requirements a given feature lists, they can buy it.  
 
-> XU-808 and Marona start the game with nearly identical sheets. However, as they grow they begin to diverge in specialized ways.
+> XU-808 and Marona start the game with nearly identical sheets. As they grow they diverge significantly.  
 
-## Gaining XP
+## Abilities  
+Abilities represent things you can actively do, typically in combat. These can come from training in martial arts, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.  
+Abilities come in three tiers. <For now. More are planned in future.> You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 XP for tier 1, 5 for tier 2. All characters begin the game knowing all Tier 0 Abilities for free.  
+Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).  
+
+> In XU-808's group, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies in a fight.  
+> 
+> Meanwhile in Marona's party, there is another character built to be the party's defender, so Marona focuses on offense. She takes the Elemental Blast Ability to deal with crowds and Charge Up for burst damage.  
+
+## Lessons  
+Lessons represent focus on specific combat styles, providing passive or conditional alterations to a character's capabilities. Lessons are described in more detail in [Chapter 7](#chapter-7-lessons). They cost 5 XP unless an exception is listed.  
+
+> Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, Earth, and Light damage. (Another player in her game focuses on dealing Dark damage, so she decides to skip Dark Attunement and spend that XP elsewhere.) Now that she's set up to hit most weaknesses and plans to do that often, she takes the Advantageous Recovery Lesson to regain MP when she succeeds.  
+> 
+> Meanwhile XU-808 is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU-808's sturdiness in combat.  
+
+## Utilities  
+Utilities represent non-combat abilities that aid an adventurer. These improve Skill rolls or grant new options that focus on non-combat applications. There is no limit on the number of Utilities a given character may purchase, and they each cost 3 XP unless an exception is listed. Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).  
+
+> The first Utility XU-808 takes is Asceticism, reasoning that its benefits align with things a machine should be able to do anyway. Enhanced Sight also makes them better equipped to gather data for their scientific pursuits.  
+> 
+> Marona spends a lot of time delving in dungeons, so she takes Utilities with that in mind. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information using her Lore check.  
+
+## Potential  
+Potential represents a character's practice and experience with a given task or skill set. While Lessons and Utilities give conditional bonuses, Potential gives direct, permanent increases to the associated dice checks. Potential is split into two parts: Realized Potential and Max Potential.  
+
+### Realized Potential  
+Realized Potential (RP) accounts for experience, contrasting [Attributes](#step-1-attributes) representing talent. RP directly increases the modifier on associated dice checks. The exact thing this bonus represents can vary from character to character. Increasing Physical Offense could represent a hulking warrior getting physically stronger over time, a skilled boxer training their technique, a marksman improving their aim, anyone enhancing their weapon, or the like.  
+
+#### Offense, Defense, Initiative  
+How good a character is at hitting things, getting hit, and getting to hit first, respectively.  
+Increasing Realized Potential costs 4 XP for Physical or Mental Offense, 3 XP for Physical or Mental Defense, and 1 XP for Initiative.  
+
+> Marona's primary role in her party is to deal Mental damage, so she prioritizes Realized Potential for her Mental Offense. Since Marona is more focused on damage and has enough HP to soak a hit if she needs to, she doesn't spend any XP on Initiative.  
+>
+> Meanwhile XU-808 has ended up the most sturdy character in their game, and to extend this advantage they take Physical and Mental Defense as a priority. Since they are providing a guardian role for their party, XU-808 purchases Initiative bonuses when they can so they can act to quickly defend their friends.  
+
+#### Vitality/Capacity  
+Vitality and Capacity increase your character's [Max HP and MP](#step-2-a-hpmp) respectively. Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both Vitality and Capacity cost 3 XP each.  
+
+> XU-808 and Marona have the same Attributes (Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0) so Vitality and Capacity gives them the same benefits: A point of Vitality gives them [5 (base) + 0 (Str) + 3 (Tough)] 8 Max HP and Capacity gives [5 {base} + 3 (Mind) - 1 (Heart)] = 7 max MP.  
+
+#### Skill Points  
+Skill Points are used to improve a Skill. You may spend 1 XP on 4 Skill Points, each of which increases a Skill's Realized Potential by 1.  
+
+> Marona is in an action packed game where danger is everywhere. She wants points in Awareness, Endure, and Stealth. She also maxes out her Lore and Investigation Skills as she delves into deeper arcane secrets.  
+> 
+> Meanwhile XU-808 is in a much more social game where solutions are usually diplomatic rather than violent. They reason that the adaptive AI XU-808 runs on would learn Diplomacy and Empathy. They also like the idea modifying their own chassis, so they take Construct and Tech. Finally, they invest heavily in Investigation and Science since they were designed for research.  
+
+### Max Potential  
+Max Potential represents a character's peak possible performance, placing a limit on their Realized Potential. It limits the following:  
+
+* The number of times Vitality and Capacity can be purchased.  
+* The hero’s Realized Potential bonus on Physical Offense, Physical Defense, Mental Offense, Mental Defense, and Initiative Bonus.  
+* The Realized Potential bonus on your Skills is limited to your Max Potential + 3.  
+
+> For example, take Marona. Her Attributes are:  
+> Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0  
+> Assume she is at Max Potential 4. If she spends as much XP as she can for her Mental Offense, her bonus would be [3 (Mind) + 0 (Soul) + 4 (Realized Potential)] +7. Maximizing her Endure Skill would give her [3 (Tough) - 1 (Heart) + 7 (Realized Potential)] +9.  
+
+Increasing Max Potential represents pushing through plateaus and putting in the work to grow. That could represent the character undergoing extensive training or practice in the background, studying hard between adventures, or just learning with experience.  
+Characters start at Max Potential 1. Boosting Max Potential to 2 costs 5 XP, and each subsequent Max Potential increase costs (4 + current Max Potential) XP. So Max Potential 3 costs 6 XP, Max Potential 4 costs 7 XP, and so on.  
+
+> Coming from other systems, you might think of Max Potential as your character's level.  
+
+When you increase your Max Potential, you also gain an immediate benefit that repeats in a five step loop. These benefits do not cost additional XP.  
+* When reaching Max Potential 2, 7, 12, … the character gains one point in Vitality or Capacity.  
+* When reaching Max Potential 3, 8, 13, … the character increased their Physical or Mental Defense's Realized Potential by 1 and increases one of their Attributes by 1.  
+* When reaching Max Potential 4, 9, 14, … the character increases their Physical or Mental Offense's Realized Potential by 1.  
+* At Max Potential 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).  
+* When reaching Max Potential 6, 11, 16, … the character gains an Ability of any tier they could normally learn (more on Abilities in [Chapter 4](#chapter-4-abilities)) and increases their Hero Tier by 1.  
+
+#### Hero Tier
+Hero Tier is a value that broadly represents your character's progress level. You start at Hero Tier 1, and every 5 Max Potential boosts after the first (6, 11, 16, …) increases this value. You can only take Abilities of a Tier equal to or less than your Hero Tier.  
+
+#### Talents  
+Talents represent major modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons. A character starts with one Talent and gains another when reaching a [Max Potential](#max-potential) divisible by 5 (5, 10, 15…). They come with the Max Potential increase and do not cost additional XP.  
+Talents are described in more detail in [Chapter 9](#chapter-9-talents).  
+
+> Upon reaching Max Potential 5, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.  
+> 
+> Meanwhile Marona wants more power in her build. Looking over the Talents, she decides to take Overwhelming Force, allowing her to add her Toughness to her Mental Offense, significantly boosting her damage output.  
+
+## Gaining and Spending XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
 
 ```  
 TODO Rewrite to properly codify this at some point ; low priority: more of the 
-system needs writing before this is codified. For now:  
+system needs writing before this is codified. Also add notes on when players can
+spend XP. For now:  
 ```  
 The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. There are no set rules on this.
 
@@ -338,12 +419,8 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
 > My play-testers all agreed that they'd prefer they all have the same XP. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps the Arbiter might like to give bonus XP for helping to run the game. Discuss this with the group before you begin playing.  
 > I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
-
-## Spending XP
-Between sessions, you can allocate your XP to buy benefits as listed in this section. Keep up with what XP was spent in what way on your character sheet.  
-
-If you're looking specifically for the XP cost of specific benefits, refer to this cheat sheet.  
-### Table: XP Cost Cheat Sheet
+ 
+### Table: XP Costs
 
 | Benefit                 | XP Cost                   |
 |-------------------------|---------------------------|
@@ -360,87 +437,9 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training, an Arbiter might give the character the opportunity to buy Skill Points or stat improvements related to that training.  
 
-### Max Potential  
-Max Potential represents how well a character can perform at their absolute best. Coming from other systems, you might think of this similar to how character levels usually work.  
-A character's Max Potential acts as a cap on certain values on your character sheet, which can only increase up to the hero’s Max Potential. It limits the following:  
-* The number of times Vitality and Capacity can be purchased.  
-* The hero’s Realized Potential bonus on Physical Offense, Physical Defense, Mental Offense, Mental Defense, and Initiative Bonus.  
-* The Realized Potential bonus on your Skills is limited to your Max Potential + 3.  
-
-When you increase your Max Potential, you also gain an immediate benefit that repeats in a five step loop. These benefits do not cost additional XP.  
-* When reaching Max Potential 2, 7, 12, … the character gains one point in Vitality or Capacity.  
-* When reaching Max Potential 3, 8, 13, … the character increased their Physical or Mental Defense's Realized Potential by 1, plus increases one of their Attributes by 1.  
-* When reaching Max Potential 4, 9, 14, … the character increases their Physical or Mental Offense's Realized Potential by 1.  
-* At Max Potential 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).  
-* When reaching Max Potential 6, 11, 16, … the character gains an Ability of any tier they could normally learn (more on Abilities in [Chapter 4](#chapter-4-abilities)) and increases their Hero Tier by 1.  
-
-Increasing Max Potential represents pushing through the plateaus and putting in the work that comes with growing and developing mastery in any field. That could represent the character undergoing extensive training or practice in the background, studying hard between adventures, or just getting better with experience.  
-> It might be good to have a plan about when to increase your Max Potential. XU-808 is mostly interested in Skills, and so increases Max Potential up when their Skills are all maxed out, choosing combat stats only when they feel it necessary.  
-> Meanwhile Marona generally increases Max Potential when she's taken Magic Offense, Vitality, and Capacity to their current maximums.  
-
-Characters start at Max Potential 1. Boosting Max Potential to 2 costs 5 XP, and each subsequent Max Potential increase costs (4 + current Max Potential) XP. So Max Potential 3 costs 6 XP, Max Potential 4 costs 7 XP, and so on.
-
-> \<Milestone Max Potential Boosts>: Instead of allowing players to purchase Max Potential, the Arbiter may instead choose to declare that all characters increase in Max Potential at certain milestones within the story. While this does constrain players, it also ensures a given party will have fairly similar power ranges. This makes it easier to balance combat encounters while also making major milestones feel more impactful.
-
-#### Hero Tier
-Hero Tier is a value that broadly represents your character's power. You start at Hero Tier 1, and every 5 Max Potential boosts after the first (6, 11, 16, …) increases this value. This value is used in scaling for several different Abilities, Lessons, and Utilities. It also limits what Abilities you have access to: You can only take Abilities of a Tier equal to or less than your Hero Tier.  
-
-### Vitality/Capacity
-Vitality and Capacity increase your character's [Max HP and MP](#step-2-a-hpmp) respectively. Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Max Potential](#max-potential). Vitality and Capacity upgrades cost 3 XP.
-
-> Both XU-808 and Marona need HP and MP, so they both take Vitality and Capacity levels occasionally. XU-808's game is less combat focused though, so Marona prioritizes these stats higher than XU-808.
-
-### Realized Potential 
-Your character's Offense, Defense, Initiative, and Skills start with a bonus based on your [Attributes](#step-1-attributes). As you gain XP and power, you can spend that XP to increase each of these values, representing practice and effort to improve those aspects of your character.  
-
-#### Offense, Defense, Initiative  
-Every character has a Realized Potential bonus to their Physical and Mental Offense and Defense. It starts at 0, but of these statistics can be increased up to the hero’s [Max Potential](#max-potential).  
-Increasing Realized Potential for Physical or Mental Offense costs 4 XP. Increasing Physical or Mental Defense costs 3 XP. Increasing Initiative costs 1 XP.  
-
-> Marona's primary role in her party is to deal Mental damage, so she spends most of her effort on her Mental Offense's Realized Potential. Meanwhile XU-808 has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.  
-> Since they are providing a guardian role for their party, XU-808 purchases Initiative bonuses when they can so they can act to quickly defend their friends. Since Marona is more focused on damage and has the defenses to soak a hit if she needs to, she decides to allow Marona's Initiative to stay at its base value.  
-
-#### Skill Points  
-Skill Points are used to improve at a Skill. You may spend 1 XP to gain 4 Skill Points, each of which increases a Skill's Realized Potential by 1. The maximum number of points you can put into any individual Skill is 3 + your [Max Potential](#max-potential).  
-
-> Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Endure, and Stealth. She also maxes out her Lore and Investigation Skills as she delves into deeper arcane secrets.  
-> 
-> Meanwhile XU-808 is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU-808 runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that capability. The remains their team's main Science officer.  
-
-### Abilities  
-Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.  
-Abilities come in three tiers. <For now. More are planned in future.> You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 XP for tier 1, 5 for tier 2. All characters begin the game knowing all Tier 0 Abilities for free.  
-Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).  
-
-> In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.  
-> 
-> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. Thus, she takes the Elemental Blast Ability to deal with crowds and Charge Up to give her an option to do a lot of burst damage.  
-
-### Lessons  
-Lessons represent passive or conditional alterations to a character's combat capabilities. They offer notable benefits when using certain types of Abilities or grant a benefit in specific circumstances.  
-Lessons are described in more detail in [Chapter 7](#chapter-7-lessons). They cost 5 XP unless an exception is listed.  
-
-> Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, and Earth damage. (Another player in her game focuses on dealing Dark damage, so she decides to save the XP for something else.) Once done with that, she also takes the Advantageous Recovery Lesson so that she gets extra benefits when striking a foe's Elemental Weakness.
-> 
-> Meanwhile XU-808 is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU-808's sturdiness in combat.  
-
-### Utilities  
-Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls or grant new options that focus on non-combat applications. There is no limit on the number of Utilities a given character may purchase, and they each cost 3 XP (unless an exception is listed).  
-
-Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).  
-
-> The first Utility XU-808 takes is Asceticism, reasoning that its benefits align with things a machine should be able to do anyway. Enhanced Sight also makes them better equipped to gather data for their scientific pursuits.  
-> 
-> Marona spends a lot of time delving in dungeons, and decides to take some Utilities to help in those situations. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information with her Lore check.  
-
-### Talents  
-Talents represent major modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons. A character starts with one Talent and gains another when reaching a [Max Potential](#max-potential) divisible by 5 (5, 10, 15…). They come with the Max Potential increase and do not cost additional XP.  
-
-Talents are described in more detail in [Chapter 9](#chapter-9-talents).  
-
-> Upon reaching Max Potential 5, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.  
-> 
-> Meanwhile Marona wants more power in her build. Looking over the Talents, she decides to take Overwhelming Force, allowing her to add her Toughness to her Mental Offense, significantly boosting her damage output.  
+```
+TODO: Continue review of existing text here; high priority
+```
 
 ------------
 # Chapter 4: Abilities
