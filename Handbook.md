@@ -1,324 +1,414 @@
 ﻿# This is a living document!  
 This page is still being actively updated. For the time being updates will be irregular. You can keep up with changes to the document with the history links above, and I also post logs of significant updates to the Discord channel. While the core systems in place here are not going to change very much going forward, balance alterations and additional content are still being made.  
+```  
+TODO: Remove this notice; low priority: text is not yet done.  
+I'll use this spot to specify: These notes are both reminders for myself for  
+future plans, and also communicating to you readers what I'm up to and how I'm  
+prioritizing things.  
+```  
 
-# Table of Contents
+# Table of Contents  
 - [Chapter 0: Introduction](#chapter-0-introduction)  
 - [Chapter 1: How to Play](#chapter-1-how-to-play)  
-  - [Rolling Dice](#rolling-dice)
-  - [Rerolls](#rerolls)
-- [Chapter 2: Character Creation](#chapter-2-character-creation) 
-  - [Step 1: Attributes](#step-1-attributes)
-  - [Step 2-a: Point Stats](#step-2-a-point-stats)
-  - [Step 2-b: Attack/Defense](#step-2-b-attackdefense)
-  - [Step 3: Abilities](#step-3-abilities)
-  - [Step 4: Skills](#step-4-skills) 
-  - [Step 5: Talent](#step-5-talent)
-  - [Step 6: Elemental Properties](#step-6-elemental-properties)
-  - [Step 7: Starting items](#step-7-elemental-properties)
+  - [What you Need](#what-you-need)  
+  - [Core Mechanics](#core-mechanics)  
+  - [Re-rolling Dice](#re-rolling-dice---boon-and-bane)  
+- [Chapter 2: Character Creation](#chapter-2-character-creation)  
+  - [Step 1: Attributes](#step-1-attributes)  
+  - [Step 2-a: HP/MP](#step-2-a-hpmp)  
+  - [Step 2-b: Offense/Defense/Initiative](#step-2-b-offensedefenseinitiative)  
+  - [Step 3: Abilities](#step-3-abilities)  
+  - [Step 4: Skills](#step-4-skills)  
+  - [Step 5: Talent](#step-5-talent)  
+  - [Step 6: Starting items](#step-6-starting-items)  
+  - [Step 7: Lesson](#step-7-lesson)  
+  - [Step 8: Utility](#step-8-utility)  
+  - [Step 9: Elements](#step-9-elements)  
 - [Chapter 3: Improving Your Character](#chapter-3-improving-your-character)  
-  - [Gaining XP](#gaining-xp)
-  - [Spending XP](#spending-xp)
-- [Chapter 4: Abilities](#chapter-4-abilities) 
+  - [Abilities](#abilities)  
+  - [Lessons](#lessons)  
+  - [Utilities](#utilities)  
+  - [Potential](#potential)  
+    - [Realized Potential](#realized-potential)  
+    - [Max Potential](#max-potential)  
+      - [Hero Tier](#hero-tier)  
+      - [Talents](#talents)  
+  - [Gaining and Spending XP](#gaining-xp-and-spending-xp)  
+    - [Table: XP Costs](#table-xp-costs)  
+- [Chapter 4: Abilities](#chapter-4-abilities)  
   - [Ability Tiers](#ability-tiers)  
-  - [Reading Abilities](#reading-abilities)
-  - [Prerequisites](#prerequisites)
-  - [Ability Types](#ability-types)
-  - [Ability Series](#ability-series)
-  - [Ability Keywords](#ability-keywords)
-  - [Buff Tracks](#buff-tracks)
-- [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)
-  - [Tier 0](#tier-0)
-  - [Tier 1](#tier-1)
-  - [Tier 2](#tier-2)
-- [Chapter 6: Skills](#chapter-6-Skills) 
-  - [Helping Others](#helping-others)
-  - [Skill List](#skill-list)
+  - [Reading Abilities](#reading-abilities)  
+    - [Ability Keywords](#ability-keywords)  
+- [Chapter 5: List of Abilities](#chapter-5-list-of-abilities)  
+  - [Tier 0](#tier-0)  
+  - [Tier 1](#tier-1)  
+  - [Tier 2](#tier-2)  
+- [Chapter 6: Skills](#chapter-6-Skills)  
+  - [Helping Others](#helping-others)  
+  - [Raising the Stakes](#raising-the-stakes)  
+  - [Skill List](#skill-list)  
 - [Chapter 7: Lessons](#chapter-7-lessons)  
-- [Chapter 8: Utilities](#chapter-8-utilities) 
-  - [Skill-based Utilities](#skill-based-utilities)
-  - [Other Utilities](#other-utilities)
+- [Chapter 8: Utilities](#chapter-8-utilities)  
+  - [Skill-based Utilities](#skill-based-utilities)  
+  - [Other Utilities](#other-utilities)  
 - [Chapter 9: Talents](#chapter-9-talents)  
-- [Chapter 10: Combat](#chapter-10-combat) 
-  - [Time in Combat](#time-in-combat)
-  - [Impact](#impact)
-  - [Chasing rules](#chasing-rules)
-  - [Positioning](#positioning)
-    - [Squares](#squares)
-    - [Advanced Positioning](#advanced-positioning)
-- [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery) 
-  - [HP](#hp)
-  - [Damage Types](#damage-types)
-  - [Injuries](#injuries)
-  - [Death](#death) 
-  - [Status Ailments](#status-ailments)
-  - [Disadvantages](#disadvantages)
+- [Chapter 10: Combat](#chapter-10-combat)  
+  - [Time in Combat](#time-in-combat)  
+  - [Impact](#impact)  
+  - [Buff Tracks](#buff-tracks)  
+  - [Positioning](#positioning)  
+    - [Zones](#Zones)  
+    - [Advanced Positioning](#advanced-positioning)  
+  - [Chasing rules](#chasing-rules)  
+- [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery)  
+  - [HP](#hp)  
+  - [Damage Types](#damage-types)  
+  - [Injuries](#injuries)  
+  - [Death](#death)  
+  - [Status Ailments](#status-ailments)  
+  - [Disadvantages](#disadvantages)  
   - [Advantages](#advantages)  
 - [Appendix A: Supplemental Materials](#appendix-a-supplemental-materials)  
   
-------------
-# Chapter 0: Introduction
-Assembled friends and enemies, welcome to the Story Shaper System (S3).  
+------------  
+# Chapter 0: Introduction  
+Assembled friends and enemies, welcome to the Story Shaper System (S3) Handbook.  
 
 ## Who am I?  
-Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a game designer just as long--writing homebrew content for my campaigns, programming small video games, and analyzing and mastering games created by others.
+Online I go by Proven Paradox; Dox for short, Josh if you prefer a normal name; he/him. I have been playing tabletop roleplaying games for over two decades. I've been a hobbyist game designer just as long--writing homebrew content for my game mastering, programming small video games, and the like.  
 
 ## What is Story Shaper System?  
-S3 is a setting-agnostic RPG system that is focused on being smooth and entertaining as a game, while being flexible enough to run any genre. You only need ten-sided dice.  
-These ideas are central to the design of Story Shaper. 
+S3 is a setting-agnostic tabletop RPG that is focused on being smooth and entertaining as a game while being flexible enough to run any genre, using only ten-sided dice.  
+The core goals of Story Shaper are:  
 
-* **Freedom.** The rules have been written to allow players to describe their actions however they want. There are not (and never will be) any rules that restrain what your character looks like in this book. While the abilities and skills on your character sheet make some implications about *what* a character can do, the player describes *how* they do it.  
-* **Depth.** The "game" portion of this roleplaying game focuses on strategic character building, compelling problem solving, and interesting moment to moment decisions. Combat rewards tactical thinking and teamwork. A character's non-combat options allow players to flesh out what kind of person their character is.  
-* **Speed.** If a given task might not be fun for some players, S3 makes that task quick, easy, and painless. Combat is simplified in a way that reduces analysis paralysis. Ideally, an experienced player who knows their character should take no more than two minutes to figure out the rules for their actions. (Of course, one may take considerably more time deliberating on tactical options or describing their actions.)  
-* **Versatility.** This system is intended to be usable in any genre. Sci-fi, fantasy, superheroes, or whatever setting you can come up with. Spells could be re-imagined as gunslinger trick shots in an old-west flavored campaign. You could reframe combat as a battle of words between philosophers, giving fiery speeches against cold hearts. With some restrictions on which options are available, S3 could even be used for a story grounded in reality.  
+* **Freedom.** Players describe their characters and actions however they want. There are no rules that restrain how characters or their gear look in this book (and never will be). While the abilities and skills on character sheets describe *what* a character can do, players describe *how* they do it.  
+* **Depth.** The "game" portion of this roleplaying game focuses on strategic character building and interesting moment to moment decisions. Most of the rules are aimed at enabling character expression and providing multiple ways to approach problems, while combat rewards tactical thinking and teamwork.  
+* **Speed.** S3 aims to make resolving conflicts quick and easy. Combat is simplified in a way that reduces analysis paralysis, and determining what numbers are needed for a given action is simple and consistent.  
+* **Versatility.** This system is intended to be usable in any genre. Pulpy sci-fi, high fantasy, classic superheroes, and everything in between. What this system refers to as a "Spell" doesn't have to be magic. It could be powered by technology instead of magic, replacing a fireball with a heat ray. Alternatively, they could be re-imagined as gunslinger trick shots in a wild west flavored setting. Combat rules could be abstracted to represent something something less violent, such as a verbal battle between philosophers, with Offense stats representing persuasive ability and Defense representing poise and resolution.  
 
-### Contact/Social Media
-If you want to get in contact with me, you can email me at ProvenParadox@gmail.com, find me on Mastodon [Here](https://mastodon.gamedev.place/@Proven_Paradox), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).
+### Contact/Social Media  
+If you want to get in contact with me, you can email me at Proven-Paradox@proton.me, find me on BlueSky [Here](https://bsky.app/profile/proven-paradox.bsky.social), or join the S3 Discord [Here](https://discord.gg/ubefmR2bNh).  
 
-------------
-# Chapter 1: How to Play
-One of the most important things separating a roleplaying game from simple pretend is the addition of rules. In a game with no rules, it can be difficult to make something bad happen to another character. And a story where nothing bad happens to the heroes has no sense of adversity. Maybe that doesn’t bother you, in which case feel free to get with friends and have a great time just playing pretend with each other, societal norms be damned. But if you want to participate in a story where the stakes are high, danger is everywhere, and you don’t know what will happen to your character, you need rules and randomization to make things unpredictable.  
 
-> Hello. This is Dox. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. In these, I'll add clarifications, examples, and recommendations to help understand the rules or run the game smoothly.  
+------------  
+# Chapter 1: How to Play  
 
-## What you Need to Play
-### Required:
-* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.
-* At least one player.
-* Access to this page: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
-* Each player will need a [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing).
-* A pair of 10-sided dice for each player (also called d10s). *ALL* rolls in S3 are made with d10s; any time "die" or "dice" are referenced in the rules, it is always a d10.
-  * Alternatively a random number generator, which can be found for free online.
-> If you are playing a character focused on doing elemental damage, you probably want to bring three dice.  
+```
+TODO: Consider how much of a "What are TTRPGs" section I want to write; low 
+priority: For now anyone reading this document either already knows what TTRPGs
+are or were invited here by me personally, so not much urgency.
+```
 
-### Recommended but not vital:
+## What you Need  
+### Required:  
+* An Arbiter. This is S3's term for game master; the person running everything other than the heroes.  
+* At least one player.  
+* The S3 Handbook (this page): https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md  
+* A [Character sheet](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit?usp=sharing) for each player.  
+* A pair of 10-sided dice (also called d10s) for each participant.  
+> Characters focused on elemental damage often need three dice.  
 * Pencil and paper.  
-> Do not use pen or something you can’t easily erase. Trust me.
-* A play mat with grid sections large enough to house multiple characters or a dry erase surface to help keep track of character positions.
-* A notebook for each player to write personal notes in.
-* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies to pit players against.  
+> Do not use pen or something you can’t easily erase. Trust me.  
 
-### Totally optional, but maybe fun/useful:
-* Miniatures to represent characters in combat.
-* A deck of playing cards or tarot cards (just in case a card game breaks out).
-* Props to illustrate circumstances on the battlefield.  
-* Access to a search engine.  
-> This should be limited to the Arbiter in some settings. In settings where access to the Internet or an equivalent is common, this could be available to players as well.  
+### Useful but not vital:  
+* A play mat with grid sections large enough to house multiple characters, or a dry erase surface.  
+* A notebook for each player.  
 
-## Rolling Dice
-In general when you are asked to roll dice in Story Shaper, you will roll a pair of 10-sided dice. This gets you a range of 2 to 20, with results in the middle being significantly more likely than extreme results. You will then add the results together, and add a modifier to that which is based on your character’s character sheet (more on that later). The higher the result, the better you did at the task in question.  
+For combat scenarios...  
+* The Arbiter can refer to the [Adversaries and Monsters page](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#adversaries-and-monsters) for pre-created enemies.  
+* Miniatures.  
+* Props to illustrate terrains and objects on a map.  
 
-### Rerolls  
-Some circumstances enable a player to reroll their dice. A given die can only be rerolled once, even if the new roll would otherwise qualify to be rerolled.
+> Hello. This is Dox, the game dev. We're in a box right now. Text in a Dox Box is me speaking to the reader directly rather than as part of the rules. These are for clarifications, examples, and recommendations to help understand the rules or run the game.  
 
-#### Boon
-Circumstances or character traits sometimes grant a character an advantage that allows them to get favorable dice results in ways other than increasing their modifier. This is principally done by granting Boon +X. When a roll is made with Boon +X, the player may reroll one die if it is equal to or less than X. You must take the new roll, even if it is lower. 
+## Core Mechanics  
+This is a long rulebook with a lot of text. However, these rules are all additions or twists on this core.  
 
-> Some examples of Boon in play:  
-> Varna makes a Stealth roll with Boon +3. He rolls two dice and gets a 2 and a 6. He chooses to reroll the 2, getting an 8, giving a final result of 6 + 8 = 14, plus his modifier.  
-> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She is allowed to keep this roll if she likes, but chooses to use the reroll and gets a 1. Her final result is 9 + 1 = 10 plus her modifier.
+At the most basic level characters in S3 are represented by six Attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul. These Attributes broadly determine a character's dice modifiers, each Attribute affecting several different types of rolls. The Arbiter determines how high or low a character's attributes can be for each campaign.  
+> For example, a character's Strength is added to things like health, physical offense, athletic ability, intimidation, and so on.  
 
-##### Boon Splitting
-If a character's Boon magnitude matches or exceeds the sum of both dice, both may be rerolled. 
+Characters gain experience points (XP) as they adventure. In S3, XP are a currency used to purchase benefits rather than a total that ticks towards leveling up. They can be spent on bonuses for specific roll types, learning new techniques, and so on. The roll bonuses gained from XP purchases are called Realized Potential (RP).  
+> A character might spend 3 XP to increase their health, then spend 4 to increase their Physical Offense's RP, then purchase the Heavy Strike Ability for 3 XP, and so on. Attributes apply broadly while XP bonuses are specific. One can think of Attributes as representing a character's talents, while Realized Potential is the result of training and effort.  
 
-> For example, Billy Baggins is sniping an enemy, and has Boon 5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may reroll both. He gets a 9 and a 4, resulting in a much stronger hit.
-> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls his the dice and gets a 1 and a 2. This is not enough to reroll both dice, so he chooses to reroll the 1 and gets a 4. His final result of 2 + 4 = 6, plus any modifiers.
+All dice in this system are 10-sided. Any time a die or dice are mentioned, assume they're d10s. Almost all rolls in S3 are the same: take two of your Attributes, plus that roll's RP bonus, plus the result of two dice rolls. Add these numbers together to get your total result. The higher the roll, the better the result.  
+> Most rolls condense to a 2d10. This gives range from 2 to 20 with middling results being significantly more likely than extremes. The full formula is \[2d10 + \<2 Attributes\> + \<Realized Potential\>\].  
 
-#### Bane
-The unfavorable complement of Boon, Bane is imposed on a character when circumstances or sabotage make the character more likely to fail at a task. When a roll is made with Bane -X, the player must reroll their *highest* die if it is equal to or greater than (11 - X). Note that Bane does not go above -5, as rerolling any die below a 6 is statistically advantageous.
+> For example, Alex is trying to climb over a fence with the Athletics Skill. This is based on Strength and Toughness. His Strength is 1, Toughness is 2, and he has an RP of 2 in Athletics. This means his total Athletics bonus is +5. He rolls a pair of dice, getting a 4 and an 8. His total Athletics check is (4 + 8 + 5) 17.  
 
-| Bane -X | Reroll a die above... |
-|---------|-----------------------|
-| -1      | 10                    |
-| -2      | 9                     |
-| -3      | 8                     |
-| -4      | 7                     |
-| -5      | 6                     |
+There are a few rolls that vary from this formula, but not many. They will be described specifically when they come up. Always round down to the nearest integer during dice rolls. If you ever have a fraction, cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
 
-Some examples of Bane in play:
-* Adam is trying to follow tracks that have had some time to fade. This imposes Bane -3, meaning he must reroll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to reroll the 9, which comes up as a 2. Final result is 1 + 2 = 3.
-* XU-808 has Bane -4 on an attempt to repair a damaged mechanism with a Construct check due to them being on a ship that is currently engaged in chaotic combat. They must reroll any result above a 7. They roll a 7 and a 10. Because Bane specifies that one must reroll the higher die, the 10 is rerolled to a 3, for a final result of 7 + 3 = 10 plus any modifiers.
+### Re-rolling Dice - Boon and Bane  
+Some circumstances enable or force a creature to re-roll dice. A given die can only be re-rolled once, even if the new roll would otherwise qualify.  
 
-#### Combining Boon and Bane
-If in a situation where Boon and Bane apply, they cancel each other out. Add their values and reroll based on the result. Some examples:
-* Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may reroll a die if she rolls a 1.
-* Morris is attempting to pick a lock. He has picked these kinds of locks before on, so his familiarity gives him Boon +2 the check. However, his picks have been badly damaged in a way that, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must reroll a die if the roll is higher than 10.
-* Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to reroll dice.
+#### Boon  
+Circumstances or character traits that grant a conditional or temporary advantage are represented by Boon +X. When a roll is made with Boon +X, the character may re-roll a die if it is less than or equal to X. They must take the new roll, even if it is lower.  
+Some examples of Boon in play:  
+> Varna makes a Stealth roll with Boon +3. He rolls 2 and 6 on his d10s. He chooses to re-roll the 2, getting an 8. His final result is (6 + 8) 14 plus his modifier.  
 
-#### Boon, Bane, and Multiple Targets  
-When using a multi-target Ability, there may be situations where Boon or Bane applies to one or more targets in the effect but not others. (For example, one target may have a Curse on it that gives Boon to attackers while others do not.) In cases like this, resolve targets that are NOT affected by Boon or Bane first, then do appropriate Boon/Bane rerolls on the targets affected that ARE by Boon or Bane.
+> Marona is trying to haggle at a shop with Boon +4. She rolls a 4 and a 9. She could keep this roll if she likes, but chooses to use the re-roll and gets a 1. Her final result is (9 + 1) 10 plus her modifier.  
 
-### Miscellaneous Rules  
-Here are a few general rules prevent confusion.  
+##### Boon Splitting  
+If a character's Boon magnitude matches or exceeds the sum of both dice, both may be re-rolled.  
 
-You count as your own ally. You can target yourself with anything that is listed to target allies.
+> Billy Baggins is sniping an enemy and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
 
-When counting squares for movement or range, the count is orthogonal--i.e. excludes diagonal movements.
+> As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls the dice and gets 1 and 2. This is not enough to re-roll both dice, so he chooses to re-roll the 1 and gets a 4. His final result is (2 + 4) 6, plus any modifiers.  
 
-Round down during dice rolls. If you ever have a fraction, just cut off the fractional bit entirely. Even if your roll is (somehow?) 13.9, it rounds down to a 13.  
+#### Bane  
+The unfavorable complement of Boon, Bane -X is imposed on a character when circumstances or sabotage make the character more likely to fail. When a roll is made with Bane -X, the player must re-roll their *highest* die if it is equal to or greater than (11 - X). Bane does not go beyond -5, as re-rolling any die below a 6 is statistically advantageous. They must take the new roll, including when it is higher than the original.  
 
-In combat, defenders win ties. For example, if using an offensive Ability results in the Offense role matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
+| Bane -X | Re-roll a die above... |
+|---------|------------------------|
+| -1      | 10                     |
+| -2      | 9                      |
+| -3      | 8                      |
+| -4      | 7                      |
+| -5      | 6                      |
 
-For a tie during opposed Skill checks (such as Empathy versus Deception, or Awareness versus Stealth), both characters reroll until there is no tie. Any Boon or Bane on the original rolls still apply when rerolling due to a tie.  
+Some examples:  
+> Adam is trying to follow tracks that have faded over time. This imposes Bane -3, meaning he must re-roll any results over 8 (11 - 3). He rolls a 9 and a 1. Bane forces him to re-roll the 9, which comes up as a 2. Final result is (1 + 2) 3.  
+
+> XU-808 is attempting to repair a damaged warp drive with a Construct check. They have Bane -4 since the ship is currently engaged in chaotic combat, causing a distracting cacophony and major turbulence. This means they must re-roll any result above a 7. They roll 7 and 8. Because Bane specifies that one must re-roll the higher die, the 8 is re-rolled. The new result is 9, for a final result of (7 + 9) 16 plus any modifiers.  
+
+##### Combining Boon and Bane  
+In a situation where both Boon and Bane apply, they cancel each other out. Add their magnitudes (the "X") together. If the result is positive, proceed with Boon equal to that amount. For negative results, use Bane instead.  
+> Erin is attacking while affected by a blessing that gives her Boon +2, but is attacking an opponent who has a defensive spell that imposes Bane -1. Boon +2 and Bane -1 adds up to Boon +1, meaning she may re-roll a die on a 1.  
+
+> Morris is attempting to pick a lock. He has picked this kind of lock many times before, so his familiarity gives him Boon +2. Unfortunately his picks were badly damaged in a previous scene, imposing Bane -3. Boon +2 and Bane -3 adds to Bane -1, meaning he must re-roll if a die is 10.  
+
+> Arden is trying to leap over to a ledge. They have an item that augments their athletic ability with Boon +2, but a windstorm is making it harder with Bane -2. Boon +2 and Bane -2 adds to 0, so they will not have any opportunity or obligation to re-roll dice.  
+
+##### Boon, Bane, and Multiple Targets  
+When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets that are subject to Boon or Bane.  
+> Example: Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
 ------------
-# Chapter 2: Character Creation
-Before you can begin playing a game of Story Shaper, you have to know who (or what) the persona you’re taking control of actually is, what they can do, and what they struggle with. You should also flesh that character out, make them a person, someone who belongs in an interesting story. In this section, we will go through the steps of building characters.  
-The focus will be on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world, what the character looks like, the characters motivations and fears, and similar details should be an exercise mostly taken between the Arbiter and the player.
+# Chapter 2: Character Creation  
+Before you can begin playing a game of Story Shaper, you have to know who your Player Character (PC) is. This is the persona you’re taking control during the game. Your character sheet defines their capabilities and weaknesses.  
+This chapter will focus on how the character is represented in rules. Fleshing out a character in the context of how that person fits into the world--their appearance, backstory, motivations, hopes, fears, and similar details--is an exercise between the Arbiter and the player. The rules define what a PC can do, but the player decides who they are and how they do it.  
+A blank character sheet can be found [here](https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit#gid=0). The sheet is set up to do a lot of the necessary math (Max HP, MP, etc) automatically.  
 
-> Let's walk through the character creation process for two hypothetical characters to give an example as well as demonstrate a point.  
+> Let's walk through the character creation process for two hypothetical characters as an example.  
 > 
-> The first is being played by Eric. He joining his friends in a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.
+> The first is being played by Eric. He is joining a pulp sci-fi adventure, and he has decided he wants to play a robot. He names his character XU-808.  
 > 
-> Meanwhile in another game, Lydia is setting up with her friends to play a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her new character Marona.
+> In another group, Lydia is setting up with her friends to play in a classic fantasy setting, and she has decided that she'll be the party's spellcaster. She names her character Marona.  
 
-## Step 1: Attributes
-Each character’s general characteristics are represented by their “Attributes.” These are numbers that broadly represent the character’s capabilities. These add directly to at least two other secondary statistics and are added in when making certain Skill checks (more on both of these subjects later).  
-A zero represents average human performance in that Attribute, and from there it can go positive or negative. Two or above represents a gifted individual, and above five indicates superhuman ability. Negative two or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
-Your Arbiter will tell you the rules on how you determine your Attributes. For a standard game, my recommendation is to give 6 points to spend, with a cap of 3 points into one attribute and the option to take a -1 in order to  get a 7th point. I recommend against randomizing Attribute generation.
+## Step 0: Starting Out  
+When a character is first created, they start at Max Potential 1 and Hero Tier 1. These values represent a character that is just getting started. These values will be defined in a later step, for now just note these on your sheet.  
 
-There are six attributes: Strength, Finesse, Toughness, Mind, Heart, and Soul. 
-* **Strength** represents both raw strength and one’s ability to utilize strength. High Strength may mean people ask your character to help move things for them a lot, or perhaps that they are on some kind of athletics team. They could be visibly muscular. Meanwhile, low Strength might result in the character being spindly or out of shape.
-   * Strength is also added to your Hit Points and Physical Offense stats.
-* **Finesse** represents how agile or dexterous your character is. High Finesse means that you would generally move with grace, or perhaps represents good aim or dexterity. Low Finesse might instead confer general clumsiness.
-   * Finesse is also added to your Initiative, Physical offense, and Physical Defense stats.
-* **Toughness** represents health and hardiness. A character with high Toughness may never seem to tire from physical activity or shrug off injuries with relative ease, while low Toughness might mean the character is sickly or bruises easily.
-   * Toughness is also added to your Hit Points and Physical Defense stats.
-* **Mind** represents intelligence and cleverness. A character with high Mind generally has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low Mind often means difficulty learning new technical concepts and a hard time remembering details.
-   * Mind is also added to your Mental Points and Mental offense stats.
-* **Heart** represents charisma and presence. Someone with high Heart is able to naturally be the center of attention or get people to do what they want, while someone with low Heart might naturally go unnoticed in social situations or just generally lack presence.
-   * Heart is also added to your Mental Points and Mental Defense stats.
-* **Soul** represents centeredness and perception. Someone with high Soul might not be religious but is likely very spiritual while also being good at reading people or noticing small details. Meanwhile someone with low Soul would generally have a difficult time with spiritual pursuits such as meditation and also have a general obliviousness to them.
-   * Soul is also added to your Initiative, Mental offense, Mental Defense stats.
-   
-If you’re struggling to come up with your Attribute arrangement, here are a few recommendations that can help.
+## Step 1: Attributes  
+Attributes are the most broad representation of your character's capabilities. A zero represents average human performance in that Attribute. Three or above represents a gifted individual, and above five indicates superhuman ability. Negative three or below indicates an impairment that has a significant effect on one’s life, and negative five and below represents difficulty so severe that one cannot get by day to day without assistance.  
+The Arbiter decides how many points the players have for Attributes at character creation. For a standard game I recommend 6 points to spend, a cap of 3 points into one Attribute, and the option to take a -1 in order to  get a 7th point. I do not recommend randomizing Attribute generation.  
 
-* Be careful about overspecialization. Most characters want to be particularly good at doing one thing, but if you leave your character unable to do anything else at all you may end up unable to contribute in some situations. For example, a hero who has a very high HP pool along with high Defense attributes is good, but if said hero has no means of dealing damage or drawing a foe’s attention, the enemy may just ignore the character. A character with tremendous MP and Mental offense may do a lot of damage, but if said character’s HP and Physical Defense is low then they may not last long enough to utilize said MP. You can’t be good at everything, but try to be decent at a few things. If you do choose to completely specialize in one approach, you should consider choosing Abilities that will let you overcome your weaknesses.
-* If you have stats to spare and you’re not sure where they should go, consider investing them in Toughness. More HP and Defense is always beneficial.
-
-> Eric considers XU-808's Attributes. His Arbiter has given him five points to work with. He reasons that his robot character should have high Mind to represent their ability to calculate quickly as well as a strong memory, so he puts their Mind to 3. Being made of metal instead of skin, he also figures XU-808 should be pretty tough as well, and adds the last 2 points to Toughness. He also has the option of taking a negative point, and reasons that his robot is relatively naive and logical in a way that makes them hard to relate to. He puts a negative point in Heart, and uses the extra point to increase his Toughness by one more step. After all this, XU-808's Attributes are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul 0, Heart -1.
+There are six attributes: Strength, Toughness, Finesse, Mind, Heart, and Soul.  
+* **Strength** represents physical power and control. High Strength character can generate a lot of force with their attacks with sheer muscle, using heavy equipment, or a combination of the two. Low Strength might result in the character being spindly or out of shape.  
+   * Strength is also added to your Hit Points and Physical Offense.  
+* **Toughness** represents health and hardiness. A character with high Toughness is slow to tire from physical activity and can shrug off injuries with relative ease, while low Toughness characters are sickly or bruise easily.  
+   * Toughness is also added to your Hit Points and Physical Defense stats.  
+* **Finesse** represents how agile or dexterous your character is. High Finesse characters can have good aim and dexterity and move with grace. Low Finesse instead implies clumsiness and poor reaction time.  
+   * Finesse is also added to your Initiative, Physical Offense, and Physical Defense stats.  
+* **Mind** represents intelligence and cleverness. A character with high Mind has a good memory, makes good grades if they put in the effort to do so, and is a great problem solver. Low Mind often means difficulty learning new technical concepts and remembering details.  
+   * Mind is also added to your Mental Points and Mental Offense stats.  
+* **Heart** represents charisma and intensity. Someone with high Heart commands attention and get along well with people, while someone with low Heart might go unnoticed in social situations or lack presence.  
+   * Heart is also added to your Mental Points and Mental Defense stats.  
+* **Soul** represents calmness and perception. Someone with high Soul might not be religious, but could be spiritual. They are also good at reading people or noticing small details. In contrast, someone with low Soul would struggle with spiritual pursuits such as meditation and might come off as oblivious or easily distracted.
+   * Soul is also added to your Initiative, Mental Offense, Mental Defense stats.  
+> Eric considers XU-808's Attributes. His Arbiter has given him five Attribute points. He decides his robot character should have high Mind to represent their ability to calculate quickly and the perfect memory of a computer, so set their Mind at 3. He also figures XU-808 should be tough as well since they're made of steel instead of skin: the last 2 points go to Toughness. His newly-assembled robot is socially naive and logical in a way that makes them hard to relate to. To represent this (and with the Arbiter's permission), he makes their Heart -1. His Arbiter allows an extra Attribute point for this, which he uses to increase his Toughness by one more step. XU-808's starting Attributes are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.  
 > 
-> Lydia does the same thing for Marona, also with five points to distribute. She expects to be using a lot of spells, so she focuses in her Mind to get a lot of MP and Offense to work with. She sets her Mind to 3. She's also expecting a lot of combat in her game, so she wants to give her character the best chance to survive it. Looking over her options, she decides the best way to do this is to increase her HP, so she puts the rest of her points into Toughness. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one she can afford to drop. She decides that the right answer would be Heart. She has ulterior motives (which we'll talk about later) but decides to justify it by framing her character as being an academic who has spent more time with books than people, making her socially awkward. She adds the extra point to Toughness. Her final stats for her wizard are Strength 0, Finesse 0, Toughness 3, Mind 3, Soul 0, Heart -1.
+> Lydia does the same thing for Marona. Her Arbiter gives her group 5 Attribute points, permission to take one negative Attribute for a 6th, and a hard cap of 3 points in any one Attribute. Marona's highest priority in combat will be using a lot of spells, so she puts 3 points into Mind for MP and Mental Offense. Lydia is also expecting a lot of fighting in her game, so she wants enough HP to survive. She doesn't need Physical Offense at all, so she puts points into Toughness since it also boosts her Physical Defense. She decides she'd like to really focus on being sturdy, so she looks over her Attributes for one Marona can afford to drop. She decides that the right answer would be Heart. She has an ulterior motive which we'll talk about later, but decides her character is a socially awkward academic who has spent more time with books than people. She adds the extra point to Toughness. The final stats for her mage are Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0.   
 
-## Step 2-a: HP/MP
-After choosing your Attributes, you can determine your point stats.
-* **Max HP:** HP stands for hit points or health points, and they are an abstract representation of a character’s health. While the character has HP, they can still press on. At character creation you gain fifteen plus your Strength times three plus your Toughness times three HP. [15 + (STR x 3) + (TGH x 3)] (See [Chapter 12](#chapter-12-health-injury-death-and-recovery) for a more thorough description of what HP represent.)
-* **Max MP:** MP stats for mental points or mana points. While some Abilities spend HP, most require you to spend MP to use them. What this represents can be very abstract; it could represent a pool of mana to draw power from, concentration and energy needed to perform a complex maneuver in a fight, or it can be as simple as tracking ammunition. You start with fifteen plus your Mind times three plus your Heart times three. [15 + (MND x 3) + (HRT x 3)]
- 
-> Both XU-808 and Marona have to calculate their point stats now. For HP, their Strength is 0 and their Toughness is 3, so [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. Mind 3 and Heart -1, so [15 + (3 * 3) + (3 * -1) = 21].
+## Step 2-a: HP/MP  
+After choosing your Attributes, you can determine your point stats. (The character sheet linked earlier does these calculations automatically.)  
+
+### Max Health Points (HP)
+A representation of a character’s stamina. While a character has HP, they can still press on. When a character runs out of HP they are (at best) injured and knocked unconscious. PCs starts with \[15 plus your Strength times 3 plus your Toughness times 3\] HP.  
+   * [15 + (STR x 3) + (TGH x 3)]  
+
+### Max Mental Points (MP)
+Most combat maneuvers spend MP. What this represents can be abstract or setting specific: a pool of mana to draw power from, concentration and focus needed to perform a complex techniques in a fight, ammunition, battery power, or something similar. Your character starts with \[15 plus your Mind times 3 plus your Heart times 3\] MP.  
+   * [15 + (MND x 3) + (HRT x 3)]  
+
+There are fields on the sheet: Vitality and Capacity for HP and MP respectively. Both of these values start at 0 and will be explained in the next chapter.  
+> Both XU-808 and Marona calculate their point stats. For HP, their Strength is 0 and their Toughness is 3: [15 + (0 * 3) + (3 * 3) = 24] is their starting HP. For MP they have Mind 3 and Heart -1: [15 + (3 * 3) + (3 * -1) = 21].  
 
 ## Step 2-b: Offense/Defense/Initiative  
-Offense modifies to your attacks’ effectiveness, Defense represents or your ability to mitigate a foe's attacks, and Initiative determines what order you act in combat.
+These are values that are used when rolling dice in combat. Offense increases your attacks’ effectiveness, Defense reduces damage you take, and Initiative determines the order characters act in a fight.  
+Each of these sections on the character sheet have a field for Realized Potential. For new characters, these values all start at 0. Raising these values will be discussed in the next chapter.  
 
-#### Physical Offense
-This broadly represents your ability to attack foes by mundane means. The better your Physical Offense, the more likely you are to successfully hit foes and do more damage with fists, melee weapons, and non-mental missile attacks. A high Physical Offense could imply great strength, well honed training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.
+### Physical Offense  
+Your ability to attack foes by physical means. The better your Physical Offense, the more damage you do with fists, melee weapons, and mundane missile attacks. A high Physical Offense could imply brute strength, extensive training, precise aim, and other such characteristics. You add your Strength and Finesse to Physical Offense.  
+> Our example characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. This is fine; neither character use their Physical Offense.  
 
-> Our characters have Strength 0 and Finesse 0, so their starting Physical Offense is 0. Which is fine; they can simply create a character that doesn't use Physical Offense.
+### Mental Offense  
+Your ability to manipulate energy, technology, or other non-physical forces to do harm. High Mental Offense could imply intense magical abilities, advance understanding of technology used in combat, a connection to a supernatural entity whose lends their you their power, psychic potential, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, or the like. You add your Mind and Soul to Mental Offense.  
+> With Mind 3 and Soul 0, XU-808 and Marona have a starting Mental Offense of 3.  
 
-#### Mental Offense
-This broadly represents your ability to manipulate energy, technology, or other non-physical forces to strike out at foes. High Mental Offense could imply an intense well of inner power to draw upon, better understanding of technology used to inflict harm on others, a connection to some external power source you channel to lash out at your enemies, or something similar. The term “mental” is here mainly to differentiate it from “physical” and could easily be adjusted to apply to technology, magic, psychic powers, natural weapons, or other such power sources. You add your Mind and Soul to Mental Offense.
+### Physical Defense  
+Your ability to mitigate mundane strikes. High Physical Defense characters could be fast to dodge attacks, tough enough to just ignore them, equipped with armor or shields, or a combination of these effects. You start with 10 Physical Defense plus your Toughness and Finesse.  
+> Both characters have 3 Toughness and 0 Finesse, so their Physical Defense starts at 13.  
 
-> With Mind 3 and Soul 0, XU-808 and Marona have Mental Offense 3.
+### Mental Defense  
+Your resilience against technical or magical attacks. High Mental Defense can imply being trained in counter-spells, arcane shielding techniques, gear that absorbs energy attacks, raw resilience, or the like. You start with 10 Mental Defense, plus your Heart and Soul.  
+> Both characters have Heart -1 and Soul 0. They start with Mental Defense 9.  
 
-#### Physical Defense
-This statistic represents your ability to mitigate mundane strikes sent against you. This could imply being quick enough to dodge attacks, tough enough to just ignore them, being equipped with armor or shields to protect you, or a combination of these effects. You start with 10 Physical Defense. You add your Toughness and Finesse to Physical Defense.
+### Initiative Bonus  
+At the beginning of a dangerous situation everyone involved make Initiative rolls. This determines who acts first in the encounter. You add your Finesse and Soul to Initiative rolls.  
+If multiple characters are ever attempting to do something at the same time and the order of actions is important, Initiative determines who reacts first. Everyone involved makes an Initiative roll, then resolves these concurrent actions in that order.  
+> Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0.  
 
-> Both characters have 3 Toughness and 0 Finesse, so their Physical Defense starts at 13.
+## Step 3: Abilities  
+The next step is to choose Abilities: actions a character can take in a fight. These will define your character's fighting style. Chapter 4 defines Abilities in detail and Chapter 5 is an Ability list. Newly created characters start with all Tier 0 Abilities and three Tier 1 Abilities.  
 
-#### Mental Defense
-Mental Defense enables you to mitigate damage you would otherwise take from energy attacks. High Mental Defense can imply being trained in counterspells or arcane shielding techniques, understanding and utilizing equipment or technology that dampens or redirects energy directed at you, or just being so resilient that you can endure the attack without harm. You start with 10 Mental Defense. You add your Heart and Soul to Mental Defense.
-
-> Both characters have Heart -1 and Soul 0. They start with Mental Defense at 9.
-
-##### Defense Bonus
-Some Abilities or effects sometimes use a value called "Defense Bonus." This can be Physical or Mental. This is just your total defense of the corresponding type without the base 10 everyone starts with. This value is mostly of concern to characters attempting to get some offensive value from their defensive stats. If the value in question is Physical Defense it will be listed as Physical Defense Bonus, while Mental Defense is listed as Mental Defense Bonus.
-
-> So for XU-808 and Marona, their Physical Defense Bonus is 3 and their Mental Defense Bonus is -1.
-
-#### Initiative Bonus
-At the beginning of a dangerous encounter (usually but not always combat) you make an Initiative roll. This determines the order in which characters act. You add your Finesse and Soul to Initiative rolls.
-
-Initiative can also be used to determine who reacts first in an out-of-combat context. If characters are ever attempting to do something at the same time and the order of actions is important, have all parties roll Initiative; whoever rolls the highest is the first to act.
-
-> Marona and XU-808 have Finesse 0 and Soul 0, so their Initiative is 0.
-
-## Step 3: Abilities
-The next step is to choose Abilities. [Chapter 4](#chapter-4-abilities) goes into greater detail on what an Ability actually entails. In short, an Ability represents a maneuver that characters can utilize in combat. These will define your role when you’re fighting. When a character is created, they know 3 Abilities (two + one gained from being Level 1) for free as well as all Tier 0 Abilities.
-
-Some advice if you are having trouble choosing your Abilities:
-* If you don’t have a better plan, you should have at least one Ability that fits within your character’s intended skill set. Your Strength dominant hero should have at least one melee attack. A Mind/Soul dominant hero is going to want mental attacks.
-* That said, don’t put all your eggs in one basket. If all of your attacks are melee range then an enemy who attacks from a distance will be a severe problem for you. If you have nothing but healing or support Abilities, then you will be helpless if you get separated from your allies. Once you have your core covered you might add some variety to your arsenal.
-* At first your HP and MP pool will be limited. Keep costs in mind when picking Abilities. If an Ability requires too much of your MP to use often, maybe it’s not a good choice.
-* It is wise to choose at least one Ability that requires a Minor Action to use. Doing so allows you to increase your effectiveness by letting you more consistently use both of your Actions. (More on Actions in [Chapter 10](#chapter-10-combat))
-
-> Eric considers what kind of things XU-808 should be able to do in fights. He likes the idea of a lightning ray, so XU-808 starts with the Elemental Lance Ability, taking the Sky version. He also wants XU-808 to be able to scan enemy shields, so he takes Scan. Finally, he wants a cloaking device, so he takes Vanish as his final starting Ability.
+> Eric considers what kind of gadgets he wants for XU-808. He likes the idea of a lightning ray, so he takes the Elemental Lance Ability, selecting the Sky Element to represent electricity. He also wants to analyze enemy shields, so he takes Scan. A cloaking device sounds fun to him, so he concludes with Vanish.  
 >
-> Meanwhile Lydia considers her Abilities. She wants Scan because she wants to hit enemy weak points, and she wants a way to escape bad situations so she takes Vanish. She needs a way to deal damage too. She decides to start her build off using electric damage and so she picks Elemental Lance with Sky.
+> Meanwhile Lydia considers Marona. She plans to be an elemental specialist which means she needs to know enemy weak points. Scan handles that. She also wants a way to escape bad situations: Vanish. Finally she needs to be able to do damage. She decides to start off using wind slashes, so she picks Elemental Lance with Sky Attunement.  
 
-## Step 4: Skills
-Next, you will distribute Skill Points. There’s more information on Skills in [Chapter 6](#chapter-6-Skills), but the general idea is that skills are things that your character is generally good at aside from combat. Each skill has two Attributes added to their modifier, and you can use skill points to increase your base modifiers. Each skill can have skill points equal to your Level + 3 allocated. (So if you’re making a new character, you can spend at most 4 points per skill.) Skills will most often be utilized outside of combat, though certain enemies or Abilities may bring some to play during combat. You start with 20 skill points at character creation.
-
-Here are some things to consider when distributing skill points:
-* Skills are the portion of character creation most closely tied to roleplaying. Other aspects of the system have been intentionally divorced from having an impact on roleplay, but you should choose skills that make sense for your character to have.
-* If you’re satisfied with your character’s representation but still have skill points remaining, consider coordinating with the other players. A given party would typically benefit from having all of their bases covered.
-* If you’ve done the above and still have skill points, then consider increasing Athletics, Acrobatics, Awareness, Composure, Empathy, or Endure. These skills are either universally useful, reactive in nature, or may benefit the party to have multiple members able to use them well.
-
-> Eric considers XU-808's Skills. Going down the list, he first spots Composure. Eric likes the idea of high Composure representing his robot being difficult to rattle emotionally. He decides for simplicity to just max things out as he chooses them, so he puts 4 points into Composure. Next he spots Endure--pain tolerance, going without food, his robot should be good at that too. 4 points in Endure. The next two skills that catch his interest are Investigation and Science. He decides that XU-808's primary function is as a researcher, and puts those two skills to maximum.
+## Step 4: Skills  
+Next, distribute Skill Points. Skills are things that your character are good at besides fighting. Each Skill starts off based on two Attributes. The Acrobatics Skill adds Strength and Finesse; History adds Mind and Soul; Stealth adds Finesse and Mind; and so on for each Skill. You can think of the Attribute bonus as a character's talent level in a given activity; how good they are at the thing with no extra training or preparation.  
+Each Skill also has a Realized Potential modifier to represent training, study, and/or practice. Think of this as the effect of your character's active effort rather than passive talent. You can increase your Realized Potential in a Skill for one Skill Point. All characters start with 20 Skill Points to spend. All Skills have a maximum Realized Potential of 4 at character creation.  
+Chapter 6 describes and lists Skills in detail.  
+> Eric considers XU-808's Skills. For simplicity he maximizes each Skill he chooses. High Composure could represent his robot being more emotionally stable than most people. Endure represents pain tolerance, going without food, working tirelessly--all things a robot can do. He decides that XU-808's primary function is research, and to represent that he maxes out Investigation, Science, and Tech.  
 > 
-> Meanwhile Lydia thinks about what Marona should able able to do. Like Eric, she decides to just max four Skills. Lore, obviously, a Wizard needs to know magic stuff. She knows her Arbiter likes to throw in a lot of horror elements, so she figures Composure will be useful. She also likes the idea of Investigation, better to find new spells with. And finally in previous games she remembers having a few hard Endure checks, so she decides to put her last points into Endure.
+> Lydia thinks about what Marona should able able to do. Like Eric, she maxes five Skills just to keep things easy. She knows her Arbiter likes cosmic horror elements, so Composure will be useful to withstand the eldritch knowledge she'll be gathering. She then picks some Skills to represent her character's scholarly background: a lot of time in a fantasy library would mean high Skill with History, Investigation, and Lore. In past games she's also noted her Arbiter calls for a lot of Endure checks, so she maxes that out in preparation.  
 > 
-> After adding in Attributes, the two characters have the following Skill checks:
+> After adding in Attributes, the two characters have the following Skill checks:  
 > 
-> Composure +7, Endure +6, Investigation +7, Lore +7 (Marona), Science +7 (XU-808)  
+> Composure +7, Endure +6, History +7 (Marona), Investigation +7, Lore +7 (Marona), Science +7 (XU-808), Tech +7 (XU-808)  
 > 
-> All their other skills are done just with their Attributes.
+> All their other Skills only add their associated Attributes.  
 
-## Step 5: Elemental Properties
-In settings where elemental magic is common, characters can start with a weakness to one element and a resistance to one other. The available elements are Fire, Ice, Sky, Earth, Light, and Dark.
-Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
-When receiving damage in an element a combatant is weak to, the attacker rolls three dice and drops the **lowest** die to calculate the damage done. When receiving damage in an element a combatant is resistant to, the attacker rolls three dice and drops the **highest** die.  
-When striking multiple targets with different elemental properties (such as with an area of effect), first resolve all targets that are neither resistant nor weak to the element by rolling two ten-siders as normal. After that, roll an additional die, then apply the highest two against foes weak to your chosen element and the lowest two against resistant foes.  
-Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot reroll the die rolled during the second phase.
-
-> For example, Anezka is using the Elemental Blast Ability with Ice element against a target that is weak to Ice along with two targets that are neutral toward Ice. She also has Boon 4. To damage the two neutral opponents, she rolls the normal two dice, getting a 9 and a 4. She rerolls the 4 and gets a 1 (Boon backfires sometimes), so her final die result is 9 + 1 + her Mental Offense.  
-> She now targets the Ice-weak target by rolling a third die, getting a 3. Since she used Boon to reroll the 4 earlier, she cannot reroll the 3. She still drops the lowest two dice, so for this foe her final result is 9 + 3 + her Mental Offense.
-
-## Step 6: Talent
-Finally, you choose one talent. Talents are described in full in [Chapter 9](#chapter-9-talents); these are major changes that help define what your character is good at.  
-
-> Eric looks over the available Talents for something that looks interesting. He spots Sturdy Shield and decides that could represent XU-808 having energy shields.  
+## Step 5: Talent  
+Choose one Talent. Talents are described in full in Chapter 9; these are major changes that define where your character excels. These can allow you to act more efficiently, add powerful benefits for specific types of Abilities, or expand how you can use your Attributes.  
+> Eric looks over the available Talents. He spots Sturdy Shield and decides that could represent XU-808 having energy shields installed.  
 > 
-> Meanwhile Lydia looked ahead to plan her build. Since she took a point away in Heart, she decides to use Sturdy Shield to cover her weak Mental Defense.  
->
+> Lydia looked ahead to plan her build, the ulterior motive mentioned when picking Attributes. Since she took a penalty in Heart, she decides to compensate with Sturdy Shield. Now she can use her high Toughness to partially compensate for her low Heart.  
+> 
 > In both cases, this means that their Mental Defense goes from 9 to 13.  
 
-## Step 7: Starting items
-> Currently there are no rules for items or equipment in this game. The Arbiter is free to make up magical or technological items where it suits. In general, basic equipment is not tracked in this game. Axes and swords don't have different stats. A character should start with their most essential items (weapons, armor, tools) assumed to be part of their kit. The basic idea is that characters in S3 are distinguished by what they can do, not what kind of gear they have. If you're playing a character with high strength, they can start with appropriate weapons. If your character is a mage, they can start with any implements they need to use their magic. If you're playing a very sturdy character, they could start with armor. Having the Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar.
+## Step 6: Starting items  
+There are no rules for mundane items or equipment in this system. Axes and swords don't have different stats. A character starts with their most essential items already on hand. High Strength characters start with appropriate weapons: a sword, ax, polearm, or whatever weapon the player thinks best suits their warrior. Mages start with any implements they need to use their magic. Sturdy characters could start with armor or a shield. An engineer will have their equipment stored in easy reach. The Shoot Ability implies the presence of a bow, gun, crossbow, throwing spears, or something similar. 
 
-> Note that steps 8 and 9 can be skipped while still ending with a working character. If this is your first time trying S3 and you want to get straight into it, you can skip these steps, and with them skip reading chapters 7 and 8. This will let you get a taste of the system without committing to reading every word of this book. If you play for a while and find you like the system, you can come back to these steps.  
+> Note that steps 7-9 can be skipped for brand new players. If this is your first time with S3 and you want to get straight into it you can skip these steps for now. This also means one can skip reading chapters 7 and 8. If you play for a while and like the system, you can come back to these steps to finish your character later.  
 
-## Step 8: Lesson  
-Next you choose one Lesson. Lessons represent a character specializing in specific abilities or fighting styles in the form of passive or conditional bonuses. Lessons are listed in [Chapter 7](#chapter-7-lessons). 
+## Step 7: Lesson  
+New characters know one Lesson, which represents focusing on or expanding a fighting style. These give passive bonuses or new options. They are described in full in Chapter 7.  
 
-> XU-808's sheet is nearly complete. After looking over the options, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced scanning equipment.
+> For XU-808, Eric decides to take the Superior Scanner Lesson, reasoning it could represent being built with advanced analysis equipment.  
 >
-> Meanwhile Lydia takes the same Lesson because she expects to be using Scan to find enemy weaknesses a lot and wants to get as much as she can out of said actions.
+> Lydia takes the same Lesson because she expects to be using Scan frequently to find enemy weaknesses. If she's going to be Scanning anyway, she wants to get the most out of it.  
 
-## Step 9: Utility
-Next, you choose one Utility. Utilities represent non-combat specializations, giving you a boost to certain Skills or a new option that gives the character broader capabilities off the battlefield. You may only choose a Utility with the standard 3 XP cost; Utilities that cost additional XP cannot be taken as your free Utility. Utilities are listed in [Chapter 8](#chapter-8-utilities).   
-
-> Eric decides Eidetic Memory is an easy choice to represent XU-808's computer having perfect memory.
+## Step 8: Utility  
+Utilities represent non-combat specializations, giving you a boost to certain Skills and/or new options off the battlefield. New characters start with one Utility from the list in Chapter 8. At character creation you may only choose a Utility with the standard 3 XP cost; more expensive Utilities must be purchased later with XP.  
+> Eidetic Memory is an easy choice for Eric, representing XU-808's perfect computer memory.  
 >
-> Meanwhile Lidia just likes being able to ask the Arbiter to fill in occasional gaps in her memory, so she takes the Eidetic Memory Utility to give an explanation on how she keeps all those details in her head.
+> Lidia just likes being able to ask the Arbiter to fill gaps in her memory, so she takes the Eidetic Memory Utility to explain how Marona keeps details in her head even though Lydia cannot.  
+
+## Step 9: Elements  
+In settings where elemental magic is common, your character can start with a Weakness to one Element and a Resistance to one other. The available Elements are Fire, Ice, Sky, Earth, Light, and Dark.  
+Elemental properties are not appropriate for all settings or all characters. Consult your Arbiter on whether you should do this for your character when creating them.  
+The effect of Elemental Properties is described in Chapter 4. For now; you take significantly less damage from Elements you Resist, and more from Elements you are Weak to.  
+
+## Conclusion
+And with that, XU-808, Marona, and hopefully your PC are ready for adventure. Despite one character being a robot in a sci-fi world and the other being a mage in a fantasy game, their sheets are nearly identical. This is intended: while the two characters use different methods to get there and have contrasting aesthetics, their actual capabilities are very similar. The sheets describe what the characters can do while the players describe how they do it.
 
 ------------
 # Chapter 3: Improving your character
-Rather than progressing in a class, heroes become stronger by spending experience points (XP). This will allow you to choose between a highly specialized character with a small number of very effective abilities, or a character that has many different tools, making them more likely to have exactly what is needed for a given situation.
+In S3, heroes become stronger by spending experience points (XP) to purchase upgrades to your character: new Abilities, Lessons, Utilities, and increasing their Potential. There are no set classes that dictate your character's capabilities: if your character has the XP and meets any requirements a given feature lists, they can buy it.  
 
-> XU-808 and Marona start the game with nearly identical sheets. However, as they level up they begin to diverge in specialized ways.
+> XU-808 and Marona start the game with nearly identical sheets. As they grow they diverge significantly.  
 
-## Gaining XP
+## Abilities  
+Abilities represent things you can actively do, typically in combat. These can come from training in martial arts, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.  
+Abilities come in three tiers. <For now. More are planned in future.> You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 XP for tier 1, 5 for tier 2. All characters begin the game knowing all Tier 0 Abilities for free.  
+Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).  
+
+> In XU-808's group, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies in a fight.  
+> 
+> Meanwhile in Marona's party, there is another character built to be the party's defender, so Marona focuses on offense. She takes the Elemental Blast Ability to deal with crowds and Charge Up for burst damage.  
+
+## Lessons  
+Lessons represent focus on specific combat styles, providing passive or conditional alterations to a character's capabilities. Lessons are described in more detail in [Chapter 7](#chapter-7-lessons). They cost 5 XP unless an exception is listed.  
+
+> Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, Earth, and Light damage. (Another player in her game focuses on dealing Dark damage, so she decides to skip Dark Attunement and spend that XP elsewhere.) Now that she's set up to hit most weaknesses and plans to do that often, she takes the Advantageous Recovery Lesson to regain MP when she succeeds.  
+> 
+> Meanwhile XU-808 is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU-808's sturdiness in combat.  
+
+## Utilities  
+Utilities represent non-combat abilities that aid an adventurer. These improve Skill rolls or grant new options that focus on non-combat applications. There is no limit on the number of Utilities a given character may purchase, and they each cost 3 XP unless an exception is listed. Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).  
+
+> The first Utility XU-808 takes is Asceticism, reasoning that its benefits align with things a machine should be able to do anyway. Enhanced Sight also makes them better equipped to gather data for their scientific pursuits.  
+> 
+> Marona spends a lot of time delving in dungeons, so she takes Utilities with that in mind. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information using her Lore check.  
+
+## Potential  
+Potential represents a character's practice and experience with a given task or skill set. While Lessons and Utilities give conditional bonuses, Potential gives direct, permanent increases to the associated dice checks. Potential is split into two parts: Realized Potential and Max Potential.  
+
+### Realized Potential  
+Realized Potential (RP) accounts for experience, contrasting [Attributes](#step-1-attributes) representing talent. RP directly increases the modifier on associated dice checks. The exact thing this bonus represents can vary from character to character. Increasing Physical Offense could represent a hulking warrior getting physically stronger over time, a skilled boxer training their technique, a marksman improving their aim, anyone enhancing their weapon, or the like.  
+
+#### Offense, Defense, Initiative  
+How good a character is at hitting things, getting hit, and getting to hit first, respectively.  
+Increasing Realized Potential costs 4 XP for Physical or Mental Offense, 3 XP for Physical or Mental Defense, and 1 XP for Initiative.  
+
+> Marona's primary role in her party is to deal Mental damage, so she prioritizes Realized Potential for her Mental Offense. Since Marona is more focused on damage and has enough HP to soak a hit if she needs to, she doesn't spend any XP on Initiative.  
+>
+> Meanwhile XU-808 has ended up the most sturdy character in their game, and to extend this advantage they take Physical and Mental Defense as a priority. Since they are providing a guardian role for their party, XU-808 purchases Initiative bonuses when they can so they can act to quickly defend their friends.  
+
+#### Vitality/Capacity  
+Vitality and Capacity increase your character's [Max HP and MP](#step-2-a-hpmp) respectively. Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both Vitality and Capacity cost 3 XP each.  
+
+> XU-808 and Marona have the same Attributes (Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0) so Vitality and Capacity gives them the same benefits: A point of Vitality gives them [5 (base) + 0 (Str) + 3 (Tough)] 8 Max HP and Capacity gives [5 {base} + 3 (Mind) - 1 (Heart)] = 7 max MP.  
+
+#### Skill Points  
+Skill Points are used to improve a Skill. You may spend 1 XP on 4 Skill Points, each of which increases a Skill's Realized Potential by 1.  
+
+> Marona is in an action packed game where danger is everywhere. She wants points in Awareness, Endure, and Stealth. She also maxes out her Lore and Investigation Skills as she delves into deeper arcane secrets.  
+> 
+> Meanwhile XU-808 is in a much more social game where solutions are usually diplomatic rather than violent. They reason that the adaptive AI XU-808 runs on would learn Diplomacy and Empathy. They also like the idea modifying their own chassis, so they take Construct and Tech. Finally, they invest heavily in Investigation and Science since they were designed for research.  
+
+### Max Potential  
+Max Potential represents a character's peak possible performance, placing a limit on their Realized Potential. It limits the following:  
+
+* The number of times Vitality and Capacity can be purchased.  
+* The hero’s Realized Potential bonus on Physical Offense, Physical Defense, Mental Offense, Mental Defense, and Initiative Bonus.  
+* The Realized Potential bonus on your Skills is limited to your Max Potential + 3.  
+
+> For example, take Marona. Her Attributes are:  
+> Strength 0, Toughness 3, Finesse 0, Mind 3, Heart -1, Soul 0  
+> Assume she is at Max Potential 4. If she spends as much XP as she can for her Mental Offense, her bonus would be [3 (Mind) + 0 (Soul) + 4 (Realized Potential)] +7. Maximizing her Endure Skill would give her [3 (Tough) - 1 (Heart) + 7 (Realized Potential)] +9.  
+
+Increasing Max Potential represents pushing through plateaus and putting in the work to grow. That could represent the character undergoing extensive training or practice in the background, studying hard between adventures, or just learning with experience.  
+Characters start at Max Potential 1. Boosting Max Potential to 2 costs 5 XP, and each subsequent Max Potential increase costs (4 + current Max Potential) XP. So Max Potential 3 costs 6 XP, Max Potential 4 costs 7 XP, and so on.  
+
+> Coming from other systems, you might think of Max Potential as your character's level.  
+
+When you increase your Max Potential, you also gain an immediate benefit that repeats in a five step loop. These benefits do not cost additional XP.  
+* When reaching Max Potential 2, 7, 12, … the character gains one point in Vitality or Capacity.  
+* When reaching Max Potential 3, 8, 13, … the character increased their Physical or Mental Defense's Realized Potential by 1 and increases one of their Attributes by 1.  
+* When reaching Max Potential 4, 9, 14, … the character increases their Physical or Mental Offense's Realized Potential by 1.  
+* At Max Potential 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).  
+* When reaching Max Potential 6, 11, 16, … the character gains an Ability of any tier they could normally learn (more on Abilities in [Chapter 4](#chapter-4-abilities)) and increases their Hero Tier by 1.  
+
+#### Hero Tier
+Hero Tier is a value that broadly represents your character's progress level. You start at Hero Tier 1, and every 5 Max Potential boosts after the first (6, 11, 16, …) increases this value. You can only take Abilities of a Tier equal to or less than your Hero Tier.  
+
+#### Talents  
+Talents represent major modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons. A character starts with one Talent and gains another when reaching a [Max Potential](#max-potential) divisible by 5 (5, 10, 15…). They come with the Max Potential increase and do not cost additional XP.  
+Talents are described in more detail in [Chapter 9](#chapter-9-talents).  
+
+> Upon reaching Max Potential 5, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.  
+> 
+> Meanwhile Marona wants more power in her build. Looking over the Talents, she decides to take Overwhelming Force, allowing her to add her Toughness to her Mental Offense, significantly boosting her damage output.  
+
+## Gaining and Spending XP
 This section will focus on how the party gains XP, and is mostly of concern to Arbiters.
 
+```  
+TODO Rewrite to properly codify this at some point ; low priority: more of the 
+system needs writing before this is codified. Also add notes on when players can
+spend XP. For now:  
+```  
 The rate at which characters grow in power is, in the end, a matter of taste. There is never going to be an optimal way to schedule out how characters grow. There are no set rules on this.
 
 > There are, however, recommendations I can give based on the results of my play testing. These are boxed because I'm going to be speaking in first person and from experience as an Arbiter rather than as a game designer.  
@@ -327,15 +417,12 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 > If you go too slowly, players may come to feel stagnant or under-rewarded. Giving too much XP too quickly makes it more difficult to design suitable encounters for the players; if the player characters' strengths increase substantially session to session then you're at greater risk of substantially under or over estimating what makes for a good fight. Either of those results can be a disaster.   
 > My play-testers all agreed that they'd prefer they all have the same XP. Other groups might disagree; it might be that players who don't show up don't gain XP, or perhaps the Arbiter might like to give bonus XP for helping to run the game. Discuss this with the group before you begin playing.  
 > I strongly recommend against giving role-playing XP. If the players don't want to role-play, that's fine; run a dungeon delving group. Role-play is supposed to be for its own sake.  
-
-## Spending XP
-Between sessions, you can allocate your XP to buy from the benefits listed in this section. Keep up with what XP was spent in what way on your character sheet.
-
-If you're looking specifically for the XP cost of specific benefits, refer to this cheat sheet.
+ 
+### Table: XP Costs
 
 | Benefit                 | XP Cost                   |
 |-------------------------|---------------------------|
-| Level up                | 4 + current Level         |
+| Increase Max Potential  | 4 + current Max Potential |
 | Vitality/Capacity       | 3                         |
 | Physical/Mental Attack  | 4                         |
 | Physical/Mental Defense | 3                         |
@@ -346,189 +433,155 @@ If you're looking specifically for the XP cost of specific benefits, refer to th
 | Lessons                 | 5 unless otherwise stated |
 | Utilities               | 3 unless otherwise stated |
 
-> An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training in a skill an Arbiter might give the character the opportunity to buy skill points or stat improvements related to that training.
+> An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training, an Arbiter might give the character the opportunity to buy Skill Points or stat improvements related to that training.  
 
-### Level
-While there are no set classes, heroes do gain Levels. Their Level acts as a cap on certain values; multiple benefits that one can spend XP on can only go up to the hero’s Level. Increasing a character’s Level represents a general increase in competence and potential. A character’s Level limits the following:
-* Every Level increases the number of times [Vitality and Capacity](#vitalitycapacity) can be purchased
-* The hero’s Base Physical Offense, Physical Defense, Mental Offense, Mental Defense, and Initiative Bonus can be increased a number of times up to the character’s Level
-
-In addition, purchasing a Level gives its own benefit that goes in a five Level loop. These benefits do not cost additional XP.
-* At Levels 1, 6, 11, … the character gains an Ability of any tier they could normally learn. 
-* At Levels 2, 7, 12, … the character gains one point in Vitality or Capacity.
-* At Level 3, 8, 13, … the character increases their Physical or Mental Defense and any one of their Attributes by 1.
-* At Levels 4, 9, 14, … the character increases their Physical or Mental Offense.
-* At Level 5, 10, 15, … the character gains a Talent (more on Talents in [Chapter 9](#chapter-9-talents)).
-
-> You can think of your character's Level representing their potential. Gaining a Level would represent pushing through the plateaus and putting in the work that come with developing, whether as a warrior, mage, diplomat, spy, or anything you care to create. That could represent training or practice in the background, taking a class on the side, or just getting better with experience.  
-> It might be good to have a plan about when to increase your Level. XU-808 is mostly interested in Skills, and so Levels up when their skills are all maxed out for a given Level, choosing combat stats only when they feel it necessary. 
-> Meanwhile Marona generally Levels up when she's taken Magic Attack, Vitality, and Capacity to the maximum her Level allows.
-
-Characters start at Level 1 (and therefore gain one free Ability in addition to the two they start with). Level 2 costs 5 XP, and each subsequent Level costs (4 + their current Level) XP. So Level 3 costs 6 XP, Level 4 costs 7 XP, and so on.
-
-> Sidenote \<Milestone Levels>: Instead of allowing players to purchase Levels, the Arbiter may instead choose to declare that all characters Level up at certain milestones. While this does constrain players, it also ensures a given party will have fairly similar power ranges. This makes it easier to balance combat encounters while also making milestones feel more impactful.
-
-#### Hero Tier
-Hero Tier is a value that broadly represents your character's power. You start at Hero Tier 1, and every five Levels after the first (6, 11, 16, …) increases this value. Hero Tier is used to scale many facets of your character. 
-
-> Increasing in Hero Tier represents a significant increase in competence and invites participation in more consequential events. 
-
-### Vitality/Capacity
-Purchasing Vitality increases your hero’s maximum HP by 5 + their Strength + their Toughness. Purchasing Capacity increases your hero’s maximum MP by 5 + their Mind + their Heart. Both of these can be purchased multiple times, up to your character’s [Level](#level). Vitality and Capacity upgrades cost 3 XP.
-
-> Both XU-808 and Marona need HP and MP, so they both take Vitality and Capacity levels occasionally.
-
-### Base Physical/Mental Offense/Defense
-Every character has a base bonus to their Physical and Mental Offense and Defense. It starts at zero, but each category can be increased up to the hero’s [Level](#level). Increasing Physical or Mental Offense costs 4 XP, and increasing Physical or Mental Defense costs 3 XP.
-
-> Marona's primary role in her party is to deal damage, so she spends most of her effort on Base Mental Offense. Meanwhile XU-808 has ended up the most sturdy character in their game, so to extend this advantage they take base Physical and Mental Defense as a priority.
-
-### Base Initiative  
-Like with Offense and Defense, character have a base bonus to their Initiative rolls. It starts at zero and can be increased up to the character's level. Increasing base Initiative costs 1 XP.
-
-### Skill Points
-You may spend 1 XP to gain 4 skill points. The maximum number of points you can put into any skill is 3 + your [Level](#level).
-
-> Marona is in an action packed game where danger is everywhere. She quickly finds that she can use points in Awareness, Sabotage, and Stealth.
-> 
-> Meanwhile XU-808 is in a much more social game where solutions are usually negotiated rather than fought over. They reason that the adaptive AI that XU-808 runs on would learn Diplomacy. They also like the idea of self modifying their chassis, so they take Construct and Tech to represent that capability.
-
-### Abilities
-Abilities represent things you can actively do, typically in combat. These can come from training in elaborate techniques, learning spells, building equipment, natural biology, or whatever justification is suitable for a given hero being able to do something.
-
-Abilities come in two tiers. You may only purchase Abilities from tiers less than or equal to your [Hero Tier](#hero-tier). They cost 1 + (2 \* their tier) XP. So 3 for tier 1, 5 for tier 2.
-
-Abilities are described in more detail in [Chapter 4](#chapter-4-abilities) and listed individually in [Chapter 5](#chapter-5-list-of-abilities).
-
-> In XU-808's game, they ended up the sturdiest character in the party. They decide to focus on this, taking Abilities like Guard and Protector's Presence to defend their allies during combat.
-> 
-> Meanwhile in Marona's game, there is another player who intentionally and actively built their character to be the party's defender, leaving Marona room to focus on offense. For example, she takes the Elemental Blast Ability to deal with crowds.
-
-### Lessons
-Lessons represent passive abilities. These generally modify rolls, giving benefits when certain conditions are met. They offer notable benefits when using certain types of Abilities or grant a benefit in some conditions. Lessons cost 5 XP unless an exception is listed.
-
-Lessons are described in more detail in [Chapter 7](#chapter-7-lessons).
-
-> Marona wants to focus on elemental Abilities, so she takes the Elemental Attunement Lesson several times. By the time she's done she can deal Fire, Ice, Sky, and Earth damage. (Another player in her game focuses on dealing Dark damage, so she decides to save the XP needed to unlock it.) Once done with that, she also takes the Advantageous Recovery Lesson so that she gets extra benefits when striking a foe's elemental weakness.
-> 
-> Meanwhile XU-808 is spending most of their XP on other aspects of their character. They decide that the Resilient Protector Lesson is enough to represent XU-808's sturdiness in combat.  
-
-### Talents
-Talents represent significantly more impactful modifications to your character’s abilities. They either apply more broadly or have much higher influence than Lessons, and as such they are only available at first [Level](#level), and then when you reach a Level divisible by 5 (5, 10, 15…). They have no cost to purchase.
-
-Talents are described in more detail in [Chapter 9](#chapter-9-talents).
-
-> Upon reaching 5th level, XU-808 immediately decides to pick the Flight talent, adding a jetpack to their arsenal.
-> 
-> Meanwhile Marona wants more mobility in her build. Looking over the Talents, she decides to take Overwhelming Force, allowing her to add her Toughness to her Mental Offense, significantly boosting her damage output.
-
-### Utilities
-Utilities represent non-combat abilities that aid an adventurer. These may influence Skill rolls, or grant new options for a given hero. There is no limit on the number of Utilities a given character may purchase, and the XP cost for each Utility is listed in its entry.
-
-Utilities are described in more detail in [Chapter 8](#chapter-8-utilities).
-
-> XU-808 starts picking up Utilities with Asceticism, reasoning that its benefits align with things a machine should be able to do anyway. Eidetic Memory also helps represent the capabilities of a computer based mind.
-> 
-> Marona spends a lot of time delving in dungeons, and decides to take some Utilities to help in those situations. She starts with Speak with the Ancient Dead, allowing her to interrogate any corpses they find in their adventures. She also takes Whispered Wisdom so she can provide the party with extra information with her Lore check.
+```
+TODO: Continue review of existing text here; high priority
+```
 
 ------------
 # Chapter 4: Abilities
-Abilities represent powers or moves your character is able to do in combat.  
+Abilities represent actions your character is able to perform that are focused on combat.  
 
-> <div align="center">=!=!=DISCLAIMER=!=!=</div>
-> <div align="center">The following section uses some terms defined in <a href="https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#chapter-10-combat">Chapter 10</a>. This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to check on details such as how movement and spacing work, you may want to skip ahead using the link above.</div>  
-> <div align="center">The main thing to keep in mind is that Squares are larger than in most systems and can have multiple entities in each Square. Abilities that list their target as a Square target all creatures in that Square. </div>
-> <div align="center">=!=!=!=!=  </div>
+> <div align="center">=!=!=DISCLAIMER=!=!=</div>  
 
-## Ability Tiers
-Abilities come in three tiers (currently).
+> The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
+> Two major things to keep in mind.  
+> * Zones are large in S3 and can have multiple combatants in each Zone. Think of a Zone as an individual room or a room-sized region of a larger space. Abilities that list their target as a Zone target all creatures in that Zone. See [the Positioning section](#positioning) if you want more detail.  
+> * Every Round you get a Minor, Major, and Counter Action to work with. You use the Minor and Major Actions during your Turn, and can use Counter Actions during other combatants' Turns in response to opponents' Actions.  
 
-* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities.  
-* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase any Ability for 3 XP. (Some of these Abilities have prerequisites that must be first, described in each entry.)
-* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 (character Level 6) before you can take Tier 2 Abilities, and they cost 5 XP each.
+> <div align="center">=!=!=!=!=  </div>  
 
-## Reading Abilities
-Ability entries will follow this basic layout:
+## Ability Tiers  
+Abilities come in three tiers (currently).  
 
-**The Name of the Ability**  
-Ability Type (Attack/Spell/Auxiliary)  
-Action (Major/Minor/Counter): whether the Ability requires a Minor, Major, or Counter Action to use.  
-Prerequisites: What other things are required before one can learn this Ability.  
-Range: How far away a target can be while still being in reach of this Ability. There are five possible ranges:  
-* None - targets yourself.
-* Melee - targets in the same Square as you.
-* Short - can be used on targets up to 1 Square away.
-* Medium - targets enemies up to 3 Squares away.
-* Long - targets enemies up to 5 Squares away.  
-* Extreme - targets enemies up to 8 Squares away.  
+* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities. These represent actions done with low skill or low effort.  
+* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase more Tier 1 Abilities for 3 XP.  
+* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 before you can take Tier 2 Abilities, and they cost 5 XP each.  
 
-Targets: Who or what this Ability targets.  
-Cost: The HP or MP cost of this Ability.  
-Damage: When using this Ability to do damage, multiply your [Impact](#impact) by this number to determine the amount.  
-Effect: Things particular to a given Ability.  
-Description: A general overview of what a given Ability might represent from a roleplaying perspective.  
+## Reading Abilities  
 
-### Prerequisites
-Sometimes an Ability has a prerequisite listed in its entry. This means that you must fulfill the listed conditions before you are allowed to take that Ability. Generally this will be another Ability, often representing related skills building off of each other. There are other things that could be prerequisites, such as Skills, as well. If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.
+### Format  
+Ability entries will follow this basic layout. (Fields that aren't relevant to a given Ability will be omitted.)  
 
-### Ability Types
-There are three types of Abilities.
-* **Attack** means that the Ability uses Physical Accuracy and is resisted by Physical Defense.
-* **Spell** means that the Ability uses Mental Accuracy and is resisted by Mental Defense. 
-   * Note that just because the term used here is “spell” the Ability does not have to represent magical actions. The effect could be produced by technology, alchemy, bizzare anatomy, or some other thing.
-* **Auxiliary** Abilities do not use offense rolls. They generally target yourself or your allies.
-   
-### Ability Series
-Some Abilities are part of a series, building off each other and using each other as prerequisites. A quick explanation of each follows:
-* **Augment** - Auxiliary abilities that empower allies.
-* **Curse** - Auxiliary abilities that weaken foes.
-* **Elemental** - Abilities which deal damage through one of the elements. Striking an opponent with an element they are weak to allows you to roll three dice during your offense roll, taking the higher of the two results. When striking an opponent with an element they resist, you roll three dice again but take the lower two results. The six elements are:
-   * *Fire* - heat and flames
-   * *Ice* - sharp icicles and freezing cold
-   * *Earth* - shards of rock, acid, and plant vines
-   * *Sky* - electricity, wind blades, and the like
-   * *Light* - radiance, blinding light, and holy power
-   * *Dark* - Destroying life essence, sharpened shadows, or unholy power
-* **Healing** - Abilities that focus on restoring and rejuvenating allies. This can be by magically mending wounds, quickly bandaging cuts, singing a song that restores their spirits, or recharging their shields.
+**Ability Name**  
+Type [Keywords]  
+Action:  
+Prerequisites:  
+Range:  
+Targets:  
+Trigger:  
+Cost: [Upkeep: ]  
+Damage:  
+Cooldown:  
+Duration:  
+Effect:  
+Description:  
 
-### Ability Keywords
-Some specific terms come with Abilities. These can be effects that Abilities confer on you, or things that change how you use the Abilities themselves. Here are their definitions:
+### Ability Type  
+There are three types of Abilities.  
 
-#### Careful
-An Ability that normally only uses the listed Major or Minor Action, but that is improved if you also use your second Action on it, representing taking the time to do it right.
+#### Attack  
+Attack Abilities use [Physical Offense](#physical-offense) and are resisted by [Physical Defense](#physical-defense).  
 
-#### Cooldown
-An Ability or Lesson with a Cooldown cannot be used again for the listed duration. Cooldowns decrease by 1 at [Round Start](#round-start).
+#### Spell  
+Spell Abilities use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
+
+> Note that the term “Spell” is used here as a contrast to "Attack." During the game, Spell Abilities could also represent technology, chemistry, specialized anatomy, or anything else that might fit the game's setting.  
+
+#### Auxiliary  
+Auxiliary Abilities do not use offense rolls. They target yourself or your allies and do something to make it easier to fight.  
+
+### Ability Keywords  
+Some specific terms come with Abilities. These Keywords signify a related set of Abilities for the purposes of Lessons and Talents, or alter the way an Ability functions.  
+
+#### Augment  
+Abilities that strengthen allies. These will generally produce effects on the targets that have a Duration or Upkeep associated with them.  
+
+#### Careful  
+An Ability that can be made stronger by taking more time to do it. These require a Major Action, but have the option of using your Minor Action as well to improve them.  
+
+#### Curse  
+Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it (see below) then the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
+
+#### Elemental  
+Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. Striking an opponent with an Element they are Weak to allows you to roll three dice during your Offense Roll, taking the **higher** two of the results. When striking an opponent with an Element they Resist you also roll three dice, but take the **lower** two results. Immune targets take no damage of that Element.  
+
+The six elements are:  
+* *Fire* - heat and flames  
+* *Ice* - sharp icicles, freezing cold, or water  
+* *Earth* - shards of rock, acid, and plant vines  
+* *Sky* - electricity, wind blades, and the like  
+* *Light* - radiance, blinding light, and holy power  
+* *Dark* - draining away life essence, sharpened shadows, or unholy power  
+
+When striking multiple targets with different Elemental Properties (such as with an area of effect Spell), first resolve all targets that are neither Resistant nor Weak to the element by rolling two ten-sided die as normal. After you have determined how much damage each of them receive, keep the results of those first two and roll the third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
+Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot/does not re-roll the die rolled during the second phase.  
+
+> For example, Anezka is using the Elemental Blast Ability with Ice Element. The Zone she targets has one foe that is Weak to Ice along with two that are neutral towards Ice. She also has Boon 4. 
+> First, to damage the two neutral opponents she rolls the normal two dice, getting a 9 and a 4. She re-rolls the 4 and gets a 1 (Boon backfires sometimes), so her final Result is 9 + 1 + her Mental Offense.  
+> She now calculates damage for the Ice-weak target by rolling a third die, getting a 3. Since she used Boon to re-roll the 4 earlier, she cannot re-roll the 3. She still drops the lowest die, so for this foe her final result is 9 + 3 + her Mental Offense.  
+>  
+> Arbiters: I would advise you to use Immunity sparingly, make it intuitive when it happens, and pair it with Weaknesses. Obviously spirit composed entirely of flames wouldn't care about being burned, but if it's at all ambiguous cases I would advise using Resistance instead of Immunity.  
+
+#### Guardian Strike  
+Abilities with this Keyword allow a character to convert their defense into offense. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
+
+#### Healing  
+Abilities that restore HP.  
+
+#### Status  
+Abilities that afflict their target with a [Status Ailment](#status-ailment), effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
+
+### Action Requirement  
+Whether the Ability is used with a Major, Minor, or Counter Action. See the [Time in Combat](#time-in-combat) section for details.
+
+### Prerequisites  
+If an Ability has a Prerequisite listed in its entry, you must fulfill the listed conditions before you are able to take that Ability. Usually this will be another Ability, representing related maneuvers building off of each other or more refined techniques. There are other things that could be prerequisites as well, such as [Skills](#skill-list).  
+
+If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.  
+
+### Range  
+How far away you can be from your target(s). 
+* None -  Targets you or your current Zone  
+* Melee - Targets you or others in your current Zone  
+* Short - Reaches up to 1 Zone  
+* Medium - Reaches up to 3 Zones  
+* Long - Reaches up to 5 Zones  
+* Extreme - Reaches up to 8 Zones  
+
+An Ability may also have a Minimum Range; such Abilities cannot affect targets that close or closer.  
+
+### Targets  
+Whether the Ability targets yourself, allies, enemies, or a Zone, and how many. (You count as your own ally for targeting purposes.)
+
+### Trigger  
+This is specific to [Counter Actions](#counters) and specifies what has to happen to be able to use the Ability.  
+
+### Cost  
+The HP or MP cost of using an Ability. If you cannot pay the Cost, you cannot use the Ability.  
 
 #### Upkeep
-Any Ability with an Upkeep in its cost requires the given cost to be paid at [Round Start](#round-start). As long as the Upkeep is paid, the Ability has no duration. If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. (To clarify; the listed cost is paid when the action starting it is taken, and the Upkeep cost is paid on all subsequent rounds.)  
+Any Ability with an Upkeep in its Cost requires the listed HP or MP to be paid every [Round Start](#round-start). The Ability lasts as long as the Upkeep is paid or until some effect ends it prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. 
 
-### Buff Tracks
-These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.
+> Note: The separate Cost is paid when the Ability is first used, and the Upkeep cost is paid on all subsequent rounds.  
+> For example, Drahlo uses the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is listed as "2 MP (Upkeep 1 MP)". This means that when he initially uses the Ability, he spends 2 MP. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no extra action investment from him.  
+> There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
-#### The Offensive Track
-* **Level 3** - You make Offense rolls at Boon +4, and your Mental and Physical Offense increase by your [Hero Tier](#hero-tier).
-* **Level 2** - You make Offense rolls at Boon +3, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.
-* **Level 1** - You make Offense rolls at Boon +2.
-* **Level 0** - Normal, no changes.
-* **Level -1** - You make Offense rolls at Bane -2.
-* **Level -2** - You make Offense rolls at Bane -3, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier. 
-* **Level -3** - You make Offense rolls at Bane -4, and your Mental and Physical Offense decreases by your Hero Tier.
+### Damage  
+The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how damage works.  
 
-#### The Defensive Track
-* **Level 3** - Offense rolls made against you have Bane -4, and your Mental and Physical Defense increases by your [Hero Tier](#hero-tier).
-* **Level 2** - Offense rolls made against you have Bane -3, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.
-* **Level 1** - Offense rolls made against you have Bane -2.
-* **Level 0** - Normal, no changes.
-* **Level -1** - Offense rolls against you have Boon +2.
-* **Level -2** - Offense rolls against you have Boon +3, and you cannot gain Shield.
-* **Level -3** - Offense rolls against you have Boon +4, and your Mental and Physical Defense decreases by your Hero Tier.
+### Cooldown  
+If an Ability has a listed Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldowns decrease at [Round Start](#round-start).  
 
-##### Duration  
-Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
-Positive values begin decaying once every 3 rounds. Receiving another increase along the Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+### Duration  
+How long the Ability lasts. Duration decreases at [Round Start](#round-start).  
 
-> For example, Cyrick casts [Fortify](#fortify) on himself in round 1 of combat. If he does not gain another boost in his Defense Track by round 4, his Defense Buff begins decaying. On round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to round round 6. At round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.
+### Effect  
+An Ability's specific functions, covering any information that can't be listed in the above fields.  
+
+### Description  
+A basic summation of what the Ability represents and some suggestions on how to work the Ability into your character's kit. While the rules for what Abilities do are set, how it looks when a given character uses them is up to the player or Arbiter.  
 
 ------------
 # Chapter 5: List of Abilities
@@ -546,10 +599,10 @@ Prerequisites: None
 Range: N/A  
 Targets: Self  
 Cost: None  
-Effect: Move 1 Square.  
+Effect: Move 1 Zone.  
 Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character 2 Squares per turn.
+> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character 2 Zones per turn.
 >
 > Also a reminder that movement on a normal grid map does not permit diagonal movement.
 
@@ -561,7 +614,7 @@ Range: Melee
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square at the target and haven't been knocked out, you give that target [Protection](#protection).  
+Effect: As long as you are in the same Zone at the target and haven't been knocked out, you give that target [Protection](#protection).  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
 
 #### Default Strike  
@@ -574,7 +627,7 @@ Cost: None
 Damage: x1 (Physical)  
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
 
-#### Grab  
+#### Clutch  
 Attack  
 Action: Major  
 Prerequisites: None  
@@ -582,12 +635,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None (Upkeep 1 HP)  
 Damage: x0 (Physical)  
-Effect: If this Attack succeeds, you grab your target.  
-While you are grabbing a target, you cannot move. At the beginning of your Turn, make a Physical Offense roll against your target; if this roll fails your target escapes your grasp. You may only grab one creature at a time unless otherwise specified.  
-If you have been grabbed by someone, you cannot move. The person grabbing you can also cover your mouth to silence you if they wish.  
-Description: An untrained attempt to hold on to your target.
-
-> Note that you can release a grabbed target by not paying the Upkeep cost, which immediately allows you to move.
+Effect: If this Attack succeeds, you [Grab](#grab) your target.  
+Description: An untrained attempt to hold on to your target.  
 
 #### Prepare  
 Auxiliary  
@@ -607,9 +656,12 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP or 2 HP (your choice)  
-Effect: Increase the your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
-Alternatively, you may reduce the duration of a [Status Ailment](#status-ailments) by 2 Rounds.  
-Description: Taking a moment to shake off a hindering effect. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, a short counterspell, or something similar.
+Effect: Choose one of the following:
+* Increase your value along a [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
+* Reduce the duration of a [Status Ailment](#status-ailments) affecting you by 2 Rounds.  
+* Regain MP equal to twice your [Hero Tier](#hero-tier).  
+
+Description: Taking a moment to deal with a hindering effect or otherwise . This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
 
 #### Shove  
 Attack  
@@ -619,7 +671,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x0 (Physical)  
-Effect: If this Attack succeeds, move your target one Square.  
+Effect: If this Attack succeeds, move your target one Zone.  
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
 
 #### Struggle  
@@ -630,7 +682,7 @@ Range: Melee
 Targets: 1 enemy who has [Grabbed](#grab) you.  
 Cost: None  
 Damage: 0  
-Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially grab you. If your roll is equal or higher, you break your opponent's grip and are no longer grabbed.  
+Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially Grab you. If your roll is equal or higher, you break your target's grip and are no longer Grabbed by them.  
 
 ## Tier 1
 
@@ -641,7 +693,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP (Upkeep 3 MP)  
-Effect: The target is able to move one Square with no action on their Turn.  
+Effect: The target is able to move one Zone with no action on their Turn.  
 Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
 
 #### Aim  
@@ -662,7 +714,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 3 HP  
 Damage: x1 (Physical)  
-Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square.  
+Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
 
@@ -695,14 +747,16 @@ Description: Preparing for a strong offense. This could be gaining focus or clar
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
-Range: Short  
+Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
 Effect: Choose one of the following:  
-* Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.
+* Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.  
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
 * End a Curse effect on the target.  
-Description: The most basic way to recover from ill effects. This could be magically banishing the curse in question, applying medicine to reverse negative effects, utilizing nanobots to repair the target’s damage, or similar things.
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to use Cleanse twice with one action.  
+Description: The most basic way to recover from ill effects. This could be a general purpose restoration spell, utilizing nanobots to repair the target’s damage, a quick application of medical training, or similar effects.  
 
 #### Daze Strike  
 Attack [Status]  
@@ -729,16 +783,15 @@ Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this 
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
-Attack/Spell [Status]  
+Attack/Spell [Status] [Guardian Strike]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
-Effect: You may used your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
+Effect: You may use your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
-You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
 
 #### Dodge  
@@ -768,11 +821,11 @@ Spell [Elemental] [Careful] [Fire/Ice/Earth/Sky/Light/Dark]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance)  
 Range: Short  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 5 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted Square to be unaffected.
+If you also use your minor action, you may choose one creature in the targeted Zone to be unaffected.
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
@@ -796,7 +849,7 @@ Action: Minor
 Prerequisites: None  
 Range: Short  
 Targets: All allies in Range  
-Cost: 2 MP (Upkeep 2 MP)  
+Cost: 2 MP (Upkeep 1 MP)  
 Effect: All affected allies gain [Elemental Resistance](#step-5-elemental-properties) to the chosen Element.  
 Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
 You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
@@ -884,7 +937,7 @@ Range: Melee
 Targets: 1 ally  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
+Effect: As long as you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
@@ -904,9 +957,9 @@ Auxiliary [Healing]
 Action: Major  
 Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
 Range: Melee  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 5 MP  
-Effect: You and all allies in the same Square regain HP equal to a die roll.  
+Effect: You and all allies in the same Zone regain HP equal to a die roll.  
 Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
@@ -931,7 +984,7 @@ Range: Medium (Careful: Long)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a die roll.  
-If you also use your Minor action, increase the MP cost by 1, then add another die to the amount healed.  
+If you also use your Minor action, increase this Ability's MP cost by 1, increase its range to Long, and add another die to the amount healed.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2 dice of healing normally, or 3 dice of healing with the Careful action. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
@@ -965,7 +1018,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Square.  
+Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
 
@@ -974,7 +1027,7 @@ Spell [Careful]
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic=force)  
 Range: Medium  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1 (Physical)  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
@@ -1000,7 +1053,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 2 MP    
 Damage: x1 (Physical)  
-Effect: You may move one Square before or after you make your Offense roll.  
+Effect: You may move one Zone before or after you make your Offense roll.  
 Description: Moving as you attack. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where a strike is paired with movement.
 
 #### Protector’s Presence  
@@ -1058,19 +1111,8 @@ Damage: x2 (Physical)
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
-#### Remedy  
-Auxiliary  
-Action: Major  
-Prerequisites: None  
-Range: Medium  
-Targets: 1 ally  
-Cost: 2 MP  
-Effect: Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to increase reduce a Status Ailment's duration by 5 round, or reduce two different Status Ailment durations by 3 each. When used this way, this Ability counts as a Tier 2 Ability.  
-Description: A maneuver that removes a lingering difficulty from an ally. This could be a healing spell, a quick repair job on the target's equipment, mundane medical interventions, or similar efforts.
-
 #### Riposte  
-Attack  
+Attack [Guardian Strike]  
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
@@ -1078,7 +1120,6 @@ Targets: 1 enemy
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1 (Physical)  
-Effect: You may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense when using this Ability.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
@@ -1089,22 +1130,21 @@ Prerequisites: None
 Range: N/A  
 Targets: Self  
 Cost: None  
-Effect: Move 2 Squares.  
+Effect: Move 2 Zones.  
 Description: This Ability represents someone having trained and conditioned themselves to be able to move further when they spend greater effort on it.  
 
-> By using Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Squares per round.
+> By using Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Zones per round.
 
 #### Scan  
-Auxiliary [Careful]  
+Auxiliary  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
-Targets: 1 enemy or 1 Square  
-Cost: 1 MP (Careful 0 MP)  
+Targets: 1 enemy or 1 Zone  
+Cost: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
-If you spend your major action while using this Ability, you remove the MP cost entirely.  
-Alternatively, Scan can be used on a Square. Scanning a Square reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them up for combat, which may be interpreted as a hostile action. If you used the Careful action, this check to avoid detection is made with Boon +3.   
+Alternatively, Scan can be used on a Zone. Scanning a Zone reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
+You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
@@ -1151,7 +1191,7 @@ Targets: 1 enemy
 Cost: 6 MP  
 Damage: x2 (Physical)  
 Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
-Special: This Ability has a minimum Range of Medium; targets who are standing 3 Squares or closer are not valid targets for this Ability.  
+Special: This Ability has a minimum Range of Medium; targets who are standing 3 Zones or closer are not valid targets for this Ability.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
 
@@ -1165,7 +1205,7 @@ Cost: 2 HP
 Damage: x2 (Physical)  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
-Description: Striking foes while you have the upper hand in a grappling match. This can be a suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is controlled in a grapple.
+Description: Striking foes while you have the upper hand in a grappling match. This can be a literal suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is in your grasp.  
 
 #### Sweeping Strike  
 Attack  
@@ -1186,7 +1226,7 @@ Range: Melee
 Targets: 2 enemies  
 Cost: 3 MP  
 Damage: x1 (Physical)  
-Effect: You must have [grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the target [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
+Effect: You must have [Grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the targets [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
 #### Vanish  
@@ -1199,7 +1239,7 @@ Cost: 5 MP
 Duration: Until the end of your next action  
 Cooldown: 3 rounds  
 Effect: You are [Obscured](#obscured) for the duration. If you are targeted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
-When you use this Ability, you may also move 1 Square and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what Square you are in, though you remain Obscured to them.  
+When you use this Ability, you may also move 1 Zone and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what Zone you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
 
@@ -1208,10 +1248,10 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Short  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 4 MP  
 Duration: 3 rounds  
-Effect: The targeted Square becomes impossible to see through for the duration. Targets inside the Square are [Blinded](#blind) and [Obscured](#obscured).   
+Effect: The targeted Zone becomes impossible to see through for the duration. Targets inside the Zone are [Blinded](#blind) and [Obscured](#obscured).   
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
 #### Void Lance  
@@ -1244,14 +1284,14 @@ Attack
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Medium  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 4 MP  
 Damage: x1 (Physical)  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
 ## Tier 2  
-Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Level](#level) 6).
+Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Max Potential](#max-potential) 6).
 
 #### Anti-Scan  
 Spell  
@@ -1274,7 +1314,7 @@ Targets: Self
 Cost: 9 MP  
 Cooldown: 3 rounds  
 Effect: Your next Attack ignores [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
-Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, preparing a missile to ricochet, or similar effects.  
+Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, causing a projectile to ricochet, or similar effects.  
 
 #### Bladebreak  
 Attack [Curse]  
@@ -1292,10 +1332,10 @@ Auxiliary
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 10 MP   
 Cooldown: 3 rounds  
-Effect: You move to the targeted Square. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
+Effect: You move to the targeted Zone. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
 
 #### Blood Lance  
@@ -1304,7 +1344,7 @@ Action: Major
 Prerequisites: None  
 Range: Short (or Medium, see Effect)  
 Targets: 1 enemy  
-Cost: 8 HP  (Optional +4 HP, see Effect)
+Cost: 8 HP  (Optional +4 HP, see Effect)  
 Damage: x2 (Physical)  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
 Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
@@ -1314,11 +1354,11 @@ Attack
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 enemy that you have [grabbed](#grab)  
+Targets: 1 enemy that you have [Grabbed](#grab)  
 Cost: 5 HP  
 Damage: x1 (Physical)  
-Effect: If this Ability hits, you and the target enemy move one Square.  
-Description: Forcing a target you have in your grip to move with you. This could be as technical as a joint lock or as simple as bodily lifting your target.
+Effect: If this Ability hits, you and the target enemy move one Zone.  
+Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
 #### Chilling Bolt  
 Spell [Elemental] [Ice]  
@@ -1339,7 +1379,7 @@ Prerequisites: None
 Range: Melee  
 Targets: Self and up to 2 allies  
 Cost: 3 MP  
-Effect: You and target allies move 1 Square. A given character can only move with this Ability once per Turn.  
+Effect: You and target allies move 1 Zone. A given character can only move with this Ability once per Turn.  
 Description: Moving at the same time as your allies. This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short range portal, or similar effects.  
 
 #### Counter Stance  
@@ -1365,7 +1405,7 @@ Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rou
 Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, a gravity ray, just throwing a big rock, or similar effects.
 
 #### Crushing Demand  
-Attack/Spell [Status]  
+Attack/Spell [Status] [Guardian Strike]  
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
@@ -1374,7 +1414,6 @@ Cost: None
 Damage: x1 (Physical)  
 Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
-You may choose to use your [Defense Bonus](#defense-bonus) instead of your Offense for this Ability.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
@@ -1401,16 +1440,6 @@ Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)
 Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
-
-#### Evacuation  
-Auxiliary  
-Action: Major  
-Prerequisites: None  
-Range: Short  
-Targets: One other ally in your Square, and an adjacent Square  
-Cost: 5 MP
-Effect: You and the targeted ally move to the selected Square. You and the targeted ally must be able to move normally to use this Ability.  
-Description: Conveying an ally away from danger. This can be lending a shoulder to help them move, physically picking them up, activating a short range teleport, opening a small pair of connected portals, and other similar means of moving allies.
 
 #### Friendly Fire  
 Auxiliary  
@@ -1442,7 +1471,7 @@ Targets: 1 Ally
 Trigger: Target ally takes any damage  
 Cost: None  
 Duration: 1 round    
-Effect: You move to the same Square as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
+Effect: You move to the same Zone as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Storm  
@@ -1450,11 +1479,11 @@ Spell [Careful]
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic-force)  
 Range: Medium  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 10 MP (Upkeep 5 MP)  
 Damage: x1 (Physical)  
-Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Square. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
-You may have up to two active Kinetic Storms at a time. They may not target the same Square.  
+Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
+You may have up to two active Kinetic Storms at a time. They may not target the same Zone.  
 Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift, or similar ways of dealing damage in an area.
 
 #### Lean In  
@@ -1473,9 +1502,9 @@ Auxiliary
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 Square  
-Cost: 8 MP (Upkeep 1 MP)  
-Effect: While standing in the affected Square, you (and only you) increase your Offense or Defense stats by an amount equal to your [Hero Tier](#hero-tier), chosen when you first cast this Ability.  
+Targets: 1 Zone  
+Cost: 10 MP (Upkeep 2 MP)  
+Effect: While standing in the affected Zone, you (and only you) increase your Offense or Defense stats by 1, chosen when you first cast this Ability.  
 You cannot cast Leyline again while a previous Leyline you cast is still active.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
@@ -1510,7 +1539,7 @@ Range: Short
 Targets: 1 ally  
 Cost: 3 MP  
 Duration: 1 round  
-Effect: You move to the target ally's Square. As long as you are in the same Square as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
+Effect: You move to the target ally's Zone. As long as you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
 #### Pickup  
@@ -1522,7 +1551,7 @@ Targets: One [Unconscious](#unconscious) Ally
 Cost: 15 MP  
 Cooldown: 10 rounds  
 Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
-Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target an adrenaline syringe to get the back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
+Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target with an adrenaline syringe to get them back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
 
 #### Pin Down  
 Attack [Status]  
@@ -1553,7 +1582,7 @@ Spell [Careful]
 Action: Major  
 Prerequisites: [Psychic Lance](#psychic-lance)  
 Range: Medium  
-Targets: 1 Square  
+Targets: 1 Zone  
 Cost: 10 MP  
 Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP. If you use your Minor Action while using this Ability, you can exclude one target in the area.  
@@ -1633,7 +1662,7 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 2 MP  
-Effect: Any Ability you use in the same Turn as Retribution that requires an Offense roll can instead be made with Physical [Defense Bonus](#defense-bonus) if it is an Attack, or Mental Defense Bonus if it is a Spell.  
+Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-strike)  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Searing Bolt  
@@ -1689,10 +1718,10 @@ Prerequisites: [Run](#run)
 Range: N/A  
 Targets: Self  
 Cost: 6 HP  
-Effect: Move 2 Squares.  
+Effect: Move 2 Zones.  
 Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
 
-> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Run can move 4 Squares per round, but not forever.  
+> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Run can move 4 Zones per round, but not forever.  
 
 #### Subversive Scan  
 Spell [Curse]  
@@ -1736,7 +1765,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP  
-Effect: You move to the target’s Square. You must be able to move normally to use this Ability.  
+Effect: You move to the target’s Zone. You must be able to move normally to use this Ability.  
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
 #### Umbral Bolt  
@@ -1748,7 +1777,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x2 (Dark)  
 Duration: 2 round  
-Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.
+Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.  
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, speaking a curse that drains a foe's resolve, or similar effects.
 
 ------------
@@ -1771,7 +1800,7 @@ Each Skill has two associated Attributes. All skills of that type add those two 
 
 ## Skill Points  
 You can spend Skill Points on each skill to raise its Base Bonus by 1. You start the game with 20 Skill Points to spend, and can purchase 5 Skill Points for 1 XP.  
-The maximum number of Skill Points that can be invested into any one Skill is equal to your [Level](#level) + 3.  
+The maximum number of Skill Points that can be invested into any one Skill is equal to your [Max Potential](#max-potential) + 3.  
 
 ### Helping Others
 In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
@@ -1790,8 +1819,18 @@ Here are a few examples of modifications you can make. You and the Arbiter are e
 | Look *extremely* cool   | +7              |
 
 > Some examples:  
-> Balam is climbing a rope ladder in a storm. The Athletics/Acrobatics target is 15. He wants to do it extra fast, so the Arbiter lets him increase that to 18.    
-> Dr. Skren is working on a cybernetic arm for a friend. Normally this tech requires a Science or Tech check of 20, but she wants this to be extra powerful and cranks that target up to 25. If it works she gets a hell of an arm, but on failure the materials and time are wasted.
+> Balam is climbing a rope ladder in a storm. The Athletics/Acrobatics target is 15. He wants to do it extra fast, so the Arbiter lets him increase that to 18.  
+> Dr. Skren is working on a cybernetic arm for a friend. Normally this tech requires a Science or Tech check of 20, but she wants this to be extra powerful and cranks that target up to 25. If it works she gets a hell of an arm, but on failure the materials and time are wasted.  
+
+## Competitive Checks  
+```
+TODO work this section into the chapter better; high priority: currently copy/
+pasted from its previous place in chapter 1.
+```
+For a tie during opposed Skill checks (such as Empathy versus Deception or Awareness versus Stealth), both characters re-roll until there is no tie. Any Boon or Bane on the original rolls still apply when re-rolling due to a tie.  
+> For example, Boris is trying to lie to a guard who (correctly) suspects that he broke into a noble's house two nights ago. Boris has the Poker Face utility, allowing him to use Composure instead of Deception with Boon +4 on the check, while the guard must roll Empathy to catch him in the lie. Boris's Composure modifier is +7 and the guard's Empathy is +3.  
+> For the first roll, Boris gets a 1 and a 6. He re-rolls that 1, replacing it with a 5. His total is(5 + 6 + 7) 18. Meanwhile guard rolls a 6 and a 9, for a result of (6 + 9 + 3) 18. This is a tie, so they must re-roll.  
+> The second time, Boris rolls a 2 and an 8. This is a new attempt, so Boon allows him to re-roll that 2. The re-roll gives an 8, for a total of (8 + 8 + 7) 23. The guard re-rolls and gets a 4 and a 6 for a total of (4 + 6 + 3) 13. Boris succeeds in this contest, successfully denying the guard the information they're after.  
 
 ## Skill List
 
@@ -1896,7 +1935,7 @@ Operating all sorts of computers, general technical savviness, hacking, and the 
 ------------
 # Chapter 7: Lessons
 Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
-Lessons cost 5 XP unless an exception is listed.
+Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
 
 #### A Curse Most Foul  
 When using a Curse Ability, you may choose one or both of the following benefits.
@@ -1918,7 +1957,7 @@ You may take this Lesson once per Hero Tier, choosing a different Ability each t
 When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may use your Physical [Defense Bonus](#defense-bonus) in place of your Physical Offense, or Mental Defense Bonus in place of your Mental Offense. If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked, and your Defense Bonus against foes you have.  
+When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may apply [Guardian Strike](#guardian-strike) If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
 
 #### Anger  
 Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
@@ -1928,7 +1967,8 @@ Prerequisite: [Brace](#brace)
 While [rooted](#root), you may reduce the MP cost of any Spells you cast by their [Ability Tier](#ability-tiers) (to a minimum of 0).  
 
 #### Combo Striker
-Every time you successfully hit an opponent with a Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target, you lose all Combo points.
+Every time you successfully hit an opponent with a single target Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target during your Turn, you lose all Combo points.  
+Abilities that can optionally target multiple foes (such as [Double Strike](#double-strike)) can be used with Combo Striker, but only if a single foe is chosen for all effects.  
 
 #### Curse Resistant  
 Curse Abilities that target you do so at Bane -2.
@@ -1942,13 +1982,13 @@ Every instance of this Lesson costs 3 XP.
 Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your Mental [Defense Bonus](#defense-bonus).
+When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your [Mental Defense](#mental-defense) - 10.
 
 #### Hit and Run  
-Once per Turn when you use a melee range Attack, you can move 1 Square as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
+Once per Turn when you use a melee range Attack, you can move 1 Zone as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
 #### Melee Mage  
-When using a Spell that normally has a range of Medium or better against a foe who is within melee range of you, you may reduce the MP cost by its [Ability Tier](#ability-tiers) (to a minimum of 0).  
+When using a Spell that normally has a range of Medium or better against a foe who is within Melee range of you, you may reduce the MP cost by its [Ability Tier](#ability-tiers) (to a minimum of 0).  
 
 #### Reliable Healing  
 When casting a Healing Ability, you may roll an additional die. Remove the lowest die from your total result.
@@ -1978,7 +2018,7 @@ Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. I
 If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
 
 #### Oppressor  
-When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Square as them. The effect lasts one round per [Hero Tier](#hero-tier).
+When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them. The effect lasts one round per [Hero Tier](#hero-tier).
 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half. 
@@ -1987,27 +2027,30 @@ Once per round, increase any HP restoration you receive by half.
 When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
 * You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
 * Your target is [Rooted](#root) until your next Turn.  
+
 Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
 
 #### Resilient Protector  
-While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by your [Hero Tier](#hero-tier). This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
+While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
 
 #### Sadism  
 When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
 
 #### Spell Sniper  
 Prerequisite: [Brace](#brace)  
-While [Rooted](#root), the range of any spell you cast increases by one Square.
+While [Rooted](#root), the range of any spell you cast increases by one Zone.
 
 #### Spell Strike  
 If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
 If you successfully strike with a Spell Ability with your Major Action, you may use a Tier 1 Attack Ability that normally requires a Major Action as a Minor Action.
 
 #### Superior Scanner  
-When you use a Scan Ability, choose one of the following benefits.
-* You automatically scan Squares instead of individuals, simultaneously learning about all creatures in that Square as well as checking for invisible creatures and objects in that Square.
-* You learn the target’s Physical and Mental Attack in addition to the usual stats.
-* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.
+When you use a Scan Ability, choose one of the following benefits.  
+* You automatically scan Zones instead of individuals, simultaneously learning about all creatures in that Zone as well as checking for invisible creatures and objects in that Zone.  
+* You learn the target’s Physical and Mental Attack in addition to the usual stats.  
+* You gain Boon +4 on the Stealth or Deception roll to conceal your use of the Scan Ability from your target.  
+* You learn the target's Abilities.  
+* You [Mark](#marked) your target.  
 
 #### Sustaining Upkeep  
 When you pay an Upkeep cost in MP, you heal for that much HP.
@@ -2018,7 +2061,7 @@ Broadly, Utilities are things your character can do that are not related to comb
  
 ## Skill-based Utilities
 > Note: the skill bonuses on these skill-based Utilities are NOT [Skill Points](#skill-points) and are added ON TOP OF the character's Base Skill Bonus.  
-> For example, Elaahni wants to maximize her [Empathy](#empathy) checks. She is [Level](#level) 6, and has Heart 2 and Soul -1. She has purchased enough Skill Points to max her Base Skill Bonus at 6. 6 + 2 - 1 = 7. She also purchases the [Natural Intuition](#natural-intuition) and [Whispered Wisdom](#whispered-wisdom) Utilities, each of which increase her Empathy modifier by 1 more each. This gives her a total Empathy bonus of 9.
+> For example, Elaahni wants to maximize her [Empathy](#empathy) checks. She is [Max Potential](#max-potential) 6, and has Heart 2 and Soul -1. She has purchased enough Skill Points to max her Base Skill Bonus at 6. 6 + 2 - 1 = 7. She also purchases the [Natural Intuition](#natural-intuition) and [Whispered Wisdom](#whispered-wisdom) Utilities, each of which increase her Empathy modifier by 1 more each. This gives her a total Empathy bonus of 9.
 
 #### 1337 H4xx0r  
 Increase your [Tech](#tech) and [Sabotage](#sabotage) modifiers by 1.  
@@ -2027,11 +2070,31 @@ In addition, when you break into a software system with your Tech skill, you may
 * Framing: You can plant files into the specified system.  
 * Crashing: You can cause the system to crash. You can delay this crash for a specified amount of time, or set up the crash to occur under specific circumstances. Examples could be crashing when a given user logs in, upon visiting a given website, or when you set off a remote signal.  
 * Trolling: You can cause the system to play loud music or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
-Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.
+Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.  
 
 #### Asceticism  
 Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.  
-In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.
+In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.  
+
+#### Credentialed Academic  
+Increase your [Endure](#endure) and your choice of [History](#history), [Lore](#lore), [Medicine](#medicine), [Nature](#nature), [Science](#science), or [Tech](#tech) modifiers by 1.  
+In addition, you have studied a topic related to the chosen field extensively. Your modifier in that field increases by an additional 3. You also have documents affirming your expertise. Finally, you have access to an academic venue willing to re-issue said documents if they are lost or destroyed and connections with other academics in that venue. Discuss the implications of this Utility with your Arbiter when you take it so both of you are able to apply this should it come up in your game.  
+
+| Chosen Skill | Example Specializations                                                   |  
+|--------------|---------------------------------------------------------------------------|  
+| History      | A country, organization, culture, language, or time period                |  
+| Lore         | A religion, philosophy, folklore, or esoteric system                      |  
+| Medicine     | Anatomy, disease, a field of treatment, psychology, diagnostics           |  
+| Nature       | Botany, zoology, veterinarian training, agriculture, a specific ecosystem |  
+| Science      | Astronomy, physics, geology, chemistry, biology                           |  
+| Tech         | Algorithms, computer science, information security, mathematics           |  
+
+> This Utility is intended for characters who have legitimately done the research and earned these credentials. Characters who have forged their documents or who got their academic positions through nepotism or skulduggery aren't covered here.  
+> I promise you: everyone who has made it through academia understands the Endure bonus.  
+
+#### Dangerous Aura  
+Increase your [Diplomacy](#diplomacy) and [Intimidation](#intimidation) modifiers by 1.  
+In addition, you have a presence or air about you that leaves no doubt about your familiarity with violence. You inspire fear in most, gaining Boon +3 on Intimidation checks made against NPCs with no combat training. Meanwhile you inspire respect in fellow fighters, gaining Boon +3 on Diplomacy checks made with them.  
 
 #### Eidetic Memory
 Increase your [History](#history) and [Lore](#lore) modifiers by 1.  
@@ -2090,18 +2153,21 @@ In addition, you may use Composure to completely mask your emotional state, and 
 #### Specialist Artisan  
 Increase your [Construct](#construct) and [Craft](#craft) modifiers by 1.  
 In addition, choose a specialized type of crafting to specialize in. You produce items from within that specialization at double the normal pace and can presume you have materials and tools necessary to do basic repairs on items from that specialization at all times and/or are able to recycle existing items to gain those materials. You have Boon +2 on all Construct or Craft checks involving your specialization.  
-For Construct, specializations could include arms, armor, masonry, carpentry, mechanics, heavy machinery, or similar specializations.  
-For Craft, specializations could include clothing, jewelry, leather working, clockwork, leather working, and the like.
+For Construct, specializations could include metal working, masonry, carpentry, heavy machinery, or similar specializations.  
+For Craft, specializations could include tailoring, jewel crafting, leather working, clockwork and tinkering, leather working, and the like.
 
 #### Stationary Stealth  
 Increase your [Endure](#endure) and [Stealth](#stealth) modifiers by 1.  
-In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different squares; small shifts in position or posture do not remove this benefit.
+In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different Zones; small shifts in position or posture do not remove this benefit.
 
 #### Tracking Bug  
-Increase your [Craft](#craft) and [Survival](#survival) modifiers by 1.  
-In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival check against your opponent's Awareness or Stealth check (target's choice). If you succeed, you plant your Bug on the target and can sense what direction and how far away the target is. At Hero Tier 1, this Bug lasts 1 day. This duration doubles every time you increase in Hero Tier (2 days, 4 days, 8 days, ...).  
-A target can remove your Bug by attempting an Investigation check to find it with a target equal to 10 + your Survival modifier. The first attempt to remove your Bug takes 1 minute. If this fails, the second attempts takes 5 minutes. Each attempt after that requires twice as long as the previous check (10 minutes, 20 minutes, 40 minutes, ...). On success, the Bug is found and the target may remove or destroy it.  
-This could represent a tracking spell, a homing beacon, a literal insect that helps you track the target, or similar means of sensing a target.
+Increase your [Sabotage](#sabotage) and [Survival](#survival) modifiers by 1.  
+In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival or Sabotage check (your choice) against your opponent's [Awareness](#awareness) or [Stealth](#stealth) check (target's choice). If you fail on the initial attempt, the target notices your attempt to track them. They may choose to stop you from planting the Bug and confront you immediately, or to leave it in place.  
+If you succeed, you plant your Bug on the target. While the Bug is active, you can sense the distance and direction of the Bug. At [Hero Tier](#hero-tier) 1, the Bug lasts 1 day. This duration doubles every time you increase in Hero Tier (2 days, 4 days, 8 days, ...).  
+If your target fails to notice your initial attempt to Bug them, the target (or one of their allies) might find it later when changing clothes and/or looking through their things; when this happen, the Arbiter should either call for an Awareness or [Investigation](#investigation) check, or roll one for the searching character privately. The target for this check is 10 + your Survival or Sabotage modifier. For both the check and the target, use whichever Skill the participants are better at. On success, the target becomes aware of your Bug. On a failure, the Bug remains hidden. At least four hours must pass before the check can be attempted again.  
+Every time you act against the target or give a sign that you're following them, reduce the target to find the Bug by 1. This includes actions like ambushing them, leaving traps for them, failing to cover your tracks when trying to cut them off, or other similar actions at the Arbiter's discretion.  
+Once your Bug has been discovered, it can be easily destroyed. A discovered Bug might also be used to lure the individual that planted it into a trap.  
+This could represent a tracking spell, a hidden homing beacon, a literal insect leaving a pheromone trail, or similar means of  a target from a distance.  
 
 #### Trackless Traversal  
 Increase your [Stealth](#stealth) and [Survival](#survival) modifiers by 1.  
@@ -2139,7 +2205,7 @@ In addition, you are able to reduce the damage you take when falling by half.
 
 #### Linguist  
 You learn a language. This can represent doing scholarship and lessons just as well as a background living in a multilingual culture.  
-You may take this Utility twice at first [Level](#level), plus once more per Level.  
+You may take this Utility twice at first [Max Potential](#max-potential), plus once more per Max Potential.  
 
 #### Lip reading  
 You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
@@ -2177,7 +2243,7 @@ You can learn more from corpses; corpses you speak with in this way now remember
 ------------
 
 # Chapter 9: Talents
-A character gains a Talent for free at [Level](#level) 1, and again when gaining a Level divisible by 5 (5, 10, 15, ...).
+A character gains a Talent for free at [Max Potential](#max-potential) 1, and again when gaining a Max Potential divisible by 5 (5, 10, 15, ...).
 
 #### Accelerated Assistance
 When you use an Augment ability, you can also do one of the following:  
@@ -2215,17 +2281,17 @@ Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the followi
   * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in Hero Tier, the Degeneration added per hit increases by 1 round, and the maximum duration increases by 2 rounds.  
   * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully scoring a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Square.
+  * Earth - Successfully scoring a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Zone.
   * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
   * Dark - Successfully dealing Dark damage restores you for half the damage done. If you do HP damage you heal that amount, and if you do MP damage you restore that much MP.   
 Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
 
 #### Everlasting  
-At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one level of Vitality without paying the XP cost.
+At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one point of Vitality without paying the XP cost.
 
 If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
 
-#### Flight  
+#### Flight Talent  
 Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
 This Talent makes the [Hover](#hover) Utility redundant. If you previously took the Hover Utility, you lose it but regain the XP spent.
 
@@ -2239,8 +2305,9 @@ You are an expert healer. When you use an Ability with the [Healing] tag, you ma
 You hit so hard that you can knock your foes around without actively trying to. When you make an Attack or Spell and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
 * Knock your target(s) [Prone](#prone).  
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).  
-* Move your target(s) one space. In the case of multiple targets, you must move them all in the same direction.  
-You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Square) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
+* Move your target(s) one Zone. In the case of multiple targets, you must move them all in the same direction.  
+
+You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Zone) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
 This Talent also reduces the effect of the [Size](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#size-x) quality on enemies by your Hero Tier. This is a passive effect that applies to all Attacks and Spells, not just Critical Hits.  
 
 #### Intelligent Avoidance  
@@ -2248,9 +2315,9 @@ You’ve mastered how to avoid attacks by predicting their path. You may use you
 
 #### Lucky
 You're just lucky sometimes. 
-You may reroll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your rerolls refresh after you spend six hours not using any. You still cannot reroll dice that have already been rerolled, either through this Talent or through Boon/Bane.  
-When you roll [Matches](#matches), you may gain one additional dice reroll.  
-When you reroll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
+You may re-roll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your re-rolls refresh after you spend six hours not using any. You still cannot re-roll dice that have already been re-rolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you may gain one additional dice re-roll.  
+When you re-roll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
 
 #### Mana Fountain
 You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
@@ -2267,7 +2334,7 @@ You can draw magic power from your physical vitality. You may use your Toughness
 #### Perfect Protector  
 At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
 * Gain [Taunt](#taunt).  
-* Use [Cover](#cover) on one Ally in your Square.  
+* Use [Cover](#cover) on one Ally in your Zone.  
 * Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned the Demand Ability.)
 
 #### Precise Evasion  
@@ -2283,40 +2350,50 @@ You make your spells more deadly by striking with superior control and aim. You 
 You can use your physical sturdiness to protect yourself against mental forces. You may use your Toughness in place of Heart to determine your Mental Defense.
 
 #### Unyielding Confidence  
-You can keep yourself going with sheer willpower. You may use your Heart in place of your Toughness to determine your HP.  
+You can keep yourself going with sheer willpower. You may use your Heart in place of Toughness to determine your HP.  
 
 ------------
-# Chapter 10: Combat
-Combat is frequently part of an exciting story. While not every game needs combat, many stories eventually lead to a conflict that cannot be solved peacefully. This chapter presents rules for handling said conflicts.
+# Chapter 10: Combat  
+Combat is frequently part of an exciting story. While not every story needs combat, often conflict escalates until it cannot be solved peacefully. This chapter presents rules for handling fights.  
 
-## Surprise/Ambush
-The Arbiter determines who might be surprised in a given scenario. It often involves Awareness checks against Stealth checks, but different situations may call for different rolls. If a creature is surprised, it doesn’t act in the first round of combat and is treated as [Flat Footed](#flat-footed).
+## Surprise/Ambush  
+The Arbiter determines who might be surprised in a given scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
 
-## Time in Combat
-Actions in combat are organized into Rounds and Turns. Each set of actions a character takes constitutes that character’s Turn. A set of everyone taking their Turn is called a Round and represents approximately 10 seconds in game. Each Round is broken down into three phases.
+## Time in Combat  
+Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn.  
 
-### Round Start
-At the start of the Round, everyone pays the Upkeep of any Abilities that have one, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effect with limited duration.
+Each Round is broken down into three phases.
 
-### Initiative Phase
-Most combat takes place in the Initiative Phase.  
-Before combat can begin, everyone needs to know the turn order. This is determined by the Initiative roll. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
-If there’s a tie, the creature with the higher Initiative modifier goes first. If that’s still a tie, then the two creatures make an opposed tiebreaker roll.  
-You may choose to delay your Turn if you like. When your Turn comes, you simply declare who you want your Turn to come after instead. On the next Round, your initiative order returns to where it originally was.
+### Round Start  
+At the start of every Round, everyone pays the Upkeep of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
 
-### Round End
-At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.
+> It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
-### Major/Minor Actions
-When your Turn comes, you get two Actions to work with: one Major and one Minor. Anything that would affect the state of the fight will fall into one of those two categories, and Abilities list in their descriptions whether they are a Major or Minor Action. Things such as speaking or movements that don’t really change the state of the fight do not require an Action. You may forgo any combination of your Actions if you don’t want to take them on your Turn; you’re not required to use them.  
+### Turn Taking  
+Each Round, every combatant takes a turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
-### Counter Action  
-Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something on another combatant's Turn. Abilities that requires a Counter Action will list a condition that must be fulfilled before the action can be used.  
-Refer to [Chapter 5](#chapter-5-list-of-abilities), and specifically the Abilities [Move](#move) and [Default Strike](#default-strike) for basic rules on how to move and attack.  
+#### Your Turn  
+When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
 
-> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.
+#### Counters  
+Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something that interrupts or responds to another combatant's Turn. Abilities that requires a Counter Action will list a trigger condition that must be fulfilled before the action can be used.  
 
-## Impact 
+### Round End  
+At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.  
+
+> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
+
+```
+TODO better work this line into the chapter; high priority, currently copy/
+pasted from a different part of the book.
+```  
+In combat, defenders win ties. For example, if using an attack results in the Offense matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
+```  
+TODO refactor into better "How to do damage" section, figure out how to work  
+Buff Tracks into this chapter better; high priority  
+```  
+
+## Impact  
 To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s damage multiplier.
 
 > Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
@@ -2330,40 +2407,70 @@ Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or h
 ### Matches
 Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
 
+## Buff Tracks  
+These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.  
+
+### The Offensive Track  
+* **Level 3** - You make Offense rolls at Boon +4, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
+* **Level 2** - You make Offense rolls at Boon +3.  
+* **Level 1** - You make Offense rolls at Boon +2.  
+* **Level 0** - The default state, no effect.  
+* **Level -1** - You make Offense rolls at Bane -2.  
+* **Level -2** - You make Offense rolls at Bane -3.  
+* **Level -3** - You make Offense rolls at Bane -4, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
+
+### The Defensive Track
+* **Level 3** - Offense rolls made against you have Bane -4, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
+* **Level 2** - Offense rolls made against you have Bane -3.  
+* **Level 1** - Offense rolls made against you have Bane -2.  
+* **Level 0** - The default state, no effect.  
+* **Level -1** - Offense rolls against you have Boon +2.  
+* **Level -2** - Offense rolls against you have Boon +3.  
+* **Level -3** - Offense rolls against you have Boon +4, and you cannot gain Shield.  
+
+#### Buff Track Duration  
+Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
+Positive values begin decaying after 3 rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+
+> For example, Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.  
+
 ## Positioning  
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
 
-### Squares  
-Combat is broken up into Squares. A combat Square should generally be somewhere between 15-20 feet in length on each side, square-ish in shape, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Squares. An open field would just be an effectively infinite number of Squares that characters can move through freely. Multiple creatures can occupy a single Square, and everyone in a Square can reach each other.  
-Moving between Squares is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
+### Zones  
+Combat is broken up into Zones. A combat Zone should generally be somewhere between 15-20 feet in length on each side, whatever shape is appropriate for a given scene, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Zones. An open field would just be an effectively infinite number of Zones that characters can move through freely. Multiple creatures can occupy a single Zone, and everyone in a Zone can reach each other.  
+Moving between Zones is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
 
 ### Advanced Positioning  
 Rules for more advanced, granular, and tactical movement. These rules will not be used every combat; many combat scenarios don't really need this level of precision. The Arbiter should specifically point out when they're running a combat with these rules.  
 
-#### Subsquares  
-Subsquares are a way of dividing up a normal Square in situations where precise positioning is necessary. Each Subsquare is a portion of a larger Square.  
-When you first enter a Square that contain Subsquares, you choose which Subsquare you land on. Any time after, you can change which Subsquare you occupy by doing anything that would allow you to move.  
-Unlike regular Squares, Subsquares can only have one character in them at a time. Allies do not block movement for each other, but one cannot walk through Subsquares that contain an enemy.  
-You do not need to be in the same Subsquare as an ally to affect them with your Melee Range Abilities (such as Guard or Healing Touch). Using these Abilities on an ally causes you to move adjacent to them automatically. You cannot do this if you do not have line of sight to target ally.  
-Subsquares generally come up when line of sight or cover becomes a factor in a fight. Each situation with Subsquares includes rules on how line of sight or effect is determined in their descriptions.  
-Characters can move between top level Squares as normal, regardless of which Subsquare you start from.  
-Some examples of Subsquare use:  
+#### Subzones  
+Subzones are a way of dividing up a normal Zone in situations where precise positioning is necessary. Each Subzone is a portion of a larger Zone.  
+When you first enter a Zone that contain Subzone, you choose which Subzone you land on. Any time after, you can change which Subzone you occupy by doing anything that would allow you to move.  
+Unlike regular Zones, Subzones can only have one character in them at a time. Allies do not block movement for each other, but one cannot walk through Subzones that contain an enemy.  
+You do not need to be in the same Subzone as an ally to affect them with your Melee Range Abilities (such as Guard or Healing Touch). Using these Abilities on an ally causes you to move adjacent to them automatically. You cannot do this if you do not have line of sight to target ally.  
+Subzones generally come up when line of sight or cover becomes a factor in a fight. Each situation with Subzones includes rules on how line of sight or effect is determined in their descriptions.  
+Characters can move between top level Zones as normal, regardless of which Subzone you start from.  
+Some examples of Subzone use:  
 
 ##### Central column  
-A Square that includes a column, pillar, or other obstruction at its center. The containing Square is divided up into 9 Subsquares. The central Subsquare is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight, just count the number of Subsquares away your target is. Count orthogonality; i.e. without moving diagonally. Any target more than two Subsquares away is blocked; the pillar is between you and your target.
+A Zone that includes a column, pillar, or other obstruction at its center. The containing Zone is divided up into 9 Subzones. The central Subzone is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight, just count the number of Subzones away your target is. Count orthogonality; i.e. without moving diagonally. Any target more than two Subzones away is blocked; the pillar is between you and your target.
 
-//TODO: Visual aid, more examples
+```  
+TODO: Visual aid, more examples; low priority: I want to get closer to done  
+with everything else before getting into fiddly portions like this.  
+```  
 
 ## Chasing rules
 Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
 
 ### Position During Chases
-During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would normally cause you to move a Square instead allows you to instead increase (or decrease) your Position by 1.
+During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would normally cause you to move a Zone instead allows you to instead increase (or decrease) your Position by 1.
 
 ### Endurance
 A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
 At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an [Endure](#endure) check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
-If your Endurance score goes negative, you lose that much HP every time you move a Square of your own volition during the chase.
+If your Endurance score goes negative, you lose that much HP every time you move a Zone of your own volition during the chase.
 
 ### Actions During Chases
 There are a few things one can do that is specific to chase scenes to consider.
@@ -2374,8 +2481,8 @@ All Abilities available to you during combat are also available during chases. I
 #### Rush
 Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
 
-#### Recover
-Recover is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on a the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.
+#### Rest
+Rest is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.  
 
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
@@ -2441,7 +2548,7 @@ When you sustain an injury in combat, roll a die and refer to this table for wha
 As always, these methods of describing an injury are just suggestions. Players and Arbiters are free to come up with their own.
 
 ### Getting Injured
-There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to reroll until something appropriate comes up.)
+There are many dangers in an adventure that can result in an injury. The most obvious is hitting zero HP in combat, but this isn’t the only way. Here is a quick list of other ways to be injured. (Note that not all injury types are suitable in all circumstances. The Arbiter makes this choice and adjusts injury rolls appropriately. For example, if the dice roll a Heart injury from falling, the Arbiter may choose to re-roll until something appropriate comes up.)
 * Falling. Falling from a great height will typically result in injuries. For every 30 feet one falls, one will sustain an additional injury. Characters can make an Acrobatics check to try and reduce the damage from falling, reducing the height fallen by half the check’s result. Characters with [Flight](#flight) generally don’t need to worry about falling damage. Falling can cause Strength, Finesse, or Toughness injuries.
 * Poison/Venom. The various creatures of the world may secrete harmful substances as they attack you. These will be listed in each creature’s information. A bite from a giant spider may cause a Finesse injury, while breathing in the spores of a territorial fungus might cause a Mind injury. These injuries can often be resisted with Endure checks.
 * Traps. Slides into a spiked floor, arrows launched when a pressure plate is depressed, a bladed pendulum set to swing by a trip wire--these sorts of devious perils may cause HP damage, but they may instead leave lingering injuries, at the Arbiter's preference. They can typically be avoided with Awareness, Athletics, and/or Acrobatics checks. They can be disabled entirely with Sabotage checks.
@@ -2458,112 +2565,131 @@ There are several ways to approach recovery of HP, MP, and injuries. Here are so
 
 * *Rapid, heroic pulp*.  The heroes bounce back from activity quickly, showing boundless energy. In this case, heroes regain all HP/MP after resting for 5 minutes. Recovering from an injury requires resting for an hour, which heals one injury of the player’s choice. 
    * This recovery method emphasizes action, enables risk taking, and encourages blowing everything quickly. This will result in faster battles since everyone is going full tilt at all times. Whatever happens will happen fast. 
-* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this method, resting for an hour after a fight regenerates HP equal to the character's Toughness + Character Level and MP equal to character's Heart + Character Level (minimum 1 HP/MP). Resting for more than an hour provides no further benefit (unless that rest lasts 8 hours). Resting for 8 hours regenerates all HP and MP and heals one Injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 15 + twice the number of injuries the target has received. On a success, the target heals one additional injury during their rest.  
+* *Middle ground*. The heroes typically need a break after a dangerous encounter, and a long day of peril will wear them down. In this method, resting for an hour after a fight regenerates HP equal to the character's Toughness + [Max Potential](#max-potential) and MP equal to character's Heart + Max Potential (minimum 1 HP/MP). Resting for more than an hour provides no further benefit (unless that rest lasts 8 hours). Resting for 8 hours regenerates all HP and MP and heals one Injury. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 15 + twice the number of injuries the target has received. On a success, the target heals one additional injury during their rest.  
    * This recovery system is a compromise, encouraging players not to blow everything immediately, but still potentially rewards explosive action and risk taking when appropriate.  
-* *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this format, resting for eight hours regenerates HP equal to your Toughness + Character [Level](#level) and MP equal to your Heart + Character level. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
+* *Survival*. Damage lingers. Injuries will pile up. MP are precious. In this format, resting for eight hours regenerates HP equal to your Toughness + Max Potential and MP equal to your Heart + Max Potential. Healing from an injury requires two full days of bed rest. If the character is tended to by someone during this time, the tender may attempt a Medicine check, difficulty 10 + the number of injuries the target has received. On a success, you heal an injury every day instead of every two days. 
    * In this format, you must track resources carefully and spend them dearly. Players are likely encouraged to avoid combat when possible and play extremely frugally when it does happen.
 
 ## Death
 There is a point past which a character’s body can no longer endure injury, and they perish. For the enemies, this threshold should be quite low. Expendable sorts who play no major role in the story should likely just die immediately when their HP are spent. Plot-centric characters may have a higher threshold, three to five. The death of a player character has much larger implications on the game and should be considered more carefully. My recommendation is to declare a character with ten injuries dead.  
 
 ### Resurrection
-That is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.
+Whether characters can come back from the dead is up to the Arbiter and should suit the setting. Allowing resurrection invites some serious questions. How common is it? What does it require? What stops antagonists from being resurrected after the heroes are done with them? The handbook is not going to set down hard rules for resurrecting dead player characters, because it should be custom to each setting. It could be a matter of a resurrection spell, regeneration through a clone, returning as some brand of undead, or the like.  
+It’s worth noting that players are NOT necessarily entitled to this information. It’s up to the Arbiter.  
 
-## Status Ailments
-Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Remedy](#remedy) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.
+## Status Ailments  
+Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Cleanse](#cleanse) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.  
 
-> If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.
+> I.E. If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.  
 
-#### Afraid   
+### Afraid  
 You are in the grip of a deep terror. This Ailment comes with an entity that you are Afraid of. At the start of your Turn, you *must* use your [Minor Action](#minor-action) to move away from whatever you're Afraid of. If you are unable to do so, you instead lose your Minor Action entirely. Offensive actions against you have Boon +2.  
 
-#### Blind  
-You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.
+### Blind  
+You cannot see. If you attempt to strike a target that you can hear or whose location you know without need for sight, you only roll a single die for the attack. You cannot effectively defend yourself while blinded as well, so attacks against you gain Boon +6.  
 
-#### Chill X  
-Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.
+### Chill X  
+Partially frozen or dealing with a lingering cold. This reduces your Physical Defense by X for its duration.  
 
-#### Crush X
-Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.
+### Crush X  
+Crushed by stones, blinded by sand, restrained by vines, or other similar means of hindering foes with the earth. This reduces your Physical Offense by X for its duration.  
 
-#### Daze  
-Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).
+### Daze  
+Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Counter Action](counter-action).  
 
-#### Degeneration  
+### Degeneration  
 You are afflicted with a condition that causes you to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
 
-> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains an attack that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.
+> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains a hit that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.  
 
-#### Enervate  
-Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.
+### Enervate  
+Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.  
 
-#### Provoke
+### Fatigue  
+Tired in a way that interferes with your defenses. All damage multipliers against Fatigued characters are increased by 1.  
+
+> This ailment can also be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time for the remainder of the fight. In this circumstance, treat Fatigue as a [Disadvantage](#disadvantages) instead of a Status Ailment (meaning it is not removed by Abilities like [Cleanse](#cleanse)).  
+> I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
+
+### Provoke  
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
 Provoke overrides [Taunt](#taunt); you ignore Taunt effects that would divert you from striking a foe who has Provoked you. In addition, you gain no benefit of being [Protected](#protection) from a target you have Provoked.  
-This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.
+This may represent an opponent shouting insults to grab attention, minor mind control, jamming targeting systems, or other similar ways to demand your aggression in combat.  
 
-#### Root
-For some reason, you cannot move. This might mean being tied down, having an injured foot, entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.
+### Root  
+For some reason, you cannot move. This might mean being tied down, having an injured foot, being entangled in grasping vines, or similar things that stop you from moving. Being rooted does not otherwise affect your combat ability, you just cannot move from your current space.  
 
-#### Scorch X  
-On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.
+### Scorch X  
+On fire or dealing with a lingering burn. This reduces your Mental Defense by X for its duration.  
 
-#### Shock X
-Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.
+### Shock X  
+Shocked, rattled by sonic damage, or the like. This reduces your Mental Offense by X for its duration.  
 
-#### Slow
-You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Square.
+### Slow  
+You are hobbled in a way that makes you slower, though you can still move somewhat. While slowed, you cannot use your Minor Action to move to a different Zone.  
 
-## Disadvantages
-These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical means.
+## Disadvantages  
+These are circumstances in combat that leave one in a disadvantage during combat. These generally cannot be dismissed through magical or technical means.  
 
-#### Fatigue  
-Extended combat can cause characters to become Fatigued, causing them to take additional damage. All damage multipliers against Fatigued characters are increased by 1. 
+### Flat Footed  
+You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon first taking an action or being successfully struck by a damaging Ability.  
 
-> This can be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired of the fight, then it's likely the characters involved in the fight are starting to feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all characters in the fight become Fatigued at the same time. I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain hearty enough to continue the fight as long as everyone wants.  
-> Fatigue might also be imposed by certain monsters or effects, in which case the Arbiter might rule to treat this as a [Status Ailment](#status-ailments) instead of a Disadvantage. This makes it something that can be removed by effects like [Remedy](#remedy) or [Healing Hands](#healing-hands). 
+### Marked  
+Your position or defenses have been temporarily compromised. The next Offensive Ability that targets you does so at Boon +2 and ends the Marked state.  
 
-#### Flat Footed
-You are not prepared to defend yourself from attacks properly. Attacks against you are made at Boon +4. Unless otherwise noted, you cease being Flat Footed upon taking an action or being successfully struck by a damaging Ability.
+### Prone  
+Lying on the ground.  
+Offensive Abilities used at Melee range against Prone targets have Boon +3, while any Offense rolls against Prone targets coming from beyond Short range are made at Bane -3. (Abilities used at Short range are made normally.)  
+A Prone combatant making an Offense roll against a target in Melee range does so with Bane -3.  
+Moving a Zone while Prone costs a Major Action. You may fall Prone or stand up as a Minor Action.  
 
-#### Prone  
-Lying on the ground. Abilities used at Melee range against Prone targets have Boon +3, while any Abilities coming from beyond Short range are made at Bane -3. (Abilities used at Short range are made normally.) Moving a Square while Prone costs a Major Action.  
-You may fall Prone or stand up as a Minor Action.  
-
-#### Stagger  
+### Stagger  
 Knocked silly. While Staggered, you lose your Minor action and have Bane -1. Unless a different duration is listed, Staggers only last one Round (or 10 seconds outside of Initiative).  
 
-## Advantages
-These are circumstances that give the character in question an advantage.
+## Advantages  
+These are circumstances that give the character in question an advantage.  
 
-#### Charged
-You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.
+### Charged  
+You have prepared for a strong attack. When you have the Charged Advantage, you may choose to make your next Attack or Spell with Boon +6. Alternatively, you may increase the Damage Multiplier of the Attack or Spell by 1. Doing so removes the Charged property. Some Abilities require the Charged Advantage to function or add additional options to utilize your Charge.  
 
-#### Flight  
-You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.
-This Condition makes you immune to terrain effects.
+### Flight  
+You can fly. This allows you to move into the airborne parts of the battle grid. Airborne movement is otherwise identical to standard movement.  
+This Condition makes you immune to terrain effects.  
 
-#### Obscured  
-You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)
+### Obscured  
+You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)  
 
-#### Protection
+### Shield X  
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
+
+### Taunt  
+If you have Taunt and are in a space with any other ally, enemies must target you over other allies in the same Zone. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Zones instead of targets can still affect your allies as normal.  
+If multiple allies have Taunt in the same Zone, foes may choose between them at will. Abilities that affect multiple targets in a Zone (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
+[Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
+A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
+This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.  
+
+## Linked States
+Linked States are conditions that involve two different combatants. In Linked States, there is a primary creature causing the state, and a number of other creatures affected by the state (though usually just one).  
+
+### Grab  
+You are either keeping hold of a target (the Controller) or in another's clutches (the Captured). Neither the Controller nor the Captured can move.  
+At the beginning of the Controller's Turn, they make an Offense roll against their target (Physical for Attacks, Mental for Spells as usual); if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
+Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
+A single target can be Grabbed by multiple targets. In this case, the Captured must escape each Controller separately.  
+
+> As an example, Balam and Bannon have Grabbed a monster to try to keep it in place. None of the three can move in this state. On the monster's turn, it uses [Struggle](#struggle) to successfully shake of Bannon, but remains Grabbed by Balam and therefore unable to move.  
+
+### Protection  
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
 If you are the Protector, you cannot benefit from being Protected yourself. Standing in the same space as an ally with [Taunt](#taunt) grants you no benefit; enemies can freely choose between targeting you or the ally with Taunt.  
 A Protected character cannot be targeted by offensive Abilities and is excluded from any offensive area of effect. You cannot be Protected from a foe you have [Provoked](#provoke).  
-This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects. 
+This can represent the Protector physically body blocking for the Protected ally, covering them with a shield, protection spells, and similar effects.  
 
-#### Shield X
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.
-
-#### Taunt
-If you have Taunt and are in a space with any other ally, enemies must target you over other allies in the same square. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Squares instead of targets can still affect your allies as normal.   
-If multiple allies have Taunt in the same Square, foes may choose between them at will. Abilities that affect multiple targets in a Square (such as [Sweeping Strike](#sweeping-strike)) must prioritize targets with Taunt.  
-[Protectors](#protection) are excluded from the redirection of Taunt and can be targeted as normal.  
-A [Provoked](#provoke) combatant ignores Taunt, prioritizing instead whoever Provoked it.  
-This might represent presenting yourself as an obvious target to draw fire, subtle mind control that redirects enemy attention onto yourself, or literally taunting people into fighting you first.
-
-
-// TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving my system a chance. I hope you've enjoyed. //
+```  
+TODO: WRITE OUTTRO. For now, if you've made it this far, thank you for giving  
+my system a chance. I hope you've enjoyed.  
+```
 
 # Appendix A: Supplemental Materials  
 These are some optional rules you can add to your game. These are either supplemental things like an expansion on Skills, a themed expansion or series of features, or experimental rulesets that are not quite ready to be added to the main game just yet.

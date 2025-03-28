@@ -1,0 +1,105 @@
+The current sheet can be found at: https://docs.google.com/spreadsheets/d/1SpLmm85PxUhJBP4AtJBr99vJqZO9HvnlGro7OmUJT9A/edit#gid=0  
+A pre-existing DnD 3.5 sheet used for reference: https://www.dandwiki.com/w/images/6/6f/Interactive_DnD_3.5_Character_Sheet_%281%29.pdf  
+
+I want the S3 sheet to have three pages: Identity, Combat, and Utility.
+
+By default, some fields will be auto-calculated by the final sheet. (I can do the programming side of things if that's outside of your scope.) I want there to be a visual difference between fields for player input (Attributes, Realized Potential, MP Used, etc) and fields that are auto-calculated (Total HP/MP, Skill totals, Physical Offense, etc). I'm thinking different colored/textures on the borders of input and calculated fields. I will label player input fields with [square brackets] and calculated fields with <angle brackets>.
+
+I also want some fields to be visually larger than others to draw player attention to them. These are fields that the player will be referencing frequently during play. In S3's current character sheet, you can see the effect I want to go for with the Current HP/MP fields. I will note these fields with a bang! symbol.
+
+Most fields are just for numbers, but some of these fields should be large enough for players to write paragraphs as description for the character or extended explanations of the character's options. These will be noted with a question mark?
+
+* Page 1: Identity
+	[Character Name]
+	[Player Name]
+	[Campaign]
+	[Max Potential]
+	<Hero Tier>
+	* Attributes
+		[Strength!]
+		[Toughness!]
+		[Finesse!]
+		[Mind!]
+		[Heart!]
+		[Soul!]
+	[Character Description?]
+	[Personality?]
+	[Backstory?]
+
+* Page 2: Combat
+	<Initiative!> = [Realized Potential] + <Finesse> + <Soul> + [Other]
+	<Current HP!> = <Max HP> - [Damage taken]
+		[Vitality]
+		<Max HP> =  <Base HP> + <Strength> + <Toughness> + [Other]
+	<Current MP!> = <Max MP> - [MP used]
+		[Capacity]
+		<Max MP> =  <Base MP> + <Mind> + <Heart> + [Other]
+	Elements
+		[Resistance]
+		[Weakness]
+	<Physical Offense!> = [Realized Potential] + <Strength> + <Finesse> + [Other]
+	<Physical Defense!> = [Realized Potential] + <Toughness> + <Finesse> + [Other]
+	<Mental Offense!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Mental Defense!> = [Realized Potential] + <Heart> + <Soul> + [Other]
+	[Talents?]
+
+(A note for page 2: if possible, I want each Attribute field (Strength, Toughness, etc) to default to the listed Attribute, but still be editable for character using Attribute replacement Talents (such as Battering Defense: https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#battering-defense))
+
+* Page 3: Utility
+	[XP Spent on Skill Points]
+	<Total Skill Points Available>
+	<Acrobatics!> = [Realized Potential] + <Strength> + <Finesse> + [Other]
+	<Athletics!> = [Realized Potential] + <Strength> + <Toughness> + [Other]
+	<Awareness!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Composure!> = [Realized Potential] + <Toughness> + <Soul> + [Other]
+	<Construct!> = [Realized Potential] + <Toughness> + <Mind> + [Other]
+	<Craft!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Deception!> = [Realized Potential] + <Mind> + <Heart> + [Other]
+	<Diplomacy!> = [Realized Potential] + <Heart> + <Soul> + [Other]
+	<Drive!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Empathy!> = [Realized Potential] + <Heart> + <Soul> + [Other]
+	<Endure!> = [Realized Potential] + <Toughness> + <Heart> + [Other]
+	<Intimidation!> = [Realized Potential] + <Strength> + <Soul> + [Other]
+	<Investigation!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Lore!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Medicine!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Nature!> = [Realized Potential] + <Heart> + <Soul> + [Other]
+	<Performance!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Sabotage!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Science!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Stealth!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Streetwise!> = [Realized Potential] + <Mind> + <Heart> + [Other]
+	<Survival!> = [Realized Potential] + <Mind> + <Soul> + [Other]
+	<Tech!> = [Realized Potential] + <Finesse> + <Mind> + [Other]
+	<Total Skill Points used>
+	[Utilities?]
+
+* Page 4: XP 
+	This page should primarily be a table with two columns:
+		<Benefit>
+		<XP Cost>
+	[The player then fills in entries below.]
+
+(Page 4 might be something that can be fit into one of the other pages if there's enough room. Alternatively, this page could also have a section for the Buff Tracks and for tracking temporary things like Status Ailments or Injuries. I think seeing how the other pages shape out will alter how this page fits into the final version.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
