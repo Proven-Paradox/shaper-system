@@ -33,7 +33,7 @@ prioritizing things.
     - [Max Potential](#max-potential)  
       - [Hero Tier](#hero-tier)  
       - [Talents](#talents)  
-  - [Gaining and Spending XP](#gaining-xp-and-spending-xp)  
+  - [Gaining and Spending XP](#gaining-and-spending-xp)  
     - [Table: XP Costs](#table-xp-costs)  
 - [Chapter 4: Abilities](#chapter-4-abilities)  
   - [Ability Tiers](#ability-tiers)  
@@ -615,17 +615,7 @@ Targets: 1 other ally
 Cost: None  
 Duration: 1 round  
 Effect: As long as you are in the same Zone at the target and haven't been knocked out, you give that target [Protection](#protection).  
-Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.
-
-#### Default Strike  
-Attack  
-Action: Major  
-Prerequisites: None  
-Range: Melee  
-Targets: 1 enemy  
-Cost: None  
-Damage: x1 (Physical)  
-Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.
+Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.  
 
 #### Clutch  
 Attack  
@@ -637,6 +627,16 @@ Cost: None (Upkeep 1 HP)
 Damage: x0 (Physical)  
 Effect: If this Attack succeeds, you [Grab](#grab) your target.  
 Description: An untrained attempt to hold on to your target.  
+
+#### Default Strike  
+Attack  
+Action: Major  
+Prerequisites: None  
+Range: Melee  
+Targets: 1 enemy  
+Cost: None  
+Damage: x1 (Physical)  
+Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.  
 
 #### Prepare  
 Auxiliary  
@@ -724,7 +724,7 @@ Action: Minor
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Cost: 0 MP  
+Cost: None  
 Duration: Until canceled  
 Effect: You become [Rooted](#root).  
 You can end this effect by spending another Minor Action.  
@@ -1412,7 +1412,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x1 (Physical)  
-Effect: You may uses your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
+Effect: You may use your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
@@ -1947,7 +1947,7 @@ When using a Curse Ability, you may choose one or both of the following benefits
 #### Ability Specialist  
 Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
 * Increase the Ability's Range by one increment. (So Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.)  
-* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial costs; this has no effect on Upkeep.  
+* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial cost, not  Upkeep. This cannot reduce an Ability cost below 0.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
 
 You choose which benefit you gain every time you use the Ability and may choose different benefits on different rounds.  
