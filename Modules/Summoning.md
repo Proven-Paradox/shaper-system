@@ -37,7 +37,7 @@ Special: You summon a friendly creature or character (henceforth shortened to Al
 When you gain this Ability, you automatically gain the [Summoning Attunement](#summoning-attunement) Lesson once.  
 You may spend MP up to a maximum of your twice your Level when you first use this Ability. The Ally has HP, Offense, and Defense based on the amount of MP used and which Summon Configuration you choose, as explained in each individual [Summon Configuration](#summon-configurations) entry.  
 Allies may move during the summoner's turn once for free. The summoner may use a Minor action to move the Ally a second square. They do not have MP of their own. Any of their Abilities that cost MP take from their Summoner's MP. You may only summon one Ally at a time.  
-If an Ally runs out of HP, you cannot use Summon with the same Summon Configuration for one hour. If you have multiple Summon Configuration options, you may choose to summon a different one after another has been knocked out by using this Ability again.  
+If an Ally runs out of HP, you cannot use Summon with the same Summon Configuration for ten minutes. If you have multiple Summon Configuration options, you may choose to summon a different one after another has been knocked out by using this Ability again.  
 If you spend 12 or more MP to cast this Ability, the Summoned Ally gains one [Advanced Option](#advanced-options) which allows the summoned creature to be further customized.  
 Description: This Ability allows you to create or summon a second creature to your aid in combat. This could be the result of necromancy, alchemy, robotics, conjuration, imbuing a familiar with combat ability, calling a sidekick, or any other effect that would result in an additional creature involved in the combat. As long as you pay the Upkeep cost and the Ally is not killed, the creature remains on hand to help in combat.  
 It is up to the player and Arbiter how to handle summons running out of HP. The summoned creature can be forced back to wherever it was summoned from, limp away from battle to return after spending some time resting, fall apart and need to be repaired, run out of ammo/power, die and be discarded for a cheap replacement, or whatever sort of justification is needed for your particular spin on summoning.  
@@ -176,10 +176,6 @@ The Support's statistics scale based on the MP used to summon it. Support Allies
 
 ...  //TODO further scaling  
 
-#### Resilient
-Passive  
-If a Support Ally runs out of HP, it can be re-summoned after one Round (as opposed to one hour).  
-
 #### Jolt  
 Spell  
 Action: None  
@@ -193,16 +189,16 @@ Auxiliary
 Action: None  
 Range: Short  
 Targets: 1 ally  
-Summoner MP Cost: 0  
-The Support Ally heals the target for an amount equal to its Efficacy and loses that much HP. This can be done for free once per turn, but cannot be used on the same turn as Jolt.  
+Summoner MP Cost: 2  
+The Support Ally heals the target for an amount equal to its Efficacy. This can be done for free once per turn, but cannot be used on the same turn as Jolt.  
 
 #### Empowered Soothe  
 Auxiliary  
 Action: Minor  
 Range: Medium  
 Targets: 1 ally  
-Summoner MP Cost: 2 MP  
-The Support Ally heals the target an amount equal to twice its Efficacy and loses that much HP. This Ability cannot be used in the same Round as Jolt or Soothe.   
+Summoner MP Cost: 4 MP  
+The Support Ally heals the target an amount equal to twice its Efficacy. This Ability cannot be used in the same Round as Jolt or Soothe.   
 
 ***
 
@@ -310,20 +306,27 @@ These options are available only to [Support Configuration](#summon-configuratio
 ### Cleansing Soothe  
 When your Ally uses [Empowered Soothe](#empowered-soothe), you may either reduce the duration of one [Status Ailment](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#status-ailments) by 2 rounds or increase one of the target's [Buff Tracks](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#buff-tracks) by 1, to a minimum of 0.  
 
-### Efficient Healer  
-When your Ally uses [Soothe](#soothe), it heals an additional 1 HP. When using [Empowered Soothe](#empowered-soothe), it heals an additional 2 HP. This does not increase the HP drained from the Ally; they still lose HP equal to their Efficacy or twice their Efficacy respectively.  
-
 ### Potent Healer  
-When your Ally uses [Soothe](#soothe) or [Empowered Soothe](#empowered-soothe), you may choose to double the amount of HP it loses to increase the amount of healing it provides by 50%.  
-> Reminder, fractions round down.  
+Increase your Ally's Efficacy by 1.  
 
 ### Protective Healer  
 When your Ally uses [Soothe](#soothe), the target also gains [Shield](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#shield-x) equal to twice your [Hero Tier](https://github.com/Proven-Paradox/shaper-system/blob/main/Handbook.md#hero-tier). When your Ally uses [Empowered Soothe](#empowered-soothe), the target gains Shield equal to tree times your Hero Tier.  
 
 ***  
 
-# Talent  
+# Talents  
 
 ## Double Summon  
 You may have two summon Allies active at the same time. When you gain this Talent, you also gain another [Summoning Attunement](#summoning-attunement) Lesson. If you already had all configurations before taking this Talent, you may instead refund the XP spent on one of those lessons.  
 Whenever you use your Minor Action for your Ally, you may affect both Allies if you have multiple summoned. This allows you to move and/or Empower both of your Allies with one Minor Action.  
+
+## Intense Summon  
+When you use [Summon](#summon), you may choose to double the MP cost and Upkeep to gain the following benefits:  
+* Increase your Ally's HP by 50%.  
+* Automatically added one [Advanced Option] to your Ally based on its Configuration:  
+  * Attacker and Spellcaster Allies gain [Offense Up](#offense-up)  
+  * Defender Allies gain [Defense Up](#defense-up)
+  * Support Allies gain [Potent Healer](#potent-healer)  
+* Add an additional [Advanced Option](#advanced-options) to your Ally. This is in addition to the one automatically added. You may choose any Advanced Option normally available to the Summon Configuration you are summoning.  
+* Your Ally may use its Empowered Abilities without using your Minor Action.  
+If you also have the [Double Summon](#double-summon) Talent, you can only use Intense Summon on one of your Allies.  
