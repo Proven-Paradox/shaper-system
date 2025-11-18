@@ -435,29 +435,30 @@ The rate at which characters grow in power is, in the end, a matter of taste. Th
 
 > An Arbiter might also give explicit moments in the middle of a session to spend XP when it suits the narrative. For example, if a character is put into a situation where they are actively training, an Arbiter might give the character the opportunity to buy Skill Points or stat improvements related to that training.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 ------------
 # Chapter 4: Abilities
-Abilities represent actions your character is able to perform that are focused on combat.  
+Abilities represent combat-focused actions your character can perform.  
 
+```
+TODO: Reconsider chapter order; medium priority
+```
 > <div align="center">=!=!=DISCLAIMER=!=!=</div>  
 
-> The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
-> Two major things to keep in mind.  
-> * Zones are large in S3 and can have multiple combatants in each Zone. Think of a Zone as an individual room or a room-sized region of a larger space. Abilities that list their target as a Zone target all creatures in that Zone. See [the Positioning section](#positioning) if you want more detail.  
-> * Every Round you get a Minor, Major, and Counter Action to work with. You use the Minor and Major Actions during your Turn, and can use Counter Actions during other combatants' Turns in response to opponents' Actions.  
+> The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
+> When reading Abilities, keep in mind the following:  
+> * In S3, Zones are large and each can contain multiple combatants. Think of a Zone as an individual room or a room-sized region of a larger space. Abilities that list a Zone as their target affects all creatures in that Zone. See [the Positioning section](#positioning) for more detail.  
+> * Every Round you get a Minor, Major, and Counter Action. You use Minor and Major Actions during your Turn. Counter Actions are used during other combatants' turns when certain conditions are fulfilled, such as attacking you or an ally. If timing is important, resolve Counter Actions immediately after whatever triggered it.  
 
 > <div align="center">=!=!=!=!=  </div>  
 
 ## Ability Tiers  
 Abilities come in three tiers (currently).  
-
-* Tier 0 Abilities are actions so basic that they don't require training to use; all characters can use all Tier 0 Abilities. These represent actions done with low skill or low effort.  
-* Tier 1 Abilities represent entry level techniques; things that you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free, and can purchase more Tier 1 Abilities for 3 XP.  
-* Tier 2 Abilities represent more complex and specialized techniques which require significant experience before they can be mastered. You must reach [Hero Tier](hero-tier) 2 before you can take Tier 2 Abilities, and they cost 5 XP each.  
+```
+TODO: Revise if I go to higher tiers; low priority
+```
+* Tier 0 Abilities are so basic that they don't require training to use; all characters can use all Tier 0 Abilities. These represent actions possible with low skill or low effort.  
+* Tier 1 Abilities represent entry level techniques; things you have to learn or practice to do well. They can be taken at character creation. Characters start knowing 3 Tier 1 Abilities for free and can learn more for 3 XP.  
+* Tier 2 Abilities represent complex and specialized techniques which require significant training or experience to master. You must reach [Hero Tier](hero-tier) 2 to take Tier 2 Abilities, and they cost 5 XP each to learn.  
 
 ## Reading Abilities  
 
@@ -479,33 +480,28 @@ Effect:
 Description:  
 
 ### Ability Type  
-There are three types of Abilities.  
-
-#### Attack  
-Attack Abilities use [Physical Offense](#physical-offense) and are resisted by [Physical Defense](#physical-defense).  
-
-#### Spell  
-Spell Abilities use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
+There are three types of Abilities:  
+* Attack: These use [Physical Offense](#physical-offense) and are resisted by [Physical Defense](#physical-defense).  
+* Spell: These use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
 
 > Note that the term “Spell” is used here as a contrast to "Attack." During the game, Spell Abilities could also represent technology, chemistry, specialized anatomy, or anything else that might fit the game's setting.  
 
-#### Auxiliary  
-Auxiliary Abilities do not use offense rolls. They target yourself or your allies and do something to make it easier to fight.  
+* Auxiliary Abilities do not use Offense rolls. They target you or your allies and do something to make it easier to fight.  
 
 ### Ability Keywords  
-Some specific terms come with Abilities. These Keywords signify a related set of Abilities for the purposes of Lessons and Talents, or alter the way an Ability functions.  
+Some Abilities fit into sets denoted by Keywords. These signify a related set of Abilities for the purposes of Lessons and Talents. Some alter the way an Ability functions.  
 
 #### Augment  
-Abilities that strengthen allies. These will generally produce effects on the targets that have a Duration or Upkeep associated with them.  
+Abilities that strengthen allies. These will generally include a Duration or Upkeep.  
 
 #### Careful  
-An Ability that can be made stronger by taking more time to do it. These require a Major Action, but have the option of using your Minor Action as well to improve them.  
+Abilities that can be strengthened by spending extra time and effort. These require a Major Action but are improved (as noted in that Ability's description) if you use your Minor Action as well.  
 
 #### Curse  
-Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it (see below) then the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
+Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
 
 #### Elemental  
-Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. Striking an opponent with an Element they are Weak to allows you to roll three dice during your Offense Roll, taking the **higher** two of the results. When striking an opponent with an Element they Resist you also roll three dice, but take the **lower** two results. Immune targets take no damage of that Element.  
+Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. When you strike an opponent's Weak Element, roll three dice during your Offense Roll and take the **higher** two dice. When striking an opponent with an Element they Resist you also roll three dice but take the **lower** two results. Immune targets take no damage from that Element.  
 
 The six elements are:  
 * *Fire* - heat and flames  
@@ -515,45 +511,45 @@ The six elements are:
 * *Light* - radiance, blinding light, and holy power  
 * *Dark* - draining away life essence, sharpened shadows, or unholy power  
 
-When striking multiple targets with different Elemental Properties (such as with an area of effect Spell), first resolve all targets that are neither Resistant nor Weak to the element by rolling two ten-sided die as normal. After you have determined how much damage each of them receive, keep the results of those first two and roll the third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
+When striking multiple targets with different Elemental Properties, first resolve all targets that are neither Resistant nor Weak to the element by rolling two ten-sided die as normal. After you determine the damage for elementally neutral targets, roll a third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
 Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot/does not re-roll the die rolled during the second phase.  
 
-> For example, Anezka is using the Elemental Blast Ability with Ice Element. The Zone she targets has one foe that is Weak to Ice along with two that are neutral towards Ice. She also has Boon 4. 
-> First, to damage the two neutral opponents she rolls the normal two dice, getting a 9 and a 4. She re-rolls the 4 and gets a 1 (Boon backfires sometimes), so her final Result is 9 + 1 + her Mental Offense.  
+> For example, Anezka is using the Elemental Blast Ability with Ice Element. The Zone she targets has one foe that is Weak to Ice and two that are neutral. She also has Boon 4.  
+> To damage the two neutral opponents she rolls normally, getting a 9 and a 4. She re-rolls the 4 and gets a 1 (Boon backfires sometimes), so her final Result is 9 + 1 + her Mental Offense.  
 > She now calculates damage for the Ice-weak target by rolling a third die, getting a 3. Since she used Boon to re-roll the 4 earlier, she cannot re-roll the 3. She still drops the lowest die, so for this foe her final result is 9 + 3 + her Mental Offense.  
 >  
-> Arbiters: I would advise you to use Immunity sparingly, make it intuitive when it happens, and pair it with Weaknesses. Obviously spirit composed entirely of flames wouldn't care about being burned, but if it's at all ambiguous cases I would advise using Resistance instead of Immunity.  
+> Arbiters: Use Immunity sparingly, make it intuitive when it happens, and pair it with Weaknesses. A spirit composed entirely of flames wouldn't care about being burned, but if it's ambiguous I advise using Resistance instead of Immunity.  
 
 #### Guardian Strike  
-Abilities with this Keyword allow a character to convert their defense into offense. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
+Abilities with this Keyword allow a character to base their damage on their Defense stats. If the Ability is an [Attack](#attack), the user may use Physical Defense - 10 in place of Physical Offense. If the Ability is a [Spell](#spell), the user may use Mental Defense - 10 in place of Mental Offense.  
 
 #### Healing  
 Abilities that restore HP.  
 
 #### Status  
-Abilities that afflict their target with a [Status Ailment](#status-ailment), effects that hinder foes. Status effects always have a Duration, and effects that would re-apply an Ailment already affecting the target extend its Duration by that much.  
+Abilities that afflict their target with a [Status Ailment](#status-ailment). Status effects always have a Duration, and effects that would re-apply an Ailment the target already has extend that ailment's Duration.  
 
 ### Action Requirement  
 Whether the Ability is used with a Major, Minor, or Counter Action. See the [Time in Combat](#time-in-combat) section for details.
 
 ### Prerequisites  
-If an Ability has a Prerequisite listed in its entry, you must fulfill the listed conditions before you are able to take that Ability. Usually this will be another Ability, representing related maneuvers building off of each other or more refined techniques. There are other things that could be prerequisites as well, such as [Skills](#skill-list).  
+If an Ability has a Prerequisite listed, you must meet those conditions before you are able to learn that Ability. Usually this will be another Ability and represents related maneuvers that build on each other. There are other things that could be prerequisites, such as [Skills](#skill-list).  
 
-If at any time you no longer fulfill the prerequisites for a given Ability, you can no longer use it.  
+If time you no longer fulfill the prerequisites for an Ability you've learned, you can no longer use it.  
 
 ### Range  
-How far away you can be from your target(s). 
-* None -  Targets you or your current Zone  
+How far away you can be from your target(s).  
+* None -  Targets you  
 * Melee - Targets you or others in your current Zone  
-* Short - Reaches up to 1 Zone  
-* Medium - Reaches up to 3 Zones  
-* Long - Reaches up to 5 Zones  
-* Extreme - Reaches up to 8 Zones  
+* Short - Reach up to 1 Zone  
+* Medium - Reach up to 3 Zones  
+* Long - Reach up to 5 Zones  
+* Extreme - Reach up to 8 Zones  
 
 An Ability may also have a Minimum Range; such Abilities cannot affect targets that close or closer.  
 
 ### Targets  
-Whether the Ability targets yourself, allies, enemies, or a Zone, and how many. (You count as your own ally for targeting purposes.)
+Whether the Ability targets yourself, allies, enemies, or a Zone, and how many. Any effect that targets allies can also target you.  
 
 ### Trigger  
 This is specific to [Counter Actions](#counters) and specifies what has to happen to be able to use the Ability.  
@@ -561,28 +557,31 @@ This is specific to [Counter Actions](#counters) and specifies what has to happe
 ### Cost  
 The HP or MP cost of using an Ability. If you cannot pay the Cost, you cannot use the Ability.  
 
-#### Upkeep
-Any Ability with an Upkeep in its Cost requires the listed HP or MP to be paid every [Round Start](#round-start). The Ability lasts as long as the Upkeep is paid or until some effect ends it prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends. 
+#### Upkeep  
+Any Ability with an Upkeep in its Cost requires HP or MP to be paid every [Round Start](#round-start). The Ability lasts as long as the Upkeep is paid or until some effect ends it prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends.  
 
 > Note: The separate Cost is paid when the Ability is first used, and the Upkeep cost is paid on all subsequent rounds.  
-> For example, Drahlo uses the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is listed as "2 MP (Upkeep 1 MP)". This means that when he initially uses the Ability, he spends 2 MP. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no extra action investment from him.  
+> For example, Drahlo uses the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is "2 MP (Upkeep 1 MP)". This means he spends 2 MP when he initially uses the Ability. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no action.  
 > There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
 ### Damage  
-The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how damage works.  
+The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how damage works. If applicable, this will also list the elemental damage type. Abilities with no damage type do Physical damage.  
 
 ### Cooldown  
-If an Ability has a listed Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldowns decrease at [Round Start](#round-start).  
+If an Ability has a Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldown decreases at [Round Start](#round-start). The Ability can be used again after its Cooldown reaches 0.  
 
 ### Duration  
-How long the Ability lasts. Duration decreases at [Round Start](#round-start).  
+How long the Ability lasts. Duration decreases at [Round Start](#round-start), and once this reaches 0 the Ability's effect ends.  
 
 ### Effect  
 An Ability's specific functions, covering any information that can't be listed in the above fields.  
 
 ### Description  
-A basic summation of what the Ability represents and some suggestions on how to work the Ability into your character's kit. While the rules for what Abilities do are set, how it looks when a given character uses them is up to the player or Arbiter.  
+A basic summation of what the Ability represents and some suggestions on how to roleplay using the Ability. The rules for what Abilities do are set, how they look is up to the player or Arbiter.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ------------
 # Chapter 5: List of Abilities
 
