@@ -579,19 +579,14 @@ An Ability's specific functions, covering any information that can't be listed i
 ### Description  
 A basic summation of what the Ability represents and some suggestions on how to roleplay using the Ability. The rules for what Abilities do are set, how they look is up to the player or Arbiter.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
 ------------
 # Chapter 5: List of Abilities
 
 ## Tier 0
-Note: You automatically know all Tier 0 abilities.   
-There may be other basic actions that an untrained character would be able to perform. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
+Note: Player characters automatically know all Tier 0 abilities.   
+There may be other basic actions that a character should be able to perform without training. Players may request new abilities of this power level if something they want to do is not represented here. These should not be taken as a straitjacket.
 
-> This first Ability is critical, and is therefore presented out of order. Aside from this Ability, the listings will be in alphabetical order.
-
-#### Move  
+#### Basic Move  
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
@@ -599,11 +594,11 @@ Range: N/A
 Targets: Self  
 Cost: None  
 Effect: Move 1 Zone.  
-Description: The most basic way to move in combat. This might represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
+Description: The most basic way to move in combat. This can represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-> Note that you may use your Major Actions to make a second Minor Action per round, making the default maximum movement speed of a character 2 Zones per turn.
+> Note that you may use your Major Actions to take a second Minor Action per round, making the default maximum movement speed of a character 2 Zones per turn.
 >
-> Also a reminder that movement on a normal grid map does not permit diagonal movement.
+> Also note that diagonal movement on a square grid map is not permitted.
 
 #### Cover  
 Auxiliary  
@@ -644,8 +639,9 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 1 MP  
-Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example, you could Prepare your Elemental Lance Ability, and specify that it goes off if anyone tries to get closer to you. When you use the Prepared Ability, you must pay its cost as normal. You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you take another action. If you take another action while Prepared, you lose the prepared action but are refunded the 1 MP cost of Prepare.  
-This Ability's Action is the same as the chosen Ability you are Preparing.  
+Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example you could Prepare your Elemental Lance Ability to use on an opponent when they try to get closer to you. You still pay the Prepared Ability's cost when you use it.  
+You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you use the Prepared Ability or until the start of your next turn.  
+Prepare's Action cost is the same as the Ability you are Preparing to use.  
 Description: Getting ready to take action later in combat. This can be important if you want to time interactions specifically or want to let an opponent act first.
 
 #### Recover  
@@ -660,7 +656,7 @@ Effect: Choose one of the following:
 * Reduce the duration of a [Status Ailment](#status-ailments) affecting you by 2 Rounds.  
 * Regain MP equal to twice your [Hero Tier](#hero-tier).  
 
-Description: Taking a moment to deal with a hindering effect or otherwise . This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
+Description: Taking a moment to deal with a hindering effect or otherwise. This could represent taking a moment to catch your breath, scraping off some fluid that is hindering your combat ability, batting away distractions, scrounging the area for ammo, or something similar.  
 
 #### Shove  
 Attack  
@@ -669,9 +665,9 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x0 (Physical)  
+Damage: None  
 Effect: If this Attack succeeds, move your target one Zone.  
-Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, conjuring a forceful gust of wind, and the like.
+Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, and the like.
 
 #### Struggle  
 Attack/Spell  
@@ -683,6 +679,9 @@ Cost: None
 Damage: 0  
 Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially Grab you. If your roll is equal or higher, you break your target's grip and are no longer Grabbed by them.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ## Tier 1
 
 #### Accelerate  
@@ -900,7 +899,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP  
 Damage: x3  
-Effect: You may only use this Attack after hitting with 3 other unique Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing your target resets the counter. This excludes Abilities that have no effect other than changing your position (such as [Move](#move), [Run](#run), and [Sprint](#sprint)).  
+Effect: You may only use this Attack after hitting with 3 other unique Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing your target resets the counter. This excludes Abilities that have no effect other than changing your position (such as [Basic Move](#basic-move), [Run](#run), and [Sprint](#sprint)).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 9 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
@@ -2438,7 +2437,7 @@ Knowing who you can reach and who can reach you is critical in combat, so these 
 
 ### Zones  
 Combat is broken up into Zones. A combat Zone should generally be somewhere between 15-20 feet in length on each side, whatever shape is appropriate for a given scene, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Zones. An open field would just be an effectively infinite number of Zones that characters can move through freely. Multiple creatures can occupy a single Zone, and everyone in a Zone can reach each other.  
-Moving between Zones is done with Abilities. Everyone has access to the the most basic [Move](#move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
+Moving between Zones is done with Abilities. Everyone has access to the the most [Basic Move](#basic-move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
 
 ### Advanced Positioning  
 Rules for more advanced, granular, and tactical movement. These rules will not be used every combat; many combat scenarios don't really need this level of precision. The Arbiter should specifically point out when they're running a combat with these rules.  
