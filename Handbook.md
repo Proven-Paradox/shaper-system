@@ -618,7 +618,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: None (Upkeep 1 HP)  
-Damage: x0 (Physical)  
+Damage: x0   
 Effect: If this Attack succeeds, you [Grab](#grab) your target.  
 Description: An untrained attempt to hold on to your target.  
 
@@ -629,7 +629,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x1 (Physical)  
+Damage: x1   
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.  
 
 #### Prepare  
@@ -708,7 +708,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 HP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A strike so powerful that it propels opponents in a direction you choose. This could be a body slam, a shield bash, beating your target with wind from your wings, and similar attacks.
@@ -808,7 +808,7 @@ Prerequisites: None
 Range: Melee  
 Targets: Up to 2 enemies  
 Cost: 2 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
@@ -943,7 +943,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 MP (Upkeep 1 HP)  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability. The cost increase only affects the initial use of the Ability; its Upkeep is unchanged.  
 Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this represents someone with skill and training making the attempt. This could represent a skilled wrestler’s grab, a disciplined takedown, jujutsu locks, or the like.
@@ -991,7 +991,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 HP  
-Damage: x2 (Physical)  
+Damage: x2  
 Effect: If you land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
@@ -1003,7 +1003,7 @@ Prerequisites: None
 Range: Short  
 Targets: 1 enemy  
 Cost: 3 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, lashing out with one’s mind, firing a bolt of pure energy, and similar sorts of attacks.
 
 #### Kinetic Force  
@@ -1013,7 +1013,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 enemy  
 Cost: 2 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: This can represent telekinetically picking a target up and throwing them a short distance, a wave of psychic energy that knocks the target stumbling backwards, utilizing a gravity gun, whipping up a powerful burst of wind with one’s wings, and similar displacement attacks.  
@@ -1025,7 +1025,7 @@ Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic=force)
 Range: Medium  
 Targets: 1 Zone  
 Cost: 6 MP (Careful 4 MP)  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.  
@@ -1048,7 +1048,7 @@ Prerequisites: [Double Strike](#double-strike)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 2 MP    
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: You may move one Zone before or after you make your Offense roll.  
 Description: Moving as you attack. This could be a lunging charge, kicking off an enemy to make space as part of your attack, attacking after teleporting a short distance, or some other maneuver where a strike is paired with movement.
 
@@ -1092,7 +1092,7 @@ Prerequisites: [Double Strike](#double-strike)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 MP  
-Damage: 1x (Physical)  
+Damage: 1x  
 Effect: None  
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
 
@@ -1103,7 +1103,7 @@ Prerequisites: [Heavy Strike](#heavy-strike)
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x2 (Physical)  
+Damage: x2  
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
 Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
 
@@ -1115,7 +1115,7 @@ Range: Melee
 Targets: 1 enemy  
 Trigger: The targeted enemy fails on an Offense attempt.  
 Cost: 2 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
@@ -1150,7 +1150,7 @@ Prerequisites: None
 Range: Long  
 Targets: 1 enemy  
 Cost: 1 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
@@ -1162,7 +1162,7 @@ Prerequisites: [Shoot](#shoot)
 Range: Medium  
 Targets: 1 enemy  
 Cost: 2 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Cooldown: 1 round  
 Description: A quick ranged attack. This could represent throwing a hidden dagger, shooting an off-hand pistol, or in combination with Shoot might represent notching and firing two arrows from a bow at once, or activating a weapon's burst fire mode.
 
@@ -1173,7 +1173,7 @@ Prerequisites: None
 Range: Short  
 Targets: 1 enemy  
 Cost: 4 MP  
-Damage: x3 (Physical)  
+Damage: x3  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
@@ -1185,7 +1185,7 @@ Prerequisites: [Shoot](#shoot)
 Range: Extreme  
 Targets: 1 enemy  
 Cost: 6 MP  
-Damage: x2 (Physical)  
+Damage: x2  
 Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
 Special: This Ability has a minimum Range of Medium; targets who are standing 3 Zones or closer are not valid targets for this Ability.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
@@ -1198,7 +1198,7 @@ Prerequisites: [Grapple](#grapple)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 2 HP  
-Damage: x2 (Physical)  
+Damage: x2  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: Striking foes while you have the upper hand in a grappling match. This can be a literal suplex, a joint lock, slamming their head against the floor, or something similarly brutal that works only while the victim is in your grasp.  
@@ -1210,7 +1210,7 @@ Prerequisites: [Heavy Strike](#heavy-strike)
 Range: Melee  
 Targets: Up to 3 enemies  
 Cost: 3 HP  
-Damage: x1 (Physical)  
+Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A sweeping melee strike that targets multiple foes. This could be a flurry of kicks and punches, wide sweeps with a bladed weapon, lashing out with a tail, and the like.
 
@@ -1221,7 +1221,7 @@ Prerequisites: [Grapple](#grapple)
 Range: Melee  
 Targets: 2 enemies  
 Cost: 3 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: You must have [Grabbed](#grab) one of your targets. Make a single Offense roll against both enemies. If you score a hit, you knock the targets [Prone](#prone) as well as doing damage. After using this Attack, you are no longer grabbing your original target.  
 Description: Tossing your grappled foe into one of their allies. This could be bodily picking up and tossing them, controlling their momentum in a way that causes them to fly into each other, or something similar.
 
@@ -1282,7 +1282,7 @@ Prerequisites: [Shoot](#shoot)
 Range: Medium  
 Targets: 1 Zone  
 Cost: 4 MP  
-Damage: x1 (Physical)  
+Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
@@ -1297,7 +1297,7 @@ Range: Long
 Targets: 1 enemy  
 Trigger: Target enemy uses Scan or a similar effect on you  
 Cost: 5 MP  
-Damage: x1 Physical  
+Damage: x1  
 Effect: If this Spell deals damage, the opponent who attempted to Scan you gains no information and cannot attempt to Scan you again for a day.  
 Description: You interrupt an opponent's attempt to scan you. This could represent anti-divination runes, a robust firewall, deploying chaff grenades, psychic barriers, or other such measures. 
 
@@ -1341,7 +1341,7 @@ Prerequisites: None
 Range: Short (or Medium, see Effect)  
 Targets: 1 enemy  
 Cost: 8 HP  (Optional +4 HP, see Effect)  
-Damage: x2 (Physical)  
+Damage: x2  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
 Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
 
@@ -1352,7 +1352,7 @@ Prerequisites: [Grapple](#grapple)
 Range: Melee  
 Targets: 1 enemy that you have [Grabbed](#grab)  
 Cost: 5 HP  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: If this Ability hits, you and the target enemy move one Zone.  
 Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
@@ -1407,7 +1407,7 @@ Prerequisites: [Demand](#demand)
 Range: Melee  
 Targets: 1 enemy  
 Cost: None  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: You may use your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 On hit, this Ability also [Provokes](#provoke) its target.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
@@ -1477,7 +1477,7 @@ Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic-force)
 Range: Medium  
 Targets: 1 Zone  
 Cost: 10 MP (Upkeep 5 MP)  
-Damage: x1 (Physical)  
+Damage: x1  
 Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
 You may have up to two active Kinetic Storms at a time. They may not target the same Zone.  
 Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift, or similar ways of dealing damage in an area.
@@ -1525,7 +1525,7 @@ Targets: Self
 Trigger: You take any damage.  
 Cost: 2 + Damage MP   
 Effect: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
-Description: You avoid physical damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
+Description: You avoid damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
 
 #### Mobile Guard  
 Auxiliary  
@@ -1591,7 +1591,7 @@ Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)
 Range: Short  
 Targets: 1 enemy  
 Cost: 8 MP  
-Damage: x1 (Physical)  
+Damage: x1   
 Effect: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, or similar measures.  
 
@@ -1602,7 +1602,7 @@ Prerequisites: [Purge](#purge), Any melee range Attack
 Range: Melee  
 Targets: 1 enemy  
 Cost: 8 MP  
-Damage: x2 (Physical)  
+Damage: x2   
 Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
 
