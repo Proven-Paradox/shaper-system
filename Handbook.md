@@ -765,7 +765,7 @@ Duration: Variable, see Effect
 Damagex: x1  
 Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: An attack that leaves the victim off balance and unable to respond. This could represent dealing a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise befuddle your foe.  
+Description: An attack that leaves the victim off balance and unable to respond. This could represent a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise pressuring or disorienting your foe.  
 
 #### Decelerate  
 Spell [Status]  
@@ -788,7 +788,7 @@ Cost: 1 MP
 Damage: 0  
 Effect: You may use your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
-Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or otherwise force opponents to focus on you.
+Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or a similar maneuver to force opponents to focus on you.
 
 #### Dodge  
 Auxiliary  
@@ -796,7 +796,7 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Trigger: The enemy successfully hits with an Ability.  
+Trigger: An enemy successfully hits with an Ability.  
 Cost: None  
 Effect: Reduce the [Impact](#impact) of the successful Ability by 3. This reduces the damage you take. This can turn a normal hit into a miss, reduce a [Solid Hit](#solid-hit) to a normal hit, or a [Critical Hit](#critical-hit) into a Solid Hit.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.  
@@ -821,7 +821,7 @@ Targets: 1 Zone
 Cost: 5 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted Zone to be unaffected.
+If you also use your minor action, you may choose one creature in the targeted Zone to be unaffected.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
@@ -833,7 +833,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 0 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
-Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
+Special: When you learn this Ability, you also gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
 You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 3 to MP increase its damage multiplier by 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 5 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
