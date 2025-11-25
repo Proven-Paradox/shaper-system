@@ -723,7 +723,7 @@ Cost: None
 Duration: Until canceled  
 Effect: You become [Rooted](#root).  
 You can end this effect by spending another Minor Action.  
-Effects that would cause you to move must be a [Critical Hit](#critical-hit) to do so, which ends the Root effect on success.  
+Effects that would move you fail unless they score a [Critical Hit](#critical-hit). Being moved this way ends Rooted state.  
 Description: Planting yourself firmly in position. This can be as simple as adopting a stance that breaks attempts to move you, or as complicated as deploying a custom weapon system that drills into the ground.
 
 #### Charge Up  
@@ -736,7 +736,7 @@ Cost: 2 MP
 Duration: Until used  
 Effect: You become [Charged](#charged).  
 You may not use this Ability on the same turn as you use an Attack or Spell.  
-Description: Preparing for a strong offense. This could be gaining focus or clarity for a spell, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
+Description: Preparing for a strong offense. This could focusing to case a particularly powerful spell, winding up to throw a heavy punch, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
 
 #### Cleanse  
 Auxiliary  
@@ -750,7 +750,8 @@ Effect: Choose one of the following:
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
 * End a Curse effect on the target.  
 * Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to use Cleanse twice with one action.  
+
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to use it twice with one action. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: The most basic way to recover from ill effects. This could be a general purpose restoration spell, utilizing nanobots to repair the target’s damage, a quick application of medical training, or similar effects.  
 
 #### Daze Strike  
