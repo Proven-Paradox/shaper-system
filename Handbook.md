@@ -786,7 +786,7 @@ Range: Long
 Targets: 1 enemy  
 Cost: 1 MP  
 Damage: 0  
-Effect: You may use your Physical or Mental Offense on this Ability. If you use Physical Offense, treat this Ability as an Attack. If you use Mental Offense, treat this Ability as a Spell.  
+Effect: You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense). 
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
 Description: Drawing an opponent's attention. This could be shouting insults or making noise, subtle mind control, magically drawing bullets toward oneself, or a similar maneuver to force opponents to focus on you.
 
@@ -870,7 +870,7 @@ Targets: 1 enemy
 Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
-You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
+You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 5 MP to give it a damage multiplier of 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
@@ -884,7 +884,7 @@ Targets: 1 enemy
 Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive-track).  
-You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
+You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense). 
 Scaling: At any Hero Tier, you may increase the cost of the Ability by 5 MP to give it a damage multiplier of 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A simple ability to make a target less effective defensively. This could be a curse, distracting or discouraging the target, muddling their mind temporary with telepathic influence, temporarily magnetizing them so attacks are subtly attracted to them, and other things to hinder the target.
@@ -912,9 +912,12 @@ Targets: 1 enemy
 Cost: 4 MP  
 Damage: 0  
 Cooldown: 3 rounds  
-Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).  
+Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
+```
+TODO: Continue review of existing text here; high priority
+```
 #### Fortify  
 Auxiliary [Augment]  
 Action: Major  
@@ -1408,8 +1411,8 @@ Range: Melee
 Targets: 1 enemy  
 Cost: None  
 Damage: x1  
-Effect: You may use your Physical Offense or you Mental Offense on this Ability. If you use Physical Offense, treat this Ability and an Attack. If you use Mental Offense, treat this Ability as a Spell.  
-On hit, this Ability also [Provokes](#provoke) its target.  
+Effect: You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
+If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
 Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
 
