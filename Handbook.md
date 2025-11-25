@@ -679,9 +679,6 @@ Cost: None
 Damage: 0  
 Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially Grab you. If your roll is equal or higher, you break your target's grip and are no longer Grabbed by them.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
 ## Tier 1
 
 #### Accelerate  
@@ -691,8 +688,8 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 3 MP (Upkeep 3 MP)  
-Effect: The target is able to move one Zone with no action on their Turn.  
-Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, a mount, or similar effects.
+Effect: The target is able to move one Zone on their Turn. This movement does not require an Action.  
+Description: Granting an ally extra mobility. This could be an application of time magic, utilizing a mobile platform, riding a mount, overclocking a system's engines, or similar effects.
 
 #### Aim  
 Auxiliary  
@@ -701,8 +698,8 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: None  
-Effect: You make your next attack this round with Boon +2.  
-Description: Taking a moment to steady your aim. This could just be standard careful aim, looking through a scope, activating a targeting system, or other similar actions.
+Effect: You make your next Offense Roll with Boon +2.  
+Description: Increase the accuracy of your next strike. This could represent taking a moment to aim carefully, looking through a scope, activating a targeting system, or other similar actions.
 
 #### Bash  
 Attack  
@@ -714,7 +711,7 @@ Cost: 3 HP
 Damage: x1 (Physical)  
 Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 HP to increase its damage multiplier by 1. When used this way, this Ability counts as a Tier 2 Ability.  
-Description: A strike so powerful that it sends opponents sprawling backward. This could be a body slam, a shield bash, beating them backwards with wind from your wings, and similar attacks.
+Description: A strike so powerful that it propels opponents in a direction you choose. This could be a body slam, a shield bash, beating your target with wind from your wings, and similar attacks.
 
 #### Brace  
 Auxiliary  
