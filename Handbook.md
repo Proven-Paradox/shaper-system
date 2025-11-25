@@ -775,7 +775,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: 0  
-Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 4 rounds.   
+Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 5 rounds.   
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
@@ -871,8 +871,8 @@ Cost: 2 MP
 Damage: 0  
 Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
 You may use this either as an Attack (using your Physical Offense and targeting your opponent’s Physical Defense) or a Spell (using your Mental Offense to target you’re opponent’s Mental Defense).  
-Scaling: At any Hero Tier, you may increase the cost of thie Ability by 7 MP to give it a damage multiplier of 1.  
-At Hero Tier 2, you may increase the cost of this Ability by an additional 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
+Scaling: At any Hero Tier, you may increase the cost of this Ability by 5 MP to give it a damage multiplier of 1.  
+At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
 #### Expose  
