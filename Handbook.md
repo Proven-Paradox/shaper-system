@@ -1184,7 +1184,7 @@ Attack
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Extreme  
-Minimum Range: Medium
+Minimum Range: Medium  
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: x2  
