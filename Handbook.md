@@ -1105,7 +1105,7 @@ Targets: 1 enemy
 Cost: None  
 Damage: x2  
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
-Scaling: At Hero Tier 2, you may increase this Ability's multiplier multiplier by 1 if you use it with less than half of your Max HP remaining. When you increase its cost this way, treat this as a Tier 2 Ability.  
+Scaling: At Hero Tier 2, you may increase this Ability's multiplier multiplier by 1 if you use it with less than half of your Max HP remaining. When you make this reckless choice, treat this as a Tier 2 Ability.  
 Description: An undisciplined but powerful attack. It deals significant damage but leaves one open to counterattack.
 
 #### Riposte  
