@@ -590,7 +590,7 @@ There may be other basic actions that a character should be able to perform with
 Auxiliary  
 Action: Minor  
 Prerequisites: None  
-Range: N/A  
+Range: None  
 Targets: Self  
 Cost: None  
 Effect: Move 1 Zone.  
@@ -915,9 +915,6 @@ Cooldown: 3 rounds
 Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
-```
-TODO: Continue review of existing text here; high priority
-```
 #### Fortify  
 Auxiliary [Augment]  
 Action: Major  
@@ -933,10 +930,11 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 ally  
+Targets: 1 ally or self  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
+Effect: As long as you are in the same Zone as the target and conscious, you [Protect](#protection) that target. If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
+You may choose to use Guard yourself. In this case you gain Shield but do not provide Protection.  
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
@@ -959,7 +957,7 @@ Range: Melee
 Targets: 1 Zone  
 Cost: 5 MP  
 Effect: You and all allies in the same Zone regain HP equal to a die roll.  
-Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1.  
+Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
 #### Healing Touch  
@@ -983,7 +981,7 @@ Range: Medium (Careful: Long)
 Targets: 1 Ally  
 Cost: 2 MP  
 Effect: The target regains HP equal to a die roll.  
-If you also use your Minor action, increase this Ability's MP cost by 1, increase its range to Long, and add another die to the amount healed.  
+If you also use your Minor action, increase this Ability's MP cost by 1, increase its Range to Long, and add another die to the amount healed.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 MP to increase the number of dice healed by 1. This is a total of 2 dice of healing normally, or 3 dice of healing with the Careful action. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A basic healing ability done at a distance. This can represent shouting encouraging words, throwing or launching a syringe filled with a medical concoction, channeling life energy into a target to restore their vitality, and other restorative methods.  
 
@@ -997,7 +995,7 @@ Cost: 3 HP
 Damage: x2  
 Effect: If you land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 6 HP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: A strong melee attack. This can just be a particularly powerful uppercut or roundhouse kick, grasping a weapon with both hands while swinging recklessly, a crushing bite, and so on.  
+Description: A strong melee attack. This can be a particularly powerful uppercut or roundhouse kick, grasping a large weapon with both hands and swinging it at max strength, a crushing bite, and so on.  
 
 #### Kinetic Dart  
 Spell  
@@ -1007,7 +1005,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: x1  
-Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, lashing out with one’s mind, firing a bolt of pure energy, and similar sorts of attacks.
+Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, firing a bolt of pure mana, and similar sorts of attacks.
 
 #### Kinetic Force  
 Spell  
@@ -1024,13 +1022,13 @@ Description: This can represent telekinetically picking a target up and throwing
 #### Kinetic Pummeling  
 Spell [Careful]  
 Action: Major  
-Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic=force)  
+Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic-force)  
 Range: Medium  
 Targets: 1 Zone  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1  
 Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
-Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability, and using your Careful action reduces the cost by 3.  
+Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability. Using your Careful action reduces the cost by 3 for the Tier 2 version.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.  
 
 #### Life Tap  
@@ -1042,7 +1040,7 @@ Targets: Self
 Cost: 2 HP  
 Effect: You regain MP equal to your [Capacity](#vitalitycapacity) (2 MP minimum). This cannot be used outside of combat.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 3 HP to regain MP equal to twice your Capacity. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal limits.  
+Description: Recharging one’s mental capacity at the cost of one’s health in the heat of combat. This could be making a small cut to use your blood to fuel your spells, forcing yourself to ignore the fatigue of casting, rerouting power from your shields to your weapons, and similar ways of exceeding your normal capacity.  
 
 #### Mobile Strike  
 Attack    
@@ -1084,7 +1082,6 @@ Targets: 1 Enemy
 Cost: 4 MP  
 Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP.  
-
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: You assault a foe's mind. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar. 
 
@@ -1095,7 +1092,7 @@ Prerequisites: [Double Strike](#double-strike)
 Range: Melee  
 Targets: 1 enemy  
 Cost: 3 MP  
-Damage: 1x  
+Damage: x1  
 Effect: None  
 Description: A quick melee strike. This could be a sly jab, a quick strike with a dagger, raking with claws, and similar attacks.
 
@@ -1108,7 +1105,7 @@ Targets: 1 enemy
 Cost: None  
 Damage: x2  
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
-Description: An undisciplined but powerful attack. Though the damage it deals is significant, it also leaves one open to counterattack.
+Description: An undisciplined but powerful attack. It deals significant damage but leaves one open to counterattack.
 
 #### Riposte  
 Attack [Guardian Strike]  
@@ -1120,19 +1117,19 @@ Trigger: The targeted enemy fails on an Offense attempt.
 Cost: 2 MP  
 Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself, invoking a divine chant that punishes attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
+Description: A basic counterattack. This could consist of quickly striking foes who miss, setting up a static field around yourself that shocks attackers, parrying blows in a way that depletes your foes’ endurance, and similar ways to counter attack.
 
 #### Run  
 Auxiliary  
 Action: Major  
 Prerequisites: None  
-Range: N/A  
+Range: None  
 Targets: Self  
 Cost: None  
 Effect: Move 2 Zones.  
-Description: This Ability represents someone having trained and conditioned themselves to be able to move further when they spend greater effort on it.  
+Description: This Ability represents training and conditioning to move faster than most.  
 
-> By using Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Zones per round.
+> By using Basic Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Zones per round.  
 
 #### Scan  
 Auxiliary  
@@ -1143,7 +1140,7 @@ Targets: 1 enemy or 1 Zone
 Cost: None  
 Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Alternatively, Scan can be used on a Zone. Scanning a Zone reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
-You can use this outside of combat, but you must succeed on a Stealth or Deception roll against the opponent’s Awareness or Empathy roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
+You can use this outside of combat, but you must succeed on a [Stealth](#stealth) or [Deception](#deception) roll against the target’s [Awareness](#awareness) or [Empathy](#empathy) roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
 
 #### Shoot  
@@ -1179,7 +1176,7 @@ Cost: 4 MP
 Damage: x3  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: A cheap shot at an opponent who is not ready. This could be a thrown dagger, setting off a sneakily place trap, a sucker punch, or anything similar.
+Description: A cheap shot at an opponent who is not ready. This could be a dagger strike from a hidden position, setting off a sneaky trap, a sucker punch, or anything similar.
 
 #### Snipe  
 Attack   
@@ -1235,10 +1232,10 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 5 MP  
-Duration: Until the end of your next action  
+Duration: Until the end of your next Turn, or until you make an Offense roll  
 Cooldown: 3 rounds  
-Effect: You are [Obscured](#obscured) for the duration. If you are targeted by [Scan](#scan) or use an Ability that targets an opponent, this Ability ends.  
-When you use this Ability, you may also move 1 Zone and/or make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed and cannot target you with single target Abilities. Anyone who does knows what Zone you are in, though you remain Obscured to them.  
+Effect: You may move 1 Zone. You are [Obscured](#obscured) for the duration. If you are targeted by [Scan](#scan) this Ability ends.  
+When you use this Ability, make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed. Anyone who does knows what Zone you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
 Description: Vanishing suddenly in combat. This could be throwing down a smoke bomb, an invisibility spell, activating a cloaking device, or just being really sneaky.
 
@@ -1262,9 +1259,7 @@ Targets: 1 Enemy
 Cost: 15 MP  
 Damage: x3 (Almighty)  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 15 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, eldritch energy, or similar sources of powerful damage.
-
-> Given the extreme MP cost of this Ability, it is strategically advantageous to find some way of getting Boon before trying to use it.
+Description: A costly way to do high damage. This could be utilizing a forbidden spell, firing an anti-matter weapon, evoking eldritch energy, or similar sources of powerful damage.
 
 #### Void Shot  
 Attack  
@@ -1287,7 +1282,11 @@ Targets: 1 Zone
 Cost: 4 MP  
 Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: An unfocused barrage of projectiles covering an area. This can represent sustained submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
+Description: A barrage of projectiles covering an area. This can represent submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
+
+```
+TODO: Continue review of existing text here; high priority
+```
 
 ## Tier 2  
 Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Max Potential](#max-potential) 6).
@@ -1714,7 +1713,7 @@ Description: Dealing damage while compromising the opponent's defensive capabili
 Auxiliary  
 Action: Minor  
 Prerequisites: [Run](#run)  
-Range: N/A  
+Range: None  
 Targets: Self  
 Cost: 6 HP  
 Effect: Move 2 Zones.  
