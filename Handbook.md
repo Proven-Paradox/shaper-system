@@ -1105,6 +1105,7 @@ Targets: 1 enemy
 Cost: None  
 Damage: x2  
 Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
+Scaling: At Hero Tier 2, you may increase this Ability's multiplier multiplier by 1 if you use it with less than half of your Max HP remaining. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: An undisciplined but powerful attack. It deals significant damage but leaves one open to counterattack.
 
 #### Riposte  
@@ -1183,13 +1184,13 @@ Attack
 Action: Major  
 Prerequisites: [Shoot](#shoot)  
 Range: Extreme  
+Minimum Range: Medium
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: x2  
-Effect: This Attack has Boon +3. You cannot use this Attack on a round where you have moved. This Attack causes you to be [Rooted](#root) until your next Turn.  
-Special: This Ability has a minimum Range of Medium; targets who are standing 3 Zones or closer are not valid targets for this Ability.  
+Effect: This Attack has Boon +3. You cannot use this Ability on a Round where you have moved. You must be [Prone](#prone) to use this Ability.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 7 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
-Description: A precise ranged attack. This attack involves standing still and taking precise aim, so it is less likely to miss.
+Description: A precise ranged attack. This attack involves holding still and taking precise aim.
 
 #### Suplex  
 Attack  
