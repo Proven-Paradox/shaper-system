@@ -1357,7 +1357,7 @@ Effect: If this Ability hits, you and the target enemy move one Zone. This Abili
 Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
 #### Chilling Bolt  
-Spell [Elemental] [Ice]  
+Spell [Elemental] [Ice] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Ice](#elemental-attunement)  
 Range: Medium  
@@ -1388,7 +1388,7 @@ Effect: You may take a second Counter action in the time between this turn and y
 Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar actions.  
 
 #### Crushing Bolt  
-Spell [Elemental] [Earth]  
+Spell [Elemental] [Earth] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Earth](#elemental-attunement)  
 Range: Medium  
@@ -1536,6 +1536,10 @@ Effect: You move to the target ally's Zone. If you are in the same Zone as the t
 You may choose to use Mobile Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
+
 #### Pickup  
 Auxiliary [Healing]  
 Action: Major  
@@ -1660,7 +1664,7 @@ Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-str
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
 #### Searing Bolt  
-Spell [Elemental] [Fire]  
+Spell [Elemental] [Fire] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire](#elemental-attunement)  
 Range: Medium  
@@ -1671,7 +1675,7 @@ Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) for 1 Rou
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, an insult so powerful it results in an actual burn, or similar effects.
 
 #### Shocking Bolt  
-Spell [Elemental] [Sky]  
+Spell [Elemental] [Sky] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Sky](#elemental-attunement)  
 Range: Medium  
@@ -1761,7 +1765,7 @@ Effect: You move to the target’s Zone. You must be able to move normally to us
 Description: Quickly rushing to an ally’s side. This could represent teleportation, a portal, or just rushing quickly to assist an ally.
 
 #### Umbral Bolt  
-Spell [Elemental] [Dark]  
+Spell [Elemental] [Dark] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Dark](#elemental-attunement)  
 Range: Medium  
