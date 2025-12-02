@@ -1308,6 +1308,7 @@ Range: None
 Targets: Self  
 Cost: 9 MP  
 Cooldown: 3 rounds  
+Duration: 2 rounds
 Effect: Your next Attack ignores [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
 Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, causing a projectile to ricochet, or similar effects.  
 
@@ -1330,7 +1331,7 @@ Range: Medium
 Targets: 1 Zone  
 Cost: 10 MP   
 Cooldown: 3 rounds  
-Effect: You move to the targeted Zone. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
+Effect: You move to the targeted Zone. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or features that would otherwise impede passage. You cannot Blink through solid walls, but can Blink through windows, nets, and similar obstructions with small openings.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into a parallel dimension, or similar ways of slipping away.
 
 #### Blood Lance  
