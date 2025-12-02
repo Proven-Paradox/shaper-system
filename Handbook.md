@@ -933,8 +933,8 @@ Range: Melee
 Targets: 1 ally or self  
 Cost: None  
 Duration: 1 round  
-Effect: As long as you are in the same Zone as the target and conscious, you [Protect](#protection) that target. If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
-You may choose to use Guard yourself. In this case you gain Shield but do not provide Protection.  
+Effect: If you are in the same Zone as the target and conscious, you [Protect](#protection) that target. If you fall unconscious or are separated from your ally, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
+You may choose to use Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
 
 #### Grapple  
@@ -1365,7 +1365,7 @@ Targets: 1 enemy
 Cost: 10 MP  
 Damage: x2 (Ice)  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for 3 Rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, a literal cold glare, or similar effects.
+Description: Anything that does lingering ice damage. This can be a winter incantation, dousing the target in chemicals that undergo an endothermic reaction, a freeze ray, a literal cold glare, or similar effects.
 
 #### Coordinated Stride  
 Auxiliary  
@@ -1374,8 +1374,8 @@ Prerequisites: None
 Range: Melee  
 Targets: Self and up to 2 allies  
 Cost: 3 MP  
-Effect: You and target allies move 1 Zone. A given character can only move with this Ability once per Turn.  
-Description: Moving at the same time as your allies. This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short range portal, or similar effects.  
+Effect: You and target allies move 1 Zone. A given character can only move with Coordinated Stride once per Turn, whether they are using it or are one of the allies moved by it.  
+Description: Moving at the same time as your allies. This could represent coordinating tactical movement with well-trained teammates, a strong character physically lifting allies as they move, teleportation magic, a short lived portal, or similar effects.  
 
 #### Counter Stance  
 Auxiliary  
@@ -1385,7 +1385,7 @@ Range: None
 Targets: Self  
 Cost: 3 MP  
 Effect: You may take a second Counter action in the time between this turn and your next.  
-Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar effects.  
+Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar actions.  
 
 #### Crushing Bolt  
 Spell [Elemental] [Earth]  
@@ -1395,8 +1395,8 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Earth)  
-Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for 2 Rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
-Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, a gravity ray, just throwing a big rock, or similar effects.
+Effect: If this Ability hits, the target is [Crushed](#crush-x) for 2 Rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
+Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, constricting a foe with enchanted vines, a gravity ray, throwing a big rock, or similar effects.
 
 #### Crushing Demand  
 Attack/Spell [Status] [Guardian Strike]  
@@ -1409,7 +1409,7 @@ Damage: x1
 Effect: You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 If this Ability hits the target, they are [Provoked](#provoke) by you for one Round.  
 Scaling: You may increase the cost of this Ability by 6 MP to increase its damage multiplier by 1.  
-Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques which rely on armor.
+Description: You overwhelm a foes defenses using your own. This could reflect a shield bash, striking with armored limbs, overloading your mechanical armor's energy shields, or similar techniques.
 
 #### Doom  
 Spell [Curse]  
@@ -1419,9 +1419,9 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 8 MP (Upkeep 2 MP)  
 Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
-When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends (though the damage done to the victim’s buff tracks remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected. If you wish to target a different track, you must start a new Doom casting.  
+When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends. (The damage done to the target remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected.  
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom. (Exception: If you have the [Cascading Curses](#cascading-curses) Talent, you may have two instances of Doom active.)  
-Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits drag the target down, or similar effects.
+Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits to drag the target down, or similar effects.
 
 #### Elemental Strike  
 Attack [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]  
@@ -1440,10 +1440,10 @@ Auxiliary
 Action: Counter  
 Range: Melee  
 Targets: 1 opponent that you have [Grabbed](#grab)  
-Trigger: An opponent misses you with an Ability  
+Trigger: A different opponent misses you with an Ability  
 Cost: 4 MP  
-Effect: The Ability that missed you is re-rolled targeting the opponent you have Grabbed.  
-Description: You redirect a poorly aimed strike to instead hit the target you have in your grip. This would usually involve using them as a shield.  
+Effect: Repeat the Ability that missed you targeting the creature you have Grabbed. The original user does not have to pay the Ability's cost again, and the new roll benefits from [Boon and Bane](#re-rolling-dice---boon-and-bane) the same as the original Ability.  
+Description: You redirect a poorly aimed strike to instead hit someone you have in your grip. This would typically involve using them as a shield.  
 
 #### Hold Fast  
 Auxiliary  
@@ -1461,11 +1461,11 @@ Auxiliary
 Action: Counter  
 Prerequisites: [Guard](#guard)  
 Range: Short  
-Targets: 1 Ally  
-Trigger: Target ally takes any damage  
+Targets: 1 ally  
+Trigger: Target ally takes damage  
 Cost: None  
 Duration: 1 round    
-Effect: You move to the same Zone as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them. The Protection produced this way lasts until the beginning of your next Turn and requires you be conscious and in the same space as the targeted ally.  
+Effect: You move to the same Zone as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them until the beginning of your next Turn, as long as you are conscious and in the same space as the ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
 #### Kinetic Storm  
@@ -1478,7 +1478,7 @@ Cost: 10 MP (Upkeep 5 MP)
 Damage: x1  
 Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
 You may have up to two active Kinetic Storms at a time. They may not target the same Zone.  
-Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift, or similar ways of dealing damage in an area.
+Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift that radiates damaging energy, or similar ways of dealing sustained damage in an area.
 
 #### Lean In  
 Auxiliary  
@@ -1498,8 +1498,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 Zone  
 Cost: 10 MP (Upkeep 2 MP)  
-Effect: While standing in the affected Zone, you (and only you) increase your Offense or Defense stats by 1, chosen when you first cast this Ability.  
-You cannot cast Leyline again while a previous Leyline you cast is still active.  
+Effect: While standing in the affected Zone, you (and only you) increase your Offense or Defense stats by 1, chosen when you first cast this Ability. You may only maintain one Leyline at a time.  
 Intelligent enemies can easily recognize Leylines and understand their implications.  
 Description: Augmenting a location to lend you power. This can be tapping into currents of power flowing through an area, setting up a device that projects an empowering field, invoking the spirits of the dead to empower you at a given place, and other similar effects.
 
@@ -1512,7 +1511,7 @@ Targets: 1 enemy
 Cost: 8 MP  
 Damage: x1  
 Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.   
-Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxin, or similar approaches to causing lingering damage.
+Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxic bite, or similar approaches to causing lingering damage.
 
 #### Mental Shield
 Auxiliary  
@@ -1521,7 +1520,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Trigger: You take any damage.  
-Cost: 2 + Damage MP   
+Cost: 2 + Damage MP (see Effect)  
 Effect: Increase the MP cost of this Ability by the amount of damage you would have taken and then negate that damage.  
 Description: You avoid damage in exchange for MP. This could be a mana shield, a piece of technology that drains batteries to negate shock, meditating to overcome the pain of a blow, or anything else that could conceivably represent mental effort to overcome damage.
 
@@ -1533,7 +1532,8 @@ Range: Short
 Targets: 1 ally  
 Cost: 3 MP  
 Duration: 1 round  
-Effect: You move to the target ally's Zone. As long as you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious at any point, this Ability ends. You also gain [Shield](#shield) equal to your [Vitality](#vitalitycapacity).  
+Effect: You move to the target ally's Zone. If you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious or are separated from you ally, this Ability ends. You also gain [Shield](#shield-x) equal to your [Vitality](#vitalitycapacity).  
+You may choose to use Mobile Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
 #### Pickup  
