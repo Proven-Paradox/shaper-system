@@ -1285,12 +1285,8 @@ Damage: x1
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its damage multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A barrage of projectiles covering an area. This can represent submachine gun fire, a grenade, launching flechettes from a clockwork device, and the like.
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 ## Tier 2  
-Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Max Potential](#max-potential) 6).
+Tier 2 Abilities are available once you have reached [Hero Tier](#hero-tier) 2 ([Max Potential](#max-potential) 6). These represent advanced techniques for experienced characters. Some represent specialization in a single fighting style. Others allow the user to combine different effects into one action.
 
 #### Anti-Scan  
 Spell  
@@ -1324,7 +1320,7 @@ Targets: 1 enemy
 Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
-Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arms, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
+Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arm, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
 #### Blink  
 Auxiliary  
@@ -1335,7 +1331,7 @@ Targets: 1 Zone
 Cost: 10 MP   
 Cooldown: 3 rounds  
 Effect: You move to the targeted Zone. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or walls that would offer obstructions.  
-Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into another dimension, or similar ways of slipping away.
+Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into a parallel dimension, or similar ways of slipping away.
 
 #### Blood Lance  
 Spell  
@@ -1343,10 +1339,10 @@ Action: Major
 Prerequisites: None  
 Range: Short (or Medium, see Effect)  
 Targets: 1 enemy  
-Cost: 8 HP  (Optional +4 HP, see Effect)  
+Cost: 8 HP  
 Damage: x2  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
-Description: A powerful and unusual short-ranged Spell, which can be used from a greater distance at greater cost. This could be channeling blood magic, diverting energy to weapons for a powerful strike, charging a weapon with spiritual power, or something similar.
+Description: A powerful and unusual short-ranged Spell that can be used from a greater distance at greater cost. This could be channeling blood magic, diverting shield energy to weapons for a powerful strike, enhancing a physical projectile with spiritual power, or something similar.
 
 #### Carry  
 Attack  
@@ -1356,7 +1352,7 @@ Range: Melee
 Targets: 1 enemy that you have [Grabbed](#grab)  
 Cost: 5 HP  
 Damage: x1  
-Effect: If this Ability hits, you and the target enemy move one Zone.  
+Effect: If this Ability hits, you and the target enemy move one Zone. This Ability ignores the Grab state's prohibition on movement.  
 Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
 #### Chilling Bolt  
@@ -1367,8 +1363,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Ice)  
-Duration: 3 rounds  
-Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for three rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
+Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for 3 Rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering ice damage. This can be a winter incantation, drawing the heat away from your target, a freeze ray, a literal cold glare, or similar effects.
 
 #### Coordinated Stride  
@@ -1399,8 +1394,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Earth)  
-Duration: 2 rounds  
-Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for two rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
+Effect: If this Ability hits, the target becomes [Crushed](#crush-x) for 2 Rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, a gravity ray, just throwing a big rock, or similar effects.
 
 #### Crushing Demand  
@@ -1629,7 +1623,7 @@ Range: Medium
 Targets: 1 enemy, 1 ally  
 Cost: 10 MP  
 Damage: x2 (Light)  
-Effect: If this Ability hits your target, choose one ally. That ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
+Effect: If this Ability hits the enemy target, the chosen ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
 Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
 
 #### Rally  
@@ -1672,8 +1666,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Fire)  
-Duration: 1 round  
-Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) until the end of your next Turn. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
+Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) for 1 Round. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering fire damage. This can be a fire incantation, flinging molten rock at your target, a flamethrower, an insult so powerful it results in an actual burn, or similar effects.
 
 #### Shocking Bolt  
@@ -1684,8 +1677,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Sky)  
-Duration: 2 rounds  
-Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for two rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
+Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for 2 Rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
 Description: Anything that does lingering sky damage. This can be a thunder incantation, rattling a foe with sonic force, a lightning ray, music that is electric, or similar effects.
 
 #### Second Wind  
@@ -1775,8 +1767,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 10 MP  
 Damage: x2 (Dark)  
-Duration: 2 round  
-Effect: If this Ability hits, the target becomes [Enervated](#enervate) for two rounds.  
+Effect: If this Ability hits, the target becomes [Enervated](#enervate) for 2 Rounds.  
 Description: Anything that does lingering darkness damage. This can be a dark incantation, invoking the aid of a dark spirit, a gravity weapon, speaking a curse that drains a foe's resolve, or similar effects.
 
 ------------
