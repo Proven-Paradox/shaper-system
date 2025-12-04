@@ -1536,20 +1536,16 @@ Effect: You move to the target ally's Zone. If you are in the same Zone as the t
 You may choose to use Mobile Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 #### Pickup  
 Auxiliary [Healing]  
 Action: Major  
 Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
 Range: Melee  
-Targets: One [Unconscious](#unconscious) Ally  
+Targets: One unconscious ally  
 Cost: 15 MP  
 Cooldown: 10 rounds  
 Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
-Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target with an adrenaline syringe to get them back up, or similar effects. If appropriate to the setting, this might also represent a resurrection spell or effect.  
+Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target with an adrenaline syringe, or similar effects. If appropriate to the setting, this might also represent a resurrection.  
 
 #### Pin Down  
 Attack [Status]  
@@ -1560,8 +1556,7 @@ Targets: 1 enemy
 Trigger: An opponent in melee range attempts to move away from you.  
 Cost: 6 MP  
 Damage: x1  
-Duration: 1 round  
-Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#root) until the beginning of their next Turn.  
+Effect: If this Attack hits, the movement that triggered this Ability is canceled and the target becomes [Rooted](#root) for 1 Round.  
 Description: Keeping an opponent from getting away from you. This could be shoulder checking your foe to keep them close, attacking their feet, or similar maneuvers.
 
 #### Psych Up  
@@ -1572,8 +1567,8 @@ Range: None
 Targets: Self  
 Cost: 8 HP  
 Cooldown: 4 Rounds  
-Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).
-Description: Winding up for a powerful attack. This could represent charging your weapon with power, winding up for a huge punch, charging up a laser weapon, or similar effects.
+Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).  
+Description: Preparing for a powerful attack. This could represent charging your weapon with power, winding up for a huge punch, charging up a laser weapon, or similar effects.
 
 #### Psychic Blast  
 Spell [Careful]  
@@ -1584,7 +1579,7 @@ Targets: 1 Zone
 Cost: 10 MP  
 Damage: x1 (Special)  
 Effect: This Spell damages MP instead of HP. If you use your Minor Action while using this Ability, you can exclude one target in the area.  
-Description: You assault a group's minds. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling beam, or something similar.  
+Description: You assault a group's minds. This can represent invoking a spell to cause fear, psychically draining the target, firing a brain scrambling weapon, or something similar.  
 
 #### Purging Dart  
 Spell  
@@ -1594,8 +1589,8 @@ Range: Short
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x1   
-Effect: If this Spell hits, the target is also affected by [Purge](#purge) at no additional cost.  
-Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet adjusted to disrupt a foe's systems, or similar measures.  
+Effect: If this Spell hits, the target is also affected by Purge at no additional cost.  
+Description: You disrupt a foe with a quick spell. This can be a disenchantment spell, a bullet designed to disrupt a foe's systems, or similar measures.  
 
 #### Purging Strike  
 Attack  
@@ -1605,7 +1600,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x2   
-Effect: If this Attack hits, the target is also affected by [Purge](#purge) at no additional cost.  
+Effect: If this Attack hits, the target is also affected by #purge at no additional cost.  
 Description: You neutralize a foe's advantages by striking them. This could represent counter spell runes drawn onto your weapon, a punch that disrupts the target's concentration, or similar techniques.  
 
 #### Push Through  
@@ -1616,7 +1611,7 @@ Range: None
 Targets: Self  
 Trigger: You would otherwise hit 0 HP  
 Cost: None (but see Special)  
-Effect: Note how much damage beyond 0 HP the triggering damage would do, referred to as the overkill damage. Make an [Endure](#endure) check with a target of 10 + the overkill damage. On success, you instead fall to 1 HP.  
+Effect: Note how much damage beyond 0 HP the triggering damage would do, referred to as the overkill damage. Make an [Endure](#endure) check with a target of 10 + the overkill damage. On success, you remain conscious at 1 HP.  
 Special: You roll on the [Injury Type Table](#injury-type-table) when you use this Ability. If you fail the Endure check, you roll a second Injury. Injuries take effect after the Endure check.  
 Description: Pushing through otherwise disabling damage, at risk of significant further harm if the strain is too much. This can be gritty determination, a state of focus that trancends pain, emergency stimulants, or similar measures.  
 
@@ -1629,7 +1624,7 @@ Targets: 1 enemy, 1 ally
 Cost: 10 MP  
 Damage: x2 (Light)  
 Effect: If this Ability hits the enemy target, the chosen ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
-Description: Channeling Light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
+Description: Channeling light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
 
 #### Rally  
 Auxiliary [Healing] [Augment]  
@@ -1639,7 +1634,7 @@ Range: Medium
 Targets: 1 ally  
 Cost: 10 MP  
 Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a die roll.  
-Description: Simultaneously healing an ally and preparing them for further combat. This could represent invoking healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
+Description: Simultaneously healing an ally and preparing them for further combat. This could represent healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
 
 #### Restrain  
 Spell [Status]  
@@ -1649,7 +1644,6 @@ Range: Short
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: 0  
-Duration: Variable, see Effect  
 Effect: On a successful hit, the target is [Rooted](#root) for 1 round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 rounds.  
 Description: Denying the enemy the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
 
@@ -1660,8 +1654,12 @@ Prerequisites: [Guard](#guard)
 Range: None  
 Targets: Self  
 Cost: 2 MP  
-Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-strike)  
+Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-strike).  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
+
+```
+TODO: Continue review of existing text here; high priority
+```
 
 #### Searing Bolt  
 Spell [Elemental] [Fire] [Status]  
