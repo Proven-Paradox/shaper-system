@@ -1657,10 +1657,6 @@ Cost: 2 MP
 Effect: Your next Attack or Spell is affected by [Guardian Strike](#guardian-strike).  
 Description: Preparing to strike using defensive attributes rather than offense. This could represent a change in stance, re-calibrating energy shields, or similar measures.
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 #### Searing Bolt  
 Spell [Elemental] [Fire] [Status]  
 Action: Major  
@@ -1692,7 +1688,7 @@ Targets: Self
 Cost: 5 MP  
 Cooldown: 3 rounds  
 Effect: You regain health equal to 2 times your [Vitality](#vitalitycapacity).  
-Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s vitality and focus.
+Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s health.
 
 #### Shieldshatter  
 Attack [Curse]  
@@ -1703,7 +1699,7 @@ Targets: 1 enemy
 Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
-Description: Dealing damage while compromising the opponent's defensive capabilities. This can be an attack that strikes the opponent's armor, a technique that damages the target's shield or armor, applying a curse with the strike, or similar measures.
+Description: Dealing damage while compromising the opponent's defensive capabilities. This can be a technique that damages the target's shield or armor, delivering a curse spell through a weapon, deploying a chemical that eats away the target's defenses, or similar measures.
 
 #### Sprint  
 Auxiliary  
@@ -1713,10 +1709,13 @@ Range: None
 Targets: Self  
 Cost: 6 HP  
 Effect: Move 2 Zones.  
-Description: This Ability represents someone able to push themselves to the limit and putting their health at risk to move at high speed.  
+Description: This Ability represents a quick character pushing beyond their limits to move at high speed. The HP cost makes this pace unsustainable for most.  
 
-> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Run can move 4 Zones per round, but not forever.  
+> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Zones per round.  
 
+```
+TODO: Consider improving Subversive Scan; low priority
+```
 #### Subversive Scan  
 Spell [Curse]  
 Action: Major  
@@ -1726,7 +1725,7 @@ Targets: 1 enemy
 Cost: 3 MP  
 Damage: 0  
 Effect: You learn the target's properties as if you affect them with Scan. After that, if you hit with this Ability the target also decreases their [Defensive Track](#the-defensive-track) or [Offensive Track](#the-offense-track) by 1.  
-Description: Analyzing enemy capabilities while also damaging them. This could be a psychic assault that reads the mind it is damaging, hacking into an opponent's equipment and messing it up, a curse that reveals its target's secret weaknesses to the user, or something similar that can read information while also hobbling their target.  
+Description: Analyzing enemy capabilities while also damaging them. This could be a psychic assault that reads the mind it is damaging, hacking into an opponent's equipment, a curse that reveals its target's secret weaknesses to the user, or something similar that can read information while also hobbling their target.  
 
 #### Suspend  
 Spell  
@@ -1750,7 +1749,7 @@ Targets: 1 enemy
 Cost: 6 MP  
 Duration: Variable; see Effect  
 Effect: The target becomes [Afraid](#afraid) of you for 1 Round. If you land a [Solid Hit](#solid-hit) this lasts for 2 Rounds. On a [Critical Hit](#critical-hit), this lasts for 3 Rounds.  
-Description: You do something that compels your opponent to run away from you. This could be a psychic attack, producing horrifying illusions, injecting your target with a toxin that produces a panic, giving a terrifying roar, or similar actions.  
+Description: You do something that compels your opponent to run away from you. This could be a psychic attack, producing horrifying illusions, injecting your target with a toxin that causes panic, a terrifying roar, or similar actions.  
 
 #### To the Rescue  
 Auxiliary    
@@ -1775,12 +1774,17 @@ Description: Anything that does lingering darkness damage. This can be a dark in
 
 ------------
 # Chapter 6: Skills
-Skills represent what your character is good at more broadly than Abilities. Skills are general purpose things and are usually rolled outside of combat (though they may come up in combat at times).  
+Skills represent what your character broadly capable of aside from fighting. These are general purpose and usually rolled outside of combat.  
 
-Skill checks should only occur when there is some sort of pressure or danger present in a situation, or if the action being attempted is of non-trivial difficulty. For example, the Arbiter generally should not call for a Skill check to do something as trivial as climbing a ladder. However, if you're rushed, being attacked, the ladder is damaged and unstable, or under similar duress, you will need a Skill check. Doing something inherently dangerous, such as trying to climb a sheer cliff face, also requires a Skill check. For all of these examples, these checks would be a combination of Athletics, Acrobatics, with occasional Endure checks.  
-Skills can also be used to answer questions about a related subject. For example, if you needed to know how much weight a pillar can bear, you can make a Construct check. To identify a song being played by someone else, roll a Performance check. To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check. To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.   
+Roll skill checks when there is pressure or danger in a situation or if the action being attempted is significantly difficult. For example, the Arbiter should not call for a check to do something trivial like climbing a ladder. A Skill check would be appropriate if you're rushed, being attacked, the ladder is damaged and unstable, or something similar to make scaling it treacherous.  
+Skills can also be used to answer questions about a related subject. For a few examples:  
+* If you need to assess how much weight a pillar can bear you can make a Construct check.  
+* To identify an otherwise unfamiliar song, roll a Performance check.  
+* To know the correct greeting in a formal situation in an unfamiliar land, make a Diplomacy check.  
+* To estimate the value of a pocket watch or a cut jewel you’ve found, make a Craft check.  
+And so on.
 
-| Target number | Skill level          |
+| Target number | Task difficulty      |
 |---------------|----------------------|
 | 5             | Trivial              |
 | 10            | Easy                 |
@@ -1789,15 +1793,18 @@ Skills can also be used to answer questions about a related subject. For example
 | 30            | Exceptional          |
 
 ## Skill Attributes
-Each Skill has two associated Attributes. All skills of that type add those two Attributes to those Skill checks.  
+Each Skill has two associated [Attributes](#step-1-attributes). When a character makes a Skill check, they add the two associated Attributes to the result. For example, the Athletics skill always includes a character's Strength and Toughness Attributes. Empathy check add a character's Heart and Soul, and so on.  
 
 ## Skill Points  
 You can spend Skill Points on each skill to raise its Base Bonus by 1. You start the game with 20 Skill Points to spend, and can purchase 5 Skill Points for 1 XP.  
 The maximum number of Skill Points that can be invested into any one Skill is equal to your [Max Potential](#max-potential) + 3.  
 
 ### Helping Others
-In situations where others need help with a skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
+In situations where others need help with a Skill you are well trained in, you can make the roll in their place. When you do this, you roll with half of your modifier. The character you are helping then treats that result as their own. Note that it is not always possible to help others with their checks.
 
+```
+TODO: Revisit this option. Not sure it's worth the added text. Low priority
+```
 ### Raising the Stakes
 You may choose to raise the target of a Skill check in order to get better results. If you do this, you fail the check if you don't meet the increased target, *even if you would have met the unaltered target*.  
 
@@ -1829,93 +1836,93 @@ For a tie during opposed Skill checks (such as Empathy versus Deception or Aware
 
 #### Acrobatics  
 Attributes: Strength, Finesse  
-Balancing, tumbling, contorting. Tasks that require precise movements as well as power.
+Balancing, tumbling, contorting. Tasks that require precise movement as well as power.  
 
 #### Athletics  
 Attributes: Strength, Toughness  
-Jumping, climbing, swimming, lifting, pushing, and pulling. Tasks that require muscle and endurance.
+Jumping, climbing, swimming, lifting, pushing, and pulling. Tasks that require muscle and endurance.  
 
 #### Awareness  
 Attributes: Mind, Soul  
-Seeing, Hearing, Smelling, Tasting. This skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such perils.
+Seeing, Hearing, Smelling, Tasting. This Skill is for tasks about noticing things which would rather remain hidden. This can include people, traps, hidden doors, and other such perils.  
 
 #### Composure  
 Attributes: Toughness, Soul  
-Keeping your cool under duress. This is a reactive skill, used when the character sees something disturbing or frightening, is dealing with stress, or similar chances for one to snap under pressure.
+Keeping your cool under duress. This is a reactive Skill, used when the character sees something disturbing or frightening, is dealing with stress, or similar chances for one to snap under pressure.  
 
 #### Construct  
 Attributes: Toughness, Strength  
-Metal working, carpentry, masonry, and other heavy work. This skill is for building and repairing large objects with heavy materials.
+Metal working, carpentry, masonry, and other heavy work. This Skill is for building and repairing large objects with heavy materials.  
 
 #### Craft  
 Attributes: Finesse, Mind  
-Jewel cutting, wood carving, tinkering, and other precise work. This skill is for building and repairing objects where fine detail work is vital.
+Jewel cutting, wood carving, tinkering, and other precise work. This Skill is for building and repairing objects where fine detail work is vital.  
 
 #### Deception  
 Attributes: Mind, Heart  
-Lying, disguise, conning. This skill is called for any time you wish to mask the truth.  
-Alternatively, this skill can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing would be, the Arbiter may allow the player to roll a Deception check to get a suggestion for what to say in a given situation.
+Lying, disguise, conning. This Skill is called for any time you wish to mask the truth.  
+Alternatively, this can be used as a player aid. If a player happens to be less skilled at deception than the character they are playing should be, the Arbiter may allow the player to roll a Deception check for a suggestion of a lie that might work in a given situation.  
 
 #### Diplomacy  
 Attributes: Heart, Soul  
-Negotiation, decorum, sociability. This skill is used when a player wants to make a good impression in a social situation.  
-Alternatively, this skill can be used as a player aid. If a player happens to be less silver tongued than the character they are playing would be, the Arbiter may allow the player to roll a diplomacy check to get a suggestion for what to say in a given situation.
+Negotiation, decorum, sociability. This Skill is used when a player wants to make a good impression in a social situation.  
+Alternatively, this can be used as a player aid. If a player happens to be less socially adept than the character they are playing should be, the Arbiter may allow the player to roll a Diplomacy check to get a suggestion for what they could acceptably say in a given situation.  
 
 #### Drive  
 Attributes: Finesse, Mind  
-Handling vehicles or mounts. Options include a mount, a car, a ship, a plane, or anything similar. 
+Handling vehicles or mounts. Options include a steed, a car, a ship, a plane, or anything similar.  
 
 #### Empathy  
 Attributes: Heart, Soul  
-Gauging reactions, spotting bluffs, reading moods. If the player wants to learn what someone else is thinking or suspects they’re being lied to, they should utilize this skill.
+Gauging reactions, spotting bluffs, reading moods. If the player wants to learn what someone else is thinking or suspects they’re being lied to, they should utilize this Skill.  
 
 #### Endure  
 Attributes: Toughness, Heart  
-Pain tolerance, doing without, pressing on. This is a reactive skill: if a player is subject to forces that would impair their functioning, they can shrug it off with a successful Endure check.
+Pain tolerance, doing without, pressing on. This is a reactive Skill: if a player is subject to forces that would impair them they can shrug it off with a successful Endure check.  
 
 #### History  
 Attributes: Mind, Soul  
-Knowledge about the past. Who did what, where, when. The more important events tend to be more well known, while local or subtle knowledge would require deeper research.
+Knowledge about the past. Who did what, where, when. Important events tend to be more well known, while local news or subtle details require deeper knowledge.  
 
 #### Intimidation  
 Attributes: Strength, Heart  
-Browbeating and bullying. When the player wants something and is willing to threaten others to get it, this is the skill to use.
+This Skill is for scaring or threatening other characters. When a character wants to get something by frightening others or wants to appear dangerous, this is the Skill to use.  
 
 #### Investigation  
 Attributes: Mind, Soul  
-Searching, researching, learning. With this skill, one can uncover knowledge otherwise obscure. Sample usages include examining a crime scene to find clues, asking around a settlement for information, or seeking an obscure reference in a library.
+Searching, researching, learning. With this Skill, one can uncover knowledge otherwise obscure. Sample usages include examining a crime scene to find clues, asking around a settlement for information, or seeking an obscure reference in a library.  
 
 #### Lore  
 Attributes: Mind, Soul  
-Forbidden secrets, occult rituals, and mysticism. This skill represents one’s exposure to obscure, often taboo knowledge.
+Forbidden secrets, occult rituals, and mysticism. This Skill represents one’s exposure to obscure, often taboo knowledge.  
 
 #### Medicine  
 Attributes: Mind, Finesse  
-Anatomical knowledge, herbalism, and performing medical procedures. If you need to suture a wound, identify a poison, diagnose a disease, and other such actions, you should make a Medicine check.
+Anatomical knowledge, understanding of medical substances, and performing medical procedures. If you need to suture a wound, identify a poison, diagnose a disease, and other such actions, make a Medicine check.  
 
 #### Nature  
 Attributes: Heart, Soul  
-Taming, raising, training, and understanding animals. Planting, tending to, and caring for plants. Understanding nature in an intuitive and nurturing sense.
+Taming, raising, training, and understanding animals. Planting, tending to, and caring for plants. Understanding nature in an intuitive and nurturing sense.  
 
 #### Performance  
 Attributes: Finesse, Heart  
-Singing, dancing, storytelling. This skill is used to gauge how entertained a crowd is with a show.
+Singing, dancing, storytelling. This Skill represents how well a character can entertain or affect people with a show.  
 
 #### Sabotage  
 Attributes: Finesse, Mind  
-Lock picking, trap laying, trap disabling. If you need to make some construction stop working or set up a nasty surprise for pursuers, this is the skill to use.
+Lock picking, trap laying, trap disabling. If you need to pop open a lock, make some construction stop working, or set up a nasty surprise for pursuers, this is the Skill to use.  
 
 #### Science  
 Attributes: Mind, Soul  
-Chemistry, biology, zoology, proper experiment design, and the like. Alchemy in settings where that's appropriate as well. Essential skills for understanding the world accurately. Understanding nature in a measured and studious sense.
+Chemistry, biology, zoology, proper experiment design, and the like. Alchemy in settings where that's appropriate as well. Understanding nature in a measured and studious sense.  
 
 #### Stealth  
 Attributes: Finesse, Mind  
-Sneaking, hiding, stealing. The preferred skill of thieves and spies. This includes pick pocketing.
+Sneaking, hiding, pick poecketing, and stealing. The preferred Skill of thieves and spies.  
 
 #### Streetwise  
 Attributes: Mind, Heart  
-Knowledge about the present. Understanding everyday goings on the seedier side of life. This skill lets you know what parts of town belong to what gangs, what a given bit of graffiti means, the price of illicit goods, and similar bits of knowledge.
+Knowledge about the present, especially regarding criminal, subversive, or underground elements of society. This Skill allows you to learn where one can find specific goods for sale, what parts of town belong to what gangs, what a given bit of graffiti means, and similar information.  
 
 #### Survival  
 Attributes: Toughness, Soul  
@@ -1923,8 +1930,11 @@ Navigating, tracking, hunting. Survival enables a character to know what directi
 
 #### Tech  
 Attributes: Finesse, Mind  
-Operating all sorts of computers, general technical savviness, hacking, and the like.
+Operating all sorts of computers, general technical savvy, hacking, and the like.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ------------
 # Chapter 7: Lessons
 Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
@@ -2596,7 +2606,7 @@ You are afflicted with a condition that causes you to weaken over time. This cou
 > For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains a hit that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.  
 
 ### Enervate  
-Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all life recovery you would receive by half for its duration.  
+Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all healing you receive by half for its duration.  
 
 ### Fatigue  
 Tired in a way that interferes with your defenses. All damage multipliers against Fatigued characters are increased by 1.  
