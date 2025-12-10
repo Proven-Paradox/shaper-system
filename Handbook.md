@@ -1937,15 +1937,15 @@ TODO: Continue review of existing text here; high priority
 ```
 ------------
 # Chapter 7: Lessons
-Broadly speaking, Lessons represent passive combat benefits or extra options available to someone trained in specific style of combat. Some Lessons will list prerequisites; if that is the case then you must meet these prerequisites to be able to take the Lesson, and if you ever fail to meet those prerequisites you gain no benefit from the associated Lesson.  
-Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
+Broadly speaking, Lessons represent passive benefits or extra options available to someone trained in specific fighting style.  
+
+Some Lessons have prerequisites; you must meet these prerequisites to take the Lesson. Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
 
 #### A Curse Most Foul  
-When using a Curse Ability, you may choose one or both of the following benefits.
-* If the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
-* The victim of your Curse also takes damage equal to half of your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Ability is an Attack, or Mental Offense if the Ability is a Spell.
+When using a Curse Ability, your target also takes damage equal to half of your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Curse is an Attack, or Mental Offense for a Spell. This extra damage is the same [Damage Type](#damage-types) as the Curse you use. For Curses that don't do damage without this Lesson, the damage type is Dark.  
+In addition, if the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 
-> Reminder: all fractions round down. If your Offense is 5, then you add 2 damage when using the section benefit.
+> Reminder: all fractions round down. If your Offense is 5, then you add 2 damage from this Lesson.  
 
 #### Ability Specialist  
 Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
