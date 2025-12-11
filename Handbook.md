@@ -1955,7 +1955,7 @@ You choose which benefit you gain every time you use the Ability and may choose 
 You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
 
 #### Advantageous Recovery  
-When you strike a foe’s [Elemental weakness](#elemental), you regain MP equal to half your [Hero Tier](#hero-tier), up to a maximum equal to the MP used to perform the Ability. Striking multiple times or foes with an Ability does not restore HP or MP more than once.  
+When you strike a foe’s [Elemental weakness](#elemental), you regain MP equal to half your [Hero Tier](#hero-tier), up to the MP Cost of the Ability used. Striking multiple times or foes with an Ability does not restore HP or MP more than once.  
 
 #### Aggressive Provocation  
 You may apply [Guardian Strike](#guardian-strike) on any Ability that targets a foe you have [Provoked](#provoke). When striking multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
@@ -2004,21 +2004,21 @@ Whenever you spend MP to cast a damaging Spell, you may increase its Cost by the
 #### Manamend
 When you use a [Healing](#healing) Ability, you may increase the MP Cost by its [Ability Tier](#ability-tiers) to add your [Capacity](#vitalitycapacity) to the HP restored.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
 #### Masochism  
-Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
+Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.  
 
 #### Mend or Rend  
-On the turn after using an Auxiliary Ability with the Healing tag, you gain Boon +2 on all Short or Melee Range Attacks.  
-On the turn after using a Short or Melee Range Attack, your Auxiliary Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
+On the turn after using a [Healing](#healing) Ability, you gain Boon +2 on all Short or Melee Range Attacks.  
+On the turn after using a Short or Melee Range Attack, Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
 
+```
+TODO: Reconsider. Might be too niche. Low priority.  
+```
 #### Nerves of Steel  
 Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. If this reduces the effect to 0 Rounds, the action fails outright.  
 
 #### Overcharge  
-If your healing would bring your target above maximum HP, the target gains [Shield](#shield-x) to the excess. Targets can only have one Shield from this Lesson; if a larger Shield would be applied by this Lesson, the smaller one fades immediately. The Shield also fades at the start of your next Turn.
+If a [Healing](#healing) Ability would bring your target above maximum HP, they gain [Shield](#shield-x) equal to the excess Healing. Targets can only have one Shield from this Lesson; if a larger Shield would be applied the smaller one fades immediately. The Shield also fades at the start of your next Turn.  
 
 #### Oppressor  
 When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them. The effect lasts one round per [Hero Tier](#hero-tier).
