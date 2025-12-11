@@ -2021,7 +2021,7 @@ Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. I
 If a [Healing](#healing) Ability would bring your target above maximum HP, they gain [Shield](#shield-x) equal to the excess Healing. Targets can only have one Shield from this Lesson; if a larger Shield would be applied the smaller one fades immediately. The Shield also fades at the start of your next Turn.  
 
 #### Oppressor  
-When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them. The effect lasts one round per [Hero Tier](#hero-tier).
+When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them until your next Turn.  
 
 #### Quick Healer  
 Once per round, increase any HP restoration you receive by half. 
