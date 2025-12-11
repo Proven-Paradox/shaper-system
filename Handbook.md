@@ -492,13 +492,13 @@ There are three types of Abilities:
 Some Abilities fit into sets denoted by Keywords. These signify a related set of Abilities for the purposes of Lessons and Talents. Some alter the way an Ability functions.  
 
 #### Augment  
-Abilities that strengthen allies. These will generally include a Duration or Upkeep.  
+Abilities that strengthen allies. These will generally include a Duration or [Upkeep](#upkeep).  
 
 #### Careful  
 Abilities that can be strengthened by spending extra time and effort. These require a Major Action but are improved (as noted in that Ability's description) if you use your Minor Action as well.  
 
 #### Curse  
-Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an Upkeep cost associated with it the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
+Abilities that leave a lingering weakening effect on the target when they hit. If the Ability has an [Upkeep](#upkeep) cost associated with it the effect lasts as long as the Upkeep is paid. It otherwise lasts until it is dispelled with another Ability.  
 
 #### Elemental  
 Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. When you strike an opponent's Weak Element, roll three dice during your Offense Roll and take the **higher** two dice. When striking an opponent with an Element they Resist you also roll three dice but take the **lower** two results. Immune targets take no damage from that Element.  
@@ -1932,9 +1932,7 @@ Navigating, tracking, hunting. Survival enables a character to know what directi
 Attributes: Finesse, Mind  
 Operating all sorts of computers, general technical savvy, hacking, and the like.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
+
 ------------
 # Chapter 7: Lessons
 Broadly speaking, Lessons represent passive benefits or extra options available to someone trained in specific fighting style.  
@@ -1942,71 +1940,73 @@ Broadly speaking, Lessons represent passive benefits or extra options available 
 Some Lessons have prerequisites; you must meet these prerequisites to take the Lesson. Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
 
 #### A Curse Most Foul  
-When using a Curse Ability, your target also takes damage equal to half of your [Offense](#step-2-b-offensedefense). Use Physical Offense if the Curse is an Attack, or Mental Offense for a Spell. This extra damage is the same [Damage Type](#damage-types) as the Curse you use. For Curses that don't do damage without this Lesson, the damage type is Dark.  
+When using a Curse Ability, your target also takes damage equal to half of your [Offense](#step-2-b-offensedefenseinitiative). Use Physical Offense if the Curse is an Attack, or Mental Offense for a Spell. This extra damage is the same [Damage Type](#damage-types) as the Curse you use. For Curses that don't do damage without this Lesson, the damage type is Dark.  
 In addition, if the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 
 > Reminder: all fractions round down. If your Offense is 5, then you add 2 damage from this Lesson.  
 
 #### Ability Specialist  
-Choose one Ability you already know. When you use that Ability, you may gain one of the following benefits:  
-* Increase the Ability's Range by one increment. (So Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.)  
-* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial cost, not  Upkeep. This cannot reduce an Ability cost below 0.  
+Choose one Ability you know. When you use that Ability, you gain one of the following benefits:  
+* Increase the Ability's Range by one increment. Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.  
+* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial cost, not [Upkeep](#upkeep). This cannot reduce an Ability cost below 0.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
 
-You choose which benefit you gain every time you use the Ability and may choose different benefits on different rounds.  
+You choose which benefit you gain every time you use the Ability and may choose different benefits each time.  
 You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
 
 #### Advantageous Recovery  
-When you strike a foe’s elemental weakness, you regain MP equal to half your [Base  Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the striking Ability. This Lesson can only be activated once per Ability use; striking multiple foes with one Ability cannot restore HP or MP more than once.
+When you strike a foe’s [Elemental weakness](#elemental), you regain MP equal to half your [Base Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the Ability. Striking multiple times or foes with an Ability does not restore HP or MP more than once.  
 
 #### Aggressive Provocation  
-When you target an opponent you have [Provoked](#provoke) with an Attack or Spell, you may apply [Guardian Strike](#guardian-strike) If you're using and Ability that strikes multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
+You may apply [Guardian Strike](#guardian-strike) on any Ability that targets a foe you have [Provoked](#provoke). When striking multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
 
 #### Anger  
-Whenever you receive damage you may enter an Enraged state. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP due to low Endurance during a chase) does not count as damage. Damage from any source can activate Anger. While Enraged, your Physical and Mental Offense increases by 2, but your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged.
+Whenever you receive damage you may enter an Enraged state. Damage from any source can activate Anger. While Enraged your Physical and Mental Offense increases by 2 and your Physical and Mental Defense decreases by 3. If you end your Turn without having received damage since the end of your previous Turn, you are no longer Enraged. Spending HP to use an Ability or any effect described as “lose life” (such as losing HP from [Degeneration](#degeneration)) does not count as damage.  
 
 #### Ataraxia  
 Prerequisite: [Brace](#brace)  
-While [rooted](#root), you may reduce the MP cost of any Spells you cast by their [Ability Tier](#ability-tiers) (to a minimum of 0).  
+While [Rooted](#root), you may reduce the MP cost of any Spells you cast by their [Ability Tier](#ability-tiers) (to a minimum of 0).  
 
 #### Combo Striker
 Every time you successfully hit an opponent with a single target Melee or Short range Attack, you gain one Combo point. Each Combo point gives you Boon +1 on subsequent Attacks, to a maximum of your [Hero Tier](#hero-tier) plus 1. If you miss with an Attack, change targets, or fail to use a Short or Melee range Attack on your current target during your Turn, you lose all Combo points.  
 Abilities that can optionally target multiple foes (such as [Double Strike](#double-strike)) can be used with Combo Striker, but only if a single foe is chosen for all effects.  
 
+```
+TODO: Reconsider this effect. Currently feels weak. Low priority  
+```
 #### Curse Resistant  
-Curse Abilities that target you do so at Bane -2.
+[Curse](#curse) Abilities that target have Bane -2.  
 
 #### Elemental Attunement  
-When you gain this Lesson, pick one of the following: Fire, Cold, Sky, Earth, Light, or Dark. Whenever you use an Ability with the [Elemental] tag, you may chose to deal damage of the corresponding type.  
-Special: You may take this Lesson more than once, choosing a different element each time. The first time you gain an Ability with the [Elemental] tag, you also automatically gain Elemental Attunement for free once.  
+When you gain this Lesson, pick an [Element](#elemental). You may choose that Element when using an Ability with the [Elemental] tag. You may take this Lesson more than once, choosing a different element each time.  
 Every instance of this Lesson costs 3 XP.  
 
 #### First to Act  
 Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
 
 #### Fortifying Voice  
-When you target creatures with an Augment, all affected gain [Shield](#shield-x) equal to your [Mental Defense](#mental-defense) - 10.
+When you target creatures with an [Augment](#augment), all affected gain [Shield](#shield-x) equal to your [Mental Defense](#mental-defense) - 10.  
 
 #### Hit and Run  
-Once per Turn when you use a melee range Attack, you can move 1 Zone as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
+Once per Turn when you use a [Melee Range](#range) Attack, you can move 1 Zone as part of the Attack. You can do this before or after making the Attack. This Lesson has [Cooldown](#cooldown) 3.
 
 #### Melee Mage  
-When using a Spell that normally has a range of Medium or better against a foe who is within Melee range of you, you may reduce the MP cost by its [Ability Tier](#ability-tiers) (to a minimum of 0).  
-
-#### Reliable Healing  
-When casting a Healing Ability, you may roll an additional die. Remove the lowest die from your total result.
+When using a Spell with [Medium Range](#range) or better on a target within Melee Range, you may reduce the MP cost by its [Ability Tier](#ability-tiers), minimum 0.  
 
 #### Lingering Provocation  
-Any time you [Provoke](#provoke) a target, that Provocation lasts for 2 rounds.
+[Provoke](#provoke) states you cause last 2 Rounds.  
 
 #### Manamaim
-Whenever you spend MP to cast a damaging Spell, you may increase the MP cost by the Spell's tier. If you do, add your [Capacity](#vitalitycapacity) to your damage. This extra damage is not included in multipliers.
+Whenever you spend MP to cast a damaging Spell, you may increase its Cost by the Spell's [Ability Tier](#ability-tiers) to add your [Capacity](#vitalitycapacity) to your damage after applying its [Damage Multiplier](#damage).  
 
-> Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.
+> Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.  
 
 #### Manamend
-Whenever us an Ability that heals HP damage, you may increase the MP cost by the Ability's tier. If you do, add your [Capacity](#vitalitycapacity) to the total healing done.
+When you use a [Healing](#healing) Ability, you may increase the MP Cost by its  [Ability Tier](#ability-tiers) to add your [Capacity](#vitalitycapacity) to the HP restored.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 #### Masochism  
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.
 
@@ -2033,6 +2033,11 @@ When you successfully strike with an Ability that forces a target to move, you g
 
 Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
 
+#### Reliable Healing  
+When casting a [Healing](#healing) Ability, you may roll an additional die. Remove the lowest die from your total result.  
+
+> For example: Gutoku uses [Healing Tough](#healing-tough) on an ally. He chooses to pay the extra cost, so he rolls two dice to determine how much he heals. If he has this Lesson, he rolls three dice and drips the lowest. He rolls 10, 2, and 6. He drops the 2, so his ally regains 16 HP.  
+
 #### Resilient Protector  
 While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
 
@@ -2056,7 +2061,7 @@ When you use a Scan Ability, choose one of the following benefits.
 * You [Mark](#marked) your target.  
 
 #### Sustaining Upkeep  
-When you pay an Upkeep cost in MP, you heal for that much HP.
+When you pay an [Upkeep](#upkeep) cost in MP, you heal for that much HP.
 
 ------------
 # Chapter 8: Utilities
@@ -2368,7 +2373,7 @@ Actions in combat are organized into Rounds (10 seconds in game) in which each c
 Each Round is broken down into three phases.
 
 ### Round Start  
-At the start of every Round, everyone pays the Upkeep of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
+At the start of every Round, everyone pays the [Upkeep](#upkeep) of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
 
 > It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
@@ -2677,7 +2682,7 @@ Linked States are conditions that involve two different combatants. In Linked St
 
 ### Grab  
 You are either keeping hold of a target (the Controller) or in another's clutches (the Captured). Neither the Controller nor the Captured can move.  
-At the beginning of the Controller's Turn, they make an Offense roll against their target (Physical for Attacks, Mental for Spells as usual); if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an Upkeep cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
+At the beginning of the Controller's Turn, they make an Offense roll against their target (Physical for Attacks, Mental for Spells as usual); if this roll fails the Captured escapes the Controller's grasp. Controllers may only Grab one creature at a time. Maintaining the Grab Linked State always has an [Upkeep](#upkeep) cost, specified in the Ability that starts the Grab. At [Round Start](#round-start), the Controller can end the Grab by simply not paying the Upkeep and releasing the Captured.  
 Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
 A single target can be Grabbed by multiple targets. In this case, the Captured must escape each Controller separately.  
 
