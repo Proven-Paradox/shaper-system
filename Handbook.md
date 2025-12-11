@@ -2024,29 +2024,28 @@ If a [Healing](#healing) Ability would bring your target above maximum HP, they 
 When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them until your next Turn.  
 
 #### Quick Healer  
-Once per round, increase any HP restoration you receive by half. 
+Once per Round, increase any HP healing by half.  
 
 #### Relentless  
-When you successfully strike with an Ability that forces a target to move, you gain the following benefits.  
-* You may automatically move toward the target as many spaces as you forced them to move. If you forced multiple targets to move, choose one to follow.
-* Your target is [Rooted](#root) until your next Turn.  
-
-Upon using this Lesson, it goes on [Cooldown](#cooldown) for 3 Rounds.  
+When you successfully strike with an Ability that forces a target to move, you may automatically move toward the target as many Zones as you forced them to move. If you forced multiple targets to move, choose one to follow. Your targets are also [Rooted](#root) for 1 Round. This Lesson has [Cooldown](#cooldown) 3.  
 
 #### Reliable Healing  
 When casting a [Healing](#healing) Ability, you may roll an additional die. Remove the lowest die from your total result.  
 
-> For example: Gutoku uses [Healing Tough](#healing-tough) on an ally. He chooses to pay the extra cost, so he rolls two dice to determine how much he heals. If he has this Lesson, he rolls three dice and drips the lowest. He rolls 10, 2, and 6. He drops the 2, so his ally regains 16 HP.  
+> For example: Gutoku uses [Healing Touch](#healing-touch) on an ally. He chooses to pay the extra cost, so he rolls two dice to determine how much he heals. If he has this Lesson, he rolls three dice and drips the lowest. He rolls 10, 2, and 6. He drops the 2, so his ally regains 16 HP.  
 
+```
+TODO: Consider a minor buff. Maybe Shield? Low priority.
+```
 #### Resilient Protector  
-While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not apply when using your Defense in place of an Offense roll, such as when using [Demand](#demand).
+While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not increase your Offense rolls when using [Guardian Strike](#guardian-strike).  
 
 #### Sadism  
-When you kill or knock out a foe, increase your [Offensive Track](#the-offensive-track) by 1. Alternatively, you may become [Charged](#charged)
+When you kill or knock out a foe, you may increase your [Offensive Track](#the-offensive-track) by 1 or become [Charged](#charged).  
 
 #### Spell Sniper  
 Prerequisite: [Brace](#brace)  
-While [Rooted](#root), the range of any spell you cast increases by one Zone.
+While [Rooted](#root), the [Range](#range) of any Spell you cast increases by one Zone.  
 
 #### Spell Strike  
 If you successfully strike with an Attack Ability with your Major Action, you may use a Tier 1 Spell Ability that normally requires a Major Action as a Minor Action.  
@@ -2061,8 +2060,11 @@ When you use a Scan Ability, choose one of the following benefits.
 * You [Mark](#marked) your target.  
 
 #### Sustaining Upkeep  
-When you pay an [Upkeep](#upkeep) cost in MP, you heal for that much HP.
+When you pay an [Upkeep](#upkeep) cost in MP, you heal for that much HP.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ------------
 # Chapter 8: Utilities
 Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP. 
