@@ -1955,7 +1955,7 @@ You choose which benefit you gain every time you use the Ability and may choose 
 You may take this Lesson once per Hero Tier, choosing a different Ability each time.  
 
 #### Advantageous Recovery  
-When you strike a foe’s [Elemental weakness](#elemental), you regain MP equal to half your [Base Magic Offense](#base-physicalmental-offensedefense), up to a maximum equal to the MP used to perform the Ability. Striking multiple times or foes with an Ability does not restore HP or MP more than once.  
+When you strike a foe’s [Elemental weakness](#elemental), you regain MP equal to half your [Hero Tier](#hero-tier), up to a maximum equal to the MP used to perform the Ability. Striking multiple times or foes with an Ability does not restore HP or MP more than once.  
 
 #### Aggressive Provocation  
 You may apply [Guardian Strike](#guardian-strike) on any Ability that targets a foe you have [Provoked](#provoke). When striking multiple opponents, use your Offense bonus as normal for foes you have not Provoked.  
