@@ -2080,6 +2080,8 @@ In addition, when you break into a software system with your Tech skill, you may
 * Trolling: You can cause the system to play loud music or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
 Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.  
 
+dfgadfbgadfgadfg
+
 #### Asceticism  
 Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.  
 In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.  
