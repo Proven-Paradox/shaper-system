@@ -2011,9 +2011,7 @@ Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) eq
 On the turn after using a [Healing](#healing) Ability, you gain Boon +2 on all Short or Melee Range Attacks.  
 On the turn after using a Short or Melee Range Attack, Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
 
-```
-TODO: Reconsider. Might be too niche. Low priority.  
-```
+
 #### Nerves of Steel  
 Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. If this reduces the effect to 0 Rounds, the action fails outright.  
 
@@ -2067,7 +2065,7 @@ TODO: Continue review of existing text here; high priority
 ```
 ------------
 # Chapter 8: Utilities
-Broadly, Utilities are things your character can do that are not related to combat. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP. 
+Broadly, Utilities represent special option you can utilize that aren't combat oriented. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP.  
  
 ## Skill-based Utilities
 > Note: the skill bonuses on these skill-based Utilities are NOT [Skill Points](#skill-points) and are added ON TOP OF the character's Base Skill Bonus.  
