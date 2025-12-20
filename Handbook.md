@@ -2011,7 +2011,9 @@ Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) eq
 On the turn after using a [Healing](#healing) Ability, you gain Boon +2 on all Short or Melee Range Attacks.  
 On the turn after using a Short or Melee Range Attack, Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
 
-
+```
+TODO: Reconsider. Might be too niche. Low priority.  
+```
 #### Nerves of Steel  
 Reduce the duration of any action that makes you [Afraid](#afraid) by 1 Round. If this reduces the effect to 0 Rounds, the action fails outright.  
 
@@ -2060,9 +2062,6 @@ When you use a Scan Ability, choose one of the following benefits.
 #### Sustaining Upkeep  
 When you pay an [Upkeep](#upkeep) cost in MP, you heal for that much HP.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
 ------------
 # Chapter 8: Utilities
 Broadly, Utilities represent special option you can utilize that aren't combat oriented. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP.  
@@ -2073,20 +2072,26 @@ Broadly, Utilities represent special option you can utilize that aren't combat o
 
 #### 1337 H4xx0r  
 Increase your [Tech](#tech) and [Sabotage](#sabotage) modifiers by 1.  
-In addition, when you break into a software system with your Tech skill, you may choose one of the following.  
-* Logging: You leave a logger in the compromised system. This allows you to read all messages sent through or with the system.  
-* Framing: You can plant files into the specified system.  
-* Crashing: You can cause the system to crash. You can delay this crash for a specified amount of time, or set up the crash to occur under specific circumstances. Examples could be crashing when a given user logs in, upon visiting a given website, or when you set off a remote signal.  
-* Trolling: You can cause the system to play loud music or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
-Record the result of the Tech check that originally gets you into the system. Anyone searching for your meddling can do so by rolling an Investigation or Tech check equal to or greater than this check.  
+In addition, when you break into a system with your Tech skill, you may choose one of the following:  
+* Crashing: You cause the system to crash. This crash can happen immediately, after a delay you set, or under specific circumstances. Examples could be crashing when a given user logs in, visiting a specific website, or when you set off a remote signal.  
+* Framing: You plant files in the compromised system.  
+* Logging: You leave a logger in the compromised system. This allows you to read all messages sent through or with it.  
+* Trolling: You cause the system to play loud sounds, music, or videos, the nature of which is up to the hacker and should be calculated for maximum psychological damage.  
 
+When you do this, record the Tech check that originally got you into the system. Anyone attempting to undo your meddling must roll an [Investigation](#investigation) or Tech check equal to or greater than this check to succeed.  
+
+```
+TODO: Reconsider balance. This might be too useful. Low priority
+```
 #### Asceticism  
 Increase your [Composure](#composure) and [Endure](#endure) modifiers by 1.  
-In addition, you can go 2 weeks without food or water with no ill effect, no need to make Endure checks. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make Awareness checks while sleeping without penalty.  
+In addition, you can go 2 weeks without food or water with no ill effect. When you sleep, you enter a state of meditation and are still aware of the world around yourself. This enables you to awaken with full lucidity instantly and to make [Awareness](#awareness) checks while sleeping without penalty.  
 
 #### Credentialed Academic  
 Increase your [Endure](#endure) and your choice of [History](#history), [Lore](#lore), [Medicine](#medicine), [Nature](#nature), [Science](#science), or [Tech](#tech) modifiers by 1.  
-In addition, you have studied a topic related to the chosen field extensively. Your modifier in that field increases by an additional 3. You also have documents affirming your expertise. Finally, you have access to an academic venue willing to re-issue said documents if they are lost or destroyed and connections with other academics in that venue. Discuss the implications of this Utility with your Arbiter when you take it so both of you are able to apply this should it come up in your game.  
+In addition, you have studied a topic related to the chosen field extensively. Your modifier for checks within that field increases by an additional 3.  
+You also have documents affirming your expertise.  
+Finally, you have access to an academic venue. They are willing to re-issue said documents if they are lost or destroyed, and provide connections with other academics in that venue. Discuss the implications of this Utility with your Arbiter when you take it so both of you are able to apply this should it come up in your game.  
 
 | Chosen Skill | Example Specializations                                                   |  
 |--------------|---------------------------------------------------------------------------|  
@@ -2098,8 +2103,13 @@ In addition, you have studied a topic related to the chosen field extensively. Y
 | Tech         | Algorithms, computer science, information security, mathematics           |  
 
 > This Utility is intended for characters who have legitimately done the research and earned these credentials. Characters who have forged their documents or who got their academic positions through nepotism or skulduggery aren't covered here.  
+
 > I promise you: everyone who has made it through academia understands the Endure bonus.  
 
+
+```
+TODO: Continue review of existing text here; high priority
+```
 #### Dangerous Aura  
 Increase your [Diplomacy](#diplomacy) and [Intimidation](#intimidation) modifiers by 1.  
 In addition, you have a presence or air about you that leaves no doubt about your familiarity with violence. You inspire fear in most, gaining Boon +3 on Intimidation checks made against NPCs with no combat training. Meanwhile you inspire respect in fellow fighters, gaining Boon +3 on Diplomacy checks made with them.  
