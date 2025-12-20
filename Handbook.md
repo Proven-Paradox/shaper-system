@@ -2068,8 +2068,8 @@ TODO: Continue review of existing text here; high priority
 Broadly, Utilities represent special option you can utilize that aren't combat oriented. There is no limit to the number of Utilities a character can have. Unless otherwise stated, Utilities cost 3 XP.  
  
 ## Skill-based Utilities
-> Note: the skill bonuses on these skill-based Utilities are NOT [Skill Points](#skill-points) and are added ON TOP OF the character's Base Skill Bonus.  
-> For example, Elaahni wants to maximize her [Empathy](#empathy) checks. She is [Max Potential](#max-potential) 6, and has Heart 2 and Soul -1. She has purchased enough Skill Points to max her Base Skill Bonus at 6. 6 + 2 - 1 = 7. She also purchases the [Natural Intuition](#natural-intuition) and [Whispered Wisdom](#whispered-wisdom) Utilities, each of which increase her Empathy modifier by 1 more each. This gives her a total Empathy bonus of 9.
+> Note: the modifier increases from Utilities are NOT [Skill Points](#skill-points) and stack with the character's Base Skill Bonus.  
+> For example, Elaahni wants to maximize her [Empathy](#empathy) checks. She has [Max Potential](#max-potential) 6, Heart 2, and Soul -1. She has purchased enough Skill Points to max her [Realized Potential](#realized-potential) at 6. 6 + 2 (Heart) - 1 (Soul) = 7. She also purchases the [Natural Intuition](#natural-intuition) and [Whispered Wisdom](#whispered-wisdom) Utilities, each of which increase her Empathy modifier by 1. This gives her a total Empathy bonus of 9.  
 
 #### 1337 H4xx0r  
 Increase your [Tech](#tech) and [Sabotage](#sabotage) modifiers by 1.  
