@@ -2237,7 +2237,6 @@ You are able to commune with and communicate with plants. This may be through a 
 If they are getting adequate resources to grow, plants are generally pleasant conversationalists, often talking about weather patterns or similar topics. Trees will discuss the lives of the animals living within their branches, and grasses will talk about grazers coming for them and being stepped on. The specifics vary significantly depending on what type of plant: a blade of grass has a different mindset from an ancient redwood tree.  
 
 #### Sixth Sense  
-XP Cost: 5  
 You have a innate ability to sense supernatural influences. This can be angelic, demonic, undead, fey, eldritch, or anything between. When you focus your senses, you can detect if a supernatural being is within thirty feet of you. You know the creature’s general location and what sort of creature it is. You can also sense when supernatural forces have tampered with otherwise natural processes.
 
 #### Speak with the Ancient Dead  
