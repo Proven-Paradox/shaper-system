@@ -3,8 +3,8 @@ This page is still being actively updated. For the time being updates will be ir
 ```  
 TODO: Remove this notice; low priority: text is not yet done.  
 I'll use this spot to specify: These notes are both reminders for myself for  
-future plans, and also communicating to you readers what I'm up to and how I'm  
-prioritizing things.  
+future plans, and also communicating to readers what I'm up to and my 
+priorities.  
 ```  
 
 # Table of Contents  
@@ -2139,123 +2139,125 @@ Each Trap you set can have 2 of the following properties, chosen when you finish
 * The target is [Injured](#injuries). You choose which [Attribute](#step-1-attributes) is Injured. If you choose Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check equal to your Sabotage check to negate the Injury. If you choose Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
 
 #### Familiar Bond
-Increase the modifier of any one Skill by 1.  
-You can summon or create a familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. This familiar never participates in combat, hiding away where they will not be harmed. (For simplicity’s sake, you do not need to track the familiar during combat.) The familiar fetches objects, helps keep living areas tidy, can stand watch while your party rests, and other simple, non-violent tasks. If required to make a Skill check, the Familiar’s core stats are as follows:  
+Increase the modifier a Skill you choose by 1.  
+You can summon or create a Familiar to help with mundane tasks outside of combat. This could be a small animal bonded to you, an automaton you’ve built, an object you’ve infused with life, or something similar. The Familiar can fetch objects, keep living areas tidy, stand watch while your party rests, deliver messages, and other simple, non-violent tasks.  
+If required to make a Skill check, the Familiar’s [Attributes](#attributes) are:  
 Strength -1, Finesse 1, Toughness 0, Mind 1, Heart 1, Soul 1  
-Summoning a familiar is a ritual that requires an hour of uninterrupted work. This could be praying to nature spirits to send an ally, invoking the spirits of the dead to bind to a vessel, tinkering with clockwork components, or similar activities. If a familiar takes any damage at all, it immediately dies. The ritual for reviving a dead familiar or obtaining a new one is the same as acquiring the first one.  
-You may take this Utility up to 3 times, gaining a new Familiar and Skill boost each time. A given Skill can only be increased by Familiar Bond once.  
+Summoning a Familiar is a ritual that requires an hour of uninterrupted work. This could be praying to nature spirits for an ally, binding a specter to a vessel, tinkering with clockwork components, negotiating with a conjured spirit, or similar activities. If a familiar takes damage, it immediately dies, dissolves, or flees. The ritual for reviving, returning, or replacing a Familiar is the same as acquiring one. Familiars are useless in combat, usually hiding where they will not be harmed. (For simplicity’s sake, you do not need to track Familiars during combat.)  
+You may take this Utility up to 3 times, gaining an additional Familiar and Skill boost each time. A given Skill can only be increased by Familiar Bond once.  
 
 #### Gangster's Cant  
 Increase your [Deception](#deception) and [Streetwise](#streetwise) modifiers by 1.  
-In addition, you have learned the secret language of the criminal underworld. This allows you to understand signs and symbols to guide you to where such people gather and speak their language. A conversation spoken in Cant is impossible to follow without this knowledge.  
+In addition, you learn the secret language and etiquette of the criminal underworld. You understand signs and symbols to guide you to where such people gather and speak their coded language. A conversation spoken in Cant is impossible to follow without this knowledge.  
 
 #### Mountain Climber  
 Increase your [Acrobatics](#acrobatics) and [Athletics](#athletics) modifiers by 1.  
-You are acclimated to high elevations and can survive at high altitudes without penalty. You have Boon +4 on all checks made to climb a slope or wall or maintain your grip on a ledge.
+You are acclimated to high altitudes and can navigate them without penalty. You have Boon +4 on all checks made to climb a wall or maintain your grip on a ledge.  
 
 #### Natural Intuition  
 Increase your [Diplomacy](#diplomacy) and [Empathy](#empathy) modifiers by 1.  
-When you successfully detect that someone is lying to you with an Empathy check, you automatically gain a small insight into their motivations. This comes as a single word. Some examples:
-* The target is being blackmailed by someone who can ruin their lives, forced to work against the party. “Fear”
-* The target is a petty conman and just wants to score some easy coin off the party. “Greed”
-* The party includes an elf, the target is an orc, and there is still long standing, mutual dislike between elves and orcs since a war between them two decades ago. “History”
-* The target is secretly after revenge against someone in the party. “Enmity”
+When you successfully detect that someone is lying to you with an Empathy check, you automatically gain a small insight into their motivations. This is usually a single word. Some examples:  
+* The target is being blackmailed by someone who can ruin their lives. “Fear”  
+* The target is a petty conman and wants to steal from you. “Greed”  
+* The conversation is between people whose clans act with long standing, mutual distrust due to a past conflict. “History”  
+* The target is secretly after revenge against someone in the party. “Enmity”  
 
 #### Poker Face  
 Increase your [Composure](#composure) and [Deception](#deception) modifiers by 1.  
-In addition, you may use Composure to completely mask your emotional state, and you gain Boon +4 to do so. (This is only for concealing information; for actively misleading someone you would still need to use Deception.)
+In addition, you may use Composure to completely mask your emotional state with Boon +4. This is only for concealing information; for actively misleading someone you still need to use Deception.  
 
 #### Specialist Artisan  
 Increase your [Construct](#construct) and [Craft](#craft) modifiers by 1.  
-In addition, choose a specialized type of crafting to specialize in. You produce items from within that specialization at double the normal pace and can presume you have materials and tools necessary to do basic repairs on items from that specialization at all times and/or are able to recycle existing items to gain those materials. You have Boon +2 on all Construct or Craft checks involving your specialization.  
+In addition, choose a specialized type of crafting to specialize in. You produce items in that category at double the normal pace. You always have materials and tools necessary to do basic repairs on that type of item at all times and/or are able to recycle existing items to gain those materials. You have Boon +2 on all Construct or Craft checks involving your specialization.  
 For Construct, specializations could include metal working, masonry, carpentry, heavy machinery, or similar specializations.  
 For Craft, specializations could include tailoring, jewel crafting, leather working, clockwork and tinkering, leather working, and the like.
 
 #### Stationary Stealth  
 Increase your [Endure](#endure) and [Stealth](#stealth) modifiers by 1.  
-In addition, you are an expert at staying stealthy when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. For the purposes of this Lesson, 'moving' refers to moving to different Zones; small shifts in position or posture do not remove this benefit.
+In addition, you are an expert at staying hidden when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. 'Moving' here refers to moving to different Zones; small shifts in position or posture do not remove this benefit.
 
 #### Tracking Bug  
 Increase your [Sabotage](#sabotage) and [Survival](#survival) modifiers by 1.  
-In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival or Sabotage check (your choice) against your opponent's [Awareness](#awareness) or [Stealth](#stealth) check (target's choice). If you fail on the initial attempt, the target notices your attempt to track them. They may choose to stop you from planting the Bug and confront you immediately, or to leave it in place.  
+In addition, you can plant a Bug on a target to keep track of them. If you get within Long distance, you can attempt to plant your Bug by making a Survival or Sabotage check (your choice) against your opponent's [Awareness](#awareness) or [Stealth](#stealth) check (target's choice). If you fail on the initial attempt, the target notices your attempt to track them and react accordingly.  
 If you succeed, you plant your Bug on the target. While the Bug is active, you can sense the distance and direction of the Bug. At [Hero Tier](#hero-tier) 1, the Bug lasts 1 day. This duration doubles every time you increase in Hero Tier (2 days, 4 days, 8 days, ...).  
-If your target fails to notice your initial attempt to Bug them, the target (or one of their allies) might find it later when changing clothes and/or looking through their things; when this happen, the Arbiter should either call for an Awareness or [Investigation](#investigation) check, or roll one for the searching character privately. The target for this check is 10 + your Survival or Sabotage modifier. For both the check and the target, use whichever Skill the participants are better at. On success, the target becomes aware of your Bug. On a failure, the Bug remains hidden. At least four hours must pass before the check can be attempted again.  
-Every time you act against the target or give a sign that you're following them, reduce the target to find the Bug by 1. This includes actions like ambushing them, leaving traps for them, failing to cover your tracks when trying to cut them off, or other similar actions at the Arbiter's discretion.  
+The target (or one of their allies) might find your Bug later when changing clothes and/or looking through their things. Resolve this with an Awareness or [Investigation](#investigation) check from the creature who is searching. The target for this check is 10 + your Survival or Sabotage modifier. All participants use whichever Skill is higher. On success, the target becomes aware of your Bug. On a failure, the Bug remains hidden. At least four hours must pass before the next search attempt.  
+Every time you act against the target or give a sign that you're following them, reduce the target to find the Bug by 1. This includes actions like ambushing them, leaving traps, failing to cover your tracks, or other similar actions at the Arbiter's discretion.  
 Once your Bug has been discovered, it can be easily destroyed. A discovered Bug might also be used to lure the individual that planted it into a trap.  
 This could represent a tracking spell, a hidden homing beacon, a literal insect leaving a pheromone trail, or similar means of  a target from a distance.  
 
 #### Trackless Traversal  
 Increase your [Stealth](#stealth) and [Survival](#survival) modifiers by 1.  
-In addition, you and up to three allies may travel without leaving any sort of trail. Survival and Investigation checks made to follow you are made at Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating boots that leave no trails, casting a spell of safe passage, or similar measures.  
+In addition, you and up to three allies travel without leaving any sort of trail. Survival and Investigation checks made to follow you have Bane -4. Every additional traveler decreases the Bane severity by 1 (Bane -3 with four allies, Bane -2 with five, ...) This may represent using survival techniques to mask your tracks along with concoctions to mask your scent, activating boots that leave no trails, casting a spell of safe passage, or similar measures.  
 
 #### Versatile Pilot
 Increase your [Construct](#construct) and [Drive](#drive) modifiers by 1. (Choose one vehicle for Drive.)  
-In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.
+In addition, you can pilot a second vehicle with the same Drive modifier. For example, you could make your proficiency in horseback riding also apply to driving a chariot, or be equally skilled in riding a hoverboard and driving a car.  
 
 #### Well Connected  
 Increase your [Diplomacy](#diplomacy) and [Streetwise](#streetwise) modifiers by 1.  
-In addition, you can assume you have connections in any non-trivial settlement you travel to. This can be the result of celebrity status, being a member of a well known and respected organization, or just having a lot of friends (or friends of friends) around the realm. This person should be generally friendly and/or sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Connection with the Arbiter before taking it so they can prepare appropriately. When coming to a new location, you can ask the Arbiter who your connection is and what you know about them.
+You have connections in any medium sized towns or larger settlements. This can represent celebrity status, membership a well known and respected organization, or just having many friends (or friends of friends) around the realm. When you first meet this connection, they are friendly and sympathetic to your cause (within reason) and familiar with the customs of the region. Beyond that, your connections’ details are up to the Arbiter. Discuss the ramifications of this Utility with the Arbiter before taking it so they can prepare appropriately. When entering a new location, you can ask the Arbiter who your connection is and what you know about them.  
+Tiny or remote settlements may not include a connection, at the Arbiter's discretion.  
 
 #### Whispered Wisdom  
 Increase your [Empathy](#empathy) and [Lore](#lore) modifiers by 1.  
-You can also glean information about locations or events intuitively. This can be consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, and other ways one might gather small bits of information. You may conduct a ritual that takes at least one minute. Afterwards make a Lore check, the difficulty of which is determined secretly by the Arbiter. If you succeed, you can get a clear yes/no answer or a short, often cryptic phrase to guide you. If you fail, there will be no answer.  
-To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic being asked about? If it’s about a location, was it the location of significant events? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? Powerful individuals are more difficult to learn about through this feature.   
-After performing the ritual, you cannot do so again for the next eight hours. You cannot do this ritual again in the same place until either a year has passed, or you permanently increase your Lore modifier by 2.
+You can also glean information about locations or events intuitively. This may represent consulting with spirits of the area, unlocking the memories of objects in the vicinity, getting brief glimpses of the past or future, consulting an advanced AI, or other ways one might gather small information. To do this, conduct a ritual for at least one minute, then make a Lore check. This check's difficulty is determined secretly by the Arbiter. If you succeed, you learn something about the area or event in question. If you fail, there is no answer.  
+To determine the difficulty of the Lore check, the Arbiter should consider several factors. How obscure is the topic? If it’s about a location, was is its history? Are there forces at work trying to keep the information hidden? If it’s about a person, how powerful are they? (Powerful individuals are usually more difficult to learn about.)   
+After performing the ritual, you cannot do so again for the next eight hours. You cannot do this ritual again in the same place until either a year has passed, or you permanently increase your Lore modifier by 2.  
 
-## Other Utilities 
+## Other Utilities  
 
 #### Aquatic  
-You are able to function better under water. You can breathe water, are able to move through calm water effortlessly, and have Boon 4 on checks made to swim through turbulent water.
+You are able to function under water. You can breathe underwater, can swim through calm water effortlessly, and have Boon +4 on checks made to swim through turbulent water.  
 
-> In some settings where straight up water breathing isn't really viable for the PCs--for example, a game that takes place in a modern setting with only human characters--this Utility could instead represent access to oxygen tanks and gear for going underwater for at least 2 hours.
+> In some settings where water breathing isn't reasonable for the PCs--for example, a game that takes place in a modern setting with only human characters--this Utility could instead represent access to oxygen tanks and gear for going underwater for at least 2 hours.  
 
 #### Hover  
-You can fly up to five feet off the ground.  
-This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
-While not as versatile as fully functioning flight, this allows to you avoid hazards on the floor, reach a ledge that is otherwise too tall to get to, and any other advantage one could imagine comes with being slightly airborne.  
-This does not protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal.
-This Lesson makes you immune to natural terrain effects.  
-In addition, you are able to reduce the damage you take when falling by half.
-
+You can fly up to five feet off the ground. This could represent wings that don’t quite have the strength to fully fly, a personal anti-gravity field, a spell that produces a hovering platform, or something similar.  
+While not as versatile as fully functioning flight, this allows to you avoid hazards on the ground, reach a ledge that is otherwise too tall, cross the surface of a lake, and similar actions that require being slightly airborne.  
+This does not completely protect you from falling damage; if you are suddenly more than five above the ground you will fall as normal. Reduce the damage you take when falling by half.
 
 #### Linguist  
-You learn a language. This can represent doing scholarship and lessons just as well as a background living in a multilingual culture.  
+You learn a language. This can represent scholarship and study or living in a multilingual culture.  
 You may take this Utility twice at first [Max Potential](#max-potential), plus once more per Max Potential.  
 
 #### Lip reading  
-You can read lips, i.e. if you are close enough to see a creature's face while it speaks, you know what they are saying. 
+You can read lips. If you are close enough to see a creature's face while it speaks, you know what they are saying.  
 
 #### One with Nature: Animals  
-You are able to commune with and in a limited way communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
+You are able to commune with and communicate with animals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you gain a basic understanding of animal speech.  
 Animals have simple, instinctual desires and are usually very focused on the here and now. Most quickly dismiss past events that don’t affect their ability to survive and don’t really understand “the future” as a concept.  
 
 #### One with Nature: Minerals  
-You are able to commune with and in a limited way communicate with minerals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you have learned to tap into a subtle consciousness that is present in stone, metal, and gems.  
-Minerals have long memories, but no ability to move and thus a very limited frame of reference. They also have a difficult time telling moving things apart; seeking information about a specific person while speaking to stone is unlikely to be fruitful unless no one else has passed by in a very long time.  
-You may only use this method of communication to speak with unworked minerals. The process of cutting gems for jewelry or forging metal for equipment “kills” the materials, rendering them silent to you.
+You are able to commune with and communicate with minerals. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you have learned to tap into a subtle consciousness that is present in stone, metal, and gems.  
+Minerals have long memories but a very limited frame of reference since they're immobile. They also have a difficult time telling moving things apart; seeking information about a specific person while speaking to stone is unlikely to be fruitful unless no one else has passed by in a very long time.  
+You may only use this method of communication to speak with raw minerals or ore. The process of cutting gems for jewelry or forging metal for equipment “kills” the materials, rendering them silent.  
 
 #### One with Nature: Plants  
-You are able to commune with and in a limited way communicate with plants. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you can hear the thoughts of plants from the smallest weed to the largest tree.  
-If they are getting adequate resources to grow, plants are generally pleasant conversationalists, often talking about weather patterns or similar topics. Trees will discuss the lives of the animals living within their branches, and grasses will talk about grazers coming for them and being stepped on.
+You are able to commune with and communicate with plants. This may be through a spell you cast, a piece of technology you’ve created, or a spiritual bond with nature. Whatever the means, you can hear the thoughts of plants from the smallest weed to the largest tree.  
+If they are getting adequate resources to grow, plants are generally pleasant conversationalists, often talking about weather patterns or similar topics. Trees will discuss the lives of the animals living within their branches, and grasses will talk about grazers coming for them and being stepped on. The specifics vary significantly depending on what type of plant: a blade of grass has a different mindset from an ancient redwood tree.  
 
 #### Sixth Sense  
 XP Cost: 5  
-You have a innate ability to sense supernatural influences. This can be angelic, demonic, undead, fey, eldritch, or anything between. When you focus your senses, you can detect if a supernatural being is within thirty feet of you. You know the creature’s general location and what sort of creature it is. You can also sense when supernatural forces have tampered with otherwise natural processes in a residual way.
+You have a innate ability to sense supernatural influences. This can be angelic, demonic, undead, fey, eldritch, or anything between. When you focus your senses, you can detect if a supernatural being is within thirty feet of you. You know the creature’s general location and what sort of creature it is. You can also sense when supernatural forces have tampered with otherwise natural processes.
 
 #### Speak with the Ancient Dead  
 XP Cost: 5  
 Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead)  
-Your ability to speak with corpses improves; now all that is required is an intact skull. The state of the rest of the body does not matter.
+Your ability to speak with corpses improves; now all that is required is an intact skull. The state of the rest of the body does not matter.  
 
 #### Speak with the Recently Dead  
-You can speak with corpses. The corpses know everything they knew in life, up until the last day of their lives, which they completely forget. Corpses in this state have no emotions, and cannot learn new information, including the fact that they are dead. They also cannot move. The corpse must still have enough lungs and vocal cords to be able speak, or this Utility fails. This could be harnessing necromancy, utilizing nanobots to reconstruct what the body's brain knew, being an effective medium, knowledge of certain rituals, or similar measures.
+You can speak with corpses. The corpses know everything they knew in life until the last day of their lives, which they completely forget. Corpses in this state have no emotions and cannot learn new information, including the fact that they are dead. They also cannot move. The corpse must still have enough lungs and vocal cords to be able speak, or this Utility fails. This could be harnessing necromancy, utilizing nanobots to reconstruct what the body's brain knew, being an medium who can hear the dead, knowledge of certain rituals, or similar measures.  
 
 #### Speak with the Recently Dead, Improved  
 XP Cost: 7  
 Prerequisite: [Speak with the Recently Dead](#speak-with-the-recently-dead), [Hero Tier](#hero-tier) 2  
-You can learn more from corpses; corpses you speak with in this way now remember everything the knew up to the moment of their death. If you also have [Speak with the Ancient Dead](#speak-with-the-ancient-dead) this effect extends to them.
+You can learn more from corpses; they now remember everything the knew up to the moment of their death.  
 
 ------------
+
+```
+TODO: Continue review of existing text here; high priority
+```
 
 # Chapter 9: Talents
 A character gains a Talent for free at [Max Potential](#max-potential) 1, and again when gaining a Max Potential divisible by 5 (5, 10, 15, ...).
