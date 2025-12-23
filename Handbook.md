@@ -2107,39 +2107,37 @@ Finally, you have access to an academic venue. They are willing to re-issue said
 > I promise you: everyone who has made it through academia understands the Endure bonus.  
 
 
-```
-TODO: Continue review of existing text here; high priority
-```
+
 #### Dangerous Aura  
 Increase your [Diplomacy](#diplomacy) and [Intimidation](#intimidation) modifiers by 1.  
-In addition, you have a presence or air about you that leaves no doubt about your familiarity with violence. You inspire fear in most, gaining Boon +3 on Intimidation checks made against NPCs with no combat training. Meanwhile you inspire respect in fellow fighters, gaining Boon +3 on Diplomacy checks made with them.  
+In addition, your presence makes your familiarity with violence clear. You inspire fear in most, gaining Boon +3 on Intimidation checks made against NPCs with no combat training. You also inspire respect in fellow fighters, gaining Boon +3 on Diplomacy checks made with them.  
 
 #### Eidetic Memory
 Increase your [History](#history) and [Lore](#lore) modifiers by 1.  
-You are able to reliably remember information correctly. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter will give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
+You are able to reliably remember information. You may ask the Arbiter for clarification on things the character remembers but the player may not, and the Arbiter must give an accurate answer. This includes things like dates, times, names, articles in magazines, newspapers, or online.
 
-> Player, ask the Arbiter before taking this Utility; this puts a lot more pressure on the Arbiter to remember everything. Both the Arbiter and the player should be open to improvising and hand-waving if the Arbiter misremembers, and the player should do their best to help this Utility along by taking notes of things they may remember.
+> Player, ask the Arbiter before taking this Utility. This puts a lot more pressure on the Arbiter's memory. Both the Arbiter and the player should be open to improvising and/or hand-waving if the Arbiter misremembers, and the player should do their best to help by taking notes of things they should remember.
 
 #### Enhanced Sight  
 Increase your [Awareness](#awareness) and [Investigation](#investigation) modifiers by 1.  
 In addition, you are unaffected by low or no light conditions. This could represent extremely acute hearing, access to infrared goggles, being able to cast a spell that lets one see in darkness, or other means of bypassing darkness. This does not significantly impact your ability to be seen in darkness like carrying a flashlight would.  
 You are also able to see clearly up to a distance of 6 miles.
 
-> Note: The average human can see up to 3 miles according to Wikipedia. For metric system, the average human sees up to 4.8 KM, and this Utility increases it to about 9.6 KM.
+> Note: The average human can see up to 3 miles according to Wikipedia. In metric units, the average human sees up to 4.8 KM. This Utility increases it to about 9.6 KM.
 >
 > I am aware this has more to do with the curvature of the planet than the way eyes work. If you need a tabletop system that takes that into account accurately I don't know what to tell you.
 
 #### Extraordinary Saboteur  
-Increase your [Sabotage](#sabotage) and [Stealth](#stealth) modifier by 1.  
+Increase your [Sabotage](#sabotage) and [Stealth](#stealth) modifiers by 1.  
 You can set Traps. This could represent a tripwire, a pressure plate, a laser scanner, or something similar.  
-You may set one Trap for every 5 Base Sabotage bonus (so 1 Trap at 5 Sabotage, 2 Traps at 10 Sabotage, and so on). Setting a Trap requires 1 minute of uninterrupted work. If you are interrupted during this time you must start over.  
+You may set one Trap for every 5 Base Sabotage bonus (so 1 Trap at 5 Sabotage, 2 Traps at 10 Sabotage, and so on). If you set a Trap that exceeds this limit, your oldest Trap deactivates. Setting a Trap requires 1 minute of uninterrupted work. You must start over if interrupted.  
 Detecting your Trap requires an [Awareness](#awareness) check equal to your Sabotage bonus +10. Disabling or bypassing it requires a Sabotage check at the same target. You may disable and recover the components of your own Traps safely, and anyone you make aware of your Traps may bypass them safely.  
-Each Trap you set can have 2 of the following attributes.  
-* When the Trap goes off, everyone within a 300' radius knows. A bang, explosion, alarm, fireworks, or something similar occurs so everyone nearby knows the location of whoever set the Trap off.  
+Each Trap you set can have 2 of the following properties.  
+* When the Trap goes off, everyone within a 300' radius knows. A bang, alarm, launched firework, or something similar alerts anyone within the radius when the Trap is triggered.  
 * The creature who set it off becomes locked in place. This could be a bear trap, a net or lasso, a pit, or something similar. The target is entitled to an [Acrobatics](#acrobatics) or [Athletics](#athletics) check equal to your Sabotage bonus + 10. On success they break free. On a failure they are [Rooted](#root) for an hour or until they receive assistance.  
 * The target is damaged. When the Trap goes off you deal damage equal to a Sabotage check multiplied by 2. Every time you increase in [Hero Tier](#hero-tier) this multiplier increases by 1 (so x3 at Hero Tier 2, x4 at Hero Tier 3, and so on.) This damage is reduced by an amount equal to the target's Physical or Mental Defense, chosen when you set the Trap. This damage is either physical or of an element you have from [Elemental Attunement](#elemental-attunement).  
 * The target is Injured. When you set the Trap, choose which [Attribute](#step-1-attributes) is Injured. If you choose Vitality, Strength, Finesse, or Toughness, the target can make an [Endure](#endure) check to negate the Injury. If you choose Capacity, Mind, Heart, or Soul, the check is [Composure](#composure) instead.  
-If you set a Trap that exceeds your limit above, your oldest Trap deactivates.
+
 
 #### Familiar Bond
 Increase the modifier of any one Skill by 1.  
