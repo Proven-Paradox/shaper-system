@@ -1940,7 +1940,7 @@ Broadly speaking, Lessons represent passive benefits or extra options available 
 Some Lessons have prerequisites; you must meet these prerequisites to take the Lesson. Lessons cost 5 XP unless an exception is listed. Cooldowns on Lessons function the same way as [Ability Cooldowns](#cooldown).  
 
 #### A Curse Most Foul  
-When using a Curse Ability, your target also takes damage equal to half of your [Offense](#step-2-b-offensedefenseinitiative). Use Physical Offense if the Curse is an Attack, or Mental Offense for a Spell. This extra damage is the same [Damage Type](#damage-types) as the Curse you use. For Curses that don't do damage without this Lesson, the damage type is Dark.  
+When using a [Curse](#curse), your target also takes damage equal to half of your [Offense](#step-2-b-offensedefenseinitiative). Use Physical Offense if the Curse is an Attack, or Mental Offense for a Spell. This extra damage is the same [Damage Type](#damage-types) as the Curse you use. For Curses that don't do damage without this Lesson, the damage type is Dark.  
 In addition, if the Curse costs HP, you may spend MP instead. If it costs MP, you may spend HP instead.
 
 > Reminder: all fractions round down. If your Offense is 5, then you add 2 damage from this Lesson.  
@@ -1948,7 +1948,7 @@ In addition, if the Curse costs HP, you may spend MP instead. If it costs MP, yo
 #### Ability Specialist  
 Choose one Ability you know. When you use that Ability, you gain one of the following benefits:  
 * Increase the Ability's Range by one increment. Melee Range becomes Short, Short becomes Medium, etc. Abilities that are already Extreme Range cannot use this benefit.  
-* Reduce the cost of the Ability (whether HP or MP) by your Hero Tier. This only applies to initial cost, not [Upkeep](#upkeep). This cannot reduce an Ability cost below 0.  
+* Reduce the cost of the Ability (whether HP or MP) by your [Hero Tier](#hero-tier). This only applies to initial cost, not [Upkeep](#upkeep). This cannot reduce an Ability cost below 0.  
 * If the Ability is an Attack or Spell, you gain Boon 2 on Offense rolls with it.  
 
 You choose which benefit you gain every time you use the Ability and may choose different benefits each time.  
