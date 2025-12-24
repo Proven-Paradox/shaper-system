@@ -180,7 +180,7 @@ In a situation where both Boon and Bane apply, they cancel each other out. Add t
 
 ##### Boon, Bane, and Multiple Targets  
 When using a multi-target Ability, there may be situations where Boon or Bane applies in different magnitudes for different targets. In cases like this, resolve targets that are not affected by Boon or Bane first, then do appropriate Boon/Bane re-rolls on the targets that are subject to Boon or Bane.  
-> Example: Nayuta is aiming an area effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
+> Example: Nayuta is aiming an area of effect spell at a group of zombies. Most of the zombies have no Boon or Bane active, but a particularly dangerous one in the hoard has been hobbled by one of her allies in a way that gives Boon +2 to anyone attacking it. She rolls her dice, getting a result of 1 and 5. The standard zombies are resolved at this point, taking damage based on a result of (1 + 5) 6 plus her modifier. Once this is done, she turns to resolving the attack on the hobbled zombie, re-rolling the 1. She gets a 5, for a result of (5 + 5) 10 plus her modifier to damage that specific target.  
 
 ------------
 # Chapter 2: Character Creation  
@@ -447,7 +447,7 @@ TODO: Reconsider chapter order; medium priority
 > The following section uses some terms defined in [Chapter 10](#chapter-10-combat). This handbook is laid out to keep everything you need to know about character creation in sequence. If you want to know details on how movement, spacing, and time works in combat you may want to skip ahead using the link above.  
 > When reading Abilities, keep in mind the following:  
 > * In S3, Zones are large and each can contain multiple combatants. Think of a Zone as an individual room or a room-sized region of a larger space. Abilities that list a Zone as their target affects all creatures in that Zone. See [the Positioning section](#positioning) for more detail.  
-> * Every Round you get a Minor, Major, and Counter Action. You use Minor and Major Actions during your Turn. Counter Actions are used during other combatants' turns when certain conditions are fulfilled, such as attacking you or an ally. If timing is important, resolve Counter Actions immediately after whatever triggered it.  
+> * Every Round you get a Minor, Major, and Counter Action. You use Minor and Major Actions during your Turn. Counter Actions are used during other combatants' Turns when certain conditions are fulfilled, such as attacking you or an ally. If timing is important, resolve Counter Actions immediately after whatever triggered it.  
 
 > <div align="center">=!=!=!=!=  </div>  
 
@@ -503,7 +503,7 @@ Abilities that leave a lingering weakening effect on the target when they hit. I
 #### Elemental  
 Abilities that deal Elemental damage. Combatants can be Weak, Resistant, or Immune to Elements. When you strike an opponent's Weak Element, roll three dice during your Offense Roll and take the **higher** two dice. When striking an opponent with an Element they Resist you also roll three dice but take the **lower** two results. Immune targets take no damage from that Element.  
 
-The six elements are:  
+The six Elements are:  
 * *Fire* - heat and flames  
 * *Ice* - sharp icicles, freezing cold, or water  
 * *Earth* - shards of rock, acid, and plant vines  
@@ -511,7 +511,7 @@ The six elements are:
 * *Light* - radiance, blinding light, and holy power  
 * *Dark* - draining away life essence, sharpened shadows, or unholy power  
 
-When striking multiple targets with different Elemental Properties, first resolve all targets that are neither Resistant nor Weak to the element by rolling two ten-sided die as normal. After you determine the damage for elementally neutral targets, roll a third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
+When striking multiple targets with different Elemental Properties, first resolve all targets that are neither Resistant nor Weak to the Element by rolling two ten-sided die as normal. After you determine the damage for elementally neutral targets, roll a third die. Apply the highest two dice results against foes Weak to your chosen Element and the lowest two against Resistant foes.  
 Extra dice rolled this way are affected by Boon and Bane normally. If you have to roll dice in two phases (as described in the previous paragraph), Boon or Bane triggered during the first phase (against elementally neutral targets) cannot/does not re-roll the die rolled during the second phase.  
 
 > For example, Anezka is using the Elemental Blast Ability with Ice Element. The Zone she targets has one foe that is Weak to Ice and two that are neutral. She also has Boon 4.  
@@ -560,12 +560,12 @@ The HP or MP cost of using an Ability. If you cannot pay the Cost, you cannot us
 #### Upkeep  
 Any Ability with an Upkeep in its Cost requires HP or MP to be paid every [Round Start](#round-start). The Ability lasts as long as the Upkeep is paid or until some effect ends it prematurely (such as [Purge](#purge)). If the user is unable or unwilling to pay the Upkeep cost at Round Start, the Ability immediately ends.  
 
-> Note: The separate Cost is paid when the Ability is first used, and the Upkeep cost is paid on all subsequent rounds.  
+> Note: The separate Cost is paid when the Ability is first used, and the Upkeep cost is paid on all subsequent Rounds.  
 > For example, Drahlo uses the [Elemental Resistance Aura](#elemental-resistance-aura) Ability. Its cost is "2 MP (Upkeep 1 MP)". This means he spends 2 MP when he initially uses the Ability. During the Round Start of all subsequent Rounds, he may choose to spend 1 MP to keep the aura active with no action.  
 > There is no maximum to the number of Upkeep effects one character can maintain other than the resources needed to pay for them.  
 
 ### Damage  
-The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how to calculate damage. If applicable, this will also list the elemental damage type. Abilities with no damage type do Physical damage.  
+The Ability's damage multiplier. The higher this number, the more damage the listed Ability can do. See [Impact](#impact) for more information on how to calculate damage. If applicable, this will also list the damage type. Abilities with no listed damage type do Physical damage.  
 
 ### Cooldown  
 If an Ability has a Cooldown, it cannot be used again until the specified number of Rounds have passed. Cooldown decreases at [Round Start](#round-start). The Ability can be used again after its Cooldown reaches 0.  
@@ -596,7 +596,7 @@ Cost: None
 Effect: Move 1 Zone.  
 Description: The most basic way to move in combat. This can represent running, jumping, climbing, swimming, or any other kind of motion to get around, in any combination. 
 
-> Note that you may use your Major Actions to take a second Minor Action per round, making the default maximum movement speed of a character 2 Zones per turn.
+> Note that you may use your Major Actions to take a second Minor Action per Round, making the default maximum movement speed of a character 2 Zones per Turn.
 >
 > Also note that diagonal movement on a square grid map is not permitted.
 
@@ -607,7 +607,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 other ally  
 Cost: None  
-Duration: 1 round  
+Duration: 1 Round  
 Effect: As long as you are in the same Zone at the target and haven't been knocked out, you give that target [Protection](#protection).  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.  
 
@@ -640,7 +640,7 @@ Range: None
 Targets: Self  
 Cost: 1 MP  
 Effect: Choose another Ability and state some conditions. When the conditions are fulfilled, you use this Ability on the target you specify. For example you could Prepare your Elemental Lance Ability to use on an opponent when they try to get closer to you. You still pay the Prepared Ability's cost when you use it.  
-You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you use the Prepared Ability or until the start of your next turn.  
+You may choose not to take your Prepared action if an undesired target fulfills the condition. You remain Prepared until you use the Prepared Ability or until the start of your next Turn.  
 Prepare's Action cost is the same as the Ability you are Preparing to use.  
 Description: Getting ready to take action later in combat. This can be important if you want to time interactions specifically or want to let an opponent act first.
 
@@ -735,7 +735,7 @@ Targets: Self
 Cost: 2 MP  
 Duration: Until used  
 Effect: You become [Charged](#charged).  
-You may not use this Ability on the same turn as you use an Attack or Spell.  
+You may not use this Ability on the same Turn as you use an Attack or Spell.  
 Description: Preparing for a strong offense. This could focusing to case a particularly powerful spell, winding up to throw a heavy punch, charging up a beam weapon, taking time aside to analyze a foe's defenses, or similar actions.
 
 #### Cleanse  
@@ -749,7 +749,7 @@ Effect: Choose one of the following:
 * Increase the target along one [Buff Track](#buff-tracks) of your choice by two. You can only increase the value up to 0.  
 * Increase the target along both Buff Tracks by one. You can only increase the value up to 0.  
 * End a Curse effect on the target.  
-* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 rounds.  
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 3 Rounds.  
 
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 4 MP to use it twice with one action. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: The most basic way to recover from ill effects. This could be a general purpose restoration spell, utilizing nanobots to repair the target’s damage, a quick application of medical training, or similar effects.  
@@ -763,7 +763,7 @@ Targets: 1 enemy
 Cost: 3 HP  
 Duration: Variable, see Effect  
 Damagex: x1  
-Effect: On a successful hit, the target is [Dazed](#daze) for 1 round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 rounds.  
+Effect: On a successful hit, the target is [Dazed](#daze) for 1 Round. On a [Solid Hit](#solid-hit) the Daze duration increases to 2 Rounds. On a [Critical Hit](#critical-hit) the Daze duration increases to 4 Rounds.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 HP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: An attack that leaves the victim off balance and unable to respond. This could represent a strike to the head, pressing your offense in a way that denies your opponent a chance to respond, or otherwise pressuring or disorienting your foe.  
 
@@ -775,7 +775,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: 0  
-Effect: If this Spell hits, the target is [Slowed](#slow) for 2 rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 5 rounds.   
+Effect: If this Spell hits, the target is [Slowed](#slow) for 2 Rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 Rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 5 Rounds.   
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
@@ -820,7 +820,7 @@ Range: Short
 Targets: 1 Zone  
 Cost: 5 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: You may only choose elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
+Effect: You may only choose Elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
 If you also use your minor action, you may choose one creature in the targeted Zone to be unaffected.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
@@ -834,7 +834,7 @@ Targets: 1 enemy
 Cost: 0 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Special: When you learn this Ability, you also gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
-You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+You may only choose Elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 3 to MP increase its Damage Multiplier by 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 5 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: This represents a variety of basic elemental attacks. This could be a low level incantation, a jolt of heat vision, launching an icicle from a cryo-gun, firing a taser, using elemental powers to from a rock spike beneath the target, focusing light into a beam with reflective scales, lashing out with one’s shadow, and similar attacks.
@@ -848,7 +848,7 @@ Targets: All allies in Range
 Cost: 2 MP (Upkeep 1 MP)  
 Effect: All affected allies gain [Elemental Resistance](#step-5-elemental-properties) to the chosen Element.  
 Special: When you learn this Ability, you gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
-You may only choose elements that you have the corresponding Elemental Attunement to when using this Ability.  
+You may only choose Elements that you have the corresponding Elemental Attunement to when using this Ability.  
 Description: Providing a shield against the elements in a small area around you. This could represent a warding spell, activating energy shields, invoking elemental spirits, or similar ways of protecting allies from an element.
 
 #### Empower  
@@ -901,7 +901,7 @@ Effect: You may only use this Attack after hitting with 3 other unique Melee or 
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 9 HP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.   
 Description: A powerful move used at the end of a string of attacks. The particular details of this Ability are very open ended and should be decided for each character separately.  
 
-> For example, Stuart spends his first round using Double Strike (1) and Quick Strike (2). The round after, he uses Heavy Strike (3). On the following round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
+> For example, Stuart spends his first Round using Double Strike (1) and Quick Strike (2). The Round after, he uses Heavy Strike (3). On the following Round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
 
 #### Flash  
 Attack/Spell [Status]  
@@ -911,8 +911,8 @@ Range: Short
 Targets: 1 enemy  
 Cost: 4 MP  
 Damage: 0  
-Cooldown: 3 rounds  
-Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
+Cooldown: 3 Rounds  
+Effect: If you hit with this Ability, the target is [Blind](#blind) for 1 Round. If you score a [Critical Hit](#critical-hit) the Blindness lasts for 2 Rounds. You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 Description: A maneuver that temporarily blinds the target. This could be blowing smoke into their eyes, throwing up sand, a blast of light, forcing your shadow into their eyes, or something similar.
 
 #### Fortify  
@@ -932,7 +932,7 @@ Prerequisites: None
 Range: Melee  
 Targets: 1 ally or self  
 Cost: None  
-Duration: 1 round  
+Duration: 1 Round  
 Effect: If you are in the same Zone as the target and conscious, you [Protect](#protection) that target. If you fall unconscious or are separated from your ally, this Ability ends. You also gain [Shield](#shield-X) equal to your [Vitality](#vitalitycapacity).  
 You may choose to use Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Shielding an ally from harm. This could represent bodily shielding an ally, covering them with an equipped shield, or similar maneuvers.
@@ -1130,7 +1130,7 @@ Cost: None
 Effect: Move 2 Zones.  
 Description: This Ability represents training and conditioning to move faster than most.  
 
-> By using Basic Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Zones per round.  
+> By using Basic Move with one's Minor Action and Run with one's Major Action, a character with Run can move 3 Zones per Round.  
 
 #### Scan  
 Auxiliary  
@@ -1139,7 +1139,7 @@ Prerequisites: None
 Range: Long  
 Targets: 1 enemy or 1 Zone  
 Cost: None  
-Effect: You immediately learn the target’s elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
+Effect: You immediately learn the target’s Elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Alternatively, Scan can be used on a Zone. Scanning a Zone reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
 You can use this outside of combat, but you must succeed on a [Stealth](#stealth) or [Deception](#deception) roll against the target’s [Awareness](#awareness) or [Empathy](#empathy) roll to remain undetected. The Arbiter will choose which rolls to use based on the situation and may make the rolls secretly. On a failure, the target will become aware that you are sizing them, which may be interpreted as hostile or rude.  
 Description: The most basic information gathering ability. Depending on the situation this can represent scanning the target with a power reader, minor mind reading to learn the target’s fears, careful evaluation using mundane senses, or similar actions.
@@ -1164,7 +1164,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1  
-Cooldown: 1 round  
+Cooldown: 1 Round  
 Description: A quick ranged attack. This could represent throwing a hidden dagger, shooting an off-hand pistol, or in combination with Shoot might represent notching and firing two arrows from a bow at once, or activating a weapon's burst fire mode.
 
 #### Sneak Attack  
@@ -1234,7 +1234,7 @@ Range: None
 Targets: Self  
 Cost: 5 MP  
 Duration: Until the end of your next Turn, or until you make an Offense roll  
-Cooldown: 3 rounds  
+Cooldown: 3 Rounds  
 Effect: You may move 1 Zone. You are [Obscured](#obscured) for the duration. If you are targeted by [Scan](#scan) this Ability ends.  
 When you use this Ability, make a [Stealth](#stealth) roll opposed by your opponents' [Awareness](#awareness) rolls. Anyone who fails this roll does not know your position until you are revealed. Anyone who does knows what Zone you are in, though you remain Obscured to them.  
 If you attack an opponent who is not aware of your location, you may treat them as [Flat Footed](#flat-footed).  
@@ -1247,7 +1247,7 @@ Prerequisites: None
 Range: Short  
 Targets: 1 Zone  
 Cost: 4 MP  
-Duration: 3 rounds  
+Duration: 3 Rounds  
 Effect: The targeted Zone becomes impossible to see through for the duration. Targets inside the Zone are [Blinded](#blind) and [Obscured](#obscured).   
 Description: An easy way of limiting enemy vision (though allies are similarly hindered). This could be throwing a smoke grenade, conjuring a thick fog, lighting an alchemical concoction that produces thick smoke, and other similar effects that obscure vision.
 
@@ -1307,8 +1307,8 @@ Prerequisites: [Sneak Attack](#sneak-attack)
 Range: None  
 Targets: Self  
 Cost: 9 MP  
-Cooldown: 3 rounds  
-Duration: 2 rounds
+Cooldown: 3 Rounds  
+Duration: 2 Rounds
 Effect: Your next Attack ignores [Protection](#protection), [Provoke](#provoke), and [Taunt](#taunt).  
 Description: Preparing an attack which bypasses attempts to redirect it. This can represent an acrobatic maneuver to get around protectors, sneaking around defensive measures, causing a projectile to ricochet, or similar effects.  
 
@@ -1330,7 +1330,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 Zone  
 Cost: 10 MP   
-Cooldown: 3 rounds  
+Cooldown: 3 Rounds  
 Effect: You move to the targeted Zone. This Ability can be used in any condition, including while [Grabbed](#grab), [Rooted](#root), or similarly restrained. Those conditions end when you use Blink. You are unaffected by any terrain effects or features that would otherwise impede passage. You cannot Blink through solid walls, but can Blink through windows, nets, and similar obstructions with small openings.  
 Description: A quick way to escape bad circumstances. This can be short range teleportation, ducking temporarily into a parallel dimension, or similar ways of slipping away.
 
@@ -1384,7 +1384,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 3 MP  
-Effect: You may take a second Counter action in the time between this turn and your next.  
+Effect: You may take a second Counter action in the time between this Turn and your next.  
 Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar actions.  
 
 #### Crushing Bolt  
@@ -1431,7 +1431,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 7 HP  
 Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
-Effect: You may only use an element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
+Effect: You may only use an Element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
 This Attack targets the enemy's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
@@ -1453,7 +1453,7 @@ Range: None
 Targets: Self  
 Cost: 8 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
-Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 rounds as normal.  
+Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 Rounds as normal.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
@@ -1464,7 +1464,7 @@ Range: Short
 Targets: 1 ally  
 Trigger: Target ally takes damage  
 Cost: None  
-Duration: 1 round    
+Duration: 1 Round    
 Effect: You move to the same Zone as the targeted ally and reduce the damage they would take to half its original value. You take that much damage as well. The damage is the same type as what your ally takes. You also provide them with [Protection](#protection) against future attempts to harm them until the beginning of your next Turn, as long as you are conscious and in the same space as the ally.  
 Description: Coming to an ally's defense. This could represent diving in front of an attack, short distance teleportation, or similar maneuvers.
 
@@ -1476,7 +1476,7 @@ Range: Medium
 Targets: 1 Zone  
 Cost: 10 MP (Upkeep 5 MP)  
 Damage: x1  
-Effect: This Ability's damage repeats every round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
+Effect: This Ability's damage repeats every Round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every Round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
 You may have up to two active Kinetic Storms at a time. They may not target the same Zone.  
 Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift that radiates damaging energy, or similar ways of dealing sustained damage in an area.
 
@@ -1510,7 +1510,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 8 MP  
 Damage: x1  
-Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 rounds.   
+Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 Rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 Rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 Rounds.   
 Description: Striking in a way that deals lingering damage. This could be inflicting a bleeding wound, striking with a toxic bite, or similar approaches to causing lingering damage.
 
 #### Mental Shield
@@ -1531,7 +1531,7 @@ Prerequisites: [Guard](#guard)
 Range: Short  
 Targets: 1 ally  
 Cost: 3 MP  
-Duration: 1 round  
+Duration: 1 Round  
 Effect: You move to the target ally's Zone. If you are in the same Zone as the target and conscious, that target has [Protection](#protection). If you fall unconscious or are separated from you ally, this Ability ends. You also gain [Shield](#shield-x) equal to your [Vitality](#vitalitycapacity).  
 You may choose to use Mobile Guard on yourself. In this case you gain Shield but do not provide Protection.  
 Description: Moving forward and shielding an ally from harm. This could be as simple as rushing forward and blocking or as elaborate as short range teleportation.  
@@ -1543,7 +1543,7 @@ Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)
 Range: Melee  
 Targets: One unconscious ally  
 Cost: 15 MP  
-Cooldown: 10 rounds  
+Cooldown: 10 Rounds  
 Effect: The target ally recovers from being unconscious and regains half of their HP. They wake up [Prone](#prone), and the Injury they sustained when they were knocked out remains.  
 Description: Rousing and partially healing an ally who has been knocked out. This could represent a very powerful healing spell, jabbing the target with an adrenaline syringe, or similar effects. If appropriate to the setting, this might also represent a resurrection.  
 
@@ -1644,7 +1644,7 @@ Range: Short
 Targets: 1 enemy  
 Cost: 6 MP  
 Damage: 0  
-Effect: On a successful hit, the target is [Rooted](#root) for 1 round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 rounds.  
+Effect: On a successful hit, the target is [Rooted](#root) for 1 Round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 Rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 Rounds.  
 Description: Denying the enemy the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
 
 #### Retribution  
@@ -1686,7 +1686,7 @@ Prerequisites: None
 Range: None  
 Targets: Self  
 Cost: 5 MP  
-Cooldown: 3 rounds  
+Cooldown: 3 Rounds  
 Effect: You regain health equal to 2 times your [Vitality](#vitalitycapacity).  
 Description: Taking a moment to recover. This could be stopping for a moment to refocus, extra endurance gained from disciplined breathing exercises, injecting oneself with a stimulant, and similar quick ways to restore one’s health.
 
@@ -1711,7 +1711,7 @@ Cost: 6 HP
 Effect: Move 2 Zones.  
 Description: This Ability represents a quick character pushing beyond their limits to move at high speed. The HP cost makes this pace unsustainable for most.  
 
-> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Zones per round.  
+> By using Sprint with one's Minor Action and Run with one's Major Action, a character with Sprint can move 4 Zones per Round.  
 
 ```
 TODO: Consider improving Subversive Scan; low priority
@@ -1978,7 +1978,7 @@ TODO: Reconsider this effect. Currently feels weak. Low priority
 [Curse](#curse) Abilities that target have Bane -2.  
 
 #### Elemental Attunement  
-When you gain this Lesson, pick an [Element](#elemental). You may choose that Element when using an Ability with the [Elemental] tag. You may take this Lesson more than once, choosing a different element each time.  
+When you gain this Lesson, pick an [Element](#elemental). You may choose that Element when using an Ability with the [Elemental] tag. You may take this Lesson more than once, choosing a different Element each time.  
 Every instance of this Lesson costs 3 XP.  
 
 #### First to Act  
@@ -2008,8 +2008,8 @@ When you use a [Healing](#healing) Ability, you may increase the MP Cost by its 
 Any time you spend HP to use an Attack or Spell, you gain [Shield](#shield-x) equal to the spent health that lasts until your next Turn.  
 
 #### Mend or Rend  
-On the turn after using a [Healing](#healing) Ability, you gain Boon +2 on all Short or Melee Range Attacks.  
-On the turn after using a Short or Melee Range Attack, Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
+On the Turn after using a [Healing](#healing) Ability, you gain Boon +2 on all Short or Melee Range Attacks.  
+On the Turn after using a Short or Melee Range Attack, Abilities with the Healing tag heal additional HP equal to twice your [Hero Tier](#hero-tier).  
 
 ```
 TODO: Reconsider. Might be too niche. Low priority.  
@@ -2174,7 +2174,7 @@ For Craft, specializations could include tailoring, jewel crafting, leather work
 
 #### Stationary Stealth  
 Increase your [Endure](#endure) and [Stealth](#stealth) modifiers by 1.  
-In addition, you are an expert at staying hidden when still. If you have not moved within the last 10 seconds (1 round of combat), you gain Boon +4 on Stealth checks. 'Moving' here refers to moving to different Zones; small shifts in position or posture do not remove this benefit.
+In addition, you are an expert at staying hidden when still. If you have not moved within the last 10 seconds (1 Round of combat), you gain Boon +4 on Stealth checks. 'Moving' here refers to moving to different Zones; small shifts in position or posture do not remove this benefit.
 
 #### Tracking Bug  
 Increase your [Sabotage](#sabotage) and [Survival](#survival) modifiers by 1.  
@@ -2260,7 +2260,7 @@ A character gains a Talent at [Max Potential](#max-potential) 1, and again when 
 #### Accelerated Assistance
 When you use an [Augment](#augment) Ability, you can also do one of the following:  
 * Double the cost of the Augment to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
-* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment that round.  
+* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment that Round.  
 
 When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). You may refund the XP spent to learn one if you already know both.
 
@@ -2282,19 +2282,19 @@ Your attacks are strengthened by your ardor. You may use your Heart in place of 
 
 #### Elemental Specialist  
 You are particularly skilled at using an [Element](#elemental). Choose one: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
-* Gain [Elemental Attunement](#elemental-attunement) for the associated element.  
-  * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
-* You gain Resistance to the chosen element.  
-  * If that element was previously a Weakness, you must choose a new Elemental Weakness.
-* When you use an Ability, you may spend MP equal to its [Ability Tier](#ability-tiers) to convert its damage into the chosen element.  
+* Gain [Elemental Attunement](#elemental-attunement) for the associated Element.  
+  * If you already have Elemental Attunement for the chosen Element, you may either gain Elemental Attunement with a new Element or regain the XP originally spent to gain attunement to your chosen Element.  
+* You gain Resistance to the chosen Element.  
+  * If that Element was previously a Weakness, you must choose a new Elemental Weakness.
+* When you use an Ability, you may spend MP equal to its [Ability Tier](#ability-tiers) to convert its damage into the chosen Element.  
   * Tier 0 Abilities can be converted for free.  
   * Converted damage still targets Physical or Mental Defense as usual.  
-* You gain an additional benefit unique to each element as follows:  
-  * Fire - Dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in [Hero Tier](#hero-tier) the Degeneration added per hit increases by 1 round and the maximum duration increases by 2 rounds.  
-  * Cold - Dealing Cold damage also [slows](#slow) the target for 2 rounds. If you deal Cold damage to a target that is already Slowed, you may choose to [root](#root) them for 1 round instead.  
+* You gain an additional benefit unique to each Element as follows:  
+  * Fire - Dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 Rounds, to a maximum of 6 Rounds. Every time you increase in [Hero Tier](#hero-tier) the Degeneration added per hit increases by 1 Round and the maximum duration increases by 2 Rounds.  
+  * Cold - Dealing Cold damage also [Slows](#slow) the target for 2 Rounds. If you deal Cold damage to a target that is already Slowed, you may choose to [Root](#root) them for 1 Round instead.  
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
   * Earth - Landing a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Zone.
-  * Light - Dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
+  * Light - Dealing Light damage allows you give [Shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
   * Dark - Dealing Dark damage heals you for half the damage done.   
   
 > Note that you must do the damage to gain these benefits. If using the Summoning module, your summoned allies do not benefit from this Talent.  
@@ -2312,12 +2312,12 @@ This Talent makes the [Hover](#hover) Utility redundant. If you have the Hover y
 You are an expert healer. When you use a [Healing](#healing) Ability, you gain one of the following benefits:
 * End a Curse effect on the target.  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
-* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.  
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 Rounds.  
 
 #### Heavy Hitter  
 You hit hard enough to knock your foes off balance. When score a [Critical Hit](#critical-hit), you can choose one of the following extra effects:  
 * Knock your target(s) [Prone](#prone).  
-* [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).  
+* [Stagger](#stagger) your target(s) for a number of Rounds equal to your [Hero Tier](#hero-tier).  
 * Move your target(s) one Zone. You must move them all targets in the same direction.  
 
 You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Zone) you must choose the same effect for all targets. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
@@ -2344,7 +2344,7 @@ You can use your brawn in place of brains. You may use your Strength in place of
 You can draw mental power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense and Initiative.  
 
 #### Perfect Protector  
-At the start of your turn in combat, choose one of the following benefits. These options do not require an action or cost.
+At the start of your Turn in combat, choose one of the following benefits. These options do not require an action or cost.
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Zone.  
 * Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned Demand.)  
@@ -2382,7 +2382,7 @@ At the start of every Round, everyone pays the [Upkeep](#upkeep) of any ongoing 
 > It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
 ### Turn Taking  
-Each Round, every combatant takes a turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
+Each Round, every combatant takes a Turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
 #### Your Turn  
 When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
@@ -2391,7 +2391,7 @@ When your Turn comes, you get two Actions to work with: one Major and one Minor.
 Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something that interrupts or responds to another combatant's Turn. Abilities that requires a Counter Action will list a trigger condition that must be fulfilled before the action can be used.  
 
 ### Round End  
-At this step you return to Round Start for the next round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.  
+At this step you return to Round Start for the next Round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.  
 
 > When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
 
@@ -2442,9 +2442,9 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 
 #### Buff Track Duration  
 Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
-Positive values begin decaying after 3 rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+Positive values begin decaying after 3 Rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
 
-> For example, Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by round 7's start, the track will decay to 0.  
+> For example, Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by Round 7's start, the track will decay to 0.  
 
 ## Positioning  
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
@@ -2501,7 +2501,7 @@ Rest is a Major Action, and you cannot use your Minor Action to do anything that
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rule book will describe the rules that govern this grim part of the hero’s journey.
 
 ## Damage Types
-Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types while being resistant or immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
+Broadly speaking, there are eight types of damage. Some beings may be vulnerable to some types while being resistant or immune to others. Ideally a party has a variety of damage types to work with with and can adjust to the enemy’s makeup as you go. Players are unlikely to know what types of damages work well upon first encountering a creature. They can use Scan Abilities to determine their targets’ Elemental properties or try experimenting. Some things are reasonable to guess; an ice monster probably doesn’t like fire and doesn’t mind ice for example.
 
 The damage types are as follows:
 * *Physical* - Slashing, piercing, bashing. This is by far the most common type of damage.
@@ -2592,7 +2592,7 @@ It’s worth noting that players are NOT necessarily entitled to this informatio
 ## Status Ailments  
 Status Ailments are lingering problems that hamper a characters' ability to function in combat. Ailments always have a limited duration, and this duration can be reduced by effects such as [Cleanse](#cleanse) or [Healing Hands](#healing-hands). If multiple effects would cause the same Ailment, it instead increases the duration of the existing ailment.  
 
-> I.E. If a character is already suffering from the Daze Ailment with a duration of 2 rounds is struck by an attack that inflicts Daze for another 2 rounds, they now have Daze for 4 rounds.  
+> I.E. If a character is already suffering from the Daze Ailment with a duration of 2 Rounds is struck by an attack that inflicts Daze for another 2 Rounds, they now have Daze for 4 Rounds.  
 
 ### Afraid  
 You are in the grip of a deep terror. This Ailment comes with an entity that you are Afraid of. At the start of your Turn, you *must* use your [Minor Action](#minor-action) to move away from whatever you're Afraid of. If you are unable to do so, you instead lose your Minor Action entirely. Offensive actions against you have Boon +2.  
@@ -2612,7 +2612,7 @@ Knocked off balance or punch-drunk. While you are Dazed you cannot take a [Count
 ### Degeneration  
 You are afflicted with a condition that causes you to weaken over time. This could be bleeding, lingering burns, toxins, or the like. While affected by Degeneration, you lose HP equal to the remaining Degeneration duration on [Round Start](#round-start).
 
-> For example, Cyrick currently suffers from 3 rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains a hit that imposes 2 more rounds of Degeneration on his turn, leaving him with 4 rounds remaining. The next round, he loses 4 HP as a result.  
+> For example, Cyrick currently suffers from 3 Rounds of Degeneration. This causes him to lose 3 HP at Round Start. If nothing happens to change the duration of Degeneration on him, the next Round Start he will lose 2 HP. However, he sustains a hit that imposes 2 more Rounds of Degeneration on his Turn, leaving him with 4 Rounds remaining. The next Round, he loses 4 HP as a result.  
 
 ### Enervate  
 Afflicted by a life draining curse, necromantic energies, disease, or similar hindrances. This reduces all healing you receive by half for its duration.  
@@ -2621,7 +2621,7 @@ Afflicted by a life draining curse, necromantic energies, disease, or similar hi
 Tired in a way that interferes with your defenses. All [Damage Multipliers](#damage) against Fatigued characters are increased by 1.  
 
 > This ailment can also be treated as a release valve for fights that are taking too long. If the Arbiter and players are getting tired a fight, the combatants feel combat fatigue as well. If everyone agrees that it's time to wrap a fight up, all combatants become Fatigued at the same time for the remainder of the fight. In this circumstance, treat Fatigue as a [Disadvantage](#disadvantages) instead of a Status Ailment (meaning it is not removed by Abilities like [Cleanse](#cleanse)).  
-> I would recommend a minimum of 5 rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
+> I would recommend a minimum of 5 Rounds before invoking Fatigue, and if everyone is still having fun in the fight longer than that then the characters can remain energetic enough to continue the fight as long as everyone wants.  
 
 ### Provoke  
 An opponent has demanded your attention. Any actions you take that affect opponents must include the creature that Provoked you, including any area of effect.  
@@ -2690,7 +2690,7 @@ At the beginning of the Controller's Turn, they make an Offense roll against the
 Offense rolls against the Captured are made at Boon +2. When targeting anyone other than the Controller, the Captured also makes Offense rolls at Bane -2. The controller can also cover the Captured's mouth to silence them.  
 A single target can be Grabbed by multiple targets. In this case, the Captured must escape each Controller separately.  
 
-> As an example, Balam and Bannon have Grabbed a monster to try to keep it in place. None of the three can move in this state. On the monster's turn, it uses [Struggle](#struggle) to successfully shake of Bannon, but remains Grabbed by Balam and therefore unable to move.  
+> As an example, Balam and Bannon have Grabbed a monster to try to keep it in place. None of the three can move in this state. On the monster's Turn, it uses [Struggle](#struggle) to successfully shake of Bannon, but remains Grabbed by Balam and therefore unable to move.  
 
 ### Protection  
 You are either providing an ally with Protection (the Protector), or are Protected by an ally.  
