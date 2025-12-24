@@ -2300,7 +2300,7 @@ You are particularly skilled at using an [Element](#elemental). Choose one: Fire
 > Note that you must do the damage to gain these benefits. If using the Summoning module, your summoned allies do not benefit from this Talent.  
 
 #### Everlasting  
-You recovery from injuries very quickly. Every Turn at [Round End](#round-end), regain HP equal to your [Vitality](#vitalitycapacity). You also gain one point of [Vitality](#vitalitycapacity) without paying the XP cost.
+You recovery from injuries very quickly. Every Turn at [Round End](#round-end), regain HP equal to your [Vitality](#vitalitycapacity). You also gain one point of Vitality without paying the XP cost.
 
 If you ever reach zero HP, you cease regenerating until you are healed by another source.  
 
@@ -2366,10 +2366,13 @@ You can keep yourself going with sheer willpower. You may use your Heart in plac
 
 ------------
 # Chapter 10: Combat  
-Combat is frequently part of an exciting story. While not every story needs combat, often conflict escalates until it cannot be solved peacefully. This chapter presents rules for handling fights.  
+Combat isn't in every epic adventure, but it is common. This chapter presents rules for handling fight scenes.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ## Surprise/Ambush  
-The Arbiter determines who might be surprised in a given scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
+Sometimes one side of a fight surprises The Arbiter determines who is surprised in a scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
 
 ## Time in Combat  
 Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn.  
