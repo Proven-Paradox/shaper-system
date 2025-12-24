@@ -2278,88 +2278,88 @@ If you successfully strike with a [Curse](#curse) Ability with your Major Action
 When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). You may refund the XP spent to learn one if you already know both.  
 
 #### Crushing Zeal  
-Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense and Initiative.
+Your attacks are strengthened by your ardor. You may use your Heart in place of Finesse to determine your Physical Offense and Initiative.
 
 #### Elemental Specialist  
-Choose one element: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
-* You gain [Elemental Attunement](#elemental-attunement) for the associated element.  
+You are particularly skilled at using an [Element](#elemental). Choose one: Fire, Cold, Sky, Earth, Light, or Dark. You gain the following benefits:  
+* Gain [Elemental Attunement](#elemental-attunement) for the associated element.  
   * If you already have Elemental Attunement for the chosen element, you may either gain Elemental Attunement with a new element, or regain the 3 XP invested in gaining Elemental Attunement originally.
-* You gain resistance to the chosen element.
-  * If the chosen element was previously your weakness, you must choose a new element to be your weakness.
-* If you spend an additional 1 MP per tier of the Ability you are using, you may convert physical damage you do into the chosen element.  
-  * Tier 0 Abilities require no additional cost to convert.
-  * Your converted damage still targets the usual Physical or Mental Defense.
-* You gain an additional benefit unique to each element as follows
-  * Fire - Successfully dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in Hero Tier, the Degeneration added per hit increases by 1 round, and the maximum duration increases by 2 rounds.  
-  * Cold - Successfully dealing Cold damage also [slows](#slow) the target for 2 rounds. If you successfully deal Cold damage to a target that is already slowed, they instead become [rooted](#root) for 1 round.
+* You gain Resistance to the chosen element.  
+  * If that element was previously a Weakness, you must choose a new Elemental Weakness.
+* When you use an Ability, you may spend MP equal to its [Ability Tier](#ability-tiers) to convert its damage into the chosen element.  
+  * Tier 0 Abilities can be converted for free.  
+  * Converted damage still targets Physical or Mental Defense as usual.  
+* You gain an additional benefit unique to each element as follows:  
+  * Fire - Dealing Fire damage also inflicts [Degeneration](#degeneration) for 2 rounds, to a maximum of 6 rounds. Every time you increase in [Hero Tier](#hero-tier) the Degeneration added per hit increases by 1 round and the maximum duration increases by 2 rounds.  
+  * Cold - Dealing Cold damage also [slows](#slow) the target for 2 rounds. If you deal Cold damage to a target that is already Slowed, you may choose to [root](#root) them for 1 round instead.  
   * Sky - You may move before or after using an Ability that deals Sky damage. You must end your movement such that you still are within the triggering Ability's range to the target.
-  * Earth - Successfully scoring a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Zone.
-  * Light - Successfully dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
-  * Dark - Successfully dealing Dark damage restores you for half the damage done. If you do HP damage you heal that amount, and if you do MP damage you restore that much MP.   
-Note that to gain these benefits, the damage must be done by you personally. If using the Summoning module, your summoned allies do not benefit from this Talent.
+  * Earth - Landing a [Solid Hit](#solid-hit) while dealing Earth damage allows you to move the target one Zone.
+  * Light - Dealing Light damage allows you give [shield](#shield-x) to an ally within the triggering Ability's range. The magnitude of this shield is equal to half the damage done.  
+  * Dark - Dealing Dark damage heals you for half the damage done.   
+  
+> Note that you must do the damage to gain these benefits. If using the Summoning module, your summoned allies do not benefit from this Talent.  
 
 #### Everlasting  
-At the [Round End](#round-end) of every Turn, you regain HP equal to your [Vitality](#vitalitycapacity). When you gain this Talent, you also gain one point of Vitality without paying the XP cost.
+You recovery from injuries very quickly. Every Turn at [Round End](#round-end), regain HP equal to your [Vitality](#vitalitycapacity). You also gain one point of [Vitality](#vitalitycapacity) without paying the XP cost.
 
-If you ever reach zero HP, you cease regaining HP until you are given healing from another source.  
+If you ever reach zero HP, you cease regenerating until you are healed by another source.  
 
-#### Flight Talent  
-Your maneuverability allows you to overcome gravity, be it through magical power, transmuting wings for yourself, equipping and successfully piloting a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
-This Talent makes the [Hover](#hover) Utility redundant. If you previously took the Hover Utility, you lose it but regain the XP spent.
+#### Flier
+Your maneuverability allows you to overcome gravity, be it through magical power, wings, a jet-pack, or similar means of propulsion. You gain the [Flight](#flight) property.  
+This Talent makes the [Hover](#hover) Utility redundant. If you have the Hover you refund its XP cost.  
 
 #### Healing Hands  
-You are an expert healer. When you use an Ability with the [Healing] tag, you may gain one of the following benefits:
-* End a Curse effect on the target.
-* Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.
-* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.
+You are an expert healer. When you use a [Healing](#healing) Ability, you gain one of the following benefits:
+* End a Curse effect on the target.  
+* Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
+* Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 rounds.  
 
 #### Heavy Hitter  
-You hit so hard that you can knock your foes around without actively trying to. When you make an Attack or Spell and get a [Critical Hit](#critical-hit), you can choose one of the following extra effects.
+You hit hard enough to knock your foes off balance. When score a [Critical Hit](#critical-hit), you can choose one of the following extra effects:  
 * Knock your target(s) [Prone](#prone).  
 * [Stagger](#stagger) your target(s) for a number of rounds equal to your [Hero Tier](#hero-tier).  
-* Move your target(s) one Zone. In the case of multiple targets, you must move them all in the same direction.  
+* Move your target(s) one Zone. You must move them all targets in the same direction.  
 
-You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Zone) you must choose the same effect for all creatures affected. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
-This Talent also reduces the effect of the [Size](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#size-x) quality on enemies by your Hero Tier. This is a passive effect that applies to all Attacks and Spells, not just Critical Hits.  
+You may only affect a given target with this Talent once per Turn. If you strike multiple Critical Hits with a single action (such as using an Ability that targets a Zone) you must choose the same effect for all targets. You cannot affect a target with Heavy Hitter due to an Offense Roll that doesn't come with an Attack or Spell, such as maintaining a [Grab](#grab) or similar effect.  
+This Talent also reduces the effect of the [Size](https://github.com/Proven-Paradox/shaper-system/blob/main/Adversaries-and-Monsters.md#size-x) quality on enemies by your Hero Tier. This is a passive effect that applies to all Offense rolls, not just Critical Hits.  
 
 #### Intelligent Avoidance  
-You’ve mastered how to avoid attacks by predicting their path. You may use your Mind in place of Finesse to determine your Physical Defense.
+You can avoid attacks by calculating their path. You may use your Mind in place of Finesse to determine your Physical Defense.  
 
-#### Lucky
-You're just lucky sometimes. 
-You may re-roll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Your re-rolls refresh after you spend six hours not using any. You still cannot re-roll dice that have already been re-rolled, either through this Talent or through Boon/Bane.  
-When you roll [Matches](#matches), you may gain one additional dice re-roll.  
-When you re-roll dice due to Boon, you may keep the higher result between the two instead of replacing the previous roll.  
+#### Lucky  
+Fortune favors you. You may re-roll a number of dice equal to 2 + your [Hero Tier](#hero-tier). Going for 6 hours without using one restores this re-roll pool. You cannot re-roll dice that have already been re-rolled, either through this Talent or through Boon/Bane.  
+When you roll [Matches](#matches), you gain one additional dice re-roll.  
+When you re-roll dice due to Boon, you keep the higher result between the two instead of replacing the previous roll.  
 
-#### Mana Fountain
-You gain 9 additional MP, plus 3 more for each point of [Capacity](#vitalitycapacity). This Talent applies retroactively to all levels of Capacity. When you gain this Talent, you also gain a point of Capacity without paying the XP cost.
+#### Mana Fountain  
+You gain 9 additional MP, plus 3 more per point of [Capacity](#vitalitycapacity). This Talent applies retroactively. You also gain a point of Capacity without paying the XP cost.  
 
 #### Measured Strikes  
-You practice a fighting style that emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.
+Your fighting style emphasizes mind over muscle. You may use your Mind in place of Strength to determine your Physical Offense.  
 
 #### Muscle Mage  
-You have trained in a magic style that uses strength of body over strength of mind. You may use your Strength in place of Mind to determine your MP.
+You can use your brawn in place of brains. You may use your Strength in place of Mind to determine your MP.  
 
 #### Overwhelming Force  
-You can draw magic power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense and Initiative.
+You can draw mental power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense and Initiative.  
 
 #### Perfect Protector  
-At the start of your turn in combat, you may choose one of the following benefits. The chosen benefit happens automatically and does not require an action from you. You do not pay any MP or HP costs to use these options.
+At the start of your turn in combat, choose one of the following benefits. These options do not require an action or cost.
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Zone.  
-* Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned the Demand Ability.)
+* Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned Demand.)  
 
 #### Precise Evasion  
-You are able to avoid spells with agility. You may use your Finesse in place of Soul to determine your Mental Defense.
+You are able to avoid mental effects with agility. You may use your Finesse in place of Soul to determine your Mental Defense.  
 
 #### Serene Capacity  
-You are able to power your spells with intuition and patience. You may use your Soul in place of Heart to determine your MP.
+You are able to power your spells with intuition and patience. You may use your Soul in place of Heart to determine your MP.  
 
 #### Skill Spell  
-You make your spells more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.
+You make your mental effects more deadly by striking with superior control and aim. You may use your Finesse in place of Mind to determine your Mental Offense.  
 
 #### Sturdy Shield  
-You can use your physical sturdiness to protect yourself against mental forces. You may use your Toughness in place of Heart to determine your Mental Defense.
+You can use your physical sturdiness to protect yourself against mental forces. You may use your Toughness in place of Heart to determine your Mental Defense.  
 
 #### Unyielding Confidence  
 You can keep yourself going with sheer willpower. You may use your Heart in place of Toughness to determine your HP.  
