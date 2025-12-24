@@ -2254,32 +2254,28 @@ You can learn more from corpses; they now remember everything the knew up to the
 
 ------------
 
-```
-TODO: Continue review of existing text here; high priority
-```
-
 # Chapter 9: Talents
-A character gains a Talent for free at [Max Potential](#max-potential) 1, and again when gaining a Max Potential divisible by 5 (5, 10, 15, ...).
+A character gains a Talent at [Max Potential](#max-potential) 1, and again when gaining a Max Potential divisible by 5 (5, 10, 15, ...).
 
 #### Accelerated Assistance
-When you use an Augment ability, you can also do one of the following:  
-* Double the cost of the Ability to use it on another target without spending an Action.  
-* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment on this round.  
+When you use an [Augment](#augment) Ability, you can also do one of the following:  
+* Double the cost of the Augment to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
+* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment that round.  
 
-When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). If you have already learned both, you may refund the XP spent to learn one of them.
+When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). You may refund the XP spent to learn one if you already know both.
 
 #### Battering Defense
-You can physically batter aside your opponent's attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
+You can knock aside your opponent's physical attacks. You may use your Strength in place of Toughness to determine your Physical Defense.
 
 #### Body and Soul  
-Your wholeness of spirit leads to wholeness of body. You may use your Soul in place of Strength to determine your HP.
+A strong spirit leads to a strong body. You may use your Soul in place of Strength to determine your HP.
 
 #### Cascading Curses  
-When you successfully strike a target with a Curse Ability, you can also do one of the following:  
-* Double the cost of the Ability to use it on another target without spending an Action.  
-* Use a non-Curse Attack or Spell Ability that normally requires a Major Action as a Minor Action. This Ability may not be of a higher Tier than the Curse that triggers this Talent, and must have the same target as the Curse that triggered this.  
+If you successfully strike with a [Curse](#curse) Ability with your Major Action you can also do one of the following:  
+* Double the cost of the Curse to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
+* Use a non-Curse Ability that normally requires a Major Action as a Minor Action. This follow up Ability must strike the same target(s) and cannot be of a higher [Ability Tier](#ability-tiers) than the original Curse  
 
-When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). If you have already learned both, you may refund the XP spent to learn one of them.
+When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). You may refund the XP spent to learn one if you already know both.  
 
 #### Crushing Zeal  
 Your attacks are powered by your spirit. You may use your Heart in place of Finesse to determine your Physical Offense and Initiative.
