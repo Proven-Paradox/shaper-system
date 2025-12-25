@@ -2271,9 +2271,9 @@ You can knock aside your opponent's physical attacks. You may use your Strength 
 A strong spirit leads to a strong body. You may use your Soul in place of Strength to determine your HP.
 
 #### Cascading Curses  
-If you successfully strike with a [Curse](#curse) Ability with your Major Action you can also do one of the following:  
+If you successfully strike one or more targets with a [Curse](#curse) Ability using a Major Action you can also do one of the following:  
 * Double the cost of the Curse to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
-* Use a non-Curse Ability that normally requires a Major Action as a Minor Action. This follow up Ability must strike the same target(s) and cannot be of a higher [Ability Tier](#ability-tiers) than the original Curse  
+* Use a non-Curse Ability that normally requires a Major Action as a Minor Action. This follow up Ability must strike the same target(s) and cannot be of a higher [Ability Tier](#ability-tiers) than the original Curse.  
 
 When you gain this Talent, you also learn either [Enfeeble](#enfeeble) or [Expose](#expose). You may refund the XP spent to learn one if you already know both.  
 
