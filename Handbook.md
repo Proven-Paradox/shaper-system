@@ -2257,10 +2257,10 @@ You can learn more from corpses; they now remember everything the knew up to the
 # Chapter 9: Talents
 A character gains a Talent at [Max Potential](#max-potential) 1, and again when gaining a Max Potential divisible by 5 (5, 10, 15, ...).
 
-#### Accelerated Assistance
-When you use an [Augment](#augment) Ability, you can also do one of the following:  
-* Double the cost of the Augment to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
-* Use an Augment Ability that normally costs a Major Action to a Minor Action. If you do this, you can only use one Augment that Round.  
+#### Accelerated Assistance  
+You are skilled with [Augment](#augment) Abilities. You gain two options:  
+* You can double the cost of an Augment to use it a second time without spending an Action. This second use cannot include the same target(s) as the first.  
+* You can use an Augment that normally costs a Major Action as a Minor Action. If you do this, you can only use one Augment that Round.  
 
 When you gain this talent, you also learn either [Empower](#empower) or [Fortify](#fortify). You may refund the XP spent to learn one if you already know both.
 
