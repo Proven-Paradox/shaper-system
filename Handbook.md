@@ -59,7 +59,7 @@ priorities.
   - [Positioning](#positioning)  
     - [Zones](#Zones)  
     - [Advanced Positioning](#advanced-positioning)  
-  - [Chasing rules](#chasing-rules)  
+  - [Chasing Scenes](#chase-scenes)  
 - [Chapter 11: Health, Injury, Death, and Recovery](#chapter-11-health-injury-death-and-recovery)  
   - [HP](#hp)  
   - [Damage Types](#damage-types)  
@@ -2439,43 +2439,42 @@ These broadly measure advantage or disadvantage in Offense or Defense. You start
 Negative levels on the Buff Tracks have no duration; they are removed via [Recover](#recover), [Cleanse](#cleanse) or similar effects.  
 Positive values begin decaying after 3 Rounds. Receiving another increase on that Buff Track resets this timer. While decaying, the track's level decreases at every [Round Start](#round-start).
 
-> For example. Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by Round 7's start, the track will decay to 0.  
+> For example. Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another Defense Track boost by Round 4, his Defense Buff begins decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decays to 1. If he does not receive another defense buff by Round 7's start, the track decays to 0.  
 
 ## Positioning  
-Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
+Knowing your location and who can reach you is critical in combat. Here's how to keep track of combatants' positions.  
 
 ### Zones  
-Combat is broken up into Zones. A combat Zone should generally be somewhere between 15-20 feet in length on each side, whatever shape is appropriate for a given scene, and easy to understand on a quick drawing. It may represent a room or a hallway. A great hall in a large building may have several Zones. An open field would just be an effectively infinite number of Zones that characters can move through freely. Multiple creatures can occupy a single Zone, and everyone in a Zone can reach each other.  
-Moving between Zones is done with Abilities. Everyone has access to the the most [Basic Move](#basic-move) Ability, and others such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more advanced ways to position.  
+Locations in combat are broken up into Zones. A Zone is generally be somewhere between 15-20 feet wide, with whatever shape is appropriate for a given scene. A small room can be represented with a single Zone. A hallway leading to multiple rooms can be represented a Zone that connects to adjacent Zones for each room. The common room of a tavern or inn could be a few zones that freely connect to each other. A foyer in a large building may have several Zones. An open field is an appropriate number of Zones that characters can move through freely.  
+Multiple creatures can occupy a single Zone, and everyone in a Zone can reach each other. There is no default limit on the number of creatures a Zone can contain. The Arbiter may set limits to represent tight spaces or declare a Zone full if a large number of creatures crowd into it.  
+Moving between Zones is done with Abilities. Everyone has access to [Basic Move](#basic-move). Abilities such as [Run](#run) or [Mobile Strike](#mobile-strike) provide more varied ways to change position.  
 
 ### Advanced Positioning  
-Rules for more advanced, granular, and tactical movement. These rules will not be used every combat; many combat scenarios don't really need this level of precision. The Arbiter should specifically point out when they're running a combat with these rules.  
+These are rules for more granular and tactical movement. These aren't used every combat; many combat scenarios don't need this level of precision. The Arbiter must point out when these rules are in play.  
 
 #### Subzones  
-Subzones are a way of dividing up a normal Zone in situations where precise positioning is necessary. Each Subzone is a portion of a larger Zone.  
-When you first enter a Zone that contain Subzone, you choose which Subzone you land on. Any time after, you can change which Subzone you occupy by doing anything that would allow you to move.  
-Unlike regular Zones, Subzones can only have one character in them at a time. Allies do not block movement for each other, but one cannot walk through Subzones that contain an enemy.  
-You do not need to be in the same Subzone as an ally to affect them with your Melee Range Abilities (such as Guard or Healing Touch). Using these Abilities on an ally causes you to move adjacent to them automatically. You cannot do this if you do not have line of sight to target ally.  
-Subzones generally come up when line of sight or cover becomes a factor in a fight. Each situation with Subzones includes rules on how line of sight or effect is determined in their descriptions.  
+Subzones divide normal Zones in situations where precise positioning is necessary. They generally account for line of sight or cover.  
+Each Subzone is a portion of a larger Zone. A combatant can move between Subzones contained by the same standard Zone during their Turn. Allies do not block movement for each other, but one cannot move through or enter Subzones that contain an enemy. One must be in the same or an adjacent Subzone to affect a target with a Melee range Ability. Each Subzone type includes rules for line of sight or cover in their descriptions.  
 Characters can move between top level Zones as normal, regardless of which Subzone you start from.  
-Some examples of Subzone use:  
+Some examples follow.  
 
 ##### Central column  
-A Zone that includes a column, pillar, or other obstruction at its center. The containing Zone is divided up into 9 Subzones. The central Subzone is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight, just count the number of Subzones away your target is. Count orthogonality; i.e. without moving diagonally. Any target more than two Subzones away is blocked; the pillar is between you and your target.
+A Zone that includes a column, pillar, or other obstruction at its center. The containing Zone is divided up into 9 Subzones. The central Subzone is the column, which cannot be entered and blocks line of sight. To determine if you have line of sight around the column, count the number of non-diagonal Subzones between target. Any target more than two Subzones away is blocked by the column.
 
 ```  
 TODO: Visual aid, more examples; low priority: I want to get closer to done  
 with everything else before getting into fiddly portions like this.  
+Items to write - low walls, objects, elevation, doors, hallways, stairs
 ```  
 
-## Chasing rules
-Sometimes when two opposing factions meet, one is not willing to stand and fight. This can result in a chase scene, in which one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) doing the chasing are the Hunter(s).
+## Chase Scenes  
+Chase scenes occur when one party is trying to get away from a pursuing party. The individual or group being chased is called the Quarry, while the one(s) pursuing are the Hunter(s).  
 
-### Position During Chases
-During a chase, exact position doesn’t necessarily matter as much as distance between the Quarry and the Hunter. There is no need to make a large map to have a chase. Instead, assign each participant in the chase a number, representing how far they are from the chase’s starting point. This number is called the character’s Position, and it determines what they can do to other participants in the chase. At the start of the chase, the Hunter that’s farthest from the Quarry should be assigned Position 0, with others in the chase being assigned Positions based on how far from this starting point they are. Any action or effect that would normally cause you to move a Zone instead allows you to instead increase (or decrease) your Position by 1.
+### Position During Chases  
+During a chase, exact position doesn’t matter as much as distance between the Quarry and the Hunter. Instead of making a map for these scenes, assign each participant a number representing how far they are from the chase’s starting point. This is the character’s Position, and it determines what they can do to other chase participants. At the start of the chase, assign the Hunter farthest from the Quarry Position 0, with others assigned starting Positions based on how far from the starting point they are. Any action or effect that normally moves through a Zone increases (or decreases) a participant's Position by 1.  
 
-### Endurance
-A chase is as much about endurance as it is about speed. You start every chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
+### Endurance  
+Endurance is just as important as speed in a Chase. Participants start every Chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
 At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an [Endure](#endure) check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
 If your Endurance score goes negative, you lose that much HP every time you move a Zone of your own volition during the chase.
 
