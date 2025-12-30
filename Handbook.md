@@ -2473,23 +2473,27 @@ Chase scenes occur when one party is trying to get away from a pursuing party. T
 ### Position During Chases  
 During a chase, exact position doesn’t matter as much as distance between the Quarry and the Hunter. Instead of making a map for these scenes, assign each participant a number representing how far they are from the chase’s starting point. This is the character’s Position, and it determines what they can do to other chase participants. At the start of the chase, assign the Hunter farthest from the Quarry Position 0, with others assigned starting Positions based on how far from the starting point they are. Any action or effect that normally moves through a Zone increases (or decreases) a participant's Position by 1.  
 
-### Endurance  
-Endurance is just as important as speed in a Chase. Participants start every Chase with an Endurance score equal to your [Hero Tier](#hero-tier) + Toughness + Heart. You can spend Endurance to use one of the actions described below, or preserve it in order to continue a long-distance chase.  
-At the [Round End](#round-end) during a chase, everyone involved that moved that Round must make an [Endure](#endure) check. This check starts at a target of 10, and on a success nothing happens other than the target increasing by 2 the next Round. On a failure, you lose one point of Endurance and the Endure check’s difficulty goes back to 10 for the next Round.  
-If your Endurance score goes negative, you lose that much HP every time you move a Zone of your own volition during the chase.
+### Stamina  
+Endurance is just as important as speed in a Chase. Participants start every Chase with a Stamina score equal to their [Hero Tier](#hero-tier) + Toughness + Heart. At [Round End](#round-end) during Chases, everyone that moved that Round must make an [Endure](#endure) check with a target of 10. This increases by 2 each subsequent round. On a failure, they lose one point of Stamina and the Endure check’s difficulty goes back to 10 for the next Round.  
+If a character's Stamina is negative, they lose that much HP every time they willing move a Zone during the chase.  
+
+> For example, Slanaan fleeing from a deadly monster. He is Hero Tier 1 with Toughness 2 and Heart -1, so he starts the Chase with 2 Stamina. At the end of the first Round he needs to make an Endure check of 10 or better. He rolls a 13, success. A Round later the target for his Endure check is 12. He rolls a 6, losing a point of Stamina. This continues for several rounds until he reaches -1 Stamina. He now loses 1 HP each time he changes Position. If he fails another Endure check, his Stamina becomes -2 and he loses 2 HP per Position change.  
 
 ### Actions During Chases
-There are a few things one can do that is specific to chase scenes to consider.
+There are a few actions that are specific to Chases.  
 
-#### Use Abilities
-All Abilities available to you during combat are also available during chases. In order to use a Melee range Ability your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 3; for Long, 5; for Extreme, 8.  
+#### Use Abilities  
+All Abilities available to you during combat are also available during Chases. To use a Melee range Ability your Position must match your target’s. To use a Close range Ability, your Position must be within 1 of your target’s; for Medium, 3; for Long, 5; for Extreme, 8.  
 
-#### Rush
-Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Endurance.
+#### Rush  
+Rushing during a chase is a Major Action, and allows you to move three Positions at once. Doing this costs a point of Stamina.
 
-#### Rest
-Rest is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on the Turn you use it. This recovers one point of Endurance, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.  
+#### Rest  
+Rest is a Major Action, and you cannot use your Minor Action to do anything that causes you to move on the Turn you use it. This recovers one point of Stamina, up to a maximum of your [Hero Tier](#hero-tier) + Toughness + Heart.  
 
+```
+TODO: Continue review of existing text here; high priority
+```
 ------------
 # Chapter 11: Health, Injury, Death, and Recovery
 In the course of your group’s story, the players will face adversity. They will endure pain. Flesh fails, bones break, and blood flows. This is a part of adventuring, and all adventures make their own peace with this reality in time. This section of the rule book will describe the rules that govern this grim part of the hero’s journey.
@@ -2666,7 +2670,7 @@ This Condition makes you immune to terrain effects.
 You are invisible or otherwise very difficult to see, which makes you extremely difficult to hit or track. Any foe that is able to target you with a single target attack makes said attack with only a single die. (Obscured provides no benefit against area of effect attacks.)  
 
 ### Shield X  
-You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Endurance during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
+You have a barrier or defense active that takes damage for you. While you have any amount of Shield, damage done to you subtracts from your Shield amount before your HP. You cannot use Shield to pay HP costs, and effects described as "losing" life or HP (such as HP loss from low Stamina during a chase) still subtract directly from your HP. Shield gained from different sources stack.  
 
 ### Taunt  
 If you have Taunt and are in a space with any other ally, enemies must target you over other allies in the same Zone. Foes using Offensive Abilities that pick a single target can only pick you. Abilities that Abilities that affect Zones instead of targets can still affect your allies as normal.  
