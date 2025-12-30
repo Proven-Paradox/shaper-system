@@ -858,7 +858,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target increases on the [Offensive Track](#the-offensive-track).  
+Effect: The target increases on the [Offensive Track](#the-offense-track).  
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
@@ -869,7 +869,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: 0  
-Effect: If you hit, the target decreases on the [Offensive Track](#the-offensive-track).  
+Effect: If you hit, the target decreases on the [Offensive Track](#the-offense-track).  
 You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
 Scaling: At any Hero Tier, you may increase the cost of this Ability by 5 MP to give it a Damage Multiplier of 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
@@ -883,7 +883,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: 0  
-Effect: If you hit, the target decreases on the [Defensive Track](#the-defensive-track).  
+Effect: If you hit, the target decreases on the [Defensive Track](#the-defense-track).  
 You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense). 
 Scaling: At any Hero Tier, you may increase the cost of the Ability by 5 MP to give it a Damage Multiplier of 1.  
 At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
@@ -922,7 +922,7 @@ Prerequisites: None
 Range: Medium  
 Targets: 1 ally  
 Cost: 2 MP  
-Effect: The target increases on the [Defensive Track](#the-defensive-track).  
+Effect: The target increases on the [Defensive Track](#the-defense-track).  
 Description: A basic aid to an ally’s defenses. This can be shouting orders or encouragement, magically hardening the target’s skin, providing minor divine aid through prayer, and other related effects.
 
 #### Guard  
@@ -1320,7 +1320,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 5 MP  
 Damage: x1  
-Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offensive-track).  
+Effect: If you deal damage with this Ability, the target also decreases on their [Offensive Track](#the-offense-track).  
 Description: Dealing damage while compromising the opponent's offensive capabilities. This can be an attack that strikes the opponent's weapon arm, a technique that damages the target's weapon, applying numbing poison with the strike, or similar measures.
 
 #### Blink  
@@ -1418,7 +1418,7 @@ Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)
 Range: Medium  
 Targets: 1 enemy  
 Cost: 8 MP (Upkeep 2 MP)  
-Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track), your choice.
+Effect: If you hit with this Spell, the target decreases on [The Offensive Track](#the-offense-track) or [The Defensive Track](#the-defense-track), your choice.
 When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends. (The damage done to the target remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected.  
 You may only have one instance of Doom at a time; if you wish to switch to a different target or track, you must re-cast Doom. (Exception: If you have the [Cascading Curses](#cascading-curses) Talent, you may have two instances of Doom active.)  
 Description: You cause the victim to gradually become weaker. This can be inflicting a curse that drains the target’s energy over time, coating the target with nanobots or a chemical substance that inhibits their bodies, invoking vengeful spirits to drag the target down, or similar effects.
@@ -1453,7 +1453,7 @@ Range: None
 Targets: Self  
 Cost: 8 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
-Effect: Increase along [The Defensive Track](#the-defensive-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 Rounds as normal.  
+Effect: Increase along [The Defensive Track](#the-defense-track) and gain [Taunt](#taunt). The Upkeep is to maintain the Taunt; the Defensive Track increase lasts 3 Rounds as normal.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
@@ -1488,7 +1488,7 @@ Range: None
 Targets: Self  
 Trigger: You are struck by a [Solid Hit](#solid-hit)  
 Cost: 4 HP, 4 MP  
-Effect: Increase your [Defensive Track](#the-defensive-track).  
+Effect: Increase your [Defensive Track](#the-defense-track).  
 Description: You respond to a hard hit by tightening your defense. This could represent being able to observe and counter an opponent's strikes over time, redirecting power to energy shields, becoming numb to pain, and similar ways of empowering your defense after taking a significant hit.
 
 #### Leyline  
@@ -1567,7 +1567,7 @@ Range: None
 Targets: Self  
 Cost: 8 HP  
 Cooldown: 4 Rounds  
-Effect: You increased on the [Offensive Track](#the-offensive-track) and become [Charged](#charged).  
+Effect: You increased on the [Offensive Track](#the-offense-track) and become [Charged](#charged).  
 Description: Preparing for a powerful attack. This could represent charging your weapon with power, winding up for a huge punch, charging up a laser weapon, or similar effects.
 
 #### Psychic Blast  
@@ -1633,7 +1633,7 @@ Prerequisites: [Empower](#empower), [Fortify](#fortify), [Healing Word](#healing
 Range: Medium  
 Targets: 1 ally  
 Cost: 10 MP  
-Effect: Target ally increases on either the [The Offensive Track](#the-offensive-track) or [The Defensive Track](#the-defensive-track) (your choice) and also heals HP equal to a die roll.  
+Effect: Target ally increases on either the [The Offensive Track](#the-offense-track) or [The Defensive Track](#the-defense-track) (your choice) and also heals HP equal to a die roll.  
 Description: Simultaneously healing an ally and preparing them for further combat. This could represent healing prayers, evoking a rune of protection, supercharging an ally's shields, or similar measures.
 
 #### Restrain  
@@ -1698,7 +1698,7 @@ Range: Melee
 Targets: 1 enemy  
 Cost: 5 MP  
 Damage: x1  
-Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defensive-track).  
+Effect: If you deal damage with this Ability, the target also decreases their [Defensive Track](#the-defense-track).  
 Description: Dealing damage while compromising the opponent's defensive capabilities. This can be a technique that damages the target's shield or armor, delivering a curse spell through a weapon, deploying a chemical that eats away the target's defenses, or similar measures.
 
 #### Sprint  
@@ -1724,7 +1724,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 3 MP  
 Damage: 0  
-Effect: You learn the target's properties as if you affect them with Scan. After that, if you hit with this Ability the target also decreases their [Defensive Track](#the-defensive-track) or [Offensive Track](#the-offense-track) by 1.  
+Effect: You learn the target's properties as if you affect them with Scan. After that, if you hit with this Ability the target also decreases their [Defensive Track](#the-defense-track) or [Offensive Track](#the-offense-track) by 1.  
 Description: Analyzing enemy capabilities while also damaging them. This could be a psychic assault that reads the mind it is damaging, hacking into an opponent's equipment, a curse that reveals its target's secret weaknesses to the user, or something similar that can read information while also hobbling their target.  
 
 #### Suspend  
@@ -2041,7 +2041,7 @@ TODO: Consider a minor buff. Maybe Shield? Low priority.
 While you have [Taunt](#taunt) and are in the same space as an ally, are providing an ally with [Protection](#protection), or are being targeted by an opponent you have [Provoked](#provoke), increase your Physical and Mental Defense by 1. This benefit does not increase your Offense rolls when using [Guardian Strike](#guardian-strike).  
 
 #### Sadism  
-When you kill or knock out a foe, you may increase your [Offensive Track](#the-offensive-track) by 1 or become [Charged](#charged).  
+When you kill or knock out a foe, you may increase your [Offensive Track](#the-offense-track) by 1 or become [Charged](#charged).  
 
 #### Spell Sniper  
 Prerequisite: [Brace](#brace)  
@@ -2416,7 +2416,7 @@ Any time your dice roll the same number, that is considered a Match. Like Solid 
 ## Buff Tracks  
 These broadly measure advantage or disadvantage in Offense or Defense. You start every combat at level 0 in both tracks. Abilities like [Augments](#augment) and [Curses](#curse) alter these values for temporary bonuses or penalties. These cannot go lower than -3 or higher than 3.  
 
-### The Offensive Track  
+### The Offense Track  
 * **Level 3** - You make Offense rolls at Boon +4, and Abilities that use Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
 * **Level 2** - You make Offense rolls at Boon +3.  
 * **Level 1** - You make Offense rolls at Boon +2.  
@@ -2425,7 +2425,7 @@ These broadly measure advantage or disadvantage in Offense or Defense. You start
 * **Level -2** - You make Offense rolls at Bane -3.  
 * **Level -3** - You make Offense rolls at Bane -4, and Abilities that use Offense rolls cost 1 more HP or MP per Hero Tier.  
 
-### The Defensive Track  
+### The Defense Track  
 * **Level 3** - Offense rolls made against you have Bane -4, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
 * **Level 2** - Offense rolls made against you have Bane -3.  
 * **Level 1** - Offense rolls made against you have Bane -2.  
