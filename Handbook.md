@@ -2368,73 +2368,64 @@ You can keep yourself going with sheer willpower. You may use your Heart in plac
 # Chapter 10: Combat  
 Combat isn't in every epic adventure, but it is common. This chapter presents rules for handling fight scenes.  
 
-```
-TODO: Continue review of existing text here; high priority
-```
-## Surprise/Ambush  
-Sometimes one side of a fight surprises The Arbiter determines who is surprised in a scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act in the first Round of combat and is treated as [Flat Footed](#flat-footed).  
-
 ## Time in Combat  
 Actions in combat are organized into Rounds (10 seconds in game) in which each combatant takes a Turn.  
 
 Each Round is broken down into three phases.
 
 ### Round Start  
-At the start of every Round, everyone pays the [Upkeep](#upkeep) of any ongoing Abilities, reduce the counter on Abilities that have Cooldowns, as well as any Abilities or effects with limited Duration. If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
+At the start of every Round, everyone pays the [Upkeep](#upkeep) of any ongoing Abilities, reduces the counter on Abilities that have [Cooldowns](#cooldown), as well as any Abilities or effects with limited [Duration](#duration). If a Character used their Counter Action (see below) the previous Round, they regain it at Round Start.  
 
 > It can be helpful when running fights to get one of the players to keep up with everything that needs to happen at Round Start, at least for the players' side.  
 
 ### Turn Taking  
-Each Round, every combatant takes a Turn. The order participants take their individual Turns in is determined by an Initiative roll at the start of combat. Everyone rolls normally, adding their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
+Each Round, each combatant takes a Turn. The order is determined by an Initiative roll at the start of combat. Everyone rolls dice and adds their [Initiative Bonus](#initiative-bonus). The person with the highest result goes first, followed by the next highest, and so on until everyone has had a Turn.  
 
 #### Your Turn  
-When your Turn comes, you get two Actions to work with: one Major and one Minor. Abilities list their Action requirements in their descriptions. Things such as speaking or movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
+When your Turn comes, you get two Actions: one Major and one Minor. Each Ability lists its Action requirement in its description. Things such as speaking or small movements that don’t meaningfully change the state of the fight do not require an Action. You are not required to use both of your Actions.  
 
 #### Counters  
-Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something that interrupts or responds to another combatant's Turn. Abilities that requires a Counter Action will list a trigger condition that must be fulfilled before the action can be used.  
+Between your Turns, you have one Counter Action. Some Abilities allow you to use this action to do something that interrupts or responds to another combatant's Turn. Abilities that requires a Counter Action will list a trigger condition that must be fulfilled before the Ability can be used.  
 
 ### Round End  
-At this step you return to Round Start for the next Round. Some Abilities, Lessons, and Talents add additional steps to the Round End, unique to each character.  
+This step takes place after all combatants have taken their Turn. This is a good time to prepare for the next round, make sure that everyone is aware of things tracked between rounds like Upkeeps, Cooldowns, Durations, and where characters are on the [Buff Tracks](#buff-tracks), and the like. Some Abilities, Lessons, and Talents take effect at Round End. Once this is done, the Round is over and play moves on to the next Round's Start phase.  
 
-> When it’s not your Turn, you should be considering what your next action is going to be. Just because someone else is doing the talking doesn’t mean you should stop thinking. Actively planning your Turn during your friends’ actions means the game will be faster and more fun for everyone.  
-
-```
-TODO better work this line into the chapter; high priority, currently copy/
-pasted from a different part of the book.
-```  
-In combat, defenders win ties. For example, if using an attack results in the Offense matching the defender’s Defense, the Ability misses and the defender suffers no consequence.  
 ```  
 TODO refactor into better "How to do damage" section, figure out how to work  
 Buff Tracks into this chapter better; high priority  
 ```  
 
-## Impact  
-To make an Offense roll, first you roll your 2 dice as normal and add your modifier. If the Ability you are using to strike is labeled as an Attack, you use Physical Offense. Abilities labeled as Spells instead add your Mental Offense. Once you have this result, subtract your target’s Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is called the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. Usually this will mean dealing damage, but some abilities instead impose conditions or something else unpleasant when they land. The amount of damage you deal is determined by multiplying your Impact by the Ability’s Damage Multiplier.
+### Surprise/Ambush  
+Sometimes one side of a conflict surprises the other, able to act before their foes are ready to fight back. The Arbiter determines who is surprised in a scenario. It might involve [Awareness](#awareness) checks against [Stealth](#stealth), but different situations may call for different rolls to see if someone gets an opportunity to strike the first blow. If a creature is surprised, it doesn’t act and is treated as [Flat Footed](#flat-footed) for the first Round of combat.  
 
-> Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, or similar sources.
+## Impact  
+Attacking a foe means rolling two dice as usual and adding the appropriate Offense bonus. Abilities labeled "Attack" add your Physical Offense. Those labeled "Spell" add your Mental Offense. Once you have this result, subtract your target’s relevant Defense: Physical Defense for Attacks and Mental Defense for Spells. (There are exceptions for some Abilities, such as [Elemental Strike](#elemental-strike)). The result is the Impact. If the Impact is above zero, your Ability has landed and will affect your opponent. If the Ability deals damage, determine how much by multiplying your Impact by the Ability’s [Damage Multiplier](#damage).  
+Defenders win ties. If an offensive Ability's Impact is exactly 0, the defender is completely unaffected by the Ability.  
+
+> Note that the term "Spell" is used as a term to differentiate from physical and mental strikes. An Ability listed as a Spell can function due to magic, technology, equipment, ingenuity, or similar sources.  
 
 ### Solid Hit  
-Any Attack or Spell Impact that is 5 or higher is considered a Solid Hit. This by itself has no implicit effect, but some Abilities, Lessons, etc. may confer additional benefits on a Solid Hit.
+Any Impact of 5 or more is considered a Solid Hit. This by itself has no implicit effect, but some Abilities, Lessons, etc. confer additional benefits on a Solid Hit.  
 
 ### Critical Hit  
-Like Solid Hits, a Critical Hit is any Attack or Spell with an Impact of 10 or higher. This doesn't have any inherent effect (though it is likely going to be very painful for the target) but may activate other effects from Abilities, Lessons, etc.
+Like Solid Hits, an Impact of 10 or higher is a Critical Hit. This doesn't have any inherent effect (though it is likely very painful for the target) but may activate other effects from Abilities, Lessons, etc.  
 
 ### Matches
-Any time your dice rolls comes up on the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.
+Any time your dice roll the same number, that is considered a Match. Like Solid and Critical Hits, this has no significant implication by itself, but may cause something to happen due to other effects on the character.  
 
 ## Buff Tracks  
-These are a way of measuring advantage or disadvantage in Offense or Defense. Unless you are in conditions that specify otherwise, you start every combat at level 0 in both tracks. Several different Abilities can affect this track, which provides appropriate benefits or downsides to every character in a unified way.  
+These broadly measure advantage or disadvantage in Offense or Defense. You start every combat at level 0 in both tracks. Abilities like [Augments](#augment) and [Curses](#curse) alter these values for temporary bonuses or penalties. These cannot go lower than -3 or higher than 3.  
 
 ### The Offensive Track  
-* **Level 3** - You make Offense rolls at Boon +4, and your Abilities that require Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
+* **Level 3** - You make Offense rolls at Boon +4, and Abilities that use Offense rolls cost 1 less HP or MP per Hero Tier. This cannot take an Ability’s cost below 1.  
 * **Level 2** - You make Offense rolls at Boon +3.  
 * **Level 1** - You make Offense rolls at Boon +2.  
 * **Level 0** - The default state, no effect.  
 * **Level -1** - You make Offense rolls at Bane -2.  
 * **Level -2** - You make Offense rolls at Bane -3.  
-* **Level -3** - You make Offense rolls at Bane -4, and your Abilities that require Offense rolls cost 1 more HP or MP per Hero Tier.  
+* **Level -3** - You make Offense rolls at Bane -4, and Abilities that use Offense rolls cost 1 more HP or MP per Hero Tier.  
 
-### The Defensive Track
+### The Defensive Track  
 * **Level 3** - Offense rolls made against you have Bane -4, and you gain [Shield](#shield-x) equal to twice your Hero Tier at the start of your Turn.  
 * **Level 2** - Offense rolls made against you have Bane -3.  
 * **Level 1** - Offense rolls made against you have Bane -2.  
@@ -2444,10 +2435,10 @@ These are a way of measuring advantage or disadvantage in Offense or Defense. Un
 * **Level -3** - Offense rolls against you have Boon +4, and you cannot gain Shield.  
 
 #### Buff Track Duration  
-Negative levels on the Buff Tracks have no duration, and must be removed via [Recover](#recover) or similar measures.  
-Positive values begin decaying after 3 Rounds. Receiving another increase along the corresponding Buff Track resets this timer. Once a buff track begins decaying, its level decreases at every [Round Start](#round-start).
+Negative levels on the Buff Tracks have no duration; they are removed via [Recover](#recover), [Cleanse](#cleanse) or similar effects.  
+Positive values begin decaying after 3 Rounds. Receiving another increase on that Buff Track resets this timer. While decaying, the track's level decreases at every [Round Start](#round-start).
 
-> For example, Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by Round 7's start, the track will decay to 0.  
+> For example. Cyrick casts [Fortify](#fortify) on himself in Round 1 of combat. If he does not gain another boost in his Defense Track by Round 4, his Defense Buff would begin decaying. On Round 3, he uses [Hold Fast](#hold-fast), boosting his Defense Buff to level 2 and resetting the decay timer to Round 6. At Round 6's start, Cyrick's Defense Track decreases to 1. If he does not receive another defense buff by Round 7's start, the track will decay to 0.  
 
 ## Positioning  
 Knowing who you can reach and who can reach you is critical in combat, so these rules are here to help you keep up with the flow of a fight.  
