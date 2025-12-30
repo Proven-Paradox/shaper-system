@@ -1454,7 +1454,7 @@ Targets: Self
 Cost: 8 MP (Upkeep 1 MP)  
 Cooldown: 3 Rounds  
 Effect: Increase along the [Defense Track](#the-defense-track) and gain [Taunt](#taunt).  
-Note: The Upkeep maintains Taunt; the Defense Track increase lasts 3 Rounds as normal.  
+Note: The Upkeep maintains Taunt; the Defense Buff [decays](#buff-decay) as normal.  
 Description: You steel yourself to take a hit while providing cover for allies. This can be raising your shield, physically standing between them and danger, yelling or making noise so that enemies pay attention to you, or similar actions.
 
 #### Intervene  
@@ -2435,7 +2435,7 @@ These broadly measure advantage or disadvantage in Offense or Defense. You start
 * **Level -2** - Offense rolls against you have Boon +3.  
 * **Level -3** - Offense rolls against you have Boon +4, and you cannot gain Shield.  
 
-#### Buff Track Duration  
+#### Buff Decay  
 Negative levels on the Buff Tracks have no duration; they are removed via [Recover](#recover), [Cleanse](#cleanse) or similar effects.  
 Positive values begin decaying after 3 Rounds. Receiving another increase on that Buff Track resets this timer. While decaying, the track's level decreases at every [Round Start](#round-start).
 
