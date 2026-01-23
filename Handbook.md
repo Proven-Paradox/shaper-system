@@ -2025,7 +2025,7 @@ If a [Healing](#healing) Ability would bring your target above maximum HP, they 
 When you knock a foe [Prone](#prone), they are not able to stand again if you are in the same Zone as them until your next Turn.  
 
 #### Quick Healer  
-Once per Round, increase any HP healing by half.  
+Once per Round, increase any HP healing you receive by half.  
 
 #### Relentless  
 When you successfully strike with an Ability that forces a target to move, you may automatically move toward the target as many Zones as you forced them to move. If you forced multiple targets to move, choose one to follow. Your targets are also [Rooted](#root) for 1 Round. This Lesson has [Cooldown](#cooldown) 3.  
