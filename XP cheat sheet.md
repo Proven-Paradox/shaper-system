@@ -4,6 +4,8 @@
 1 Lesson  
 1 Utility  
 1 Talent  
+HP: 15 + (Strength x 3) + (Toughness + 3)  
+MP: 15 + (Mind x 3) + (Heart + 3)  
 
 # Spending XP  
 
