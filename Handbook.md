@@ -2301,7 +2301,7 @@ You are particularly skilled at using an [Element](#elemental). Choose one: Fire
 > Note that you must do the damage to gain these benefits. If using the Summoning module, your summoned allies do not benefit from this Talent.  
 
 #### Everlasting  
-You recovery from injuries very quickly. Every Turn at [Round End](#round-end), regain HP equal to your [Vitality](#vitalitycapacity). You also gain one point of Vitality without paying the XP cost.
+You recovery from injuries very quickly. Every Turn at [Round End](#round-end), regain HP equal to your [Vitality](#vitalitycapacity) or 2, whichever is higher. You also gain one point of Vitality without paying the XP cost.
 
 If you ever reach zero HP, you cease regenerating until you are healed by another source.  
 
