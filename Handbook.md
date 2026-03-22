@@ -1998,7 +1998,7 @@ When using a Spell with [Medium Range](#range) or better on a target within Mele
 [Provoke](#provoke) states you cause last 2 Rounds.  
 
 #### Manamaim
-Whenever you spend MP to cast a damaging Spell, you may increase its Cost by the Spell's [Ability Tier](#ability-tiers) to add your [Capacity](#vitalitycapacity) to your damage after applying its [Damage Multiplier](#damage).  
+Whenever you spend MP to cast a damaging Spell, you may increase its Cost by the Spell's [Ability Tier](#ability-tiers) to add your [Capacity](#vitalitycapacity) (minimum 2) to your damage after applying its [Damage Multiplier](#damage).  
 
 > Example: Merlin has the Manamaim Lesson, Capacity 4, and casts Elemental Lance with the Overload cost. His opponent has Mental Defense 12, and his Offense total is 17. The [Impact](#impact) is 5, and with the Overload cost paid Elemental Lance has a x2 multiplier. This results in 10 damage, plus 4 from Manamaim, resulting in 14 damage.  
 
