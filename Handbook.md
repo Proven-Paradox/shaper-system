@@ -1022,7 +1022,7 @@ Description: This can represent telekinetically picking a target up and throwing
 #### Kinetic Pummeling  
 Spell [Careful]  
 Action: Major  
-Prerequisites: [Kinetic Dart](#kinetic-dart), [Kinetic Force](#kinetic-force)  
+Prerequisites: [Kinetic Force](#kinetic-force)  
 Range: Medium  
 Targets: 1 Zone  
 Cost: 6 MP (Careful 4 MP)  
