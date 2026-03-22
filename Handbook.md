@@ -2314,9 +2314,11 @@ You are an expert healer. When you use a [Healing](#healing) Ability, you gain o
 * End a Curse effect on the target.  
 * Increase the target along one [Buff Track](#buff-tracks) of your choice. You can only increase the value up to 0.  
 * Reduce the duration of one [Status Ailment](#status-ailments) the target is suffering from by 2 Rounds.  
+* Increase the amount of HP healed by 2 per die rolled; i.e. if you heal two dice of HP you heal an additional 4 HP.
 
 #### Heavy Hitter  
-You hit hard enough to knock your foes off balance. When score a [Critical Hit](#critical-hit), you can choose one of the following extra effects:  
+Increase the [Realized Potential](#realized-potential) of your Physical or Mental Offense by 1 without paying an XP cost.  
+In addition, you hit hard enough to knock your foes off balance. When score a [Critical Hit](#critical-hit), you can choose one of the following extra effects:  
 * Knock your target(s) [Prone](#prone).  
 * [Stagger](#stagger) your target(s) for a number of Rounds equal to your [Hero Tier](#hero-tier).  
 * Move your target(s) one Zone. You must move them all targets in the same direction.  
@@ -2345,7 +2347,8 @@ You can use your brawn in place of brains. You may use your Strength in place of
 You can draw mental power from your physical vitality. You may use your Toughness in place of Soul to determine your Mental Offense and Initiative.  
 
 #### Perfect Protector  
-At the start of your Turn in combat, choose one of the following benefits. These options do not require an action or cost.
+Increase the [Realized Potential](#realized-potential) of your Physical and Mental Defense by 1 without paying an XP cost.  
+In addition, at the start of your Turn in combat, choose one of the following benefits. These options do not require an action or cost.
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Zone.  
 * Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned Demand.)  
