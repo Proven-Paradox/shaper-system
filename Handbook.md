@@ -1982,6 +1982,10 @@ TODO: Reconsider this effect. Currently feels weak. Low priority
 When you gain this Lesson, pick an [Element](#elemental). You may choose that Element when using an Ability with the [Elemental] tag. You may take this Lesson more than once, choosing a different Element each time.  
 Every instance of this Lesson costs 3 XP.  
 
+#### Evasion Expert  
+Prerequisite: [Dodge](#dodge)  
+You may use Dodge without using your Counter Action. This Lesson has a 3 Round Cooldown.  
+
 #### First to Act  
 Increase your [Initiative bonus](#initiative-bonus) by twice your [Hero Tier](#hero-tier). You also gain Boon +2 on Initiative rolls.
 
