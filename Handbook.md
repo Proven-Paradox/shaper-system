@@ -1164,7 +1164,7 @@ Range: Medium
 Targets: 1 enemy  
 Cost: 2 MP  
 Damage: x1  
-Cooldown: 1 Round  
+Cooldown: 2 Rounds  
 Description: A quick ranged attack. This could represent throwing a hidden dagger, shooting an off-hand pistol, or in combination with Shoot might represent notching and firing two arrows from a bow at once, or activating a weapon's burst fire mode.
 
 #### Sneak Attack  
