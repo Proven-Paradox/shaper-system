@@ -956,7 +956,7 @@ Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)
 Range: Short  
 Targets: 1 Zone  
 Cost: 5 MP  
-Effect: You and all allies in the same Zone regain HP equal to a die roll.  
+Effect: All allies in the same Zone regain HP equal to a die roll.  
 Scaling: Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase the number of dice healed by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A burst of healing energy that heals all allies in a small area. This can be a few notes in a rousing song, a blast of healing light, channeling energy from enslaved spirits into your allies, a release of medical nano-bots, and similar ways of healing friends in an area.
 
