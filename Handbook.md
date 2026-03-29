@@ -2036,8 +2036,9 @@ When you successfully strike with an Ability that forces a target to move, you m
 
 #### Reliable Healing  
 When casting a [Healing](#healing) Ability, you may roll an additional die. Remove the lowest die from your total result.  
+Note: The die removed does not count toward the number of dice rolled for the purposes of Lessons and Talents such as [Healing Hands](#healing-hands).  
 
-> For example: Gutoku uses [Healing Touch](#healing-touch) on an ally. He chooses to pay the extra cost, so he rolls two dice to determine how much he heals. If he has this Lesson, he rolls three dice and drips the lowest. He rolls 10, 2, and 6. He drops the 2, so his ally regains 16 HP.  
+> For example: Gutoku uses [Healing Touch](#healing-touch) on an ally. He chooses to pay the extra cost, so he rolls two dice to determine how much he heals. If he has this Lesson, he rolls three dice and drips the lowest. He rolls 10, 2, and 6. He drops the 2, so his ally regains 16 HP. If he has the Healing Hands Talent and uses the option that increases the healing done by 2 per die, the increase is 4.  
 
 ```
 TODO: Consider a minor buff. Maybe Shield? Low priority.
