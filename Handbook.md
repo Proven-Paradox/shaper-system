@@ -953,7 +953,7 @@ Description: Moving in to grapple with foes. Unlike Tier 0’s Grab, this repres
 Auxiliary [Healing]  
 Action: Major  
 Prerequisites: [Healing Touch](#healing-touch) or [Healing Word](#healing-word)  
-Range: Melee  
+Range: Short  
 Targets: 1 Zone  
 Cost: 5 MP  
 Effect: You and all allies in the same Zone regain HP equal to a die roll.  
