@@ -150,7 +150,7 @@ Some examples of Boon in play:
 ##### Boon Splitting  
 If a character's Boon magnitude matches or exceeds the sum of both dice, both may be re-rolled.  
 
-> Billy Baggins is sniping an enemy and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
+> Billy Baggins is sniping a foe and has Boon +5. He rolls a 3 and a 1. His Boon level is higher than both dice combined, so he may re-roll both. He gets a 9 and a 4, resulting on (9 + 4) 13 plus his modifier for a much stronger hit.  
 
 > As a counter example, Jonny aims a gun and takes a shot that has Boon +2. He rolls the dice and gets 1 and 2. This is not enough to re-roll both dice, so he chooses to re-roll the 1 and gets a 4. His final result is (2 + 4) 6, plus any modifiers.  
 
@@ -617,7 +617,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: None (Upkeep 1 HP)  
 Damage: x0   
 Effect: If this Attack succeeds, you [Grab](#grab) your target.  
@@ -628,7 +628,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: None  
 Damage: x1   
 Description: A basic melee attack. This can be a straightforward punch or kick, striking with an implement, lashing out with a claw, and so on.  
@@ -664,7 +664,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: None  
 Damage: None  
 Effect: If this Attack succeeds, move your target one Zone.  
@@ -675,7 +675,7 @@ Flexible
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy who has [Grabbed](#grab) you.  
+Targets: 1 foe who has [Grabbed](#grab) you.  
 Cost: None  
 Damage: 0  
 Effect: You and the opponent who has Grabbed you make Offense rolls. You may use Mental or Physical Offense, and your opponent must use the same type of Offense roll they used to initially Grab you. If your roll is equal or higher, you break your target's grip and are no longer Grabbed by them.  
@@ -707,7 +707,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 HP  
 Damage: x1  
 Effect: If this Attack scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
@@ -760,7 +760,7 @@ Attack [Status]
 Action: Major  
 Prerequisties: [Bash](#bash)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 HP  
 Duration: Variable, see Effect  
 Damagex: x1  
@@ -773,7 +773,7 @@ Spell [Status]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 MP  
 Damage: 0  
 Effect: If this Spell hits, the target is [Slowed](#slow) for 2 Rounds. If this Spell scores a [Solid Hit](#solid-hit), the Slow lasts for 3 Rounds. If it scores a [Critical Hit](#critical-hit), the Slow lasts for 5 Rounds.   
@@ -784,7 +784,7 @@ Flexible [Status] [Guardian Strike]
 Action: Minor  
 Prerequisites: None  
 Range: Long  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 1 MP  
 Damage: 0  
 Effect: You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense). 
@@ -797,7 +797,7 @@ Action: Counter
 Prerequisites: None  
 Range: None  
 Targets: Self  
-Trigger: An enemy successfully hits with an Ability.  
+Trigger: A foe successfully hits with an Ability.  
 Cost: None  
 Effect: Reduce the [Impact](#impact) of the successful Ability by 3. This reduces the damage you take. This can turn a normal hit into a miss, reduce a [Solid Hit](#solid-hit) to a normal hit, or a [Critical Hit](#critical-hit) into a Solid Hit.  
 Description: A last minute reaction that allows one to just barely dodge an incoming attack.  
@@ -810,7 +810,7 @@ Range: Melee
 Targets: Up to 2 enemies  
 Cost: 2 MP  
 Damage: x1  
-Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one enemy twice or two enemies once.  
+Effect: When you use this Attack, you make two Offense rolls and resolve them separately. You may strike one foe twice or two foes once.  
 Description: A pair of quick strikes. This could be striking with a pair of daggers, swiping with two claws, a small flurry of kicks, swiping back and forth with a hatchet, and similar multistrikes.
 
 #### Elemental Blast  
@@ -831,7 +831,7 @@ Spell [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 0 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Special: When you learn this Ability, you also gain the [Elemental Attunement](#elemental-attunement) Lesson once.  
@@ -867,7 +867,7 @@ Flexible [Curse]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Offense Track](#the-offense-track).  
@@ -881,7 +881,7 @@ Flexible [Curse]
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 MP  
 Damage: 0  
 Effect: If you hit, the target decreases on the [Defense Track](#the-defense-track).  
@@ -895,7 +895,7 @@ Attack
 Action: Major  
 Prerequisites: At least 3 other Melee or Short range Attacks of at least Tier 1.  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 7 HP  
 Damage: x3  
 Effect: You may only use this Attack after hitting with 3 other unique Melee or Short ranged Attacks of at least Tier 1. Using an Ability that does not meet these requirements or missing your target resets the counter. This excludes Abilities that have no effect other than changing your position (such as [Basic Move](#basic-move), [Run](#run), and [Sprint](#sprint)).  
@@ -909,7 +909,7 @@ Flexible [Status]
 Action: Major  
 Prerequisites: None  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 4 MP  
 Damage: 0  
 Cooldown: 3 Rounds  
@@ -943,7 +943,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 MP (Upkeep 1 HP)  
 Damage: x1  
 Effect: If this Attack succeeds, you also [Grab](#grab) the target.  
@@ -991,7 +991,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 HP  
 Damage: x2  
 Effect: If you land a [Solid Hit](#solid-hit), you knock your target [Prone](#prone).  
@@ -1003,7 +1003,7 @@ Spell
 Action: Minor  
 Prerequisites: None  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 MP  
 Damage: x1  
 Description: This is a simple, quick attack. This can represent telekinetically hurling a small projectile, a shot from a force pistol, firing a bolt of pure mana, and similar sorts of attacks.
@@ -1013,7 +1013,7 @@ Spell
 Action: Major  
 Prerequisites: None  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 MP  
 Damage: x1  
 Effect: If this Spell scores a [Solid Hit](#solid-hit) and the target is not otherwise restrained, you move them one Zone.  
@@ -1048,7 +1048,7 @@ Attack
 Action: Major  
 Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 MP    
 Damage: x1  
 Effect: You may move one Zone before or after you make your Offense roll.  
@@ -1091,7 +1091,7 @@ Attack
 Action: Minor  
 Prerequisites: [Double Strike](#double-strike)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 MP  
 Damage: x1  
 Effect: None  
@@ -1102,10 +1102,10 @@ Attack
 Action: Major  
 Prerequisites: [Heavy Strike](#heavy-strike)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: None  
 Damage: x2  
-Effect: This Attack has Boon +4. Until your next Turn, enemy Abilities targeting you have Boon +4.  
+Effect: This Attack has Boon +4. Until your next Turn, Offense rolls targeting you have Boon +4.  
 Scaling: At Hero Tier 2, you may increase this Ability's multiplier multiplier by 1 if you use it with less than half of your Max HP remaining. When you make this reckless choice, treat this as a Tier 2 Ability.  
 Description: An undisciplined but powerful attack. It deals significant damage but leaves one open to counterattack.
 
@@ -1114,8 +1114,8 @@ Attack [Guardian Strike]
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
-Trigger: The targeted enemy fails on an Offense attempt.  
+Targets: 1 foe  
+Trigger: The targeted foe fails on an Offense attempt.  
 Cost: 2 MP  
 Damage: x1  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
@@ -1138,7 +1138,7 @@ Auxiliary
 Action: Minor  
 Prerequisites: None  
 Range: Long  
-Targets: 1 enemy or 1 Zone  
+Targets: 1 foe or 1 Zone  
 Cost: None  
 Effect: You immediately learn the target’s Elemental properties, Physical and Mental Defense, ongoing effects (such as buffs or injuries), and their remaining HP.  
 Alternatively, Scan can be used on a Zone. Scanning a Zone reveals the presence of invisible creatures or objects, though it does not reveal their exact location unless they are using an Ability canceled by Scan, such as [Vanish](#vanish).  
@@ -1150,7 +1150,7 @@ Attack [Careful]
 Action: Major  
 Prerequisites: None  
 Range: Long  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 1 MP  
 Damage: x1  
 Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
@@ -1162,7 +1162,7 @@ Attack
 Action: Minor  
 Prerequisites: [Shoot](#shoot)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 MP  
 Damage: x1  
 Cooldown: 2 Rounds  
@@ -1173,7 +1173,7 @@ Attack
 Action: Major  
 Prerequisites: None  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 4 MP  
 Damage: x3  
 Effect: This Attack can only be used on a [Flat Footed](#flat-footed) target.  
@@ -1186,7 +1186,7 @@ Action: Major
 Prerequisites: [Shoot](#shoot)  
 Range: Extreme  
 Minimum Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 6 MP  
 Damage: x2  
 Effect: This Attack has Boon +3. You cannot use this Ability on a Round where you have moved. You must be [Prone](#prone) to use this Ability.  
@@ -1198,7 +1198,7 @@ Attack
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 2 HP  
 Damage: x2  
 Effect: This Attack may only be used on a target you have [Grabbed](#grab).  
@@ -1294,8 +1294,8 @@ Spell
 Action: Counter  
 Prerequisites: [Scan](#scan)  
 Range: Long  
-Targets: 1 enemy  
-Trigger: Target enemy uses Scan or a similar effect on you  
+Targets: 1 foe  
+Trigger: Target foe uses Scan or a similar effect on you  
 Cost: 5 MP  
 Damage: x1  
 Effect: If this Spell deals damage, the opponent who attempted to Scan you gains no information and cannot attempt to Scan you again for a day.  
@@ -1318,7 +1318,7 @@ Attack [Curse]
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases on their [Offense Track](#the-offense-track).  
@@ -1340,7 +1340,7 @@ Spell
 Action: Major  
 Prerequisites: None  
 Range: Short (or Medium, see Effect)  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 8 HP  
 Damage: x2  
 Effect: This Spell targets the opponent's Physical Defense rather than Mental Defense. If you increase the cost by 4 HP, you may use this Ability at Medium Range.  
@@ -1351,10 +1351,10 @@ Attack
 Action: Major  
 Prerequisites: [Grapple](#grapple)  
 Range: Melee  
-Targets: 1 enemy that you have [Grabbed](#grab)  
+Targets: 1 foe that you have [Grabbed](#grab)  
 Cost: 5 HP  
 Damage: x1  
-Effect: If this Ability hits, you and the target enemy move one Zone. This Ability ignores the Grab state's prohibition on movement.  
+Effect: If this Ability hits, you and the target foe move one Zone. This Ability ignores the Grab state's prohibition on movement.  
 Description: Forcing a target you have in your grip to move with you. This could be as technical as applying a joint lock to force your target to move how you want, or as simple as bodily lifting your target.  
 
 #### Chilling Bolt  
@@ -1362,7 +1362,7 @@ Spell [Elemental] [Ice] [Status]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Ice](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 10 MP  
 Damage: x2 (Ice)  
 Effect: If this Ability hits, the target becomes [Chilled](#chill-x) for 3 Rounds. The Chill severity is equal to your [Hero Tier](#hero-tier).  
@@ -1386,14 +1386,14 @@ Range: None
 Targets: Self  
 Cost: 3 MP  
 Effect: You may take a second Counter action in the time between this Turn and your next.  
-Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter enemy actions, changing stance to respond to enemy movement, or similar actions.  
+Description: Preparing to respond to enemy actions. This can represent actively trying to predict and counter your foes, changing stance to respond to enemy movement, or similar actions.  
 
 #### Crushing Bolt  
 Spell [Elemental] [Earth] [Status]  
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Earth](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 10 MP  
 Damage: x2 (Earth)  
 Effect: If this Ability hits, the target is [Crushed](#crush-x) for 2 Rounds. The Crush severity is equal to your [Hero Tier](#hero-tier).  
@@ -1404,7 +1404,7 @@ Flexible [Status] [Guardian Strike]
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: None  
 Damage: x1  
 Effect: You may choose to use this ability as an Attack (in which case you use Physical Offense and target Physical Defense) or as a Spell (in which case you use Mental Offense and target Mental Defense).
@@ -1417,7 +1417,7 @@ Spell [Curse]
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 8 MP (Upkeep 2 MP)  
 Effect: If you hit with this Spell, the target decreases on the [Offense Track](#the-offense-track) or [Defense Track](#the-defense-track), your choice.
 When you pay the Upkeep cost, you must repeat the Magic Offense roll against the target: if you miss, this Spell immediately ends. (The damage done to the target remains until otherwise reversed). If you hit, the Spell repeats. If you choose to maintain Doom, you must use the same buff/debuff track as the one first selected.  
@@ -1429,11 +1429,11 @@ Attack [Elemental] [Fire/Ice/Earth/Sky/Light/Dark]
 Action: Major  
 Prerequisites: [Elemental Attunement (Any)](#elemental-attunement)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 7 HP  
 Damage: x2 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only use an Element that you have taken the corresponding [Elemental Attunement](#elemental-attunement) for.  
-This Attack targets the enemy's Mental Defense rather than Physical Defense.  
+This Attack targets the foe's Mental Defense rather than Physical Defense.  
 Description: Channeling elemental energy into a melee strike. This could be igniting one's hands with fire, swinging an ice sword, lightning kicks, and similar elemental attacks.
 
 #### Friendly Fire  
@@ -1509,7 +1509,7 @@ Attack [Status]
 Action: Major  
 Prerequisites: None  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 8 MP  
 Damage: x1  
 Effect: If this Attack hits, the target has [Degeneration](#degeneration) that lasts for 2 Rounds. If this Attack scores a [Solid Hit](#solid-hit), the Degeneration lasts for 3 Rounds. If it scores a [Critical Hit](#critical-hit), the Degeneration lasts for 4 Rounds.   
@@ -1554,7 +1554,7 @@ Attack [Status]
 Action: Counter  
 Prerequisites: None  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Trigger: An opponent in melee range attempts to move away from you.  
 Cost: 6 MP  
 Damage: x1  
@@ -1588,7 +1588,7 @@ Spell
 Action: Minor  
 Prerequisites: [Purge](#purge), [Kinetic Dart](#kinetic-dart)  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 8 MP  
 Damage: x1   
 Effect: If this Spell hits, the target is also affected by Purge at no additional cost.  
@@ -1599,7 +1599,7 @@ Attack
 Action: Major  
 Prerequisites: [Purge](#purge), Any melee range Attack  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 8 MP  
 Damage: x2   
 Effect: If this Attack hits, the target is also affected by #purge at no additional cost.  
@@ -1622,11 +1622,11 @@ Spell [Elemental] [Light] [Healing]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Light](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy, 1 ally  
+Targets: 1 foe, 1 ally  
 Cost: 10 MP  
 Damage: x2 (Light)  
-Effect: If this Ability hits the enemy target, the chosen ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
-Description: Channeling light energy to simultaneously harm an enemy and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
+Effect: If this Ability hits the target, the chosen ally heals HP equal to a dice roll. If this Ability misses no healing occurs.  
+Description: Channeling light energy to simultaneously harm a foe and heal an ally. This can be a light incantation, channeling holy power, activating a device that siphons away enemy vitality, a zealous shout that intimidates foes and emboldens an ally, or other such effects.
 
 #### Rally  
 Auxiliary [Healing] [Augment]  
@@ -1643,11 +1643,11 @@ Spell [Status]
 Action: Minor  
 Prerequisites: [Kinetic Force](#kinetic-force)  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 6 MP  
 Damage: 0  
 Effect: On a successful hit, the target is [Rooted](#root) for 1 Round. On a [Solid Hit](#solid-hit) the the Root lasts for 2 Rounds. On a [Critical Hit](#critical-hit) the Root lasts for 4 Rounds.  
-Description: Denying the enemy the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
+Description: Denying the foe the ability to move. This could represent a spell that encases the target's feet in ice, deploying bolas or a net, telekinetically binding the target in place, or similar maneuvers.  
 
 #### Retribution  
 Auxiliary  
@@ -1664,7 +1664,7 @@ Spell [Elemental] [Fire] [Status]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Fire](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 10 MP  
 Damage: x2 (Fire)  
 Effect: If this Ability hits, the target becomes [Scorched](#scorch-x) for 1 Round. The Scorch severity is equal to your [Hero Tier](#hero-tier).  
@@ -1675,7 +1675,7 @@ Spell [Elemental] [Sky] [Status]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Sky](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 10 MP  
 Damage: x2 (Sky)  
 Effect: If this Ability hits, the target becomes [Shocked](#shock-x) for 2 Rounds. The Shock severity is equal to your [Hero Tier](#hero-tier).  
@@ -1697,7 +1697,7 @@ Attack [Curse]
 Action: Major  
 Prerequisites: [Expose](#expose)  
 Range: Melee  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 5 MP  
 Damage: x1  
 Effect: If you deal damage with this Ability, the target also decreases their [Defense Track](#the-defense-track).  
@@ -1723,7 +1723,7 @@ Spell [Curse]
 Action: Major  
 Prerequisites: [Enfeeble](#enfeeble), [Expose](#expose), [Scan](#scan)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 3 MP  
 Damage: 0  
 Effect: You learn the target's properties as if you affect them with Scan. After that, if you hit with this Ability the target also decreases their [Defense Track](#the-defense-track) or [Offense Track](#the-offense-track) by 1.  
@@ -1734,7 +1734,7 @@ Spell
 Action: Major  
 Prerequisites: [Kinetic Dart](#kinetic-dart)  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 6 MP (Upkeep 1 MP)  
 Damage: x1  
 Effect: If this Spell succeeds, you [Grab](#grab) your target. Instead of Physical Offense/Defense, Suspend uses Mental Offense/Defense.  
@@ -1747,7 +1747,7 @@ Spell
 Action: Major  
 Prerequisites: [Psychic Lance](#psychic-lance)  
 Range: Short  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 6 MP  
 Duration: Variable; see Effect  
 Effect: The target becomes [Afraid](#afraid) of you for 1 Round. If you land a [Solid Hit](#solid-hit) this lasts for 2 Rounds. On a [Critical Hit](#critical-hit), this lasts for 3 Rounds.  
@@ -1768,7 +1768,7 @@ Spell [Elemental] [Dark] [Status]
 Action: Major  
 Prerequisites: [Elemental Lance](#elemental-lance), [Elemental Attunement: Dark](#elemental-attunement)  
 Range: Medium  
-Targets: 1 enemy  
+Targets: 1 foe  
 Cost: 10 MP  
 Damage: x2 (Dark)  
 Effect: If this Ability hits, the target becomes [Enervated](#enervate) for 2 Rounds.  
