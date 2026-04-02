@@ -822,7 +822,7 @@ Targets: 1 Zone
 Cost: 5 MP  
 Damage: x1 (Fire/Ice/Earth/Sky/Light/Dark)  
 Effect: You may only choose Elements that you have the corresponding [Elemental Attunement](#elemental-attunement) to when using this Ability.  
-If you also use your minor action, you may choose one creature in the targeted Zone to be unaffected.  
+If you also use your Minor Action, you may choose one creature in the targeted Zone to be unaffected.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A area burst of elemental energy. This could be firing a classic fireball, throwing a grenade that generates a burst of electricity, draining the life from all in the area, a cutting whirlwind, and similar displays of elemental power.
 
@@ -1028,7 +1028,7 @@ Range: Medium
 Targets: 1 Zone  
 Cost: 6 MP (Careful 4 MP)  
 Damage: x1  
-Effect: If you spend your minor action while using this Ability, the MP cost is reduced by 2.  
+Effect: If you spend your Minor Action while using this Ability, the MP cost is reduced by 2.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 8 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability. Using your Careful action reduces the cost by 3 for the Tier 2 version.  
 Description: A basic area of effect kinetic spell. This could represent an unfocused wave of psychic energy, telekinetically picking up and hurling many small projectiles in an area, scatter-shot weapons like shotguns or sub-machine guns, and the like.  
 
@@ -1153,7 +1153,7 @@ Range: Long
 Targets: 1 foe  
 Cost: 1 MP  
 Damage: x1  
-Effect: If you also use your minor action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
+Effect: If you also use your Minor Action this Attack is made with Boon +2. If you used the [Aim](#aim) Ability before using Shoot, you make this attack with Boon +4 instead.  
 Scaling: At Hero Tier 2, you may increase the cost of this Ability by 5 MP to increase its Damage Multiplier by 1. When you increase its cost this way, treat this as a Tier 2 Ability.  
 Description: A basic ranged attack. This can be shooting a bow, firing a gun, throwing a dagger or dart, shooting spines, and so on.
 
@@ -1478,7 +1478,7 @@ Range: Medium
 Targets: 1 Zone  
 Cost: 10 MP (Upkeep 5 MP)  
 Damage: x1  
-Effect: This Ability's damage repeats every Round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your minor action when using this Ability, including every Round during your Turn, you may exclude up to three allies. You decide whether to use your minor action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
+Effect: This Ability's damage repeats every Round at the end of your Turn. You may exclude one ally from the target Zone. If you also spend your Minor Action when using this Ability, including every Round during your Turn, you may exclude up to three allies. You decide whether to use your Minor Action or not at the start of your Turn, and you can change your mind on subsequent Turns.  
 You may have up to two active Kinetic Storms at a time. They may not target the same Zone.  
 Description: Creating a sustained field of damage. This could represent a rain of magical bullets, telekinetically flinging blades through the air, creating a dimensional rift that radiates damaging energy, or similar ways of dealing sustained damage in an area.
 
