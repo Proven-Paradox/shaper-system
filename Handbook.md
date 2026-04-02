@@ -480,13 +480,14 @@ Effect:
 Description:  
 
 ### Ability Type  
-There are three types of Abilities:  
+There are four types of Abilities:  
 * Attack: These use [Physical Offense](#physical-offense) and are resisted by [Physical Defense](#physical-defense).  
 * Spell: These use [Mental Offense](#mental-offense) and are resisted by [Mental Defense](#mental-defense).  
 
 > Note that the term “Spell” is used here as a contrast to "Attack." During the game, Spell Abilities could also represent technology, chemistry, specialized anatomy, or anything else that might fit the game's setting.  
 
-* Auxiliary Abilities do not use Offense rolls. They target you or your allies and do something to make it easier to fight.  
+* Flexible: These are offensive Abilities that can function as an Attack (using Physical Offense against Physical Defense) or Spells (using Mental Offense against Mental Defense). Choose which version you use before you make your Offense roll.  
+* Auxiliary: Abilities which do not use Offense rolls. These Abilities usually target allies or alter the battlefield. Some Auxiliary Abilities target enemies but do not directly deal damage.  
 
 ### Ability Keywords  
 Some Abilities fit into sets denoted by Keywords. These signify a related set of Abilities for the purposes of Lessons and Talents. Some alter the way an Ability functions.  
@@ -670,7 +671,7 @@ Effect: If this Attack succeeds, move your target one Zone.
 Description: Attempting to force your target to move the way you want in an unfocused way. This could be a straightforward shove, a staggering body slam, and the like.
 
 #### Struggle  
-Attack/Spell  
+Flexible  
 Action: Major  
 Prerequisites: None  
 Range: Melee  
@@ -779,7 +780,7 @@ Effect: If this Spell hits, the target is [Slowed](#slow) for 2 Rounds. If this 
 Description: Hindering your foe's freedom of movement. This could represent time magic, activating a restraining device, increasing the pull of gravity for the target, or similar measures.
 
 #### Demand  
-Attack/Spell [Status] [Guardian Strike]  
+Flexible [Status] [Guardian Strike]  
 Action: Minor  
 Prerequisites: None  
 Range: Long  
@@ -862,7 +863,7 @@ Effect: The target increases on the [Offense Track](#the-offense-track).
 Description: A simple boost to an ally’s damage dealing potential. This can be shouting orders or encouragement, magically altering the sharpness or weight of a weapon, deploying a device that overcharges their systems, invoking the favor of a god of war, and other such effects.
 
 #### Enfeeble  
-Attack/Spell [Curse]  
+Flexible [Curse]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
@@ -876,7 +877,7 @@ At Hero Tier 2, you may increase the cost of this Ability by an additional 7 MP 
 Description: A simple ability to make a target less effective offensively. This could be a curse, distracting or discouraging the target, sapping their strength away, hampering their vision, adjusting gravity around them to make their weapons and gear more unwieldy, and other things to hinder the target.
 
 #### Expose  
-Attack/Spell [Curse]  
+Flexible [Curse]  
 Action: Major  
 Prerequisites: None  
 Range: Medium  
@@ -904,7 +905,7 @@ Description: A powerful move used at the end of a string of attacks. The particu
 > For example, Stuart spends his first Round using Double Strike (1) and Quick Strike (2). The Round after, he uses Heavy Strike (3). On the following Round, he may use Finisher. If any of those attacks miss or if he uses a Spell or Auxiliary, he must start over. 
 
 #### Flash  
-Attack/Spell [Status]  
+Flexible [Status]  
 Action: Major  
 Prerequisites: None  
 Range: Short  
@@ -1399,7 +1400,7 @@ Effect: If this Ability hits, the target is [Crushed](#crush-x) for 2 Rounds. Th
 Description: Anything that does lingering earth damage. This can be a seismic incantation, partially petrifying your target, constricting a foe with enchanted vines, a gravity ray, throwing a big rock, or similar effects.
 
 #### Crushing Demand  
-Attack/Spell [Status] [Guardian Strike]  
+Flexible [Status] [Guardian Strike]  
 Action: Major  
 Prerequisites: [Demand](#demand)  
 Range: Melee  
