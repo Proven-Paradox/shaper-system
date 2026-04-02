@@ -2175,7 +2175,7 @@ In addition, you may use Composure to completely mask your emotional state with 
 
 #### Specialist Artisan  
 Increase your [Construct](#construct) and [Craft](#craft) modifiers by 1.  
-In addition, choose a specialized type of crafting to specialize in. You produce items in that category at double the normal pace. You always have materials and tools necessary to do basic repairs on that type of item at all times and/or are able to recycle existing items to gain those materials. You have Boon +2 on all Construct or Craft checks involving your specialization.  
+In addition, choose a type of crafting to specialize in. You produce items in that category at double the normal pace. You always have materials and tools necessary to do basic repairs on that type of item at all times and/or are able to recycle existing items to gain those materials. You have Boon +2 on all Construct or Craft checks involving your specialization.  
 For Construct, specializations could include metal working, masonry, carpentry, heavy machinery, or similar specializations.  
 For Craft, specializations could include tailoring, jewel crafting, leather working, clockwork and tinkering, leather working, and the like.
 
