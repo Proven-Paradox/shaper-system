@@ -603,13 +603,13 @@ Description: The most basic way to move in combat. This can represent running, j
 
 #### Cover  
 Auxiliary  
-Action: Minor  
+Action: Major  
 Prerequisites: None  
 Range: Melee  
 Targets: 1 other ally  
 Cost: None  
 Duration: 1 Round  
-Effect: As long as you are in the same Zone at the target and haven't been knocked out, you give that target [Protection](#protection).  
+Effect: As long as you are in the same Zone as the target and haven't been knocked out, you give that target [Protection](#protection).  
 Description: Shielding an ally from harm in an unsophisticated way. This could represent bodily shielding an ally or similar maneuvers.  
 
 #### Clutch  
