@@ -179,15 +179,16 @@ Toughness 1
 Mind 0  
 Soul 3  
 Heart 0  
-HP Max: 35  
+HP Max: 20  
+MP Max: 15  
 Physical Offense: -1  
 Mental Offense: 5  
 Physical Defense: 11  
 Mental Defense: 14  
 Initiative: 3  
 
-*Offense Hex* (Major Spell), target loses one rank on the Offense Track  
-*Defense Hex* (Major Spell), target loses one rank on the Defense Track  
+*Offense Hex* (Major Spell), target loses one rank on the Offense Track, 2 MP  
+*Defense Hex* (Major Spell), target loses one rank on the Defense Track, 2 MP  
 *Zap* (Major Spell), x1 damage, choose one element for type, medium  
 
 #### Medium Hexer
@@ -197,15 +198,17 @@ Toughness 1
 Mind 0  
 Soul 3  
 Heart 0  
-HP Max: 35  
+HP Max: 40  
+MP Max: 30  
 Physical Offense: -1  
 Mental Offense: +7  
 Physical Defense: 11  
 Mental Defense: 15  
 Initiative: +3  
 
-*Offense Hex* (Major Spell), target loses one rank on the Offense Track  
-*Defense Hex* (Major Spell), target loses one rank on the Defense Track  
+*Offense Hex* (Major Spell), target loses one rank on the Offense Track, 2 MP  
+*Defense Hex* (Major Spell), target loses one rank on the Defense Track, 2 MP  
+*Painful Hex* (Alteration), add 5 MP to Hex MP cost to deal x1 Dark damage  
 *Purge* (Major Aux), target loses two ranks on Offense/Defense Track, minimum 0  
 *Zap* (Major Spell), x1 damage, choose one element for type, medium  
 
