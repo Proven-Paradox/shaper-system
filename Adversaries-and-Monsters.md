@@ -14,9 +14,9 @@ Figure out how to explain adversary archetypes at some point. Add notes about fi
   - [Nuisances](#nuisances)  
   - [Rogues](#rogues)  
   - [Snipers](#snipers)  
-  - [Thugs](#thugs)  
   - [Slimes](#slimes)  
   - [Swarms](#swarms)  
+  - [Thugs](#thugs)  
   - [Warriors](#warriors)  
 - [Monster Rules and Traits](#monster-rules-and-traits)  
 
