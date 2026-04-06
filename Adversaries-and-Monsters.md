@@ -369,29 +369,6 @@ Initiative: -1
 *Splash* (Major action Attack), x1 damage, Elemental, short.  
 *Thorns* (Passive), anyone who attacks a Slime in melee range takes 4 Elemental damage. 
 
-## Swarms
-This class of adversary represents a large group of small creatures. These could be spiders, locusts, bats, piranhas, nanomachine particles, or similar clusters of tiny creatures. This base type can be expanded with abilities and properties to more accurately represent what they are; spiders might have venomous attacks, bats should be able to fly, nanomachines might self-repair, and so on. One common element to all swarms is that they are resistant to single target Attacks and Spells, but are particularly susceptible to area effects.  
-
-#### Minor Swarm  
-Strength -2  
-Finesse 4  
-Toughness 4  
-Mind -2  
-Soul -2  
-Heart 0  
-HP Max: 30  
-Physical Offense: 2  
-Mental Offense: -  
-Physical Defense: 12  
-Mental Defense: 8  
-Initiative: +2  
-
-*Dispersed Damage* (Passive), any damaging Attacks or Spells that do not target entire Squares have their Multipliers reduced by 1. If this would reduce the Multiplier to 0, the Attack or Spell deals half damage.  
-Attacks or Spells that target entire Squares have their multipliers increased by 1 instead.  
-*Wavering* (Passive), at half HP (15) the Swarm begins Wavering, decreasing the effectiveness of its attacks.  
-*Passive Stings* (Passive), any foes in the same Square as this Swarm takes 5 damage per round. If the Swarm is Wavering, deal 2 damage per round instead. This trait does not stack; if there are multiple Swarms in the same Square, only the strongest instance of Passive Stings applies.  
-*Active Sting* (Major action Attack), x1 damage, melee. If the Swarm is Wavering, its Physical Attack decreases to 0.  
-
 ## Snipers
 Archers, rifle-wielders, markspeople, assassins who rely on distance and steady aim. Their general tactic is going to be to find a safe place where they're away from the fighting or in an otherwise difficult to reach perch, and take their time aiming and firing consistent shots.
 
@@ -447,6 +424,29 @@ Initiative: +5
 
 *Shoot* (Major action Attack), x1 damage, long.  
 *Aim* (Minor action Auxiliary), gain Boon +2 on Shoot this turn.
+
+## Swarms
+This class of adversary represents a large group of small creatures. These could be spiders, locusts, bats, piranhas, nanomachine particles, or similar clusters of tiny creatures. This base type can be expanded with abilities and properties to more accurately represent what they are; spiders might have venomous attacks, bats should be able to fly, nanomachines might self-repair, and so on. One common element to all swarms is that they are resistant to single target Attacks and Spells, but are particularly susceptible to area effects.  
+
+#### Minor Swarm  
+Strength -2  
+Finesse 4  
+Toughness 4  
+Mind -2  
+Soul -2  
+Heart 0  
+HP Max: 30  
+Physical Offense: 2  
+Mental Offense: -  
+Physical Defense: 12  
+Mental Defense: 8  
+Initiative: +2  
+
+*Dispersed Damage* (Passive), any damaging Attacks or Spells that do not target entire Squares have their Multipliers reduced by 1. If this would reduce the Multiplier to 0, the Attack or Spell deals half damage.  
+Attacks or Spells that target entire Squares have their multipliers increased by 1 instead.  
+*Wavering* (Passive), at half HP (15) the Swarm begins Wavering, decreasing the effectiveness of its attacks.  
+*Passive Stings* (Passive), any foes in the same Square as this Swarm takes 5 damage per round. If the Swarm is Wavering, deal 2 damage per round instead. This trait does not stack; if there are multiple Swarms in the same Square, only the strongest instance of Passive Stings applies.  
+*Active Sting* (Major action Attack), x1 damage, melee. If the Swarm is Wavering, its Physical Attack decreases to 0.  
 
 ## Thugs
 Heavy fighters who rely on brute strength to fight. A drunk brawler, a burly brute, or bulky animals can be represented with Thugs. They take a very straightforward approach to combat; get close and hit as hard as they can. Their reliance on brute strength often leaves them open to attacks, but they have the sturdiness needed to take a few hits anyway.
