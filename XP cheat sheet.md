@@ -13,7 +13,7 @@ MP: 15 + (Mind x 3) + (Heart + 3)
 |-------------------------|---------------------------|
 | Increase Max Potential  | 4 + current Max Potential |
 | Vitality/Capacity       | 3                         |
-| Physical/Mental Attack  | 4                         |
+| Physical/Mental Offense | 4                         |
 | Physical/Mental Defense | 3                         |
 | Initiative              | 1                         |
 | 4 Skill Points          | 1                         |
