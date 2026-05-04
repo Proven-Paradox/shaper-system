@@ -13,5 +13,10 @@ Nick Haight
 Steven Eirew ( https://www.twitch.tv/jeewjitsu000 )  
 wraithslayer101  
 
+## Beta Testers
+Coyote
+Evian Adams
+Strawberry
+
 ## Collaborators  
 Character sheet created by Joan Risu (@joannecureuil.bsky.social)  
