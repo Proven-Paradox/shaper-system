@@ -14,6 +14,7 @@ Steven Eirew ( https://www.twitch.tv/jeewjitsu000 )
 wraithslayer101  
 
 ## Beta Testers
+Bearington  
 Coyote  
 Evian Adams  
 Strawberry  
