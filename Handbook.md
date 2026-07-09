@@ -2358,7 +2358,7 @@ In addition, at the start of your Turn in combat, choose one of the following be
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Zone.  
 * Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned Demand.)  
-* Use one Attack or Spell with [Guardian Strike](#guardian-strike).  
+* Add the [Guardian Strike](#guardian-strike) property to one Attack or Spell you use during your turn. The modified Ability otherwise functions as normal. It does not need to be the first thing you do during your Turn.  
 
 #### Precise Evasion  
 You are able to avoid mental effects with agility. You may use your Finesse in place of Soul to determine your Mental Defense.  
