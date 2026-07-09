@@ -2358,6 +2358,7 @@ In addition, at the start of your Turn in combat, choose one of the following be
 * Gain [Taunt](#taunt).  
 * Use [Cover](#cover) on one Ally in your Zone.  
 * Use [Demand](#demand) on one Enemy within Medium range. (You may use this option even if you have not learned Demand.)  
+* Use one Attack or Spell with [Guardian Strike](#guardian-strike).  
 
 #### Precise Evasion  
 You are able to avoid mental effects with agility. You may use your Finesse in place of Soul to determine your Mental Defense.  
